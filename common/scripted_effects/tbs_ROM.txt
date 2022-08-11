@@ -1,0 +1,41 @@
+ROM_delete_communist_states = {
+	every_state = {
+		limit = { is_core_of = RPG }
+		remove_core_of = RPG
+	}
+	every_state = {
+		limit = { is_claimed_by = RPG }
+		remove_claim_by = RPG
+	}
+}
+ROM_setup_communism_government = {
+	set_cosmetic_tag = ROM_socialist_republic_175_13_0
+	set_politics = {
+		ruling_party = radical_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarianism = 5
+		radical_socialism = 30
+		moderate_socialism = 5
+		social_democracy = 20
+		liberal_democracy = 20
+		social_conservatism = 20
+		authority_democracy = 0
+		paternal_autocracy = 0
+		national_corporatism = 0
+		national_socialism = 0
+		ultra_nationalism = 0
+		religious_nationalism = 0
+		transhumanism = 0
+	}
+	RPG = {
+		every_character = {
+			limit = { always = yes }
+			set_nationality = ROM
+		}
+		ROM = { promote_character = RPG_nicolae_ceausescu }
+	}
+}

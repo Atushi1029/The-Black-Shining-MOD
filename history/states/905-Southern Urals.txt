@@ -1,0 +1,24 @@
+state={
+	id=905
+	name="STATE_905"
+
+	history={
+		owner = RLA
+		add_core_of = RLA
+		add_claim_by = FER
+		add_claim_by = RUS
+		add_claim_by = SOV
+		set_state_flag = rla_core_states
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+	provinces={
+		1406 4261 4265 4311 4383 7300 7373 10185 12200 
+	}
+	manpower=402001
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

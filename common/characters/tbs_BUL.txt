@@ -1,0 +1,22 @@
+characters = {
+	BUL_margarita_i = {
+		name = BUL_margarita_i
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BUL_Margarita_I"
+				small = "GFX_idea_BUL_margarita_i"
+			}
+			army = {
+				large = "GFX_Portrait_BUL_Margarita_I"
+				small = "GFX_idea_BUL_margarita_i"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MARGARITA_I_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

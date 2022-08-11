@@ -1,0 +1,22 @@
+characters = {
+	RKK_siegfried_kasche = {
+		name = RKK_siegfried_kasche
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKK_Siegfried_Kasche"
+				small = "GFX_idea_RKK_siegfried_kasche"
+			}
+			army = {
+				large = "GFX_Portrait_RKK_Siegfried_Kasche"
+				small = "GFX_idea_RKK_siegfried_kasche"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SIEGFRIED_KASCHE_DESC"
+			ideology = national_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

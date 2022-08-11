@@ -1,0 +1,721 @@
+replace_civ_with_arms_factories = {
+	
+}
+ROOT_inherit_current_scope_wars_effect = {
+	
+}
+get_best_alliance_match_democratic_effect = {
+	
+}
+get_best_alliance_match_fascism_effect = {
+	
+}
+get_best_alliance_match_communism_effect = {
+	
+}
+remove_naval_treaty_effect = {
+	
+}
+civil_war_anti_exploiter_punitive_action = {
+	
+}
+clear_sabotaged_resources_if_necesary = {
+	
+}
+remove_from_allowed_party = {
+	
+}
+instantiate_collaboration_government = {
+	
+}
+upgrade_economy_law = {
+	
+}
+gain_random_agency_upgrade = {
+	
+}
+recalc_coalition = {
+	hidden_effect = {
+		if = {
+			limit = { has_variable = coalition_partners^num }
+			set_variable = { coalition_pp_gain = 0 }
+			for_each_loop = {
+				array = coalition_partners
+				add_to_variable = { coalition_pp_gain = party_popularity@var:v }
+			}
+			if = {
+				limit = { has_variable = coalition_stability }
+				multiply_variable = { coalition_pp_gain = coalition_stability }
+			}
+			else = { multiply_variable = { coalition_pp_gain = 0.5 } }
+		}
+	}
+}
+add_to_coalition = {
+	recalc_coalition = yes
+	hidden_effect = {
+		if = {
+			limit = {
+				NOT = {
+					check_variable = { political_power_ideology = coalition_partner_var }
+					is_in_array = { coalition_partners = coalition_partner_var }
+					has_government = var:coalition_partner_var
+					has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier }
+				}
+			}
+			add_to_array = { coalition_partners = coalition_partner_var }
+			if = {
+				limit = { NOT = { has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition } } }
+				add_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition }
+			}
+			add_to_variable = { coalition_pp_gain = party_popularity@var:coalition_partner_var }
+		}
+	}
+}
+remove_from_coalition = {
+	recalc_coalition = yes
+	hidden_effect = {
+		if = {
+			limit = { is_in_array = { coalition_partners = coalition_partner_var } }
+			if = {
+				limit = {
+					has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition }
+					check_variable = { coalition_partners^num = 1 }
+				}
+				remove_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition }
+				clear_variable = coalition_pp_gain
+				clear_array = coalition_partners
+			}
+			else = {
+				remove_from_array = { coalition_partners = coalition_partner_var }
+				subtract_from_variable = { coalition_pp_gain = party_popularity@var:coalition_partner_var }
+			}
+		}
+	}
+}
+end_coalition = {
+	recalc_coalition = yes
+	hidden_effect = {
+		if = {
+			limit = { has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition } }
+			remove_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_coalition }
+		}
+		clear_variable = coalition_pp_gain
+		clear_array = coalition_partners
+	}
+}
+join_the_coalition_totalitarianism = {
+	custom_effect_tooltip = join_the_coalition_totalitarianism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_totalitarianism = no
+				NOT = { has_government = totalitarianism }
+			}
+			set_temp_variable = { coalition_partner_var = token:totalitarianism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_radical_socialism = {
+	custom_effect_tooltip = join_the_coalition_radical_socialism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_radical_socialism = no
+				NOT = { has_government = radical_socialism }
+			}
+			set_temp_variable = { coalition_partner_var = token:radical_socialism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_moderate_socialism = {
+	custom_effect_tooltip = join_the_coalition_moderate_socialism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_moderate_socialism = no
+				NOT = { has_government = moderate_socialism }
+			}
+			set_temp_variable = { coalition_partner_var = token:moderate_socialism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_social_democracy = {
+	custom_effect_tooltip = join_the_coalition_social_democracy_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_social_democracy = no
+				NOT = { has_government = social_democracy }
+			}
+			set_temp_variable = { coalition_partner_var = token:social_democracy }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_liberal_democracy = {
+	custom_effect_tooltip = join_the_coalition_liberal_democracy_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_liberal_democracy = no
+				NOT = { has_government = liberal_democracy }
+			}
+			set_temp_variable = { coalition_partner_var = token:liberal_democracy }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_social_conservatism = {
+	custom_effect_tooltip = join_the_coalition_social_conservatism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_social_conservatism = no
+				NOT = { has_government = social_conservatism }
+			}
+			set_temp_variable = { coalition_partner_var = token:social_conservatism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_authority_democracy = {
+	custom_effect_tooltip = join_the_coalition_authority_democracy_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_authority_democracy = no
+				NOT = { has_government = authority_democracy }
+			}
+			set_temp_variable = { coalition_partner_var = token:authority_democracy }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_paternal_autocracy = {
+	custom_effect_tooltip = join_the_coalition_paternal_autocracy_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_paternal_autocracy = no
+				NOT = { has_government = paternal_autocracy }
+			}
+			set_temp_variable = { coalition_partner_var = token:paternal_autocracy }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_national_corporatism = {
+	custom_effect_tooltip = join_the_coalition_national_corporatism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_national_corporatism = no
+				NOT = { has_government = national_corporatism }
+			}
+			set_temp_variable = { coalition_partner_var = token:national_corporatism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_national_socialism = {
+	custom_effect_tooltip = join_the_coalition_national_socialism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_national_socialism = no
+				NOT = { has_government = national_socialism }
+			}
+			set_temp_variable = { coalition_partner_var = token:national_socialism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_ultra_nationalism = {
+	custom_effect_tooltip = join_the_coalition_ultra_nationalism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_ultra_nationalism = no
+				NOT = { has_government = ultra_nationalism }
+			}
+			set_temp_variable = { coalition_partner_var = token:ultra_nationalism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_religious_nationalism = {
+	custom_effect_tooltip = join_the_coalition_religious_nationalism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_religious_nationalism = no
+				NOT = { has_government = religious_nationalism }
+			}
+			set_temp_variable = { coalition_partner_var = token:religious_nationalism }
+			add_to_coalition = yes
+		}
+	}
+}
+join_the_coalition_transhumanism = {
+	custom_effect_tooltip = join_the_coalition_transhumanism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_transhumanism = no
+				NOT = { has_government = transhumanism }
+			}
+			set_temp_variable = { coalition_partner_var = token:transhumanism }
+			add_to_coalition = yes
+		}
+	}
+}
+leave_the_coalition_totalitarianism = {
+	custom_effect_tooltip = leave_the_coalition_totalitarianism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_totalitarianism = yes }
+			set_temp_variable = { coalition_partner_var = token:totalitarianism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_radical_socialism = {
+	custom_effect_tooltip = leave_the_coalition_radical_socialism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_radical_socialism = yes }
+			set_temp_variable = { coalition_partner_var = token:radical_socialism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_moderate_socialism = {
+	custom_effect_tooltip = leave_the_coalition_moderate_socialism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_moderate_socialism = yes }
+			set_temp_variable = { coalition_partner_var = token:moderate_socialism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_social_democracy = {
+	custom_effect_tooltip = leave_the_coalition_social_democracy_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_social_democracy = yes }
+			set_temp_variable = { coalition_partner_var = token:social_democracy }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_liberal_democracy = {
+	custom_effect_tooltip = leave_the_coalition_liberal_democracy_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_liberal_democracy = yes }
+			set_temp_variable = { coalition_partner_var = token:liberal_democracy }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_social_conservatism = {
+	custom_effect_tooltip = leave_the_coalition_social_conservatism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_social_conservatism = yes }
+			set_temp_variable = { coalition_partner_var = token:social_conservatism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_authority_democracy = {
+	custom_effect_tooltip = leave_the_coalition_authority_democracy_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_authority_democracy = yes }
+			set_temp_variable = { coalition_partner_var = token:authority_democracy }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_paternal_autocracy = {
+	custom_effect_tooltip = leave_the_coalition_paternal_autocracy_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_paternal_autocracy = yes }
+			set_temp_variable = { coalition_partner_var = token:paternal_autocracy }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_national_corporatism = {
+	custom_effect_tooltip = leave_the_coalition_national_corporatism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_national_corporatism = yes }
+			set_temp_variable = { coalition_partner_var = token:national_corporatism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_national_socialism = {
+	custom_effect_tooltip = leave_the_coalition_national_socialism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_national_socialism = yes }
+			set_temp_variable = { coalition_partner_var = token:national_socialism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_ultra_nationalism = {
+	custom_effect_tooltip = leave_the_coalition_ultra_nationalism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_ultra_nationalism = yes }
+			set_temp_variable = { coalition_partner_var = token:ultra_nationalism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_religious_nationalism = {
+	custom_effect_tooltip = leave_the_coalition_religious_nationalism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_religious_nationalism = yes }
+			set_temp_variable = { coalition_partner_var = token:religious_nationalism }
+			remove_from_coalition = yes
+		}
+	}
+}
+leave_the_coalition_transhumanism = {
+	custom_effect_tooltip = leave_the_coalition_transhumanism_tt
+	hidden_effect = {
+		if = {
+			limit = { has_a_coalition_with_transhumanism = yes }
+			set_temp_variable = { coalition_partner_var = token:transhumanism }
+			remove_from_coalition = yes
+		}
+	}
+}
+set_starting_values = {
+	set_technology = {
+		early_fighter = 1
+		cv_early_fighter = 1
+		early_bomber = 1
+		gwtank = 1
+		gw_artillery = 1
+		infantry_weapons = 1
+		support_weapons = 1
+		early_ship_hull_light = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		sonar = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_torpedo = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		mtg_transport = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battlecruiser = 1
+		early_battleship = 1
+		transport = 1
+		early_carrier = 1
+		early_submarine = 1
+		gwtank_chassis = 1
+		tech_support = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				tag = AST
+				tag = CAN
+				tag = CHI
+				tag = GER
+				tag = ITA
+				tag = JAP
+				tag = RAJ
+				tag = RKU
+				tag = STO
+				tag = USA
+			}
+		}
+		set_stability = 0.7
+		set_war_support = 0.5
+		set_research_slots = 4
+		set_technology = {
+			fighter1 = 1
+			cv_fighter1 = 1
+			CAS1 = 1
+			cv_CAS1 = 1
+			naval_bomber1 = 1
+			cv_naval_bomber1 = 1
+			heavy_fighter1 = 1
+			scout_plane1 = 1
+			tactical_bomber1 = 1
+			strategic_bomber1 = 1
+			basic_light_tank = 1
+			basic_light_td = 1
+			basic_light_art = 1
+			basic_light_spaa = 1
+			improved_light_tank = 1
+			improved_light_td = 1
+			improved_light_art = 1
+			improved_light_spaa = 1
+			basic_heavy_tank = 1
+			basic_heavy_td = 1
+			basic_heavy_art = 1
+			basic_heavy_spaa = 1
+			interwar_artillery = 1
+			interwar_antiair = 1
+			interwar_antitank = 1
+			electronic_mechanical_engineering = 1
+			radio = 1
+			radio_detection = 1
+			mechanical_computing = 1
+			basic_fire_control_system = 1
+			experimental_rockets = 1
+			rocket_engines = 1
+			improved_rocket_engines = 1
+			advanced_rocket_engines = 1
+			jet_engines = 1
+			basic_machine_tools = 1
+			fuel_silos = 1
+			fuel_refining = 1
+			synth_oil_experiments = 1
+			construction1 = 1
+			excavation1 = 1
+			infantry_weapons1 = 1
+			paratroopers = 1
+			marines = 1
+			tech_mountaineers = 1
+			motorised_infantry = 1
+			basic_ship_hull_light = 1
+			improved_depth_charges = 1
+			improved_sonar = 1
+			basic_ship_hull_cruiser = 1
+			improved_airplane_launcher = 1
+			basic_cruiser_armor_scheme = 1
+			basic_ship_hull_heavy = 1
+			ship_hull_super_heavy = 1
+			basic_heavy_armor_scheme = 1
+			basic_ship_hull_carrier = 1
+			magnetic_detonator = 1
+			improved_ship_torpedo_launcher = 1
+			basic_ship_hull_submarine = 1
+			basic_light_battery = 1
+			basic_light_shell = 1
+			basic_medium_battery = 1
+			basic_medium_shell = 1
+			basic_heavy_battery = 1
+			basic_heavy_shell = 1
+			improved_secondary_battery = 1
+			damage_control_1 = 1
+			damage_control_2 = 1
+			fire_control_methods_1 = 1
+			fire_control_methods_2 = 1
+			improved_naval_mines = 1
+			basic_destroyer = 1
+			basic_light_cruiser = 1
+			basic_heavy_cruiser = 1
+			basic_battleship = 1
+			heavy_battleship = 1
+			basic_carrier = 1
+			basic_submarine = 1
+			basic_light_tank_chassis = 1
+			improved_light_tank_chassis = 1
+			basic_medium_tank_chassis = 1
+			basic_heavy_tank_chassis = 1
+			armor_tech_1 = 1
+			armor_tech_2 = 1
+			engine_tech_1 = 1
+			engine_tech_2 = 1
+			tech_engineers = 1
+			tech_recon = 1
+			tech_military_police = 1
+			tech_maintenance_company = 1
+			tech_field_hospital = 1
+			tech_logistics_company = 1
+			tech_signal_company = 1
+			basic_train = 1
+			railway_gun = 1
+			armored_train = 1
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = ARG
+				tag = BNF
+				tag = BOL
+				tag = BRA
+				tag = BUL
+				tag = COL
+				tag = FIN
+				tag = FRA
+				tag = GBR
+				tag = HUN
+				tag = MAN
+				tag = MEX
+				tag = NID
+				tag = NZL
+				tag = PER
+				tag = PHI
+				tag = RKK
+				tag = RKO
+				tag = RLA
+				tag = ROM
+				tag = RUS
+				tag = SAF
+				tag = SAU
+				tag = SCO
+				tag = SOV
+				tag = SPR
+				tag = SWE
+				tag = TUR
+				tag = VIN
+			}
+		}
+		set_stability = 0.6
+		set_war_support = 0.3
+		set_research_slots = 3
+		set_technology = {
+			basic_light_tank = 1
+			basic_light_td = 1
+			basic_light_art = 1
+			basic_light_spaa = 1
+			basic_heavy_tank = 1
+			basic_heavy_td = 1
+			basic_heavy_art = 1
+			basic_heavy_spaa = 1
+			experimental_rockets = 1
+			rocket_engines = 1
+			improved_rocket_engines = 1
+			basic_light_tank_chassis = 1
+			basic_heavy_tank_chassis = 1
+			armor_tech_1 = 1
+			engine_tech_1 = 1
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = CHL
+				tag = CKK
+				tag = DEN
+				tag = ECU
+				tag = EGY
+				tag = ETH
+				tag = FER
+				tag = INS
+				tag = IRQ
+				tag = KAZ
+				tag = KOM
+				tag = MAF
+				tag = MAL
+				tag = MEN
+				tag = NOR
+				tag = OMA
+				tag = PAK
+				tag = PAL
+				tag = POR
+				tag = RKM
+				tag = RPG
+				tag = SEN
+				tag = SER
+				tag = SLO
+				tag = SWI
+				tag = SYR
+				tag = TRA
+				tag = UGA
+			}
+		}
+		set_stability = 0.5
+		set_war_support = 0.3
+		set_research_slots = 2
+		set_technology = {
+			basic_light_tank = 1
+			basic_light_td = 1
+			basic_light_art = 1
+			basic_light_spaa = 1
+			basic_heavy_tank = 1
+			basic_heavy_td = 1
+			basic_heavy_art = 1
+			basic_heavy_spaa = 1
+			basic_light_tank_chassis = 1
+			basic_heavy_tank_chassis = 1
+			armor_tech_1 = 1
+			engine_tech_1 = 1
+		}
+	}
+	else = {
+		set_stability = 0.5
+		set_war_support = 0.2
+		set_research_slots = 1
+	}
+	if = {
+		limit = {
+			OR = {
+				tag = GER
+				tag = ITA
+				tag = JAP
+				tag = STO
+				tag = USA
+			}
+		}
+		set_technology = {
+			atomic_research = 1
+			nuclear_reactor = 1
+			tbs_nukes = 1
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				tag = BEL
+				tag = BNF
+				tag = HOL
+				tag = JAP
+				tag = NID
+				tag = PHI
+				tag = STO
+				tag = VIN
+			}
+		}
+		set_technology = { bicycle_infantry = 1 }
+	}
+	if = {
+		limit = {
+			OR = {
+				tag = ALG
+				tag = MOR
+				tag = OMA
+				tag = PAL
+				tag = QAT
+				tag = SAU
+				tag = SYR
+				tag = YEM
+			}
+		}
+		set_technology = { camelry = 1 }
+	}
+}
+build_dover_strait_tunnel = {
+	custom_effect_tooltip = build_dover_strait_tunnel_tt
+	hidden_effect = {
+		set_global_flag = CAN_USE_DOVER_STRAIT_TUNNEL
+		build_railway = { path = { 3501 11548 } }
+	}
+}

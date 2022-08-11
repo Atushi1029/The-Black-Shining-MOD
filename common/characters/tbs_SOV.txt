@@ -1,0 +1,22 @@
+characters = {
+	SOV_nikolai_tikhonov = {
+		name = SOV_nikolai_tikhonov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Nikolai_Tikhonov"
+				small = "GFX_idea_SOV_nikolai_tikhonov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Nikolai_Tikhonov"
+				small = "GFX_idea_SOV_nikolai_tikhonov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_TIKHONOV_DESC"
+			ideology = totalitarianism_ideology
+			expire = "1997.6.7.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

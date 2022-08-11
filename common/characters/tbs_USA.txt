@@ -1,0 +1,186 @@
+characters = {
+	USA_curtis_lemay = {
+		name = USA_curtis_lemay
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Curtis_Lemay"
+				small = "GFX_idea_USA_curtis_lemay"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Curtis_Lemay"
+				small = "GFX_idea_USA_curtis_lemay"
+			}
+		}
+	}
+	USA_edmund_muskie = {
+		name = USA_edmund_muskie
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Edmund_Muskie"
+				small = "GFX_idea_USA_edmund_muskie"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Edmund_Muskie"
+				small = "GFX_idea_USA_edmund_muskie"
+			}
+		}
+	}
+	USA_elizabeth_holtzman = {
+		name = USA_elizabeth_holtzman
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Elizabeth_Holtzman"
+				small = "GFX_idea_USA_elizabeth_holtzman"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Elizabeth_Holtzman"
+				small = "GFX_idea_USA_elizabeth_holtzman"
+			}
+		}
+	}
+	USA_gaylord_nelson = {
+		name = USA_gaylord_nelson
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Gaylord_Nelson"
+				small = "GFX_idea_USA_gaylord_nelson"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Gaylord_Nelson"
+				small = "GFX_idea_USA_gaylord_nelson"
+			}
+		}
+	}
+	USA_george_mcgovern = {
+		name = USA_george_mcgovern
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_George_McGovern"
+				small = "GFX_idea_USA_george_mcgovern"
+			}
+			army = {
+				large = "GFX_Portrait_USA_George_McGovern"
+				small = "GFX_idea_USA_george_mcgovern"
+			}
+		}
+	}
+	USA_george_wallace = {
+		name = USA_george_wallace
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_George_Wallace"
+				small = "GFX_idea_USA_george_wallace"
+			}
+			army = {
+				large = "GFX_Portrait_USA_George_Wallace"
+				small = "GFX_idea_USA_george_wallace"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GEORGE_WALLACE_DESC"
+			ideology = dixiecrat_democracy_ideology
+			expire = "1998.9.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+	USA_henry_kissinger = {
+		name = USA_henry_kissinger
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Henry_Kissinger"
+				small = "GFX_idea_USA_henry_kissinger"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Henry_Kissinger"
+				small = "GFX_idea_USA_henry_kissinger"
+			}
+		}
+	}
+	USA_hubert_humphrey = {
+		name = USA_hubert_humphrey
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Hubert_Humphrey"
+				small = "GFX_idea_USA_hubert_humphrey"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Hubert_Humphrey"
+				small = "GFX_idea_USA_hubert_humphrey"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HUBERT_HUMPHREY_DESC"
+			ideology = social_democracy_ideology
+			expire = "1978.1.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+	USA_lyndon_johnson = {
+		name = USA_lyndon_johnson
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Lyndon_Johnson"
+				small = "GFX_idea_USA_lyndon_johnson"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Lyndon_Johnson"
+				small = "GFX_idea_USA_lyndon_johnson"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LYNDON_JOHNSON_DESC"
+			ideology = social_liberalism_ideology
+			expire = "1973.1.22.1"
+			id = -1
+			traits = {}
+		}
+	}
+	USA_richard_nixon = {
+		name = USA_richard_nixon
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Richard_Nixon"
+				small = "GFX_idea_USA_richard_nixon"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Richard_Nixon"
+				small = "GFX_idea_USA_richard_nixon"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RICHARD_NIXON_DESC"
+			ideology = silent_conservatism_ideology
+			expire = "1994.4.22.1"
+			id = -1
+			traits = {}
+		}
+	}
+	USA_scoop_jackson = {
+		name = USA_scoop_jackson
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Scoop_Jackson"
+				small = "GFX_idea_USA_scoop_jackson"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Scoop_Jackson"
+				small = "GFX_idea_USA_scoop_jackson"
+			}
+		}
+	}
+	USA_shirley_chisolm = {
+		name = USA_shirley_chisolm
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Shirley_Chisolm"
+				small = "GFX_idea_USA_shirley_chisolm"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Shirley_Chisolm"
+				small = "GFX_idea_USA_shirley_chisolm"
+			}
+		}
+	}
+}

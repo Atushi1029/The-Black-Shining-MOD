@@ -1,0 +1,21 @@
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		owner = RKO
+		add_core_of = EST
+		add_core_of = RKO
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces={
+		13288 
+	}
+	manpower=10120
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

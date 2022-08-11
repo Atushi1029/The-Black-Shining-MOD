@@ -1,0 +1,22 @@
+characters = {
+	IRE_patrick_hillery = {
+		name = IRE_patrick_hillery
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_IRE_Patrick_Hillery"
+				small = "GFX_idea_IRE_patrick_hillery"
+			}
+			army = {
+				large = "GFX_Portrait_IRE_Patrick_Hillery"
+				small = "GFX_idea_IRE_patrick_hillery"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PATRICK_HILLERY_DESC"
+			ideology = liberal_democracy_ideology
+			expire = "2008.4.12.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

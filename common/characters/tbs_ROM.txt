@@ -1,0 +1,22 @@
+characters = {
+	ROM_michael_i = {
+		name = ROM_michael_i
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ROM_Michael_I"
+				small = "GFX_idea_ROM_michael_i"
+			}
+			army = {
+				large = "GFX_Portrait_ROM_Michael_I"
+				small = "GFX_idea_ROM_michael_i"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MICHAEL_I_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "2017.12.5.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

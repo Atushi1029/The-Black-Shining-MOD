@@ -1,0 +1,23 @@
+state={
+	id=941
+	name="STATE_941"
+
+	history={
+		owner = TOG
+		add_core_of = GHA
+		add_core_of = TOG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		12785 
+	}
+	manpower=420000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,8 @@
+political_actions = {
+	icon = generic_political_actions
+	allowed = { always = yes }
+}
+lar_local_recruitment = {
+	allowed = { always = no }
+	visible = { always = no }
+}

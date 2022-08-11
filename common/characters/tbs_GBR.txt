@@ -1,0 +1,35 @@
+characters = {
+	GBR_elizabeth_ii = {
+		name = GBR_elizabeth_ii
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Elizabeth_II"
+				small = "GFX_idea_GBR_elizabeth_ii"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Elizabeth_II"
+				small = "GFX_idea_GBR_elizabeth_ii"
+			}
+		}
+	}
+	GBR_jeremy_thorpe = {
+		name = GBR_jeremy_thorpe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Jeremy_Thorpe"
+				small = "GFX_idea_GBR_jeremy_thorpe"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Jeremy_Thorpe"
+				small = "GFX_idea_GBR_jeremy_thorpe"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JEREMY_THORPE_DESC"
+			ideology = liberal_democracy_ideology
+			expire = "2004.12.4.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

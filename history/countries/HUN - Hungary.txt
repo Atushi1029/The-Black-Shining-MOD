@@ -1,0 +1,34 @@
+﻿capital = 43
+#oob = ""
+set_cosmetic_tag = HUN_republic
+set_starting_values = yes
+recruit_character = HUN_arpad_goncz
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = liberal_democracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalitarianism = 0
+	radical_socialism = 0
+	moderate_socialism = 7
+	social_democracy = 10
+	liberal_democracy = 50
+	social_conservatism = 13
+	authority_democracy = 0
+	paternal_autocracy = 0
+	national_corporatism = 20
+	national_socialism = 0
+	ultra_nationalism = 0
+	religious_nationalism = 0
+	transhumanism = 0
+}
+diplomatic_relation = {
+	country = TRA
+	relation = non_aggression_pact
+}

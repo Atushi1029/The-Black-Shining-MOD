@@ -1,0 +1,29 @@
+
+state={
+	id=579
+	name="STATE_579"
+
+	history={
+		victory_points = {
+			1684 1 
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_claim_by = FER
+		add_claim_by = RLA
+		add_claim_by = SOV
+		set_state_flag = rusrep_core_states
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+
+	provinces={
+		1664 1684 3169 4669 7689 7738 8461 9142 
+	}
+	manpower=45484
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

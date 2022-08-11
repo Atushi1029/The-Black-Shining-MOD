@@ -1,0 +1,22 @@
+characters = {
+	MEN_duguersulong = {
+		name = MEN_duguersulong
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MEN_Duguersulong"
+				small = "GFX_idea_MEN_duguersulong"
+			}
+			army = {
+				large = "GFX_Portrait_MEN_Duguersulong"
+				small = "GFX_idea_MEN_duguersulong"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DUGERSULONG_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

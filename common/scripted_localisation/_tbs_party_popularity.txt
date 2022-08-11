@@ -1,0 +1,350 @@
+defined_text = {
+	name = GetRulingPartyIcon
+	text = {
+		trigger = { has_government = totalitarianism }
+		localization_key = "GFX_totalitarianism_small"
+	}
+	text = {
+		trigger = { has_government = radical_socialism }
+		localization_key = "GFX_radical_socialism_small"
+	}
+	text = {
+		trigger = { has_government = moderate_socialism }
+		localization_key = "GFX_moderate_socialism_small"
+	}
+	text = {
+		trigger = { has_government = social_democracy }
+		localization_key = "GFX_social_democracy_small"
+	}
+	text = {
+		trigger = { has_government = liberal_democracy }
+		localization_key = "GFX_liberal_democracy_small"
+	}
+	text = {
+		trigger = { has_government = social_conservatism }
+		localization_key = "GFX_social_conservatism_small"
+	}
+	text = {
+		trigger = { has_government = authority_democracy }
+		localization_key = "GFX_authority_democracy_small"
+	}
+	text = {
+		trigger = { has_government = paternal_autocracy }
+		localization_key = "GFX_paternal_autocracy_small"
+	}
+	text = {
+		trigger = { has_government = national_corporatism }
+		localization_key = "GFX_national_corporatism_small"
+	}
+	text = {
+		trigger = { has_government = national_socialism }
+		localization_key = "GFX_national_socialism_small"
+	}
+	text = {
+		trigger = { has_government = ultra_nationalism }
+		localization_key = "GFX_ultra_nationalism_small"
+	}
+	text = {
+		trigger = { has_government = religious_nationalism }
+		localization_key = "GFX_religious_nationalism_small"
+	}
+	text = { localization_key = "GFX_transhumanism_small" }
+}
+defined_text = {
+	name = GetRulingIdeologyTitle
+	text = {
+		trigger = { has_government = totalitarianism }
+		localization_key = totalitarianism
+	}
+	text = {
+		trigger = { has_government = radical_socialism }
+		localization_key = radical_socialism
+	}
+	text = {
+		trigger = { has_government = moderate_socialism }
+		localization_key = moderate_socialism
+	}
+	text = {
+		trigger = { has_government = social_democracy }
+		localization_key = social_democracy
+	}
+	text = {
+		trigger = { has_government = liberal_democracy }
+		localization_key = liberal_democracy
+	}
+	text = {
+		trigger = { has_government = social_conservatism }
+		localization_key = social_conservatism
+	}
+	text = {
+		trigger = { has_government = authority_democracy }
+		localization_key = authority_democracy
+	}
+	text = {
+		trigger = { has_government = paternal_autocracy }
+		localization_key = paternal_autocracy
+	}
+	text = {
+		trigger = { has_government = national_corporatism }
+		localization_key = national_corporatism
+	}
+	text = {
+		trigger = { has_government = national_socialism }
+		localization_key = national_socialism
+	}
+	text = {
+		trigger = { has_government = ultra_nationalism }
+		localization_key = ultra_nationalism
+	}
+	text = {
+		trigger = { has_government = religious_nationalism }
+		localization_key = religious_nationalism
+	}
+	text = { localization_key = transhumanism }
+}
+defined_text = {
+	name = GetRulingIdeologyDesc
+	text = {
+		trigger = { has_government = totalitarianism }
+		localization_key = totalitarianism_ideology_desc
+	}
+	text = {
+		trigger = { has_government = radical_socialism }
+		localization_key = radical_socialism_ideology_desc
+	}
+	text = {
+		trigger = { has_government = moderate_socialism }
+		localization_key = moderate_socialism_ideology_desc
+	}
+	text = {
+		trigger = { has_government = social_democracy }
+		localization_key = social_democracy_ideology_desc
+	}
+	text = {
+		trigger = { has_government = liberal_democracy }
+		localization_key = liberal_democracy_ideology_desc
+	}
+	text = {
+		trigger = { has_government = social_conservatism }
+		localization_key = social_conservatism_ideology_desc
+	}
+	text = {
+		trigger = { has_government = authority_democracy }
+		localization_key = authority_democracy_ideology_desc
+	}
+	text = {
+		trigger = { has_government = paternal_autocracy }
+		localization_key = paternal_autocracy_ideology_desc
+	}
+	text = {
+		trigger = { has_government = national_corporatism }
+		localization_key = national_corporatism_ideology_desc
+	}
+	text = {
+		trigger = { has_government = national_socialism }
+		localization_key = national_socialism_ideology_desc
+	}
+	text = {
+		trigger = { has_government = ultra_nationalism }
+		localization_key = ultra_nationalism_ideology_desc
+	}
+	text = {
+		trigger = { has_government = religious_nationalism }
+		localization_key = religious_nationalism_ideology_desc
+	}
+	text = { localization_key = transhumanism_ideology_desc }
+}
+defined_text = {
+	name = GetTotCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_totalitarianism = yes
+			NOT = { has_government = totalitarianism }
+		}
+		localization_key = "coalition_tot"
+	}
+}
+defined_text = {
+	name = GetRadSocCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_radical_socialism = yes
+			NOT = { has_government = radical_socialism }
+		}
+		localization_key = "coalition_radsoc"
+	}
+}
+defined_text = {
+	name = GetModSocCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_moderate_socialism = yes
+			NOT = { has_government = moderate_socialism }
+		}
+		localization_key = "coalition_modsoc"
+	}
+}
+defined_text = {
+	name = GetSocDemCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_social_democracy = yes
+			NOT = { has_government = social_democracy }
+		}
+		localization_key = "coalition_socdem"
+	}
+}
+defined_text = {
+	name = GetLibDemCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_liberal_democracy = yes
+			NOT = { has_government = liberal_democracy }
+		}
+		localization_key = "coalition_libdem"
+	}
+}
+defined_text = {
+	name = GetSocConCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_social_conservatism = yes
+			NOT = { has_government = social_conservatism }
+		}
+		localization_key = "coalition_soccon"
+	}
+}
+defined_text = {
+	name = GetAutDemCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_authority_democracy = yes
+			NOT = { has_government = authority_democracy }
+		}
+		localization_key = "coalition_autdem"
+	}
+}
+defined_text = {
+	name = GetPatAutCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_paternal_autocracy = yes
+			NOT = { has_government = paternal_autocracy }
+		}
+		localization_key = "coalition_pataut"
+	}
+}
+defined_text = {
+	name = GetNatCorCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_national_corporatism = yes
+			NOT = { has_government = national_corporatism }
+		}
+		localization_key = "coalition_natcor"
+	}
+}
+defined_text = {
+	name = GetNatSocCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_national_socialism = yes
+			NOT = { has_government = national_socialism }
+		}
+		localization_key = "coalition_natsoc"
+	}
+}
+defined_text = {
+	name = GetUltNatCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_ultra_nationalism = yes
+			NOT = { has_government = ultra_nationalism }
+		}
+		localization_key = "coalition_ultnat"
+	}
+}
+defined_text = {
+	name = GetRelNatCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_religious_nationalism = yes
+			NOT = { has_government = religious_nationalism }
+		}
+		localization_key = "coalition_relnat"
+	}
+}
+defined_text = {
+	name = GetTraCoalition
+	text = {
+		trigger = {
+			has_a_coalition_with_transhumanism = yes
+			NOT = { has_government = transhumanism }
+		}
+		localization_key = "coalition_tra"
+	}
+}
+defined_text = {
+	name = GetCoalitionTitle
+	text = {
+		trigger = {
+			OR = {
+				has_a_coalition_with_totalitarianism = yes
+				has_a_coalition_with_radical_socialism = yes
+				has_a_coalition_with_moderate_socialism = yes
+				has_a_coalition_with_social_democracy = yes
+				has_a_coalition_with_liberal_democracy = yes
+				has_a_coalition_with_social_conservatism = yes
+				has_a_coalition_with_authority_democracy = yes
+				has_a_coalition_with_paternal_autocracy = yes
+				has_a_coalition_with_national_corporatism = yes
+				has_a_coalition_with_national_socialism = yes
+				has_a_coalition_with_ultra_nationalism = yes
+				has_a_coalition_with_religious_nationalism = yes
+				has_a_coalition_with_transhumanism = yes
+			}
+		}
+		localization_key = "coalition_title"
+	}
+	text = { localization_key = "" }
+}
+defined_text = {
+	name = GetRulingPartyPopularityValue
+	text = { localization_key = "[?ROOT.party_popularity@ruling_party|%T0]" }
+}
+defined_text = {
+	name = GetCoalitionInformation
+	text = { localization_key = coalition_information }
+}
+defined_text = {
+	name = GetSubIdeology
+	#Liberal Democracy
+	text = {
+		trigger = { has_country_leader_ideology = longism_ideology }
+		localization_key = "longism_ideology"
+	}
+	text = {
+		trigger = { has_country_leader_ideology = market_liberalism_ideology }
+		localization_key = "market_liberalism_ideology"
+	}
+	text = {
+		trigger = { has_country_leader_ideology = social_liberalism_ideology }
+		localization_key = "social_liberalism_ideology"
+	}
+	#Social Conservatism
+	text = {
+		trigger = { has_country_leader_ideology = silent_conservatism_ideology }
+		localization_key = "silent_conservatism_ideology"
+	}
+	#Authoritarian Democracy
+	text = {
+		trigger = { has_country_leader_ideology = dixiecrat_democracy_ideology }
+		localization_key = "dixiecrat_democracy_ideology"
+	}
+	#National Corporatism
+	text = {
+		trigger = { has_country_leader_ideology = fascism_ideology }
+		localization_key = "fascism_ideology"
+	}
+	text = { localization_key = "" }
+}

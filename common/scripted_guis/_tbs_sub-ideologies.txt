@@ -1,0 +1,12 @@
+scripted_gui = {
+	tbs_sub-ideology_notice = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "sub-ideology_notice_window"
+		ai_enabled = { always = no }
+		visible = {
+			is_ai = no
+			has_sub-ideologies = yes
+		}
+	}
+}

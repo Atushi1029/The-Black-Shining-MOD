@@ -1,0 +1,25 @@
+state={
+	id=926
+	name="STATE_926"
+
+	history={
+		owner = RLA
+		add_core_of = RLA
+		add_claim_by = FER
+		add_claim_by = RUS
+		add_claim_by = SOV
+		set_state_flag = rla_core_states
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		208 257 324 345 353 380 483 3197 3224 3269 3285 3317 3334 3352 3383 3477 6327 6374 9325 11240 11269 11364 11373 11393 
+	}
+	manpower=900400
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

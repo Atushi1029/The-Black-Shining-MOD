@@ -1,0 +1,35 @@
+characters = {
+	SER_aleksandar_rankovic = {
+		name = SER_aleksandar_rankovic
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SER_Aleksandar_Rankovic"
+				small = "GFX_idea_SER_aleksandar_rankovic"
+			}
+			army = {
+				large = "GFX_Portrait_SER_Aleksandar_Rankovic"
+				small = "GFX_idea_SER_aleksandar_rankovic"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
+			ideology = radical_socialism_ideology
+			expire = "1983.8.19.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SER_peter_ii = {
+		name = SER_peter_ii
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SER_Peter_II"
+				small = "GFX_idea_SER_peter_ii"
+			}
+			army = {
+				large = "GFX_Portrait_SER_Peter_II"
+				small = "GFX_idea_SER_peter_ii"
+			}
+		}
+	}
+}

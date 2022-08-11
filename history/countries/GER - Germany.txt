@@ -1,0 +1,81 @@
+﻿capital = 64
+#oob = ""
+set_cosmetic_tag = GERMANIA_greater_empire
+set_starting_values = yes
+recruit_character = GER_heinz_knoke
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarianism = 0
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	social_conservatism = 0
+	authority_democracy = 0
+	paternal_autocracy = 0
+	national_corporatism = 20
+	national_socialism = 70
+	ultra_nationalism = 5
+	religious_nationalism = 5
+	transhumanism = 0
+}
+create_faction = neo_axis
+add_to_faction = BNF
+add_to_faction = DEN
+add_to_faction = GER
+add_to_faction = MAF
+add_to_faction = NID
+add_to_faction = RKK
+add_to_faction = RKM
+add_to_faction = RKO
+add_to_faction = RKU
+add_to_faction = SLO
+set_autonomy = {
+	target = BNF
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = NID
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKK
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKM
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKO
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKU
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = MAF
+	autonomous_state = autonomy_reichsprotectorate
+}
+set_autonomy = {
+	target = DEN
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = SLO
+	autonomous_state = autonomy_dominion
+}
+diplomatic_relation = {
+	country = RLA
+	relation = non_aggression_pact
+}

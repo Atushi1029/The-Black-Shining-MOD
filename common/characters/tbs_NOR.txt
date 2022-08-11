@@ -1,0 +1,22 @@
+characters = {
+	NOR_erik_gjems-onstad = {
+		name = NOR_erik_gjems-onstad
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_NOR_Erik_Gjems-Onstad"
+				small = "GFX_idea_NOR_erik_gjems-onstad"
+			}
+			army = {
+				large = "GFX_Portrait_NOR_Erik_Gjems-Onstad"
+				small = "GFX_idea_NOR_erik_gjems-onstad"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ERIK_GJEMS-ONSTAD_DESC"
+			ideology = authority_democracy_ideology
+			expire = "2011.11.18.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

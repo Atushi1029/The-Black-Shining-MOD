@@ -1,0 +1,22 @@
+characters = {
+	HUN_arpad_goncz = {
+		name = HUN_arpad_goncz
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HUN_Arpad_Goncz"
+				small = "GFX_idea_HUN_arpad_goncz"
+			}
+			army = {
+				large = "GFX_Portrait_HUN_Arpad_Goncz"
+				small = "GFX_idea_HUN_arpad_goncz"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ARPAD_GONCZ_DESC"
+			ideology = liberal_democracy_ideology
+			expire = "2015.10.6.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

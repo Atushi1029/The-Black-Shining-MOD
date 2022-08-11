@@ -1,0 +1,30 @@
+﻿capital = 637
+#oob = ""
+set_cosmetic_tag = STO_unit_of_731
+set_starting_values = yes
+recruit_character = STO_hideo_shimizu
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = ultra_nationalism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarianism = 0
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	social_conservatism = 0
+	authority_democracy = 0
+	paternal_autocracy = 20
+	national_corporatism = 20
+	national_socialism = 0
+	ultra_nationalism = 60
+	religious_nationalism = 0
+	transhumanism = 0
+}

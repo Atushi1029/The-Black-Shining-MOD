@@ -1,0 +1,22 @@
+characters = {
+	MAN_aisin_gioro_yuyan = {
+		name = MAN_aisin_gioro_yuyan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AISIN_GIORO_YUYAN_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1999.1.18.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

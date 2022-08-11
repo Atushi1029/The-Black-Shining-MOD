@@ -1,0 +1,22 @@
+characters = {
+	NID_reinhold_hanning = {
+		name = NID_reinhold_hanning
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_NID_Reinhold_Hanning"
+				small = "GFX_idea_NID_Reinhold_Hanning"
+			}
+			army = {
+				large = "GFX_Portrait_NID_Reinhold_Hanning"
+				small = "GFX_idea_NID_Reinhold_Hanning"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_REINHOLD_HANNING_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "2017.5.30.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+﻿capital = 16
+#oob = ""
+set_cosmetic_tag = FRA_state
+set_starting_values = yes
+recruit_character = FRA_jean-marie_le_pen
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = national_corporatism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalitarianism = 0
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	social_conservatism = 25
+	authority_democracy = 10
+	paternal_autocracy = 25
+	national_corporatism = 40
+	national_socialism = 0
+	ultra_nationalism = 0
+	religious_nationalism = 0
+	transhumanism = 0
+}

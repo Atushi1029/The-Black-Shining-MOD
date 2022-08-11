@@ -1,0 +1,378 @@
+characters = {
+	JAP_aiichiro_fujiyama = {
+		name = JAP_aiichiro_fujiyama
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Aiichiro_Fujiyama"
+				small = "GFX_idea_JAP_aiichiro_fujiyama"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Aiichiro_Fujiyama"
+				small = "GFX_idea_JAP_aiichiro_fujiyama"
+			}
+		}
+	}
+	JAP_yokusan_political_committee = {
+		name = JAP_yokusan_political_committee
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
+				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
+				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YOKUSAN_POLITICAL_COMMITTEE_DESC"
+			ideology = transhumanism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_etsusaburo_shiina = {
+		name = JAP_etsusaburo_shiina
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Etsusaburo_Shiina"
+				small = "GFX_idea_JAP_etsusaburo_shiina"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Etsusaburo_Shiina"
+				small = "GFX_idea_JAP_etsusaburo_shiina"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ETSUSABURO_SHIINA_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "1979.9.30.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_hirohito = {
+		name = JAP_hirohito
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hirohito"
+				small = "GFX_idea_JAP_hirohito"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hirohito"
+				small = "GFX_idea_JAP_hirohito"
+			}
+		}
+	}
+	JAP_japanese_national_political_reform_committee = {
+		name = JAP_japanese_national_political_reform_committee
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
+				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
+				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JAPANESE_NATIONAL_POLITICAL_REFORM_COMMITTEE_DESC"
+			ideology = social_conservatism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_kakuei_tanaka = {
+		name = JAP_kakuei_tanaka
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kakuei_Tanaka"
+				small = "GFX_idea_JAP_kakuei_tanaka"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kakuei_Tanaka"
+				small = "GFX_idea_JAP_kakuei_tanaka"
+			}
+		}
+	}
+	JAP_kei_hoashi = {
+		name = JAP_kei_hoashi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kei_Hoashi"
+				small = "GFX_idea_JAP_kei_hoashi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kei_Hoashi"
+				small = "GFX_idea_JAP_kei_hoashi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KEI_HOASHI_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "1989.2.3.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_kiyoshi_utsumi = {
+		name = JAP_kiyoshi_utsumi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kiyoshi_Utsumi"
+				small = "GFX_idea_JAP_kiyoshi_utsumi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kiyoshi_Utsumi"
+				small = "GFX_idea_JAP_kiyoshi_utsumi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KIYOSHI_UTSUMI_DESC"
+			ideology = authority_democracy_ideology
+			expire = "1991.3.12.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_masanosuke_ikeda = {
+		name = JAP_masanosuke_ikeda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masanosuke_Ikeda"
+				small = "GFX_idea_JAP_masanosuke_ikeda"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masanosuke_Ikeda"
+				small = "GFX_idea_JAP_masanosuke_ikeda"
+			}
+		}
+	}
+	JAP_masashi_ishibashi = {
+		name = JAP_masashi_ishibashi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masashi_Ishibashi"
+				small = "GFX_idea_JAP_masashi_ishibashi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masashi_Ishibashi"
+				small = "GFX_idea_JAP_masashi_ishibashi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MASASHI_ISHIBASHI_DESC"
+			ideology = social_democracy_ideology
+			expire = "2019.12.9.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_masayoshi_ohira = {
+		name = JAP_masayoshi_ohira
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masayoshi_Ohira"
+				small = "GFX_idea_JAP_masayoshi_ohira"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masayoshi_Ohira"
+				small = "GFX_idea_JAP_masayoshi_ohira"
+			}
+		}
+	}
+	JAP_michitaka_konoe = {
+		name = JAP_michitaka_konoe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Michitaka_Konoe"
+				small = "GFX_idea_JAP_michitaka_konoe"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Michitaka_Konoe"
+				small = "GFX_idea_JAP_michitaka_konoe"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MICHITAKA_KONOE_DESC"
+			ideology = national_socialism_ideology
+			expire = "2012.2.11.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_minoru_genda = {
+		name = JAP_minoru_genda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Minoru_Genda"
+				small = "GFX_idea_JAP_minoru_genda"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Minoru_Genda_admiral"
+				small = "GFX_idea_JAP_minoru_genda_admiral"
+			}
+		}
+	}
+	JAP_misaburo_kawasaki = {
+		name = JAP_misaburo_kawasaki
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Misaburo_Kawasaki"
+				small = "GFX_idea_JAP_misaburo_kawasaki"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Misaburo_Kawasaki"
+				small = "GFX_idea_JAP_misaburo_kawasaki"
+			}
+		}
+	}
+	JAP_okinori_kaya = {
+		name = JAP_okinori_kaya
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Okinori_Kaya"
+				small = "GFX_idea_JAP_okinori_kaya"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Okinori_Kaya"
+				small = "GFX_idea_JAP_okinori_kaya"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_OKINORI_KAYA_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1977.4.28.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_sadao_akamatsu = {
+		name = JAP_sadao_akamatsu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Sadao_Akamatsu"
+				small = "GFX_idea_JAP_sadao_akamatsu"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Sadao_Akamatsu"
+				small = "GFX_idea_JAP_sadao_akamatsu"
+			}
+		}
+	}
+	JAP_seiichi_katsumata = {
+		name = JAP_seiichi_katsumata
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Seiichi_Katsumata"
+				small = "GFX_idea_JAP_seiichi_katsumata"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Seiichi_Katsumata"
+				small = "GFX_idea_JAP_seiichi_katsumata"
+			}
+		}
+	}
+	JAP_shiro_hara = {
+		name = JAP_shiro_hara
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Shiro_Hara"
+				small = "GFX_idea_JAP_shiro_hara"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Shiro_Hara"
+				small = "GFX_idea_JAP_shiro_hara"
+			}
+		}
+	}
+	JAP_shiro_nonaka = {
+		name = JAP_shiro_nonaka
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Shiro_Nonaka"
+				small = "GFX_idea_JAP_shiro_nonaka"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Shiro_Nonaka"
+				small = "GFX_idea_JAP_shiro_nonaka"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SHIRO_NONAKA_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_soji_fujii = {
+		name = JAP_soji_fujii
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Soji_Fujii"
+				small = "GFX_idea_JAP_soji_fujii"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Soji_Fujii"
+				small = "GFX_idea_JAP_soji_fujii"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SOJI_FUJII_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1975.3.18.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_suehiro_nishio = {
+		name = JAP_suehiro_nishio
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Suehiro_Nishio"
+				small = "GFX_idea_JAP_suehiro_nishio"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Suehiro_Nishio"
+				small = "GFX_idea_JAP_suehiro_nishio"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SUEHIRO_NISHIO_DESC"
+			ideology = liberal_democracy_ideology
+			expire = "1981.10.3.1"
+			id = -1
+			traits = {}
+		}
+	}
+	JAP_takeo_miki = {
+		name = JAP_takeo_miki
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Takeo_Miki"
+				small = "GFX_idea_JAP_takeo_miki"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Takeo_Miki"
+				small = "GFX_idea_JAP_takeo_miki"
+			}
+		}
+	}
+	JAP_yuichi_kori = {
+		name = JAP_yuichi_kori
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Yuichi_Kori"
+				small = "GFX_idea_JAP_yuichi_kori"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Yuichi_Kori"
+				small = "GFX_idea_JAP_yuichi_kori"
+			}
+		}
+	}
+}

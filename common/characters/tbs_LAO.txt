@@ -1,0 +1,22 @@
+characters = {
+	LAO_sisavang_vatthana = {
+		name = LAO_sisavang_vatthana
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_LAO_Sisavang_Vatthana"
+				small = "GFX_idea_LAO_sisavang_vatthana"
+			}
+			army = {
+				large = "GFX_Portrait_LAO_Sisavang_Vatthana"
+				small = "GFX_idea_LAO_sisavang_vatthana"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SISAVANG_VATTHANA_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

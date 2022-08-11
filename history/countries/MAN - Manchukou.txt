@@ -1,0 +1,32 @@
+﻿capital =328
+#oob = ""
+set_cosmetic_tag = MAN_kuo
+set_starting_values = yes
+recruit_character = MAN_aisin_gioro_yuyan
+set_convoys = 20
+add_ideas = {
+	
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = paternal_autocracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarianism = 2
+		radical_socialism = 0
+		moderate_socialism = 0
+		social_democracy = 0
+		liberal_democracy = 0
+		social_conservatism = 0
+		authority_democracy = 0
+		paternal_autocracy = 60
+		national_corporatism = 20
+		national_socialism = 18
+		ultra_nationalism = 0
+		religious_nationalism = 0
+		transhumanism = 0
+	}
+}

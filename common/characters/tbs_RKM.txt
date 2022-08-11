@@ -1,0 +1,22 @@
+characters = {
+	RKM_martin_mussgnug = {
+		name = RKM_martin_mussgnug
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKM_Martin_Mussgnug"
+				small = "GFX_idea_RKM_martin_mussgnug"
+			}
+			army = {
+				large = "GFX_Portrait_RKM_Martin_Mussgnug"
+				small = "GFX_idea_RKM_martin_mussgnug"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MARTIN_MUSSGNUG_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1997.2.2.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

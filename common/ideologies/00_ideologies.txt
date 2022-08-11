@@ -1,0 +1,333 @@
+ideologies = {
+	totalitarianism = {
+		types = {
+			totalitarianism_ideology = {}
+		}
+		color = { 127 0 0 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	radical_socialism = {
+		types = {
+			radical_socialism_ideology = {}
+		}
+		color = { 233 58 58 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	moderate_socialism = {
+		types = {
+			moderate_socialism_ideology = {}
+		}
+		color = { 255 0 0 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	social_democracy = {
+		types = {
+			social_democracy_ideology = {}
+		}
+		color = { 194 30 86 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 1
+			lend_lease_tension = 0.5
+			guarantee_tension = 1
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	liberal_democracy = {
+		types = {
+			liberal_democracy_ideology = {}
+			longism_ideology = { can_be_randomly_selected = no }
+			market_liberalism_ideology = { can_be_randomly_selected = no }
+			social_liberalism_ideology = { can_be_randomly_selected = no }
+		}
+		color = { 246 139 31 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 1
+			lend_lease_tension = 0.5
+			guarantee_tension = 1
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	social_conservatism = {
+		types = {
+			social_conservatism_ideology = {}
+			silent_conservatism_ideology = { can_be_randomly_selected = no }
+		}
+		color = { 0 0 255 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 1
+			lend_lease_tension = 0.5
+			guarantee_tension = 1
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	authority_democracy = {
+		types = {
+			authority_democracy_ideology = {}
+			dixiecrat_democracy_ideology = { can_be_randomly_selected = no }
+		}
+		color = { 110 110 110 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 1
+			lend_lease_tension = 0.5
+			guarantee_tension = 1
+			civilian_intel_to_others = 20
+			army_intel_to_others = 5
+			navy_intel_to_others = 20
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	paternal_autocracy = {
+		types = {
+			paternal_autocracy_ideology = {}
+		}
+		color = { 45 45 45 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	national_corporatism = {
+		types = {
+			national_corporatism_ideology = {}
+			fascism_ideology = { can_be_randomly_selected = no }
+		}
+		color = { 142 57 0 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	national_socialism = {
+		types = {
+			national_socialism_ideology = {}
+		}
+		color = { 80 50 0 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	ultra_nationalism = {
+		types = {
+			ultra_nationalism_ideology = {}
+		}
+		color = { 0 0 0 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	religious_nationalism = {
+		types = {
+			religious_nationalism_ideology = {}
+		}
+		color = { 52 25 80 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	transhumanism = {
+		types = {
+			transhumanism_ideology = {}
+		}
+		color = { 248 248 248 }
+		rules = {
+			can_send_volunteers = yes
+			can_puppet = no
+			can_force_government = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+			can_not_declare_war = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 1
+			lend_lease_tension = 0.25
+			civilian_intel_to_others = 10
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

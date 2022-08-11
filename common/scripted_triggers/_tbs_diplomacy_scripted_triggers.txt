@@ -1,0 +1,155 @@
+DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			OR = {
+				is_ai = yes
+				FROM = {
+					strength_ratio = {
+						tag = ROOT
+						ratio > 1.75
+					}
+				}
+				AND = {
+					ROOT = { is_major = no }
+					FROM = { is_major = yes }
+				}
+			}
+		}
+		always = no
+	}
+	else_if = {
+		limit = {
+			check_variable = { declare_war_free_tickets < 1 }
+			OR = {
+				has_socialist_government = yes
+				has_dictatorship_government = yes
+			}
+		}
+		command_power > 49
+		has_army_experience > 24
+		has_navy_experience > 24
+		has_air_experience > 24
+		has_war_support > 0.74
+		num_divisions > 49
+	}
+	else_if = {
+		limit = {
+			check_variable = { declare_war_free_tickets < 1 }
+			has_democratic_government = yes
+		}
+		command_power > 49
+		has_army_experience > 49
+		has_navy_experience > 49
+		has_air_experience > 49
+		has_war_support > 0.99
+		has_war = no
+		num_divisions > 74
+	}
+	else = { always = no }
+}
+DIPLOMACY_GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME = {
+	always = no
+}
+DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_REVOKE_GUARANTEE_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_RETURN_TERRITORY_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_MILACC_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_REVOKE_MILACC_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
+	always = yes
+}
+DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
+	always = yes
+}
+DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
+	always = yes
+}
+DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
+	always = yes
+}
+DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
+	always = yes
+}
+DIPLOMACY_SEND_ATTACHE_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_STAGE_COUP_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_CREATE_FACTION_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_JOIN_FACTION_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
+	always = no
+}
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			FROM = {}
+			ROOT = {}
+		}
+		always = no
+	}
+	else_if = {
+		limit  ={
+			FROM = {}
+			ROOT = {}
+		}
+		always = no
+	}
+	else = { always = yes }
+}
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			FROM = {}
+			ROOT = {}
+		}
+		always = no
+	}
+	else_if = {
+		limit  ={
+			FROM = {}
+			ROOT = {}
+		}
+		always = no
+	}
+	else = { always = yes }
+}
+DIPLOMACY_NONAGGRESSIONPACT_ENABLE_TRIGGER = {
+	always = no
+}

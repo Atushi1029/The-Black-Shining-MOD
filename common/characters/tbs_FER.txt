@@ -1,0 +1,22 @@
+characters = {
+	FER_georgy_shekerev = {
+		name = FER_georgy_shekerev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Georgy_Shekerev"
+				small = "GFX_idea_FER_georgy_shekerev"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Georgy_Shekerev"
+				small = "GFX_idea_FER_georgy_shekerev"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GEORGY_SHEKEREV_DESC"
+			ideology = national_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

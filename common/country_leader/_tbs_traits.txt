@@ -1,0 +1,80 @@
+leader_traits = {
+#Idea Traits
+	political_leader = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_of_interior = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_of_foreign_affairs = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_of_finance = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_of_justice = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_of_defence = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+#Ideology Traits
+	minister_totalist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_radical_socialist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_moderate_socialist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_social_democrat = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_liberal_democrat = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_social_conservative = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_authoritarian_democrat = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_paternal_autocrat = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_national_corporatist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_national_socialist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_ultra_nationalist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_religious_nationalist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	minister_transhumanist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+}

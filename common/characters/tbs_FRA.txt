@@ -1,0 +1,22 @@
+characters = {
+	FRA_jean-marie_le_pen = {
+		name = FRA_jean-marie_le_pen
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FRA_Jean-Marie_Le_Pen"
+				small = "GFX_idea_FRA_jean-marie_le_pen"
+			}
+			army = {
+				large = "GFX_Portrait_FRA_Jean-Marie_Le_Pen"
+				small = "GFX_idea_FRA_jean-marie_le_pen"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JEAN-MARIE_LE_PEN_DESC"
+			ideology = national_corporatism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

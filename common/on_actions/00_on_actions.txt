@@ -1,0 +1,108 @@
+on_actions = {
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						check_variable = { declare_war_free_tickets < 1 }
+						OR = {
+							has_socialist_government = yes
+							has_dictatorship_government = yes
+						}
+					}
+				}
+				ROOT = {
+					add_command_power = -50
+					army_experience = -25
+					navy_experience = -25
+					air_experience = -25
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						check_variable = { declare_war_free_tickets < 1 }
+						has_democratic_government = yes
+					}
+				}
+				ROOT = {
+					add_command_power = -50
+					army_experience = -50
+					navy_experience = -50
+					air_experience = -50
+				}
+			}
+			else_if = {
+				limit = { ROOT = { check_variable = { declare_war_free_tickets > 0 } } }
+				ROOT = { add_to_variable = { declare_war_free_tickets = -1 } }
+			}
+			else = {}
+		}
+	}
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+			FROM = { save_global_event_target_as = winning_country }
+			ROOT = {
+				save_global_event_target_as = losing_country
+				news_event = { id = country_capitulated.0 days = 0 }
+			}
+			if = {
+				limit = { event_target:losing_country = { any_allied_country = { has_war_together_with = event_target:losing_country } } }
+				set_global_flag = losing_country_multiple
+			}
+			if = {
+				limit = { event_target:winning_country = { any_allied_country = { has_war_together_with = event_target:winning_country } } }
+				set_global_flag = winning_country_multiple
+			}
+			if = {
+				limit = {
+					FROM = { tag = RPG }
+					ROOT = { tag = ROM }
+				}
+				ROOT = {
+					ROM_delete_communist_states = yes
+					ROM_setup_communism_government = yes
+					white_peace = {
+						tag = FROM
+						message = white_peace_romanian_civilwar_tt
+					}
+					annex_country = {
+						target = FROM
+						transfer_troops = yes
+					}
+					change_tag_from = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = { tag = ROM }
+					ROOT = { tag = RPG }
+				}
+				FROM = {
+					ROM_delete_communist_states = yes
+					white_peace = {
+						tag = ROOT
+						message = white_peace_romanian_civilwar_tt
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			else = {
+				FROM = {
+					white_peace = {
+						tag = ROOT
+						message = white_peace_generic_tt
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+		}
+	}
+}

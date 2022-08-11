@@ -1,0 +1,31 @@
+﻿capital = 107
+#oob = ""
+set_cosmetic_tag = SER_kingdom
+set_starting_values = yes
+recruit_character = SER_aleksandar_rankovic
+recruit_character = SER_peter_ii
+set_convoys = 20
+add_ideas = {
+	SER_mon_peter_ii
+}
+set_politics = {
+	ruling_party = radical_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarianism = 10
+	radical_socialism = 40
+	moderate_socialism = 10
+	social_democracy = 5
+	liberal_democracy = 5
+	social_conservatism = 0
+	authority_democracy = 10
+	paternal_autocracy = 15
+	national_corporatism = 5
+	national_socialism = 0
+	ultra_nationalism = 0
+	religious_nationalism = 0
+	transhumanism = 0
+}

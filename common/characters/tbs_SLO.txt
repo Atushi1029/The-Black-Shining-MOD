@@ -1,0 +1,22 @@
+characters = {
+	SLO_alexander_mach = {
+		name = SLO_alexander_mach
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SLO_Alexander_Mach"
+				small = "GFX_idea_SLO_alexander_mach"
+			}
+			army = {
+				large = "GFX_Portrait_SLO_Alexander_Mach"
+				small = "GFX_idea_SLO_alexander_mach"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALEXANDER_MACH_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1980.10.15.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

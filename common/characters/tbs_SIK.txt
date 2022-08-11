@@ -1,0 +1,22 @@
+characters = {
+	SIK_burhan_shahidi = {
+		name = SIK_burhan_shahidi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIK_Burhan_Shahidi"
+				small = "GFX_idea_SIK_burhan_shahidi"
+			}
+			army = {
+				large = "GFX_Portrait_SIK_Burhan_Shahidi"
+				small = "GFX_idea_SIK_burhan_shahidi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_BURHAN_SHAHIDI_DESC"
+			ideology = authority_democracy_ideology
+			expire = "1989.8.27.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

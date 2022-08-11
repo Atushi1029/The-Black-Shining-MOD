@@ -1,0 +1,22 @@
+characters = {
+	STO_hideo_shimizu = {
+		name = STO_hideo_shimizu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Hideo_Shimizu"
+				small = "GFX_idea_STO_hideo_shimizu"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Hideo_Shimizu"
+				small = "GFX_idea_STO_hideo_shimizu"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HIDEO_SHIMIZU_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

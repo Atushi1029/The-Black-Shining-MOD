@@ -1,0 +1,22 @@
+characters = {
+	GER_heinz_knoke = {
+		name = GER_heinz_knoke
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Heinz_Knoke"
+				small = "GFX_idea_GER_heinz_knoke"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Heinz_Knoke"
+				small = "GFX_idea_GER_heinz_knoke"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HEINZ_KNOKE_DESC"
+			ideology = national_socialism_ideology
+			expire = "1993.5.18.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+characters = {
+	BNF_josef_mengele = {
+		name = BNF_josef_mengele
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BNF_Josef_Mengele"
+				small = "GFX_idea_BNF_josef_mengele"
+			}
+			army = {
+				large = "GFX_Portrait_BNF_Josef_Mengele"
+				small = "GFX_idea_BNF_josef_mengele"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOSEF_MENGELE_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "1979.2.7.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=872
+	name="STATE_872"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = SLV
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces={
+		6672 
+	}
+	manpower=72100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
