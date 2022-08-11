@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ROM_michael_i"
+		texturefile = "gfx/interface/advisors/ROM/idea_ROM_michael_i.png"
+	}
+}

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_SIA_kukrit_pramoj"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_kukrit_pramoj.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_SIA_Kukrit_Pramoj"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Kukrit_Pramoj.png"
+	}
+}

@@ -1,0 +1,24 @@
+guiTypes = {
+	containerWindowType = {
+		name = "party_popularity_window"
+		position = { x = 176 y = 5 }
+		instantTextBoxType = {
+			name ="party_popularity_text"
+			position = { x = 0 y = 4 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetRulingPartyPopularityValue]"
+			format = right
+			maxWidth = 61
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "ruling_party_title_tt"
+			pdx_tooltip_delayed = "ruling_party_desc_tt"
+		}
+		iconType = {
+			name = "party_popularity_ideology_icon"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "ruling_party_ideology_title_tt"
+			pdx_tooltip_delayed = "ruling_party_ideology_desc_tt"
+		}
+	}
+}

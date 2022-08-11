@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_INS_suharto"
+		texturefile = "gfx/interface/advisors/INS/idea_INS_suharto.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_INS_Suharto"
+		texturefile = "gfx/leaders/INS/Portrait_INS_Suharto.png"
+	}
+}

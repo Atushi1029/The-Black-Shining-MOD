@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_RKU_claus_von_stauffenberg"
+		texturefile = "gfx/interface/advisors/RKU/idea_RKU_claus_von_stauffenberg.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RKU_Claus_von_Stauffenberg"
+		texturefile = "gfx/leaders/RKU/Portrait_RKU_Claus_von_Stauffenberg.png"
+	}
+}

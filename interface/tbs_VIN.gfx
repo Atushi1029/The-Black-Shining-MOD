@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_VIN_hirokuni_muta"
+		texturefile = "gfx/interface/advisors/VIN/idea_VIN_hirokuni_muta.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_VIN_Hirokuni_Muta"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Hirokuni_Muta.png"
+	}
+}

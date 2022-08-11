@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_FRA_Jean-Marie_Le_Pen"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jean-Marie_Le_Pen.png"
+	}
+}

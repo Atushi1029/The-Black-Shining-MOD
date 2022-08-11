@@ -1,0 +1,50 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_USA_Curtis_Lemay"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Curtis_Lemay.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Edmund_Muskie"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Edmund_Muskie.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Elizabeth_Holtzman"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Elizabeth_Holtzman.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Gaylord_Nelson"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Gaylord_Nelson.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_George_McGovern"
+		texturefile = "gfx/leaders/USA/Portrait_USA_George_McGovern.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_George_Wallace"
+		texturefile = "gfx/leaders/USA/Portrait_USA_George_Wallace.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Henry_Kissinger"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Henry_Kissinger.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Hubert_Humphrey"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Hubert_Humphrey.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Lyndon_Johnson"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Lyndon_Johnson.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Richard_Nixon"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Richard_Nixon.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Scoop_Jackson"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Scoop_Jackson.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Shirley_Chisolm"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Shirley_Chisolm.png"
+	}
+}

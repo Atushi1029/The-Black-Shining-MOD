@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_FER_georgy_shekerev"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_georgy_shekerev.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_FER_Georgy_Shekerev"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Georgy_Shekerev.png"
+	}
+}

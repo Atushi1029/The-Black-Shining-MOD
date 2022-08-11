@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_RPG_nicolae_ceausescu"
+		texturefile = "gfx/interface/advisors/RPG/idea_RPG_nicolae_ceausescu.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RPG_Nicolae_Ceausescu"
+		texturefile = "gfx/leaders/RPG/Portrait_RPG_Nicolae_Ceausescu.png"
+	}
+}

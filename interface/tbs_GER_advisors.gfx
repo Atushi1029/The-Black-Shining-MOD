@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_GER_heinz_knoke"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_heinz_knoke.png"
+	}
+}

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_LAO_sisavang_vatthana"
+		texturefile = "gfx/interface/advisors/LAO/idea_LAO_sisavang_vatthana.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_LAO_Sisavang_Vatthana"
+		texturefile = "gfx/leaders/LAO/Portrait_LAO_Sisavang_Vatthana.png"
+	}
+}

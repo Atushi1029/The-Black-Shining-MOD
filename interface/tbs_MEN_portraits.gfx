@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_MEN_Duguersulong"
+		texturefile = "gfx/leaders/MEN/Portrait_MEN_Duguersulong.png"
+	}
+}

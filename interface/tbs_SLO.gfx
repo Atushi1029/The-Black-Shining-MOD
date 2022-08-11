@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_SLO_alexander_mach"
+		texturefile = "gfx/interface/advisors/SLO/idea_SLO_alexander_mach.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_SLO_Alexander_Mach"
+		texturefile = "gfx/leaders/SLO/Portrait_SLO_Alexander_Mach.png"
+	}
+}

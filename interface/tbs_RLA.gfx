@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_RLA_viktor_maltzev"
+		texturefile = "gfx/interface/advisors/RLA/idea_RLA_viktor_maltzev.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RLA_Viktor_Maltzev"
+		texturefile = "gfx/leaders/RLA/Portrait_RLA_Viktor_Maltzev.png"
+	}
+}

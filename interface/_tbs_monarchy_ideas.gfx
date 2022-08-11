@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_GBR_mon_elizabeth_ii"
+		texturefile = "gfx/interface/ideas/monarchies/idea_GBR_mon_elizabeth_ii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_mon_umberto_ii"
+		texturefile = "gfx/interface/ideas/monarchies/idea_ITA_mon_umberto_ii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_mon_hirohito"
+		texturefile = "gfx/interface/ideas/monarchies/idea_JAP_mon_hirohito.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SER_mon_peter_ii"
+		texturefile = "gfx/interface/ideas/monarchies/idea_SER_mon_peter_ii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_mon_carl_xvi_gustaf"
+		texturefile = "gfx/interface/ideas/monarchies/idea_SWE_mon_carl_xvi_gustaf.png"
+	}
+}

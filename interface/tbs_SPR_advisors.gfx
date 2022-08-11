@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_SPR_federica_montseny"
+		texturefile = "gfx/interface/advisors/SPR/idea_SPR_federica_montseny.png"
+	}
+}

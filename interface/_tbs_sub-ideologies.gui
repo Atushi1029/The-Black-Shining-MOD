@@ -1,0 +1,19 @@
+guiTypes = {
+	containerWindowType = {
+		name = "sub-ideology_notice_window"
+		position = { x = 97 y = 327 }
+		instantTextboxType = {
+			name = "sub-ideologies_name"
+			position = { x = 0 y = 0 }
+			font = "hoi_16mbs"
+			text = "[ROOT.GetSubIdeology]"
+			pdx_tooltip = "[ROOT.GetSubIdeology]"
+			pdx_tooltip_delayed = "[ROOT.GetCoalitionInformation]"
+			maxWidth = 160
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+	}
+}

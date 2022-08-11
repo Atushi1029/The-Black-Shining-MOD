@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ITA_aldo_moro"
+		texturefile = "gfx/interface/advisors/ITA/idea_ITA_aldo_moro.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_umberto_ii"
+		texturefile = "gfx/interface/advisors/ITA/idea_ITA_umberto_ii.png"
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MAN_aisin_gioro_yuyan"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_aisin_gioro_yuyan.png"
+	}
+}

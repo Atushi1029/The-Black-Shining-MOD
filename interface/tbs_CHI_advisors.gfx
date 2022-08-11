@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_CHI_wang_yu-yun"
+		texturefile = "gfx/interface/advisors/CHI/idea_CHI_wang_yu-yun.png"
+	}
+}

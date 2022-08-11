@@ -1,0 +1,20 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_SWE_carl_xvi_gustaf"
+		texturefile = "gfx/interface/advisors/SWE/idea_SWE_carl_xvi_gustaf.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_yngve_holmberg"
+		texturefile = "gfx/interface/advisors/SWE/idea_SWE_yngve_holmberg.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_SWE_Carl_XVI_Gustaf"
+		texturefile = "gfx/leaders/SWE/Portrait_SWE_Carl_XVI_Gustaf.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SWE_Yngve_Holmberg"
+		texturefile = "gfx/leaders/SWE/Portrait_SWE_Yngve_Holmberg.png"
+	}
+}

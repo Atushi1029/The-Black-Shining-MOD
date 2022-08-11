@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_NOR_erik_gjems-onstad"
+		texturefile = "gfx/interface/advisors/NOR/idea_NOR_erik_gjems-onstad.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_NOR_Erik_Gjems-Onstad"
+		texturefile = "gfx/leaders/NOR/Portrait_NOR_Erik_Gjems-Onstad.png"
+	}
+}

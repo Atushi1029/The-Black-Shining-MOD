@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_NID_Reinhold_Hanning"
+		texturefile = "gfx/interface/advisors/NID/idea_NID_Reinhold_Hanning.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_NID_Reinhold_Hanning"
+		texturefile = "gfx/leaders/NID/Portrait_NID_Reinhold_Hanning.png"
+	}
+}

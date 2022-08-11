@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_RUS_irina_yusupova"
+		texturefile = "gfx/interface/advisors/RUS/idea_RUS_irina_yusupova.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RUS_Irina_Yusupova"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Irina_Yusupova.png"
+	}
+}

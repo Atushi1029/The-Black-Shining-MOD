@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_GBR_Elizabeth_II"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Elizabeth_II.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Jeremy_Thorpe"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Jeremy_Thorpe.png"
+	}
+}
