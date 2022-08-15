@@ -332,8 +332,8 @@ EGY = {
 	color_ui = rgb { 114 47 55 }
 }
 PAL = {
-	color = rgb { 93 153 106 }
-	color_ui = rgb { 93 153 106 }
+	color = rgb { 140 0 0 }
+	color_ui = rgb { 140 0 0 }
 }
 LEB = {
 	color = rgb { 130 150 60 }
@@ -408,8 +408,8 @@ ANG = {
 	color_ui = rgb { 0 127 14 }
 }
 COG = {
-	color = rgb { 140 0 0 }
-	color_ui = rgb { 140 0 0 }
+	color = rgb { 87 8 37 }
+	color_ui = rgb { 87 8 37 }
 }
 MZB = {
 	color = rgb { 112 62 90 }

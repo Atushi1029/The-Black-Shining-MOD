@@ -2,29 +2,29 @@
 #oob = ""
 set_cosmetic_tag = SEN_republic
 set_starting_values = yes
-#recruit_character = 
+recruit_character = SEN_leopold_sedar_senghor
 set_convoys = 20
 add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = authority_democracy
+	ruling_party = radical_socialism
 	last_election = "1972.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	totalitarianism = 5
-	radical_socialism = 5
-	moderate_socialism = 5
-	social_democracy = 5
-	liberal_democracy = 5
-	social_conservatism = 5
-	authority_democracy = 40
-	paternal_autocracy = 5
-	national_corporatism = 5
-	national_socialism = 5
-	ultra_nationalism = 5
-	religious_nationalism = 5
-	transhumanism = 5
+	totalitarian_socialism = 20
+	radical_socialism = 80
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	social_conservatism = 0
+	authoritarian_democracy = 0
+	paternal_autocracy = 0
+	national_corporatism = 0
+	national_socialism = 0
+	ultra_nationalism = 0
+	religious_nationalism = 0
+	transhumanism = 0
 }

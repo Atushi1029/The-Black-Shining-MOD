@@ -1,0 +1,22 @@
+characters = {
+	LIB_frank_e_tolbert = {
+		name = LIB_frank_e_tolbert
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_LIB_Frank_E_Tolbert"
+				small = "GFX_idea_LIB_Frank_E_Tolbert"
+			}
+			army = {
+				large = "GFX_Portrait_LIB_Frank_E_Tolbert"
+				small = "GFX_idea_LIB_Frank_E_Tolbert"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FRANK_E_TOLBERT_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1980.4.22.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

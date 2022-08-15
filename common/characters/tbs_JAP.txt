@@ -132,7 +132,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KIYOSHI_UTSUMI_DESC"
-			ideology = authority_democracy_ideology
+			ideology = authoritarian_democracy_ideology
 			expire = "1991.3.12.1"
 			id = -1
 			traits = {}
@@ -227,6 +227,19 @@ characters = {
 			army = {
 				large = "GFX_Portrait_JAP_Misaburo_Kawasaki"
 				small = "GFX_idea_JAP_misaburo_kawasaki"
+			}
+		}
+	}
+	JAP_mitsu_kono = {
+		name = JAP_mitsu_kono
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Mitsu_Kono"
+				small = "GFX_idea_JAP_mitsu_kono"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Mitsu_Kono"
+				small = "GFX_idea_JAP_mitsu_kono"
 			}
 		}
 	}

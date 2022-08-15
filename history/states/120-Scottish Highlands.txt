@@ -9,9 +9,8 @@ state={
 	}
 
 	history={
-		owner = SCO
-		add_core_of = SCO
-		add_claim_by = GBR
+		owner = GBR
+		add_core_of = GBR
 		victory_points = {
 			6062 1 
 		}

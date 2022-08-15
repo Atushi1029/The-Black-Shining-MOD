@@ -1,0 +1,22 @@
+characters = {
+	GAB_omar_bongo = {
+		name = GAB_omar_bongo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GAB_Omar_Bongo"
+				small = "GFX_idea_GAB_Omar_Bongo"
+			}
+			army = {
+				large = "GFX_Portrait_GAB_Omar_Bongo"
+				small = "GFX_idea_GAB_Omar_Bongo"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_OMAR_BONGO_DESC"
+			ideology = national_corporatism_ideology
+			expire = "2009.6.8.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

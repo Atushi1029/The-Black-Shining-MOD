@@ -1,8 +1,8 @@
 spriteTypes = {
-	#Totalitarianism
+	#Totalitarian Socialism
 	spriteType = {
-		name = "GFX_ideology_totalitarianism_group"
-		texturefile = "gfx/interface/ideologies/totalitarianism.png"
+		name = "GFX_ideology_totalitarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/totalitarian_socialism.png"
 	}
 	#Radical Socialism
 	spriteType = {
@@ -45,10 +45,10 @@ spriteTypes = {
 		name = "GFX_ideology_silent_conservatism_ideology"
 		texturefile = "gfx/interface/ideologies/silent_conservatism.png"
 	}
-	#Authority Democracy
+	#Authoritarian Democracy
 	spriteType = {
-		name = "GFX_ideology_authority_democracy_group"
-		texturefile = "gfx/interface/ideologies/authority_democracy.png"
+		name = "GFX_ideology_authoritarian_democracy_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_dixiecrat_democracy_ideology"

@@ -8,19 +8,19 @@ add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = totalitarianism
+	ruling_party = totalitarian_socialism
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	totalitarianism = 70
+	totalitarian_socialism = 70
 	radical_socialism = 0
 	moderate_socialism = 0
 	social_democracy = 30
 	liberal_democracy = 0
 	social_conservatism = 0
-	authority_democracy = 0
+	authoritarian_democracy = 0
 	paternal_autocracy = 0
 	national_corporatism = 0
 	national_socialism = 0

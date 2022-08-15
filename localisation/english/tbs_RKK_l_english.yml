@@ -2,8 +2,8 @@
 #キャラクター
  RKK_siegfried_kasche:0 "Siegfried Kasche"
 #政党
- RKK_totalitarianism_party:0 "Anti-Nazi Resistance Movement"
- RKK_totalitarianism_party_long:0 "Anti-Nazi Resistance Movement"
+ RKK_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
+ RKK_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKK_radical_socialism_party:0 "Anti-Nazi Resistance Movement"
  RKK_radical_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKK_moderate_socialism_party:0 "Anti-Nazi Resistance Movement"
@@ -14,8 +14,8 @@
  RKK_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  RKK_social_conservatism_party:0 "Anti-Nazi Resistance Movement"
  RKK_social_conservatism_party_long:0 "Anti-Nazi Resistance Movement"
- RKK_authority_democracy_party:0 "NSDAP-R"
- RKK_authority_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
+ RKK_authoritarian_democracy_party:0 "NSDAP-R"
+ RKK_authoritarian_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  RKK_paternal_autocracy_party:0 "NSDAP-R"
  RKK_paternal_autocracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  RKK_national_corporatism_party:0 "NSDAP-R"

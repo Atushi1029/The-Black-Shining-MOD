@@ -33,7 +33,7 @@ has_socialist_government = {
 	custom_trigger_tooltip = {
 		tooltip = has_socialist_government_tt
 		OR = {
-			has_government = totalitarianism
+			has_government = totalitarian_socialism
 			has_government = radical_socialism
 			has_government = moderate_socialism
 		}
@@ -56,7 +56,7 @@ has_democratic_government = {
 			has_government = social_democracy
 			has_government = liberal_democracy
 			has_government = social_conservatism
-			has_government = authority_democracy
+			has_government = authoritarian_democracy
 		}
 	}
 }
@@ -64,7 +64,7 @@ has_authoritarian_government = {
 	custom_trigger_tooltip = {
 		tooltip = has_authoritarian_government_tt
 		OR = {
-			has_government = authority_democracy
+			has_government = authoritarian_democracy
 			has_government = paternal_autocracy
 			has_government = national_corporatism
 			has_government = national_socialism
@@ -93,7 +93,7 @@ has_right_democratic_government = {
 		OR = {
 			has_government = liberal_democracy
 			has_government = social_conservatism
-			has_government = authority_democracy
+			has_government = authoritarian_democracy
 		}
 	}
 }
@@ -107,10 +107,10 @@ has_left_democratic_government = {
 	}
 }
 #Coalitions
-has_a_coalition_with_totalitarianism = {
+has_a_coalition_with_totalitarian_socialism = {
 	custom_trigger_tooltip = {
-		tooltip = has_a_coalition_with_totalitarianism_tt
-		set_temp_variable = { coalition_target = token:totalitarianism }
+		tooltip = has_a_coalition_with_totalitarian_socialism_tt
+		set_temp_variable = { coalition_target = token:totalitarian_socialism }
 		is_in_array = { coalition_partners = coalition_target }
 	}
 }
@@ -149,10 +149,10 @@ has_a_coalition_with_social_conservatism = {
 		is_in_array = { coalition_partners = coalition_target }
 	}
 }
-has_a_coalition_with_authority_democracy = {
+has_a_coalition_with_authoritarian_democracy = {
 	custom_trigger_tooltip = {
-		tooltip = has_a_coalition_with_authority_democracy_tt
-		set_temp_variable = { coalition_target = token:authority_democracy }
+		tooltip = has_a_coalition_with_authoritarian_democracy_tt
+		set_temp_variable = { coalition_target = token:authoritarian_democracy }
 		is_in_array = { coalition_partners = coalition_target }
 	}
 }
@@ -200,13 +200,13 @@ has_a_coalition_with_transhumanism = {
 }
 has_sub-ideologies = {
 	NOT = {
-		has_country_leader_ideology = totalitarianism_ideology
+		has_country_leader_ideology = totalitarian_socialism_ideology
 		has_country_leader_ideology = radical_socialism_ideology
 		has_country_leader_ideology = moderate_socialism_ideology
 		has_country_leader_ideology = social_democracy_ideology
 		has_country_leader_ideology = liberal_democracy_ideology
 		has_country_leader_ideology = social_conservatism_ideology
-		has_country_leader_ideology = authority_democracy_ideology
+		has_country_leader_ideology = authoritarian_democracy_ideology
 		has_country_leader_ideology = paternal_autocracy_ideology
 		has_country_leader_ideology = national_corporatism_ideology
 		has_country_leader_ideology = national_socialism_ideology

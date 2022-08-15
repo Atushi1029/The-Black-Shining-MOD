@@ -1,0 +1,22 @@
+characters = {
+	GNA_ahmed_sekou_toure = {
+		name = GNA_ahmed_sekou_toure
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GNA_Ahmed_Sekou_Toure"
+				small = "GFX_idea_GNA_Ahmed_Sekou_Toure"
+			}
+			army = {
+				large = "GFX_Portrait_GNA_Ahmed_Sekou_Toure"
+				small = "GFX_idea_GNA_Ahmed_Sekou_Toure"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AHMED_SEKOU_TOURE_DESC"
+			ideology = radical_socialism_ideology
+			expire = "1984.3.26.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

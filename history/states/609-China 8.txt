@@ -7,10 +7,9 @@ state={
 	state_category = town
 
 	history={
-		owner = JAP
-		add_core_of = JAP
+		owner = MAN
+		add_core_of = MAN
 		add_claim_by = CHI
-		set_state_flag = man_core_states
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

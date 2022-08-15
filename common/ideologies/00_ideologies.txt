@@ -1,7 +1,7 @@
 ideologies = {
-	totalitarianism = {
+	totalitarian_socialism = {
 		types = {
-			totalitarianism_ideology = {}
+			totalitarian_socialism_ideology = {}
 		}
 		color = { 127 0 0 }
 		rules = {
@@ -153,9 +153,9 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
-	authority_democracy = {
+	authoritarian_democracy = {
 		types = {
-			authority_democracy_ideology = {}
+			authoritarian_democracy_ideology = {}
 			dixiecrat_democracy_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 110 110 110 }

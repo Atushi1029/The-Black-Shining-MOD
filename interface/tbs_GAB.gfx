@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_GAB_Omar_Bongo"
+		texturefile = "gfx/interface/advisors/GAB/idea_GAB_Omar_Bongo.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_GAB_Omar_Bongo"
+		texturefile = "gfx/leaders/GAB/Portrait_GAB_Omar_Bongo.png"
+	}
+}

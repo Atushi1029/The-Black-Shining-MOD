@@ -13,7 +13,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_WANG_YU-YUN_DESC"
-			ideology = authority_democracy_ideology
+			ideology = authoritarian_democracy_ideology
 			expire = "2009.8.17.1"
 			id = -1
 			traits = {}

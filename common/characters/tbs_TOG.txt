@@ -1,0 +1,22 @@
+characters = {
+	TOG_gnassingbe_eyadema = {
+		name = TOG_gnassingbe_eyadema
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_TOG_Gnassingbe_Eyadema"
+				small = "GFX_idea_TOG_Gnassingbe_Eyadema"
+			}
+			army = {
+				large = "GFX_Portrait_TOG_Gnassingbe_Eyadema"
+				small = "GFX_idea_TOG_Gnassingbe_Eyadema"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GNASSINGBE_EYADEMA_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "2005.2.5.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -257,6 +257,10 @@
  JAP_greater_empire:0 "Dai-Nihon Teikoku"
  JAP_greater_empire_DEF:0 "the Dai-Nihon Teikoku"
  JAP_greater_empire_ADJ:0 "Japanese"
+#Jordan
+ JOR_hashemite_kingdom:0 "Hashemite Kingdom of Jordan"
+ JOR_hashemite_kingdom_DEF:0 "the Hashemite Kingdom of Jordan"
+ JOR_hashemite_kingdom_ADJ:0 "Jordanian"
 #カザフスタン
  KAZ_republic:0 "Republic of Kazakhstan"
  KAZ_republic_DEF:0 "the Republic of Kazakhstan"
@@ -333,10 +337,10 @@
  PAK_islamic_republic:0 "Islamic Republic of Pakistan"
  PAK_islamic_republic_DEF:0 "the Islamic Republic of Pakistan"
  PAK_islamic_republic_ADJ:0 "Pakistani"
-#パレスチナ
- PAL_republic:0 "Republic of Palestine"
- PAL_republic_DEF:0 "the Republic of Palestine"
- PAL_republic_ADJ:0 "Palestinian"
+#Palestine
+ PAL_state:0 "State of Palestine"
+ PAL_state_DEF:0 "the State of Palestine"
+ PAL_state_ADJ:0 "Palestinian"
 #パナマ
  PAN_republic:0 "Republic of Panama"
  PAN_republic_DEF:0 "the Republic of Panama"
@@ -399,10 +403,6 @@
  SAU_kingdom:0 "Kingdom of Saudi Arabia"
  SAU_kingdom_DEF:0 "the Kingdom of Saudi Arabia"
  SAU_kingdom_ADJ:0 "Saudi Arabian"
-#スコットランド
- SCO_republic:0 "Republic of Scotland"
- SCO_republic_DEF:0 "the Republic of Scotland"
- SCO_republic_ADJ:0 "Scottish"
 #セネガル
  SEN_republic:0 "Republic of Senegal"
  SEN_republic_DEF:0 "the Republic of Senegal"
@@ -439,10 +439,6 @@
  SWI_federation:0 "Federation of Switzerland"
  SWI_federation_DEF:0 "the Federation of Switzerland"
  SWI_federation_ADJ:0 "Swiss"
-#シリア
- SYR_republic:0 "Republic of Syria"
- SYR_republic_DEF:0 "the Republic of Syria"
- SYR_republic_ADJ:0 "Syrian"
 #タジキスタン
  TAJ_soviet_socialist_republic:0 "Soviet Socialist Republic of Tajikistan"
  TAJ_soviet_socialist_republic_DEF:0 "the Soviet Socialist Republic of Tajikistan"

@@ -2,8 +2,8 @@
 #キャラクター
  RKM_martin_mussgnug:0 "Martin Mußgnug"
 #政党
- RKM_totalitarianism_party:0 "Anti-Nazi Resistance Movement"
- RKM_totalitarianism_party_long:0 "Anti-Nazi Resistance Movement"
+ RKM_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
+ RKM_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKM_radical_socialism_party:0 "Anti-Nazi Resistance Movement"
  RKM_radical_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKM_moderate_socialism_party:0 "Anti-Nazi Resistance Movement"
@@ -14,8 +14,8 @@
  RKM_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  RKM_social_conservatism_party:0 "Anti-Nazi Resistance Movement"
  RKM_social_conservatism_party_long:0 "Anti-Nazi Resistance Movement"
- RKM_authority_democracy_party:0 "Anti-Nazi Resistance Movement"
- RKM_authority_democracy_party_long:0 "Anti-Nazi Resistance Movement"
+ RKM_authoritarian_democracy_party:0 "Anti-Nazi Resistance Movement"
+ RKM_authoritarian_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  RKM_paternal_autocracy_party:0 "Anti-Nazi Resistance Movement"
  RKM_paternal_autocracy_party_long:0 "Anti-Nazi Resistance Movement"
  RKM_national_corporatism_party:0 "NSDAP-MS"

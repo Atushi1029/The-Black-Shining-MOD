@@ -8,31 +8,23 @@ add_ideas = {
 	ITA_mon_umberto_ii
 }
 set_politics = {
-	ruling_party = authority_democracy
+	ruling_party = authoritarian_democracy
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	totalitarianism = 0
+	totalitarian_socialism = 0
 	radical_socialism = 0
 	moderate_socialism = 0
 	social_democracy = 10
 	liberal_democracy = 10
 	social_conservatism = 10
-	authority_democracy = 60
+	authoritarian_democracy = 60
 	paternal_autocracy = 0
 	national_corporatism = 10
 	national_socialism = 0
 	ultra_nationalism = 0
 	religious_nationalism = 0
 	transhumanism = 0
-}
-set_autonomy = {
-	target = PAL
-	autonomous_state = autonomy_dominion
-}
-set_autonomy = {
-	target = SYR
-	autonomous_state = autonomy_dominion
 }

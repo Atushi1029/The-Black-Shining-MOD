@@ -15,13 +15,13 @@ add_ideas = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		totalitarianism = 7
+		totalitarian_socialism = 7
 		radical_socialism = 0
 		moderate_socialism = 0
 		social_democracy = 6
 		liberal_democracy = 0
 		social_conservatism = 3
-		authority_democracy = 4
+		authoritarian_democracy = 4
 		paternal_autocracy = 10
 		national_corporatism = 55
 		national_socialism = 15

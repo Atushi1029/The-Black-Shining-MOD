@@ -1,0 +1,22 @@
+characters = {
+	AFG_mohammed_zahir_shah = {
+		name = AFG_mohammed_zahir_shah
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_AFG_Mohammed_Zahir_Shah"
+				small = "GFX_idea_AFG_mohammed_zahir_shah"
+			}
+			army = {
+				large = "GFX_Portrait_AFG_Mohammed_Zahir_Shah"
+				small = "GFX_idea_AFG_mohammed_zahir_shah"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "2007.7.23.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

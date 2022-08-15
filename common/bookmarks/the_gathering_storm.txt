@@ -18,7 +18,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_THE_BLACK_SHINING_DESC"
-			ideology = authority_democracy
+			ideology = authoritarian_democracy
 			ideas = {
 				
 			}
@@ -38,7 +38,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_THE_BLACK_SHINING_DESC"
-			ideology = totalitarianism
+			ideology = totalitarian_socialism
 			ideas = {
 				
 			}
@@ -48,7 +48,7 @@ bookmarks = {
 		}
 		"CHI"={
 			history = "CHI_THE_BLACK_SHINING_DESC"
-			ideology = authority_democracy
+			ideology = authoritarian_democracy
 			ideas = {
 				
 			}

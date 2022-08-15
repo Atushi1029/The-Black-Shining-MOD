@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_MRT_Mustafa_Ould_Salek"
+		texturefile = "gfx/interface/advisors/MRT/idea_MRT_Mustafa_Ould_Salek.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_MRT_Mustafa_Ould_Salek"
+		texturefile = "gfx/leaders/MRT/Portrait_MRT_Mustafa_Ould_Salek.png"
+	}
+}

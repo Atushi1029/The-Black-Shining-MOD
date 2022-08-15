@@ -2,8 +2,8 @@
 #キャラクター
  NID_reinhold_hanning:0 "Reinhold Hanning"
 #政党
- NID_totalitarianism_party:0 "Anti-Nazi Resistance Movement"
- NID_totalitarianism_party_long:0 "Anti-Nazi Resistance Movement"
+ NID_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
+ NID_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  NID_radical_socialism_party:0 "Anti-Nazi Resistance Movement"
  NID_radical_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  NID_moderate_socialism_party:0 "Anti-Nazi Resistance Movement"
@@ -14,8 +14,8 @@
  NID_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  NID_social_conservatism_party:0 "Anti-Nazi Resistance Movement"
  NID_social_conservatism_party_long:0 "Anti-Nazi Resistance Movement"
- NID_authority_democracy_party:0 "NSDAP-R"
- NID_authority_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
+ NID_authoritarian_democracy_party:0 "NSDAP-R"
+ NID_authoritarian_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  NID_paternal_autocracy_party:0 "NSDAP-R"
  NID_paternal_autocracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  NID_national_corporatism_party:0 "NSDAP-R"

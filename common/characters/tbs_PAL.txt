@@ -1,0 +1,22 @@
+characters = {
+	PAL_george_habash = {
+		name = PAL_george_habash
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PAL_George_Habash"
+				small = "GFX_idea_PAL_George_Habash"
+			}
+			army = {
+				large = "GFX_Portrait_PAL_George_Habash"
+				small = "GFX_idea_PAL_George_Habash"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GEORGE_HABASH_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "2008.1.26.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

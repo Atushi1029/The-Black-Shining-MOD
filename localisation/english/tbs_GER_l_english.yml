@@ -2,8 +2,8 @@
 #キャラクター
  GER_heinz_knoke:0 "Heinz Knoke"
 #政党
- GER_totalitarianism_party:0 "Anti-Nazi Resistance Movement"
- GER_totalitarianism_party_long:0 "Anti-Nazi Resistance Movement"
+ GER_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
+ GER_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  GER_radical_socialism_party:0 "Anti-Nazi Resistance Movement"
  GER_radical_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  GER_moderate_socialism_party:0 "Anti-Nazi Resistance Movement"
@@ -14,8 +14,8 @@
  GER_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  GER_social_conservatism_party:0 "Anti-Nazi Resistance Movement"
  GER_social_conservatism_party_long:0 "Anti-Nazi Resistance Movement"
- GER_authority_democracy_party:0 "NSDAP-L"
- GER_authority_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Leftists"
+ GER_authoritarian_democracy_party:0 "NSDAP-L"
+ GER_authoritarian_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Leftists"
  GER_paternal_autocracy_party:0 "Wehrmacht"
  GER_paternal_autocracy_party_long:0 "Wehrmacht"
  GER_national_corporatism_party:0 "NSDAP-R"

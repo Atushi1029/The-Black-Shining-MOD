@@ -1,8 +1,8 @@
 defined_text = {
 	name = GetRulingPartyIcon
 	text = {
-		trigger = { has_government = totalitarianism }
-		localization_key = "GFX_totalitarianism_small"
+		trigger = { has_government = totalitarian_socialism }
+		localization_key = "GFX_totalitarian_socialism_small"
 	}
 	text = {
 		trigger = { has_government = radical_socialism }
@@ -25,8 +25,8 @@ defined_text = {
 		localization_key = "GFX_social_conservatism_small"
 	}
 	text = {
-		trigger = { has_government = authority_democracy }
-		localization_key = "GFX_authority_democracy_small"
+		trigger = { has_government = authoritarian_democracy }
+		localization_key = "GFX_authoritarian_democracy_small"
 	}
 	text = {
 		trigger = { has_government = paternal_autocracy }
@@ -53,8 +53,8 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologyTitle
 	text = {
-		trigger = { has_government = totalitarianism }
-		localization_key = totalitarianism
+		trigger = { has_government = totalitarian_socialism }
+		localization_key = totalitarian_socialism
 	}
 	text = {
 		trigger = { has_government = radical_socialism }
@@ -77,8 +77,8 @@ defined_text = {
 		localization_key = social_conservatism
 	}
 	text = {
-		trigger = { has_government = authority_democracy }
-		localization_key = authority_democracy
+		trigger = { has_government = authoritarian_democracy }
+		localization_key = authoritarian_democracy
 	}
 	text = {
 		trigger = { has_government = paternal_autocracy }
@@ -105,8 +105,8 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologyDesc
 	text = {
-		trigger = { has_government = totalitarianism }
-		localization_key = totalitarianism_ideology_desc
+		trigger = { has_government = totalitarian_socialism }
+		localization_key = totalitarian_socialism_ideology_desc
 	}
 	text = {
 		trigger = { has_government = radical_socialism }
@@ -129,8 +129,8 @@ defined_text = {
 		localization_key = social_conservatism_ideology_desc
 	}
 	text = {
-		trigger = { has_government = authority_democracy }
-		localization_key = authority_democracy_ideology_desc
+		trigger = { has_government = authoritarian_democracy }
+		localization_key = authoritarian_democracy_ideology_desc
 	}
 	text = {
 		trigger = { has_government = paternal_autocracy }
@@ -158,8 +158,8 @@ defined_text = {
 	name = GetTotCoalition
 	text = {
 		trigger = {
-			has_a_coalition_with_totalitarianism = yes
-			NOT = { has_government = totalitarianism }
+			has_a_coalition_with_totalitarian_socialism = yes
+			NOT = { has_government = totalitarian_socialism }
 		}
 		localization_key = "coalition_tot"
 	}
@@ -218,8 +218,8 @@ defined_text = {
 	name = GetAutDemCoalition
 	text = {
 		trigger = {
-			has_a_coalition_with_authority_democracy = yes
-			NOT = { has_government = authority_democracy }
+			has_a_coalition_with_authoritarian_democracy = yes
+			NOT = { has_government = authoritarian_democracy }
 		}
 		localization_key = "coalition_autdem"
 	}
@@ -289,13 +289,13 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_a_coalition_with_totalitarianism = yes
+				has_a_coalition_with_totalitarian_socialism = yes
 				has_a_coalition_with_radical_socialism = yes
 				has_a_coalition_with_moderate_socialism = yes
 				has_a_coalition_with_social_democracy = yes
 				has_a_coalition_with_liberal_democracy = yes
 				has_a_coalition_with_social_conservatism = yes
-				has_a_coalition_with_authority_democracy = yes
+				has_a_coalition_with_authoritarian_democracy = yes
 				has_a_coalition_with_paternal_autocracy = yes
 				has_a_coalition_with_national_corporatism = yes
 				has_a_coalition_with_national_socialism = yes

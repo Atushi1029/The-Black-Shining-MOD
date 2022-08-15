@@ -12,13 +12,13 @@ continent = {
 	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	political = {
-		totalitarianism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		radical_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		moderate_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		authority_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -33,13 +33,13 @@ continent = {
 	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	political = {
-		totalitarianism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		radical_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		moderate_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		authority_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -54,13 +54,13 @@ continent = {
 	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	political = {
-		totalitarianism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		radical_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		moderate_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		authority_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -75,13 +75,13 @@ continent = {
 	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	political = {
-		totalitarianism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		radical_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		moderate_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		authority_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -96,13 +96,13 @@ continent = {
 	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	political = {
-		totalitarianism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		radical_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		moderate_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		authority_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -117,13 +117,13 @@ continent = {
 	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	political = {
-		totalitarianism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		radical_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		moderate_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		authority_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -138,13 +138,13 @@ continent = {
 	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 	political = {
-		totalitarianism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		radical_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		moderate_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		social_conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		authority_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }

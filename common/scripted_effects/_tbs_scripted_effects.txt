@@ -104,15 +104,15 @@ end_coalition = {
 		clear_array = coalition_partners
 	}
 }
-join_the_coalition_totalitarianism = {
-	custom_effect_tooltip = join_the_coalition_totalitarianism_tt
+join_the_coalition_totalitarian_socialism = {
+	custom_effect_tooltip = join_the_coalition_totalitarian_socialism_tt
 	hidden_effect = {
 		if = {
 			limit = {
-				has_a_coalition_with_totalitarianism = no
-				NOT = { has_government = totalitarianism }
+				has_a_coalition_with_totalitarian_socialism = no
+				NOT = { has_government = totalitarian_socialism }
 			}
-			set_temp_variable = { coalition_partner_var = token:totalitarianism }
+			set_temp_variable = { coalition_partner_var = token:totalitarian_socialism }
 			add_to_coalition = yes
 		}
 	}
@@ -182,15 +182,15 @@ join_the_coalition_social_conservatism = {
 		}
 	}
 }
-join_the_coalition_authority_democracy = {
-	custom_effect_tooltip = join_the_coalition_authority_democracy_tt
+join_the_coalition_authoritarian_democracy = {
+	custom_effect_tooltip = join_the_coalition_authoritarian_democracy_tt
 	hidden_effect = {
 		if = {
 			limit = {
-				has_a_coalition_with_authority_democracy = no
-				NOT = { has_government = authority_democracy }
+				has_a_coalition_with_authoritarian_democracy = no
+				NOT = { has_government = authoritarian_democracy }
 			}
-			set_temp_variable = { coalition_partner_var = token:authority_democracy }
+			set_temp_variable = { coalition_partner_var = token:authoritarian_democracy }
 			add_to_coalition = yes
 		}
 	}
@@ -273,12 +273,12 @@ join_the_coalition_transhumanism = {
 		}
 	}
 }
-leave_the_coalition_totalitarianism = {
-	custom_effect_tooltip = leave_the_coalition_totalitarianism_tt
+leave_the_coalition_totalitarian_socialism = {
+	custom_effect_tooltip = leave_the_coalition_totalitarian_socialism_tt
 	hidden_effect = {
 		if = {
-			limit = { has_a_coalition_with_totalitarianism = yes }
-			set_temp_variable = { coalition_partner_var = token:totalitarianism }
+			limit = { has_a_coalition_with_totalitarian_socialism = yes }
+			set_temp_variable = { coalition_partner_var = token:totalitarian_socialism }
 			remove_from_coalition = yes
 		}
 	}
@@ -333,12 +333,12 @@ leave_the_coalition_social_conservatism = {
 		}
 	}
 }
-leave_the_coalition_authority_democracy = {
-	custom_effect_tooltip = leave_the_coalition_authority_democracy_tt
+leave_the_coalition_authoritarian_democracy = {
+	custom_effect_tooltip = leave_the_coalition_authoritarian_democracy_tt
 	hidden_effect = {
 		if = {
-			limit = { has_a_coalition_with_authority_democracy = yes }
-			set_temp_variable = { coalition_partner_var = token:authority_democracy }
+			limit = { has_a_coalition_with_authoritarian_democracy = yes }
+			set_temp_variable = { coalition_partner_var = token:authoritarian_democracy }
 			remove_from_coalition = yes
 		}
 	}
@@ -442,12 +442,9 @@ set_starting_values = {
 			OR = {
 				tag = AST
 				tag = CAN
-				tag = CHI
 				tag = GER
 				tag = ITA
 				tag = JAP
-				tag = RAJ
-				tag = RKU
 				tag = STO
 				tag = USA
 			}
@@ -562,6 +559,7 @@ set_starting_values = {
 				tag = BOL
 				tag = BRA
 				tag = BUL
+				tag = CHI
 				tag = COL
 				tag = FIN
 				tag = FRA
@@ -573,14 +571,15 @@ set_starting_values = {
 				tag = NZL
 				tag = PER
 				tag = PHI
+				tag = RAJ
 				tag = RKK
 				tag = RKO
+				tag = RKU
 				tag = RLA
 				tag = ROM
 				tag = RUS
 				tag = SAF
 				tag = SAU
-				tag = SCO
 				tag = SOV
 				tag = SPR
 				tag = SWE
@@ -619,13 +618,16 @@ set_starting_values = {
 				tag = EGY
 				tag = ETH
 				tag = FER
+				tag = GAB
 				tag = INS
 				tag = IRQ
+				tag = JOR
 				tag = KAZ
 				tag = KOM
 				tag = MAF
 				tag = MAL
 				tag = MEN
+				tag = NGR
 				tag = NOR
 				tag = OMA
 				tag = PAK
@@ -637,7 +639,6 @@ set_starting_values = {
 				tag = SER
 				tag = SLO
 				tag = SWI
-				tag = SYR
 				tag = TRA
 				tag = UGA
 			}
@@ -700,12 +701,12 @@ set_starting_values = {
 		limit = {
 			OR = {
 				tag = ALG
+				tag = JOR
 				tag = MOR
 				tag = OMA
 				tag = PAL
 				tag = QAT
 				tag = SAU
-				tag = SYR
 				tag = YEM
 			}
 		}

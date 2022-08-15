@@ -1,0 +1,22 @@
+characters = {
+	CHA_kalthouma_nguembang = {
+		name = CHA_kalthouma_nguembang
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CHA_Kalthouma_Nguembang"
+				small = "GFX_idea_CHA_Kalthouma_Nguembang"
+			}
+			army = {
+				large = "GFX_Portrait_CHA_Kalthouma_Nguembang"
+				small = "GFX_idea_CHA_Kalthouma_Nguembang"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KALTHOUMA_NGUEMBANG_DESC"
+			ideology = radical_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

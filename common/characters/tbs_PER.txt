@@ -1,0 +1,22 @@
+characters = {
+	PER_mohammad_reza_pahlavi = {
+		name = PER_mohammad_reza_pahlavi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
+				small = "GFX_idea_PER_Mohammad_Reza_Pahlavi"
+			}
+			army = {
+				large = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
+				small = "GFX_idea_PER_Mohammad_Reza_Pahlavi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MOHAMMAD_REZA_PAHLAVI_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1980.7.27.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

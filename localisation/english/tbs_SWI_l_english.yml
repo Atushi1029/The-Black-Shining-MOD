@@ -2,8 +2,8 @@
 #Characters
  SWI_federal_council:0 "General Council"
 #政党
- SWI_totalitarianism_party:0 "KPS"
- SWI_totalitarianism_party_long:0 "Kommunistische Partei der Schweiz"
+ SWI_totalitarian_socialism_party:0 "KPS"
+ SWI_totalitarian_socialism_party_long:0 "Kommunistische Partei der Schweiz"
  SWI_radical_socialism_party:0 "KPS"
  SWI_radical_socialism_party_long:0 "Kommunistische Partei der Schweiz"
  SWI_moderate_socialism_party:0 "KPS"
@@ -14,8 +14,8 @@
  SWI_liberal_democracy_party_long:0 "General Council"
  SWI_social_conservatism_party:0 "General Council"
  SWI_social_conservatism_party_long:0 "General Council"
- SWI_authority_democracy_party:0 "General Council"
- SWI_authority_democracy_party_long:0 "General Council"
+ SWI_authoritarian_democracy_party:0 "General Council"
+ SWI_authoritarian_democracy_party_long:0 "General Council"
  SWI_paternal_autocracy_party:0 "Schweizer Armee"
  SWI_paternal_autocracy_party_long:0 "Schweizer Armee"
  SWI_national_corporatism_party:0 "Schweizer Armee"

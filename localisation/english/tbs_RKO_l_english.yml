@@ -2,8 +2,8 @@
 #キャラクター
  RKO_willi_herold:0 "Willi herold"
 #政党
- RKO_totalitarianism_party:0 "Anti-Nazi Resistance Movement"
- RKO_totalitarianism_party_long:0 "Anti-Nazi Resistance Movement"
+ RKO_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
+ RKO_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKO_radical_socialism_party:0 "Anti-Nazi Resistance Movement"
  RKO_radical_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKO_moderate_socialism_party:0 "Anti-Nazi Resistance Movement"
@@ -14,8 +14,8 @@
  RKO_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  RKO_social_conservatism_party:0 "Anti-Nazi Resistance Movement"
  RKO_social_conservatism_party_long:0 "Anti-Nazi Resistance Movement"
- RKO_authority_democracy_party:0 "NSDAP-R"
- RKO_authority_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
+ RKO_authoritarian_democracy_party:0 "NSDAP-R"
+ RKO_authoritarian_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  RKO_paternal_autocracy_party:0 "NSDAP-R"
  RKO_paternal_autocracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  RKO_national_corporatism_party:0 "NSDAP-R"

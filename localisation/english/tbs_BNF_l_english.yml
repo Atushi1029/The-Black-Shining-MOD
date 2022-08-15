@@ -2,8 +2,8 @@
 #キャラクター
  BNF_josef_mengele:0 "Josef Mengele"
 #政党
- BNF_totalitarianism_party:0 "Anti-Nazi Resistance Movement"
- BNF_totalitarianism_party_long:0 "Anti-Nazi Resistance Movement"
+ BNF_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
+ BNF_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  BNF_radical_socialism_party:0 "Anti-Nazi Resistance Movement"
  BNF_radical_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  BNF_moderate_socialism_party:0 "Anti-Nazi Resistance Movement"
@@ -14,8 +14,8 @@
  BNF_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  BNF_social_conservatism_party:0 "Anti-Nazi Resistance Movement"
  BNF_social_conservatism_party_long:0 "Anti-Nazi Resistance Movement"
- BNF_authority_democracy_party:0 "NSDAP-R"
- BNF_authority_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
+ BNF_authoritarian_democracy_party:0 "NSDAP-R"
+ BNF_authoritarian_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  BNF_paternal_autocracy_party:0 "NSDAP-R"
  BNF_paternal_autocracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  BNF_national_corporatism_party:0 "NSDAP-R"

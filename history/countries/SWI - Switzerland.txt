@@ -14,13 +14,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	totalitarianism = 4
+	totalitarian_socialism = 4
 	radical_socialism = 3
 	moderate_socialism = 0
 	social_democracy = 7
 	liberal_democracy = 17
 	social_conservatism = 57
-	authority_democracy = 0
+	authoritarian_democracy = 0
 	paternal_autocracy = 12
 	national_corporatism = 0
 	national_socialism = 0

@@ -57,6 +57,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_misaburo_kawasaki.png"
 	}
 	spriteType = {
+		name = "GFX_idea_JAP_mitsu_kono"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_mitsu_kono.png"
+	}
+	spriteType = {
 		name = "GFX_idea_JAP_okinori_kaya"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_okinori_kaya.png"
 	}
@@ -148,6 +152,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_JAP_Misaburo_Kawasaki"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Misaburo_Kawasaki.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Mitsu_Kono"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Mitsu_Kono.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_JAP_Okinori_Kaya"

@@ -1,4 +1,4 @@
-version="1.11.12"
+version="1.11.*"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -32,4 +32,6 @@ replace_path="history/units"
 replace_path="map"
 replace_path="portraits"
 name="The Black Shining"
-supported_version="1.11.12"
+supported_version="1.11.*"
+#Special Thanks to Gerrade
+#+JP Satisfying Statesmod "https://steamcommunity.com/sharedfiles/filedetails/?id=2673259461"
