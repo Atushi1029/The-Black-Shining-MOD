@@ -32,4 +32,37 @@ characters = {
 			traits = {}
 		}
 	}
+	GBR_john_kingsley_read = {
+		name = GBR_john_kingsley_read
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_John_Kingsley_Read"
+				small = "GFX_idea_GBR_john_kingsley_read"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_John_Kingsley_Read"
+				small = "GFX_idea_GBR_john_kingsley_read"
+			}
+		}
+	}
+	GBR_roy_painter = {
+		name = GBR_roy_painter
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Roy_Painter"
+				small = "GFX_idea_GBR_roy_painter"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Roy_Painter"
+				small = "GFX_idea_GBR_roy_painter"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ROY_PAINTER_DESC"
+			ideology = national_corporatism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

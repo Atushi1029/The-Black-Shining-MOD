@@ -1,0 +1,36 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_GBR_elizabeth_ii"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_elizabeth_ii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_jeremy_thorpe"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_jeremy_thorpe.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_john_kingsley_read"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_john_kingsley_read.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_roy_painter"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_roy_painter.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_GBR_Elizabeth_II"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Elizabeth_II.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Jeremy_Thorpe"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Jeremy_Thorpe.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_John_Kingsley_Read"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_John_Kingsley_Read.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Roy_Painter"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Roy_Painter.png"
+	}
+}

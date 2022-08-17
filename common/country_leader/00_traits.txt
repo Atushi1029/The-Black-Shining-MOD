@@ -3849,7 +3849,7 @@ leader_traits = {
 		random = no
 		#sprite = 13
 		political_power_factor = 0.15
-		social_democracy_drift = 0.05
+		#social_democracy_drift = 0.05
 	}
 	
 	national_propagandist = {

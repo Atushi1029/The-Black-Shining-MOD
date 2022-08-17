@@ -832,7 +832,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "name"
-				position = { x = 0 y = 10 }
+				position = { x = 0 y = 2 }
 				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
@@ -844,7 +844,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "traits"
-				position = { x = 0 y = 28 }
+				position = { x = 0 y = 20 }
 				font = "hoi_16mbs"
 				fixedsize = yes
 				text = ""

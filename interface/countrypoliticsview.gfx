@@ -637,27 +637,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/pol_view_background.png"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_political_leader"
+		name = "GFX_idea_slot_head_of_government"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_minister_of_interior"
+		name = "GFX_idea_slot_interior_minister"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_minister_of_foreign_affairs"
+		name = "GFX_idea_slot_foreign_minister"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_minister_of_finance"
+		name = "GFX_idea_slot_economy_minister"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_minister_of_justice"
+		name = "GFX_idea_slot_justice_minister"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_slot_minister_of_defence"
+		name = "GFX_idea_slot_security_minister"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
 	spriteType = {

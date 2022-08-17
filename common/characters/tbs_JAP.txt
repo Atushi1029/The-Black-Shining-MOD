@@ -12,24 +12,32 @@ characters = {
 			}
 		}
 	}
-	JAP_yokusan_political_committee = {
-		name = JAP_yokusan_political_committee
+	JAP_chifuyu_masaki = {
+		name = JAP_chifuyu_masaki
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
-				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+				large = "GFX_Portrait_JAP_Chifuyu_Masaki"
+				small = "GFX_idea_JAP_chifuyu_masaki"
 			}
 			army = {
-				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
-				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+				large = "GFX_Portrait_JAP_Chifuyu_Masaki"
+				small = "GFX_idea_JAP_chifuyu_masaki"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_YOKUSAN_POLITICAL_COMMITTEE_DESC"
-			ideology = transhumanism_ideology
-			expire = "1989.1.1.1"
-			id = -1
-			traits = {}
+		advisor = {
+			cost = -1
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_chifuyu_masaki_for_mso
+			allowed = { original_tag = JAP }
+			available = { has_government = moderate_socialism }
+			traits = {
+				tbs_foreign_minister
+				minister_moderate_socialist
+				tbs_great_compromiser
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_etsusaburo_shiina = {
@@ -63,6 +71,34 @@ characters = {
 				large = "GFX_Portrait_JAP_Hirohito"
 				small = "GFX_idea_JAP_hirohito"
 			}
+		}
+	}
+	JAP_ichio_asukata = {
+		name = JAP_ichio_asukata
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Ichio_Asukata"
+				small = "GFX_idea_JAP_ichio_asukata"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Ichio_Asukata"
+				small = "GFX_idea_JAP_ichio_asukata"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_ichio_asukata_eco_mso
+			allowed = { original_tag = JAP }
+			available = { has_government = moderate_socialism }
+			traits = {
+				tbs_economy_minister
+				minister_moderate_socialist
+				tbs_economic_reformer
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_japanese_national_political_reform_committee = {
@@ -117,6 +153,21 @@ characters = {
 			id = -1
 			traits = {}
 		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_kei_hoashi_hog_mso
+			allowed = { original_tag = JAP }
+			available = { has_government = moderate_socialism }
+			traits = {
+				tbs_head_of_government
+				minister_moderate_socialist
+				tbs_iron_fisted_brute
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_kiyoshi_utsumi = {
 		name = JAP_kiyoshi_utsumi
@@ -136,6 +187,34 @@ characters = {
 			expire = "1991.3.12.1"
 			id = -1
 			traits = {}
+		}
+	}
+	JAP_masaji_ogasawara = {
+		name = JAP_masaji_ogasawara
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masaji_Ogasawara"
+				small = "GFX_idea_JAP_masaji_ogasawara"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masaji_Ogasawara"
+				small = "GFX_idea_JAP_masaji_ogasawara"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_masaji_ogasawara_int_mso
+			allowed = { original_tag = JAP }
+			available = { has_government = moderate_socialism }
+			traits = {
+				tbs_interior_minister
+				minister_moderate_socialist
+				socdem_reformist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_masanosuke_ikeda = {
@@ -288,6 +367,21 @@ characters = {
 				small = "GFX_idea_JAP_seiichi_katsumata"
 			}
 		}
+		advisor = {
+			cost = -1
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_seiichi_katsumata_jus_mso
+			allowed = { original_tag = JAP }
+			available = { has_government = moderate_socialism }
+			traits = {
+				tbs_justice_minister
+				minister_moderate_socialist
+				tbs_plodding_bureaucrat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_shiro_hara = {
 		name = JAP_shiro_hara
@@ -373,6 +467,54 @@ characters = {
 				large = "GFX_Portrait_JAP_Takeo_Miki"
 				small = "GFX_idea_JAP_takeo_miki"
 			}
+		}
+	}
+	JAP_torazo_ninagawa = {
+		name = JAP_torazo_ninagawa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Torazo_Ninagawa"
+				small = "GFX_idea_JAP_torazo_ninagawa"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Torazo_Ninagawa"
+				small = "GFX_idea_JAP_torazo_ninagawa"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_torazo_ninagawa_sec_mso
+			allowed = { original_tag = JAP }
+			available = { has_government = moderate_socialism }
+			traits = {
+				tbs_security_minister
+				minister_moderate_socialist
+				tbs_pragmatic_statesman
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_yokusan_political_committee = {
+		name = JAP_yokusan_political_committee
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
+				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
+				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YOKUSAN_POLITICAL_COMMITTEE_DESC"
+			ideology = transhumanism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
 		}
 	}
 	JAP_yuichi_kori = {

@@ -41,7 +41,7 @@
  has_a_coalition_with_religious_nationalism_tt_NOT:0 "Is §Rnot§! in coalition with the §O$religious_nationalism$§!"
  unlock_focuses_tt:0 "§CThis focus will eventually be automatically bypassed and will unlock the other focuses.§!"
  has_a_coalition_with_transhumanism_tt_NOT:0 "Is §Rnot§! in coalition with the §C$transhumanism$§!"
- unlocks_after_event_tt: "§CThis focus will automatically unlock via event.§!"
+ unlocks_after_event_tt:0 "§CThis focus will automatically unlock via event.§!"
  japan_korea_tunnel_blocked_tt:0 "$JAPAN_KOREA_TUNNEL$ is blocked by [ROOT.GetName]."
  cannot_use_strait_of_dover_tunnel_tt:0 "§RCan't use $DOVER_STRAIT_TUNNEL$.§!"
  build_dover_strait_tunnel_tt:0 "Build the $DOVER_STRAIT_TUNNEL$."

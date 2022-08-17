@@ -155,13 +155,13 @@ defined_text = {
 	text = { localization_key = transhumanism_ideology_desc }
 }
 defined_text = {
-	name = GetTotCoalition
+	name = GetTotSocCoalition
 	text = {
 		trigger = {
 			has_a_coalition_with_totalitarian_socialism = yes
 			NOT = { has_government = totalitarian_socialism }
 		}
-		localization_key = "coalition_tot"
+		localization_key = coalition_totsoc
 	}
 }
 defined_text = {

@@ -3,13 +3,15 @@ oob = ""
 set_cosmetic_tag = JAP_greater_empire
 set_starting_values = yes
 recruit_character = JAP_aiichiro_fujiyama
-recruit_character = JAP_yokusan_political_committee
+recruit_character = JAP_chifuyu_masaki
 recruit_character = JAP_etsusaburo_shiina
 recruit_character = JAP_hirohito
+recruit_character = JAP_ichio_asukata
 recruit_character = JAP_japanese_national_political_reform_committee
 recruit_character = JAP_kakuei_tanaka
 recruit_character = JAP_kei_hoashi
 recruit_character = JAP_kiyoshi_utsumi
+recruit_character = JAP_masaji_ogasawara
 recruit_character = JAP_masanosuke_ikeda
 recruit_character = JAP_masashi_ishibashi
 recruit_character = JAP_masayoshi_ohira
@@ -25,15 +27,27 @@ recruit_character = JAP_shiro_nonaka
 recruit_character = JAP_soji_fujii
 recruit_character = JAP_suehiro_nishio
 recruit_character = JAP_takeo_miki
+recruit_character = JAP_torazo_ninagawa
+recruit_character = JAP_yokusan_political_committee
 recruit_character = JAP_yuichi_kori
 set_technology = { torpedo_cruiser = 1 }
 set_convoys = 20
 add_ideas = {
+	JAP_divided_public_opinion
+	JAP_humiliation_on_the_continent
+	JAP_military_conspiracy
+	JAP_setting_sun
 	JAP_mon_hirohito
+	JAP_chifuyu_masaki_for_mso
+	JAP_ichio_asukata_eco_mso
+	JAP_kei_hoashi_hog_mso
+	JAP_masaji_ogasawara_int_mso
+	JAP_seiichi_katsumata_jus_mso
+	JAP_torazo_ninagawa_sec_mso
 }
 set_politics = {
 	ruling_party = moderate_socialism
-	last_election = "1972.1.1"
+	last_election = "1968.12.10"
 	election_frequency = 48
 	elections_allowed = yes
 }

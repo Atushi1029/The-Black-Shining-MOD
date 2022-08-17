@@ -1,13 +1,22 @@
 ﻿l_english:
-#キャラクター
+#Advisor Descs
+ JAP_chifuyu_masaki_for_mso_desc:0 "Chifuyu Masaki had been a believer in socialism since he was a junior high school student and was repeatedly arrested for participating in the labour movement; he did not abandon these thoughts even after joining the Kikakuin in 1935 and falling prey to the Chian-Iji hō in 1941, rather than continuing his activities. He surprisingly declared a turn to the rightist, even though the repression of socialists in the country had become even stronger since the Hotsumi Ozaki incident in 1954. When he learnt of Japan's defeat, he immediately founded a leftist faction of Yokusankai together with Kei Hoashi and others, and now holds an important post. He is said to be pursuing the whereabouts of Sanzō Nosaka and Kenji Miyamoto, who were once under his care but were expelled due to oppression."
+ JAP_ichio_asukata_eco_mso_desc:0 "Ichio Asukata was not particularly well-born, but he grew up to be a gentle man and was trusted by many workers. He was a member of the Sangyō Hōkokukai after the end of WWII, and in 1956 he became a member of the Taisei Yokusankai - Reformists. Within the Reformists, he belonged to the Social Democrats' group, but suddenly moved to it when Japan was defeated by the Chinese and Kei Hoashi founded a leftist faction. He rose to the top of the government using his energy and the trust of the workers, and is now in charge of the Minister of State."
+ JAP_kei_hoashi_hog_mso_desc:0 "Kei Hoashi, he is such a genius that he seems to have been born with it all. Born in Ōita-ken, he threw himself into the student movement while studying at Tōkyō teikoku Daigaku and remained a staunch believer in socialism even after becoming a member of the Shōkō-shō. He espoused not only Marxism but even Nazism, and could be said to be Japan's greatest lover of socialism. After the end of WWII, he approached the conservative radicalist faction led by Nobusuke Kishi and acted as a brain of the rightists. However, when Japan was defeated by China, he founded a leftist faction as if he remembered his former mission, and won the 1968 yokusan election by a wide margin over the existing faction. In just four years, he succeeded in restoring Japan to a certain degree, using his brains, his skills and his knowledge of socialism. However, the military and ultra nationalists were wary of him. Rumours were circulating that they were working day by day to condemn Kei Hoashi to hell, and kei Hoashi himself could not afford to be complacent."
+ JAP_masaji_ogasawara_int_mso_desc:0 "Born in 1910 as the son of a farmer in Tsugaru, Masaji Ogasawara was actively involved in the labour movement from a young age. He was such a big figure that he cut off a policeman's arm with a Nihontō during the Ani-Maedamura Kosaku-sōgi, and a few years later was arrested in the Jinmin-sensen Jiken, and furthermore, during the war, under the Chian-Iji hō. After the war, he often took part in the labour movement and ran a bar in Tokyo, but lost his job during the 2nd Great Depression and was in rough shape when he met someone who changed his life. That man was the reformist heretic Kakuei Tanaka. He entrusted Ogasawara to the reformist chieftain at the time, Komakichi Matsuoka. Under Matsuoka, Ogasawara studied politics desperately and within just a few years became a major figure in wingnut politics. As soon as Japan was defeated and a leftist faction was founded by Kei Hoashi, he immediately joined it and now held a senior post in the government."
+ JAP_seiichi_katsumata_jus_mso_desc:0 "Seiichi Katsumata is a most unorthodox politician. Exposed to Marxism in high school, he went on to Kyōto Teikoku Daigaku and then to the Naikaku Chōsa-kyoku, where he met the now deceased Hiroo Wada. He eventually became an investigator for the Kikakuin, and when he was arrested in 1941 for the Kikakuin-Jiken, he spent the rest of his life in seclusion after his release. He thought he was going to end his life as it was, but it seems that fate was cruel. When Japan was defeated by China, Kei Hoashi went to the homes of former labour activists, communists and reform bureaucrats to found a leftist faction. While many refused due to old age, Seiichi Katsumata saw it as a great opportunity and agreed, and with the two of them as the initial members, the Taisei Yokusankai created the Leftist Faction."
+ JAP_torazo_ninagawa_sec_mso_desc:0 "Born into an ordinary family, Torazō Ninagawa wasn't originally this kind of man for the centre of government: in 1927 he became an assistant professor at Kyōto Teikoku Daigaku and, despite his fascination with Marxism, went to Germany to study National Socialism. It was not until the 2nd Great Depression that he turned completely red. The first thing that crossed his mind when he saw the Depression was... nothing else but his own student days studying Marxism. Since then, he has relearnt Marxian economics and joined the leftist faction founded by Kei Hoashi, and since then has studied geopolitics and defence techniques, and has now risen to head the Bōei-shō."
+#Characters
  JAP_aiichiro_fujiyama:0 "Aiichirō Fujiyama"
- JAP_yokusan_political_committee:0 "Yokusan Seiji Iinkai"
+ JAP_chifuyu_masaki:0 "Chifuyu Masaki"
  JAP_etsusaburo_shiina:0 "Etsusaburō Shiina"
  JAP_hirohito:0 "Hirohito"
+ JAP_ichio_asukata:0 "Ichio Asukata"
  JAP_japanese_national_political_reform_committee:0 "Nihon Kokusei Kaikaku Iinkai"
  JAP_kakuei_tanaka:0 "Kakuei Tanaka"
  JAP_kei_hoashi:0 "Kei Hoashi"
  JAP_kiyoshi_utsumi:0 "Kiyoshi Utsumi"
+ JAP_masaji_ogasawara:0 "Masaji Ogasawara"
  JAP_masanosuke_ikeda:0 "Masanosuke Ikeda"
  JAP_masashi_ishibashi:0 "Masashi Ishibashi"
  JAP_masayoshi_ohira:0 "Masayoshi Ōhira"
@@ -23,8 +32,19 @@
  JAP_soji_fujii:0 "Sōji Fujii"
  JAP_suehiro_nishio:0 "Suehiro Nishio"
  JAP_takeo_miki:0 "Takeo Miki"
+ JAP_torazo_ninagawa:0 "Torazō Ninagawa"
+ JAP_yokusan_political_committee:0 "Yokusan Seiji Iinkai"
  JAP_yuichi_kori:0 "Yūichi Kōri"
-#政党
+#Ideas
+ JAP_humiliation_on_the_continent:0 "Humiliation on the Continent"
+ JAP_humiliation_on_the_continent_desc:0 "We suffered a crushing defeat in the Chinese Revolt of 1960, the 3rd Sino-Japanese War, and since the Second Great Depression in 1958, the Dai-Nihon Teikoku had tried various means of economic recovery, but all had failed, and two years later China suddenly saw this as a time to revolt and launched an invasion of Manchuria and coastal areas. We suffered military confrontations and economic turmoil, and quickly lost many colonies. In the end, we were able to make peace using nuclear weapons as a shield, but the result was that our weakened image and cowardly diplomatic methods were exposed to the world. We will never make the same mistake again!"
+ JAP_divided_public_opinion:0 "Divided Public Opinion"
+ JAP_divided_public_opinion_desc:0 "Since the defeat in the 3rd Sino-Japanese war, there has been a decline in confidence in conservatives and the rightists in the country, according to the government. The country, which from the outset had an active movement to strengthen democracy, has been fully democratised since the defeat, but surprisingly it passed them by and even led to the seizure of power by the socialists, mainly with the support of the workers. Meanwhile, the country remains divided, with the wealthy and elites still worshipping conservatives, rightists and capitalists. We need to remain stronger on the world stage and bring the country together."
+ JAP_setting_sun:0 "Setting Sun"
+ JAP_setting_sun_desc:0 "Japan's defeat against China also led to uprisings in Vietnam and the Philippines. In addition, Thailand, Burma and India have abandoned us and moved closer to the US, Italy and China, and the Greater East Asia Co-Prosperity Sphere is now steadily waning. This would mean the end of Japanese hegemony, and would be like making known to the world our capitulation to the US, Italy and Germany. What must we do to ensure that we remain the sun shining on the world?"
+ JAP_military_conspiracy:0 "Military Conspiracy"
+ JAP_military_conspiracy_desc:0 "We handed over Kamchatka to Unit 731 in 1956. The reason was that Unit 731 was entrusted by the home country with the authority to develop biological, chemical and nuclear weapons. Since then, Kōdō-ha, Tōsei-ha, Manshū-ha and Sakura-kai, both Army and Navy, have shown disturbing behaviour. And the defeat in the Chinese Rebellion and the enforcement of the Army Military Administration against the Vietnam and Philippine insurgencies further aggravated them. If we falter in our fragile democratic politics, they may turn the Katana against us."
+#Parties
  JAP_totalitarian_socialism_party:0 "Sekimeikai"
  JAP_totalitarian_socialism_party_long:0 "All Japan Students Union Sekimeikai"
  JAP_radical_socialism_party:0 "Sekimeikai"
