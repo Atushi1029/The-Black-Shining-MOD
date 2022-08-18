@@ -349,3 +349,139 @@ adjacency_rule = {
 	icon = 3501
 	offset = { 0 0 0 }
 }
+adjacency_rule = {
+	name = DONGHAI_BRIDGE
+	contested = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 9974 12076 }
+	is_disabled = {
+		tooltip = cannot_use_donghai_bridge_tt
+		NOT = { has_global_flag = CAN_USE_DONGHAI_BRIDGE }
+	}
+	icon = 9974
+	offset = { 0 0 0 }
+}
+adjacency_rule = {
+	name = HKG-MCU_BRIDGE
+	contested = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 4189 10062 }
+	is_disabled = {
+		tooltip = cannot_use_hong-kong-zhuhai-macao_bridge_tt
+		NOT = { has_global_flag = CAN_USE_HKG-MCU_BRIDGE }
+	}
+	icon = 4189
+	offset = { 0 0 0 }
+}
+adjacency_rule = {
+	name = THE_GHAN_ROUTE
+	contested = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 4487 10927 }
+	is_disabled = {
+		tooltip = changed_ghan_route_tt
+		has_global_flag = CHANGED_GHAN_ROUTE
+	}
+	icon = 10927
+	offset = { 0 0 0 }
+}
+adjacency_rule = {
+	name = THE_NEW_GHAN_ROUTE
+	contested = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	required_provinces = { 4487 8165 }
+	is_disabled = {
+		tooltip = not_changed_ghan_route_tt
+		NOT = { has_global_flag = CHANGED_GHAN_ROUTE }
+	}
+	icon = 8165
+	offset = { 0 0 0 }
+}

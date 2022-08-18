@@ -62,6 +62,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11985;1025;sea;7932;-1;-1;-1;-1;;Japan-Kyushu
 4094;7212;sea;8791;-1;-1;-1;-1;;Shikoku-Chugoku
 9965;7072;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
+4179;1092;sea;8791;-1;-1;-1;-1;;Shikoku-Chugoku
 1399;1515;sea;220;-1;-1;-1;-1;;Kurils 1
 1515;13037;sea;5614;-1;-1;-1;-1;;Kurils 2
 13037;4646;sea;4465;-1;-1;-1;-1;;Kurils-Hokkaido
@@ -111,7 +112,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10007;10122;sea;7226;-1;-1;-1;-1;;Rhodes-Turkey
 9833;11829;sea;5412;-1;-1;-1;-1;;Bosphorus
 9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
-9859;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
+6873;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
 10011;7110;sea;2708;4825;1219;-1;-1;;Tushima-Kyushu
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
 1712;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
@@ -184,4 +185,20 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10482;7630;impassable;-1;-1;-1;-1;-1;;Darien-Gap
 4056;10011;sea;7932;-1;-1;-1;-1;JAPAN_KOREA_TUNNEL;Japanese-Korean Tunnel
 3501;11548;sea;11748;-1;-1;-1;-1;DOVER_STRAIT_TUNNEL;Dover Strait Tunnel
+12076;9974;sea;-1;-1;-1;-1;-1;DONGHAI_BRIDGE;Donghai Bridge
+10062;4189;sea;5269;-1;-1;-1;-1;HKG-MCU_BRIDGE;Hong Kong-Zhuhai-Macao Bridge
+7014;11928;sea;8396;-1;-1;-1;-1;;Shanghai Yangtze River Tunnel and Bridge
+788;3917;sea;8492;-1;-1;-1;-1;;Chesapeake Bay Bridge-Tunnel
+6892;3957;sea;8492;-1;-1;-1;-1;;Chesapeake Bay Bridge
+12530;10207;sea;-1;-1;-1;-1;-1;;the USSR
+7369;4493;sea;-1;-1;-1;-1;-1;;Indonesia
+10409;4468;sea;-1;-1;-1;-1;-1;;Indonesia
+4579;12178;sea;-1;-1;-1;-1;-1;;Indonesia
+4211;1316;sea;5641;-1;-1;-1;-1;;Indonesia
+7369;10342;sea;4899;-1;-1;-1;-1;;Indonesia
+1098;10181;sea;8822;-1;-1;-1;-1;;Indonesia
+12190;10219;sea;5414;-1;-1;-1;-1;;Indonesia
+10791;8108;land;4932;-1;-1;-1;-1;;Saudi Arabia
+4487;10927;land;-1;-1;-1;-1;-1;THE_GHAN_ROUTE;The Ghan Route
+4487;8165;land;-1;-1;-1;-1;-1;THE_NEW_GHAN_ROUTE;The New Ghan Route
 -1;-1;;-1;-1;-1;-1;-1;-1

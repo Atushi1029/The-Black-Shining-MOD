@@ -3,9 +3,9 @@ state={
 	name="STATE_634"
 
 	history={
-		add_core_of = INS
-		add_core_of = PNG
-		owner = INS
+		add_core_of = JAP
+		add_core_of = SOL
+		owner = JAP
 		buildings = {
 			infrastructure = 1
 			1269 = {

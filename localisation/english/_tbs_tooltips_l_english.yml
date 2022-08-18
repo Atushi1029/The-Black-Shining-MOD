@@ -44,4 +44,8 @@
  unlocks_after_event_tt:0 "§CThis focus will automatically unlock via event.§!"
  japan_korea_tunnel_blocked_tt:0 "$JAPAN_KOREA_TUNNEL$ is blocked by [ROOT.GetName]."
  cannot_use_strait_of_dover_tunnel_tt:0 "§RCan't use $DOVER_STRAIT_TUNNEL$.§!"
+ cannot_use_donghai_bridge_tt:0 "§RCan't use $DONGHAI_BRIDGE$.§!"
+ cannot_use_hong-kong-zhuhai-macao_bridge_tt:0 "§RCan't use $HKG-MCU_BRIDGE$.§!"
+ changed_ghan_route_tt:0 "§R$THE_GHAN_ROUTE$ was Changed.§!"
+ not_changed_ghan_route_tt:0 "§R$THE_GHAN_ROUTE$ wasn't Changed.§!"
  build_dover_strait_tunnel_tt:0 "Build the $DOVER_STRAIT_TUNNEL$."
