@@ -1,4 +1,142 @@
 characters = {
+	GBR_andrew_fountaine = {
+		name = GBR_andrew_fountaine
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Andrew_Fountaine"
+				small = "GFX_idea_GBR_andrew_fountaine"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Andrew_Fountaine"
+				small = "GFX_idea_GBR_andrew_fountaine"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = GBR_andrew_fountaine_for_nco
+			allowed = { original_tag = GBR }
+			available = { has_government = national_corporatism }
+			traits = {
+				tbs_foreign_minister
+				minister_national_corporatist
+				tbs_backroom_backstabber
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GBR_archbishops_council = {
+		name = GBR_archbishops_council
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Archbishops_Council"
+				small = "GFX_idea_GBR_archbishops_council"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Archbishops_Council"
+				small = "GFX_idea_GBR_archbishops_council"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ARCHBISHOPS_COUNCIL_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	GBR_arthur_scargill = {
+		name = GBR_arthur_scargill
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Arthur_Scargill"
+				small = "GFX_idea_GBR_arthur_scargill"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Arthur_Scargill"
+				small = "GFX_idea_GBR_arthur_scargill"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ARTHUR_SCARGILL_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	GBR_colin_jordan = {
+		name = GBR_colin_jordan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Colin_Jordan"
+				small = "GFX_idea_GBR_colin_jordan"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Colin_Jordan"
+				small = "GFX_idea_GBR_colin_jordan"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_COLIN_JORDAN_DESC"
+			ideology = national_socialism_ideology
+			expire = "2009.4.9.1"
+			id = -1
+			traits = {}
+		}
+		advisor = {
+			cost = -1
+			slot = interior_minister
+			ledger = civilian
+			idea_token = GBR_colin_jordan_int_nco
+			allowed = { original_tag = GBR }
+			available = { has_government = national_corporatism }
+			traits = {
+				tbs_interior_minister
+				minister_national_corporatist
+				tbs_political_specialist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			ledger = civilian
+			idea_token = GBR_colin_jordan_hog_nso
+			allowed = { original_tag = GBR }
+			available = { has_government = national_socialism }
+			traits = {
+				tbs_head_of_government
+				minister_national_socialist
+				tbs_political_specialist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GBR_edward_viii = {
+		name = GBR_edward_viii
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Edward_VIII"
+				small = "GFX_idea_GBR_edward_viii"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Edward_VIII"
+				small = "GFX_idea_GBR_edward_viii"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1972.5.28.1"
+			id = -1
+			traits = {}
+		}
+	}
 	GBR_elizabeth_ii = {
 		name = GBR_elizabeth_ii
 		portraits = {
@@ -10,6 +148,74 @@ characters = {
 				large = "GFX_Portrait_GBR_Elizabeth_II"
 				small = "GFX_idea_GBR_elizabeth_ii"
 			}
+		}
+	}
+	GBR_enoch_powell = {
+		name = GBR_enoch_powell
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Enoch_Powell"
+				small = "GFX_idea_GBR_enoch_powell"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Enoch_Powell"
+				small = "GFX_idea_GBR_enoch_powell"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ENOCH_POWELL_DESC"
+			ideology = social_conservatism_ideology
+			expire = "1998.2.8.1"
+			id = -1
+			traits = {}
+		}
+	}
+	GBR_george_matthews = {
+		name = GBR_george_matthews
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_George_Matthews"
+				small = "GFX_idea_GBR_george_matthews"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_George_Matthews"
+				small = "GFX_idea_GBR_george_matthews"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GEORGE_MATTHEWS_DESC"
+			ideology = radical_socialism_ideology
+			expire = "2005.3.29.1"
+			id = -1
+			traits = {}
+		}
+	}
+	GBR_jeffrey_hamm = {
+		name = GBR_jeffrey_hamm
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Jeffrey_Hamm"
+				small = "GFX_idea_GBR_jeffrey_hamm"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Jeffrey_Hamm"
+				small = "GFX_idea_GBR_jeffrey_hamm"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = security_minister
+			ledger = civilian
+			idea_token = GBR_jeffrey_hamm_sec_nco
+			allowed = { original_tag = GBR }
+			available = { has_government = national_corporatism }
+			traits = {
+				tbs_security_minister
+				minister_national_corporatist
+				tbs_ideological_crusader
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	GBR_jeremy_thorpe = {
@@ -44,6 +250,137 @@ characters = {
 				small = "GFX_idea_GBR_john_kingsley_read"
 			}
 		}
+		advisor = {
+			cost = -1
+			slot = head_of_government
+			ledger = civilian
+			idea_token = GBR_john_kingsley_read_hog_nco
+			allowed = { original_tag = GBR }
+			available = { has_government = national_corporatism }
+			traits = {
+				tbs_head_of_government
+				minister_national_corporatist
+				tbs_cold_leader
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GBR_john_obrian = {
+		name = GBR_john_obrian
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_John_OBrian"
+				small = "GFX_idea_GBR_john_obrian"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_John_OBrian"
+				small = "GFX_idea_GBR_john_obrian"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOHN_OBRIAN_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	GBR_john_tyndall = {
+		name = GBR_john_tyndall
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_John_Tyndall"
+				small = "GFX_idea_GBR_john_tyndall"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_John_Tyndall"
+				small = "GFX_idea_GBR_john_tyndall"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = economy_minister
+			ledger = civilian
+			idea_token = GBR_john_tyndall_eco_nco
+			allowed = { original_tag = GBR }
+			available = { has_government = national_corporatism }
+			traits = {
+				tbs_economy_minister
+				minister_national_corporatist
+				tbs_mixed_economy_proponent
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GBR_martin_webster = {
+		name = GBR_martin_webster
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Martin_Webster"
+				small = "GFX_idea_GBR_martin_webster"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Martin_Webster"
+				small = "GFX_idea_GBR_martin_webster"
+			}
+		}
+		advisor = {
+			cost = -1
+			slot = justice_minister
+			ledger = civilian
+			idea_token = GBR_martin_webster_jus_nco
+			allowed = { original_tag = GBR }
+			available = { has_government = national_corporatism }
+			traits = {
+				tbs_justice_minister
+				minister_national_corporatist
+				tbs_pragmatic_statesman
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GBR_rab_butler = {
+		name = GBR_rab_butler
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Rab_Butler"
+				small = "GFX_idea_GBR_rab_butler"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Rab_Butler"
+				small = "GFX_idea_GBR_rab_butler"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RAB_BUTLER_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1982.3.8.1"
+			id = -1
+			traits = {}
+		}
+	}
+	GBR_roy_jenkins = {
+		name = GBR_roy_jenkins
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Roy_Jenkins"
+				small = "GFX_idea_GBR_roy_jenkins"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Roy_Jenkins"
+				small = "GFX_idea_GBR_roy_jenkins"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ROY_JENKINS_DESC"
+			ideology = social_democracy_ideology
+			expire = "2003.1.5.1"
+			id = -1
+			traits = {}
+		}
 	}
 	GBR_roy_painter = {
 		name = GBR_roy_painter
@@ -61,6 +398,26 @@ characters = {
 			desc = "POLITICS_ROY_PAINTER_DESC"
 			ideology = national_corporatism_ideology
 			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	GBR_tony_benn = {
+		name = GBR_tony_benn
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Tony_Benn"
+				small = "GFX_idea_GBR_tony_benn"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Tony_Benn"
+				small = "GFX_idea_GBR_tony_benn"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TONY_BENN_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "2014.3.14.1"
 			id = -1
 			traits = {}
 		}

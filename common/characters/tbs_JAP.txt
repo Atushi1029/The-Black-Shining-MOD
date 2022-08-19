@@ -105,12 +105,12 @@ characters = {
 		name = JAP_japanese_national_political_reform_committee
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
-				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Committee"
+				small = "GFX_idea_JAP_japanese_national_political_reform_committee"
 			}
 			army = {
-				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
-				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Committee"
+				small = "GFX_idea_JAP_japanese_national_political_reform_committee"
 			}
 		}
 		country_leader = {
@@ -501,12 +501,12 @@ characters = {
 		name = JAP_yokusan_political_committee
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
-				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Committee"
+				small = "GFX_idea_JAP_japanese_national_political_reform_committee"
 			}
 			army = {
-				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
-				small = "GFX_idea_JAP_japanese_national_political_reform_commission"
+				large = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Committee"
+				small = "GFX_idea_JAP_japanese_national_political_reform_committee"
 			}
 		}
 		country_leader = {

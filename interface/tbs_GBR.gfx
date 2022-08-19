@@ -72,6 +72,11 @@ spriteTypes = {
 		name = "GFX_idea_GBR_tony_benn"
 		texturefile = "gfx/interface/advisors/GBR/idea_GBR_tony_benn.png"
 	}
+	#Ideas
+	spriteType = {
+		name = "GFX_idea_GBR_the_second_1714"
+		texturefile = "gfx/interface/ideas/GBR/idea_GBR_the_second_1714.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_GBR_Andrew_Fountaine"

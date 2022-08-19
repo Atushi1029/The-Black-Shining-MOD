@@ -21,8 +21,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_ichio_asukata.png"
 	}
 	spriteType = {
-		name = "GFX_idea_JAP_japanese_national_political_reform_commission"
-		texturefile = "gfx/interface/advisors/JAP/idea_JAP_japanese_national_political_reform_commission.png"
+		name = "GFX_idea_JAP_japanese_national_political_reform_committee"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_japanese_national_political_reform_committee.png"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_kakuei_tanaka"
@@ -151,8 +151,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Ichio_Asukata.png"
 	}
 	spriteType = {
-		name = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Commission"
-		texturefile = "gfx/leaders/JAP/Portrait_JAP_Japanese_National_Political_Reform_Commission.png"
+		name = "GFX_Portrait_JAP_Japanese_National_Political_Reform_Committee"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Japanese_National_Political_Reform_Committee.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_JAP_Kakuei_Tanaka"

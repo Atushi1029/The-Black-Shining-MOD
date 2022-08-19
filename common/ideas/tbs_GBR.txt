@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		GBR_the_second_1714 = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+	}
+}
