@@ -1,0 +1,22 @@
+characters = {
+	SUD_jaafar_nimeiry = {
+		name = SUD_jaafar_nimeiry
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SUD_Jaafar_Nimeiry"
+				small = "GFX_idea_SUD_jaafar_nimeiry"
+			}
+			army = {
+				large = "GFX_Portrait_SUD_Jaafar_Nimeiry"
+				small = "GFX_idea_SUD_jaafar_nimeiry"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JAAFAR_NIMEIRY_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "2009.5.30.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

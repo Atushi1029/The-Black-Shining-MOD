@@ -1,5 +1,9 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_idea_GBR_mon_edward_viii"
+		texturefile = "gfx/interface/ideas/monarchies/idea_GBR_mon_edward_viii.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GBR_mon_elizabeth_ii"
 		texturefile = "gfx/interface/ideas/monarchies/idea_GBR_mon_elizabeth_ii.png"
 	}

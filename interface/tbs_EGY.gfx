@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_EGY_anwar_sadat"
+		texturefile = "gfx/interface/advisors/EGY/idea_EGY_anwar_sadat.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_EGY_Anwar_Sadat"
+		texturefile = "gfx/leaders/EGY/Portrait_EGY_Anwar_Sadat.png"
+	}
+}

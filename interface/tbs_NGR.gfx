@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_NGR_seyni_kountche"
+		texturefile = "gfx/interface/advisors/NGR/idea_NGR_seyni_kountche.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_NGR_Seyni_Kountche"
+		texturefile = "gfx/leaders/NGR/Portrait_NGR_Seyni_Kountche.png"
+	}
+}
