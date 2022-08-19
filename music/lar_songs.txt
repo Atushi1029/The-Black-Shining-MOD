@@ -10,10 +10,6 @@ music = {
 }
 
 music = {
-	song = "cloak_and_dagger"
-}
-
-music = {
 	song = "a_storm_coming"
 }
 

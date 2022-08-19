@@ -25,7 +25,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_chifuyu_masaki_for_mso
@@ -86,7 +86,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_ichio_asukata_eco_mso
@@ -154,7 +154,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_kei_hoashi_hog_mso
@@ -202,7 +202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_masaji_ogasawara_int_mso
@@ -368,7 +368,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_seiichi_katsumata_jus_mso
@@ -482,7 +482,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_torazo_ninagawa_sec_mso

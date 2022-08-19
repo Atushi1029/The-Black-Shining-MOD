@@ -12,7 +12,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = GBR_andrew_fountaine_for_nco
@@ -87,7 +87,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = interior_minister
 			ledger = civilian
 			idea_token = GBR_colin_jordan_int_nco
@@ -102,7 +102,7 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = head_of_government
 			ledger = civilian
 			idea_token = GBR_colin_jordan_hog_nso
@@ -203,7 +203,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = security_minister
 			ledger = civilian
 			idea_token = GBR_jeffrey_hamm_sec_nco
@@ -251,7 +251,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = head_of_government
 			ledger = civilian
 			idea_token = GBR_john_kingsley_read_hog_nco
@@ -299,7 +299,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = economy_minister
 			ledger = civilian
 			idea_token = GBR_john_tyndall_eco_nco
@@ -327,7 +327,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = -1
+			cost = 65535
 			slot = justice_minister
 			ledger = civilian
 			idea_token = GBR_martin_webster_jus_nco

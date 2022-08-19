@@ -795,7 +795,7 @@ guiTypes = {
 			frame = 1
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "political_selectable_idea_entry_grid"
 		size = { width = 231 height = 74 }
@@ -832,7 +832,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "name"
-				position = { x = 0 y = 2 }
+				position = { x = 0 y = 10 }
 				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
@@ -844,7 +844,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "traits"
-				position = { x = 0 y = 20 }
+				position = { x = 0 y = 28 }
 				font = "hoi_16mbs"
 				fixedsize = yes
 				text = ""

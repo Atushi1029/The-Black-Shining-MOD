@@ -6,7 +6,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			#picture = 
 			modifier = {
-				stability_factor = 0.1
+				stability_factor = -0.1
 			}
 		}
 	}
