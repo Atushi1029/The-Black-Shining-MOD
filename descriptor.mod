@@ -4,6 +4,10 @@ tags={
 	"Gameplay"
 	"Historical"
 }
+dependencies = {
+	"Additional Japanese map fonts"
+	"Japanese Language mod"
+}
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"

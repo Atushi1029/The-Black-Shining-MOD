@@ -4,7 +4,7 @@ state={
 	resources={
 		tungsten=2.000
 	}
-
+	impassable = yes
 	history={
 		owner = TIB
 		add_core_of = TIB

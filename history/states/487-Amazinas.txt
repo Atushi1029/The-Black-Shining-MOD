@@ -5,7 +5,7 @@ state={
 	manpower = 334500
 	
 	state_category = pastoral
-
+	impassable = no
 	history={
 		owner = BOL
 		buildings = {

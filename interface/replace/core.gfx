@@ -1563,17 +1563,15 @@ bitmapfonts = {
 			"gfx/fonts/hoi_mapfont4_2"
 			"gfx/fonts/hoi_mapfont4_3"
 			"gfx/fonts/hoi_mapfont4_4"
-			"gfx/fonts/hoi_mapfont4_5"
-			"gfx/fonts/hoi_mapfont4_6"
 		}
 		color = 0xffffffff
 
 		textcolors = {
 			G = { 86 172 91 }
-			R = { 222 86 70 }
-			Y = { 238 201 35 }
 			H = { 238 203 35 }
+			R = { 222 86 70 }
 			T = { 255 255 255 }
+			Y = { 238 201 35 }
 		}
 	}
 
