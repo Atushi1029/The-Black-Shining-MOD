@@ -1,0 +1,22 @@
+characters = {
+	UGA_idi_amin = {
+		name = UGA_idi_amin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_UGA_Idi_Amin"
+				small = "GFX_idea_UGA_idi_amin"
+			}
+			army = {
+				large = "GFX_Portrait_UGA_Idi_Amin"
+				small = "GFX_idea_UGA_idi_amin"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IDI_AMIN_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "2003.8.16.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

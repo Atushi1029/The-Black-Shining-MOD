@@ -1,0 +1,22 @@
+characters = {
+	ANG_agostinho_neto = {
+		name = ANG_agostinho_neto
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ANG_Agostinho_Neto"
+				small = "GFX_idea_ANG_agostinho_neto"
+			}
+			army = {
+				large = "GFX_Portrait_ANG_Agostinho_Neto"
+				small = "GFX_idea_ANG_agostinho_neto"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AGOSTINHO_NETO_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "1979.9.10.1"
+			id = -1
+			traits = {}
+		}
+	}
+}
