@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_URG_jorge_pacheco_areco"
+		texturefile = "gfx/interface/advisors/URG/idea_URG_jorge_pacheco_areco.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_URG_Jorge_Pacheco_Areco"
+		texturefile = "gfx/leaders/URG/Portrait_URG_Jorge_Pacheco_Areco.png"
+	}
+}

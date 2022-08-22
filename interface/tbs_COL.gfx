@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_COL_julio_cesar_turbay_ayala"
+		texturefile = "gfx/interface/advisors/COL/idea_COL_julio_cesar_turbay_ayala.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_COL_Julio_Cesar_Turbay_Ayala"
+		texturefile = "gfx/leaders/COL/Portrait_COL_Julio_Cesar_Turbay_Ayala.png"
+	}
+}
