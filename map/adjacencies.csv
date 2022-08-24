@@ -135,13 +135,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
-12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
-1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
-4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -201,4 +194,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10791;8108;land;4932;-1;-1;-1;-1;;Saudi Arabia
 4487;10927;land;-1;-1;-1;-1;-1;THE_GHAN_ROUTE;The Ghan Route
 4487;8165;land;-1;-1;-1;-1;-1;THE_NEW_GHAN_ROUTE;The New Ghan Route
+3340;6334;sea;2358;-1;-1;-1;-1;;Germany
+3738;11683;sea;8131;-1;-1;-1;-1;;Ukraine
+721;11683;sea;8131;-1;-1;-1;-1;;Ukraine
+721;3738;sea;8131;-1;-1;-1;-1;;Ukraine
+849;9887;sea;7678;-1;-1;-1;-1;;Turkey
+3311;11332;sea;8340;-1;-1;-1;-1;;UK
+6196;13289;sea;-1;-1;-1;-1;-1;;UK
+21;6116;sea;2554;-1;-1;-1;-1;;Norway
+6038;6116;sea;2554;-1;-1;-1;-1;;Norway
+96;8461;sea;2703;-1;-1;-1;-1;;Russia
+1863;12207;sea;-1;-1;-1;-1;-1;;Russia
+60;6106;land;2356;-1;-1;-1;-1;;Russia
+11911;12010;sea;5873;-1;-1;-1;-1;;India
+6621;9597;sea;5108;-1;-1;-1;-1;;France
+7114;9793;sea;-1;-1;-1;-1;-1;;Spain
+1399;4728;sea;5488;-1;-1;-1;-1;;Japan
+4302;7319;land;5236;-1;-1;-1;-1;;Cambodia
 -1;-1;;-1;-1;-1;-1;-1;-1

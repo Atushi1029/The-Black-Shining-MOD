@@ -14,7 +14,7 @@ state={
 		add_claim_by = SOV
 		set_state_flag = rusrep_core_states
 		victory_points = {
-			1821 5
+			1821 20
 		}
 		buildings = {
 			infrastructure = 3 #was: 6

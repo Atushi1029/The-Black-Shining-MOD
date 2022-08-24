@@ -454,6 +454,9 @@ technologies = {
 		on_research_complete = {
 			#initialize_paratrooper_template = yes
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			hidden_effect = {
+				load_oob = "unlock_paratroopers"
+			}
 		}
 
 		categories = {
@@ -533,6 +536,9 @@ technologies = {
 		on_research_complete = {
 			#initialize_paratrooper_template = yes
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			hidden_effect = {
+				load_oob = "unlock_marines"
+			}	
 		}
 
 		path = {
@@ -711,6 +717,9 @@ technologies = {
 		on_research_complete = {
 			#initialize_paratrooper_template = yes
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			hidden_effect = {
+				load_oob = "unlock_mountineers"
+			}
 		}
 
 		path = {
@@ -733,29 +742,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.7
-			modifier = {
-				factor = 5
-				OR = {
-					tag = SWI
-					tag = AUS
-					tag = FIN
-					tag = NOR
-					tag = NEP
-					tag = CHL
-					tag = GRE
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					#initialize_paratrooper_template = yes
-					num_of_naval_factories < 1
-				}
-			}
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
 		}
 	}
 
@@ -1497,6 +1483,9 @@ technologies = {
 		on_research_complete = {
 			#initialize_motorized_template = yes
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			hidden_effect = {
+				load_oob = "unlock_motorized"
+			}
 		}
 
 		path = {

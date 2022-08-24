@@ -149,6 +149,10 @@
  STATE_982:0 "Shetland"
  STATE_983:0 "Kanto"
  STATE_984:0 "Choshu"
+ STATE_985:0 "Matagalpa"
+ STATE_986:0 "Puerto Cabezas"
+ STATE_987:0 "Southern Nicaragua"
+ STATE_988:0 "Samobor"
 #Replace
  STATE_42:0 "Westmark"
  STATE_51:0 "Westrhineland"
@@ -160,6 +164,7 @@
  STATE_198:0 "Mogilev"
  STATE_268:0 "Djibouti"
  STATE_269:0 "Somaliland"
+ STATE_287:0 "Taklamakan Desert"
  STATE_290:0 "Northern Morocco"
  STATE_296:0 "Guiné-Bissau"
  STATE_310:0 "Cayenne"
