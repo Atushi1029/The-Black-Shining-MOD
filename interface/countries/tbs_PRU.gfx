@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_PRU_fernando_belaunde"
+		texturefile = "gfx/interface/advisors/PRU/idea_PRU_fernando_belaunde.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_PRU_Fernando_Belaunde"
+		texturefile = "gfx/leaders/PRU/Portrait_PRU_Fernando_Belaunde.png"
+	}
+}

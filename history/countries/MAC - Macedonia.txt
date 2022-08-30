@@ -1,6 +1,5 @@
 ﻿capital = 106
 #oob = ""
-set_cosmetic_tag = MAC_republic
 set_starting_values = yes
 recruit_character = MAC_ivan_mihailov
 set_convoys = 20

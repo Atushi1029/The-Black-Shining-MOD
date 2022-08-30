@@ -342,6 +342,19 @@ characters = {
 			traits = {}
 		}
 	}
+	JAP_saburo_aizawa = {
+		name = JAP_saburo_aizawa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Saburo_Aizawa"
+				small = "GFX_idea_JAP_saburo_aizawa"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Saburo_Aizawa_general"
+				small = "GFX_idea_JAP_saburo_aizawa_general"
+			}
+		}
+	}
 	JAP_sadao_akamatsu = {
 		name = JAP_sadao_akamatsu
 		portraits = {

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_CUB_fidel_castro"
+		texturefile = "gfx/interface/advisors/CUB/idea_CUB_fidel_castro.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CUB_Fidel_Castro"
+		texturefile = "gfx/leaders/CUB/Portrait_CUB_Fidel_Castro.png"
+	}
+}

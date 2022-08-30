@@ -1,0 +1,22 @@
+characters = {
+	COS_jose_figueres_ferrer = {
+		name = COS_jose_figueres_ferrer
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_COS_Jose_Figueres_Ferrer"
+				small = "GFX_idea_COS_jose_figueres_ferrer"
+			}
+			army = {
+				large = "GFX_Portrait_COS_Jose_Figueres_Ferrer"
+				small = "GFX_idea_COS_jose_figueres_ferrer"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOSE_FIGUERES_FERRER_DESC"
+			ideology = social_democracy_ideology
+			expire = "1990.6.8.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

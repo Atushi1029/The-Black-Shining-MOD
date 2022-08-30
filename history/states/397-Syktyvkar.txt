@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		victory_points = {
-			108 1 
+			108 20
 		}
 		owner = KOM
 		add_core_of = KOM

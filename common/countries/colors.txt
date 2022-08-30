@@ -16,8 +16,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 57 113 228 }
+	color = rgb { 65 109 167 }
+	color_ui = rgb { 65 109 167 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -304,8 +304,8 @@ RAJ = {
 	color_ui = rgb { 170 10 10 }
 }
 CRO = {
-	color = rgb { 230 255 122 }
-	color_ui = rgb { 230 255 122 }
+	color = rgb { 109 142 96 }
+	color_ui = rgb { 109 142 96 }
 }
 PRC = {
 	color = rgb { 245 12 55 }
@@ -392,8 +392,8 @@ MAL = {
 	color_ui = rgb { 8 99 156 }
 }
 MNT = {
-	color = rgb { 77 90 105 }
-	color_ui = rgb { 77 90 105 }
+	color = rgb { 81 135 91 }
+	color_ui = rgb { 81 135 91 }
 }
 BLR = {
 	color = rgb { 180 220 190 }

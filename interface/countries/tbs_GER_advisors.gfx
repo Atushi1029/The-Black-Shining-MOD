@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_GER_heinz_knoke"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_heinz_knoke.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_oskar_dirlewanger"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_oskar_dirlewanger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_otto_ernst_remer"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_otto_ernst_remer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_reinhard_heydrich"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_reinhard_heydrich.png"
+	}
+}

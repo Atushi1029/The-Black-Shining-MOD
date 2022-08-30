@@ -1,0 +1,22 @@
+characters = {
+	HON_policarpo_paz_garcia = {
+		name = HON_policarpo_paz_garcia
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HON_Policarpo_Paz_Garcia"
+				small = "GFX_idea_HON_policarpo_paz_garcia"
+			}
+			army = {
+				large = "GFX_Portrait_HON_Policarpo_Paz_Garcia"
+				small = "GFX_idea_HON_policarpo_paz_garcia"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PLOCARPO_PAZ_GARCIA_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "2000.4.16.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

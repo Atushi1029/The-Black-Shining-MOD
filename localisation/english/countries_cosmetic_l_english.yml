@@ -166,6 +166,10 @@
  COS_republic:0 "Republic of Costa Rica"
  COS_republic_DEF:0 "the Republic of Costa Rica"
  COS_republic_ADJ:0 "Costa Rican"
+#Croatia
+ CRO_kingdom:0 "Kingdom of Croatia"
+ CRO_kingdom_DEF:0 "the Kingdom of Croatia"
+ CRO_kingdom_ADJ:0 "Croatian"
 #キューバ
  CUB_peoples_republic:0 "People's Republic of Cuba"
  CUB_peoples_republic_DEF:0 "the People's Republic of Cuba"
@@ -277,10 +281,6 @@
  LIB_republic:0 "Republic of Liberia"
  LIB_republic_DEF:0 "the Republic of Liberia"
  LIB_republic_ADJ:0 "Liberian"
-#マケドニア
- MAC_republic:0 "Republic of Macedonia"
- MAC_republic_DEF:0 "the Republic of Macedonia"
- MAC_republic_ADJ:0 "Macedonian"
 #マダガスカル
  MAD_republic:0 "Republic of Madagascar"
  MAD_republic_DEF:0 "the Republic of Madagascar"
@@ -301,6 +301,10 @@
  MLI_socialist_republic:0 "Socialist Republic of Mali"
  MLI_socialist_republic_DEF:0 "the Socialist Republic of Mali"
  MLI_socialist_republic_ADJ:0 "Malian"
+#Montenegro
+ MNT_kingdom:0 "Kingdom of Montenegro"
+ MNT_kingdom_DEF:0 "the Kingdom of Montenegro"
+ MNT_kingdom_ADJ:0 "Montenegrin"
 #モンゴル
  MON_republic:0 "Republic of Mongolia"
  MON_republic_DEF:0 "the Republic of Mongolia"

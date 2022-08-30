@@ -1626,6 +1626,18 @@ bitmapfonts = {
 		path = "gfx/fonts/cg_18b"
 		color = 0xffffffff
 	}
+	bitmapfont = {
+		name = "Bomb_24"
+		fontfiles = {
+		       "gfx/fonts/Bomb_24"
+			   "gfx/fonts/Bomb_24_0"
+		}
+		color = 0xffffffff
+		textcolors = {
+			W = { 255 255 255 }
+			b = { 0 0 0 }
+		}
+	}
 
 	corneredTileSpriteType = {
 		name = "SandboxFloaterBackground"

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_CAN_real_caouette"
+		texturefile = "gfx/interface/advisors/CAN/idea_CAN_real_caouette.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CAN_Real_Caouette"
+		texturefile = "gfx/leaders/CAN/Portrait_CAN_Real_Caouette.png"
+	}
+}

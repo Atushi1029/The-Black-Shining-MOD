@@ -28,3 +28,11 @@ set_popularities = {
 	religious_nationalism = 0
 	transhumanism = 0
 }
+set_autonomy = {
+	target = CRO
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = MNT
+	autonomous_state = autonomy_dominion
+}

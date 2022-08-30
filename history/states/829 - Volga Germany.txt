@@ -8,12 +8,9 @@ state={
 	}
 
 	history={
-		owner = RLA
-		add_core_of = RLA
-		add_claim_by = FER
-		add_claim_by = RUS
-		add_claim_by = SOV
-		set_state_flag = rla_core_states
+		owner = RKM
+		add_core_of = RKM
+		set_state_flag = russian_old_states
 		buildings = {
 			infrastructure = 3
 

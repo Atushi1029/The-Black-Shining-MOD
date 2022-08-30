@@ -2,7 +2,7 @@ state={
 	id=988
 	name="STATE_988"
 	history={
-		owner = ITA
+		owner = CRO
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -11,8 +11,6 @@ state={
 			3592 1
 		}
 		add_core_of = CRO
-		add_core_of = HUN
-		add_core_of = ITA
 	}
 	provinces={
 		3592 3596

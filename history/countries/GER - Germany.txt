@@ -3,6 +3,9 @@
 set_cosmetic_tag = GERMANIA_greater_empire
 set_starting_values = yes
 recruit_character = GER_heinz_knoke
+recruit_character = GER_oskar_dirlewanger
+recruit_character = GER_otto_ernst_remer
+recruit_character = GER_reinhard_heydrich
 set_convoys = 20
 add_ideas = {
 	

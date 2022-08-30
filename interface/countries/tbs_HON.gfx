@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_HON_policarpo_paz_garcia"
+		texturefile = "gfx/interface/advisors/HON/idea_HON_policarpo_paz_garcia.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_HON_Policarpo_Paz_Garcia"
+		texturefile = "gfx/leaders/HON/Portrait_HON_Policarpo_Paz_Garcia.png"
+	}
+}

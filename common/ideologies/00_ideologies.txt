@@ -77,6 +77,7 @@ ideologies = {
 	social_democracy = {
 		types = {
 			social_democracy_ideology = {}
+			leftist_patriotism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 194 30 86 }
 		rules = {
@@ -102,8 +103,10 @@ ideologies = {
 	liberal_democracy = {
 		types = {
 			liberal_democracy_ideology = {}
+			environmental_liberalism_ideology = { can_be_randomly_selected = no }
 			longism_ideology = { can_be_randomly_selected = no }
 			market_liberalism_ideology = { can_be_randomly_selected = no }
+			neo_liberalism_ideology = { can_be_randomly_selected = no }
 			social_liberalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 246 139 31 }
@@ -130,6 +133,8 @@ ideologies = {
 	social_conservatism = {
 		types = {
 			social_conservatism_ideology = {}
+			fiscal_conservatism_ideology = { can_be_randomly_selected = no }
+			neo_conservatism_ideology = { can_be_randomly_selected = no }
 			silent_conservatism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 0 0 255 }

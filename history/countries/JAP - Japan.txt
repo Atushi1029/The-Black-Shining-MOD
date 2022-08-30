@@ -20,6 +20,7 @@ recruit_character = JAP_minoru_genda
 recruit_character = JAP_misaburo_kawasaki
 recruit_character = JAP_mitsu_kono
 recruit_character = JAP_okinori_kaya
+recruit_character = JAP_saburo_aizawa
 recruit_character = JAP_sadao_akamatsu
 recruit_character = JAP_seiichi_katsumata
 recruit_character = JAP_shiro_hara

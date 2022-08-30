@@ -1,4 +1,17 @@
 characters = {
+	USA_al_gore = {
+		name = USA_al_gore
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Al_Gore"
+				small = "GFX_idea_USA_al_gore"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Al_Gore"
+				small = "GFX_idea_USA_al_gore"
+			}
+		}
+	}
 	USA_curtis_lemay = {
 		name = USA_curtis_lemay
 		portraits = {
@@ -51,6 +64,19 @@ characters = {
 			}
 		}
 	}
+	USA_george_h_w_bush = {
+		name = USA_george_h_w_bush
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_George_H_W_Bush"
+				small = "GFX_idea_USA_george_h_w_bush"
+			}
+			army = {
+				large = "GFX_Portrait_USA_George_H_W_Bush"
+				small = "GFX_idea_USA_george_h_w_bush"
+			}
+		}
+	}
 	USA_george_mcgovern = {
 		name = USA_george_mcgovern
 		portraits = {
@@ -82,6 +108,32 @@ characters = {
 			expire = "1998.9.13.1"
 			id = -1
 			traits = {}
+		}
+	}
+	USA_gerald_ford = {
+		name = USA_gerald_ford
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Gerald_Ford"
+				small = "GFX_idea_USA_gerald_ford"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Gerald_Ford"
+				small = "GFX_idea_USA_gerald_ford"
+			}
+		}
+	}
+	USA_geraldine_ferraro = {
+		name = USA_geraldine_ferraro
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Geraldine_Ferraro"
+				small = "GFX_idea_USA_geraldine_ferraro"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Geraldine_Ferraro"
+				small = "GFX_idea_USA_geraldine_ferraro"
+			}
 		}
 	}
 	USA_henry_kissinger = {
@@ -117,6 +169,45 @@ characters = {
 			traits = {}
 		}
 	}
+	USA_jesse_jackson = {
+		name = USA_jesse_jackson
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Jesse_Jackson"
+				small = "GFX_idea_USA_jesse_jackson"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Jesse_Jackson"
+				small = "GFX_idea_USA_jesse_jackson"
+			}
+		}
+	}
+	USA_jimmy_carter = {
+		name = USA_jimmy_carter
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Jimmy_Carter"
+				small = "GFX_idea_USA_jimmy_carter"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Jimmy_Carter"
+				small = "GFX_idea_USA_jimmy_carter"
+			}
+		}
+	}
+	USA_joe_biden = {
+		name = USA_joe_biden
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Joe_Biden"
+				small = "GFX_idea_USA_joe_biden"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Joe_Biden"
+				small = "GFX_idea_USA_joe_biden"
+			}
+		}
+	}
 	USA_lyndon_johnson = {
 		name = USA_lyndon_johnson
 		portraits = {
@@ -137,6 +228,19 @@ characters = {
 			traits = {}
 		}
 	}
+	USA_nelson_rockefeller = {
+		name = USA_nelson_rockefeller
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Nelson_Rockefeller"
+				small = "GFX_idea_USA_nelson_rockefeller"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Nelson_Rockefeller"
+				small = "GFX_idea_USA_nelson_rockefeller"
+			}
+		}
+	}
 	USA_richard_nixon = {
 		name = USA_richard_nixon
 		portraits = {
@@ -155,6 +259,19 @@ characters = {
 			expire = "1994.4.22.1"
 			id = -1
 			traits = {}
+		}
+	}
+	USA_ronald_reagan = {
+		name = USA_ronald_reagan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Ronald_Reagan"
+				small = "GFX_idea_USA_ronald_reagan"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Ronald_Reagan"
+				small = "GFX_idea_USA_ronald_reagan"
+			}
 		}
 	}
 	USA_scoop_jackson = {
@@ -180,6 +297,45 @@ characters = {
 			army = {
 				large = "GFX_Portrait_USA_Shirley_Chisolm"
 				small = "GFX_idea_USA_shirley_chisolm"
+			}
+		}
+	}
+	USA_sidney_hook = {
+		name = USA_sidney_hook
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Sidney_Hook"
+				small = "GFX_idea_USA_sidney_hook"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Sidney_Hook"
+				small = "GFX_idea_USA_sidney_hook"
+			}
+		}
+	}
+	USA_tom_kahn = {
+		name = USA_tom_kahn
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Tom_Kahn"
+				small = "GFX_idea_USA_tom_kahn"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Tom_Kahn"
+				small = "GFX_idea_USA_tom_kahn"
+			}
+		}
+	}
+	USA_walter_mondale = {
+		name = USA_walter_mondale
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Walter_Mondale"
+				small = "GFX_idea_USA_walter_mondale"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Walter_Mondale"
+				small = "GFX_idea_USA_walter_mondale"
 			}
 		}
 	}

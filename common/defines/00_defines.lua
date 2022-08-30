@@ -3419,7 +3419,7 @@ NCharacter = {
 },
 
 NSupply = {
-	MAX_RAILWAY_LEVEL = 5, -- update railway texture as well, each frame corresponds to a level
+	MAX_RAILWAY_LEVEL = 20, -- update railway texture as well, each frame corresponds to a level
 
 	--defines to calculate the capitals supply. This will be also used for max supply of other nodes depending on how well they are connected to capital. Using the formula:
 	--CapitalSupply = CAPITAL_SUPPLY_BASE + (NumberOfCivilianFactories * CAPITAL_SUPPLY_CIVILIAN_FACTORIES) + (NumberOfMilitaryFactories * CAPITAL_SUPPLY_MILITARY_FACTORIES) + (NumberOfDockyards * CAPITAL_SUPPLY_DOCKYARDS)

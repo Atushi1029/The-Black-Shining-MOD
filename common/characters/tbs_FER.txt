@@ -1,4 +1,17 @@
 characters = {
+	FER_alexander_bolotov = {
+		name = FER_alexander_bolotov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Alexander_Bolotov"
+				small = "GFX_idea_FER_alexander_bolotov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Alexander_Bolotov"
+				small = "GFX_idea_FER_alexander_bolotov"
+			}
+		}
+	}
 	FER_georgy_shekerev = {
 		name = FER_georgy_shekerev
 		portraits = {

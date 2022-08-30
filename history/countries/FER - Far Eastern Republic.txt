@@ -2,6 +2,7 @@
 #oob = ""
 set_cosmetic_tag = TRANSAMUR_republic
 set_starting_values = yes
+recruit_character = FER_alexander_bolotov
 recruit_character = FER_georgy_shekerev
 set_convoys = 20
 add_ideas = {

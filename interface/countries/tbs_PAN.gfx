@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_PAN_aristides_royo"
+		texturefile = "gfx/interface/advisors/PAN/idea_PAN_aristides_royo.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_PAN_Aristides_Royo"
+		texturefile = "gfx/leaders/PAN/Portrait_PAN_Aristides_Royo.png"
+	}
+}

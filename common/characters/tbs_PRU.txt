@@ -1,0 +1,22 @@
+characters = {
+	PRU_fernando_belaunde = {
+		name = PRU_fernando_belaunde
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PRU_Fernando_Belaunde"
+				small = "GFX_idea_PRU_fernando_belaunde"
+			}
+			army = {
+				large = "GFX_Portrait_PRU_Fernando_Belaunde"
+				small = "GFX_idea_PRU_fernando_belaunde"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FERNANDO_BELAUNDE_DESC"
+			ideology = market_liberalism_ideology
+			expire = "2002.6.4.1"
+			id = -1
+			traits = {}
+		}
+	}
+}
