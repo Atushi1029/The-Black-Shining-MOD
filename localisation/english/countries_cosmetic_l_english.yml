@@ -382,7 +382,10 @@
  ROM_socialist_republic_175_13_0:0 "Socialist Republic of Romania"
  ROM_socialist_republic_175_13_0_DEF:0 "the Socialist Republic of Romania"
  ROM_socialist_republic_175_13_0_ADJ:0 "Romanian"
-#ロシア
+#Russia
+ RUS_fascist_council:0 "Fascist Council of Russia"
+ RUS_fascist_council_DEF:0 "the Fascist Council of Russia"
+ RUS_fascist_council_ADJ:0 "Russian"
  RUS_liberation_army:0 "Liberation Army of Russia"
  RUS_liberation_army_DEF:0 "the Liberation Army of Russia"
  RUS_liberation_army_ADJ:0 "Russian"
@@ -395,9 +398,9 @@
  RUS_soviet_socialist_republic:0 "Soviet Socialist Republic of Russia"
  RUS_soviet_socialist_republic_DEF:0 "the Soviet Socialist Republic of Russia"
  RUS_soviet_socialist_republic_ADJ:0 "Russian"
- UNIFY_RUSSIA_STATE:0 "State of Russia"
- UNIFY_RUSSIA_STATE_DEF:0 "the State of Russia"
- UNIFY_RUSSIA_STATE_ADJ:0 "Russian"
+ UNIFY_RUS_state:0 "Russian State"
+ UNIFY_RUS_state_DEF:0 "the Russian State"
+ UNIFY_RUS_state_ADJ:0 "Russian"
 #南アフリカ
  SAF_federation:0 "Federation of South Africa"
  SAF_federation_DEF:0 "the Federation of South Africa"

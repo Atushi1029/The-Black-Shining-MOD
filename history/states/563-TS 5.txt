@@ -17,7 +17,7 @@ state = {
 		add_claim_by = SOV
 		set_state_flag = transamur_core_states
 		victory_points = {
-			4705 1 
+			4705 20
 		}
 		buildings = {
 			infrastructure = 2

@@ -983,6 +983,10 @@
  NID_DEF:0 "the Netherlands"
  NID_ADJ:0 "Dutch"
  
+ RFP:0 "Russia"
+ RFP_DEF:0 "the Russia"
+ RFP_ADJ:0 "Russian"
+ 
  RKK:0 "Caucasus"
  RKK_DEF:0 "the Caucasus"
  RKK_ADJ:0 "Caucasian"

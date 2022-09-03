@@ -67,7 +67,7 @@ set_popularities = {
 	religious_nationalism = 0
 	transhumanism = 5
 }
-create_faction = daitoa_kyoeiken
+create_faction = JAP_geacps
 add_to_faction = CAM
 add_to_faction = CHL
 add_to_faction = INS

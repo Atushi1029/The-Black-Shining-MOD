@@ -31,7 +31,7 @@ set_popularities = {
 	religious_nationalism = 5
 	transhumanism = 0
 }
-create_faction = neo_axis
+create_faction = GER_stahlabkommen
 add_to_faction = BNF
 add_to_faction = DEN
 add_to_faction = GER
