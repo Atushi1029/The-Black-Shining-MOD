@@ -1,4 +1,284 @@
 characters = {
+	SOV_alexander_sergeyevich_yakovlev = {
+		name = SOV_alexander_sergeyevich_yakovlev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Alexander_Sergeyevich_Yakovlev"
+				small = "GFX_idea_SOV_alexander_sergeyevich_yakovlev"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Alexander_Sergeyevich_Yakovlev"
+				small = "GFX_idea_SOV_alexander_sergeyevich_yakovlev"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALEXANDER_SERGEYEVICH_YAKOVLEV_DESC"
+			ideology = social_democracy_ideology
+			expire = "1989.8.22.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SOV_andrei_grechko = {
+		name = SOV_andrei_grechko
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Andrei_Grechko"
+				small = "GFX_idea_SOV_andrei_grechko"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Andrei_Grechko"
+				small = "GFX_idea_SOV_andrei_grechko"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = SOV_andrei_grechko_sec_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_security_minister
+				minister_totalitarian_socialist
+				tbs_silent_workhorse
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SOV_boris_yeltsin = {
+		name = SOV_boris_yeltsin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Boris_Yeltsin"
+				small = "GFX_idea_SOV_boris_yeltsin"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Boris_Yeltsin"
+				small = "GFX_idea_SOV_boris_yeltsin"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_BORIS_YELTSIN_DESC"
+			ideology = social_conservatism_ideology
+			expire = "2007.4.23.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SOV_georgy_zhukov = {
+		name = SOV_georgy_zhukov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Georgy_Zhukov"
+				small = "GFX_idea_SOV_georgy_zhukov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Georgy_Zhukov"
+				small = "GFX_idea_SOV_georgy_zhukov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GEORGY_ZHUKOV_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "1974.6.18.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SOV_issa_pliyev = {
+		name = SOV_issa_pliyev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Issa_Pliyev"
+				small = "GFX_idea_SOV_issa_pliyev"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Issa_Pliyev"
+				small = "GFX_idea_SOV_issa_pliyev"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ISSA_PLIYEV_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "1979.2.2.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SOV_konstantin_chernenko = {
+		name = SOV_konstantin_chernenko
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Konstantin_Chernenko"
+				small = "GFX_idea_SOV_konstantin_chernenko"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Konstantin_Chernenko"
+				small = "GFX_idea_SOV_konstantin_chernenko"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = SOV_konstantin_chernenko_jus_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_justice_minister
+				minister_totalitarian_socialist
+				tbs_pragmatic_statesman
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SOV_leonid_brezhnev = {
+		name = SOV_leonid_brezhnev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Leonid_Brezhnev"
+				small = "GFX_idea_SOV_leonid_brezhnev"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Leonid_Brezhnev"
+				small = "GFX_idea_SOV_leonid_brezhnev"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = SOV_leonid_brezhnev_hog_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_head_of_government
+				minister_totalitarian_socialist
+				tbs_man_of_the_people
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SOV_lev_gumilyov = {
+		name = SOV_lev_gumilyov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Lev_Gumilyov"
+				small = "GFX_idea_SOV_lev_gumilyov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Lev_Gumilyov"
+				small = "GFX_idea_SOV_lev_gumilyov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LEV_GUMILYOV_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "1992.6.15.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SOV_mikhail_gorbachev = {
+		name = SOV_mikhail_gorbachev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Mikhail_Gorbachev"
+				small = "GFX_idea_SOV_mikhail_gorbachev"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Mikhail_Gorbachev"
+				small = "GFX_idea_SOV_mikhail_gorbachev"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "2022.8.30.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SOV_mikhail_suslov = {
+		name = SOV_mikhail_suslov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Mikhail_Suslov"
+				small = "GFX_idea_SOV_mikhail_suslov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Mikhail_Suslov"
+				small = "GFX_idea_SOV_mikhail_suslov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
+			ideology = radical_socialism_ideology
+			expire = "1982.1.25.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SOV_nikolai_kuznetsov = {
+		name = SOV_nikolai_kuznetsov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Nikolai_Kuznetsov"
+				small = "GFX_idea_SOV_nikolai_kuznetsov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Nikolai_Kuznetsov"
+				small = "GFX_idea_SOV_nikolai_kuznetsov"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = SOV_nikolai_kuznetsov_for_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_foreign_minister
+				minister_totalitarian_socialist
+				tbs_strict_diplomat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SOV_nikolai_shchelokov = {
+		name = SOV_nikolai_shchelokov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Nikolai_Shchelokov"
+				small = "GFX_idea_SOV_nikolai_shchelokov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Nikolai_Shchelokov"
+				small = "GFX_idea_SOV_nikolai_shchelokov"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = SOV_nikolai_shchelokov_int_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_interior_minister
+				minister_totalitarian_socialist
+				tbs_welfare_expert
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
 	SOV_nikolai_tikhonov = {
 		name = SOV_nikolai_tikhonov
 		portraits = {
@@ -11,12 +291,33 @@ characters = {
 				small = "GFX_idea_SOV_nikolai_tikhonov"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_NIKOLAI_TIKHONOV_DESC"
-			ideology = totalitarian_socialism_ideology
-			expire = "1997.6.7.1"
-			id = -1
-			traits = {}
+	}
+	SOV_valentin_pavlov = {
+		name = SOV_valentin_pavlov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Valentin_Pavlov"
+				small = "GFX_idea_SOV_valentin_pavlov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Valentin_Pavlov"
+				small = "GFX_idea_SOV_valentin_pavlov"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = SOV_valentin_pavlov_eco_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_economy_minister
+				minister_totalitarian_socialist
+				tbs_agricultural_economist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 }

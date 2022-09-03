@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_Portrait_HUN_Arpad_Goncz"
 		texturefile = "gfx/leaders/HUN/Portrait_HUN_Arpad_Goncz.png"
 	}
+	spriteType = {
+		name = "GFX_Portrait_HUN_Istvan_Horthy"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Istvan_Horthy.png"
+	}
 }

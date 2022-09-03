@@ -967,6 +967,10 @@
  BNF_DEF:0 "the Belgium-Northern France"
  BNF_ADJ:0 "Belgian-Northern French"
  
+ CCS:0 "Caucasus"
+ CCS_DEF:0 "the Caucasus"
+ CCS_ADJ:0 "Caucasian"
+ 
  GBR:0 "Britain"
  GBR_DEF:0 "the Britain"
  GBR_ADJ:0 "British"

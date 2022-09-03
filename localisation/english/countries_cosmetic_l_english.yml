@@ -128,6 +128,10 @@
  CAM_kingdom:0 "Kingdom of Cambodia"
  CAM_kingdom_DEF:0 "the Kingdom of Cambodia"
  CAM_kingdom_ADJ:0 "Cambodian"
+#Caucasus
+ CCS_federation:0 "Federation of Caucasus"
+ CCS_federation_DEF:0 "the Federation of Caucasus"
+ CCS_federation_ADJ:0 "Caucasian"
 #チャド
  CHA_republic:0 "Republic of Chad"
  CHA_republic_DEF:0 "the Republic of Chad"
@@ -146,10 +150,6 @@
  CHL_state:0 "State of Chile"
  CHL_state_DEF:0 "the State of Chile"
  CHL_state_ADJ:0 "Chilean"
-#チュクチ
- CKK_state:0 "State of Chukchi"
- CKK_state_DEF:0 "the State of Chukchi"
- CKK_state_ADJ:0 "Chukchian"
 #カメルーン
  CMR_union:0 "Union of Cameroon"
  CMR_union_DEF:0 "the Union of Cameroon"
@@ -269,10 +269,6 @@
  KAZ_republic:0 "Republic of Kazakhstan"
  KAZ_republic_DEF:0 "the Republic of Kazakhstan"
  KAZ_republic_ADJ:0 "Kazakh"
-#コミ
- KOM_republic:0 "Republic of Komi"
- KOM_republic_DEF:0 "the Republic of Komi"
- KOM_republic_ADJ:0 "Komi"
 #ラオス
  LAO_kingdom:0 "Kingdom of Laos"
  LAO_kingdom_DEF:0 "the Kingdom of Laos"
@@ -399,6 +395,9 @@
  RUS_soviet_socialist_republic:0 "Soviet Socialist Republic of Russia"
  RUS_soviet_socialist_republic_DEF:0 "the Soviet Socialist Republic of Russia"
  RUS_soviet_socialist_republic_ADJ:0 "Russian"
+ UNIFY_RUSSIA_STATE:0 "State of Russia"
+ UNIFY_RUSSIA_STATE_DEF:0 "the State of Russia"
+ UNIFY_RUSSIA_STATE_ADJ:0 "Russian"
 #南アフリカ
  SAF_federation:0 "Federation of South Africa"
  SAF_federation_DEF:0 "the Federation of South Africa"
@@ -423,6 +422,10 @@
  SLO_republic:0 "Republic of Slovakia"
  SLO_republic_DEF:0 "the Republic of Slovakia"
  SLO_republic_ADJ:0 "Slovakian"
+#Soviet
+ UNIFY_SOVIET_UNION:0 "Soviet Union"
+ UNIFY_SOVIET_UNION_DEF:0 "the Soviet Union"
+ UNIFY_SOVIET_UNION_ADJ:0 "Soviet"
 #スペイン
  SPR_republic:0 "Republic of Spain"
  SPR_republic_DEF:0 "the Republic of Spain"
@@ -455,10 +458,6 @@
  TOG_and_BENIN_republic:0 "Republic of Togo-Benin"
  TOG_and_BENIN_republic_DEF:0 "the Republic of Togo-Benin"
  TOG_and_BENIN_republic_ADJ:0 "Togolese-Beninese"
-#トランシルヴァニア
- TRA_republic:0 "Republic of Transylvania"
- TRA_republic_DEF:0 "the Republic of Transylvania"
- TRA_republic_ADJ:0 "Transylvanian"
 #トランスアムール
  TRANSAMUR_republic:0 "Republic of Transamur"
  TRANSAMUR_republic_DEF:0 "the Republic of Transamur"

@@ -2,6 +2,7 @@
 #oob = ""
 set_cosmetic_tag = FRA_state
 set_starting_values = yes
+recruit_character = FRA_henri_dorleans
 recruit_character = FRA_jean-marie_le_pen
 set_convoys = 20
 add_ideas = {

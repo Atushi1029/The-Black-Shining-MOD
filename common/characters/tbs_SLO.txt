@@ -11,10 +11,23 @@ characters = {
 				small = "GFX_idea_SLO_alexander_mach"
 			}
 		}
+	}
+	SLO_ferdinand_durcansky = {
+		name = SLO_ferdinand_durcansky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SLO_Ferdinand_Durcansky"
+				small = "GFX_idea_SLO_ferdinand_durcansky"
+			}
+			army = {
+				large = "GFX_Portrait_SLO_Ferdinand_Durcansky"
+				small = "GFX_idea_SLO_ferdinand_durcansky"
+			}
+		}
 		country_leader = {
-			desc = "POLITICS_ALEXANDER_MACH_DESC"
+			desc = "POLITICS_FERDINAND_DURCANSKY_DESC"
 			ideology = national_corporatism_ideology
-			expire = "1980.10.15.1"
+			expire = "1973.3.15.1"
 			id = -1
 			traits = {}
 		}

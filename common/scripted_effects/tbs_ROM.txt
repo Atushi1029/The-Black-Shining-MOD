@@ -36,6 +36,6 @@ ROM_setup_communism_government = {
 			limit = { always = yes }
 			set_nationality = ROM
 		}
-		ROM = { promote_character = RPG_nicolae_ceausescu }
+		ROM = { promote_character = RPG_corneliu_manescu }
 	}
 }

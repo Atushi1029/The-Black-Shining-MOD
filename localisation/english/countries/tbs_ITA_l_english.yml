@@ -1,4 +1,9 @@
 ﻿l_english:
-#キャラクター
+#Characters
  ITA_aldo_moro:0 "Aldo Moro"
  ITA_umberto_ii:0 "Umberto II"
+#National Spirits
+ ITA_fascist_memory:0 "Fascist Memory"
+ ITA_wounds_of_the_german-italian_war:0 "Wounds of the German-Italian War"
+ ITA_stagnant_economy:0 "Stagnant Economy"
+ ITA_rise_of_the_reds:0 "Rise of the “Reds”"

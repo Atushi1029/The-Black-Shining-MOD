@@ -3,6 +3,7 @@
 set_cosmetic_tag = SLO_republic
 set_starting_values = yes
 recruit_character = SLO_alexander_mach
+recruit_character = SLO_ferdinand_durcansky
 set_convoys = 20
 add_ideas = {
 	

@@ -9,9 +9,12 @@ state = {
 		victory_points = {
 			108 20
 		}
-		owner = KOM
-		add_core_of = KOM
-		set_state_flag = russian_old_states
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = FER
+		add_claim_by = RLA
+		add_claim_by = RUS
+		set_state_flag = rsr_core_states
 		buildings = {
 			infrastructure = 1
 

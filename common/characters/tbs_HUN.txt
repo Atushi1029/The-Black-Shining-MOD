@@ -19,4 +19,24 @@ characters = {
 			traits = {}
 		}
 	}
+	HUN_istvan_horthy = {
+		name = HUN_istvan_horthy
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HUN_Istvan_Horthy"
+				small = "GFX_idea_HUN_istvan_horthy"
+			}
+			army = {
+				large = "GFX_Portrait_HUN_Istvan_Horthy"
+				small = "GFX_idea_HUN_istvan_horthy"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ISTVAN_HORTHY_DESC"
+			ideology = social_conservatism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

@@ -3,9 +3,8 @@ state = {
 	name = "STATE_822" #Chukotka
 
 	history = {
-		owner = CKK
-		add_core_of = CKK
-		add_claim_by = FER
+		owner = STO
+		add_core_of = STO
 		set_state_flag = russian_old_states
 		victory_points = {
 			13063 1 

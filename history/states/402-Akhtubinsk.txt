@@ -13,6 +13,7 @@ state={
 		add_claim_by = FER
 		add_claim_by = RUS
 		add_claim_by = SOV
+		set_state_flag = kaz_core_states
 		set_state_flag = rla_core_states
 		victory_points = {
 			7341 1 

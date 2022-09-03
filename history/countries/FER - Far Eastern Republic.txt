@@ -9,24 +9,25 @@ add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = national_corporatism
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	totalitarian_socialism = 0
-	radical_socialism = 0
-	moderate_socialism = 0
+	totalitarian_socialism = 3
+	radical_socialism = 1
+	moderate_socialism = 2
 	social_democracy = 0
 	liberal_democracy = 0
-	social_conservatism = 0
-	authoritarian_democracy = 0
-	paternal_autocracy = 0
-	national_corporatism = 10
-	national_socialism = 60
-	ultra_nationalism = 20
-	religious_nationalism = 10
+	social_conservatism = 5
+	authoritarian_democracy = 6
+	paternal_autocracy = 10
+	national_corporatism = 47
+	national_socialism = 11
+	ultra_nationalism = 15
+	religious_nationalism = 0
 	transhumanism = 0
 }
+add_to_array = { global.russian_warlords = FER }
 give_military_access = JAP

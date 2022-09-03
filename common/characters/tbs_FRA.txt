@@ -1,4 +1,24 @@
 characters = {
+	FRA_henri_dorleans = {
+		name = FRA_henri_dorleans
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FRA_Henri_dOrleans"
+				small = "GFX_idea_FRA_henri_dorleans"
+			}
+			army = {
+				large = "GFX_Portrait_FRA_Henri_dOrleans"
+				small = "GFX_idea_FRA_henri_dorleans"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HENRI_DORLEANS_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1999.6.19.1"
+			id = -1
+			traits = {}
+		}
+	}
 	FRA_jean-marie_le_pen = {
 		name = FRA_jean-marie_le_pen
 		portraits = {

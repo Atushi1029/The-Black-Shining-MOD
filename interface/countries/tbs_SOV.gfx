@@ -1,0 +1,116 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_SOV_alexander_sergeyevich_yakovlev"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_alexander_sergeyevich_yakovlev.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_andrei_grechko"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_andrei_grechko.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_boris_yeltsin"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_boris_yeltsin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_georgy_zhukov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_georgy_zhukov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_issa_pliyev"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_issa_pliyev.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_konstantin_chernenko"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_konstantin_chernenko.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_leonid_brezhnev"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_leonid_brezhnev.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_lev_gumilyov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_lev_gumilyov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_mikhail_gorbachev"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_mikhail_gorbachev.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_mikhail_suslov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_mikhail_suslov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_nikolai_kuznetsov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_nikolai_kuznetsov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_nikolai_shchelokov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_nikolai_shchelokov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_nikolai_tikhonov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_nikolai_tikhonov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_valentin_pavlov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_valentin_pavlov.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_SOV_Alexander_Sergeyevich_Yakovlev"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Alexander_Sergeyevich_Yakovlev.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Andrei_Grechko"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Andrei_Grechko.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Boris_Yeltsin"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Boris_Yeltsin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Georgy_Zhukov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Georgy_Zhukov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Issa_Pliyev"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Issa_Pliyev.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Konstantin_Chernenko"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Konstantin_Chernenko.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Leonid_Brezhnev"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Leonid_Brezhnev.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Lev_Gumilyov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Lev_Gumilyov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Mikhail_Gorbachev"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Gorbachev.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Mikhail_Suslov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Suslov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Nikolai_Kuznetsov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Nikolai_Kuznetsov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Nikolai_Shchelokov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Nikolai_Shchelokov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Nikolai_Tikhonov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Nikolai_Tikhonov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Valentin_Pavlov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Valentin_Pavlov.png"
+	}
+}

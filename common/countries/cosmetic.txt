@@ -2,3 +2,11 @@ ROM_socialist_republic_175_13_0 = {
 	color = rgb { 175 13 0 }
 	color_ui = rgb { 175 13 0 }
 }
+UNIFY_RUSSIA_STATE = {
+	color = rgb { 38 146 90 }
+	color_ui = rgb { 38 146 90 }
+}
+#UNIFY_SOVIET_UNION = {
+#	color = rgb { 163 17 31 }
+#	color_ui = rgb { 163 17 31 }
+#}

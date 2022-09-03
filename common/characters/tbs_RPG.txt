@@ -1,4 +1,24 @@
 characters = {
+	RPG_corneliu_manescu = {
+		name = RPG_corneliu_manescu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RPG_Corneliu_Manescu"
+				small = "GFX_idea_RPG_corneliu_manescu"
+			}
+			army = {
+				large = "GFX_Portrait_RPG_Corneliu_Manescu"
+				small = "GFX_idea_RPG_corneliu_manescu"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CORNELIU_MANESCU_DESC"
+			ideology = radical_socialism_ideology
+			expire = "2000.6.26.1"
+			id = -1
+			traits = {}
+		}
+	}
 	RPG_nicolae_ceausescu = {
 		name = RPG_nicolae_ceausescu
 		portraits = {
@@ -10,13 +30,6 @@ characters = {
 				large = "GFX_Portrait_RPG_Nicolae_Ceausescu"
 				small = "GFX_idea_RPG_nicolae_ceausescu"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_NICOLAE_CEAUSESCU_DESC"
-			ideology = radical_socialism_ideology
-			expire = "1989.12.25.1"
-			id = -1
-			traits = {}
 		}
 	}
 }

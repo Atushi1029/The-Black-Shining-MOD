@@ -148,8 +148,8 @@ CHI = {
 	color_ui = rgb { 168 45 75 }
 }
 CHL = {
-	color = rgb { 202 131 139 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 0 89 132 }
+	color_ui = rgb { 0 89 132 }
 }
 COL = {
 	color = rgb { 222 187 91 }
@@ -264,8 +264,8 @@ MON = {
 	color_ui = rgb { 145 163 176 }
 }
 MEN = {
-	color = rgb { 0 89 132 }
-	color_ui = rgb { 0 89 132 }
+	color = rgb { 50 12 175 }
+	color_ui = rgb { 50 12 175 }
 }
 TAN = {
 	color = rgb { 152 130 191 }
@@ -372,8 +372,8 @@ ARM = {
 	color_ui = rgb { 176 102 180 }
 }
 LAO = {
-	color = rgb { 176 102 136 }
-	color_ui = rgb { 176 102 136 }
+	color = rgb { 2 55 114 }
+	color_ui = rgb { 2 55 114 }
 }
 INS = {
 	color = rgb { 40 50 120 }
@@ -847,6 +847,10 @@ CAY = {
 	color = rgb { 2 132 178 }
 	color_ui = rgb { 2 132 178 }
 }
+CCS = {
+	color = rgb { 255 175 0 }
+	color_ui = rgb { 255 175 0 }
+}
 CHA = {
 	color = rgb { 176 97 77 }
 	color_ui = rgb { 176 97 77 }
@@ -876,8 +880,8 @@ DJI = {
 	color_ui = rgb { 5 216 168 }
 }
 DNZ = {
-	color = rgb { 50 12 175 }
-	color_ui = rgb { 50 12 175 }
+	color = rgb { 21 191 16 }
+	color_ui = rgb { 21 191 16 }
 }
 DON = {
 	color = rgb { 249 201 0 }

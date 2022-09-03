@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ITA_fascist_memory"
+		texturefile = "gfx/interface/ideas/ITA/idea_ITA_fascist_memory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_wounds_of_the_german-italian_war"
+		texturefile = "gfx/interface/ideas/ITA/idea_ITA_wounds_of_the_german_italian_war.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_stagnant_economy"
+		texturefile = "gfx/interface/ideas/ITA/idea_ITA_stagnant_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_rise_of_the_reds"
+		texturefile = "gfx/interface/ideas/ITA/idea_ITA_rise_of_the_reds.png"
+	}
+}

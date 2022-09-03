@@ -3,9 +3,14 @@
 set_cosmetic_tag = ITA_kingdom
 set_starting_values = yes
 recruit_character = ITA_aldo_moro
+recruit_character = ITA_umberto_ii
 set_convoys = 20
 add_ideas = {
 	ITA_mon_umberto_ii
+	ITA_fascist_memory
+	ITA_wounds_of_the_german-italian_war
+	ITA_stagnant_economy
+	ITA_rise_of_the_reds
 }
 set_politics = {
 	ruling_party = authoritarian_democracy

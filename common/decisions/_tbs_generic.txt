@@ -81,6 +81,111 @@ political_actions = {
 			add_research_slot = 1
 		}
 	}
+	#russian_unification = {
+	#	icon = generic_form_nation
+	#	available = {
+	#		is_subject = no
+	#		has_war = no
+	#		has_kazakhstan = yes
+	#		has_komi = yes
+	#		has_north_western_russia = yes
+	#		has_western_siberia = yes
+	#		has_western_urals = yes
+	#		40 = { is_controlled_by = ROOT }
+	#		654 = { is_controlled_by = ROOT }
+	#		OR = {
+	#			has_far_eastern_siberia = yes
+	#			custom_trigger_tooltip = {
+	#				tooltip = cannot_dominate_far_eastern_siberia_tt
+	#				all_state = { 
+	#					OR = {
+	#						is_controlled_by = CKK
+	#						is_controlled_by = JAP
+	#						is_controlled_by = MAN
+	#						NOT = { has_state_flag = transamur_core_states }
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#	visible = {
+	#		OR = {
+	#			tag = FER
+	#			tag = RLA
+	#			tag = RUS
+	#			tag = SOV
+	#		}
+	#		NOT = { has_global_flag = russia_unified }
+	#	}
+	#	cost = 0
+	#	fire_only_once = no
+	#	ai_will_do = { factor = 1 }
+	#	complete_effect = {
+	#		set_global_flag = russia_unified
+	#		custom_effect_tooltip = form_russia_tt
+	#		if = {
+	#			limit = { tag = RUS }
+	#			hidden_effect = {
+	#				news_event = {
+	#					id = tbs_russian_unification.0
+	#					hours = 6
+	#				}
+	#			}
+	#		}
+	#		else = {
+	#			every_character = {
+	#				limit = { always = yes }
+	#				set_nationality = RUS
+	#			}
+	#			hidden_effect = { ROOT_unification_events = yes }
+	#			RUS = {
+	#				annex_country = {
+	#					target = ROOT
+	#					transfer_troops = yes
+	#				}
+	#				change_tag_from = ROOT
+	#			}
+	#		}
+	#		hidden_effect = {
+	#			every_state = {
+	#				limit = {
+	#					OR = {
+	#						has_state_flag = kaz_core_states
+	#						has_state_flag = komi_core_states
+	#						state = 40
+	#						state = 654
+	#						AND = {
+	#							is_claimed_by = RUS
+	#							OR = {
+	#								has_state_flag = transamur_core_states
+	#								has_state_flag = rsr_core_states
+	#								has_state_flag = rusrep_core_states
+	#								has_state_flag = rla_core_states
+	#							}
+	#						}
+	#					}
+	#					NOT = { is_core_of = RUS }
+	#				}
+	#				add_core_of = RUS
+	#				remove_claim_by = RUS
+	#			}
+	#			for_each_scope_loop = {
+	#				array = global.russian_warlords
+	#				if = {
+	#					limit = { NOT = { tag = RUS } }
+	#					every_state = {
+	#						limit = { is_core_of = PREV }
+	#						remove_core_of = PREV
+	#					}
+	#					every_state = {
+	#						limit = { is_claimed_by = PREV }
+	#						remove_claim_by = PREV
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
 }
 lar_local_recruitment = {
 	

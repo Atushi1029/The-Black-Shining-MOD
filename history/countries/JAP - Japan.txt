@@ -70,7 +70,6 @@ set_popularities = {
 create_faction = daitoa_kyoeiken
 add_to_faction = CAM
 add_to_faction = CHL
-add_to_faction = CKK
 add_to_faction = INS
 add_to_faction = JAP
 add_to_faction = LAO
@@ -87,10 +86,6 @@ set_autonomy = {
 set_autonomy = {
 	target = LAO
 	autonomous_state = autonomy_wtt_imperial_protectorate
-}
-set_autonomy = {
-	target = CKK
-	autonomous_state = autonomy_wtt_imperial_associate
 }
 set_autonomy = {
 	target = MAL

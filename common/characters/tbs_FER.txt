@@ -11,6 +11,13 @@ characters = {
 				small = "GFX_idea_FER_alexander_bolotov"
 			}
 		}
+		country_leader = {
+			desc = "POLITICS_ALEXANDER_BOLOTOV_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
 	}
 	FER_georgy_shekerev = {
 		name = FER_georgy_shekerev

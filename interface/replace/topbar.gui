@@ -342,9 +342,23 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
+		iconType ={
+			name ="gdp_bg"
+			spriteType = "GFX_generic_box_96"
+			position = { x = 805 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="inflation_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x = 904 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
 		containerWindowType = {
 			name = "cp"
-			position = { x= 805 y = 5}
+			position = { x= 977 y = 5}
 			clipping = no
 			size = { width=62 height=30 }
 			Orientation = UPPER_LEFT
@@ -375,7 +389,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "land"
-			position = { x= 869 y = 5}
+			position = { x= 1041 y = 5}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -406,7 +420,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "navy"
-			position = { x= 927 y = 5}
+			position = { x= 1099 y = 5}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -437,7 +451,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air"
-			position = { x= 985 y = 5}
+			position = { x= 1157 y = 5}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -469,21 +483,21 @@ guiTypes = {
 		iconType ={
 			name ="nuke_text_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x= 1043 y=5 }
+			position = { x= 1215 y=5 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="nuke_icon"
 			spriteType = "GFX_topbar_nuke"
-			position = { x= 1044 y=8 }
+			position = { x= 1216 y=8 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
 		}
 		
 		instantTextBoxType = {
 			name ="nuke_count"
-			position = { x= 1066 y=9 }
+			position = { x= 1238 y=9 }
 			font = "hoi_18mbs"
 			format = center
 			maxWidth = 44

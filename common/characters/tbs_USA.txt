@@ -136,6 +136,19 @@ characters = {
 			}
 		}
 	}
+	USA_gus_hall = {
+		name = USA_gus_hall
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Gus_Hall"
+				small = "GFX_idea_USA_gus_hall"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Gus_Hall"
+				small = "GFX_idea_USA_gus_hall"
+			}
+		}
+	}
 	USA_henry_kissinger = {
 		name = USA_henry_kissinger
 		portraits = {

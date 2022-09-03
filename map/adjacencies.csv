@@ -211,4 +211,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7114;9793;sea;-1;-1;-1;-1;-1;;Spain
 1399;4728;sea;5488;-1;-1;-1;-1;;Japan
 4302;7319;land;5236;-1;-1;-1;-1;;Cambodia
+5108;5505;sea;9737;-1;-1;-1;-1;MIDI_CANAL;Midi Canal
 -1;-1;;-1;-1;-1;-1;-1;-1

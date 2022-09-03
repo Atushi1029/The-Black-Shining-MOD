@@ -4,10 +4,12 @@ state={
 	name="STATE_562"
 
 	history={
-		owner = CKK
-		add_core_of = CKK
-		add_claim_by = FER
-		set_state_flag = russian_old_states
+		owner = FER
+		add_core_of = FER
+		add_claim_by = RLA
+		add_claim_by = RUS
+		add_claim_by = SOV
+		set_state_flag = transamur_core_states
 		victory_points = {
 			12518 1 
 		}

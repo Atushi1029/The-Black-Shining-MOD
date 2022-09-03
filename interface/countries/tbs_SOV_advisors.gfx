@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_idea_SOV_nikolai_tikhonov"
-		texturefile = "gfx/interface/advisors/SOV/idea_SOV_nikolai_tikhonov.png"
-	}
-}

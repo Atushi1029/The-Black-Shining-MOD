@@ -28,3 +28,4 @@ set_popularities = {
 	religious_nationalism = 0
 	transhumanism = 0
 }
+add_to_array = { global.russian_warlords = RUS }

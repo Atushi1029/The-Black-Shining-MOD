@@ -12,11 +12,10 @@ state={
 
 	history = {
 		owner = FER
-		add_core_of = FER
-		add_claim_by = RLA
-		add_claim_by = RUS
-		add_claim_by = SOV
-		set_state_flag = transamur_core_states
+		owner = MAN
+		add_core_of = MAN
+		add_claim_by = FER
+		set_state_flag = russian_old_states
 		victory_points = {
 			4805 1
 		}
@@ -27,7 +26,7 @@ state={
 	}
 
 	provinces = {
-		675 1802 4246 4701 4725 4779 4805 4829 7616 7672 7763 7801 10655 10722 12192 12261 12263 12654 12678 
+		675 1802 4246 4701 4725 4779 4805 4829 7616 7672 7801 10655 10722 12192 12261 12263 12654 12678 
 	}
 
 	local_supplies = 0.0 

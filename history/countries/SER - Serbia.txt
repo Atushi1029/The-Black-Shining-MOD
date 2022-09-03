@@ -3,27 +3,28 @@
 set_cosmetic_tag = SER_kingdom
 set_starting_values = yes
 recruit_character = SER_aleksandar_rankovic
+recruit_character = SER_blagoje_jovovic
 recruit_character = SER_peter_ii
 set_convoys = 20
 add_ideas = {
 	SER_mon_peter_ii
 }
 set_politics = {
-	ruling_party = radical_socialism
+	ruling_party = paternal_autocracy
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	totalitarian_socialism = 10
-	radical_socialism = 40
-	moderate_socialism = 10
-	social_democracy = 5
-	liberal_democracy = 5
-	social_conservatism = 0
-	authoritarian_democracy = 10
-	paternal_autocracy = 15
-	national_corporatism = 5
+	totalitarian_socialism = 0
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 17
+	social_conservatism = 21
+	authoritarian_democracy = 18
+	paternal_autocracy = 41
+	national_corporatism = 3
 	national_socialism = 0
 	ultra_nationalism = 0
 	religious_nationalism = 0

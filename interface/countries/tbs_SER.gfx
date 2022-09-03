@@ -5,6 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/SER/idea_SER_aleksandar_rankovic.png"
 	}
 	spriteType = {
+		name = "GFX_idea_SER_blagoje_jovovic"
+		texturefile = "gfx/interface/advisors/SER/idea_SER_blagoje_jovovic.png"
+	}
+	spriteType = {
 		name = "GFX_idea_SER_peter_ii"
 		texturefile = "gfx/interface/advisors/SER/idea_SER_peter_ii.png"
 	}
@@ -12,6 +16,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SER_Aleksandar_Rankovic"
 		texturefile = "gfx/leaders/SER/Portrait_SER_Aleksandar_Rankovic.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SER_Blagoje_Jovovic"
+		texturefile = "gfx/leaders/SER/Portrait_SER_Blagoje_Jovovic.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SER_Peter_II"

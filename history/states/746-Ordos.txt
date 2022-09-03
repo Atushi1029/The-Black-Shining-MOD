@@ -9,8 +9,9 @@ state={
 	
 	history=
 	{
-		owner = CHI
-		add_core_of = CHI
+		owner = MEN
+		add_core_of = MEN
+		add_claim_by = CHI
 		buildings = {
 			infrastructure = 1
 		}

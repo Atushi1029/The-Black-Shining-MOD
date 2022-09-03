@@ -4,7 +4,7 @@ scripted_gui = {
 		window_name = "superevents_window"
 		ai_enabled = { always = no }
 		visible = {
-			check_variable = { view_superevents > 0 }
+			has_variable = view_superevents
 			is_ai = no
 		}
 		properties = {

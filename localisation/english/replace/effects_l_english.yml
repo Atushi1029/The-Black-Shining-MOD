@@ -26,3 +26,4 @@
  leave_the_coalition_ultra_nationalism_tt:0 "§O$ultra_nationalism$§! will leave the coalition."
  leave_the_coalition_religious_nationalism_tt:0 "§O$religious_nationalism$§! will leave the coalition."
  leave_the_coalition_transhumanism_tt:0 "§C$transhumanism$§! will leave the coalition."
+ add_num_volunteers_tt:0 "We will be able to send [?to_add|Y0] more volunteer units to §Y[?target.GetNameWithFlag]§!."

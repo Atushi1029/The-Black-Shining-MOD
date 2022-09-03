@@ -12,6 +12,7 @@ recruit_character = USA_george_mcgovern
 recruit_character = USA_george_wallace
 recruit_character = USA_gerald_ford
 recruit_character = USA_geraldine_ferraro
+recruit_character = USA_gus_hall
 recruit_character = USA_henry_kissinger
 recruit_character = USA_hubert_humphrey
 recruit_character = USA_jesse_jackson
