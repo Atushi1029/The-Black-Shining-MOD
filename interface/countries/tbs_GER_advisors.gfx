@@ -4,6 +4,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/idea_GER_heinz_knoke.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_nsdap_central_commitee"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_nsdap_central_commitee.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_oskar_dirlewanger"
 		texturefile = "gfx/interface/advisors/GER/idea_GER_oskar_dirlewanger.png"
 	}

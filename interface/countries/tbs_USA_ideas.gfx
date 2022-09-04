@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_USA_a_quiet_pacific"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_a_quiet_pacific.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_bastion_of_liberty"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_bastion_of_liberty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_the_johnson_doctrine"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_the_johnson_doctrine.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_the_soaring_eagle"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_the_soaring_eagle.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_untested_dod"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_untested_dod.png"
+	}
+}

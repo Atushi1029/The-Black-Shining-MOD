@@ -1,0 +1,22 @@
+characters = {
+	GEO_givi_javakhishvili = {
+		name = GEO_givi_javakhishvili
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GEO_Givi_Javakhishvili"
+				small = "GFX_idea_GEO_givi_javakhishvili"
+			}
+			army = {
+				large = "GFX_Portrait_GEO_Givi_Javakhishvili"
+				small = "GFX_idea_GEO_givi_javakhishvili"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GIVI_JAVAKHISHVILI_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1985.1.10.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

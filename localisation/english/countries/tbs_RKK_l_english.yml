@@ -1,7 +1,9 @@
 ﻿l_english:
-#キャラクター
+#Characters
+ RKK_nsdap_central_commitee:0 "NSDAP Central Commitee"
+ RKK_richard_fiedler:0 "Richard Fiedler"
  RKK_siegfried_kasche:0 "Siegfried Kasche"
-#政党
+#Parties
  RKK_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
  RKK_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKK_radical_socialism_party:0 "Anti-Nazi Resistance Movement"

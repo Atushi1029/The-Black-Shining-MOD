@@ -6,13 +6,10 @@ state={
 	state_category = enclave
 
 	history={
-		owner = SOV
+		owner = RKM
 		add_core_of = FIN
-		add_core_of = SOV
-		add_claim_by = FER
-		add_claim_by = RLA
-		add_claim_by = RUS
-		set_state_flag = rsr_core_states
+		add_core_of = RKM
+		set_state_flag = russian_old_states
 		buildings = {
 			infrastructure = 2
 			9140 = {

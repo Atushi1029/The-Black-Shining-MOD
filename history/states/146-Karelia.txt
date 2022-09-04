@@ -4,12 +4,9 @@ state={
 	name="STATE_146"
 
 	history={
-		owner = FIN
+		owner = RKM
 		add_core_of = FIN
-		add_claim_by = FER
-		add_claim_by = RLA
-		add_claim_by = RUS
-		add_claim_by = SOV
+		add_core_of = RKM
 		set_state_flag = russian_old_states
 		buildings = {
 			infrastructure = 3

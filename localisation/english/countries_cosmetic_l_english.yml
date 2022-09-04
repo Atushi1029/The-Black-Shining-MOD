@@ -206,6 +206,10 @@
  GBR_united_kingdom:0 "United Kingdom"
  GBR_united_kingdom_DEF:0 "the United Kingdom"
  GBR_united_kingdom_ADJ:0 "British"
+#Georgia
+ GEO_republic:0 "Republic of Georgia"
+ GEO_republic_DEF:0 "the Republic of Georgia"
+ GEO_republic_ADJ:0 "Georgian"
 #ゲルマニア
  GERMANIA_greater_empire:0 "Großgermanisches Reich"
  GERMANIA_greater_empire_DEF:0 "the Großgermanisches Reich"

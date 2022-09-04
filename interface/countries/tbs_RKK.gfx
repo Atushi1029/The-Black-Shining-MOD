@@ -1,10 +1,18 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
+		name = "GFX_idea_RKK_richard_fiedler"
+		texturefile = "gfx/interface/advisors/RKK/idea_RKK_richard_fiedler.png"
+	}
+	spriteType = {
 		name = "GFX_idea_RKK_siegfried_kasche"
 		texturefile = "gfx/interface/advisors/RKK/idea_RKK_siegfried_kasche.png"
 	}
 	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RKK_Richard_Fiedler"
+		texturefile = "gfx/leaders/RKK/Portrait_RKK_Richard_Fiedler.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_RKK_Siegfried_Kasche"
 		texturefile = "gfx/leaders/RKK/Portrait_RKK_Siegfried_Kasche.png"

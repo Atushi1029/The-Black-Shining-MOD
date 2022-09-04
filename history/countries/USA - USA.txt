@@ -29,7 +29,11 @@ recruit_character = USA_tom_kahn
 recruit_character = USA_walter_mondale
 set_convoys = 20
 add_ideas = {
-	
+	USA_a_quiet_pacific
+	USA_bastion_of_liberty
+	USA_the_johnson_doctrine
+	USA_the_soaring_eagle
+	USA_untested_dod
 }
 set_politics = {
 	ruling_party = liberal_democracy
@@ -52,3 +56,10 @@ set_popularities = {
 	religious_nationalism = 0
 	transhumanism = 0
 }
+create_faction = USA_global_defense_coalition
+add_to_faction = USA
+add_to_faction = AST
+add_to_faction = BLZ
+add_to_faction = CAN
+add_to_faction = COL
+add_to_faction = NZL

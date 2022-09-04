@@ -7,15 +7,12 @@ state={
 	state_category = town
 
 	history={
-		owner = SOV
+		owner = RKM
+		add_core_of = RKM
+		set_state_flag = russian_old_states
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		add_core_of = SOV
-		add_claim_by = FER
-		add_claim_by = RLA
-		add_claim_by = RUS
-		set_state_flag = rsr_core_states
 		victory_points = {
 			6269 3
 		}

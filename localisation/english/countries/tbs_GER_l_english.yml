@@ -1,10 +1,11 @@
 ﻿l_english:
-#キャラクター
+#Characters
  GER_heinz_knoke:0 "Heinz Knoke"
+ GER_nsdap_central_commitee:0 "NSDAP Central Commitee"
  GER_oskar_dirlewanger:0 "Oskar Dirlewanger"
  GER_otto_ernst_remer:0 "Otto Ernst Remer"
  GER_reinhard_heydrich:0 "Reinhard Heydrich"
-#政党
+#Parties
  GER_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
  GER_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  GER_radical_socialism_party:0 "Anti-Nazi Resistance Movement"

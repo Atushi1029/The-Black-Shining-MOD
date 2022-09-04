@@ -7,7 +7,9 @@ state={
 	state_category = large_town
 
 	history={
-		owner = SOV
+		owner = RKM
+		add_core_of = RKM
+		set_state_flag = russian_old_states
 		victory_points = {
 			121 5 
 		}
@@ -16,11 +18,6 @@ state={
 			industrial_complex = 1
 			air_base = 1
 		}
-		add_core_of = SOV
-		add_claim_by = FER
-		add_claim_by = RLA
-		add_claim_by = RUS
-		set_state_flag = rsr_core_states
 	}
 
 	provinces={

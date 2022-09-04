@@ -1,4 +1,4 @@
-﻿capital = 351
+﻿capital = 397
 #oob = ""
 set_cosmetic_tag = UNIFY_SOVIET_UNION
 set_starting_values = yes

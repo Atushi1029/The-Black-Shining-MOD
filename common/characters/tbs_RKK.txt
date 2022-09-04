@@ -1,4 +1,37 @@
 characters = {
+	RKK_nsdap_central_commitee = {
+		name = RKK_nsdap_central_commitee
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_NSDAP_Central_Commitee"
+				small = "GFX_idea_GER_nsdap_central_commitee"
+			}
+			army = {
+				large = "GFX_Portrait_GER_NSDAP_Central_Commitee"
+				small = "GFX_idea_GER_nsdap_central_commitee"
+			}
+		}
+	}
+	RKK_richard_fiedler = {
+		name = RKK_richard_fiedler
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKK_Richard_Fiedler"
+				small = "GFX_idea_RKK_richard_fiedler"
+			}
+			army = {
+				large = "GFX_Portrait_RKK_Richard_Fiedler"
+				small = "GFX_idea_RKK_richard_fiedler"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RICHARD_FIEDLER_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "1974.12.14.1"
+			id = -1
+			traits = {}
+		}
+	}
 	RKK_siegfried_kasche = {
 		name = RKK_siegfried_kasche
 		portraits = {
