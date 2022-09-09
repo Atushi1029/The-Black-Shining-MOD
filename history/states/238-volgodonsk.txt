@@ -4,8 +4,8 @@ state={
 	name="STATE_238"
 
 	history={
-		owner = RKK
-		add_core_of = RKK
+		owner = RKM
+		add_core_of = RKM
 		set_state_flag = russian_old_states
 		buildings = {
 			infrastructure = 2
