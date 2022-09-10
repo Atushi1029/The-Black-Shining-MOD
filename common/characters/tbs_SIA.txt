@@ -11,10 +11,30 @@ characters = {
 				small = "GFX_idea_SIA_kukrit_pramoj"
 			}
 		}
+		#country_leader = {
+		#	desc = "POLITICS_KUKRIT_PRAMOJ_DESC"
+		#	ideology = authoritarian_democracy_ideology
+		#	expire = "1995.10.9.1"
+		#	id = -1
+		#	traits = {}
+		#}
+	}
+	SIA_pridi_banomyong = {
+		name = SIA_pridi_banomyong
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Pridi_Banomyong"
+				small = "GFX_idea_SIA_pridi_banomyong"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Pridi_Banomyong"
+				small = "GFX_idea_SIA_pridi_banomyong"
+			}
+		}
 		country_leader = {
-			desc = "POLITICS_KUKRIT_PRAMOJ_DESC"
+			desc = "POLITICS_PRIDI_BANOMYONG_DESC"
 			ideology = authoritarian_democracy_ideology
-			expire = "1995.10.9.1"
+			expire = "1983.5.2.1"
 			id = -1
 			traits = {}
 		}

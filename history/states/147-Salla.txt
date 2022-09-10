@@ -7,9 +7,8 @@ state=
 	state_category = enclave
 	
 	history = {	
-		owner = RKM
+		owner = FIN
 		add_core_of = FIN
-		add_core_of = RKM
 		set_state_flag = russian_old_states
 		buildings = {
 			infrastructure = 2

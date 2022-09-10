@@ -4,8 +4,8 @@ state={
 	name="STATE_216"
 
 	history={
-		owner = RKM
-		add_core_of = RKM
+		owner = FIN
+		add_core_of = FIN
 		set_state_flag = russian_old_states
 		victory_points = {
 			11159 1 

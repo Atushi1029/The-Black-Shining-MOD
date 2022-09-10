@@ -60,6 +60,27 @@ characters = {
 			traits = {}
 		}
 	}
+	JAP_hachiro_hayashi = {
+		name = JAP_hachiro_hayashi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hachiro_Hayashi"
+				small = "GFX_idea_JAP_hachiro_hayashi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hachiro_Hayashi"
+				small = "GFX_idea_JAP_hachiro_hayashi"
+			}
+		}
+		corps_commander={
+			traits = { trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 	JAP_hirohito = {
 		name = JAP_hirohito
 		portraits = {
@@ -70,6 +91,90 @@ characters = {
 			army = {
 				large = "GFX_Portrait_JAP_Hirohito"
 				small = "GFX_idea_JAP_hirohito"
+			}
+		}
+	}
+	JAP_hiromu_tokugawa = {
+		name = JAP_hiromu_tokugawa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hiromu_Tokugawa"
+				small = "GFX_idea_JAP_hiromu_tokugawa"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hiromu_Tokugawa"
+				small = "GFX_idea_JAP_hiromu_tokugawa"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				trait_engineer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	JAP_hiroo_onoda = {
+		name = JAP_hiroo_onoda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hiroo_Onoda"
+				small = "GFX_idea_JAP_hiroo_onoda"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hiroo_Onoda"
+				small = "GFX_idea_JAP_hiroo_onoda"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				politically_connected
+				trickster
+				trait_engineer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	JAP_hisao_kimura = {
+		name = JAP_hisao_kimura
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hisao_Kimura"
+				small = "GFX_idea_JAP_hisao_kimura"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hisao_Kimura"
+				small = "GFX_idea_JAP_hisao_kimura"
+			}
+		}
+		corps_commander={
+			traits = { career_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	JAP_hyozo_kashiwabara = {
+		name = JAP_hyozo_kashiwabara
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hyozo_Kashiwabara"
+				small = "GFX_idea_JAP_hyozo_kashiwabara"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hyozo_Kashiwabara"
+				small = "GFX_idea_JAP_hyozo_kashiwabara"
 			}
 		}
 	}
@@ -169,6 +274,80 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	JAP_keizo_hayashi = {
+		name = JAP_keizo_hayashi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Keizo_Hayashi"
+				small = "GFX_idea_JAP_keizo_hayashi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Keizo_Hayashi"
+				small = "GFX_idea_JAP_keizo_hayashi"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				infantry_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	JAP_kentaro_toji = {
+		name = JAP_kentaro_toji
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kentaro_Toji"
+				small = "GFX_idea_JAP_kentaro_toji"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kentaro_Toji"
+				small = "GFX_idea_JAP_kentaro_toji"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				trait_reckless
+				harsh_leader
+				infantry_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	JAP_kiyosada_koda = {
+		name = JAP_kiyosada_koda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kiyosada_Koda"
+				small = "GFX_idea_JAP_kiyosada_koda"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kiyosada_Koda"
+				small = "GFX_idea_JAP_kiyosada_koda"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
 	JAP_kiyoshi_utsumi = {
 		name = JAP_kiyoshi_utsumi
 		portraits = {
@@ -187,6 +366,27 @@ characters = {
 			expire = "1991.3.12.1"
 			id = -1
 			traits = {}
+		}
+	}
+	JAP_kumao_imoto = {
+		name = JAP_kumao_imoto
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kumao_Imoto"
+				small = "GFX_idea_JAP_kumao_imoto"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kumao_Imoto"
+				small = "GFX_idea_JAP_kumao_imoto"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	JAP_masaji_ogasawara = {
@@ -215,6 +415,30 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_masanobu_tsuji = {
+		name = JAP_masanobu_tsuji
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masanobu_Tsuji"
+				small = "GFX_idea_JAP_masanobu_tsuji"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masanobu_Tsuji"
+				small = "GFX_idea_JAP_masanobu_tsuji"
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+				politically_connected
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
 		}
 	}
 	JAP_masanosuke_ikeda = {
@@ -261,6 +485,30 @@ characters = {
 				large = "GFX_Portrait_JAP_Masayoshi_Ohira"
 				small = "GFX_idea_JAP_masayoshi_ohira"
 			}
+		}
+	}
+	JAP_matsuo_fujinaka = {
+		name = JAP_matsuo_fujinaka
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Matsuo_Fujinaka"
+				small = "GFX_idea_JAP_matsuo_fujinaka"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Matsuo_Fujinaka"
+				small = "GFX_idea_JAP_matsuo_fujinaka"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				organizer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
 		}
 	}
 	JAP_michitaka_konoe = {
@@ -354,6 +602,19 @@ characters = {
 				small = "GFX_idea_JAP_saburo_aizawa_general"
 			}
 		}
+		field_marshal={
+			traits={
+				old_guard
+				career_officer
+				organizer
+				thorough_planner
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 5
+		}
 	}
 	JAP_sadao_akamatsu = {
 		name = JAP_sadao_akamatsu
@@ -366,6 +627,44 @@ characters = {
 				large = "GFX_Portrait_JAP_Sadao_Akamatsu"
 				small = "GFX_idea_JAP_sadao_akamatsu"
 			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				hill_fighter
+				trait_mountaineer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	JAP_sei_matsuya = {
+		name = JAP_sei_matsuya
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Sei_Matsuya"
+				small = "GFX_idea_JAP_sei_matsuya"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Sei_Matsuya"
+				small = "GFX_idea_JAP_sei_matsuya"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				jungle_rat
+				urban_assault_specialist
+				adaptable
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	JAP_seiichi_katsumata = {
@@ -408,6 +707,17 @@ characters = {
 				small = "GFX_idea_JAP_shiro_hara"
 			}
 		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
 	}
 	JAP_shiro_nonaka = {
 		name = JAP_shiro_nonaka
@@ -427,6 +737,18 @@ characters = {
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				harsh_leader
+				aggressive_assaulter
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 4
 		}
 	}
 	JAP_soji_fujii = {
@@ -469,6 +791,56 @@ characters = {
 			traits = {}
 		}
 	}
+	JAP_susumu_iida = {
+		name = JAP_susumu_iida
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Susumu_Iida"
+				small = "GFX_idea_JAP_susumu_iida"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Susumu_Iida"
+				small = "GFX_idea_JAP_susumu_iida"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	JAP_takeichi_nishi = {
+		name = JAP_takeichi_nishi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Takeichi_Nishi"
+				small = "GFX_idea_JAP_takeichi_nishi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Takeichi_Nishi"
+				small = "GFX_idea_JAP_takeichi_nishi"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				media_personality
+				cavalry_officer
+				war_hero
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 	JAP_takeo_miki = {
 		name = JAP_takeo_miki
 		portraits = {
@@ -479,6 +851,19 @@ characters = {
 			army = {
 				large = "GFX_Portrait_JAP_Takeo_Miki"
 				small = "GFX_idea_JAP_takeo_miki"
+			}
+		}
+	}
+	JAP_teiichi_suzuki = {
+		name = JAP_teiichi_suzuki
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Teiichi_Suzuki"
+				small = "GFX_idea_JAP_teiichi_suzuki"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Teiichi_Suzuki"
+				small = "GFX_idea_JAP_teiichi_suzuki"
 			}
 		}
 	}
@@ -508,6 +893,43 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_yasuhide_kurihara = {
+		name = JAP_yasuhide_kurihara
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Yasuhide_Kurihara"
+				small = "GFX_idea_JAP_yasuhide_kurihara"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Yasuhide_Kurihara"
+				small = "GFX_idea_JAP_yasuhide_kurihara"
+			}
+		}
+		field_marshal = {
+			traits = {
+				war_hero
+				unyielding_defender
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+	JAP_yasuhiro_nakasone = {
+		name = JAP_yasuhiro_nakasone
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Yasuhiro_Nakasone"
+				small = "GFX_idea_JAP_yasuhiro_nakasone"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Yasuhiro_Nakasone"
+				small = "GFX_idea_JAP_yasuhiro_nakasone"
+			}
 		}
 	}
 	JAP_yokusan_political_committee = {

@@ -19,4 +19,84 @@ characters = {
 			traits = {}
 		}
 	}
+	MAN_hisaya_morishige = {
+		name = MAN_hisaya_morishige
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Hisaya_Morishige"
+				small = "GFX_idea_MAN_hisaya_morishige"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Hisaya_Morishige"
+				small = "GFX_idea_MAN_hisaya_morishige"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HISAYA_MORISHIGE_DESC"
+			ideology = social_conservatism_ideology
+			expire = "2009.11.10.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_kazuo_nonomura = {
+		name = MAN_kazuo_nonomura
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Kazuo_Nonomura"
+				small = "GFX_idea_MAN_kazuo_nonomura"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Kazuo_Nonomura"
+				small = "GFX_idea_MAN_kazuo_nonomura"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KAZUO_NONOMURA_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "1998.1.12.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_toshio_hoshiko = {
+		name = MAN_toshio_hoshiko
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Toshio_Hoshiko"
+				small = "GFX_idea_MAN_toshio_hoshiko"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Toshio_Hoshiko"
+				small = "GFX_idea_MAN_toshio_hoshiko"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TOSHIO_HOSHIKO_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1995.7.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_zhang_shaoji = {
+		name = MAN_zhang_shaoji
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Zhang_Shaoji"
+				small = "GFX_idea_MAN_zhang_shaoji"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Zhang_Shaoji"
+				small = "GFX_idea_MAN_zhang_shaoji"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_SHAOJI_DESC"
+			ideology = national_socialism_ideology
+			expire = "2014.12.19.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

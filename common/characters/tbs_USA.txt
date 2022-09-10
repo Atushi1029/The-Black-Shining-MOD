@@ -12,6 +12,45 @@ characters = {
 			}
 		}
 	}
+	USA_angela_davis = {
+		name = USA_angela_davis
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Angela_Davis"
+				small = "GFX_idea_USA_angela_davis"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Angela_Davis"
+				small = "GFX_idea_USA_angela_davis"
+			}
+		}
+	}
+	USA_bernie_sanders = {
+		name = USA_bernie_sanders
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Bernie_Sanders"
+				small = "GFX_idea_USA_bernie_sanders"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Bernie_Sanders"
+				small = "GFX_idea_USA_bernie_sanders"
+			}
+		}
+	}
+	USA_bob_richards = {
+		name = USA_bob_richards
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Bob_Richards"
+				small = "GFX_idea_USA_bob_richards"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Bob_Richards"
+				small = "GFX_idea_USA_bob_richards"
+			}
+		}
+	}
 	USA_curtis_lemay = {
 		name = USA_curtis_lemay
 		portraits = {
@@ -22,6 +61,71 @@ characters = {
 			army = {
 				large = "GFX_Portrait_USA_Curtis_Lemay"
 				small = "GFX_idea_USA_curtis_lemay"
+			}
+		}
+	}
+	USA_dan_quayle = {
+		name = USA_dan_quayle
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Dan_Quayle"
+				small = "GFX_idea_USA_dan_quayle"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Dan_Quayle"
+				small = "GFX_idea_USA_dan_quayle"
+			}
+		}
+	}
+	USA_david_duke = {
+		name = USA_david_duke
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_David_Duke"
+				small = "GFX_idea_USA_david_duke"
+			}
+			army = {
+				large = "GFX_Portrait_USA_David_Duke"
+				small = "GFX_idea_USA_david_duke"
+			}
+		}
+	}
+	USA_david_mcreynolds = {
+		name = USA_david_mcreynolds
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_David_McReynolds"
+				small = "GFX_idea_USA_david_mcreynolds"
+			}
+			army = {
+				large = "GFX_Portrait_USA_David_McReynolds"
+				small = "GFX_idea_USA_david_mcreynolds"
+			}
+		}
+	}
+	USA_donald_rumsfeld = {
+		name = USA_donald_rumsfeld
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Donald_Rumsfeld"
+				small = "GFX_idea_USA_donald_rumsfeld"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Donald_Rumsfeld"
+				small = "GFX_idea_USA_donald_rumsfeld"
+			}
+		}
+	}
+	USA_donald_trump = {
+		name = USA_donald_trump
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Donald_Trump"
+				small = "GFX_idea_USA_donald_trump"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Donald_Trump"
+				small = "GFX_idea_USA_donald_trump"
 			}
 		}
 	}
@@ -87,6 +191,19 @@ characters = {
 			army = {
 				large = "GFX_Portrait_USA_George_McGovern"
 				small = "GFX_idea_USA_george_mcgovern"
+			}
+		}
+	}
+	USA_george_shultz = {
+		name = USA_george_shultz
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_George_Shultz"
+				small = "GFX_idea_USA_george_shultz"
+			}
+			army = {
+				large = "GFX_Portrait_USA_George_Shultz"
+				small = "GFX_idea_USA_george_shultz"
 			}
 		}
 	}
@@ -221,6 +338,32 @@ characters = {
 			}
 		}
 	}
+	USA_john_b_anderson = {
+		name = USA_john_b_anderson
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_John_B_Anderson"
+				small = "GFX_idea_USA_john_b_anderson"
+			}
+			army = {
+				large = "GFX_Portrait_USA_John_B_Anderson"
+				small = "GFX_idea_USA_john_b_anderson"
+			}
+		}
+	}
+	USA_lloyd_bentsen = {
+		name = USA_lloyd_bentsen
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Lloyd_Bentsen"
+				small = "GFX_idea_USA_lloyd_bentsen"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Lloyd_Bentsen"
+				small = "GFX_idea_USA_lloyd_bentsen"
+			}
+		}
+	}
 	USA_lyndon_johnson = {
 		name = USA_lyndon_johnson
 		portraits = {
@@ -241,6 +384,32 @@ characters = {
 			traits = {}
 		}
 	}
+	USA_maureen_kennedy_salaman = {
+		name = USA_maureen_kennedy_salaman
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Maureen_Kennedy_Salaman"
+				small = "GFX_idea_USA_maureen_kennedy_salaman"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Maureen_Kennedy_Salaman"
+				small = "GFX_idea_USA_maureen_kennedy_salaman"
+			}
+		}
+	}
+	USA_michael_dukakis = {
+		name = USA_michael_dukakis
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Michael_Dukakis"
+				small = "GFX_idea_USA_michael_dukakis"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Michael_Dukakis"
+				small = "GFX_idea_USA_michael_dukakis"
+			}
+		}
+	}
 	USA_nelson_rockefeller = {
 		name = USA_nelson_rockefeller
 		portraits = {
@@ -251,6 +420,19 @@ characters = {
 			army = {
 				large = "GFX_Portrait_USA_Nelson_Rockefeller"
 				small = "GFX_idea_USA_nelson_rockefeller"
+			}
+		}
+	}
+	USA_patrick_lucey = {
+		name = USA_patrick_lucey
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Patrick_Lucey"
+				small = "GFX_idea_USA_patrick_lucey"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Patrick_Lucey"
+				small = "GFX_idea_USA_patrick_lucey"
 			}
 		}
 	}
@@ -349,6 +531,19 @@ characters = {
 			army = {
 				large = "GFX_Portrait_USA_Walter_Mondale"
 				small = "GFX_idea_USA_walter_mondale"
+			}
+		}
+	}
+	USA_william_luther_pierce = {
+		name = USA_william_luther_pierce
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_William_Luther_Pierce"
+				small = "GFX_idea_USA_william_luther_pierce"
+			}
+			army = {
+				large = "GFX_Portrait_USA_William_Luther_Pierce"
+				small = "GFX_idea_USA_william_luther_pierce"
 			}
 		}
 	}

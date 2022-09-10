@@ -39,4 +39,24 @@ characters = {
 			traits = {}
 		}
 	}
+	FER_mikhail_matkovsky = {
+		name = FER_mikhail_matkovsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Mikhail_Matkovsky"
+				small = "GFX_idea_FER_mikhail_matkovsky"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Mikhail_Matkovsky"
+				small = "GFX_idea_FER_mikhail_matkovsky"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_MATKOVSKY_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

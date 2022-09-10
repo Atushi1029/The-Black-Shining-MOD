@@ -11,8 +11,8 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = FER
 		add_core_of = RUS
-		add_claim_by = FER
 		add_claim_by = RLA
 		add_claim_by = SOV
 		set_state_flag = rusrep_core_states

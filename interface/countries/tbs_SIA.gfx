@@ -4,9 +4,17 @@ spriteTypes = {
 		name = "GFX_idea_SIA_kukrit_pramoj"
 		texturefile = "gfx/interface/advisors/SIA/idea_SIA_kukrit_pramoj.png"
 	}
+	spriteType = {
+		name = "GFX_idea_SIA_pridi_banomyong"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_pridi_banomyong.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_SIA_Kukrit_Pramoj"
 		texturefile = "gfx/leaders/SIA/Portrait_SIA_Kukrit_Pramoj.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Pridi_Banomyong"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Pridi_Banomyong.png"
 	}
 }

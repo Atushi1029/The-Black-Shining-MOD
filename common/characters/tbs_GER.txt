@@ -1,4 +1,37 @@
 characters = {
+	GER_albert_speer = {
+		name = GER_albert_speer
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Albert_Speer"
+				small = "GFX_idea_GER_albert_speer"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Albert_Speer"
+				small = "GFX_idea_GER_albert_speer"
+			}
+		}
+	}
+	GER_baldur_von_schirach = {
+		name = GER_baldur_von_schirach
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Baldur_von_Schirach"
+				small = "GFX_idea_GER_baldur_von_schirach"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Baldur_von_Schirach"
+				small = "GFX_idea_GER_baldur_von_schirach"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_BALDUR_VON_SCHIRACH_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1974.8.8.1"
+			id = -1
+			traits = {}
+		}
+	}
 	GER_heinz_knoke = {
 		name = GER_heinz_knoke
 		portraits = {

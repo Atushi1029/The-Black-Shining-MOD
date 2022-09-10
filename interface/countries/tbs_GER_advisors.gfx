@@ -1,5 +1,13 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_idea_GER_albert_speer"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_albert_speer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_baldur_von_schirach"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_baldur_von_schirach.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_heinz_knoke"
 		texturefile = "gfx/interface/advisors/GER/idea_GER_heinz_knoke.png"
 	}

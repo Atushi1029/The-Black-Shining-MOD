@@ -1,5 +1,13 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_Portrait_GER_Albert_Speer"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Albert_Speer.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Baldur_von_Schirach"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Baldur_von_Schirach.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_GER_Heinz_Knoke"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Heinz_Knoke.png"
 	}

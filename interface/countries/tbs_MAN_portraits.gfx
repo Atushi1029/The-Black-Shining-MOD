@@ -3,4 +3,20 @@ spriteTypes = {
 		name = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Aisin_Gioro_Yuyan.png"
 	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Hisaya_Morishige"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hisaya_Morishige.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Kazuo_Nonomura"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Kazuo_Nonomura.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Toshio_Hoshiko"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Toshio_Hoshiko.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Zhang_Shaoji"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Zhang_Shaoji.png"
+	}
 }

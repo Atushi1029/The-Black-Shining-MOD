@@ -3,4 +3,20 @@ spriteTypes = {
 		name = "GFX_idea_MAN_aisin_gioro_yuyan"
 		texturefile = "gfx/interface/advisors/MAN/idea_MAN_aisin_gioro_yuyan.png"
 	}
+	spriteType = {
+		name = "GFX_idea_MAN_hisaya_morishige"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_hisaya_morishige.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_kazuo_nonomura"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_kazuo_nonomura.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_toshio_hoshiko"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_toshio_hoshiko.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_zhang_shaoji"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_zhang_shaoji.png"
+	}
 }

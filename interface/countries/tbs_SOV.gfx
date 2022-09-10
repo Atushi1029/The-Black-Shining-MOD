@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_georgy_zhukov.png"
 	}
 	spriteType = {
+		name = "GFX_idea_SOV_georgy_zhukov_politician"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_georgy_zhukov_politician.png"
+	}
+	spriteType = {
 		name = "GFX_idea_SOV_issa_pliyev"
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_issa_pliyev.png"
 	}
@@ -31,6 +35,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SOV_lev_gumilyov"
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_lev_gumilyov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_lev_gumilyov_80s"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_lev_gumilyov_80s.png"
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_mikhail_gorbachev"
@@ -74,6 +82,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Georgy_Zhukov.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_SOV_Georgy_Zhukov_politician"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Georgy_Zhukov_politician.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_SOV_Issa_Pliyev"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Issa_Pliyev.png"
 	}
@@ -88,6 +100,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SOV_Lev_Gumilyov"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Lev_Gumilyov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Lev_Gumilyov_80s"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Lev_Gumilyov_80s.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SOV_Mikhail_Gorbachev"

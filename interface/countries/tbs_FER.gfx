@@ -8,6 +8,10 @@ spriteTypes = {
 		name = "GFX_idea_FER_georgy_shekerev"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_georgy_shekerev.png"
 	}
+	spriteType = {
+		name = "GFX_idea_FER_mikhail_matkovsky"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_mikhail_matkovsky.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_FER_Alexander_Bolotov"
@@ -16,5 +20,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Georgy_Shekerev"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Georgy_Shekerev.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Mikhail_Matkovsky"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Mikhail_Matkovsky.png"
 	}
 }

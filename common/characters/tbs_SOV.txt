@@ -71,8 +71,8 @@ characters = {
 		name = SOV_georgy_zhukov
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_SOV_Georgy_Zhukov"
-				small = "GFX_idea_SOV_georgy_zhukov"
+				large = "GFX_Portrait_SOV_Georgy_Zhukov_politician"
+				small = "GFX_idea_SOV_georgy_zhukov_politician"
 			}
 			army = {
 				large = "GFX_Portrait_SOV_Georgy_Zhukov"
@@ -85,6 +85,17 @@ characters = {
 			expire = "1974.6.18.1"
 			id = -1
 			traits = {}
+		}
+		field_marshal = {
+			traits = {
+				armor_officer
+				winter_specialist
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
 		}
 	}
 	SOV_issa_pliyev = {

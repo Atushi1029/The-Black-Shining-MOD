@@ -5,8 +5,44 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/USA/idea_USA_al_gore.png"
 	}
 	spriteType = {
+		name = "GFX_idea_USA_angela_davis"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_angela_davis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_bernie_sanders"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_bernie_sanders.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_bob_richards"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_bob_richards.png"
+	}
+	spriteType = {
 		name = "GFX_idea_USA_curtis_lemay"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_curtis_lemay.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_dan_quayle"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_dan_quayle.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_david_duke"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_david_duke.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_david_mcreynolds"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_david_mcreynolds.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_david_mcreynolds_old"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_david_mcreynolds_old.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_donald_rumsfeld"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_donald_rumsfeld.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_donald_trump"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_donald_trump.png"
 	}
 	spriteType = {
 		name = "GFX_idea_USA_edmund_muskie"
@@ -27,6 +63,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_USA_george_mcgovern"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_george_mcgovern.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_george_shultz"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_george_shultz.png"
 	}
 	spriteType = {
 		name = "GFX_idea_USA_george_wallace"
@@ -65,12 +105,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/USA/idea_USA_joe_biden.png"
 	}
 	spriteType = {
+		name = "GFX_idea_USA_john_b_anderson"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_john_b_anderson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_lloyd_bentsen"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_lloyd_bentsen.png"
+	}
+	spriteType = {
 		name = "GFX_idea_USA_lyndon_johnson"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_lyndon_johnson.png"
 	}
 	spriteType = {
+		name = "GFX_idea_USA_maureen_kennedy_salaman"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_maureen_kennedy_salaman.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_michael_dukakis"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_michael_dukakis.png"
+	}
+	spriteType = {
 		name = "GFX_idea_USA_nelson_rockefeller"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_nelson_rockefeller.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_patrick_lucey"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_patrick_lucey.png"
 	}
 	spriteType = {
 		name = "GFX_idea_USA_richard_nixon"
@@ -100,14 +160,54 @@ spriteTypes = {
 		name = "GFX_idea_USA_walter_mondale"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_walter_mondale.png"
 	}
+	spriteType = {
+		name = "GFX_idea_USA_william_luther_pierce"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_william_luther_pierce.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_USA_Al_Gore"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Al_Gore.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_USA_Angela_Davis"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Angela_Davis.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Bernie_Sanders"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Bernie_Sanders.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Bob_Richards"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Bob_Richards.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_USA_Curtis_Lemay"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Curtis_Lemay.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Dan_Quayle"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Dan_Quayle.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_David_Duke"
+		texturefile = "gfx/leaders/USA/Portrait_USA_David_Duke.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_David_McReynolds"
+		texturefile = "gfx/leaders/USA/Portrait_USA_David_McReynolds.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_David_McReynolds_old"
+		texturefile = "gfx/leaders/USA/Portrait_USA_David_McReynolds_old.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Donald_Rumsfeld"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Donald_Rumsfeld.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Donald_Trump"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Donald_Trump.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Edmund_Muskie"
@@ -128,6 +228,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_USA_George_McGovern"
 		texturefile = "gfx/leaders/USA/Portrait_USA_George_McGovern.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_George_Shultz"
+		texturefile = "gfx/leaders/USA/Portrait_USA_George_Shultz.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_George_Wallace"
@@ -166,12 +270,32 @@ spriteTypes = {
 		texturefile = "gfx/leaders/USA/Portrait_USA_Joe_Biden.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_USA_John_B_Anderson"
+		texturefile = "gfx/leaders/USA/Portrait_USA_John_B_Anderson.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Lloyd_Bentsen"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Lloyd_Bentsen.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_USA_Lyndon_Johnson"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Lyndon_Johnson.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_USA_Maureen_Kennedy_Salaman"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Maureen_Kennedy_Salaman.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Michael_Dukakis"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Michael_Dukakis.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_USA_Nelson_Rockefeller"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Nelson_Rockefeller.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Patrick_Lucey"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Patrick_Lucey.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Richard_Nixon"
@@ -200,5 +324,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_USA_Walter_Mondale"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Walter_Mondale.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_William_Luther_Pierce"
+		texturefile = "gfx/leaders/USA/Portrait_USA_William_Luther_Pierce.png"
 	}
 }

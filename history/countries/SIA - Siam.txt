@@ -3,6 +3,7 @@
 set_cosmetic_tag = SIA_republic
 set_starting_values = yes
 recruit_character = SIA_kukrit_pramoj
+recruit_character = SIA_pridi_banomyong
 set_convoys = 20
 add_ideas = {
 	
