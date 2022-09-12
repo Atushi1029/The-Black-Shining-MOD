@@ -4,8 +4,9 @@ ideas = {
 		collectivized_society = {
 			picture = SPR_collectivized_society		
 			name = SPR_collectivized_society
-			allowed = { always = no }
-			removal_cost = -1
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
 			modifier = {
 				resistance_target = -0.2
 				consumer_goods_factor = 0.15
@@ -21,8 +22,6 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.2
 				line_change_production_efficiency_factor = 0.1
 			}
-			allowed_to_remove = { always = no }
-			cancel_if_invalid = no
 		}
 	}
 }

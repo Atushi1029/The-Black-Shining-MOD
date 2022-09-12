@@ -3,6 +3,8 @@
 set_cosmetic_tag = TRANSAMUR_republic
 set_starting_values = yes
 recruit_character = FER_alexander_bolotov
+recruit_character = FER_boris_tadley
+recruit_character = FER_donat_yosefovich_kunle
 recruit_character = FER_georgy_shekerev
 recruit_character = FER_mikhail_matkovsky
 set_convoys = 20

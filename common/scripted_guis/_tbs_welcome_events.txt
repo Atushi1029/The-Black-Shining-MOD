@@ -1,0 +1,14 @@
+scripted_gui = {
+	tbs_welcome_events = {
+		context_type = player_context
+		window_name = "welcome_events_container"
+		ai_enabled = { always = no }
+		visible = {
+			has_global_flag = tbs_welcome_events
+			is_ai = no
+		}
+		effects = {
+			close_button_click = { clr_global_flag = tbs_welcome_events }
+		}
+	}
+}

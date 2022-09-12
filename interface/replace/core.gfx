@@ -1681,4 +1681,10 @@ bitmapfonts = {
 		name = "GFX_red_cross_small"
 		textureFile = "gfx//interface//red_cross_small.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_the_black_shining_logo"
+		texturefile = "gfx/interface/the_black_shining_logo.png"
+		legacy_lazy_load = no
+	}
 }

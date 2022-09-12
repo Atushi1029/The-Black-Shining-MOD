@@ -5,6 +5,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_alexander_bolotov.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_boris_tadley"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_boris_tadley.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_donat_yosefovich_kunle"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_donat_yosefovich_kunle.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_georgy_shekerev"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_georgy_shekerev.png"
 	}
@@ -16,6 +24,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Alexander_Bolotov"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Alexander_Bolotov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Boris_Tadley"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Boris_Tadley.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Donat_Yosefovich_Kunle"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Donat_Yosefovich_Kunle.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Georgy_Shekerev"

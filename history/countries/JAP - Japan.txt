@@ -1,5 +1,15 @@
 ﻿capital = 282
 oob = ""
+set_global_flag = {
+	flag = tbs_welcome_events
+	value = 1
+	days = 14
+}
+set_variable = { global.econ_graph_month = 25 }
+set_variable = { global.xcycling = 0 }
+set_variable = { global.ycycling = 0.125 }
+set_variable = { global.month_counter = 1 }
+econ_inflation_cycling_calculation = yes
 set_cosmetic_tag = JAP_greater_empire
 set_starting_values = yes
 recruit_character = JAP_aiichiro_fujiyama
@@ -14,6 +24,7 @@ recruit_character = JAP_hyozo_kashiwabara
 recruit_character = JAP_ichio_asukata
 recruit_character = JAP_japanese_national_political_reform_committee
 recruit_character = JAP_kakuei_tanaka
+recruit_character = JAP_katsuo_tsushima
 recruit_character = JAP_kei_hoashi
 recruit_character = JAP_keizo_hayashi
 recruit_character = JAP_kentaro_toji
@@ -33,8 +44,10 @@ recruit_character = JAP_mitsu_kono
 recruit_character = JAP_okinori_kaya
 recruit_character = JAP_saburo_aizawa
 recruit_character = JAP_sadao_akamatsu
+recruit_character = JAP_sakae_oba
 recruit_character = JAP_sei_matsuya
 recruit_character = JAP_seiichi_katsumata
+recruit_character = JAP_shinobu_takayama
 recruit_character = JAP_shiro_hara
 recruit_character = JAP_shiro_nonaka
 recruit_character = JAP_soji_fujii
@@ -43,7 +56,10 @@ recruit_character = JAP_susumu_iida
 recruit_character = JAP_takeichi_nishi
 recruit_character = JAP_takeo_miki
 recruit_character = JAP_teiichi_suzuki
+recruit_character = JAP_teruzo_ando
 recruit_character = JAP_torazo_ninagawa
+recruit_character = JAP_toshihiko_ikeda
+recruit_character = JAP_tsuneo_baba
 recruit_character = JAP_yasuhide_kurihara
 recruit_character = JAP_yasuhiro_nakasone
 recruit_character = JAP_yokusan_political_committee

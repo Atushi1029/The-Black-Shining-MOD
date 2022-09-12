@@ -1,0 +1,10 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_gdp_icon"
+		texturefile = "gfx/interface/topbar_icons/gdp_icon.png"
+	}
+	SpriteType = {
+		name = "GFX_inflation_icon"
+		texturefile = "gfx/interface/topbar_icons/inflation_icon.png"
+	}
+}

@@ -239,6 +239,19 @@ characters = {
 			}
 		}
 	}
+	JAP_katsuo_tsushima = {
+		name = JAP_katsuo_tsushima
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Katsuo_Tsushima"
+				small = "GFX_idea_JAP_katsuo_tsushima"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Katsuo_Tsushima"
+				small = "GFX_idea_JAP_katsuo_tsushima"
+			}
+		}
+	}
 	JAP_kei_hoashi = {
 		name = JAP_kei_hoashi
 		portraits = {
@@ -641,6 +654,19 @@ characters = {
 			logistics_skill = 4
 		}
 	}
+	JAP_sakae_oba = {
+		name = JAP_sakae_oba
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Sakae_Oba"
+				small = "GFX_idea_JAP_sakae_oba"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Sakae_Oba"
+				small = "GFX_idea_JAP_sakae_oba"
+			}
+		}
+	}
 	JAP_sei_matsuya = {
 		name = JAP_sei_matsuya
 		portraits = {
@@ -693,6 +719,19 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_shinobu_takayama = {
+		name = JAP_shinobu_takayama
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Shinobu_Takayama"
+				small = "GFX_idea_JAP_shinobu_takayama"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Shinobu_Takayama"
+				small = "GFX_idea_JAP_shinobu_takayama"
+			}
 		}
 	}
 	JAP_shiro_hara = {
@@ -867,6 +906,19 @@ characters = {
 			}
 		}
 	}
+	JAP_teruzo_ando = {
+		name = JAP_teruzo_ando
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Teruzo_Ando"
+				small = "GFX_idea_JAP_teruzo_ando"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Teruzo_Ando"
+				small = "GFX_idea_JAP_teruzo_ando"
+			}
+		}
+	}
 	JAP_torazo_ninagawa = {
 		name = JAP_torazo_ninagawa
 		portraits = {
@@ -893,6 +945,32 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_toshihiko_ikeda = {
+		name = JAP_toshihiko_ikeda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Toshihiko_Ikeda"
+				small = "GFX_idea_JAP_toshihiko_ikeda"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Toshihiko_Ikeda"
+				small = "GFX_idea_JAP_toshihiko_ikeda"
+			}
+		}
+	}
+	JAP_tsuneo_baba = {
+		name = JAP_tsuneo_baba
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Tsuneo_Baba"
+				small = "GFX_idea_JAP_tsuneo_baba"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Tsuneo_Baba"
+				small = "GFX_idea_JAP_tsuneo_baba"
+			}
 		}
 	}
 	JAP_yasuhide_kurihara = {

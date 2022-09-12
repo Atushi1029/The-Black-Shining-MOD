@@ -33,7 +33,8 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			#picture = 
 			modifier = {
-				
+				liberal_democracy_drift = 0.1
+				stability_factor = 0.05
 			}
 		}
 		USA_untested_dod = {
@@ -42,7 +43,8 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			#picture = 
 			modifier = {
-				
+				war_support_factor = -0.05
+				army_org_factor = -0.03
 			}
 		}
 	}

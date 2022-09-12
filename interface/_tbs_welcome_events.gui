@@ -1,0 +1,65 @@
+guiTypes = {
+	containerWindowType = {
+		name = "welcome_events_container"
+		position = { x = 0 y = 0 }
+		size = { width = 720 height = 720 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+		show_sound = event_popup
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_pol_goal"
+		}
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 0 y = 24 }
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "welcome_events_title_tt"
+			maxWidth = 720
+			maxHeight = 36
+			format = centre
+		}
+		iconType = {
+			name = "logo"
+			position = { x = 110 y = 81 }
+			spriteType = "GFX_the_black_shining_logo"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text"
+			position = { x = 23 y = 580 }
+			font = "hoi_20bs"
+			text = "welcome_events_credit_tt"
+			maxWidth = 674
+			maxHeight = 90
+			format = centre
+			scrollbarType = standardtext_slider
+		}
+		containerWindowType = {
+			name = "welcome_events_button_container"
+			position = { x = -187 y = 312 }
+			size = { width = 374 height = 48 }
+			clipping = no
+			Orientation = center
+			background = {
+				name = "Background"
+				spriteType = "GFX_tiled_plain_bg_small"
+			}
+			buttonType = {
+				name = "close_button"
+				text = "welcome_events_button_tt"
+				shortcut = "ESCAPE"
+				position = { x = -180 y = -17 }
+				quadTextureSprite ="GFX_button_359x34"
+				buttonFont = "Bomb_24"
+				Orientation = center
+				shortcut = "ESCAPE"
+				shortcut = "RETURN"
+				shortcut = "SPACE"
+			}
+		}
+	}
+}
