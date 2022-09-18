@@ -298,6 +298,21 @@ characters = {
 			id = -1
 			traits = {}
 		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = USA_hubert_humphrey_hog_lde
+			allowed = { original_tag = USA }
+			available = { has_government = liberal_democracy }
+			traits = {
+				tbs_head_of_government
+				minister_liberal_democrat
+				tbs_idealist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	USA_jesse_jackson = {
 		name = USA_jesse_jackson
@@ -454,6 +469,34 @@ characters = {
 			expire = "1994.4.22.1"
 			id = -1
 			traits = {}
+		}
+	}
+	USA_robert_mcnamara = {
+		name = USA_robert_mcnamara
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Robert_McNamara"
+				small = "GFX_idea_USA_robert_mcnamara"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Robert_McNamara"
+				small = "GFX_idea_USA_robert_mcnamara"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = USA_robert_mcnamara_sec_lde
+			allowed = { original_tag = USA }
+			available = { has_government = liberal_democracy }
+			traits = {
+				tbs_security_minister
+				minister_liberal_democrat
+				tbs_army_friend
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	USA_ronald_reagan = {

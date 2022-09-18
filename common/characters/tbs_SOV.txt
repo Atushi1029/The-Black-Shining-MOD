@@ -67,6 +67,31 @@ characters = {
 			traits = {}
 		}
 	}
+	SOV_dmitry_yazov = {
+		name = SOV_dmitry_yazov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Dmitry_Yazov"
+				small = "GFX_idea_SOV_dmitry_yazov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Dmitry_Yazov"
+				small = "GFX_idea_SOV_dmitry_yazov"
+			}
+		}
+		corps_commander = {
+			traits = {
+				armor_officer
+				winter_specialist
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 	SOV_georgy_zhukov = {
 		name = SOV_georgy_zhukov
 		portraits = {

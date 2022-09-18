@@ -1,6 +1,7 @@
 ﻿capital = 361
-#oob = ""
+oob = ""
 set_cosmetic_tag = USA_united_states
+set_country_flag = allowed_to_generate_wargoal
 set_starting_values = yes
 recruit_character = USA_al_gore
 recruit_character = USA_angela_davis
@@ -35,6 +36,7 @@ recruit_character = USA_michael_dukakis
 recruit_character = USA_nelson_rockefeller
 recruit_character = USA_patrick_lucey
 recruit_character = USA_richard_nixon
+recruit_character = USA_robert_mcnamara
 recruit_character = USA_ronald_reagan
 recruit_character = USA_scoop_jackson
 recruit_character = USA_shirley_chisolm
@@ -44,6 +46,10 @@ recruit_character = USA_walter_mondale
 recruit_character = USA_william_luther_pierce
 set_convoys = 20
 add_ideas = {
+	#Advisors
+	USA_hubert_humphrey_hog_lde
+	USA_robert_mcnamara_sec_lde
+	#National Spirits
 	USA_a_quiet_pacific
 	USA_bastion_of_liberty
 	USA_the_johnson_doctrine

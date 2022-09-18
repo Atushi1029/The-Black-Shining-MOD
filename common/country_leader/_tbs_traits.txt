@@ -1,26 +1,57 @@
 leader_traits = {
 #Idea Traits
 	tbs_head_of_government = {
+		name = head_of_government
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_interior_minister = {
+		name = interior_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_foreign_minister = {
+		name = foreign_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_economy_minister = {
+		name = economy_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_justice_minister = {
+		name = justice_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_security_minister = {
+		name = security_minister
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_army_chief = {
+		name = army_chief
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_navy_chief = {
+		name = navy_chief
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_air_chief = {
+		name = air_chief
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_high_command = {
+		name = high_command
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_theorist = {
+		name = theorist
 		random = no
 		ai_will_do = { factor = 0 }
 	}
@@ -78,7 +109,7 @@ leader_traits = {
 		ai_will_do = { factor = 0 }
 	}
 	tbs_backroom_backstabber = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		political_power_factor = 0.1
 		war_stability_factor = 0.1
@@ -88,7 +119,7 @@ leader_traits = {
 		}
 	}
 	tbs_compassionate_gentleman = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		compliance_gain = 0.01
 		political_power_factor = 0.1
@@ -98,7 +129,7 @@ leader_traits = {
 		}
 	}
 	tbs_flamboyant_brute = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		war_support_factor = 0.15
 		stability_factor = 0.05
@@ -108,7 +139,7 @@ leader_traits = {
 		}
 	}
 	tbs_great_compromiser = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		political_power_factor = 0.05
 		political_advisor_cost_factor = -0.33
@@ -118,7 +149,7 @@ leader_traits = {
 		}
 	}
 	tbs_iron_fisted_brute = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		resistance_target = -0.05
 		war_support_factor = 0.1
@@ -129,7 +160,7 @@ leader_traits = {
 		}
 	}
 	tbs_man_of_the_people = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		stability_factor = 0.10
 		conscription_factor = 0.05
@@ -139,7 +170,7 @@ leader_traits = {
 		}
 	}
 	tbs_naive_optimist = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		stability_factor = 0.05
 		production_speed_industrial_complex_factor = 0.1
@@ -149,13 +180,13 @@ leader_traits = {
 		}
 	}
 	tbs_plodding_bureaucrat = { #Assign cheap cost to offset negative PP gain (50-75)
-		sprite = 13
+		#sprite = 13
 		random = no
 		political_power_gain = -0.1
 		supply_consumption_factor = -0.05
 	}
 	tbs_political_protege = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		political_power_gain = 0.10
 		stability_factor = 0.05
@@ -165,7 +196,7 @@ leader_traits = {
 		}
 	}
 	tbs_political_specialist = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		mobilization_laws_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25
@@ -177,7 +208,7 @@ leader_traits = {
 		}
 	}
 	tbs_popular_figurehead = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		stability_factor = 0.15
 
@@ -186,7 +217,7 @@ leader_traits = {
 		}
 	}
 	tbs_quartermaster_general = {
-		sprite = 10
+		#sprite = 10
 		random = yes
 		production_speed_air_base_factor = 0.15
 		production_speed_naval_base_factor = 0.15
@@ -201,7 +232,7 @@ leader_traits = {
 	}
 	tbs_ideological_crusader = {
 		random = yes
-		sprite = 13
+		#sprite = 13
 		opinion_gain_monthly_same_ideology_factor = 1.0
 		party_popularity_stability_factor = 0.25
 		justify_war_goal_time = -0.25
@@ -211,7 +242,7 @@ leader_traits = {
 		}
 	}
 	tbs_pragmatic_statesman = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		political_power_factor = 0.05
 		stability_factor = 0.05
@@ -222,7 +253,7 @@ leader_traits = {
 		}
 	}
 	tbs_prince_of_terror = {
-		sprite = 13
+		#sprite = 13
 		resistance_damage_to_garrison = -0.25
 		foreign_subversive_activites = -0.25
 		non_core_manpower = 0.025
@@ -232,7 +263,7 @@ leader_traits = {
 		}
 	}
 	tbs_silent_workhorse = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		political_power_factor = 0.15
 
@@ -241,7 +272,7 @@ leader_traits = {
 		}
 	}
 	tbs_ultranationalist_agitator = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		stability_factor = -0.05
 		conscription_factor = 0.15
@@ -254,7 +285,7 @@ leader_traits = {
 	### Economic ###
 
 	tbs_agricultural_economist = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		global_building_slots_factor = 0.20
 		monthly_population = 0.20
@@ -264,7 +295,7 @@ leader_traits = {
 		}
 	}
 	tbs_austere_finance_advocate = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		consumer_goods_factor = -0.05
 
@@ -273,7 +304,7 @@ leader_traits = {
 		}
 	}
 	tbs_bank_president = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		production_speed_buildings_factor = 0.05
 		political_power_gain = 0.1
@@ -283,7 +314,7 @@ leader_traits = {
 		}
 	}
 	tbs_collectivisation_specialist = {
-		sprite = 12
+		#sprite = 12
 		random = no
 		global_building_slots_factor = 0.20
 		production_speed_buildings_factor = 0.05
@@ -293,7 +324,7 @@ leader_traits = {
 		}
 	}
 	tbs_council_communist = {
-		sprite = 12
+		#sprite = 12
 		random = no
 		political_power_factor = -0.2
 		industrial_capacity_factory = 0.1
@@ -304,7 +335,7 @@ leader_traits = {
 		}
 	}
 	tbs_economic_reformer = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		economy_cost_factor = -0.2
 		production_speed_buildings_factor = 0.05
@@ -315,7 +346,7 @@ leader_traits = {
 		}
 	}
 	tbs_industrialiser = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		industrial_capacity_factory = 0.05
 		production_speed_buildings_factor = 0.1
@@ -325,7 +356,7 @@ leader_traits = {
 		}
 	}
 	tbs_inflation_finance_advocate = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		stability_factor = -0.05
 		production_speed_buildings_factor = 0.15
@@ -335,7 +366,7 @@ leader_traits = {
 		}
 	}
 	tbs_interventionist_economist = {     # Formerly Keynesian Economist
-		sprite = 10
+		#sprite = 10
 		random = no
 		consumer_goods_factor = -0.03
 		stability_factor = 0.05
@@ -345,7 +376,7 @@ leader_traits = {
 		}
 	}
 	tbs_laissez_faire_capitalist = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		production_factory_max_efficiency_factor = 0.1
 		production_speed_buildings_factor = 0.05
@@ -356,7 +387,7 @@ leader_traits = {
 		}
 	}
 	tbs_mixed_economy_proponent = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		production_factory_max_efficiency_factor = 0.1
 		consumer_goods_factor = -0.03
@@ -366,7 +397,7 @@ leader_traits = {
 		}
 	}
 	tbs_traditionalist_economist = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		stability_factor = 0.05
 		production_speed_buildings_factor = 0.05
@@ -380,7 +411,7 @@ leader_traits = {
 	### Military ###
 
 	tbs_adventurous_daredevil = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		war_support_factor = 0.05
 		army_morale_factor = 0.1
@@ -392,7 +423,7 @@ leader_traits = {
 	}
 
 	tbs_air_superiority_proponent = {
-		sprite = 1
+		#sprite = 1
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
@@ -410,7 +441,7 @@ leader_traits = {
 		}
 	}
 	tbs_armaments_organiser = {
-		sprite = 10
+		#sprite = 10
 		random = no
 		production_speed_arms_factory_factor = 0.1
 		conversion_cost_civ_to_mil_factor = -0.2
@@ -420,7 +451,7 @@ leader_traits = {
 		}
 	}
 	tbs_battlefield_support_proponent = {
-		sprite = 1
+		#sprite = 1
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
@@ -438,7 +469,7 @@ leader_traits = {
 		}
 	}
 	tbs_battlefleet_proponent = {
-		sprite = 3
+		#sprite = 3
 		random = no
 		experience_gain_navy = 0.06
 		navy_max_range_factor = 0.15
@@ -457,7 +488,7 @@ leader_traits = {
 		}
 	}
 	tbs_carrier_proponent = {
-		sprite = 3
+		#sprite = 3
 		random = no
 		experience_gain_navy = 0.06
 		navy_max_range_factor = 0.15
@@ -472,7 +503,7 @@ leader_traits = {
 		}
 	}
 	tbs_general_staffer = {
-		sprite = 12
+		#sprite = 12
 		random = no
 		high_command_cost_factor = -0.2
 		max_command_power = 20
@@ -484,7 +515,7 @@ leader_traits = {
 	}
 
 	tbs_infantry_proponent = {
-		sprite = 5
+		#sprite = 5
 		random = no
 		command_abilities_cost_factor = -0.15
 		equipment_bonus = {
@@ -502,7 +533,7 @@ leader_traits = {
 		}
 	}
 	tbs_naval_aviation_proponent = {
-		sprite = 3
+		#sprite = 3
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
@@ -524,7 +555,7 @@ leader_traits = {
 		}
 	}
 	tbs_old_admiral = {
-		sprite = 3
+		#sprite = 3
 		random = no
 		navy_chief_cost_factor = 0.25
 		production_speed_naval_base_factor = 0.1
@@ -536,7 +567,7 @@ leader_traits = {
 		}
 	}
 	tbs_old_air_marshal = {
-		sprite = 1
+		#sprite = 1
 		random = no
 		air_chief_cost_factor = 0.25
 		production_speed_air_base_factor = 0.10
@@ -547,7 +578,7 @@ leader_traits = {
 		}
 	}
 	tbs_old_general = {
-		sprite = 9
+		#sprite = 9
 		random = no
 		army_chief_cost_factor = 0.25
 		production_speed_bunker_factor = 0.10
@@ -559,7 +590,7 @@ leader_traits = {
 		}
 	}
 	tbs_reformist_soldier = {
-		sprite = 5
+		#sprite = 5
 		random = no
 		experience_gain_army = 0.03
 		high_command_cost_factor = -0.25
@@ -570,7 +601,7 @@ leader_traits = {
 		}
 	}
 	tbs_respected_war_hero = {
-		sprite = 12
+		#sprite = 12
 		random = no
 		army_core_attack_factor = 0.05
 		army_core_defence_factor = 0.05
@@ -581,7 +612,7 @@ leader_traits = {
 		}
 	}
 	tbs_strategic_destruction_proponent = {
-		sprite = 1
+		#sprite = 1
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
@@ -599,7 +630,7 @@ leader_traits = {
 		}
 	}
 	tbs_submarine_proponent = {
-		sprite = 3
+		#sprite = 3
 		random = no
 		experience_gain_navy = 0.03
 		equipment_bonus = {
@@ -614,7 +645,7 @@ leader_traits = {
 	}
 
 	tbs_war_propagandist = {
-		sprite = 13
+		#sprite = 13
 		random = no
 		war_support_weekly = 0.001
 		conscription_factor = 0.05
@@ -624,7 +655,7 @@ leader_traits = {
 		}
 	}
 	tbs_young_guard = {
-		sprite = 12
+		#sprite = 12
 		random = no
 		political_power_factor = 0.05
 		land_doctrine_cost_factor = -0.1

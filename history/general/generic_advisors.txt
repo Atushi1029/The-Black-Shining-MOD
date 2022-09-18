@@ -1,190 +1,138 @@
 every_possible_country = {
-	limit = {
-		always = no
-	}
-	# generic political advisors
+	limit = { is_dynamic_country = no }
 	generate_character = {
-		token_base = generic_captain_of_industry # token will be TAG_token_base
+		token_base = Generic_vacancy # token will be TAG_token_base
+		name = Generic_vacancy
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Vacancy"
+				small = "GFX_idea_Generic_vacancy"
+			}
+			army = {
+				large = "GFX_Portrait_Generic_Vacancy"
+				small = "GFX_idea_Generic_vacancy"
+			}
+		}
 		advisor = {
-			slot = political_advisor
-			traits = { captain_of_industry }
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = hog
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_head_of_government }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
-		portraits = { 
-			army = { small = GFX_idea_generic_captain_of_industry }
-		}
-	}
-	generate_character = {
-		token_base = generic_fortification_engineer # token will be TAG_token_base
 		advisor = {
-			slot = political_advisor
-			traits = { fortification_engineer }
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = int
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_interior_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
-		portraits = { 
-			army = { small = GFX_idea_generic_fortification_engineer }
-		}
-	}
-	generate_character = {
-		token_base = generic_war_industrialist # token will be TAG_token_base
 		advisor = {
-			slot = political_advisor
-			traits = { war_industrialist }
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = for
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_foreign_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
-		portraits = { 
-			army = { small = GFX_idea_generic_war_industrialist }
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_off
 		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = eco
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_economy_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = jus
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_justice_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = sec
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_security_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
 			slot = army_chief
-			traits = { army_chief_offensive_1 }
-			cost = 50
+			ledger = army
+			idea_token = arm
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_army_chief }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
-		portraits = { 
-			army = { small = GFX_idea_generic_army_chief_off }
-		}
-	}
-	generate_character = {
-		token_base = generic_army_chief_def # token will be TAG_token_base
 		advisor = {
-			slot = army_chief
-			traits = { army_chief_defensive_1 }
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_army_chief_def }
-		}
-	}
-	# generic navy chiefs
-	generate_character = {
-		token_base = generic_navy_chief_decisive_bat # token will be TAG_token_base
-		advisor = {
+			cost = 65535
 			slot = navy_chief
-			traits = { navy_chief_decisive_battle_2 }
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_navy_chief_decisive_bat }
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_anti_submarine # token will be TAG_token_base
-		advisor = {
-			slot = navy_chief
-			traits = { navy_anti_submarine_2 }
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_navy_anti_submarine }
-		}
-	}
-	# generic air chiefs
-	generate_character = {
-		token_base = generic_air_close_air_sup # token will be TAG_token_base
-		advisor = {
-			slot = air_chief
-			traits = { air_close_air_support_2 }
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_air_close_air_sup }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_chief_all_weather # token will be TAG_token_base
-		advisor = {
-			slot = air_chief
-			traits = { air_chief_all_weather_2 }
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_air_chief_all_weather }
-		}
-	}
-	# generic high command
-	generate_character = {
-		token_base = generic_army_art # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_artillery_1 }
-			ledger = army
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_army_art }
-		}
-	}
-	generate_character = {
-		token_base = generic_army_log # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { army_logistics_2 }
-			ledger = army
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_army_log }
-		}
-	}
-	generate_character = {
-		token_base = generic_navy_fleet_log # token will be TAG_token_base
-		advisor = {
-			slot = high_command
-			traits = { navy_fleet_logistics_1 }
 			ledger = navy
-			cost = 50
+			idea_token = nav
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_navy_chief }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
-		portraits = { 
-			army = { small = GFX_idea_generic_navy_fleet_log }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_air_combat_trainer # token will be TAG_token_base
 		advisor = {
+			cost = 65535
+			slot = air_chief
+			ledger = air
+			idea_token = air
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_air_chief }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
 			slot = high_command
-			traits = { air_air_combat_training_2 }
-			ledger = air
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_air_air_combat_trainer }
-		}
-	}
-	# generic theorists
-	generate_character = {
-		token_base = generic_military_theorist # token will be TAG_token_base
-		advisor = {
-			slot = theorist
-			traits = { military_theorist }
 			ledger = army
-			cost = 50
+			idea_token = hig
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_high_command }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
-		portraits = { 
-			army = { small = GFX_idea_generic_military_theorist }
-		}
-	}
-	generate_character = {
-		token_base = generic_naval_theorist # token will be TAG_token_base
 		advisor = {
+			cost = 65535
 			slot = theorist
-			traits = { naval_theorist }
-			ledger = navy
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_naval_theorist }
-		}
-	}
-	generate_character = {
-		token_base = generic_air_warfare_theorist # token will be TAG_token_base
-		advisor = {
-			slot = theorist
-			traits = { air_warfare_theorist }
-			ledger = air
-			cost = 50
-		}
-		portraits = { 
-			army = { small = GFX_idea_generic_air_warfare_theorist }
+			ledger = army
+			idea_token = the
+			allowed = { always = yes }
+			available = {}
+			traits = { tbs_theorist }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 }

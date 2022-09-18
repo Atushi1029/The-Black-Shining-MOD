@@ -31,11 +31,4 @@ ROM_setup_communism_government = {
 		religious_nationalism = 0
 		transhumanism = 0
 	}
-	RPG = {
-		every_character = {
-			limit = { always = yes }
-			set_nationality = ROM
-		}
-		ROM = { promote_character = RPG_corneliu_manescu }
-	}
 }

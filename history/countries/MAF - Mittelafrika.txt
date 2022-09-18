@@ -1,5 +1,5 @@
 ﻿capital = 546
-#oob = ""
+oob = ""
 set_starting_values = yes
 recruit_character = MAF_heinrich_berger
 set_convoys = 20

@@ -1,5 +1,5 @@
 ﻿capital = 294
-#oob = ""
+oob = ""
 set_cosmetic_tag = OMA_state
 set_starting_values = yes
 recruit_character = OMA_qaboos_bin_said

@@ -1,5 +1,5 @@
 ﻿capital = 561
-#oob = ""
+oob = ""
 set_cosmetic_tag = RUS_fascist_council
 set_starting_values = yes
 #recruit_character = 

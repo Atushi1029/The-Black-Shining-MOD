@@ -5,27 +5,21 @@ ideas = {
 			removal_cost = -1
 			allowed_civil_war = { always = yes }
 			#picture = 
-			modifier = {
-				
-			}
+			modifier = {}
 		}
 		USA_bastion_of_liberty = {
 			allowed = { always = yes }
 			removal_cost = -1
 			allowed_civil_war = { always = yes }
 			#picture = 
-			modifier = {
-				
-			}
+			modifier = {}
 		}
 		USA_the_johnson_doctrine = {
 			allowed = { always = yes }
 			removal_cost = -1
 			allowed_civil_war = { always = yes }
 			#picture = 
-			modifier = {
-				
-			}
+			modifier = {}
 		}
 		USA_the_soaring_eagle = {
 			allowed = { always = yes }

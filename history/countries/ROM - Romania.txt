@@ -1,8 +1,10 @@
 ﻿capital = 46
-#oob = ""
+oob = ""
 set_cosmetic_tag = ROM_kingdom
 set_starting_values = yes
+recruit_character = ROM_corneliu_manescu
 recruit_character = ROM_michael_i
+recruit_character = ROM_nicolae_ceausescu
 set_convoys = 20
 add_ideas = {
 	

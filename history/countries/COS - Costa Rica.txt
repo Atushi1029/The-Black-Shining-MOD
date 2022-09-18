@@ -1,5 +1,5 @@
 ﻿capital = 316
-#oob = ""
+oob = ""
 set_cosmetic_tag = COS_republic
 set_starting_values = yes
 recruit_character = COS_jose_figueres_ferrer

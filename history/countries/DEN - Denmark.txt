@@ -1,5 +1,5 @@
 ﻿capital = 37
-#oob = ""
+oob = ""
 set_cosmetic_tag = DEN_republic
 set_starting_values = yes
 recruit_character = DEN_knud_borge_martinsen

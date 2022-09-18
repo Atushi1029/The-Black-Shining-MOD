@@ -137,6 +137,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/USA/idea_USA_richard_nixon.png"
 	}
 	spriteType = {
+		name = "GFX_idea_USA_robert_mcnamara"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_robert_mcnamara.png"
+	}
+	spriteType = {
 		name = "GFX_idea_USA_ronald_reagan"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_ronald_reagan.png"
 	}
@@ -300,6 +304,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_USA_Richard_Nixon"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Richard_Nixon.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Robert_McNamara"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Robert_McNamara.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Ronald_Reagan"

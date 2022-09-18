@@ -1,5 +1,5 @@
 ﻿capital = 563
-#oob = ""
+oob = ""
 set_cosmetic_tag = TRANSAMUR_republic
 set_starting_values = yes
 recruit_character = FER_alexander_bolotov

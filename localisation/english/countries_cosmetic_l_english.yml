@@ -337,6 +337,10 @@
  MRT_republic:0 "Republic of Mauritania"
  MRT_republic_DEF:0 "the Republic of Mauritania"
  MRT_republic_ADJ:0 "Mauritanian"
+#Nameless
+ NAMLESS:0 ""
+ NAMLESS_DEF:0 ""
+ NAMLESS_ADJ:0 ""
 #ネパール
  NEP_kingdom:0 "Kingdom of Nepal"
  NEP_kingdom_DEF:0 "the Kingdom of Nepal"

@@ -1,5 +1,5 @@
 ﻿capital = 141
-#oob = ""
+oob = ""
 set_cosmetic_tag = SWE_kingdom
 set_starting_values = yes
 recruit_character = SWE_carl_xvi_gustaf

@@ -1,5 +1,5 @@
 ﻿capital = 557
-#oob = ""
+oob = ""
 set_cosmetic_tag = MRT_republic
 set_starting_values = yes
 recruit_character = MRT_mustafa_ould_salek

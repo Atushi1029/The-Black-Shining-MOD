@@ -1,5 +1,5 @@
 ﻿capital = 289
-#oob = ""
+oob = ""
 set_cosmetic_tag = SIA_republic
 set_starting_values = yes
 recruit_character = SIA_kukrit_pramoj

@@ -12,6 +12,58 @@ characters = {
 			}
 		}
 	}
+	JAP_akira_yamaki = {
+		name = JAP_akira_yamaki
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Akira_Yamaki"
+				small = "GFX_idea_JAP_akira_yamaki"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Akira_Yamaki"
+				small = "GFX_idea_JAP_akira_yamaki"
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+				battleship_adherent
+				superior_tactician
+				spotter
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_asaichi_isobe = {
+		name = JAP_asaichi_isobe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Asaichi_Isobe"
+				small = "GFX_idea_JAP_asaichi_isobe"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Asaichi_Isobe"
+				small = "GFX_idea_JAP_asaichi_isobe"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				JAP_samurai_lineage
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 	JAP_chifuyu_masaki = {
 		name = JAP_chifuyu_masaki
 		portraits = {
@@ -206,6 +258,31 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	JAP_ichizo_sugie = {
+		name = JAP_ichizo_sugie
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Ichizo_Sugie"
+				small = "GFX_idea_JAP_ichizo_sugie"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Ichizo_Sugie"
+				small = "GFX_idea_JAP_ichizo_sugie"
+			}
+		}
+		navy_leader = {
+			traits = {
+				old_guard
+				superior_tactician
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
 	JAP_japanese_national_political_reform_committee = {
 		name = JAP_japanese_national_political_reform_committee
 		portraits = {
@@ -224,6 +301,28 @@ characters = {
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
+		}
+	}
+	JAP_kai_katsuyama = {
+		name = JAP_kai_katsuyama
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kai_Katsuyama"
+				small = "GFX_idea_JAP_kai_katsuyama"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kai_Katsuyama"
+				small = "GFX_idea_JAP_kai_katsuyama"
+			}
+		}
+		navy_leader = {
+			traits = { spotter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
 		}
 	}
 	JAP_kakuei_tanaka = {
@@ -250,6 +349,18 @@ characters = {
 				large = "GFX_Portrait_JAP_Katsuo_Tsushima"
 				small = "GFX_idea_JAP_katsuo_tsushima"
 			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
 	JAP_kei_hoashi = {
@@ -285,6 +396,31 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_keiu_matsuo = {
+		name = JAP_keiu_matsuo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Keiu_Matsuo"
+				small = "GFX_idea_JAP_keiu_matsuo"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Keiu_Matsuo"
+				small = "GFX_idea_JAP_keiu_matsuo"
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+				spotter
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
 		}
 	}
 	JAP_keizo_hayashi = {
@@ -381,6 +517,54 @@ characters = {
 			traits = {}
 		}
 	}
+	JAP_ko_nagasawa = {
+		name = JAP_ko_nagasawa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Ko_Nagasawa"
+				small = "GFX_idea_JAP_ko_nagasawa"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Ko_Nagasawa"
+				small = "GFX_idea_JAP_ko_nagasawa"
+			}
+		}
+		navy_leader = {
+			traits = {
+				old_guard_navy
+				bold
+				ironside
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
+	JAP_kogoro_yamazaki = {
+		name = JAP_kogoro_yamazaki
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kogoro_Yamazaki"
+				small = "GFX_idea_JAP_kogoro_yamazaki"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kogoro_Yamazaki"
+				small = "GFX_idea_JAP_kogoro_yamazaki"
+			}
+		}
+		navy_leader = {
+			traits = { old_guard_navy }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
 	JAP_kumao_imoto = {
 		name = JAP_kumao_imoto
 		portraits = {
@@ -465,6 +649,32 @@ characters = {
 				large = "GFX_Portrait_JAP_Masanosuke_Ikeda"
 				small = "GFX_idea_JAP_masanosuke_ikeda"
 			}
+		}
+	}
+	JAP_masaru_tanaka = {
+		name = JAP_masaru_tanaka
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masaru_Tanaka"
+				small = "GFX_idea_JAP_masaru_tanaka"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masaru_Tanaka"
+				small = "GFX_idea_JAP_masaru_tanaka"
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				trait_reckless
+				JAP_samurai_lineage
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
 		}
 	}
 	JAP_masashi_ishibashi = {
@@ -556,6 +766,42 @@ characters = {
 				small = "GFX_idea_JAP_minoru_genda_admiral"
 			}
 		}
+		navy_leader = {
+			traits = {
+				bold
+				aviation_enthusiast
+				superior_tactician
+				spotter
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
+			legacy_id = -1
+		}
+	}
+	JAP_minoru_suzuki = {
+		name = JAP_minoru_suzuki
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Minoru_Suzuki"
+				small = "GFX_idea_JAP_minoru_suzuki"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Minoru_Suzuki"
+				small = "GFX_idea_JAP_minoru_suzuki"
+			}
+		}
+		navy_leader = {
+			traits = { spotter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id = -1
+		}
 	}
 	JAP_misaburo_kawasaki = {
 		name = JAP_misaburo_kawasaki
@@ -581,6 +827,50 @@ characters = {
 				large = "GFX_Portrait_JAP_Mitsu_Kono"
 				small = "GFX_idea_JAP_mitsu_kono"
 			}
+		}
+	}
+	JAP_mitsugu_ihara = {
+		name = JAP_mitsugu_ihara
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Mitsugu_Ihara"
+				small = "GFX_idea_JAP_mitsugu_ihara"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Mitsugu_Ihara_army"
+				small = "GFX_idea_JAP_mitsugu_ihara_army"
+			}
+		}
+		navy_leader = {
+			traits = { superior_tactician }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
+	JAP_mitsuma_itakura = {
+		name = JAP_mitsuma_itakura
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Mitsuma_Itakura"
+				small = "GFX_idea_JAP_mitsuma_itakura"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Mitsuma_Itakura"
+				small = "GFX_idea_JAP_mitsuma_itakura"
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = -1
 		}
 	}
 	JAP_okinori_kaya = {
@@ -629,6 +919,33 @@ characters = {
 			logistics_skill = 5
 		}
 	}
+	JAP_saburo_shindo = {
+		name = JAP_saburo_shindo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Saburo_Shindo"
+				small = "GFX_idea_JAP_saburo_shindo"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Saburo_Shindo"
+				small = "GFX_idea_JAP_saburo_shindo"
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+				navy_career_officer
+				blockade_runner
+				superior_tactician
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 5
+			coordination_skill = 4
+			legacy_id = -1
+		}
+	}
 	JAP_sadao_akamatsu = {
 		name = JAP_sadao_akamatsu
 		portraits = {
@@ -665,6 +982,15 @@ characters = {
 				large = "GFX_Portrait_JAP_Sakae_Oba"
 				small = "GFX_idea_JAP_sakae_oba"
 			}
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=0
 		}
 	}
 	JAP_sei_matsuya = {
@@ -732,6 +1058,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Shinobu_Takayama"
 				small = "GFX_idea_JAP_shinobu_takayama"
 			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				politically_connected
+				trickster trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
 	JAP_shiro_hara = {
@@ -810,6 +1149,31 @@ characters = {
 			traits = {}
 		}
 	}
+	JAP_sokichi_takagi = {
+		name = JAP_sokichi_takagi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Sokichi_Takagi"
+				small = "GFX_idea_JAP_sokichi_takagi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Sokichi_Takagi"
+				small = "GFX_idea_JAP_sokichi_takagi"
+			}
+		}
+		navy_leader = {
+			traits = {
+				superior_tactician
+				ironside
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 5
+			coordination_skill = 5
+			legacy_id = -1
+		}
+	}
 	JAP_suehiro_nishio = {
 		name = JAP_suehiro_nishio
 		portraits = {
@@ -854,6 +1218,28 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	JAP_takaichi_itaya = {
+		name = JAP_takaichi_itaya
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Takaichi_Itaya"
+				small = "GFX_idea_JAP_takaichi_itaya"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Takaichi_Itaya"
+				small = "GFX_idea_JAP_takaichi_itaya"
+			}
+		}
+		navy_leader = {
+			traits = { superior_tactician }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
 	JAP_takeichi_nishi = {
 		name = JAP_takeichi_nishi
 		portraits = {
@@ -893,6 +1279,54 @@ characters = {
 			}
 		}
 	}
+	JAP_takeo_tsutsui = {
+		name = JAP_takeo_tsutsui
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Takeo_Tsutsui"
+				small = "GFX_idea_JAP_takeo_tsutsui"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Takeo_Tsutsui"
+				small = "GFX_idea_JAP_takeo_tsutsui"
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	JAP_teigi_nakayama = {
+		name = JAP_teigi_nakayama
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Teigi_Nakayama"
+				small = "GFX_idea_JAP_teigi_nakayama"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Teigi_Nakayama"
+				small = "GFX_idea_JAP_teigi_nakayama"
+			}
+		}
+		navy_leader = {
+			traits = {
+				battleship_adherent
+				naval_lineage
+				fly_swatter
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
 	JAP_teiichi_suzuki = {
 		name = JAP_teiichi_suzuki
 		portraits = {
@@ -917,6 +1351,40 @@ characters = {
 				large = "GFX_Portrait_JAP_Teruzo_Ando"
 				small = "GFX_idea_JAP_teruzo_ando"
 			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	JAP_tomoharu_nishimura = {
+		name = JAP_tomoharu_nishimura
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Tomoharu_Nishimura"
+				small = "GFX_idea_JAP_tomoharu_nishimura"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Tomoharu_Nishimura"
+				small = "GFX_idea_JAP_tomoharu_nishimura"
+			}
+		}
+		navy_leader = {
+			traits = { spotter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
 		}
 	}
 	JAP_torazo_ninagawa = {
@@ -947,6 +1415,31 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	JAP_toshiharu_konada = {
+		name = JAP_toshiharu_konada
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Toshiharu_Konada"
+				small = "GFX_idea_JAP_toshiharu_konada"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Toshiharu_Konada"
+				small = "GFX_idea_JAP_toshiharu_konada"
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+				seawolf
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
 	JAP_toshihiko_ikeda = {
 		name = JAP_toshihiko_ikeda
 		portraits = {
@@ -958,6 +1451,15 @@ characters = {
 				large = "GFX_Portrait_JAP_Toshihiko_Ikeda"
 				small = "GFX_idea_JAP_toshihiko_ikeda"
 			}
+		}
+		corps_commander = {
+			traits = { JAP_samurai_lineage }
+			skill=1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
 		}
 	}
 	JAP_tsuneo_baba = {
@@ -971,6 +1473,15 @@ characters = {
 				large = "GFX_Portrait_JAP_Tsuneo_Baba"
 				small = "GFX_idea_JAP_tsuneo_baba"
 			}
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
 		}
 	}
 	JAP_yasuhide_kurihara = {
@@ -1041,6 +1552,31 @@ characters = {
 				large = "GFX_Portrait_JAP_Yuichi_Kori"
 				small = "GFX_idea_JAP_yuichi_kori"
 			}
+		}
+	}
+	JAP_zenshiro_hoshina = {
+		name = JAP_zenshiro_hoshina
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Zenshiro_Hoshina"
+				small = "GFX_idea_JAP_zenshiro_hoshina"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Zenshiro_Hoshina"
+				small = "GFX_idea_JAP_zenshiro_hoshina"
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_career_officer
+				aviation_enthusiast
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
+			legacy_id = -1
 		}
 	}
 }

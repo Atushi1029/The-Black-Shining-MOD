@@ -1,6 +1,10 @@
 DIETSLAND = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
+}
+NAMLESS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 ROM_socialist_republic_175_13_0 = {
 	color = rgb { 175 13 0 }

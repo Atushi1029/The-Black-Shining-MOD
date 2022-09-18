@@ -1,5 +1,5 @@
 ﻿capital = 617
-#oob = ""
+oob = ""
 set_starting_values = yes
 recruit_character = SIK_burhan_shahidi
 set_convoys = 20

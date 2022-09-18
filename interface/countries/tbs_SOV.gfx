@@ -13,6 +13,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_boris_yeltsin.png"
 	}
 	spriteType = {
+		name = "GFX_idea_SOV_dmitry_yazov"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_dmitry_yazov.png"
+	}
+	spriteType = {
 		name = "GFX_idea_SOV_georgy_zhukov"
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_georgy_zhukov.png"
 	}
@@ -76,6 +80,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SOV_Boris_Yeltsin"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Boris_Yeltsin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Dmitry_Yazov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Dmitry_Yazov.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SOV_Georgy_Zhukov"

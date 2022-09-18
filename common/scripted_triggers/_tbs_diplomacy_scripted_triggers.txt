@@ -20,6 +20,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	else_if = {
 		limit = {
 			check_variable = { declare_war_free_tickets < 1 }
+			has_country_flag = allowed_to_generate_wargoal
 			OR = {
 				has_socialist_government = yes
 				has_dictatorship_government = yes
@@ -35,6 +36,7 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	else_if = {
 		limit = {
 			check_variable = { declare_war_free_tickets < 1 }
+			has_country_flag = allowed_to_generate_wargoal
 			has_democratic_government = yes
 		}
 		command_power > 49
@@ -123,15 +125,10 @@ DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
 DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 	if = {
 		limit = {
-			FROM = {}
-			ROOT = {}
-		}
-		always = no
-	}
-	else_if = {
-		limit  ={
-			FROM = {}
-			ROOT = {}
+			OR = {
+				FROM = { has_country_flag = cannot_join_allies }
+				ROOT = { has_country_flag = cannot_join_allies }
+			}
 		}
 		always = no
 	}
@@ -140,15 +137,10 @@ DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 	if = {
 		limit = {
-			FROM = {}
-			ROOT = {}
-		}
-		always = no
-	}
-	else_if = {
-		limit  ={
-			FROM = {}
-			ROOT = {}
+			OR = {
+				FROM = { has_country_flag = cannot_join_allies }
+				ROOT = { has_country_flag = cannot_join_allies }
+			}
 		}
 		always = no
 	}

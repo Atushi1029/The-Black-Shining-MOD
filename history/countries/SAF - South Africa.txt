@@ -1,5 +1,5 @@
 ﻿capital = 275
-#oob = ""
+oob = ""
 set_cosmetic_tag = SAF_federation
 set_starting_values = yes
 recruit_character = SAF_john_vorster

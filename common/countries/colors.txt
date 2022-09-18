@@ -76,8 +76,8 @@ SWI = {
 	color_ui = rgb { 224 5 5 }
 }
 TUR = {
-	color = rgb { 222 247 198 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 123 0 0 }
+	color_ui = rgb { 123 0 0 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -116,8 +116,8 @@ HUN = {
 	color_ui = rgb { 249 126 98 }
 }
 AFG = {
-	color = rgb { 83 208 217 }
-	color_ui = rgb { 83 208 217 }
+	color = rgb { 64 160 167 }
+	color_ui = rgb { 64 160 167 }
 }
 ARG = {
 	color = rgb { 145 157 236 }
@@ -816,8 +816,8 @@ BLZ = {
 	color_ui = rgb { 30 63 165 }
 }
 BNF = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
 }
 BOS = {
 	color = rgb { 67 158 34 }
@@ -992,8 +992,8 @@ MAD = {
 	color_ui = rgb { 142 149 229 }
 }
 MAF = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
 }
 MLD = {
 	color = rgb { 0 76 153 }
@@ -1036,8 +1036,8 @@ NGR = {
 	color_ui = rgb { 87 148 175 }
 }
 NID = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
 }
 NIR = {
 	color = rgb { 142 142 128 }
@@ -1068,20 +1068,20 @@ RFP = {
 	color_ui = rgb { 38 146 90 }
 }
 RKK = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
 }
 RKM = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
 }
 RKO = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
 }
 RKU = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 115 115 115 }
+	color = hsv { 0.1 0.15 0.4 }
+	color_ui = hsv { 0.1 0.15 0.4 }
 }
 RLA = {
 	color = rgb { 194 169 148 }

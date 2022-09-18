@@ -1,5 +1,5 @@
 ﻿capital = 271
-#oob = ""
+oob = ""
 set_cosmetic_tag = ETH_democratic_republic
 set_starting_values = yes
 recruit_character = ETH_tesfaye_gebre_kidan

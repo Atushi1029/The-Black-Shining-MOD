@@ -1,5 +1,5 @@
 ﻿capital =328
-#oob = ""
+oob = ""
 set_cosmetic_tag = MAN_kuo
 set_starting_values = yes
 recruit_character = MAN_aisin_gioro_yuyan

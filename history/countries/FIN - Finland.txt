@@ -1,5 +1,5 @@
 ﻿capital = 111
-#oob = ""
+oob = ""
 set_cosmetic_tag = FIN_republic
 set_starting_values = yes
 recruit_character = FIN_mikko_juva

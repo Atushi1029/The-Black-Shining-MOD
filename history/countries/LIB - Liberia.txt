@@ -1,5 +1,5 @@
 ﻿capital =298
-#oob = ""
+oob = ""
 set_cosmetic_tag = LIB_republic
 set_starting_values = yes
 recruit_character = LIB_frank_e_tolbert

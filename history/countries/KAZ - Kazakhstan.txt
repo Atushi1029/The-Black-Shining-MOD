@@ -1,5 +1,5 @@
 ﻿capital = 586
-#oob = ""
+oob = ""
 set_cosmetic_tag = KAZ_republic
 set_starting_values = yes
 recruit_character = KAZ_sagadat_nurmagambetov

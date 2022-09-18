@@ -1,5 +1,5 @@
 ﻿capital = 548
-#oob = ""
+oob = ""
 set_cosmetic_tag = UGA_state
 set_starting_values = yes
 recruit_character = UGA_idi_amin

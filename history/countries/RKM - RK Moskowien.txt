@@ -1,5 +1,5 @@
 ﻿capital = 219
-#oob = ""
+oob = ""
 set_starting_values = yes
 recruit_character = RKM_martin_mussgnug
 set_convoys = 20
