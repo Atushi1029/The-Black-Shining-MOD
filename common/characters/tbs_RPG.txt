@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_RPG_Corneliu_Manescu"
 				small = "GFX_idea_RPG_corneliu_manescu"
 			}
+			navy = {
+				large = "GFX_Portrait_RPG_Corneliu_Manescu"
+				small = "GFX_idea_RPG_corneliu_manescu"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_CORNELIU_MANESCU_DESC"
@@ -26,7 +30,7 @@ characters = {
 				large = "GFX_Portrait_RPG_Nicolae_Ceausescu"
 				small = "GFX_idea_RPG_nicolae_ceausescu"
 			}
-			army = {
+			navy = {
 				large = "GFX_Portrait_RPG_Nicolae_Ceausescu"
 				small = "GFX_idea_RPG_nicolae_ceausescu"
 			}

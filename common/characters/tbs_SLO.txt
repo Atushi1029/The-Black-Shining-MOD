@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SLO_Alexander_Mach"
 				small = "GFX_idea_SLO_alexander_mach"
 			}
+			navy = {
+				large = "GFX_Portrait_SLO_Alexander_Mach"
+				small = "GFX_idea_SLO_alexander_mach"
+			}
 		}
 	}
 	SLO_ferdinand_durcansky = {
@@ -20,6 +24,10 @@ characters = {
 				small = "GFX_idea_SLO_ferdinand_durcansky"
 			}
 			army = {
+				large = "GFX_Portrait_SLO_Ferdinand_Durcansky"
+				small = "GFX_idea_SLO_ferdinand_durcansky"
+			}
+			navy = {
 				large = "GFX_Portrait_SLO_Ferdinand_Durcansky"
 				small = "GFX_idea_SLO_ferdinand_durcansky"
 			}

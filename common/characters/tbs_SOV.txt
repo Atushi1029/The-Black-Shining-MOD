@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SOV_Alexander_Sergeyevich_Yakovlev"
 				small = "GFX_idea_SOV_alexander_sergeyevich_yakovlev"
 			}
+			navy = {
+				large = "GFX_Portrait_SOV_Alexander_Sergeyevich_Yakovlev"
+				small = "GFX_idea_SOV_alexander_sergeyevich_yakovlev"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ALEXANDER_SERGEYEVICH_YAKOVLEV_DESC"
@@ -17,6 +21,23 @@ characters = {
 			expire = "1989.8.22.1"
 			id = -1
 			traits = {}
+		}
+	}
+	SOV_anatoly_lukyanov = {
+		name = SOV_anatoly_lukyanov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Anatoly_Lukyanov"
+				small = "GFX_idea_SOV_anatoly_lukyanov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Anatoly_Lukyanov"
+				small = "GFX_idea_SOV_anatoly_lukyanov"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Anatoly_Lukyanov"
+				small = "GFX_idea_SOV_anatoly_lukyanov"
+			}
 		}
 	}
 	SOV_andrei_grechko = {
@@ -27,6 +48,10 @@ characters = {
 				small = "GFX_idea_SOV_andrei_grechko"
 			}
 			army = {
+				large = "GFX_Portrait_SOV_Andrei_Grechko"
+				small = "GFX_idea_SOV_andrei_grechko"
+			}
+			navy = {
 				large = "GFX_Portrait_SOV_Andrei_Grechko"
 				small = "GFX_idea_SOV_andrei_grechko"
 			}
@@ -47,6 +72,38 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	SOV_andrei_gromyko = {
+		name = SOV_andrei_gromyko
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Andrei_Gromyko"
+				small = "GFX_idea_SOV_andrei_gromyko"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Andrei_Gromyko"
+				small = "GFX_idea_SOV_andrei_gromyko"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Andrei_Gromyko"
+				small = "GFX_idea_SOV_andrei_gromyko"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = SOV_andrei_gromyko_for_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_foreign_minister
+				minister_totalitarian_socialist
+				tbs_strict_diplomat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
 	SOV_boris_yeltsin = {
 		name = SOV_boris_yeltsin
 		portraits = {
@@ -58,10 +115,14 @@ characters = {
 				large = "GFX_Portrait_SOV_Boris_Yeltsin"
 				small = "GFX_idea_SOV_boris_yeltsin"
 			}
+			navy = {
+				large = "GFX_Portrait_SOV_Boris_Yeltsin"
+				small = "GFX_idea_SOV_boris_yeltsin"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_BORIS_YELTSIN_DESC"
-			ideology = social_conservatism_ideology
+			ideology = authoritarian_democracy_ideology
 			expire = "2007.4.23.1"
 			id = -1
 			traits = {}
@@ -75,6 +136,10 @@ characters = {
 				small = "GFX_idea_SOV_dmitry_yazov"
 			}
 			army = {
+				large = "GFX_Portrait_SOV_Dmitry_Yazov"
+				small = "GFX_idea_SOV_dmitry_yazov"
+			}
+			navy = {
 				large = "GFX_Portrait_SOV_Dmitry_Yazov"
 				small = "GFX_idea_SOV_dmitry_yazov"
 			}
@@ -100,6 +165,10 @@ characters = {
 				small = "GFX_idea_SOV_georgy_zhukov_politician"
 			}
 			army = {
+				large = "GFX_Portrait_SOV_Georgy_Zhukov"
+				small = "GFX_idea_SOV_georgy_zhukov"
+			}
+			navy = {
 				large = "GFX_Portrait_SOV_Georgy_Zhukov"
 				small = "GFX_idea_SOV_georgy_zhukov"
 			}
@@ -134,6 +203,10 @@ characters = {
 				large = "GFX_Portrait_SOV_Issa_Pliyev"
 				small = "GFX_idea_SOV_issa_pliyev"
 			}
+			navy = {
+				large = "GFX_Portrait_SOV_Issa_Pliyev"
+				small = "GFX_idea_SOV_issa_pliyev"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ISSA_PLIYEV_DESC"
@@ -151,6 +224,10 @@ characters = {
 				small = "GFX_idea_SOV_konstantin_chernenko"
 			}
 			army = {
+				large = "GFX_Portrait_SOV_Konstantin_Chernenko"
+				small = "GFX_idea_SOV_konstantin_chernenko"
+			}
+			navy = {
 				large = "GFX_Portrait_SOV_Konstantin_Chernenko"
 				small = "GFX_idea_SOV_konstantin_chernenko"
 			}
@@ -182,6 +259,10 @@ characters = {
 				large = "GFX_Portrait_SOV_Leonid_Brezhnev"
 				small = "GFX_idea_SOV_leonid_brezhnev"
 			}
+			navy = {
+				large = "GFX_Portrait_SOV_Leonid_Brezhnev"
+				small = "GFX_idea_SOV_leonid_brezhnev"
+			}
 		}
 		advisor = {
 			cost = 65535
@@ -210,6 +291,10 @@ characters = {
 				large = "GFX_Portrait_SOV_Lev_Gumilyov"
 				small = "GFX_idea_SOV_lev_gumilyov"
 			}
+			navy = {
+				large = "GFX_Portrait_SOV_Lev_Gumilyov"
+				small = "GFX_idea_SOV_lev_gumilyov"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_LEV_GUMILYOV_DESC"
@@ -227,6 +312,10 @@ characters = {
 				small = "GFX_idea_SOV_mikhail_gorbachev"
 			}
 			army = {
+				large = "GFX_Portrait_SOV_Mikhail_Gorbachev"
+				small = "GFX_idea_SOV_mikhail_gorbachev"
+			}
+			navy = {
 				large = "GFX_Portrait_SOV_Mikhail_Gorbachev"
 				small = "GFX_idea_SOV_mikhail_gorbachev"
 			}
@@ -250,6 +339,10 @@ characters = {
 				large = "GFX_Portrait_SOV_Mikhail_Suslov"
 				small = "GFX_idea_SOV_mikhail_suslov"
 			}
+			navy = {
+				large = "GFX_Portrait_SOV_Mikhail_Suslov"
+				small = "GFX_idea_SOV_mikhail_suslov"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
@@ -257,6 +350,38 @@ characters = {
 			expire = "1982.1.25.1"
 			id = -1
 			traits = {}
+		}
+	}
+	SOV_nikolai_bulganin = {
+		name = SOV_nikolai_bulganin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Nikolai_Bulganin"
+				small = "GFX_idea_SOV_nikolai_bulganin"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Nikolai_Bulganin"
+				small = "GFX_idea_SOV_nikolai_bulganin"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Nikolai_Bulganin"
+				small = "GFX_idea_SOV_nikolai_bulganin"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = SOV_nikolai_bulganin_jus_tso
+			allowed = { original_tag = SOV }
+			available = { has_government = totalitarian_socialism }
+			traits = {
+				tbs_justice_minister
+				minister_totalitarian_socialist
+				tbs_legal_expert
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	SOV_nikolai_kuznetsov = {
@@ -270,21 +395,10 @@ characters = {
 				large = "GFX_Portrait_SOV_Nikolai_Kuznetsov"
 				small = "GFX_idea_SOV_nikolai_kuznetsov"
 			}
-		}
-		advisor = {
-			cost = 65535
-			slot = foreign_minister
-			ledger = civilian
-			idea_token = SOV_nikolai_kuznetsov_for_tso
-			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
-			traits = {
-				tbs_foreign_minister
-				minister_totalitarian_socialist
-				tbs_strict_diplomat
+			navy = {
+				large = "GFX_Portrait_SOV_Nikolai_Kuznetsov"
+				small = "GFX_idea_SOV_nikolai_kuznetsov"
 			}
-			removal_cost = -1
-			ai_will_do = { factor = 0 }
 		}
 	}
 	SOV_nikolai_shchelokov = {
@@ -295,6 +409,10 @@ characters = {
 				small = "GFX_idea_SOV_nikolai_shchelokov"
 			}
 			army = {
+				large = "GFX_Portrait_SOV_Nikolai_Shchelokov"
+				small = "GFX_idea_SOV_nikolai_shchelokov"
+			}
+			navy = {
 				large = "GFX_Portrait_SOV_Nikolai_Shchelokov"
 				small = "GFX_idea_SOV_nikolai_shchelokov"
 			}
@@ -326,6 +444,10 @@ characters = {
 				large = "GFX_Portrait_SOV_Nikolai_Tikhonov"
 				small = "GFX_idea_SOV_nikolai_tikhonov"
 			}
+			navy = {
+				large = "GFX_Portrait_SOV_Nikolai_Tikhonov"
+				small = "GFX_idea_SOV_nikolai_tikhonov"
+			}
 		}
 	}
 	SOV_valentin_pavlov = {
@@ -336,6 +458,10 @@ characters = {
 				small = "GFX_idea_SOV_valentin_pavlov"
 			}
 			army = {
+				large = "GFX_Portrait_SOV_Valentin_Pavlov"
+				small = "GFX_idea_SOV_valentin_pavlov"
+			}
+			navy = {
 				large = "GFX_Portrait_SOV_Valentin_Pavlov"
 				small = "GFX_idea_SOV_valentin_pavlov"
 			}
@@ -354,6 +480,74 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	SOV_vasily_kuznetsov = {
+		name = SOV_vasily_kuznetsov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Vasily_Kuznetsov"
+				small = "GFX_idea_SOV_vasily_kuznetsov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Vasily_Kuznetsov"
+				small = "GFX_idea_SOV_vasily_kuznetsov"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Vasily_Kuznetsov"
+				small = "GFX_idea_SOV_vasily_kuznetsov"
+			}
+		}
+	}
+	SOV_viktor_chernomyrdin = {
+		name = SOV_viktor_chernomyrdin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Viktor_Chernomyrdin"
+				small = "GFX_idea_SOV_viktor_chernomyrdin"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Viktor_Chernomyrdin"
+				small = "GFX_idea_SOV_viktor_chernomyrdin"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Viktor_Chernomyrdin"
+				small = "GFX_idea_SOV_viktor_chernomyrdin"
+			}
+		}
+	}
+	SOV_vladimir_kryuchkov = {
+		name = SOV_vladimir_kryuchkov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Vladimir_Kryuchkov"
+				small = "GFX_idea_SOV_vladimir_kryuchkov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Vladimir_Kryuchkov"
+				small = "GFX_idea_SOV_vladimir_kryuchkov"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Vladimir_Kryuchkov"
+				small = "GFX_idea_SOV_vladimir_kryuchkov"
+			}
+		}
+	}
+	SOV_yevgeny_primakov = {
+		name = SOV_yevgeny_primakov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Yevgeny_Primakov"
+				small = "GFX_idea_SOV_yevgeny_primakov"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Yevgeny_Primakov"
+				small = "GFX_idea_SOV_yevgeny_primakov"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Yevgeny_Primakov"
+				small = "GFX_idea_SOV_yevgeny_primakov"
+			}
 		}
 	}
 }

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SPR_Federica_Montseny"
 				small = "GFX_idea_SPR_federica_montseny"
 			}
+			navy = {
+				large = "GFX_Portrait_SPR_Federica_Montseny"
+				small = "GFX_idea_SPR_federica_montseny"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_FEDERICA_MONTSENY_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CHL_Salvador_Allende"
 				small = "GFX_idea_CHL_salvador_allende"
 			}
+			navy = {
+				large = "GFX_Portrait_CHL_Salvador_Allende"
+				small = "GFX_idea_CHL_salvador_allende"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SALVADOR_ALLENDE_DESC"

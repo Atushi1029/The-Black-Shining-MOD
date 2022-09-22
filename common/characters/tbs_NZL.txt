@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_NZL_Bill_Rowling"
 				small = "GFX_idea_NZL_bill_rowling"
 			}
+			navy = {
+				large = "GFX_Portrait_NZL_Bill_Rowling"
+				small = "GFX_idea_NZL_bill_rowling"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_BILL_ROWLING_DESC"

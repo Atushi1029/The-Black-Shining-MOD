@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_STO_Hideo_Shimizu"
 				small = "GFX_idea_STO_hideo_shimizu"
 			}
+			navy = {
+				large = "GFX_Portrait_STO_Hideo_Shimizu"
+				small = "GFX_idea_STO_hideo_shimizu"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_HIDEO_SHIMIZU_DESC"

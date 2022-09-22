@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MOR_Hassan_II"
 				small = "GFX_idea_MOR_hassan_ii"
 			}
+			navy = {
+				large = "GFX_Portrait_MOR_Hassan_II"
+				small = "GFX_idea_MOR_hassan_ii"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_HASSAN_II_DESC"

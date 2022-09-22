@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_PRU_Fernando_Belaunde"
 				small = "GFX_idea_PRU_fernando_belaunde"
 			}
+			navy = {
+				large = "GFX_Portrait_PRU_Fernando_Belaunde"
+				small = "GFX_idea_PRU_fernando_belaunde"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_FERNANDO_BELAUNDE_DESC"

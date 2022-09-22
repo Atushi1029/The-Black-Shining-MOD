@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_KAZ_Sagadat_Nurmagambetov"
 				small = "GFX_idea_KAZ_sagadat_nurmagambetov"
 			}
+			navy = {
+				large = "GFX_Portrait_KAZ_Sagadat_Nurmagambetov"
+				small = "GFX_idea_KAZ_sagadat_nurmagambetov"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SAGADAT_NURMAGAMBETOV_DESC"

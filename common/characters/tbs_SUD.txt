@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SUD_Jaafar_Nimeiry"
 				small = "GFX_idea_SUD_jaafar_nimeiry"
 			}
+			navy = {
+				large = "GFX_Portrait_SUD_Jaafar_Nimeiry"
+				small = "GFX_idea_SUD_jaafar_nimeiry"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JAAFAR_NIMEIRY_DESC"

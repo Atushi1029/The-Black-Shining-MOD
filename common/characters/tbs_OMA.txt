@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_OMA_Qaboos_bin_Said"
 				small = "GFX_idea_OMA_qaboos_bin_said"
 			}
+			navy = {
+				large = "GFX_Portrait_OMA_Qaboos_bin_Said"
+				small = "GFX_idea_OMA_qaboos_bin_said"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_QABOOS_BIN_SAID_DESC"

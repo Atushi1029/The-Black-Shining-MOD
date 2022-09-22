@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_URG_Jorge_Pacheco_Areco"
 				small = "GFX_idea_URG_jorge_pacheco_areco"
 			}
+			navy = {
+				large = "GFX_Portrait_URG_Jorge_Pacheco_Areco"
+				small = "GFX_idea_URG_jorge_pacheco_areco"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JORGE_PACHECO_ARECO_DESC"

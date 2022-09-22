@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_PAN_Aristides_Royo"
 				small = "GFX_idea_PAN_aristides_royo"
 			}
+			navy = {
+				large = "GFX_Portrait_PAN_Aristides_Royo"
+				small = "GFX_idea_PAN_aristides_royo"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ARISTIDES_ROYO_DESC"

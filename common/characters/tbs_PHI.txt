@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_PHI_Toshio_Nishimura"
 				small = "GFX_idea_PHI_toshio_nishimura"
 			}
+			navy = {
+				large = "GFX_Portrait_PHI_Toshio_Nishimura"
+				small = "GFX_idea_PHI_toshio_nishimura"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_TOSHIO_NISHIMURA_DESC"

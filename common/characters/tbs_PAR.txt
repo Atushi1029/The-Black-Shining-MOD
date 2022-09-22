@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_PAR_Alfredo_Stroessner"
 				small = "GFX_idea_PAR_alfredo_stroessner"
 			}
+			navy = {
+				large = "GFX_Portrait_PAR_Alfredo_Stroessner"
+				small = "GFX_idea_PAR_alfredo_stroessner"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ALFREDO_STROESSNER_DESC"

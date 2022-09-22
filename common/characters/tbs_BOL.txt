@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_BOL_Lidia_Gueiler"
 				small = "GFX_idea_BOL_lidia_gueiler"
 			}
+			navy = {
+				large = "GFX_Portrait_BOL_Lidia_Gueiler"
+				small = "GFX_idea_BOL_lidia_gueiler"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_LIDIA_GUEILER_DESC"

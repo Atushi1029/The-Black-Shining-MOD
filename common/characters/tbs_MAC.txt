@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MAC_Ivan_Mihailov"
 				small = "GFX_idea_MAC_ivan_mihailov"
 			}
+			navy = {
+				large = "GFX_Portrait_MAC_Ivan_Mihailov"
+				small = "GFX_idea_MAC_ivan_mihailov"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_IVAN_MIHAILOV_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_NOR_Erik_Gjems-Onstad"
 				small = "GFX_idea_NOR_erik_gjems-onstad"
 			}
+			navy = {
+				large = "GFX_Portrait_NOR_Erik_Gjems-Onstad"
+				small = "GFX_idea_NOR_erik_gjems-onstad"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ERIK_GJEMS-ONSTAD_DESC"

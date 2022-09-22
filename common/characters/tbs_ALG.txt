@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_ALG_Ahmed_Ben_Bella"
 				small = "GFX_idea_ALG_Ahmed_Ben_Bella"
 			}
+			navy = {
+				large = "GFX_Portrait_ALG_Ahmed_Ben_Bella"
+				small = "GFX_idea_ALG_Ahmed_Ben_Bella"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_AHMED_BEN_BELLA_DESC"

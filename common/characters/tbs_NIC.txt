@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_NIC_Anastasio_Somoza_Debayle"
 				small = "GFX_idea_NIC_anastasio_somoza_debayle"
 			}
+			navy = {
+				large = "GFX_Portrait_NIC_Anastasio_Somoza_Debayle"
+				small = "GFX_idea_NIC_anastasio_somoza_debayle"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ANASTASIO_SOMOZA_DEBAYLE_DESC"

@@ -19,6 +19,15 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 	}
 	else_if = {
 		limit = {
+			OR = {
+				FROM = { has_cosmetic_tag = NAMELESS }
+				ROOT = { has_cosmetic_tag = NAMELESS }
+			}
+		}
+		always = no
+	}
+	else_if = {
+		limit = {
 			check_variable = { declare_war_free_tickets < 1 }
 			has_country_flag = allowed_to_generate_wargoal
 			OR = {

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MEN_Duguersulong"
 				small = "GFX_idea_MEN_duguersulong"
 			}
+			navy = {
+				large = "GFX_Portrait_MEN_Duguersulong"
+				small = "GFX_idea_MEN_duguersulong"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_DUGERSULONG_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_JOR_Hussein_bin_Talal"
 				small = "GFX_idea_JOR_Hussein_bin_Talal"
 			}
+			navy = {
+				large = "GFX_Portrait_JOR_Hussein_bin_Talal"
+				small = "GFX_idea_JOR_Hussein_bin_Talal"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_HUSSEIN_BIN_TALAL_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SIK_Burhan_Shahidi"
 				small = "GFX_idea_SIK_burhan_shahidi"
 			}
+			navy = {
+				large = "GFX_Portrait_SIK_Burhan_Shahidi"
+				small = "GFX_idea_SIK_burhan_shahidi"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_BURHAN_SHAHIDI_DESC"

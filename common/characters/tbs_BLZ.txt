@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_BLZ_George_Cadle_Price"
 				small = "GFX_idea_BLZ_george_cadle_price"
 			}
+			navy = {
+				large = "GFX_Portrait_BLZ_George_Cadle_Price"
+				small = "GFX_idea_BLZ_george_cadle_price"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGE_CADLE_PRICE_DESC"

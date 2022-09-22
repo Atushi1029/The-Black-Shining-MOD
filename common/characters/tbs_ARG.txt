@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_ARG_Francisco_Manrique"
 				small = "GFX_idea_ARG_francisco_manrique"
 			}
+			navy = {
+				large = "GFX_Portrait_ARG_Francisco_Manrique"
+				small = "GFX_idea_ARG_francisco_manrique"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_FRANCISCO_MANRIQUE_DESC"

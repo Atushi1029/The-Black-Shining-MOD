@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_ECU_Alfredo_Poveda"
 				small = "GFX_idea_ECU_alfredo_poveda"
 			}
+			navy = {
+				large = "GFX_Portrait_ECU_Alfredo_Poveda"
+				small = "GFX_idea_ECU_alfredo_poveda"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ALFREDO_POVEDA_DESC"

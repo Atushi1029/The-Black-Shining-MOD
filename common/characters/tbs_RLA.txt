@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_RLA_Viktor_Maltzev"
 				small = "GFX_idea_RLA_viktor_maltzev"
 			}
+			navy = {
+				large = "GFX_Portrait_RLA_Viktor_Maltzev"
+				small = "GFX_idea_RLA_viktor_maltzev"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_VIKTOR_MALTZEV_DESC"

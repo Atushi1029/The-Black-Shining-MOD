@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_POR_Otelo_Saraiva_de_Carvalho"
 				small = "GFX_idea_POR_otelo_saraiva_de_carvalho"
 			}
+			navy = {
+				large = "GFX_Portrait_POR_Otelo_Saraiva_de_Carvalho"
+				small = "GFX_idea_POR_otelo_saraiva_de_carvalho"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_OTELO_SARAIVA_DE_CARVALHO_DESC"

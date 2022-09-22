@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CRO_Zvonimir_II"
 				small = "GFX_idea_CRO_zvonimir_ii"
 			}
+			navy = {
+				large = "GFX_Portrait_CRO_Zvonimir_II"
+				small = "GFX_idea_CRO_zvonimir_ii"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ZVONIMIR_II_DESC"

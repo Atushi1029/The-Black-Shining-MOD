@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_EGY_Anwar_Sadat"
 				small = "GFX_idea_EGY_anwar_sadat"
 			}
+			navy = {
+				large = "GFX_Portrait_EGY_Anwar_Sadat"
+				small = "GFX_idea_EGY_anwar_sadat"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ANWAR_SADAT_DESC"

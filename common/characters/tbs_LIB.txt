@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_LIB_Frank_E_Tolbert"
 				small = "GFX_idea_LIB_Frank_E_Tolbert"
 			}
+			navy = {
+				large = "GFX_Portrait_LIB_Frank_E_Tolbert"
+				small = "GFX_idea_LIB_Frank_E_Tolbert"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_FRANK_E_TOLBERT_DESC"

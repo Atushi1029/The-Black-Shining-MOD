@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MLI_Modibo_Keita"
 				small = "GFX_idea_MLI_Modibo_Keita"
 			}
+			navy = {
+				large = "GFX_Portrait_MLI_Modibo_Keita"
+				small = "GFX_idea_MLI_Modibo_Keita"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MODIBO_KEITA_DESC"

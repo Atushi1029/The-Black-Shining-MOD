@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_NGA_Johnson_Aguiyi-Ironsi"
 				small = "GFX_idea_NGA_Johnson_Aguiyi-Ironsi"
 			}
+			navy = {
+				large = "GFX_Portrait_NGA_Johnson_Aguiyi-Ironsi"
+				small = "GFX_idea_NGA_Johnson_Aguiyi-Ironsi"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JOHNSON_AGUIYI-IRONSI_DESC"

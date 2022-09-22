@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_TIB_Dalai_Lama_XIV"
 				small = "GFX_idea_TIB_dalai_lama_xiv"
 			}
+			navy = {
+				large = "GFX_Portrait_TIB_Dalai_Lama_XIV"
+				small = "GFX_idea_TIB_dalai_lama_xiv"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_DALAI_LAMA_XIV_DESC"

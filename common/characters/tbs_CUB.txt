@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CUB_Fidel_Castro"
 				small = "GFX_idea_CUB_fidel_castro"
 			}
+			navy = {
+				large = "GFX_Portrait_CUB_Fidel_Castro"
+				small = "GFX_idea_CUB_fidel_castro"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_FIDEL_CASTRO_DESC"

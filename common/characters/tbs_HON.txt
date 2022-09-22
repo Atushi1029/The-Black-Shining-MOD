@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_HON_Policarpo_Paz_Garcia"
 				small = "GFX_idea_HON_policarpo_paz_garcia"
 			}
+			navy = {
+				large = "GFX_Portrait_HON_Policarpo_Paz_Garcia"
+				small = "GFX_idea_HON_policarpo_paz_garcia"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_PLOCARPO_PAZ_GARCIA_DESC"

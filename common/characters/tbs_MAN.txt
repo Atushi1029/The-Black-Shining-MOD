@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
 				small = "GFX_idea_MAN_aisin_gioro_yuyan"
 			}
+			navy = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_AISIN_GIORO_YUYAN_DESC"
@@ -27,6 +31,10 @@ characters = {
 				small = "GFX_idea_MAN_hisaya_morishige"
 			}
 			army = {
+				large = "GFX_Portrait_MAN_Hisaya_Morishige"
+				small = "GFX_idea_MAN_hisaya_morishige"
+			}
+			navy = {
 				large = "GFX_Portrait_MAN_Hisaya_Morishige"
 				small = "GFX_idea_MAN_hisaya_morishige"
 			}
@@ -50,6 +58,10 @@ characters = {
 				large = "GFX_Portrait_MAN_Kazuo_Nonomura"
 				small = "GFX_idea_MAN_kazuo_nonomura"
 			}
+			navy = {
+				large = "GFX_Portrait_MAN_Kazuo_Nonomura"
+				small = "GFX_idea_MAN_kazuo_nonomura"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_KAZUO_NONOMURA_DESC"
@@ -70,6 +82,10 @@ characters = {
 				large = "GFX_Portrait_MAN_Toshio_Hoshiko"
 				small = "GFX_idea_MAN_toshio_hoshiko"
 			}
+			navy = {
+				large = "GFX_Portrait_MAN_Toshio_Hoshiko"
+				small = "GFX_idea_MAN_toshio_hoshiko"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_TOSHIO_HOSHIKO_DESC"
@@ -87,6 +103,10 @@ characters = {
 				small = "GFX_idea_MAN_zhang_shaoji"
 			}
 			army = {
+				large = "GFX_Portrait_MAN_Zhang_Shaoji"
+				small = "GFX_idea_MAN_zhang_shaoji"
+			}
+			navy = {
 				large = "GFX_Portrait_MAN_Zhang_Shaoji"
 				small = "GFX_idea_MAN_zhang_shaoji"
 			}

@@ -3,7 +3,9 @@ oob = ""
 set_cosmetic_tag = UNIFY_SOVIET_UNION
 set_starting_values = yes
 recruit_character = SOV_alexander_sergeyevich_yakovlev
+recruit_character = SOV_anatoly_lukyanov
 recruit_character = SOV_andrei_grechko
+recruit_character = SOV_andrei_gromyko
 recruit_character = SOV_boris_yeltsin
 recruit_character = SOV_dmitry_yazov
 recruit_character = SOV_georgy_zhukov
@@ -13,13 +15,20 @@ recruit_character = SOV_leonid_brezhnev
 recruit_character = SOV_lev_gumilyov
 recruit_character = SOV_mikhail_gorbachev
 recruit_character = SOV_mikhail_suslov
+recruit_character = SOV_nikolai_bulganin
 recruit_character = SOV_nikolai_kuznetsov
 recruit_character = SOV_nikolai_shchelokov
 recruit_character = SOV_nikolai_tikhonov
 recruit_character = SOV_valentin_pavlov
+recruit_character = SOV_vasily_kuznetsov
+recruit_character = SOV_viktor_chernomyrdin
+recruit_character = SOV_vladimir_kryuchkov
+recruit_character = SOV_yevgeny_primakov
 set_convoys = 20
 add_ideas = {
-	
+	SOV_andrei_grechko_sec_tso
+	SOV_andrei_gromyko_for_tso
+	SOV_nikolai_bulganin_jus_tso
 }
 set_politics = {
 	ruling_party = totalitarian_socialism

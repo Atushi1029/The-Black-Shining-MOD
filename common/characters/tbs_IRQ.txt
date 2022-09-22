@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_IRQ_Saddam_Hussein"
 				small = "GFX_idea_IRQ_Saddam_Hussein"
 			}
+			navy = {
+				large = "GFX_Portrait_IRQ_Saddam_Hussein"
+				small = "GFX_idea_IRQ_Saddam_Hussein"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SADDAM_HUSSEIN_DESC"

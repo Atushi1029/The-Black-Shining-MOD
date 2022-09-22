@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SAU_Khalid_bin_Abdulaziz_Al_Saud"
 				small = "GFX_idea_SAU_Khalid_bin_Abdulaziz_Al_Saud"
 			}
+			navy = {
+				large = "GFX_Portrait_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+				small = "GFX_idea_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_KHALID_BIN_ABDULAZIZ_AL_SAUD_DESC"

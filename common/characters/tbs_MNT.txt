@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MNT_Giorgio_Calvi_di_Bergolo"
 				small = "GFX_idea_MNT_giorgio_calvi_di_bergolo"
 			}
+			navy = {
+				large = "GFX_Portrait_MNT_Giorgio_Calvi_di_Bergolo"
+				small = "GFX_idea_MNT_giorgio_calvi_di_bergolo"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_GIORGIO_CALVI_DI_BERGOLO_DESC"

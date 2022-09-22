@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_TOG_Gnassingbe_Eyadema"
 				small = "GFX_idea_TOG_Gnassingbe_Eyadema"
 			}
+			navy = {
+				large = "GFX_Portrait_TOG_Gnassingbe_Eyadema"
+				small = "GFX_idea_TOG_Gnassingbe_Eyadema"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_GNASSINGBE_EYADEMA_DESC"

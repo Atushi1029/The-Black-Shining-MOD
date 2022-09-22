@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CHI_Wang_Yu-yun"
 				small = "GFX_idea_CHI_wang_yu-yun"
 			}
+			navy = {
+				large = "GFX_Portrait_CHI_Wang_Yu-yun"
+				small = "GFX_idea_CHI_wang_yu-yun"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_WANG_YU-YUN_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_ITA_Aldo_Moro"
 				small = "GFX_idea_ITA_aldo_moro"
 			}
+			navy = {
+				large = "GFX_Portrait_ITA_Aldo_Moro"
+				small = "GFX_idea_ITA_aldo_moro"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ALDO_MORO_DESC"
@@ -27,6 +31,10 @@ characters = {
 				small = "GFX_idea_ITA_umberto_ii"
 			}
 			army = {
+				large = "GFX_Portrait_ITA_Umberto_II"
+				small = "GFX_idea_ITA_umberto_ii"
+			}
+			navy = {
 				large = "GFX_Portrait_ITA_Umberto_II"
 				small = "GFX_idea_ITA_umberto_ii"
 			}

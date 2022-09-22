@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_COL_Julio_Cesar_Turbay_Ayala"
 				small = "GFX_idea_COL_julio_cesar_turbay_ayala"
 			}
+			navy = {
+				large = "GFX_Portrait_COL_Julio_Cesar_Turbay_Ayala"
+				small = "GFX_idea_COL_julio_cesar_turbay_ayala"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JULIO_CESAR_TURBAY_AYALA_DESC"

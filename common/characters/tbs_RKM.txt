@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_RKM_Martin_Mussgnug"
 				small = "GFX_idea_RKM_martin_mussgnug"
 			}
+			navy = {
+				large = "GFX_Portrait_RKM_Martin_Mussgnug"
+				small = "GFX_idea_RKM_martin_mussgnug"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MARTIN_MUSSGNUG_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MRT_Mustafa_Ould_Salek"
 				small = "GFX_idea_MRT_Mustafa_Ould_Salek"
 			}
+			navy = {
+				large = "GFX_Portrait_MRT_Mustafa_Ould_Salek"
+				small = "GFX_idea_MRT_Mustafa_Ould_Salek"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MUSTAFA_OULD_SALEK_DESC"

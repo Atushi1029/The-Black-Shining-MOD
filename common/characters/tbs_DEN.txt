@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_DEN_Knud_Borge_Martinsen"
 				small = "GFX_idea_DEN_knud_borge_martinsen"
 			}
+			navy = {
+				large = "GFX_Portrait_DEN_Knud_Borge_Martinsen"
+				small = "GFX_idea_DEN_knud_borge_martinsen"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_KNUD_BORGE_MARTINSEN_DESC"

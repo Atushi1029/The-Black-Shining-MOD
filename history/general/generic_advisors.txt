@@ -12,6 +12,10 @@ every_possible_country = {
 				large = "GFX_Portrait_Generic_Vacancy"
 				small = "GFX_idea_Generic_vacancy"
 			}
+			navy = {
+				large = "GFX_Portrait_Generic_Vacancy"
+				small = "GFX_idea_Generic_vacancy"
+			}
 		}
 		advisor = {
 			cost = 65535

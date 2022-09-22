@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SIA_Kukrit_Pramoj"
 				small = "GFX_idea_SIA_kukrit_pramoj"
 			}
+			navy = {
+				large = "GFX_Portrait_SIA_Kukrit_Pramoj"
+				small = "GFX_idea_SIA_kukrit_pramoj"
+			}
 		}
 		#country_leader = {
 		#	desc = "POLITICS_KUKRIT_PRAMOJ_DESC"
@@ -27,6 +31,10 @@ characters = {
 				small = "GFX_idea_SIA_pridi_banomyong"
 			}
 			army = {
+				large = "GFX_Portrait_SIA_Pridi_Banomyong"
+				small = "GFX_idea_SIA_pridi_banomyong"
+			}
+			navy = {
 				large = "GFX_Portrait_SIA_Pridi_Banomyong"
 				small = "GFX_idea_SIA_pridi_banomyong"
 			}

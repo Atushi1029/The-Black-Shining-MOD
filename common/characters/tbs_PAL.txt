@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_PAL_George_Habash"
 				small = "GFX_idea_PAL_George_Habash"
 			}
+			navy = {
+				large = "GFX_Portrait_PAL_George_Habash"
+				small = "GFX_idea_PAL_George_Habash"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGE_HABASH_DESC"

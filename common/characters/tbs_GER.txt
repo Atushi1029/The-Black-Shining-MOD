@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_GER_Albert_Speer"
 				small = "GFX_idea_GER_albert_speer"
 			}
+			navy = {
+				large = "GFX_Portrait_GER_Albert_Speer"
+				small = "GFX_idea_GER_albert_speer"
+			}
 		}
 	}
 	GER_baldur_von_schirach = {
@@ -20,6 +24,10 @@ characters = {
 				small = "GFX_idea_GER_baldur_von_schirach"
 			}
 			army = {
+				large = "GFX_Portrait_GER_Baldur_von_Schirach"
+				small = "GFX_idea_GER_baldur_von_schirach"
+			}
+			navy = {
 				large = "GFX_Portrait_GER_Baldur_von_Schirach"
 				small = "GFX_idea_GER_baldur_von_schirach"
 			}
@@ -43,6 +51,27 @@ characters = {
 				large = "GFX_Portrait_GER_Heinz_Knoke"
 				small = "GFX_idea_GER_heinz_knoke"
 			}
+			navy = {
+				large = "GFX_Portrait_GER_Heinz_Knoke"
+				small = "GFX_idea_GER_heinz_knoke"
+			}
+		}
+	}
+	GER_horst_brunner = {
+		name = GER_horst_brunner
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Horst_Brunner"
+				small = "GFX_idea_GER_horst_brunner"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Horst_Brunner"
+				small = "GFX_idea_GER_horst_brunner"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Horst_Brunner"
+				small = "GFX_idea_GER_horst_brunner"
+			}
 		}
 	}
 	GER_nsdap_central_commitee = {
@@ -56,6 +85,10 @@ characters = {
 				large = "GFX_Portrait_GER_NSDAP_Central_Commitee"
 				small = "GFX_idea_GER_nsdap_central_commitee"
 			}
+			navy = {
+				large = "GFX_Portrait_GER_NSDAP_Central_Commitee"
+				small = "GFX_idea_GER_nsdap_central_commitee"
+			}
 		}
 	}
 	GER_oskar_dirlewanger = {
@@ -66,6 +99,10 @@ characters = {
 				small = "GFX_idea_GER_oskar_dirlewanger"
 			}
 			army = {
+				large = "GFX_Portrait_GER_Oskar_Dirlewanger"
+				small = "GFX_idea_GER_oskar_dirlewanger"
+			}
+			navy = {
 				large = "GFX_Portrait_GER_Oskar_Dirlewanger"
 				small = "GFX_idea_GER_oskar_dirlewanger"
 			}
@@ -89,6 +126,10 @@ characters = {
 				large = "GFX_Portrait_GER_Otto_Ernst_Remer"
 				small = "GFX_idea_GER_otto_ernst_remer"
 			}
+			navy = {
+				large = "GFX_Portrait_GER_Otto_Ernst_Remer"
+				small = "GFX_idea_GER_otto_ernst_remer"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_OTTO_ERNST_REMER_DESC"
@@ -106,6 +147,10 @@ characters = {
 				small = "GFX_idea_GER_reinhard_heydrich"
 			}
 			army = {
+				large = "GFX_Portrait_GER_Reinhard_Heydrich"
+				small = "GFX_idea_GER_reinhard_heydrich"
+			}
+			navy = {
 				large = "GFX_Portrait_GER_Reinhard_Heydrich"
 				small = "GFX_idea_GER_reinhard_heydrich"
 			}

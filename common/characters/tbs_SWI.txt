@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SWI_Federal_Council"
 				small = "GFX_idea_SWI_federal_council"
 			}
+			navy = {
+				large = "GFX_Portrait_SWI_Federal_Council"
+				small = "GFX_idea_SWI_federal_council"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_FEDERAL_COUNCIL_DESC"

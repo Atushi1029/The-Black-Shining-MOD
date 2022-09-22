@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_VCT_Paul_VI"
 				small = "GFX_idea_VCT_paul_vi"
 			}
+			navy = {
+				large = "GFX_Portrait_VCT_Paul_VI"
+				small = "GFX_idea_VCT_paul_vi"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_PAUL_VI_DESC"

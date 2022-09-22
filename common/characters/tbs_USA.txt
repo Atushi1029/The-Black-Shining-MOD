@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_USA_Al_Gore"
 				small = "GFX_idea_USA_al_gore"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Al_Gore"
+				small = "GFX_idea_USA_al_gore"
+			}
 		}
 	}
 	USA_angela_davis = {
@@ -20,6 +24,10 @@ characters = {
 				small = "GFX_idea_USA_angela_davis"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Angela_Davis"
+				small = "GFX_idea_USA_angela_davis"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Angela_Davis"
 				small = "GFX_idea_USA_angela_davis"
 			}
@@ -36,6 +44,10 @@ characters = {
 				large = "GFX_Portrait_USA_Bernie_Sanders"
 				small = "GFX_idea_USA_bernie_sanders"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Bernie_Sanders"
+				small = "GFX_idea_USA_bernie_sanders"
+			}
 		}
 	}
 	USA_bob_richards = {
@@ -46,6 +58,10 @@ characters = {
 				small = "GFX_idea_USA_bob_richards"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Bob_Richards"
+				small = "GFX_idea_USA_bob_richards"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Bob_Richards"
 				small = "GFX_idea_USA_bob_richards"
 			}
@@ -62,6 +78,10 @@ characters = {
 				large = "GFX_Portrait_USA_Curtis_Lemay"
 				small = "GFX_idea_USA_curtis_lemay"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Curtis_Lemay"
+				small = "GFX_idea_USA_curtis_lemay"
+			}
 		}
 	}
 	USA_dan_quayle = {
@@ -72,6 +92,10 @@ characters = {
 				small = "GFX_idea_USA_dan_quayle"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Dan_Quayle"
+				small = "GFX_idea_USA_dan_quayle"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Dan_Quayle"
 				small = "GFX_idea_USA_dan_quayle"
 			}
@@ -88,6 +112,10 @@ characters = {
 				large = "GFX_Portrait_USA_David_Duke"
 				small = "GFX_idea_USA_david_duke"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_David_Duke"
+				small = "GFX_idea_USA_david_duke"
+			}
 		}
 	}
 	USA_david_mcreynolds = {
@@ -98,6 +126,10 @@ characters = {
 				small = "GFX_idea_USA_david_mcreynolds"
 			}
 			army = {
+				large = "GFX_Portrait_USA_David_McReynolds"
+				small = "GFX_idea_USA_david_mcreynolds"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_David_McReynolds"
 				small = "GFX_idea_USA_david_mcreynolds"
 			}
@@ -114,6 +146,10 @@ characters = {
 				large = "GFX_Portrait_USA_Donald_Rumsfeld"
 				small = "GFX_idea_USA_donald_rumsfeld"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Donald_Rumsfeld"
+				small = "GFX_idea_USA_donald_rumsfeld"
+			}
 		}
 	}
 	USA_donald_trump = {
@@ -124,6 +160,10 @@ characters = {
 				small = "GFX_idea_USA_donald_trump"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Donald_Trump"
+				small = "GFX_idea_USA_donald_trump"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Donald_Trump"
 				small = "GFX_idea_USA_donald_trump"
 			}
@@ -140,6 +180,10 @@ characters = {
 				large = "GFX_Portrait_USA_Edmund_Muskie"
 				small = "GFX_idea_USA_edmund_muskie"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Edmund_Muskie"
+				small = "GFX_idea_USA_edmund_muskie"
+			}
 		}
 	}
 	USA_elizabeth_holtzman = {
@@ -150,6 +194,10 @@ characters = {
 				small = "GFX_idea_USA_elizabeth_holtzman"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Elizabeth_Holtzman"
+				small = "GFX_idea_USA_elizabeth_holtzman"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Elizabeth_Holtzman"
 				small = "GFX_idea_USA_elizabeth_holtzman"
 			}
@@ -166,6 +214,10 @@ characters = {
 				large = "GFX_Portrait_USA_Gaylord_Nelson"
 				small = "GFX_idea_USA_gaylord_nelson"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Gaylord_Nelson"
+				small = "GFX_idea_USA_gaylord_nelson"
+			}
 		}
 	}
 	USA_george_h_w_bush = {
@@ -176,6 +228,10 @@ characters = {
 				small = "GFX_idea_USA_george_h_w_bush"
 			}
 			army = {
+				large = "GFX_Portrait_USA_George_H_W_Bush"
+				small = "GFX_idea_USA_george_h_w_bush"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_George_H_W_Bush"
 				small = "GFX_idea_USA_george_h_w_bush"
 			}
@@ -192,6 +248,10 @@ characters = {
 				large = "GFX_Portrait_USA_George_McGovern"
 				small = "GFX_idea_USA_george_mcgovern"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_George_McGovern"
+				small = "GFX_idea_USA_george_mcgovern"
+			}
 		}
 	}
 	USA_george_shultz = {
@@ -205,6 +265,10 @@ characters = {
 				large = "GFX_Portrait_USA_George_Shultz"
 				small = "GFX_idea_USA_george_shultz"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_George_Shultz"
+				small = "GFX_idea_USA_george_shultz"
+			}
 		}
 	}
 	USA_george_wallace = {
@@ -215,6 +279,10 @@ characters = {
 				small = "GFX_idea_USA_george_wallace"
 			}
 			army = {
+				large = "GFX_Portrait_USA_George_Wallace"
+				small = "GFX_idea_USA_george_wallace"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_George_Wallace"
 				small = "GFX_idea_USA_george_wallace"
 			}
@@ -238,6 +306,10 @@ characters = {
 				large = "GFX_Portrait_USA_Gerald_Ford"
 				small = "GFX_idea_USA_gerald_ford"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Gerald_Ford"
+				small = "GFX_idea_USA_gerald_ford"
+			}
 		}
 	}
 	USA_geraldine_ferraro = {
@@ -248,6 +320,10 @@ characters = {
 				small = "GFX_idea_USA_geraldine_ferraro"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Geraldine_Ferraro"
+				small = "GFX_idea_USA_geraldine_ferraro"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Geraldine_Ferraro"
 				small = "GFX_idea_USA_geraldine_ferraro"
 			}
@@ -264,6 +340,10 @@ characters = {
 				large = "GFX_Portrait_USA_Gus_Hall"
 				small = "GFX_idea_USA_gus_hall"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Gus_Hall"
+				small = "GFX_idea_USA_gus_hall"
+			}
 		}
 	}
 	USA_henry_kissinger = {
@@ -277,6 +357,10 @@ characters = {
 				large = "GFX_Portrait_USA_Henry_Kissinger"
 				small = "GFX_idea_USA_henry_kissinger"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Henry_Kissinger"
+				small = "GFX_idea_USA_henry_kissinger"
+			}
 		}
 	}
 	USA_hubert_humphrey = {
@@ -287,6 +371,10 @@ characters = {
 				small = "GFX_idea_USA_hubert_humphrey"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Hubert_Humphrey"
+				small = "GFX_idea_USA_hubert_humphrey"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Hubert_Humphrey"
 				small = "GFX_idea_USA_hubert_humphrey"
 			}
@@ -325,6 +413,10 @@ characters = {
 				large = "GFX_Portrait_USA_Jesse_Jackson"
 				small = "GFX_idea_USA_jesse_jackson"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Jesse_Jackson"
+				small = "GFX_idea_USA_jesse_jackson"
+			}
 		}
 	}
 	USA_jimmy_carter = {
@@ -335,6 +427,10 @@ characters = {
 				small = "GFX_idea_USA_jimmy_carter"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Jimmy_Carter"
+				small = "GFX_idea_USA_jimmy_carter"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Jimmy_Carter"
 				small = "GFX_idea_USA_jimmy_carter"
 			}
@@ -351,6 +447,10 @@ characters = {
 				large = "GFX_Portrait_USA_Joe_Biden"
 				small = "GFX_idea_USA_joe_biden"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Joe_Biden"
+				small = "GFX_idea_USA_joe_biden"
+			}
 		}
 	}
 	USA_john_b_anderson = {
@@ -361,6 +461,10 @@ characters = {
 				small = "GFX_idea_USA_john_b_anderson"
 			}
 			army = {
+				large = "GFX_Portrait_USA_John_B_Anderson"
+				small = "GFX_idea_USA_john_b_anderson"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_John_B_Anderson"
 				small = "GFX_idea_USA_john_b_anderson"
 			}
@@ -377,6 +481,10 @@ characters = {
 				large = "GFX_Portrait_USA_Lloyd_Bentsen"
 				small = "GFX_idea_USA_lloyd_bentsen"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Lloyd_Bentsen"
+				small = "GFX_idea_USA_lloyd_bentsen"
+			}
 		}
 	}
 	USA_lyndon_johnson = {
@@ -387,6 +495,10 @@ characters = {
 				small = "GFX_idea_USA_lyndon_johnson"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Lyndon_Johnson"
+				small = "GFX_idea_USA_lyndon_johnson"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Lyndon_Johnson"
 				small = "GFX_idea_USA_lyndon_johnson"
 			}
@@ -410,6 +522,10 @@ characters = {
 				large = "GFX_Portrait_USA_Maureen_Kennedy_Salaman"
 				small = "GFX_idea_USA_maureen_kennedy_salaman"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Maureen_Kennedy_Salaman"
+				small = "GFX_idea_USA_maureen_kennedy_salaman"
+			}
 		}
 	}
 	USA_michael_dukakis = {
@@ -420,6 +536,10 @@ characters = {
 				small = "GFX_idea_USA_michael_dukakis"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Michael_Dukakis"
+				small = "GFX_idea_USA_michael_dukakis"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Michael_Dukakis"
 				small = "GFX_idea_USA_michael_dukakis"
 			}
@@ -436,6 +556,10 @@ characters = {
 				large = "GFX_Portrait_USA_Nelson_Rockefeller"
 				small = "GFX_idea_USA_nelson_rockefeller"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Nelson_Rockefeller"
+				small = "GFX_idea_USA_nelson_rockefeller"
+			}
 		}
 	}
 	USA_patrick_lucey = {
@@ -449,6 +573,10 @@ characters = {
 				large = "GFX_Portrait_USA_Patrick_Lucey"
 				small = "GFX_idea_USA_patrick_lucey"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Patrick_Lucey"
+				small = "GFX_idea_USA_patrick_lucey"
+			}
 		}
 	}
 	USA_richard_nixon = {
@@ -459,6 +587,10 @@ characters = {
 				small = "GFX_idea_USA_richard_nixon"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Richard_Nixon"
+				small = "GFX_idea_USA_richard_nixon"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Richard_Nixon"
 				small = "GFX_idea_USA_richard_nixon"
 			}
@@ -479,6 +611,10 @@ characters = {
 				small = "GFX_idea_USA_robert_mcnamara"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Robert_McNamara"
+				small = "GFX_idea_USA_robert_mcnamara"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Robert_McNamara"
 				small = "GFX_idea_USA_robert_mcnamara"
 			}
@@ -510,6 +646,10 @@ characters = {
 				large = "GFX_Portrait_USA_Ronald_Reagan"
 				small = "GFX_idea_USA_ronald_reagan"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Ronald_Reagan"
+				small = "GFX_idea_USA_ronald_reagan"
+			}
 		}
 	}
 	USA_scoop_jackson = {
@@ -520,6 +660,10 @@ characters = {
 				small = "GFX_idea_USA_scoop_jackson"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Scoop_Jackson"
+				small = "GFX_idea_USA_scoop_jackson"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Scoop_Jackson"
 				small = "GFX_idea_USA_scoop_jackson"
 			}
@@ -536,6 +680,10 @@ characters = {
 				large = "GFX_Portrait_USA_Shirley_Chisolm"
 				small = "GFX_idea_USA_shirley_chisolm"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Shirley_Chisolm"
+				small = "GFX_idea_USA_shirley_chisolm"
+			}
 		}
 	}
 	USA_sidney_hook = {
@@ -546,6 +694,10 @@ characters = {
 				small = "GFX_idea_USA_sidney_hook"
 			}
 			army = {
+				large = "GFX_Portrait_USA_Sidney_Hook"
+				small = "GFX_idea_USA_sidney_hook"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_Sidney_Hook"
 				small = "GFX_idea_USA_sidney_hook"
 			}
@@ -562,6 +714,10 @@ characters = {
 				large = "GFX_Portrait_USA_Tom_Kahn"
 				small = "GFX_idea_USA_tom_kahn"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Tom_Kahn"
+				small = "GFX_idea_USA_tom_kahn"
+			}
 		}
 	}
 	USA_walter_mondale = {
@@ -575,6 +731,10 @@ characters = {
 				large = "GFX_Portrait_USA_Walter_Mondale"
 				small = "GFX_idea_USA_walter_mondale"
 			}
+			navy = {
+				large = "GFX_Portrait_USA_Walter_Mondale"
+				small = "GFX_idea_USA_walter_mondale"
+			}
 		}
 	}
 	USA_william_luther_pierce = {
@@ -585,6 +745,10 @@ characters = {
 				small = "GFX_idea_USA_william_luther_pierce"
 			}
 			army = {
+				large = "GFX_Portrait_USA_William_Luther_Pierce"
+				small = "GFX_idea_USA_william_luther_pierce"
+			}
+			navy = {
 				large = "GFX_Portrait_USA_William_Luther_Pierce"
 				small = "GFX_idea_USA_william_luther_pierce"
 			}

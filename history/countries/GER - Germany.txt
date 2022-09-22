@@ -5,6 +5,7 @@ set_starting_values = yes
 recruit_character = GER_albert_speer
 recruit_character = GER_baldur_von_schirach
 recruit_character = GER_heinz_knoke
+recruit_character = GER_horst_brunner
 recruit_character = GER_nsdap_central_commitee
 recruit_character = GER_oskar_dirlewanger
 recruit_character = GER_otto_ernst_remer

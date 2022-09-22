@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_INS_Suharto"
 				small = "GFX_idea_INS_suharto"
 			}
+			navy = {
+				large = "GFX_Portrait_INS_Suharto"
+				small = "GFX_idea_INS_suharto"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SUHARTO_DESC"

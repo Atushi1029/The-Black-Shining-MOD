@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_KOM_Ivan_Morozov"
 				small = "GFX_idea_KOM_ivan_morozov"
 			}
+			navy = {
+				large = "GFX_Portrait_KOM_Ivan_Morozov"
+				small = "GFX_idea_KOM_ivan_morozov"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_IVAN_MOROZOV_DESC"

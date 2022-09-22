@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MEX_Norma_Villarreal_de_Zambrano"
 				small = "GFX_idea_MEX_norma_villarreal_de_zambrano"
 			}
+			navy = {
+				large = "GFX_Portrait_MEX_Norma_Villarreal_de_Zambrano"
+				small = "GFX_idea_MEX_norma_villarreal_de_zambrano"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_NORMA_VILLARREAL_DE_ZAMBRANO_DESC"

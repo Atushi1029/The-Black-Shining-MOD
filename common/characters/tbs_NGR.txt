@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_NGR_Seyni_Kountche"
 				small = "GFX_idea_NGR_seyni_kountche"
 			}
+			navy = {
+				large = "GFX_Portrait_NGR_Seyni_Kountche"
+				small = "GFX_idea_NGR_seyni_kountche"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SEYNI_KOUNTCHE_DESC"

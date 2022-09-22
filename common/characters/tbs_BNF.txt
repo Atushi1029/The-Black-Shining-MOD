@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_BNF_Josef_Mengele"
 				small = "GFX_idea_BNF_josef_mengele"
 			}
+			navy = {
+				large = "GFX_Portrait_BNF_Josef_Mengele"
+				small = "GFX_idea_BNF_josef_mengele"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JOSEF_MENGELE_DESC"

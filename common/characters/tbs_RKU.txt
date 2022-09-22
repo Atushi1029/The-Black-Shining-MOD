@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_RKU_Claus_von_Stauffenberg"
 				small = "GFX_idea_RKU_claus_von_stauffenberg"
 			}
+			navy = {
+				large = "GFX_Portrait_RKU_Claus_von_Stauffenberg"
+				small = "GFX_idea_RKU_claus_von_stauffenberg"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_CLAUS_VON_STAUFFENBERG_DESC"

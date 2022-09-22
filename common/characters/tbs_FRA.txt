@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_FRA_Henri_dOrleans"
 				small = "GFX_idea_FRA_henri_dorleans"
 			}
+			navy = {
+				large = "GFX_Portrait_FRA_Henri_dOrleans"
+				small = "GFX_idea_FRA_henri_dorleans"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_HENRI_DORLEANS_DESC"
@@ -27,6 +31,10 @@ characters = {
 				small = "GFX_idea_FRA_jean-marie_le_pen"
 			}
 			army = {
+				large = "GFX_Portrait_FRA_Jean-Marie_Le_Pen"
+				small = "GFX_idea_FRA_jean-marie_le_pen"
+			}
+			navy = {
 				large = "GFX_Portrait_FRA_Jean-Marie_Le_Pen"
 				small = "GFX_idea_FRA_jean-marie_le_pen"
 			}

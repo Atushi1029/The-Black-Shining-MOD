@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_GEO_Givi_Javakhishvili"
 				small = "GFX_idea_GEO_givi_javakhishvili"
 			}
+			navy = {
+				large = "GFX_Portrait_GEO_Givi_Javakhishvili"
+				small = "GFX_idea_GEO_givi_javakhishvili"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_GIVI_JAVAKHISHVILI_DESC"

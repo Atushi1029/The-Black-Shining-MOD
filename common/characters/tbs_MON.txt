@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MON_Yumjaagiin_Tsedenbal"
 				small = "GFX_idea_MON_yumjaagiin_tsedenbal"
 			}
+			navy = {
+				large = "GFX_Portrait_MON_Yumjaagiin_Tsedenbal"
+				small = "GFX_idea_MON_yumjaagiin_tsedenbal"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_YUMJAAGIIN_TSEDENBAL_DESC"

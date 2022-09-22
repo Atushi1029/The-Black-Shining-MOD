@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_FIN_Mikko_Juva"
 				small = "GFX_idea_FIN_mikko_juva"
 			}
+			navy = {
+				large = "GFX_Portrait_FIN_Mikko_Juva"
+				small = "GFX_idea_FIN_mikko_juva"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MIKKO_JUVA_DESC"

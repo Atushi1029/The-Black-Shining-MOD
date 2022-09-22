@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Andrew_Fountaine"
 				small = "GFX_idea_GBR_andrew_fountaine"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Andrew_Fountaine"
+				small = "GFX_idea_GBR_andrew_fountaine"
+			}
 		}
 		advisor = {
 			cost = 65535
@@ -38,6 +42,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Archbishops_Council"
 				small = "GFX_idea_GBR_archbishops_council"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Archbishops_Council"
+				small = "GFX_idea_GBR_archbishops_council"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ARCHBISHOPS_COUNCIL_DESC"
@@ -58,6 +66,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Arthur_Scargill"
 				small = "GFX_idea_GBR_arthur_scargill"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Arthur_Scargill"
+				small = "GFX_idea_GBR_arthur_scargill"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ARTHUR_SCARGILL_DESC"
@@ -75,6 +87,10 @@ characters = {
 				small = "GFX_idea_GBR_colin_jordan"
 			}
 			army = {
+				large = "GFX_Portrait_GBR_Colin_Jordan"
+				small = "GFX_idea_GBR_colin_jordan"
+			}
+			navy = {
 				large = "GFX_Portrait_GBR_Colin_Jordan"
 				small = "GFX_idea_GBR_colin_jordan"
 			}
@@ -128,6 +144,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Edward_VIII"
 				small = "GFX_idea_GBR_edward_viii"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Edward_VIII"
+				small = "GFX_idea_GBR_edward_viii"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_EDWARD_VIII_DESC"
@@ -148,6 +168,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Elizabeth_II"
 				small = "GFX_idea_GBR_elizabeth_ii"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Elizabeth_II"
+				small = "GFX_idea_GBR_elizabeth_ii"
+			}
 		}
 	}
 	GBR_enoch_powell = {
@@ -158,6 +182,10 @@ characters = {
 				small = "GFX_idea_GBR_enoch_powell"
 			}
 			army = {
+				large = "GFX_Portrait_GBR_Enoch_Powell"
+				small = "GFX_idea_GBR_enoch_powell"
+			}
+			navy = {
 				large = "GFX_Portrait_GBR_Enoch_Powell"
 				small = "GFX_idea_GBR_enoch_powell"
 			}
@@ -181,6 +209,10 @@ characters = {
 				large = "GFX_Portrait_GBR_George_Matthews"
 				small = "GFX_idea_GBR_george_matthews"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_George_Matthews"
+				small = "GFX_idea_GBR_george_matthews"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGE_MATTHEWS_DESC"
@@ -198,6 +230,10 @@ characters = {
 				small = "GFX_idea_GBR_jeffrey_hamm"
 			}
 			army = {
+				large = "GFX_Portrait_GBR_Jeffrey_Hamm"
+				small = "GFX_idea_GBR_jeffrey_hamm"
+			}
+			navy = {
 				large = "GFX_Portrait_GBR_Jeffrey_Hamm"
 				small = "GFX_idea_GBR_jeffrey_hamm"
 			}
@@ -229,6 +265,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Jeremy_Thorpe"
 				small = "GFX_idea_GBR_jeremy_thorpe"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Jeremy_Thorpe"
+				small = "GFX_idea_GBR_jeremy_thorpe"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JEREMY_THORPE_DESC"
@@ -246,6 +286,10 @@ characters = {
 				small = "GFX_idea_GBR_john_kingsley_read"
 			}
 			army = {
+				large = "GFX_Portrait_GBR_John_Kingsley_Read"
+				small = "GFX_idea_GBR_john_kingsley_read"
+			}
+			navy = {
 				large = "GFX_Portrait_GBR_John_Kingsley_Read"
 				small = "GFX_idea_GBR_john_kingsley_read"
 			}
@@ -277,6 +321,10 @@ characters = {
 				large = "GFX_Portrait_GBR_John_OBrian"
 				small = "GFX_idea_GBR_john_obrian"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_John_OBrian"
+				small = "GFX_idea_GBR_john_obrian"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JOHN_OBRIAN_DESC"
@@ -294,6 +342,10 @@ characters = {
 				small = "GFX_idea_GBR_john_tyndall"
 			}
 			army = {
+				large = "GFX_Portrait_GBR_John_Tyndall"
+				small = "GFX_idea_GBR_john_tyndall"
+			}
+			navy = {
 				large = "GFX_Portrait_GBR_John_Tyndall"
 				small = "GFX_idea_GBR_john_tyndall"
 			}
@@ -325,6 +377,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Martin_Webster"
 				small = "GFX_idea_GBR_martin_webster"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Martin_Webster"
+				small = "GFX_idea_GBR_martin_webster"
+			}
 		}
 		advisor = {
 			cost = 65535
@@ -353,6 +409,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Rab_Butler"
 				small = "GFX_idea_GBR_rab_butler"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Rab_Butler"
+				small = "GFX_idea_GBR_rab_butler"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_RAB_BUTLER_DESC"
@@ -370,6 +430,10 @@ characters = {
 				small = "GFX_idea_GBR_roy_jenkins"
 			}
 			army = {
+				large = "GFX_Portrait_GBR_Roy_Jenkins"
+				small = "GFX_idea_GBR_roy_jenkins"
+			}
+			navy = {
 				large = "GFX_Portrait_GBR_Roy_Jenkins"
 				small = "GFX_idea_GBR_roy_jenkins"
 			}
@@ -393,6 +457,10 @@ characters = {
 				large = "GFX_Portrait_GBR_Roy_Painter"
 				small = "GFX_idea_GBR_roy_painter"
 			}
+			navy = {
+				large = "GFX_Portrait_GBR_Roy_Painter"
+				small = "GFX_idea_GBR_roy_painter"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ROY_PAINTER_DESC"
@@ -410,6 +478,10 @@ characters = {
 				small = "GFX_idea_GBR_tony_benn"
 			}
 			army = {
+				large = "GFX_Portrait_GBR_Tony_Benn"
+				small = "GFX_idea_GBR_tony_benn"
+			}
+			navy = {
 				large = "GFX_Portrait_GBR_Tony_Benn"
 				small = "GFX_idea_GBR_tony_benn"
 			}

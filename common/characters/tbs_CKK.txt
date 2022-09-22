@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CKK_Michael_Feodorovich"
 				small = "GFX_idea_CKK_michael_feodorovich"
 			}
+			navy = {
+				large = "GFX_Portrait_CKK_Michael_Feodorovich"
+				small = "GFX_idea_CKK_michael_feodorovich"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MICHAEL_FEODOROVICH_DESC"

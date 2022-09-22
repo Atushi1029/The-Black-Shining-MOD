@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SER_Aleksandar_Rankovic"
 				small = "GFX_idea_SER_aleksandar_rankovic"
 			}
+			navy = {
+				large = "GFX_Portrait_SER_Aleksandar_Rankovic"
+				small = "GFX_idea_SER_aleksandar_rankovic"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
@@ -30,6 +34,10 @@ characters = {
 				large = "GFX_Portrait_SER_Blagoje_Jovovic"
 				small = "GFX_idea_SER_blagoje_jovovic"
 			}
+			navy = {
+				large = "GFX_Portrait_SER_Blagoje_Jovovic"
+				small = "GFX_idea_SER_blagoje_jovovic"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_BLAGOJE_JOVOVIC_DESC"
@@ -47,6 +55,10 @@ characters = {
 				small = "GFX_idea_SER_peter_ii"
 			}
 			army = {
+				large = "GFX_Portrait_SER_Peter_II"
+				small = "GFX_idea_SER_peter_ii"
+			}
+			navy = {
 				large = "GFX_Portrait_SER_Peter_II"
 				small = "GFX_idea_SER_peter_ii"
 			}

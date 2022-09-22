@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_SCO_Jennie_Lee"
 				small = "GFX_idea_SCO_jennie_lee"
 			}
+			navy = {
+				large = "GFX_Portrait_SCO_Jennie_Lee"
+				small = "GFX_idea_SCO_jennie_lee"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JENNIE_LEE_DESC"

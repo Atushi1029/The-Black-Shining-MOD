@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_AFG_Mohammed_Zahir_Shah"
 				small = "GFX_idea_AFG_mohammed_zahir_shah"
 			}
+			navy = {
+				large = "GFX_Portrait_AFG_Mohammed_Zahir_Shah"
+				small = "GFX_idea_AFG_mohammed_zahir_shah"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_RUS_Irina_Yusupova"
 				small = "GFX_idea_RUS_irina_yusupova"
 			}
+			navy = {
+				large = "GFX_Portrait_RUS_Irina_Yusupova"
+				small = "GFX_idea_RUS_irina_yusupova"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_IRINA_YUSUPOVA_DESC"

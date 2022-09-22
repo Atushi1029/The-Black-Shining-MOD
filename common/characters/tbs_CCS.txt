@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CCS_Serge_Jaroff"
 				small = "GFX_idea_CCS_serge_jaroff"
 			}
+			navy = {
+				large = "GFX_Portrait_CCS_Serge_Jaroff"
+				small = "GFX_idea_CCS_serge_jaroff"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SERGE_JAROFF_DESC"

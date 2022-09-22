@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_RPG_Corneliu_Manescu"
 				small = "GFX_idea_RPG_corneliu_manescu"
 			}
+			navy = {
+				large = "GFX_Portrait_RPG_Corneliu_Manescu"
+				small = "GFX_idea_RPG_corneliu_manescu"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_CORNELIU_MANESCU_DESC"
@@ -30,6 +34,10 @@ characters = {
 				large = "GFX_Portrait_ROM_Michael_I"
 				small = "GFX_idea_ROM_michael_i"
 			}
+			navy = {
+				large = "GFX_Portrait_ROM_Michael_I"
+				small = "GFX_idea_ROM_michael_i"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MICHAEL_I_DESC"
@@ -47,6 +55,10 @@ characters = {
 				small = "GFX_idea_RPG_nicolae_ceausescu"
 			}
 			army = {
+				large = "GFX_Portrait_RPG_Nicolae_Ceausescu"
+				small = "GFX_idea_RPG_nicolae_ceausescu"
+			}
+			navy = {
 				large = "GFX_Portrait_RPG_Nicolae_Ceausescu"
 				small = "GFX_idea_RPG_nicolae_ceausescu"
 			}

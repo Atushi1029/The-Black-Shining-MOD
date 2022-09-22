@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_TUR_Tekin_Ariburun"
 				small = "GFX_idea_TUR_tekin_ariburun"
 			}
+			navy = {
+				large = "GFX_Portrait_TUR_Tekin_Ariburun"
+				small = "GFX_idea_TUR_tekin_ariburun"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_TEKIN_ARIBURUN_DESC"

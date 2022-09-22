@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_GUA_Carlos_Manuel_Arana_Osorio"
 				small = "GFX_idea_GUA_carlos_manuel_arana_osorio"
 			}
+			navy = {
+				large = "GFX_Portrait_GUA_Carlos_Manuel_Arana_Osorio"
+				small = "GFX_idea_GUA_carlos_manuel_arana_osorio"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_CARLOS_MANUEL_ARANA_OSORIO_DESC"

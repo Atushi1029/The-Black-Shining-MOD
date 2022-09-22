@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_TAJ_Jabbor_Rasulov"
 				small = "GFX_idea_TAJ_jabbor_rasulov"
 			}
+			navy = {
+				large = "GFX_Portrait_TAJ_Jabbor_Rasulov"
+				small = "GFX_idea_TAJ_jabbor_rasulov"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JABBOR_RASULOV_DESC"

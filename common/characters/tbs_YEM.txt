@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_YEM_Qahtan_Muhammad_al_Shaabi"
 				small = "GFX_idea_YEM_qahtan_muhammad_al_shaabi"
 			}
+			navy = {
+				large = "GFX_Portrait_YEM_Qahtan_Muhammad_al_Shaabi"
+				small = "GFX_idea_YEM_qahtan_muhammad_al_shaabi"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_QAHTAN_MUHAMMAD_AL_SHAABI_DESC"

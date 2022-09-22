@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MAD_Gabriel_Ramanantsoa"
 				small = "GFX_idea_MAD_gabriel_ramanantsoa"
 			}
+			navy = {
+				large = "GFX_Portrait_MAD_Gabriel_Ramanantsoa"
+				small = "GFX_idea_MAD_gabriel_ramanantsoa"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_GABRIEL_RAMANANTSOA_DESC"

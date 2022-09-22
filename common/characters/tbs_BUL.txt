@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_BUL_Margarita_I"
 				small = "GFX_idea_BUL_margarita_i"
 			}
+			navy = {
+				large = "GFX_Portrait_BUL_Margarita_I"
+				small = "GFX_idea_BUL_margarita_i"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MARGARITA_I_DESC"

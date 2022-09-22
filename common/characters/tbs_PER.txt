@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
 				small = "GFX_idea_PER_Mohammad_Reza_Pahlavi"
 			}
+			navy = {
+				large = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
+				small = "GFX_idea_PER_Mohammad_Reza_Pahlavi"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_MOHAMMAD_REZA_PAHLAVI_DESC"

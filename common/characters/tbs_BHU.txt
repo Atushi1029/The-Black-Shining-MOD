@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_BHU_Jigme_Singye_Wangchuck"
 				small = "GFX_idea_BHU_jigme_singye_wangchuck"
 			}
+			navy = {
+				large = "GFX_Portrait_BHU_Jigme_Singye_Wangchuck"
+				small = "GFX_idea_BHU_jigme_singye_wangchuck"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_JIGME_SINGYE_WANGCHUCK_DESC"

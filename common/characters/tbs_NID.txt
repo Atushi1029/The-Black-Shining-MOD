@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_NID_Reinhold_Hanning"
 				small = "GFX_idea_NID_Reinhold_Hanning"
 			}
+			navy = {
+				large = "GFX_Portrait_NID_Reinhold_Hanning"
+				small = "GFX_idea_NID_Reinhold_Hanning"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_REINHOLD_HANNING_DESC"

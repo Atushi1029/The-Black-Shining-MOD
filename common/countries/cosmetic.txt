@@ -2,7 +2,7 @@ DIETSLAND = {
 	color = hsv { 0.1 0.15 0.4 }
 	color_ui = hsv { 0.1 0.15 0.4 }
 }
-NAMLESS = {
+NAMELESS = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }

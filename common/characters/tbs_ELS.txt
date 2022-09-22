@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_ELS_Arturo_Armando_Molina"
 				small = "GFX_idea_ELS_arturo_armando_molina"
 			}
+			navy = {
+				large = "GFX_Portrait_ELS_Arturo_Armando_Molina"
+				small = "GFX_idea_ELS_arturo_armando_molina"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ARTURO_ARMANDO_MOLINA_DESC"

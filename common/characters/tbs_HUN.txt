@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_HUN_Arpad_Goncz"
 				small = "GFX_idea_HUN_arpad_goncz"
 			}
+			navy = {
+				large = "GFX_Portrait_HUN_Arpad_Goncz"
+				small = "GFX_idea_HUN_arpad_goncz"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ARPAD_GONCZ_DESC"
@@ -27,6 +31,10 @@ characters = {
 				small = "GFX_idea_HUN_istvan_horthy"
 			}
 			army = {
+				large = "GFX_Portrait_HUN_Istvan_Horthy"
+				small = "GFX_idea_HUN_istvan_horthy"
+			}
+			navy = {
 				large = "GFX_Portrait_HUN_Istvan_Horthy"
 				small = "GFX_idea_HUN_istvan_horthy"
 			}

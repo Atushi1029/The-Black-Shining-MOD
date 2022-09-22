@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_ANG_Agostinho_Neto"
 				small = "GFX_idea_ANG_agostinho_neto"
 			}
+			navy = {
+				large = "GFX_Portrait_ANG_Agostinho_Neto"
+				small = "GFX_idea_ANG_agostinho_neto"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_AGOSTINHO_NETO_DESC"

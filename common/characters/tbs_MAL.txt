@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_MAL_Abdul_Razak_Hussein"
 				small = "GFX_idea_MAL_abdul_razak_hussein"
 			}
+			navy = {
+				large = "GFX_Portrait_MAL_Abdul_Razak_Hussein"
+				small = "GFX_idea_MAL_abdul_razak_hussein"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_ABDUL_RAZAK_HUSSEIN_DESC"

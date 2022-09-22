@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_BRM_Ne_Win"
 				small = "GFX_idea_BRM_ne_win"
 			}
+			navy = {
+				large = "GFX_Portrait_BRM_Ne_Win"
+				small = "GFX_idea_BRM_ne_win"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_NE_WIN_DESC"

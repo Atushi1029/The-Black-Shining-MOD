@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CAN_Real_Caouette"
 				small = "GFX_idea_CAN_real_caouette"
 			}
+			navy = {
+				large = "GFX_Portrait_CAN_Real_Caouette"
+				small = "GFX_idea_CAN_real_caouette"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_REAL_CAOUETTE_DESC"

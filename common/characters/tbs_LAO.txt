@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_LAO_Sisavang_Vatthana"
 				small = "GFX_idea_LAO_sisavang_vatthana"
 			}
+			navy = {
+				large = "GFX_Portrait_LAO_Sisavang_Vatthana"
+				small = "GFX_idea_LAO_sisavang_vatthana"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_SISAVANG_VATTHANA_DESC"

@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_COG_Fulbert_Youlou"
 				small = "GFX_idea_COG_Fulbert_Youlou"
 			}
+			navy = {
+				large = "GFX_Portrait_COG_Fulbert_Youlou"
+				small = "GFX_idea_COG_Fulbert_Youlou"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_FULBERT_YOULOU_DESC"

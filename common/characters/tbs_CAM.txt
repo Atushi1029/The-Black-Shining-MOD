@@ -10,6 +10,10 @@ characters = {
 				large = "GFX_Portrait_CAM_Norodom_Sihanouk"
 				small = "GFX_idea_CAM_norodom_sihanouk"
 			}
+			navy = {
+				large = "GFX_Portrait_CAM_Norodom_Sihanouk"
+				small = "GFX_idea_CAM_norodom_sihanouk"
+			}
 		}
 		country_leader = {
 			desc = "POLITICS_NORODOM_SIHANOUK_DESC"
