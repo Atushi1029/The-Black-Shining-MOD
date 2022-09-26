@@ -60,12 +60,10 @@ characters = {
 			cost = 65535
 			slot = security_minister
 			ledger = civilian
-			idea_token = SOV_andrei_grechko_sec_tso
+			idea_token = SOV_andrei_grechko_sec
 			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
 			traits = {
 				tbs_security_minister
-				minister_totalitarian_socialist
 				tbs_silent_workhorse
 			}
 			removal_cost = -1
@@ -92,12 +90,10 @@ characters = {
 			cost = 65535
 			slot = foreign_minister
 			ledger = civilian
-			idea_token = SOV_andrei_gromyko_for_tso
+			idea_token = SOV_andrei_gromyko_for
 			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
 			traits = {
 				tbs_foreign_minister
-				minister_totalitarian_socialist
 				tbs_strict_diplomat
 			}
 			removal_cost = -1
@@ -236,12 +232,10 @@ characters = {
 			cost = 65535
 			slot = justice_minister
 			ledger = civilian
-			idea_token = SOV_konstantin_chernenko_jus_tso
+			idea_token = SOV_konstantin_chernenko_jus
 			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
 			traits = {
 				tbs_justice_minister
-				minister_totalitarian_socialist
 				tbs_pragmatic_statesman
 			}
 			removal_cost = -1
@@ -268,12 +262,10 @@ characters = {
 			cost = 65535
 			slot = head_of_government
 			ledger = civilian
-			idea_token = SOV_leonid_brezhnev_hog_tso
+			idea_token = SOV_leonid_brezhnev_hog
 			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
 			traits = {
 				tbs_head_of_government
-				minister_totalitarian_socialist
 				tbs_man_of_the_people
 			}
 			removal_cost = -1
@@ -372,12 +364,10 @@ characters = {
 			cost = 65535
 			slot = justice_minister
 			ledger = civilian
-			idea_token = SOV_nikolai_bulganin_jus_tso
+			idea_token = SOV_nikolai_bulganin_jus
 			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
 			traits = {
 				tbs_justice_minister
-				minister_totalitarian_socialist
 				tbs_legal_expert
 			}
 			removal_cost = -1
@@ -421,12 +411,10 @@ characters = {
 			cost = 65535
 			slot = interior_minister
 			ledger = civilian
-			idea_token = SOV_nikolai_shchelokov_int_tso
+			idea_token = SOV_nikolai_shchelokov_int
 			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
 			traits = {
 				tbs_interior_minister
-				minister_totalitarian_socialist
 				tbs_welfare_expert
 			}
 			removal_cost = -1
@@ -470,12 +458,10 @@ characters = {
 			cost = 65535
 			slot = economy_minister
 			ledger = civilian
-			idea_token = SOV_valentin_pavlov_eco_tso
+			idea_token = SOV_valentin_pavlov_eco
 			allowed = { original_tag = SOV }
-			available = { has_government = totalitarian_socialism }
 			traits = {
 				tbs_economy_minister
-				minister_totalitarian_socialist
 				tbs_agricultural_economist
 			}
 			removal_cost = -1

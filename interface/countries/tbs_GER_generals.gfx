@@ -1,0 +1,164 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_GER_adolf_heusinger"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_adolf_heusinger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_alfred_zerbel"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_alfred_zerbel.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_eckart_afheldt"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_eckart_afheldt.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_friedrich_august_freiherr_von_der_heydte"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_friedrich_august_freiherr_von_der_heydte.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_friedrich_guggenberger"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_friedrich_guggenberger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_fritz_albrecht"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_fritz_albrecht.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_fritz_klingenberg"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_fritz_klingenberg.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_fritz_streletz"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_fritz_streletz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_gerhard_wessel"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_gerhard_wessel.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_hans_scholl"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_hans_scholl.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_hans_speidel"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_hans_speidel.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_hans-joachim_loser"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_hans-joachim_loser.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_heinrich_trettner"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_heinrich_trettner.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_heinz_gunther_guderian"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_heinz_gunther_guderian.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_heinz-georg_lemm"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_heinz-georg_lemm.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_herbert_gille"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_herbert_gille.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_herwig_collmann"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_herwig_collmann.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_horst_brunner"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_horst_brunner.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_otto_skorzeny"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_otto_skorzeny.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_wolf_graf_von_baudissin"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_wolf_graf_von_baudissin.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_GER_Adolf_Heusinger"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Adolf_Heusinger.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Alfred_Zerbel"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Alfred_Zerbel.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Eckart_Afheldt"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Eckart_Afheldt.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Friedrich_August_Freiherr_von_der_Heydte"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Friedrich_August_Freiherr_von_der_Heydte.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Friedrich_Guggenberger"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Friedrich_Guggenberger.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Fritz_Albrecht"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Fritz_Albrecht.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Fritz_Klingenberg"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Fritz_Klingenberg.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Fritz_Streletz"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Fritz_Streletz.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Gerhard_Wessel"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Gerhard_Wessel.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Hans_Scholl"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Hans_Scholl.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Hans_Speidel"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Hans_Speidel.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Hans-Joachim_Loser"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Hans-Joachim_Loser.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Heinrich_Trettner"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Heinrich_Trettner.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Heinz_Gunther_Guderian"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Heinz_Gunther_Guderian.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Heinz-Georg_Lemm"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Heinz-Georg_Lemm.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Herbert_Gille"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Herbert_Gille.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Herwig_Collmann"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Herwig_Collmann.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Horst_Brunner"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Horst_Brunner.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Otto_Skorzeny"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Otto_Skorzeny.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Wolf_Graf_von_Baudissin"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Wolf_Graf_von_Baudissin.png"
+	}
+}

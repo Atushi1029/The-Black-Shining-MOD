@@ -29,3 +29,7 @@ set_popularities = {
 	religious_nationalism = 0
 	transhumanism = 0
 }
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomy_colony
+}

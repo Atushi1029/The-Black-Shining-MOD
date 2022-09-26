@@ -26,9 +26,9 @@ recruit_character = SOV_vladimir_kryuchkov
 recruit_character = SOV_yevgeny_primakov
 set_convoys = 20
 add_ideas = {
-	SOV_andrei_grechko_sec_tso
-	SOV_andrei_gromyko_for_tso
-	SOV_nikolai_bulganin_jus_tso
+	SOV_andrei_grechko_sec
+	SOV_andrei_gromyko_for
+	SOV_nikolai_bulganin_jus
 }
 set_politics = {
 	ruling_party = totalitarian_socialism

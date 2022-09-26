@@ -19,12 +19,10 @@ characters = {
 			cost = 65535
 			slot = foreign_minister
 			ledger = civilian
-			idea_token = GBR_andrew_fountaine_for_nco
+			idea_token = GBR_andrew_fountaine_for
 			allowed = { original_tag = GBR }
-			available = { has_government = national_corporatism }
 			traits = {
 				tbs_foreign_minister
-				minister_national_corporatist
 				tbs_backroom_backstabber
 			}
 			removal_cost = -1
@@ -106,12 +104,10 @@ characters = {
 			cost = 65535
 			slot = interior_minister
 			ledger = civilian
-			idea_token = GBR_colin_jordan_int_nco
+			idea_token = GBR_colin_jordan_int
 			allowed = { original_tag = GBR }
-			available = { has_government = national_corporatism }
 			traits = {
 				tbs_interior_minister
-				minister_national_corporatist
 				tbs_political_specialist
 			}
 			removal_cost = -1
@@ -121,12 +117,10 @@ characters = {
 			cost = 65535
 			slot = head_of_government
 			ledger = civilian
-			idea_token = GBR_colin_jordan_hog_nso
+			idea_token = GBR_colin_jordan_hog
 			allowed = { original_tag = GBR }
-			available = { has_government = national_socialism }
 			traits = {
 				tbs_head_of_government
-				minister_national_socialist
 				tbs_political_specialist
 			}
 			removal_cost = -1
@@ -242,12 +236,10 @@ characters = {
 			cost = 65535
 			slot = security_minister
 			ledger = civilian
-			idea_token = GBR_jeffrey_hamm_sec_nco
+			idea_token = GBR_jeffrey_hamm_sec
 			allowed = { original_tag = GBR }
-			available = { has_government = national_corporatism }
 			traits = {
 				tbs_security_minister
-				minister_national_corporatist
 				tbs_ideological_crusader
 			}
 			removal_cost = -1
@@ -298,12 +290,10 @@ characters = {
 			cost = 65535
 			slot = head_of_government
 			ledger = civilian
-			idea_token = GBR_john_kingsley_read_hog_nco
+			idea_token = GBR_john_kingsley_read_hog
 			allowed = { original_tag = GBR }
-			available = { has_government = national_corporatism }
 			traits = {
 				tbs_head_of_government
-				minister_national_corporatist
 				tbs_cold_leader
 			}
 			removal_cost = -1
@@ -354,12 +344,10 @@ characters = {
 			cost = 65535
 			slot = economy_minister
 			ledger = civilian
-			idea_token = GBR_john_tyndall_eco_nco
+			idea_token = GBR_john_tyndall_eco
 			allowed = { original_tag = GBR }
-			available = { has_government = national_corporatism }
 			traits = {
 				tbs_economy_minister
-				minister_national_corporatist
 				tbs_mixed_economy_proponent
 			}
 			removal_cost = -1
@@ -386,12 +374,10 @@ characters = {
 			cost = 65535
 			slot = justice_minister
 			ledger = civilian
-			idea_token = GBR_martin_webster_jus_nco
+			idea_token = GBR_martin_webster_jus
 			allowed = { original_tag = GBR }
-			available = { has_government = national_corporatism }
 			traits = {
 				tbs_justice_minister
-				minister_national_corporatist
 				tbs_pragmatic_statesman
 			}
 			removal_cost = -1

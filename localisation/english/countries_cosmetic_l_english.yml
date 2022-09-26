@@ -293,10 +293,13 @@
  KAZ_republic:0 "Republic of Kazakhstan"
  KAZ_republic_DEF:0 "the Republic of Kazakhstan"
  KAZ_republic_ADJ:0 "Kazakh"
-#ラオス
+#Laos
  LAO_kingdom:0 "Kingdom of Laos"
  LAO_kingdom_DEF:0 "the Kingdom of Laos"
  LAO_kingdom_ADJ:0 "Laotian"
+ LAO_republic:0 "Republic of Laos"
+ LAO_republic_DEF:0 "the Republic of Laos"
+ LAO_republic_ADJ:0 "Laotian"
 #リベリア
  LIB_republic:0 "Republic of Liberia"
  LIB_republic_DEF:0 "the Republic of Liberia"

@@ -47,8 +47,8 @@ recruit_character = USA_william_luther_pierce
 set_convoys = 20
 add_ideas = {
 	#Advisors
-	USA_hubert_humphrey_hog_lde
-	USA_robert_mcnamara_sec_lde
+	USA_hubert_humphrey_hog
+	USA_robert_mcnamara_sec
 	#National Spirits
 	USA_a_quiet_pacific
 	USA_bastion_of_liberty

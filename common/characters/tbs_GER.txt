@@ -40,6 +40,36 @@ characters = {
 			traits = {}
 		}
 	}
+	GER_fritz_rossler = {
+		name = GER_fritz_rossler
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Fritz_Rossler"
+				small = "GFX_idea_GER_fritz_rossler"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Fritz_Rossler"
+				small = "GFX_idea_GER_fritz_rossler"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Fritz_Rossler"
+				small = "GFX_idea_GER_fritz_rossler"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = GER_fritz_rossler_jus
+			allowed = { original_tag = GER }
+			traits = {
+				tbs_justice_minister
+				tbs_justice_executer
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
 	GER_heinz_knoke = {
 		name = GER_heinz_knoke
 		portraits = {
@@ -56,22 +86,48 @@ characters = {
 				small = "GFX_idea_GER_heinz_knoke"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = GER_heinz_knoke_for
+			allowed = { original_tag = GER }
+			traits = {
+				tbs_foreign_minister
+				tbs_negotiator_law
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
-	GER_horst_brunner = {
-		name = GER_horst_brunner
+	GER_karl_saur = {
+		name = GER_karl_saur
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_GER_Horst_Brunner"
-				small = "GFX_idea_GER_horst_brunner"
+				large = "GFX_Portrait_GER_Karl_Saur"
+				small = "GFX_idea_GER_karl_saur"
 			}
 			army = {
-				large = "GFX_Portrait_GER_Horst_Brunner"
-				small = "GFX_idea_GER_horst_brunner"
+				large = "GFX_Portrait_GER_Karl_Saur"
+				small = "GFX_idea_GER_karl_saur"
 			}
 			navy = {
-				large = "GFX_Portrait_GER_Horst_Brunner"
-				small = "GFX_idea_GER_horst_brunner"
+				large = "GFX_Portrait_GER_Karl_Saur"
+				small = "GFX_idea_GER_karl_saur"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = GER_karl_saur_eco
+			allowed = { original_tag = GER }
+			traits = {
+				tbs_economy_minister
+				tbs_transport_expert
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	GER_nsdap_central_commitee = {
@@ -138,6 +194,19 @@ characters = {
 			id = -1
 			traits = {}
 		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = GER_otto_ernst_remer_hog
+			allowed = { original_tag = GER }
+			traits = {
+				tbs_head_of_government
+				tbs_military_person_back
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	GER_reinhard_heydrich = {
 		name = GER_reinhard_heydrich
@@ -161,6 +230,66 @@ characters = {
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
+		}
+	}
+	GER_theo_hupfauer = {
+		name = GER_theo_hupfauer
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Theo_Hupfauer"
+				small = "GFX_idea_GER_theo_hupfauer"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Theo_Hupfauer"
+				small = "GFX_idea_GER_theo_hupfauer"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Theo_Hupfauer"
+				small = "GFX_idea_GER_theo_hupfauer"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = GER_theo_hupfauer_int
+			allowed = { original_tag = GER }
+			traits = {
+				tbs_interior_minister
+				tbs_smile_socialite
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GER_wilhelm_stuckart = {
+		name = GER_wilhelm_stuckart
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Wilhelm_Stuckart"
+				small = "GFX_idea_GER_wilhelm_stuckart"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Wilhelm_Stuckart"
+				small = "GFX_idea_GER_wilhelm_stuckart"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Wilhelm_Stuckart"
+				small = "GFX_idea_GER_wilhelm_stuckart"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = GER_wilhelm_stuckart_sec
+			allowed = { original_tag = GER }
+			traits = {
+				tbs_security_minister
+				tbs_quartermaster_general
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 }

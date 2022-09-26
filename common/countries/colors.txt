@@ -160,8 +160,8 @@ COS = {
 	color_ui = rgb { 152 128 43 }
 }
 ECU = {
-	color = rgb { 249 146 98 }
-	color_ui = rgb { 249 146 98 }
+	color = rgb { 237 134 40 }
+	color_ui = rgb { 237 134 40 }
 }
 ELS = {
 	color = rgb { 152 130 191 }
@@ -228,12 +228,12 @@ SAF = {
 	color_ui = rgb { 195 107 160 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 171 190 152 }
+	color = rgb { 103 156 87 }
+	color_ui = rgb { 103 156 87 }
 }
 SIA = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 171 190 152 }
+	color = rgb { 172 192 161 }
+	color_ui = rgb { 172 192 161 }
 }
 SIK = {
 	color = rgb { 160 82 45 }
@@ -244,12 +244,12 @@ TIB = {
 	color_ui = rgb { 80 115 45 }
 }
 URG = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 171 190 152 }
+	color = rgb { 0 56 168 }
+	color_ui = rgb { 0 56 168 }
 }
 VEN = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 171 190 152 }
+	color = rgb { 249 146 98 }
+	color_ui = rgb { 249 146 98 }
 }
 YUN = {
 	color = rgb { 114 148 80 }
@@ -372,8 +372,8 @@ ARM = {
 	color_ui = rgb { 176 102 180 }
 }
 LAO = {
-	color = rgb { 2 55 114 }
-	color_ui = rgb { 2 55 114 }
+	color = rgb { 235 213 159 }
+	color_ui = rgb { 235 213 159 }
 }
 INS = {
 	color = rgb { 40 50 120 }
@@ -1132,8 +1132,8 @@ SOM = {
 	color_ui = rgb { 69 122 124 }
 }
 SRL = {
-	color = rgb { 122 80 84 }
-	color_ui = rgb { 122 80 84 }
+	color = rgb { 2 55 114 }
+	color_ui = rgb { 2 55 114 }
 }
 STO = {
 	color = rgb { 60 59 110 }

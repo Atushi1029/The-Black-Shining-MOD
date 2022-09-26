@@ -96,12 +96,12 @@ add_ideas = {
 	JAP_military_conspiracy
 	JAP_setting_sun
 	JAP_mon_hirohito
-	JAP_chifuyu_masaki_for_mso
-	JAP_ichio_asukata_eco_mso
-	JAP_kei_hoashi_hog_mso
-	JAP_masaji_ogasawara_int_mso
-	JAP_seiichi_katsumata_jus_mso
-	JAP_torazo_ninagawa_sec_mso
+	JAP_chifuyu_masaki_for
+	JAP_ichio_asukata_eco
+	JAP_kei_hoashi_hog
+	JAP_masaji_ogasawara_int
+	JAP_seiichi_katsumata_jus
+	JAP_torazo_ninagawa_sec
 }
 set_politics = {
 	ruling_party = moderate_socialism
@@ -129,7 +129,6 @@ add_to_faction = CAM
 add_to_faction = CHL
 add_to_faction = INS
 add_to_faction = JAP
-add_to_faction = LAO
 add_to_faction = MAL
 add_to_faction = MAN
 add_to_faction = MEN
@@ -138,10 +137,6 @@ add_to_faction = STO
 add_to_faction = VIN
 set_autonomy = {
 	target = CAM
-	autonomous_state = autonomy_wtt_imperial_protectorate
-}
-set_autonomy = {
-	target = LAO
 	autonomous_state = autonomy_wtt_imperial_protectorate
 }
 set_autonomy = {

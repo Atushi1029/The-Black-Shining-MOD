@@ -26,12 +26,12 @@ add_ideas = {
 	GBR_mon_edward_viii
 	GBR_the_second_1714
 	#Advisors
-	GBR_andrew_fountaine_for_nco
-	GBR_colin_jordan_int_nco
-	GBR_jeffrey_hamm_sec_nco
-	GBR_john_kingsley_read_hog_nco
-	GBR_john_tyndall_eco_nco
-	GBR_martin_webster_jus_nco
+	GBR_andrew_fountaine_for
+	GBR_colin_jordan_int
+	GBR_jeffrey_hamm_sec
+	GBR_john_kingsley_read_hog
+	GBR_john_tyndall_eco
+	GBR_martin_webster_jus
 }
 set_politics = {
 	ruling_party = national_corporatism

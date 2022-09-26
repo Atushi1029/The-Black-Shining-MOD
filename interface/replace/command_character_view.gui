@@ -3,6 +3,7 @@ guiTypes = {
 		name = "command_character_view_window"
 		position = { x = -5000000000000000 y = -5000000000000000 }
 		size = { width = 500 height = 590 }
+
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
@@ -183,11 +184,11 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "name"
-				position = { x = 0 y = 2 }
+				position = { x = 0 y = 10 }
 				font = "hoi_18mbs"
 				fixedsize = yes			
 				text = ""
-				maxWidth = 500
+				maxWidth = 150
 				maxHeight = 13
 				format = left
 				alwaystransparent = yes			
@@ -195,11 +196,11 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "traits"
-				position = { x = 0 y = 20 }
+				position = { x = 0 y = 28 }
 				font = "hoi_16mbs"
 				fixedsize = yes			
 				text = ""
-				maxWidth = 500
+				maxWidth = 140
 				maxHeight = 100%%
 				format = left
 				alwaystransparent = yes			
@@ -208,7 +209,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = -5000000000000000 y = -5000000000000000 }
+			position = { x = 80 y = 47 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142

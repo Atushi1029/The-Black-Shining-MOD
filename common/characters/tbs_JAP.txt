@@ -126,12 +126,10 @@ characters = {
 			cost = 65535
 			slot = foreign_minister
 			ledger = civilian
-			idea_token = JAP_chifuyu_masaki_for_mso
+			idea_token = JAP_chifuyu_masaki_for
 			allowed = { original_tag = JAP }
-			available = { has_government = moderate_socialism }
 			traits = {
 				tbs_foreign_minister
-				minister_moderate_socialist
 				tbs_great_compromiser
 			}
 			removal_cost = -1
@@ -350,12 +348,10 @@ characters = {
 			cost = 65535
 			slot = economy_minister
 			ledger = civilian
-			idea_token = JAP_ichio_asukata_eco_mso
+			idea_token = JAP_ichio_asukata_eco
 			allowed = { original_tag = JAP }
-			available = { has_government = moderate_socialism }
 			traits = {
 				tbs_economy_minister
-				minister_moderate_socialist
 				tbs_economic_reformer
 			}
 			removal_cost = -1
@@ -514,12 +510,10 @@ characters = {
 			cost = 65535
 			slot = head_of_government
 			ledger = civilian
-			idea_token = JAP_kei_hoashi_hog_mso
+			idea_token = JAP_kei_hoashi_hog
 			allowed = { original_tag = JAP }
-			available = { has_government = moderate_socialism }
 			traits = {
 				tbs_head_of_government
-				minister_moderate_socialist
 				tbs_iron_fisted_brute
 			}
 			removal_cost = -1
@@ -766,12 +760,10 @@ characters = {
 			cost = 65535
 			slot = interior_minister
 			ledger = civilian
-			idea_token = JAP_masaji_ogasawara_int_mso
+			idea_token = JAP_masaji_ogasawara_int
 			allowed = { original_tag = JAP }
-			available = { has_government = moderate_socialism }
 			traits = {
 				tbs_interior_minister
-				minister_moderate_socialist
 				socdem_reformist
 			}
 			removal_cost = -1
@@ -1279,12 +1271,10 @@ characters = {
 			cost = 65535
 			slot = justice_minister
 			ledger = civilian
-			idea_token = JAP_seiichi_katsumata_jus_mso
+			idea_token = JAP_seiichi_katsumata_jus
 			allowed = { original_tag = JAP }
-			available = { has_government = moderate_socialism }
 			traits = {
 				tbs_justice_minister
-				minister_moderate_socialist
 				tbs_plodding_bureaucrat
 			}
 			removal_cost = -1
@@ -1766,12 +1756,10 @@ characters = {
 			cost = 65535
 			slot = security_minister
 			ledger = civilian
-			idea_token = JAP_torazo_ninagawa_sec_mso
+			idea_token = JAP_torazo_ninagawa_sec
 			allowed = { original_tag = JAP }
-			available = { has_government = moderate_socialism }
 			traits = {
 				tbs_security_minister
-				minister_moderate_socialist
 				tbs_pragmatic_statesman
 			}
 			removal_cost = -1

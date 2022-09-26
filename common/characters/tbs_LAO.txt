@@ -18,7 +18,31 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_SISAVANG_VATTHANA_DESC"
 			ideology = paternal_autocracy_ideology
-			expire = "1989.1.1.1"
+			expire = "1978.5.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+	LAO_souphanouvong = {
+		name = LAO_souphanouvong
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_LAO_Souphanouvong"
+				small = "GFX_idea_LAO_souphanouvong"
+			}
+			army = {
+				large = "GFX_Portrait_LAO_Souphanouvong"
+				small = "GFX_idea_LAO_souphanouvong"
+			}
+			navy = {
+				large = "GFX_Portrait_LAO_Souphanouvong"
+				small = "GFX_idea_LAO_souphanouvong"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SOUPHANOUVONG_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "1995.1.9.1"
 			id = -1
 			traits = {}
 		}

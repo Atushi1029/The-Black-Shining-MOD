@@ -15,12 +15,67 @@ characters = {
 				small = "GFX_idea_STO_hideo_shimizu"
 			}
 		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	STO_kiyoshi_kawashima = {
+		name = STO_kiyoshi_kawashima
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Kiyoshi_Kawashima"
+				small = "GFX_idea_STO_kiyoshi_kawashima"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Kiyoshi_Kawashima"
+				small = "GFX_idea_STO_kiyoshi_kawashima"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Kiyoshi_Kawashima"
+				small = "GFX_idea_STO_kiyoshi_kawashima"
+			}
+		}
 		country_leader = {
-			desc = "POLITICS_HIDEO_SHIMIZU_DESC"
+			desc = "POLITICS_KIYOSHI_KAWASHIMA_DESC"
 			ideology = ultra_nationalism_ideology
-			expire = "2050.1.1.1"
+			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
+		}
+	}
+	STO_takeshi_misumi = {
+		name = STO_takeshi_misumi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Takeshi_Misumi"
+				small = "GFX_idea_STO_takeshi_misumi"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Takeshi_Misumi"
+				small = "GFX_idea_STO_takeshi_misumi"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Takeshi_Misumi"
+				small = "GFX_idea_STO_takeshi_misumi"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
 		}
 	}
 }

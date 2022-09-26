@@ -1,0 +1,92 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_GER_albert_speer"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_albert_speer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_baldur_von_schirach"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_baldur_von_schirach.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_fritz_rossler"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_fritz_rossler.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_heinz_knoke"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_heinz_knoke.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_karl_saur"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_karl_saur.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_nsdap_central_commitee"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_nsdap_central_commitee.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_oskar_dirlewanger"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_oskar_dirlewanger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_otto_ernst_remer"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_otto_ernst_remer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_reinhard_heydrich"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_reinhard_heydrich.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_theo_hupfauer"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_theo_hupfauer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_wilhelm_stuckart"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_wilhelm_stuckart.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_GER_Albert_Speer"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Albert_Speer.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Baldur_von_Schirach"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Baldur_von_Schirach.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Fritz_Rossler"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Fritz_Rossler.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Heinz_Knoke"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Heinz_Knoke.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Karl_Saur"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Karl_Saur.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_NSDAP_Central_Commitee"
+		texturefile = "gfx/leaders/GER/Portrait_GER_NSDAP_Central_Commitee.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Oskar_Dirlewanger"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Oskar_Dirlewanger.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Otto_Ernst_Remer"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Otto_Ernst_Remer.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Reinhard_Heydrich"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Reinhard_Heydrich.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Theo_Hupfauer"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Theo_Hupfauer.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Wilhelm_Stuckart"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Wilhelm_Stuckart.png"
+	}
+}
