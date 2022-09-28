@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=184
 	name="STATE_184"
-	resources={
+	resources = { 
 		chromium=11.000
 	}
 
-	history={
+	history = { 
 		victory_points = {
 			11905 1 
 		}
@@ -20,7 +20,7 @@ state={
 		add_claim_by = GRE
 	}
 
-	provinces={
+	provinces = { 
 		6990 9791 9930 11774 11905 
 	}
 	manpower=382500

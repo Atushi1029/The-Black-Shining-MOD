@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=292
 	name="STATE_292"
-	resources={
+	resources = { 
 		oil=3.000
 	}
 
-	history={
+	history = { 
 		owner = SAU
 		buildings = {
 			infrastructure = 1
@@ -25,7 +25,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1955 2057 2090 4968 4974 5024 5027 5058 5093 5099 7970 7995 8004 8060 8101 10748 10786 10791 10815 10850 10892 10901 10923 12455 12702 12727 12749 12758 12813 12870 
 	}
 	manpower=1440000

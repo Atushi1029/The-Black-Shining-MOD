@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=402
 	name="STATE_402"
-	resources={
+	resources = { 
 		chromium=15.000
 	}
 
-	history={
+	history = { 
 		owner = KAZ
 		add_core_of = KAZ
 		set_state_flag = kaz_core_states
@@ -19,7 +19,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		1247 4254 4294 7341 7370 10253 12235 12254 
 	}
 	manpower=132224

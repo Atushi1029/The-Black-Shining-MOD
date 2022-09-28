@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=320
 	name="STATE_320"
 	manpower = 286410
 
 	state_category = enclave
 
-	history={
+	history = { 
 		owner = RAJ
 		add_core_of = RAJ
 		buildings = {
@@ -17,7 +17,7 @@ state={
 		}
 	}
 
-	provinces={ 10149 }
+	provinces = {  10149 }
 
 	local_supplies=0.0 
 }

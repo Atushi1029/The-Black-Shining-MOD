@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=771
 	name="STATE_771"
-	resources={
+	resources = { 
 		chromium=35.000
 		tungsten=8.000
 	}
 
-	history={
+	history = { 
 		owner = MAF
 		add_core_of = MAF
 		add_core_of = ZAM
@@ -21,7 +21,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		697 5199 7872 10538 12504 12677 
 	}
 	manpower=1000000

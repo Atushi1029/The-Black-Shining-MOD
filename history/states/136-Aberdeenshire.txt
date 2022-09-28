@@ -1,16 +1,16 @@
 
-state={
+state = { 
 	id=136
 	name="STATE_136"
 	manpower = 745466
 	
 	state_category = town
-	resources={
+	resources = { 
 		tungsten=4 # was: 6
 		aluminium=3 # was: 4
 	}
 
-	history={
+	history = { 
 		owner = GBR
 		add_core_of = GBR
 		victory_points = {
@@ -25,7 +25,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		200 3150 9161 11055 11136 11207 11306 
 	}
 

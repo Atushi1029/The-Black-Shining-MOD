@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=857
 	name="STATE_857"
 
-	history={
+	history = { 
 		owner = BNF
 		add_core_of = BNF
 		add_core_of = FRA
@@ -23,7 +23,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		575 11483 
 	}
 	manpower=1320000

@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=971
 	name="STATE_971"
 
-	history={
+	history = { 
 		owner = ETH
 		buildings = {
 			infrastructure = 2
@@ -15,7 +15,7 @@ state={
 		add_core_of = ETH
 	}
 
-	provinces={
+	provinces = { 
 		4995 7980 12714 12757 12812 
 	}
 	manpower=3000000

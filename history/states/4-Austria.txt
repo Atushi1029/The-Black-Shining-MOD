@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=4
 	name="STATE_4"
-	resources={
+	resources = { 
 		oil=1.000
 	}
 
-	history={
+	history = { 
 		owner = GER
 		victory_points = {
 			11666 30.0 
@@ -25,7 +25,7 @@ state={
 		add_core_of = GER
 	}
 
-	provinces={
+	provinces = { 
 		653 704 6690 9646 9648 9679 11666 
 	}
 	manpower=2165883

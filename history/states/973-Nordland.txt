@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=973
 	name="STATE_973"
 
-	history={
+	history = { 
 		owner = NOR
 		buildings = {
 			infrastructure = 2
@@ -16,7 +16,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		38 91 173 192 3034 3048 3088 3126 3132 3145 6071 6111 6130 6187 6214 9126 9208 11090 11157 
 	}
 	manpower=130000

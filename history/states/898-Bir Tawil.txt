@@ -1,4 +1,4 @@
-state={
+state = { 
 	id=898
 	name="STATE_898"
 	impassable = yes
@@ -11,7 +11,7 @@ state={
 		add_core_of = EGY
 	}
 
-	provinces={
+	provinces = { 
 		13272 
 	}
 	manpower=20

@@ -788,11 +788,11 @@ technologies = {
 
 			modifier = {
 				factor = 0.2
-				date < "1937.1.1"
+				date < "1973.1.1"
 			}
 			modifier = {
 				factor = 0.4
-				date < "1938.1.1"
+				date < "1974.1.1"
 			}
 		}
 	}

@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=941
 	name="STATE_941"
 
-	history={
+	history = { 
 		owner = TOG
 		add_core_of = GHA
 		add_core_of = TOG
@@ -13,7 +13,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		12785 
 	}
 	manpower=420000

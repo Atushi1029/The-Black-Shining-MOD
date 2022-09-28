@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=947
 	name="STATE_947"
 
-	history={
+	history = { 
 		owner = FIN
 		add_core_of = FIN
 		set_state_flag = russian_old_states
@@ -12,7 +12,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		80 157 2998 3067 3071 6098 6175 9074 9119 9198 11054 11096 11146 11181 
 	}
 	manpower=112400

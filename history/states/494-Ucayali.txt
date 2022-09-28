@@ -1,5 +1,5 @@
 
-state={
+state = { 
 	id=494
 	name="STATE_494"
 	manpower = 735826
@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 
-	history={
+	history = { 
 		owner = PRU
 		buildings = {
 			infrastructure = 2
@@ -15,7 +15,7 @@ state={
 		add_core_of = PRU
 	}
 
-	provinces={
+	provinces = { 
 		2212 2226 5166 8160 8191 10940 
 	}
 

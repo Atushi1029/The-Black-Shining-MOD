@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=923
 	name="STATE_923"
 
-	history={
+	history = { 
 		owner = SOV
 		add_core_of = SOV
 		add_claim_by = FER
@@ -15,7 +15,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		84 87 180 3064 3075 3079 3081 3166 6088 6100 6105 6193 6199 9041 9101 9113 9124 9213 11042 11061 11089 
 	}
 	manpower=220400

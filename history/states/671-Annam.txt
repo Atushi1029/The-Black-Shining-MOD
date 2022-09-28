@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=671
 	name="STATE_671"
-	resources={
+	resources = { 
 		chromium=6.000
 		tungsten=27.000
 	}
 
-	history={
+	history = { 
 		add_core_of = VIN
 		owner = VIN
 		victory_points = {
@@ -26,7 +26,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1073 1157 1185 1302 4075 4119 4397 4529 7015 7093 7280 7518 9948 9988 10016 10075 10103 10129 11909 11936 12008 12048 12065 12075 12297 12319 
 	}
 	manpower=11528000

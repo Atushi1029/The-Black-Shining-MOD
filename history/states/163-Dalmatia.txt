@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=163
 	name="STATE_163"
 
-	history={
+	history = { 
 		owner = ITA
 		buildings = {
 			infrastructure = 3
@@ -17,7 +17,7 @@ state={
 		add_core_of = ITA
 	}
 
-	provinces={
+	provinces = { 
 		13245 
 	}
 	manpower=18000

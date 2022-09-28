@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=401
 	name="STATE_401"
-	resources={
+	resources = { 
 		steel=10.000
 		tungsten=10.000
 	}
 
-	history={
+	history = { 
 		owner = RLA
 		add_core_of = RLA
 		add_claim_by = FER
@@ -23,7 +23,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		410 452 3490 3551 6339 6473 6502 6574 6601 9337 9473 9577 11321 11421 11458 
 	}
 	manpower=309530

@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=490
 	name="STATE_490"
 	manpower = 70020
 	
 	state_category = pastoral
 
-	history={
+	history = { 
 		owner = ECU
 		buildings = {
 			infrastructure = 2
@@ -17,7 +17,7 @@ state={
 		add_core_of = PRU
 	}
 
-	provinces={
+	provinces = { 
 		8149 10942 
 	}
 

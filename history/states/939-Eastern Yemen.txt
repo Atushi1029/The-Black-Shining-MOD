@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=939
 	name="STATE_939"
 
-	history={
+	history = { 
 		owner = YEM
 		buildings = {
 			infrastructure = 2
@@ -12,7 +12,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1973 4924 
 	}
 	manpower=1004100

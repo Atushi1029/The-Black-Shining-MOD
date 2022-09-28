@@ -190,7 +190,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -237,7 +237,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_light_spg
+			#cat_light_spg
 		}
 	}
 
@@ -379,7 +379,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -412,7 +412,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_light_spg
+			#cat_light_spg
 		}
 	}
 
@@ -526,7 +526,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -551,7 +551,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_light_spg
+			#cat_light_spg
 		}
 	}
 
@@ -724,7 +724,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -777,7 +777,6 @@ technologies = {
 
 		categories = {
 			armor
-			cat_medium_spg
 		}
 	}
 
@@ -931,7 +930,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -978,7 +977,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_medium_spg
+			#cat_medium_spg
 		}
 	}
 
@@ -1126,7 +1125,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -1174,7 +1173,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_medium_spg
+			#cat_medium_spg
 		}
 	}
 
@@ -1293,7 +1292,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -1336,7 +1335,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_medium_spg
+			#cat_medium_spg
 		}
 	}
 
@@ -1465,7 +1464,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -1489,7 +1488,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_heavy_spg
+			#cat_heavy_spg
 		}
 	}
 
@@ -1605,7 +1604,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -1626,7 +1625,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_heavy_spg
+			#cat_heavy_spg
 		}
 	}
 
@@ -1728,7 +1727,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -1749,7 +1748,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_heavy_spg
+			#cat_heavy_spg
 		}
 	}
 
@@ -1828,7 +1827,7 @@ technologies = {
 
 		categories = {
 			armor
-			tank_destroyer_tech
+			#tank_destroyer_tech
 		}
 	}
 
@@ -1852,7 +1851,7 @@ technologies = {
 
 		categories = {
 			armor
-			cat_heavy_spg
+			#cat_heavy_spg
 		}
 	}
 

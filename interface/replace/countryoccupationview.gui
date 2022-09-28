@@ -115,7 +115,7 @@ guiTypes = {
 					fixedsize = yes
 				}
 	
-				iconType ={
+				iconType  = { 
 					name ="manpower_icon"
 					spriteType = "GFX_manpower_icon"
 					position = { x= 10 y = 18 }
@@ -191,7 +191,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		
-			iconType ={
+			iconType  = { 
 				name ="select_law_icon"
 				spriteType = "GFX_occupation_policy_icon_strip"
 				position = { x = 104 y = 25 }
@@ -448,7 +448,7 @@ guiTypes = {
 				maxWidth = 57
 				maxHeight = 24
 			}
-			iconType ={
+			iconType  = { 
 				name ="industrial_capacity_icon"
 				spriteType = "GFX_industrial_capacity_icon"
 				position = { x = 75 y = 0 } 
@@ -461,7 +461,7 @@ guiTypes = {
 				maxWidth = 57
 				maxHeight = 24
 			}
-			iconType ={
+			iconType  = { 
 				name ="resources_icon"
 				spriteType = "GFX_occupation_resources_icon"
 				position = { x = 157 y = 0 } 
@@ -517,7 +517,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-		iconType ={
+		iconType  = { 
 			name ="select_law_icon"
 			spriteType = "GFX_occupation_policy_icon_strip"
 			position = { x = 338 y = 85 }
@@ -1004,7 +1004,7 @@ guiTypes = {
 			text = "Occupation law with long name"
 			maxWidth = 230
 			maxHeight = 20
-			alwaystransparent = no
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}

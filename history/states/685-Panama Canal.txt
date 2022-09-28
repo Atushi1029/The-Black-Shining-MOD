@@ -1,11 +1,11 @@
-state={
+state = { 
 	id=685
 	name="STATE_685"
 	manpower = 39467
 	
 	state_category = enclave
 
-	history={
+	history = { 
 		owner = USA
 		add_core_of = PAN
 		add_core_of = USA
@@ -21,7 +21,7 @@ state={
 		}
 	}
 	
-	provinces={ 7617 }
+	provinces = {  7617 }
 
 	local_supplies=0.0 
 }

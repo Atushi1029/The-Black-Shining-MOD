@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=36
 	name="STATE_36"
 
-	history={
+	history = { 
 		owner = NID
 		add_core_of = HOL
 		add_core_of = NID
@@ -28,7 +28,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		6241 6286 6336 8622 9335 
 	}
 	manpower=1234000

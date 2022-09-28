@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=144
 	name="STATE_144"
-	resources={
+	resources = { 
 		steel=9.000
 		tungsten=15.000
 	}
 
-	history={
+	history = { 
 		owner = NOR
 		buildings = {
 			infrastructure = 2
@@ -32,7 +32,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		22 44 64 76 128 2995 3016 3040 3058 3082 6015 6079 6092 6107 9042 9064 9089 9116 9128 9191 11034 11050 11063 11077 11104 11169 
 	}
 	manpower=225251

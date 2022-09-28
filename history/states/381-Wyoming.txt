@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=381
 	name="STATE_381"
 
-	history={
+	history = { 
 		owner = USA
 		victory_points = {
 			4723 1 
@@ -16,7 +16,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1815 4610 4723 4794 4820 7688 7814 10640 10711 12651 
 	}
 	manpower=145534

@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=431
 	name="STATE_431"
-	resources={
+	resources = { 
 		steel=13.000
 	}
 
-	history={
+	history = { 
 		owner = RAJ
 		add_core_of = RAJ
 		buildings = {
@@ -25,7 +25,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		1159 1609 1656 4062 4204 4245 4644 7220 7475 7537 7565 7593 10077 12050 12338 
 	}
 	manpower=18548100

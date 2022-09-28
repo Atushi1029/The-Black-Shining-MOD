@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=274
 	name="STATE_274"
 
-	history={
+	history = { 
 		owner = GHA
 		add_core_of = GHA
 		victory_points = {
@@ -20,7 +20,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		8039 8096 10862 12742 12787 13136 
 	}
 	manpower=2743600

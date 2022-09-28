@@ -1,10 +1,10 @@
-state={
+state = { 
 	id=748
 	name="STATE_748"
-	provinces={
+	provinces = { 
 		1010 4141 4325 4431 9939 10763 11972 
 	}
-	history={
+	history = { 
 		owner = CHI
 		add_core_of = CHI
 		

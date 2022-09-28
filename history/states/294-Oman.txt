@@ -1,16 +1,16 @@
 
-state={
+state = { 
 	id=294
 	name="STATE_294"
 	manpower = 369000
 	
 	state_category = rural
 	
-	resources={
+	resources = { 
 		oil=2 # was: 2
 	}
 
-	history={
+	history = { 
 		owner = OMA
 		buildings = {
 			infrastructure = 1
@@ -26,7 +26,7 @@ state={
 		add_core_of = OMA
 	}
 
-	provinces={
+	provinces = { 
 		1947 2018 2059 2103 4993 5049 8002 8020 10760 
 	}
 

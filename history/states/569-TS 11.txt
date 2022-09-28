@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=569
 	name="STATE_569" # Kemerovo
 	manpower = 1567322
 	
 	state_category = town
 
-	history={
+	history = { 
 		owner = RUS
 		add_core_of = RUS
 		add_claim_by = FER
@@ -25,7 +25,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		1369 1685 1702 1816 4665 4711 4789 4793 7757 7822 7886 10580 10649 12631 
 	}
 

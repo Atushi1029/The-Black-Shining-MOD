@@ -5,7 +5,7 @@ state=
 	manpower=2159	
 	state_category = tiny_island
 
-	history={
+	history = { 
 		owner = USA
 		add_core_of = USA
 		buildings = {
@@ -19,7 +19,7 @@ state=
 		 }
 	}
 	
-	provinces={
+	provinces = { 
 		13052 	
 	}
 

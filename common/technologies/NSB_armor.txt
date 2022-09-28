@@ -58,6 +58,7 @@ technologies = {
 			extra_ammo_storage
 			wet_ammo_storage
 			smoke_launchers
+			expanded_fuel_tank
 		}
 		enable_subunits = {
 			light_armor
@@ -66,10 +67,10 @@ technologies = {
 		}
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
-			#initialize_early_light_armor_template_NSB = yes
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 			hidden_effect = {
 				if = {
 					limit = {
@@ -86,6 +87,8 @@ technologies = {
 					load_oob = "unlock_tanks"
 				}
 			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -154,10 +157,10 @@ technologies = {
 
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
-			#initialize_light_armor_template_NSB = yes
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 			hidden_effect = {
 				if = {
 					limit = {
@@ -174,6 +177,8 @@ technologies = {
 					load_oob = "unlock_tanks"
 				}
 			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -195,6 +200,26 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1973.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1974.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1975.1.1"
+			}
 		}
 
 		categories = {
@@ -231,12 +256,20 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				num_of_military_factories > 50
+				not = {
+					tag = JAP
+					num_of_military_factories < 50
+				}
 			}
 			modifier = {
-				factor = 10 #you are embarassing yourself
 				is_major = yes
+				not = { tag = JAP }
 				has_war = yes
+				factor = 10 #you are embarassing yourself
+			}
+			modifier = {
+				tag = SOV
+				factor = 3
 			}
 
 			modifier = {
@@ -253,6 +286,10 @@ technologies = {
 				factor = 1.1
 				date > "1975.1.1"
 			}
+		}
+
+		on_research_complete = {
+			
 		}
 
 		categories = {
@@ -296,10 +333,24 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
+				NOT = {
+					TAG = GER
+				}
 			}
 			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
 				factor = 0
-				num_of_naval_factories < 1
 			}
 		}
 
@@ -341,6 +392,26 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_controlled_state = {
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
 		}
 
 		categories = {
@@ -358,11 +429,6 @@ technologies = {
 			light_tank_aa_chassis_3
 		}
 
-		path = {
-			leads_to_tech = advanced_medium_tank_chassis
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1977
 
@@ -374,8 +440,8 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				factor = 2
 				is_major = no
+				factor = 2
 			}
 
 			modifier = {
@@ -414,11 +480,11 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
 			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
-			#initialize_medium_armor_template_NSB = yes
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 			hidden_effect = {
 				if = {
 					limit = {
@@ -435,6 +501,8 @@ technologies = {
 					load_oob = "unlock_tanks"
 				}
 			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -461,8 +529,15 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				num_of_military_factories > 50
+				not = {
+					tag = JAP
+					num_of_military_factories < 50
+				}
 				date > "1974.1.1"
+			}
+			modifier = {
+				tag = SOV
+				factor = 1.5
 			}
 			modifier = {
 				factor = 1.1
@@ -477,6 +552,12 @@ technologies = {
 			modifier = {
 				factor = 1.1
 				date > "1978.1.1"
+			}
+
+			modifier = {
+				factor = 15.0
+				tag = GER
+				has_opinion_modifier = sov_ger_treaty
 			}
 		}
 
@@ -510,17 +591,33 @@ technologies = {
 			position = { x = 2 y = @1976 }
 		}
 
+		on_research_complete = {
+			
+		}
+
 		ai_will_do = {
 			factor = 3
 
 			modifier = {
 				factor = 2
 				is_major = yes
-				num_of_military_factories > 50
+				not = {
+					tag = JAP
+					num_of_military_factories < 50
+				}
 			}
 			modifier = {
-				date < "1941.1.1"
+				date < "1977.1.1"
 				factor = 0.3
+			}
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+
+			modifier = {
+				factor = 2
+				tag = SOV
 			}
 
 			modifier = {
@@ -565,6 +662,10 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1979 }
+		}
+
+		on_research_complete = {
+			
 		}
 
 		ai_will_do = {
@@ -652,11 +753,11 @@ technologies = {
 		}
 
 		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
 			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
-			#initialize_heavy_armor_template_NSB = yes
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 			hidden_effect = {
 				if = {
 					limit = {
@@ -673,6 +774,8 @@ technologies = {
 					load_oob = "unlock_tanks"
 				}
 			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -704,6 +807,15 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				date > "1975.1.1"
+			}
+			modifier = {
+				tag = FRA
+				factor = 3
+			}
+			modifier = {
+				tag = JAP
+				num_of_military_factories < 100
+				factor = 0
 			}
 		}
 
@@ -738,6 +850,10 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 5 y = @1976 }
+		}
+
+		on_research_complete = {
+			
 		}
 
 		ai_will_do = {
@@ -792,8 +908,27 @@ technologies = {
 			position = { x = 5 y = @1979 }
 		}
 
+		on_research_complete = {
+			
+		}
+
 		ai_will_do = {
-			factor = 1
+			factor = 0.8
+
+			modifier = {
+				factor = 1.2
+				date > "1980.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1981.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1982.1.1"
+			}
 		}
 
 		categories = {
@@ -824,6 +959,10 @@ technologies = {
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 8 y = @1979 }
+		}
+
+		on_research_complete = {
+			
 		}
 
 		ai_will_do = {
@@ -866,8 +1005,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {
@@ -921,8 +1060,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {
@@ -974,8 +1113,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {
@@ -1021,8 +1160,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {
@@ -1072,8 +1211,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {
@@ -1101,8 +1240,8 @@ technologies = {
 
 
 		path = {
-			research_cost_coeff = 1
 			leads_to_tech = engine_tech_3
+			research_cost_coeff = 1
 		}
 
 		on_research_complete = {
@@ -1125,8 +1264,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {
@@ -1176,8 +1315,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {
@@ -1221,8 +1360,8 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				factor = 2
 				has_war = yes
+				factor = 2
 			}
 
 			modifier = {

@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=357
 	name="STATE_357"
-	resources={
+	resources = { 
 		steel=12.000
 	}
 
-	history={
+	history = { 
 		owner = USA
 		buildings = {
 			infrastructure = 4
@@ -30,7 +30,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		715 718 905 908 3710 3906 6732 
 	}
 	manpower=2800312

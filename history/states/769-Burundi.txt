@@ -1,10 +1,10 @@
-state={
+state = { 
 	id=769
 	name="STATE_769" # Burundi
 	
 	state_category = pastoral
 
-	history={
+	history = { 
 		owner = COG
 		add_core_of = BRD
 		add_core_of = COG
@@ -17,7 +17,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		2220
 	}
 	manpower=2145731

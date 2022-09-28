@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=935
 	name="STATE_935"
 
-	history={
+	history = { 
 		owner = JAP
 		buildings = {
 			infrastructure = 2
@@ -20,7 +20,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		848 4004 9981 11958 13283 
 	}
 	manpower=1420000

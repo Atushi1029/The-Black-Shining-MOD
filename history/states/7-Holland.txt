@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=7
 	name="STATE_7"
-	resources={
+	resources = { 
 		steel=4.000
 	}
 
-	history={
+	history = { 
 		owner = NID
 		add_core_of = HOL
 		add_core_of = NID
@@ -31,7 +31,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		68 391 3211 3314 
 	}
 	manpower=4123000

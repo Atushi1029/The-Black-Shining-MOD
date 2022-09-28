@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=882
 	name="STATE_882"
 
-	history={
+	history = { 
 		owner = ITA
 		buildings = {
 			infrastructure = 2
@@ -13,7 +13,7 @@ state={
 		add_claim_by = ALB
 	}
 
-	provinces={
+	provinces = { 
 		833 867 
 	}
 	manpower=252000

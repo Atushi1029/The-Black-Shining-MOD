@@ -963,6 +963,72 @@
  UDM_DEF:0 "the Udmurt"
  UDM_ADJ:0 "Udmurt"
  
+ RIF:0 "Rif"
+ RIF_DEF:0 "the Rif"
+ RIF_ADJ:0 "Rifian"
+
+ HAR:0 "Harar"
+ HAR_DEF:0 "the Harar"
+ HAR_ADJ:0 "Harari"
+
+ TIG:0 "Tigray"
+ TIG_DEF:0 "the Tigray"
+ TIG_ADJ:0 "Tigrinyan"
+
+ AFA:0 "Afar"
+ AFA_DEF:0 "the Afar"
+ AFA_ADJ:0 "Afar"
+
+ BEG:0 "Benishangul-Gumuz"
+ BEG_DEF:0 "the Benishangul-Gumuz"
+ BEG_ADJ:0 "Benishangul-Gumuz"
+
+ GBA:0 "Gambela"
+ GBA_DEF:0 "the Gambela"
+ GBA_ADJ:0 "Gambelan"
+
+ SID:0 "Sidamo"
+ SID_DEF:0 "the Sidamo"
+ SID_ADJ:0 "Sidama"
+
+ ORO:0 "Oromia"
+ ORO_DEF:0 "the Oromia"
+ ORO_ADJ:0 "Oromo"
+
+ QEM:0 "Qemant"
+ QEM_DEF:0 "the Qemant"
+ QEM_ADJ:0 "Qemant"
+
+ KHA:0 "Khakassia"
+ KHA_DEF:0 "the Khakassia"
+ KHA_ADJ:0 "Khakass"
+
+ AOI:0 "East Africa"
+ AOI_DEF:0 "the East Africa"
+ AOI_ADJ:0 "East African"
+ 
+ LBV:0 "Lombardy-Venetia"
+ LBV_DEF:0 "the Lombardy-Venetia"
+ LBV_ADJ:0 "Lombardo-Venetian"
+
+ PAP:0 "Papal States"
+ PAP_DEF:0 "the Papal States"
+ PAP_ADJ:0 "Papal"
+
+ TOS:0 "Tuscany"
+ TOS_DEF:0 "the Tuscany"
+ TOS_ADJ:0 "Tuscan"
+
+ SPM:0 "Sardinia-Piedmont"
+ SPM_DEF:0 "the Sardinia-Piedmont"
+ SPM_ADJ:0 "Piedmontese"
+
+ TTS:0 "Two Sicilies"
+ TTS_DEF:0 "the Two Sicilies"
+ TTS_ADJ:0 "Sicilian"
+ 
+#The Black Shining
+ 
  BNF:0 "Belgium-Northern France"
  BNF_DEF:0 "the Belgium-Northern France"
  BNF_ADJ:0 "Belgian-Northern French"

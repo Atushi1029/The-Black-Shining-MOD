@@ -1,10 +1,10 @@
-state={
+state = { 
 	id=896
 	name="STATE_896"
 
 	impassable = yes
 
-	history={
+	history = { 
 		owner = CHA
 		buildings = {
 			infrastructure = 0
@@ -12,7 +12,7 @@ state={
 		add_core_of = CHA
 	}
 
-	provinces={
+	provinces = { 
 		13274 
 	}
 	manpower=20

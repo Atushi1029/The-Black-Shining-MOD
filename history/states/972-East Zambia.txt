@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=972
 	name="STATE_972"
 
-	history={
+	history = { 
 		owner = MAF
 		add_core_of = MAF
 		add_core_of = ZAM
@@ -13,7 +13,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1846 5221 10594 10930 13173 
 	}
 	manpower=380089

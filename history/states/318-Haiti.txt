@@ -6,7 +6,7 @@ state=
 	
 	state_category = town
 	
-	resources={
+	resources = { 
 		chromium=2 # was: 3
 	}
 	history=
@@ -28,7 +28,7 @@ state=
 		}
 
 	}
-	provinces={
+	provinces = { 
 		1594 1635 4641
 	}
 

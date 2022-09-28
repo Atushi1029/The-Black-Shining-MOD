@@ -1,11 +1,11 @@
 
-state={
+state = { 
 	id=529
 	name="STATE_529" # Hiroshima
 	manpower = 5341000
 	state_category = large_city
 
-	history={
+	history = { 
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
@@ -25,7 +25,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		1092
 	}
 

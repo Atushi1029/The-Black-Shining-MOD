@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=958
 	name="STATE_958"
 
-	history={
+	history = { 
 		owner = SWE
 		buildings = {
 			infrastructure = 2
@@ -12,7 +12,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		168 202 3111 3162 6185 6207 9066 9171 11049 11052 11116 
 	}
 	manpower=200005

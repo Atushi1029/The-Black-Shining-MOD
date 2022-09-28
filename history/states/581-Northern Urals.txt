@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=581
 	name="STATE_581"
-	resources={
+	resources = { 
 		chromium=40.000
 		aluminium=27.000
 	}
 
-	history={
+	history = { 
 		owner = SOV
 		add_core_of = SOV
 		add_claim_by = FER
@@ -20,7 +20,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		10551 10677 11098 12393 12502 13076 
 	}
 	manpower=48831

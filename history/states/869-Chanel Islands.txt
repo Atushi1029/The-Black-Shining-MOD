@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=869
 	name="STATE_869"
 
-	history={
+	history = { 
 		owner = GBR
 		victory_points = {
 			13256 1
@@ -19,7 +19,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		13256 13257 
 	}
 	manpower=4551

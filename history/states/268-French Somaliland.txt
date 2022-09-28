@@ -1,4 +1,4 @@
-state={
+state = { 
 	id=268
 	name="STATE_268"
 	manpower = 85232
@@ -6,7 +6,7 @@ state={
 
 	state_category = enclave
 
-	history={
+	history = { 
 		owner = ITA
 		add_core_of = DJI
 		add_core_of = ITA
@@ -22,7 +22,7 @@ state={
 		}
 
 	}
-	provinces={
+	provinces = { 
 		4985 8124
  	}
 

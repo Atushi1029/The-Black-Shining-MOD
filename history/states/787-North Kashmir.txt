@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=787
 	name="STATE_787"
 
-	history={
+	history = { 
 		owner = PAK
 		add_core_of = PAK
 		buildings = {
@@ -12,7 +12,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		2041 2084 10821 13239 
 	}
 	manpower=1415800

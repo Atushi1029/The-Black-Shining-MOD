@@ -1,10 +1,10 @@
-state={
+state = { 
 	id=768
 	name="STATE_768" # Rwanda
 	
 	state_category = pastoral
 
-	history={
+	history = { 
 		owner = COG
 		add_core_of = COG
 		add_core_of = RWA
@@ -17,7 +17,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		9962
 	}
 	manpower=1716564

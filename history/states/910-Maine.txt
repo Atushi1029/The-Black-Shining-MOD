@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=910
 	name="STATE_910"
 
-	history={
+	history = { 
 		owner = USA
 		buildings = {
 			infrastructure = 4
@@ -19,7 +19,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		3732 6719 7462 10318 12202 12459 
 	}
 	manpower=700000

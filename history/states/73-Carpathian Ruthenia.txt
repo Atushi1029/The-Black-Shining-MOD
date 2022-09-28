@@ -1,11 +1,11 @@
-state={
+state = { 
 	id=73
 	name="STATE_73"
 	manpower = 854300
 	
 	state_category = rural
 	
-	history={
+	history = { 
 		victory_points = {
 			3548 1 
 		}
@@ -17,7 +17,7 @@ state={
 		add_core_of = UKR
 	}
 
-	provinces={
+	provinces = { 
 		3548 6571 9563 11536 11691 
 	}
 

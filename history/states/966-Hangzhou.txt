@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=966
 	name="STATE_966"
 
-	history={
+	history = { 
 		owner = JAP
 		add_core_of = JAP
 		add_claim_by = CHI
@@ -22,7 +22,7 @@ state={
 	}
 
 
-	provinces={
+	provinces = { 
 		7191 
 	}
 	manpower=6030300

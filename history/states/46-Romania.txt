@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=46
 	name="STATE_46"
-	resources={
+	resources = { 
 		oil=44.000
 	}
 
-	history={
+	history = { 
 		owner = ROM
 		add_core_of = ROM
 		add_claim_by = RPG
@@ -25,7 +25,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		660 674 818 3636 3639 3663 6658 6677 6695 9617 9651 11603 11619 11636 
 	}
 	manpower=2841400

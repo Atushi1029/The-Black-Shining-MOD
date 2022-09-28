@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=231
 	name="STATE_231"
 
-	history={
+	history = { 
 		owner = RKK
 		add_core_of = GEO
 		add_core_of = RKK
@@ -26,7 +26,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		654 672 772 1599 3653 3656 3658 3667 4534 4605 6436 6669 6671 6674 9626 9702 11609 12309 
 	}
 	manpower=2457844

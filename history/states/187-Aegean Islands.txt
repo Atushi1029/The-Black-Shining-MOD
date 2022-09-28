@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=187
 	name="STATE_187"
-	resources={
+	resources = { 
 		chromium=7.000
 	}
 
-	history={
+	history = { 
 		owner = GRE
 		buildings = {
 			infrastructure = 1
@@ -16,7 +16,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		3401 
 	}
 	manpower=162300

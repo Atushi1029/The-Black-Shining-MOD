@@ -1,4 +1,4 @@
-state={
+state = { 
 	id=662
 	name="STATE_662"
 	manpower = 13213
@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 	
 	
-	history={
+	history = { 
 		owner = ITA
 		buildings = {
 			infrastructure = 1
@@ -15,7 +15,7 @@ state={
 		add_core_of = LBA
 	}
 	
-	provinces={
+	provinces = { 
 		4200 7076 7136 8069 13073 
 	}
 

@@ -1,16 +1,16 @@
 
-state={
+state = { 
 	id=133
 	name="STATE_133" # Lanark
 	manpower = 2257723
 	
 	state_category = city
 	
-	resources={
+	resources = { 
 		steel=21 # was: 36
 	}
 
-	history={
+	history = { 
 		owner = GBR
 		add_core_of = GBR
 		victory_points = {
@@ -32,7 +32,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		3273 6320 6350 6385 6395 9237 9350 11218 
 	}
 

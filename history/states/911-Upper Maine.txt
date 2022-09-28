@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=911
 	name="STATE_911"
 
-	history={
+	history = { 
 		owner = USA
 		victory_points = {
 			1282 1 
@@ -16,7 +16,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1282 1338 1619 4287 10247 12221 
 	}
 	manpower=504001

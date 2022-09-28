@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=185
 	name="STATE_185"
-	resources={
+	resources = { 
 		chromium=14.000
 		steel=14.000
 	}
 
-	history={
+	history = { 
 		victory_points = {
 			10203 1 
 		}
@@ -32,7 +32,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		841 1106 1205 3914 3980 9805 9916 10203 11786 11895 12001 
 	}
 	manpower=760900

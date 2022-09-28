@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=454
 	name="STATE_454" #Palestine
 	manpower = 933142
 	
 	state_category = rural
 
-	history={
+	history = { 
 		owner = PAL
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -28,7 +28,7 @@ state={
 		add_core_of = PAL
 	}
 
-	provinces={
+	provinces = { 
 		1015 1065 1086 1201 4088 4206 7107 7176 11970 1
 	}
 

@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=568
 	name="STATE_568" # Krasnoyarsk
 	manpower = 1726427
 	
 	state_category = town
 
-	history={
+	history = { 
 		owner = RUS
 		add_core_of = RUS
 		add_claim_by = FER
@@ -21,7 +21,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		1777 1850 4724 7815 10639 10712
 	}
 

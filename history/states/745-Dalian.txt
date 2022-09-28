@@ -1,7 +1,7 @@
-state={
+state = { 
 	id=745
 	name="STATE_745"
-	provinces={
+	provinces = { 
 		1150 6851 
 	}
 	state_category = large_town

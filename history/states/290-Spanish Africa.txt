@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=290
 	name="STATE_290"
-	resources={
+	resources = { 
 		steel=23.000
 	}
 
-	history={
+	history = { 
 		owner = MOR
 		add_core_of = MOR
 		victory_points = {
@@ -24,7 +24,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		4199 7215 10113 12087 13240 
 	}
 	manpower=402000

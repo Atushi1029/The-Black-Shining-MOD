@@ -6,7 +6,7 @@ bookmarks = {
 		picture = ""
 		default_country = "JAP"
 		default = yes
-		"GER"={
+		"GER" = { 
 			history = "GER_THE_BLACK_SHINING_DESC"
 			ideology = national_socialism
 			ideas = {
@@ -16,7 +16,7 @@ bookmarks = {
 				
 			}
 		}
-		"ITA"={
+		"ITA" = { 
 			history = "ITA_THE_BLACK_SHINING_DESC"
 			ideology = authoritarian_democracy
 			ideas = {
@@ -26,7 +26,7 @@ bookmarks = {
 				
 			}
 		}
-		"USA"={
+		"USA" = { 
 			history = "USA_THE_BLACK_SHINING_DESC"
 			ideology = liberal_democracy
 			ideas = {
@@ -36,7 +36,7 @@ bookmarks = {
 				
 			}
 		}
-		"SOV"={
+		"SOV" = { 
 			history = "SOV_THE_BLACK_SHINING_DESC"
 			ideology = totalitarian_socialism
 			ideas = {
@@ -46,7 +46,7 @@ bookmarks = {
 				
 			}
 		}
-		"CHI"={
+		"CHI" = { 
 			history = "CHI_THE_BLACK_SHINING_DESC"
 			ideology = authoritarian_democracy
 			ideas = {
@@ -56,7 +56,7 @@ bookmarks = {
 				
 			}
 		}
-		"JAP"={
+		"JAP" = { 
 			history = "JAP_THE_BLACK_SHINING_DESC"
 			ideology = moderate_socialism
 			ideas = {

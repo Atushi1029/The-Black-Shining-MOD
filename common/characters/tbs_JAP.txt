@@ -176,7 +176,7 @@ characters = {
 				small = "GFX_idea_JAP_hachiro_hayashi"
 			}
 		}
-		corps_commander={
+		corps_commander = { 
 			traits = { trait_reckless }
 			skill = 3
 			attack_skill = 2
@@ -302,7 +302,7 @@ characters = {
 				small = "GFX_idea_JAP_hisao_kimura"
 			}
 		}
-		corps_commander={
+		corps_commander = { 
 			traits = { career_officer }
 			skill = 2
 			attack_skill = 2
@@ -1121,8 +1121,8 @@ characters = {
 				small = "GFX_idea_JAP_saburo_aizawa_general"
 			}
 		}
-		field_marshal={
-			traits={
+		field_marshal = { 
+			traits = { 
 				old_guard
 				career_officer
 				organizer

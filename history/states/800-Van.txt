@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=800
 	name="STATE_800" #Van
 
-	history={
+	history = { 
 		owner = TUR
 		victory_points = {
 			6935 5 
@@ -16,7 +16,7 @@ state={
 		add_core_of = TUR
 	}
 
-	provinces={
+	provinces = { 
 		652 4583 6935 7470 11880 12376 13121 
 	}
 	manpower = 365490

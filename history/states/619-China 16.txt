@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=619
 	name="STATE_619"
-	resources={
+	resources = { 
 		aluminium=2.000
 		chromium=2.000
 	}
 
-	history={
+	history = { 
 		owner = SIK
 		add_core_of = SIK
 		add_claim_by = CHI
@@ -25,7 +25,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1766 1970 2015 4828 4973 5087 7949 8112 10911 12119 13241 
 	}
 	manpower=1430700

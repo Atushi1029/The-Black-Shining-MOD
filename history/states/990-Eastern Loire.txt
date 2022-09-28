@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=990
 	name="STATE_990"
 
-	history={
+	history = { 
 		owner = FRA
 		buildings = {
 			infrastructure = 4
@@ -15,7 +15,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		3509 11463 9478 11596
 	}
 	manpower=388400

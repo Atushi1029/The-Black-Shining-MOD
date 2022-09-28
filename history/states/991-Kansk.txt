@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=991
 	name="STATE_991" # Kansk
 	manpower = 1026427
 	
 	state_category = rural
 
-	history={
+	history = { 
 		owner = RUS
 		add_core_of = RUS
 		add_claim_by = FER
@@ -21,7 +21,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		4690 4782 4818 4853 7744 12563 12621 12628 12691 
 	}
 

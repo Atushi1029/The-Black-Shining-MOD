@@ -1,11 +1,11 @@
 
-state={
+state = { 
 	id=200
 	name="STATE_200" # Zaporozhe
 	manpower = 1294082
 	state_category = town
 
-	history={
+	history = { 
 		owner = RKU
 		add_core_of = RKU
 		add_core_of = UKR
@@ -18,7 +18,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		429 588 3399 3767 6596 9571 9729 11405 11700 
 	}
 

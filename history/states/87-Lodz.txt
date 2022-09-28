@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=87
 	name="STATE_87"
 
-	history={
+	history = { 
 		owner = GER
 		add_core_of = GER
 		buildings = {
@@ -16,7 +16,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		493 548 584 6401 9439 9508 9546 11428 11515 13261 
 	}
 	manpower=2632000

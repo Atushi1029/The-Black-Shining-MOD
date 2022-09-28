@@ -1,5 +1,5 @@
 
-state={
+state = { 
 	id=804
 	name="STATE_804"
 	manpower =547200
@@ -7,11 +7,11 @@ state={
 	
 	state_category = town
 	
-	resources={
+	resources = { 
 		aluminium=7 # was: 10
 	}
 
-	history={
+	history = { 
 		owner = CRO
 		victory_points = {
 			9894 3
@@ -23,7 +23,7 @@ state={
 		add_core_of = CRO
 	}
 
-	provinces={
+	provinces = { 
 		953 6942 9894 11845 
 	}
 

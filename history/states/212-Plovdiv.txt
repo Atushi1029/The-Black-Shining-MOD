@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=212
 	name="STATE_212"
-	resources={
+	resources = { 
 		chromium=1.000
 	}
 
-	history={
+	history = { 
 		owner = BUL
 		victory_points = {
 			6923 10 
@@ -28,7 +28,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		3937 6814 6923 6952 6982 9862 
 	}
 	manpower=1014930

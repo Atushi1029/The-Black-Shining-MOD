@@ -1,0 +1,1090 @@
+﻿l_japanese:
+ GER:0 "ドイツ"
+ GER_DEF:0 "ドイツ"
+ GER_ADJ:0 "ドイツ"
+
+ ENG:0 "イングランド"
+ ENG_DEF:0 "イングランド"
+ ENG_ADJ:0 "イングランド"
+
+ SOV:0 "ロシア"
+ SOV_DEF:0 "ロシア"
+ SOV_ADJ:0 "ロシア"
+
+ USA:0 "アメリカ"
+ USA_DEF:0 "アメリカ"
+ USA_ADJ:0 "アメリカ"
+
+ SWE:0 "スウェーデン"
+ SWE_DEF:0 "スウェーデン"
+ SWE_ADJ:0 "スウェーデン"
+
+ FRA:0 "フランス"
+ FRA_DEF:0 "フランス"
+ FRA_ADJ:0 "フランス"
+
+ LUX:0 "ルクセンブルク"
+ LUX_DEF:0 "ルクセンブルク"
+ LUX_ADJ:0 "ルクセンブルク"
+
+ BEL:0 "ベルギー"
+ BEL_DEF:0 "ベルギー"
+ BEL_ADJ:0 "ベルギー"
+
+ HOL:0 "オランダ"
+ HOL_DEF:0 "オランダ"
+ HOL_ADJ:0 "オランダ"
+
+ CZE:0 "チェコスロヴァキア"
+ CZE_DEF:0 "チェコスロヴァキア"
+ CZE_ADJ:0 "チェコスロヴァキア"
+
+ POL:0 "ポーランド"
+ POL_DEF:0 "ポーランド"
+ POL_ADJ:0 "ポーランド"
+
+ AUS:0 "オーストリア"
+ AUS_DEF:0 "オーストリア"
+ AUS_ADJ:0 "オーストリア"
+
+ LIT:0 "リトアニア"
+ LIT_DEF:0 "リトアニア"
+ LIT_ADJ:0 "リトアニア"
+
+ EST:0 "エストニア"
+ EST_DEF:0 "エストニア"
+ EST_ADJ:0 "エストニア"
+
+ LAT:0 "ラトビア"
+ LAT_DEF:0 "ラトビア"
+ LAT_ADJ:0 "ラトビア"
+
+ SPR:0 "スペイン"
+ SPR_DEF:0 "スペイン"
+ SPR_ADJ:0 "スペイン"
+
+ ITA:0 "イタリア"
+ ITA_DEF:0 "イタリア"
+ ITA_ADJ:0 "イタリア"
+
+ ROM:0 "ルーマニア"
+ ROM_DEF:0 "ルーマニア"
+ ROM_ADJ:0 "ルーマニア"
+
+ YUG:0 "ユーゴスラビア"
+ YUG_DEF:0 "ユーゴスラビア"
+ YUG_ADJ:0 "ユーゴスラビア"
+
+ SWI:0 "スイス"
+ SWI_DEF:0 "スイス"
+ SWI_ADJ:0 "スイス"
+
+ TUR:0 "トルコ"
+ TUR_DEF:0 "トルコ"
+ TUR_ADJ:0 "トルコ"
+
+ GRE:0 "ギリシャ"
+ GRE_DEF:0 "ギリシャ"
+ GRE_ADJ:0 "ギリシャ"
+
+ ALB:0 "アルバニア"
+ ALB_DEF:0 "アルバニア"
+ ALB_ADJ:0 "アルバニア"
+
+ NOR:0 "ノルウェー"
+ NOR_DEF:0 "ノルウェー"
+ NOR_ADJ:0 "ノルウェー"
+
+ DEN:0 "デンマーク"
+ DEN_DEF:0 "デンマーク"
+ DEN_ADJ:0 "デンマーク"
+
+ BUL:0 "ブルガリア"
+ BUL_DEF:0 "ブルガリア"
+ BUL_ADJ:0 "ブルガリア"
+
+ POR:0 "ポルトガル"
+ POR_DEF:0 "ポルトガル"
+ POR_ADJ:0 "ポルトガル"
+
+ FIN:0 "フィンランド"
+ FIN_DEF:0 "フィンランド"
+ FIN_ADJ:0 "フィンランド"
+
+ IRE:0 "アイルランド"
+ IRE_DEF:0 "アイルランド"
+ IRE_ADJ:0 "アイルランド"
+
+ HUN:0 "ハンガリー"
+ HUN_DEF:0 "ハンガリー"
+ HUN_ADJ:0 "ハンガリー"
+
+ AFG:0 "アフガニスタン"
+ AFG_DEF:0 "アフガニスタン"
+ AFG_ADJ:0 "アフガニスタン"
+
+ ARG:0 "アルゼンチン"
+ ARG_DEF:0 "アルゼンチン"
+ ARG_ADJ:0 "アルゼンチン"
+
+ BOL:0 "ボリビア"
+ BOL_DEF:0 "ボリビア"
+ BOL_ADJ:0 "ボリビア"
+
+ BRA:0 "ブラジル"
+ BRA_DEF:0 "ブラジル"
+ BRA_ADJ:0 "ブラジル"
+
+ CAN:0 "カナダ"
+ CAN_DEF:0 "カナダ"
+ CAN_ADJ:0 "カナダ"
+
+ CHI:0 "中国"
+ CHI_DEF:0 "中国"
+ CHI_ADJ:0 "中国"
+
+ PRC:0 "中国"
+ PRC_DEF:0 "中国"
+ PRC_ADJ:0 "中国"
+
+ CHL:0 "チリ"
+ CHL_DEF:0 "チリ"
+ CHL_ADJ:0 "チリ"
+
+ COL:0 "コロンビア"
+ COL_DEF:0 "コロンビア"
+ COL_ADJ:0 "コロンビア"
+ 
+ COS:0 "コスタリカ"
+ COS_DEF:0 "コスタリカ"
+ COS_ADJ:0 "コスタリカ"
+
+ ECU:0 "エクアドル"
+ ECU_DEF:0 "エクアドル"
+ ECU_ADJ:0 "エクアドル"
+
+ ELS:0 "エルサルバドル"
+ ELS_DEF:0 "エルサルバドル"
+ ELS_ADJ:0 "エルサルバドル"
+
+ GUA:0 "グアテマラ"
+ GUA_DEF:0 "グアテマラ"
+ GUA_ADJ:0 "グアテマラ"
+
+ HON:0 "ホンジュラス"
+ HON_DEF:0 "ホンジュラス"
+ HON_ADJ:0 "ホンジュラス"
+
+ IRQ:0 "イラク"
+ IRQ_DEF:0 "イラク"
+ IRQ_ADJ:0 "イラク"
+
+ JAP:0 "日本"
+ JAP_DEF:0 "日本"
+ JAP_ADJ:0 "日本"
+
+ MEX:0 "メキシコ"
+ MEX_DEF:0 "メキシコ"
+ MEX_ADJ:0 "メキシコ"
+
+ MON:0 "モンゴル"
+ MON_DEF:0 "モンゴル"
+ MON_ADJ:0 "モンゴル"
+
+ NEP:0 "ネパール"
+ NEP_DEF:0 "ネパール"
+ NEP_ADJ:0 "ネパール"
+
+ NIC:0 "ニカラグア"
+ NIC_DEF:0 "ニカラグア"
+ NIC_ADJ:0 "ニカラグア"
+
+ PAN:0 "パナマ"
+ PAN_DEF:0 "パナマ"
+ PAN_ADJ:0 "パナマ"
+
+ PAR:0 "パラグアイ"
+ PAR_DEF:0 "パラグアイ"
+ PAR_ADJ:0 "パラグアイ"
+
+ PER:0 "ペルシア"
+ PER_DEF:0 "ペルシア"
+ PER_ADJ:0 "ペルシア"
+
+ PHI:0 "フィリピン"
+ PHI_DEF:0 "フィリピン"
+ PHI_ADJ:0 "フィリピン"
+
+ PRU:0 "ペルー"
+ PRU_DEF:0 "ペルー"
+ PRU_ADJ:0 "ペルー"
+
+ SAF:0 "南アフリカ"
+ SAF_DEF:0 "南アフリカ"
+ SAF_ADJ:0 "南アフリカ"
+
+ SAU:1 "サウジアラビア"
+ SAU_DEF:1 "サウジアラビア"
+ SAU_ADJ:1 "サウジアラビア"
+
+ SIA:0 "シャム"
+ SIA_DEF:0 "シャム"
+ SIA_ADJ:0 "シャム"
+
+ SIK:0 "新疆"
+ SIK_DEF:0 "新疆"
+ SIK_ADJ:0 "新疆"
+
+ TAN:0 "トゥヴァ"
+ TAN_DEF:0 "トゥヴァ"
+ TAN_ADJ:0 "トゥヴァ"
+
+ TIB:0 "チベット"
+ TIB_DEF:0 "チベット"
+ TIB_ADJ:0 "チベット"
+
+ VEN:0 "ベネズエラ"
+ VEN_DEF:0 "ベネズエラ"
+ VEN_ADJ:0 "ベネズエラ"
+
+ YUN:0 "雲南"
+ YUN_DEF:0 "雲南"
+ YUN_ADJ:0 "雲南"
+
+ AST:0 "オーストラリア"
+ AST_DEF:0 "オーストラリア"
+ AST_ADJ:0 "オーストラリア"
+
+ NZL:0 "ニュージーランド"
+ NZL_DEF:0 "ニュージーランド"
+ NZL_ADJ:0 "ニュージーランド"
+
+ URG:0 "ウルグアイ"
+ URG_DEF:0 "ウルグアイ"
+ URG_ADJ:0 "ウルグアイ"
+
+ CUB:0 "キューバ"
+ CUB_DEF:0 "キューバ"
+ CUB_ADJ:0 "キューバ"
+
+ DOM:0 "ドミニカ"
+ DOM_DEF:0 "ドミニカ"
+ DOM_ADJ:0 "ドミニカ"
+
+ HAI:0 "ハイチ"
+ HAI_DEF:0 "ハイチ"
+ HAI_ADJ:0 "ハイチ"
+
+ OMA:0 "オマーン"
+ OMA_DEF:0 "オマーン"
+ OMA_ADJ:0 "オマーン"
+
+ YEM:0 "イエメン"
+ YEM_DEF:0 "イエメン"
+ YEM_ADJ:0 "イエメン"
+
+ ETH:0 "エチオピア"
+ ETH_DEF:0 "エチオピア"
+ ETH_ADJ:0 "エチオピア"
+
+ SLO:0 "スロヴァキア"
+ SLO_DEF:0 "スロヴァキア"
+ SLO_ADJ:0 "スロヴァキア"
+
+ BHU:0 "ブータン"
+ BHU_DEF:0 "ブータン"
+ BHU_ADJ:0 "ブータン"
+
+ LIB:0 "リベリア"
+ LIB_DEF:0 "リベリア"
+ LIB_ADJ:0 "リベリア"
+
+ RAJ:0 "インド"
+ RAJ_DEF:0 "インド"
+ RAJ_ADJ:0 "インド"
+
+ CRO:0 "クロアチア"
+ CRO_DEF:0 "クロアチア"
+ CRO_ADJ:0 "クロアチア"
+
+ GXC:0 "広西"
+ GXC_DEF:0 "広西"
+ GXC_ADJ:0 "広西"
+
+ SHX:0 "山西"
+ SHX_DEF:0 "山西"
+ SHX_ADJ:0 "山西"
+
+ XSM:0 "寧夏"
+ XSM_DEF:0 "寧夏"
+ XSM_ADJ:0 "寧夏"
+
+ MEN:0 "蒙疆"
+ MEN_DEF:0 "蒙疆"
+ MEN_ADJ:0 "蒙疆"
+
+ KOR:0 "朝鮮"
+ KOR_DEF:0 "朝鮮"
+ KOR_ADJ:0 "朝鮮"
+
+ SER:0 "セルビア"
+ SER_DEF:0 "セルビア"
+ SER_ADJ:0 "セルビア"
+
+ ICE:0 "アイスランド"
+ ICE_DEF:0 "アイスランド"
+ ICE_ADJ:0 "アイスランド"
+
+ SYR:0 "シリア"
+ SYR_DEF:0 "シリア"
+ SYR_ADJ:0 "シリア"
+
+ LEB:0 "レバノン"
+ LEB_DEF:0 "レバノン"
+ LEB_ADJ:0 "レバノン"
+
+ JOR:0 "ヨルダン"
+ JOR_DEF:0 "ヨルダン"
+ JOR_ADJ:0 "ヨルダン"
+
+ EGY:0 "エジプト"
+ EGY_DEF:0 "エジプト"
+ EGY_ADJ:0 "エジプト"
+
+ LBA:0 "リビア"
+ LBA_DEF:0 "リビア"
+ LBA_ADJ:0 "リビア"
+
+ WGR:0 "西ドイツ"
+ WGR_DEF:0 "西ドイツ"
+ WGR_ADJ:0 "西ドイツ"
+
+ DDR:0 "東ドイツ"
+ DDR_DEF:0 "東ドイツ"
+ DDR_ADJ:0 "東ドイツ"
+
+ PAL:0 "パレスチナ"
+ PAL_DEF:0 "パレスチナ"
+ PAL_ADJ:0 "パレスチナ"
+
+ ISR:0 "イスラエル"
+ ISR_DEF:0 "イスラエル"
+ ISR_ADJ:0 "イスラエル"
+
+ VIN:0 "ベトナム"
+ VIN_DEF:0 "ベトナム"
+ VIN_ADJ:0 "ベトナム"
+
+ CAM:0 "カンボジア"
+ CAM_DEF:0 "カンボジア"
+ CAM_ADJ:0 "カンボジア"
+
+ INS:0 "インドネシア"
+ INS_DEF:0 "インドネシア"
+ INS_ADJ:0 "インドネシア"
+
+ MAL:0 "マレーシア"
+ MAL_DEF:0 "マレーシア"
+ MAL_ADJ:0 "マレーシア"
+
+ LAO:0 "ラオス"
+ LAO_DEF:0 "ラオス"
+ LAO_ADJ:0 "ラオス"
+
+ MNT:0 "モンテネグロ"
+ MNT_DEF:0 "モンテネグロ"
+ MNT_ADJ:0 "モンテネグロ"
+
+ UKR:0 "ウクライナ"
+ UKR_DEF:0 "ウクライナ"
+ UKR_ADJ:0 "ウクライナ"
+
+ GEO:0 "グルジア"
+ GEO_DEF:0 "グルジア"
+ GEO_ADJ:0 "グルジア"
+
+ KAZ:0 "カザフスタン"
+ KAZ_DEF:0 "カザフスタン"
+ KAZ_ADJ:0 "カザフ"
+
+ AZR:0 "アゼルバイジャン"
+ AZR_DEF:0 "アゼルバイジャン"
+ AZR_ADJ:0 "アゼルバイジャン"
+
+ ARM:0 "アルメニア"
+ ARM_DEF:0 "アルメニア"
+ ARM_ADJ:0 "アルメニア"
+
+ BLR:0 "ベラルーシ"
+ BLR_DEF:0 "ベラルーシ"
+ BLR_ADJ:0 "ベラルーシ"
+
+ ANG:0 "アンゴラ"
+ ANG_DEF:0 "アンゴラ"
+ ANG_ADJ:0 "アンゴラ"
+
+ MZB:0 "モザンビーク"
+ MZB_DEF:0 "モザンビーク"
+ MZB_ADJ:0 "モザンビーク"
+
+ ZIM:0 "ジンバブエ"
+ ZIM_DEF:0 "ジンバブエ"
+ ZIM_ADJ:0 "ジンバブエ"
+
+ COG:0 "コンゴ"
+ COG_DEF:0 "コンゴ"
+ COG_ADJ:0 "コンゴ"
+
+ KEN:0 "ケニア"
+ KEN_DEF:0 "ケニア"
+ KEN_ADJ:0 "ケニア"
+
+ PAK:0 "パキスタン"
+ PAK_DEF:0 "パキスタン"
+ PAK_ADJ:0 "パキスタン"
+
+ BOT:0 "ボツワナ"
+ BOT_DEF:0 "ボツワナ"
+ BOT_ADJ:0 "ボツワナ"
+
+ MAN:0 "満州"
+ MAN_DEF:0 "満州"
+ MAN_ADJ:0 "満州"
+
+ BAH:0 "バハマ"
+ BAH_DEF:0 "バハマ"
+ BAH_ADJ:0 "バハマ"
+
+ BAN:0 "バングラデシュ"
+ BAN_DEF:0 "バングラデシュ"
+ BAN_ADJ:0 "バングラデシュ"
+
+ BLZ:0 "ベリーズ"
+ BLZ_DEF:0 "ベリーズ"
+ BLZ_ADJ:0 "ベリーズ"
+
+ BRM:0 "ビルマ"
+ BRM_DEF:0 "ビルマ"
+ BRM_ADJ:0 "ビルマ"
+
+ CRC:0 "アンティル"
+ CRC_DEF:0 "アンティル"
+ CRC_ADJ:0 "アンティル"
+
+ GDL:0 "グアドループ"
+ GDL_DEF:0 "グアドループ"
+ GDL_ADJ:0 "グアドループ"
+
+ GYA:0 "ガイアナ"
+ GYA_DEF:0 "ガイアナ"
+ GYA_ADJ:0 "ガイアナ"
+
+ JAM:0 "ジャマイカ"
+ JAM_DEF:0 "ジャマイカ"
+ JAM_ADJ:0 "ジャマイカ"
+
+ KYR:0 "キルギスタン"
+ KYR_DEF:0 "キルギスタン"
+ KYR_ADJ:0 "キルギス"
+
+ MAD:0 "マダガスカル"
+ MAD_DEF:0 "マダガスカル"
+ MAD_ADJ:0 "マダガスカル"
+
+ MOL:0 "モルドヴァ"
+ MOL_DEF:0 "モルドヴァ"
+ MOL_ADJ:0 "モルドヴァ"
+
+ PNG:0 "パプア"
+ PNG_DEF:0 "パプア"
+ PNG_ADJ:0 "パプア"
+
+ PUE:0 "プエルトリコ"
+ PUE_DEF:0 "プエルトリコ"
+ PUE_ADJ:0 "プエルトリコ"
+
+ QAT:0 "カタール"
+ QAT_DEF:0 "カタール"
+ QAT_ADJ:0 "カタール"
+
+ SCO:0 "スコットランド"
+ SCO_DEF:0 "スコットランド"
+ SCO_ADJ:0 "スコットランド"
+
+ SRL:0 "スリランカ"
+ SRL_DEF:0 "スリランカ"
+ SRL_ADJ:0 "スリランカ"
+
+ SUR:0 "スリナム"
+ SUR_DEF:0 "スリナム"
+ SUR_ADJ:0 "スリナム"
+
+ TAJ:0 "タジキスタン"
+ TAJ_DEF:0 "タジキスタン"
+ TAJ_ADJ:0 "タジク"
+
+ TRI:0 "トリニダード・トバゴ"
+ TRI_DEF:0 "トリニダード・トバゴ"
+ TRI_ADJ:0 "トリニダード・トバゴ"
+
+ TMS:0 "トルクメニスタン"
+ TMS_DEF:0 "トルクメニスタン"
+ TMS_ADJ:0 "トルクメニスタン"
+
+ UAE:0 "アラビア"
+ UAE_DEF:0 "アラビア"
+ UAE_ADJ:0 "アラビア"
+
+ UZB:0 "ウズベキスタン"
+ UZB_DEF:0 "ウズベキスタン"
+ UZB_ADJ:0 "ウズベク"
+
+ KUW:0 "クウェート"
+ KUW_DEF:0 "クウェート"
+ KUW_ADJ:0 "クウェート"
+
+ CSA:0 "アメリカ"
+ CSA_DEF:0 "アメリカ"
+ CSA_ADJ:0 "アメリカ"
+
+ USB:0 "アメリカ"
+ USB_DEF:0 "アメリカ"
+ USB_ADJ:0 "アメリカ"
+
+ CYP:0 "キプロス"
+ CYP_DEF:0 "キプロス"
+ CYP_ADJ:0 "キプロス"
+
+ MLT:0 "マルタ"
+ MLT_DEF:0 "マルタ"
+ MLT_ADJ:0 "マルタ"
+
+ ALG:0 "アルジェリア"
+ ALG_DEF:0 "アルジェリア"
+ ALG_ADJ:0 "アルジェリア"
+
+ MOR:0 "モロッコ"
+ MOR_DEF:0 "モロッコ"
+ MOR_ADJ:0 "モロッコ"
+
+ TUN:0 "チュニジア"
+ TUN_DEF:0 "チュニジア"
+ TUN_ADJ:0 "チュニジア"
+
+ SUD:0 "スーダン"
+ SUD_DEF:0 "スーダン"
+ SUD_ADJ:0 "スーダン"
+
+ ERI:0 "エリトリア"
+ ERI_DEF:0 "エリトリア"
+ ERI_ADJ:0 "エリトリア"
+
+ DJI:0 "ジブチ"
+ DJI_DEF:0 "ジブチ"
+ DJI_ADJ:0 "ジブチ"
+
+ SOM:0 "ソマリア"
+ SOM_DEF:0 "ソマリア"
+ SOM_ADJ:0 "ソマリア"
+
+ UGA:0 "ウガンダ"
+ UGA_DEF:0 "ウガンダ"
+ UGA_ADJ:0 "ウガンダ"
+
+ RWA:0 "ルワンダ"
+ RWA_DEF:0 "ルワンダ"
+ RWA_ADJ:0 "ルワンダ"
+
+ BRD:0 "ブルンジ"
+ BRD_DEF:0 "ブルンジ"
+ BRD_ADJ:0 "ブルンジ"
+
+ TZN:0 "タンザニア"
+ TZN_DEF:0 "タンザニア"
+ TZN_ADJ:0 "タンザニア"
+
+ ZAM:0 "ザンビア"
+ ZAM_DEF:0 "ザンビア"
+ ZAM_ADJ:0 "ザンビア"
+
+ MLW:0 "マラウイ"
+ MLW_DEF:0 "マラウイ"
+ MLW_ADJ:0 "マラウイ"
+
+ GAB:0 "ガボン"
+ GAB_DEF:0 "ガボン"
+ GAB_ADJ:0 "ガボン"
+
+ RCG:0 "コンゴ"
+ RCG_DEF:0 "コンゴ"
+ RCG_ADJ:0 "コンゴ"
+
+ EQG:0 "赤道ギニア"
+ EQG_DEF:0 "赤道ギニア"
+ EQG_ADJ:0 "赤道ギニア"
+
+ CMR:0 "カメルーン"
+ CMR_DEF:0 "カメルーン"
+ CMR_ADJ:0 "カメルーン"
+
+ CAR:0 "中央アフリカ"
+ CAR_DEF:0 "中央アフリカ"
+ CAR_ADJ:0 "中央アフリカ"
+
+ CHA:0 "チャド"
+ CHA_DEF:0 "チャド"
+ CHA_ADJ:0 "チャド"
+
+ NGA:0 "ナイジェリア"
+ NGA_DEF:0 "ナイジェリア"
+ NGA_ADJ:0 "ナイジェリア"
+
+ DAH:0 "ダホメ"
+ DAH_DEF:0 "ダホメ"
+ DAH_ADJ:0 "ダホメ"
+
+ TOG:0 "トーゴ"
+ TOG_DEF:0 "トーゴ"
+ TOG_ADJ:0 "トーゴ"
+
+ GHA:0 "ガーナ"
+ GHA_DEF:0 "ガーナ"
+ GHA_ADJ:0 "ガーナ"
+
+ IVO:0 "コートジボワール"
+ IVO_DEF:0 "コートジボワール"
+ IVO_ADJ:0 "コートジボワール"
+
+ VOL:0 "オートボルタ"
+ VOL_DEF:0 "オートボルタ"
+ VOL_ADJ:0 "オートボルタ"
+
+ MLI:0 "マリ"
+ MLI_DEF:0 "マリ"
+ MLI_ADJ:0 "マリ"
+
+ SIE:0 "シエラレオネ"
+ SIE_DEF:0 "シエラレオネ"
+ SIE_ADJ:0 "シエラレオネ"
+
+ GNA:0 "ギニア"
+ GNA_DEF:0 "ギニア"
+ GNA_ADJ:0 "ギニア"
+ 
+ GNB:0 "ギニア＝ビサウ"
+ GNB_DEF:0 "ギニア＝ビサウ"
+ GNB_ADJ:0 "ギニア＝ビサウ"
+ 
+ SEN:0 "セネガル"
+ SEN_DEF:0 "セネガル"
+ SEN_ADJ:0 "セネガル"
+ 
+ GAM:0 "ガンビア"
+ GAM_DEF:0 "ガンビア"
+ GAM_ADJ:0 "ガンビア"
+ 
+ WLS:0 "ウェールズ"
+ WLS_DEF:0 "ウェールズ"
+ WLS_ADJ:0 "ウェールズ"
+ 
+ NGR:0 "ニジェール"
+ NGR_DEF:0 "ニジェール"
+ NGR_ADJ:0 "ニジェール"
+ 
+ MRT:0 "モーリタニア"
+ MRT_DEF:0 "モーリタニア"
+ MRT_ADJ:0 "モーリタニア"
+
+ NMB:0 "ナミビア"
+ NMB_DEF:0 "ナミビア"
+ NMB_ADJ:0 "ナミビア"
+
+ WES:0 "西サハラ"
+ WES_DEF:0 "西サハラ"
+ WES_ADJ:0 "西サハラ"
+
+ BAS:0 "アンティル"
+ BAS_DEF:0 "アンティル"
+ BAS_ADJ:0 "アンティル"
+
+ CAY:0 "ギアナ"
+ CAY_DEF:0 "ギアナ"
+ CAY_ADJ:0 "ギアナ"
+
+ MLD:0 "モルディブ"
+ MLD_DEF:0 "モルディブ"
+ MLD_ADJ:0 "モルディブ"
+
+ FIJ:0 "フィジー"
+ FIJ_DEF:0 "フィジー"
+ FIJ_ADJ:0 "フィジー"
+
+ TAH:0 "タヒチ"
+ TAH_DEF:0 "タヒチ"
+ TAH_ADJ:0 "タヒチ"
+
+ FSM:0 "ミクロネシア"
+ FSM_DEF:0 "ミクロネシア"
+ FSM_ADJ:0 "ミクロネシア"
+
+ GUM:0 "マリアナ諸島"
+ GUM_DEF:0 "マリアナ諸島"
+ GUM_ADJ:0 "マリアナ諸島"
+
+ SOL:0 "ソロモン諸島"
+ SOL_DEF:0 "ソロモン諸島"
+ SOL_ADJ:0 "ソロモン諸島"
+
+ SAM:0 "サモア"
+ SAM_DEF:0 "サモア"
+ SAM_ADJ:0 "サモア"
+
+ HAW:0 "ハワイ"
+ HAW_DEF:0 "ハワイ"
+ HAW_ADJ:0 "ハワイ"
+
+ SLV:0 "スロベニア"
+ SLV_DEF:0 "スロベニア"
+ SLV_ADJ:0 "スロベニア"
+
+ BOS:0 "ボスニア"
+ BOS_DEF:0 "ボスニア"
+ BOS_ADJ:0 "ボスニア"
+
+ HRZ:0 "ヘルツェゴヴィナ"
+ HRZ_DEF:0 "ヘルツェゴヴィナ"
+ HRZ_ADJ:0 "ヘルツェゴヴィナ"
+
+ MAC:0 "マケドニア"
+ MAC_DEF:0 "マケドニア"
+ MAC_ADJ:0 "マケドニア"
+
+ NIR:0 "北アイルランド"
+ NIR_DEF:0 "北アイルランド"
+ NIR_ADJ:0 "北アイルランド"
+
+ NAV:0 "バスク"
+ NAV_DEF:0 "バスク"
+ NAV_ADJ:0 "バスク"
+
+ CAT:0 "カタルーニャ"
+ CAT_DEF:0 "カタルーニャ"
+ CAT_ADJ:0 "カタルーニャ"
+
+ GLC:0 "ガリシア"
+ GLC_DEF:0 "ガリシア"
+ GLC_ADJ:0 "ガリシア"
+
+ ADU:0 "アンダルシア"
+ ADU_DEF:0 "アンダルシア"
+ ADU_ADJ:0 "アンダルシア"
+
+ BAY:0 "バイエルン"
+ BAY_DEF:0 "バイエルン"
+ BAY_ADJ:0 "バイエルン"
+
+ MEK:0 "メクレンブルク"
+ MEK_DEF:0 "メクレンブルク"
+ MEK_ADJ:0 "メクレンブルク"
+
+ PRE:0 "プロイセン"
+ PRE_DEF:0 "プロイセン"
+ PRE_ADJ:0 "プロイセン"
+
+ SAX:0 "ザクセン"
+ SAX_DEF:0 "ザクセン"
+ SAX_ADJ:0 "ザクセン"
+
+ HAN:0 "ハノーファー"
+ HAN_DEF:0 "ハノーファー"
+ HAN_ADJ:0 "ハノーファー"
+
+ WUR:0 "ヴュルテンベルク"
+ WUR_DEF:0 "ヴュルテンベルク"
+ WUR_ADJ:0 "ヴュルテンベルク"
+
+ SHL:0 "シュレースヴィヒ"
+ SHL_DEF:0 "シュレースヴィヒ"
+ SHL_ADJ:0 "シュレースヴィヒ"
+
+ BRI:0 "ブルターニュ"
+ BRI_DEF:0 "ブルターニュ"
+ BRI_ADJ:0 "ブルターニュ"
+
+ OCC:0 "オクシタニア"
+ OCC_DEF:0 "オクシタニア"
+ OCC_ADJ:0 "オクシタニア"
+
+ COR:0 "コルシカ"
+ COR_DEF:0 "コルシカ"
+ COR_ADJ:0 "コルシカ"
+
+ KOS:0 "コソボ"
+ KOS_DEF:0 "コソボ"
+ KOS_ADJ:0 "コソボ"
+
+ TRA:0 "トランシルヴァニア"
+ TRA_DEF:0 "トランシルヴァニア"
+ TRA_ADJ:0 "トランシルヴァニア"
+
+ KUR:0 "クルディスタン"
+ KUR_ADJ:0 "クルディスタン"
+ KUR_DEF:0 "クルディスタン"
+
+ DNZ:0 "ダンツィヒ"
+ DNZ_DEF:0 "ダンツィヒ"
+ DNZ_ADJ:0 "ダンツィヒ"
+
+ SIL:0 "シレジア"
+ SIL_DEF:0 "シレジア"
+ SIL_ADJ:0 "シレジア"
+
+ KSH:0 "カシューブ"
+ KSH_DEF:0 "カシューブ"
+ KSH_ADJ:0 "カシューブ"
+
+ DON:0 "ドン"
+ DON_DEF:0 "ドン"
+ DON_ADJ:0 "ドン"
+
+ KUB:0 "クバン"
+ KUB_DEF:0 "クバン"
+ KUB_ADJ:0 "クバン"
+
+ ALT:0 "アルタイ"
+ ALT_DEF:0 "アルタイ"
+ ALT_ADJ:0 "アルタイ"
+
+ KAL:0 "カルムイク"
+ KAL_DEF:0 "カルムイク"
+ KAL_ADJ:0 "カルムイク"
+
+ KAR:0 "カレロ＝フィン"
+ KAR_DEF:0 "カレロ＝フィン"
+ KAR_ADJ:0 "カレロ＝フィン"
+
+ CRI:0 "クリミア"
+ CRI_DEF:0 "クリミア"
+ CRI_ADJ:0 "クリミア"
+
+ TAT:0 "タタールスタン"
+ TAT_DEF:0 "タタールスタン"
+ TAT_ADJ:0 "タタールスタン"
+
+ CIN:0 "カフカース"
+ CIN_DEF:0 "カフカース"
+ CIN_ADJ:0 "カフカース"
+
+ DAG:0 "ダゲスタン"
+ DAG_DEF:0 "ダゲスタン"
+ DAG_ADJ:0 "ダゲスタン"
+
+ BYA:0 "ブリヤート"
+ BYA_DEF:0 "ブリヤート"
+ BYA_ADJ:0 "ブリヤート"
+
+ FER:0 "極東"
+ FER_DEF:0 "極東"
+ FER_ADJ:0 "極東"
+
+ CKK:0 "チュクチ"
+ CKK_DEF:0 "チュクチ"
+ CKK_ADJ:0 "チュクチ"
+
+ YAK:0 "ヤクーツク"
+ YAK_DEF:0 "ヤクーツク"
+ YAK_ADJ:0 "ヤクーツク"
+
+ VLA:0 "ウラジオストク"
+ VLA_DEF:0 "ウラジオストク"
+ VLA_ADJ:0 "ウラジオストク"
+
+ KKP:0 "カラカルパクスタン"
+ KKP_DEF:0 "カラカルパクスタン"
+ KKP_ADJ:0 "カラカルパクスタン"
+
+ TAY:0 "タイミル"
+ TAY_DEF:0 "タイミル"
+ TAY_ADJ:0 "タイミル"
+
+ YAM:0 "ヤマル"
+ YAM_DEF:0 "ヤマル"
+ YAM_ADJ:0 "ヤマル"
+
+ OVO:0 "オスチャーク＝ヴォグル"
+ OVO_DEF:0 "オスチャーク＝ヴォグル"
+ OVO_ADJ:0 "オスチャーク＝ヴォグル"
+ 
+ NEN:0 "ネネツ"
+ NEN_DEF:0 "ネネツ"
+ NEN_ADJ:0 "ネネツ"
+
+ KOM:0 "コミ"
+ KOM_DEF:0 "コミ"
+ KOM_ADJ:0 "コミ"
+
+ ABK:0 "アブハジア"
+ ABK_DEF:0 "アブハジア"
+ ABK_ADJ:0 "アブハジア"
+
+ KBK:0 "カバルダ＝バルカル"
+ KBK_DEF:0 "カバルダ＝バルカル"
+ KBK_ADJ:0 "カバルダ＝バルカル"
+
+ NOA:0 "北オセチア"
+ NOA_DEF:0 "北オセチア"
+ NOA_ADJ:0 "北オセチア"
+
+ VGE:0 "ヴォルガ・ドイツ"
+ VGE_DEF:0 "ヴォルガ・ドイツ"
+ VGE_ADJ:0 "ヴォルガ・ドイツ"
+
+ BSK:0 "バシコルトスタン"
+ BSK_DEF:0 "バシコルトスタン"
+ BSK_ADJ:0 "バシコルトスタン"
+
+ BUK:0 "ブハラ"
+ BUK_DEF:0 "ブハラ"
+ BUK_ADJ:0 "ブハラ"
+
+ KHI:0 "ヒヴァ"
+ KHI_DEF:0 "ヒヴァ"
+ KHI_ADJ:0 "ヒヴァ"
+
+ CHU:0 "チュヴァシ"
+ CHU_DEF:0 "チュヴァシ"
+ CHU_ADJ:0 "チュヴァシ"
+
+ MEL:0 "マリ・エル"
+ MEL_DEF:0 "マリ・エル"
+ MEL_ADJ:0 "マリ"
+
+ UDM:0 "ウドムルト"
+ UDM_DEF:0 "ウドムルト"
+ UDM_ADJ:0 "ウドムルト"
+ 
+ RIF:0 "リーフ"
+ RIF_DEF:0 "リーフ"
+ RIF_ADJ:0 "リーフ"
+
+ HAR:0 "ハラール"
+ HAR_DEF:0 "ハラール"
+ HAR_ADJ:0 "ハラール"
+
+ TIG:0 "ティグライ"
+ TIG_DEF:0 "ティグライ"
+ TIG_ADJ:0 "ティグライ"
+
+ AFA:0 "アファール"
+ AFA_DEF:0 "アファール"
+ AFA_ADJ:0 "アファール"
+
+ BEG:0 "ベニシャングル・グムズ"
+ BEG_DEF:0 "ベニシャングル・グムズ"
+ BEG_ADJ:0 "ベニシャングル・グムズ"
+
+ GBA:0 "ガンベラ"
+ GBA_DEF:0 "ガンベラ"
+ GBA_ADJ:0 "ガンベラ"
+
+ SID:0 "シダマ"
+ SID_DEF:0 "シダマ"
+ SID_ADJ:0 "シダマ"
+
+ ORO:0 "オロモ"
+ ORO_DEF:0 "オロモ"
+ ORO_ADJ:0 "オロモ"
+
+ QEM:0 "ケマント"
+ QEM_DEF:0 "ケマント"
+ QEM_ADJ:0 "ケマント"
+
+ KHA:0 "ハカシア"
+ KHA_DEF:0 "ハカシア"
+ KHA_ADJ:0 "ハカス"
+
+ AOI:0 "東アフリカ"
+ AOI_DEF:0 "東アフリカ"
+ AOI_ADJ:0 "東アフリカ"
+ 
+ LBV:0 "ロンバルディア＝ヴェネツィア"
+ LBV_DEF:0 "ロンバルディア＝ヴェネツィア"
+ LBV_ADJ:0 "ロンバルディア＝ヴェネツィア"
+
+ PAP:0 "教皇領"
+ PAP_DEF:0 "教皇領"
+ PAP_ADJ:0 "教皇領"
+
+ TOS:0 "トスカーナ"
+ TOS_DEF:0 "トスカーナ"
+ TOS_ADJ:0 "トスカーナ"
+
+ SPM:0 "サルデーニャ＝ピエモンテ"
+ SPM_DEF:0 "サルデーニャ＝ピエモンテ"
+ SPM_ADJ:0 "サルデーニャ＝ピエモンテ"
+
+ TTS:0 "両シチリア"
+ TTS_DEF:0 "両シチリア"
+ TTS_ADJ:0 "両シチリア"
+ 
+#The Black Shining
+ 
+ BNF:0 "ベルギー＝北フランス"
+ BNF_DEF:0 "ベルギー＝北フランス"
+ BNF_ADJ:0 "ベルギー＝北フランス"
+ 
+ CCS:0 "コーカサス"
+ CCS_DEF:0 "コーカサス"
+ CCS_ADJ:0 "コーカサス"
+ 
+ GBR:0 "イギリス"
+ GBR_DEF:0 "イギリス"
+ GBR_ADJ:0 "イギリス"
+ 
+ MAF:0 "中央アフリカ"
+ MAF_DEF:0 "中央アフリカ"
+ MAF_ADJ:0 "中央アフリカ"
+ 
+ NID:0 "オランダ"
+ NID_DEF:0 "オランダ"
+ NID_ADJ:0 "オランダ"
+ 
+ RFP:0 "ロシア"
+ RFP_DEF:0 "ロシア"
+ RFP_ADJ:0 "ロシア"
+ 
+ RKK:0 "コーカサス"
+ RKK_DEF:0 "コーカサス"
+ RKK_ADJ:0 "コーカサス"
+ 
+ RKM:0 "モスクワ"
+ RKM_DEF:0 "モスクワ"
+ RKM_ADJ:0 "モスクワ"
+ 
+ RKO:0 "オストラント"
+ RKO_DEF:0 "オストラント"
+ RKO_ADJ:0 "オストラント"
+ 
+ RKU:0 "ウクライナ"
+ RKU_DEF:0 "ウクライナ"
+ RKU_ADJ:0 "ウクライナ"
+ 
+ RLA:0 "ロシア"
+ RLA_DEF:0 "ロシア"
+ RLA_ADJ:0 "ロシア"
+ 
+ RPG:0 "ルーマニア"
+ RPG_DEF:0 "ルーマニア"
+ RPG_ADJ:0 "ルーマニア"
+ 
+ RUS:0 "ロシア"
+ RUS_DEF:0 "ロシア"
+ RUS_ADJ:0 "ロシア"
+ 
+ STO:0 "カムチャツカ"
+ STO_DEF:0 "カムチャツカ"
+ STO_ADJ:0 "カムチャツカ"
+ 
+ VCT:0 "バチカン"
+ VCT_DEF:0 "バチカン"
+ VCT_ADJ:0 "バチカン"

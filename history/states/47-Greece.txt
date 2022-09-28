@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=47
 	name="STATE_47" # Thessaly
 	manpower=2312500
-	resources={
+	resources = { 
 		steel=3 # was: 4
 		chromium=12 # was: 22
 		aluminium=30 # was: 58
@@ -12,7 +12,7 @@ state={
 	
 	state_category = city
 
-	history={
+	history = { 
 		owner = GRE
 		victory_points = {
 			4109 20 
@@ -50,7 +50,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		863 976 1109 3864 3973 3988 4109 6930 7127 
 	}
 

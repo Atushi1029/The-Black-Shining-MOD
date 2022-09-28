@@ -35,11 +35,25 @@ technologies = {
 
 		categories = {
 			artillery
-			cat_line_artillery
 		}
 
 		ai_will_do = {
 			factor = 2
+
+			modifier = {
+				factor = 2
+				date > "1973.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1974.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1975.1.1"
+			}
 		}
 	}
 
@@ -92,7 +106,6 @@ technologies = {
 
 		categories = {
 			artillery
-			cat_line_artillery
 		}
 
 		ai_will_do = {
@@ -102,10 +115,12 @@ technologies = {
 				factor = 2
 				date > "1973.1.1"
 			}
+
 			modifier = {
 				factor = 2
 				date > "1974.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1975.1.1"
@@ -122,7 +137,6 @@ technologies = {
 		enable_equipment_modules = {
 			tank_medium_howitzer
 			tank_medium_cannon
-
 		}
 
 		path = {
@@ -141,35 +155,29 @@ technologies = {
 
 		categories = {
 			artillery
-			cat_line_artillery
 		}
 
 		ai_will_do = {
 			factor = 2
+
 			modifier = {
 				factor = 2
 				date > "1974.1.9"
 			}
+
 			modifier = {
 				factor = 2
 				date > "1975.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1975.1.6"
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
-				}
 			}
 		}
 	}
 
 	artillery2 = {
-
 
 		artillery = {
 			soft_attack = 0.1
@@ -217,7 +225,6 @@ technologies = {
 
 		categories = {
 			artillery
-			cat_line_artillery
 		}
 
 		ai_will_do = {
@@ -236,13 +243,6 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1978.1.1"
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
-				}
 			}
 		}
 	}
@@ -293,7 +293,6 @@ technologies = {
 
 		categories = {
 			artillery
-			cat_line_artillery
 		}
 
 		ai_will_do = {
@@ -303,16 +302,10 @@ technologies = {
 				factor = 2
 				date > "1977.1.6"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1978.1.1"
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
-				}
 			}
 		}
 	}
@@ -342,7 +335,6 @@ technologies = {
 
 		categories = {
 			artillery
-			cat_line_artillery
 		}
 
 		ai_will_do = {
@@ -352,20 +344,15 @@ technologies = {
 				factor = 2
 				date > "1977.1.9"
 			}
+
 			modifier = {
 				factor = 2
 				date > "1978.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1978.1.6"
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
-				}
 			}
 		}
 	}
@@ -413,7 +400,6 @@ technologies = {
 
 		categories = {
 			artillery
-			cat_line_artillery
 		}
 
 		ai_will_do = {
@@ -423,20 +409,37 @@ technologies = {
 				factor = 2
 				date > "1979.1.6"
 			}
+
 			modifier = {
 				factor = 2
 				date > "1980.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1981.1.1"
 			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
-				}
+		}
+	}
+
+	mountain_gun = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		artillery_brigade = {
+			mountain = {
+				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
+			}
+		}
+
+		anti_tank_brigade = {
+			mountain = {
+				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
 			}
 		}
 	}
@@ -452,6 +455,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_rocket_launcher
+			rocket_rails
 		}
 
 		path = {
@@ -470,6 +474,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -496,6 +505,7 @@ technologies = {
 			leads_to_tech = rocket_artillery3
 			research_cost_coeff = 1
 		}
+
 		research_cost = 1
 
 		start_year = 1977
@@ -507,6 +517,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -545,6 +560,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -574,6 +594,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
 		}
 
 		categories = {
@@ -617,23 +642,31 @@ technologies = {
 			factor = 1
 
 			modifier = {
+				factor = 0.5
+
+				OR = {
+					tag = CHI
+					tag = PRC
+					tag = XSM
+					tag = SIK
+					tag = GXC
+					tag = SHX
+					tag = YUN
+				}
+			}
+			modifier = {
 				factor = 2
 				date > "1973.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1974.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1975.1.1"
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
-				}
 			}
 		}
 
@@ -674,11 +707,17 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 2
 				OR = {
-					is_major = yes
-					num_of_military_factories > 10
+					tag = JAP
+					tag = ENG
+					tag = USA
 				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
 			}
 		}
 
@@ -717,13 +756,19 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
-				factor = 2
 				OR = {
-					is_major = yes
-					num_of_military_factories > 10
+					tag = JAP
+					tag = ENG
+					tag = USA
 				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
 			}
 		}
 
@@ -767,6 +812,19 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
 		}
 
 		categories = {
@@ -805,6 +863,19 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
 		}
 
 		categories = {
@@ -839,6 +910,19 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
 		}
 
 		categories = {
@@ -848,12 +932,14 @@ technologies = {
 	}
 
 	interwar_antitank = {
+
 		enable_equipments = {
 			anti_tank_equipment_1
 		}
 		enable_equipment_modules = {
 			tank_high_velocity_cannon
 			tank_heavy_cannon
+			tank_buster_1
 		}
 		path = {
 			leads_to_tech = antitank1
@@ -871,14 +957,40 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 0.2
+
+				OR = {
+					tag = CHI
+					tag = PRC
+					tag = XSM
+					tag = SIK
+					tag = GXC
+					tag = SHX
+					tag = YUN
+				}
+			}
+			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
 			modifier = {
 				factor = 2
 				date > "1973.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1974.1.1"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1975.1.1"
@@ -958,13 +1070,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
-				}
-			}
-			modifier = {
 				factor = 10
 				any_enemy_country = {
 					ROOT = {
@@ -976,9 +1081,20 @@ technologies = {
 				}
 			}
 			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
 				factor = 2
 				date > "1975.1.6"
 			}
+
 			modifier = {
 				factor = 5
 				date > "1976.1.1"
@@ -994,8 +1110,8 @@ technologies = {
 	antitank2 = {
 
 		mot_anti_tank_brigade = {
-			hard_attack = 0.2
-			ap_attack = 0.2
+			hard_attack = 0.1
+			ap_attack = 0.1
 		}
 
 		enable_equipments = {
@@ -1003,6 +1119,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_heavy_cannon_2
+			tank_buster_2
 		}
 		path = {
 			leads_to_tech = antitank3
@@ -1026,8 +1143,23 @@ technologies = {
 				date > "1975.1.9"
 			}
 			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
 				factor = 2
 				date > "1976.1.1"
+			}
+			modifier = {
+				tag = USA
+				has_War = no
+				factor = 0.5 #this tank nonsense will never catch on
 			}
 			modifier = {
 				factor = 5
@@ -1042,13 +1174,6 @@ technologies = {
 							value > 32
 						}
 					}
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
 				}
 			}
 		}
@@ -1077,23 +1202,23 @@ technologies = {
 		}
 		light_tank_destroyer_brigade = {
 			hard_attack = 0.1
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		medium_tank_destroyer_brigade = {
 			hard_attack = 0.1
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		heavy_tank_destroyer_brigade = {
 			hard_attack = 0.1
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		super_heavy_tank_destroyer_brigade = {
 			hard_attack = 0.1
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		modern_tank_destroyer_brigade = {
 			hard_attack = 0.1
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 
 		path = {
@@ -1118,6 +1243,16 @@ technologies = {
 				date > "1977.1.6"
 			}
 			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
 				factor = 2
 				date > "1978.1.1"
 			}
@@ -1135,13 +1270,6 @@ technologies = {
 							value > 32
 						}
 					}
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
 				}
 			}
 		}
@@ -1170,23 +1298,23 @@ technologies = {
 		}
 		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		medium_tank_destroyer_brigade = {
 			hard_attack = 0.05
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		heavy_tank_destroyer_brigade = {
 			hard_attack = 0.05
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		super_heavy_tank_destroyer_brigade = {
 			hard_attack = 0.05
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 		modern_tank_destroyer_brigade = {
 			hard_attack = 0.05
-			ap_attack = 0.1
+			ap_attack = 0.05
 		}
 
 		path = {
@@ -1211,6 +1339,16 @@ technologies = {
 				date > "1978.1.6"
 			}
 			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
 				factor = 5
 				date > "1979.1.1"
 			}
@@ -1223,13 +1361,6 @@ technologies = {
 							value > 35
 						}
 					}
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					is_major = yes
-					num_of_military_factories > 10
 				}
 			}
 		}
@@ -1267,6 +1398,16 @@ technologies = {
 				date > "1978.1.9"
 			}
 			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
 				factor = 2
 				date > "1979.1.1"
 			}
@@ -1293,4 +1434,5 @@ technologies = {
 			cat_anti_tank
 		}
 	}
+
 }

@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=10
 	name="STATE_10"
 
-	history={
+	history = { 
 		owner = GER
 		add_core_of = GER
 		add_core_of = POL
@@ -20,7 +20,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		467 524 3482 3544 6511 9400 11492 12562 
 	}
 	manpower=3086000

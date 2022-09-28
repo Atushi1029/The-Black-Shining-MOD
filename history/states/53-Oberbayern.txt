@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=53
 	name="STATE_53"
 
-	history={
+	history = { 
 		owner = GER
 		buildings = {
 			infrastructure = 3
@@ -13,7 +13,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		532 571 586 3299 3541 3571 6540 11497 
 	}
 	manpower=1133355

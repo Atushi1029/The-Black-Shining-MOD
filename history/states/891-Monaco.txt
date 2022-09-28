@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=891
 	name="STATE_891"
 
-	history={
+	history = { 
 		owner = ITA
 		victory_points = {
 			13265 1 
@@ -16,7 +16,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		13265 
 	}
 	manpower=22501

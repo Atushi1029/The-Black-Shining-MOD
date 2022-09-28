@@ -1,13 +1,13 @@
 
-state={
+state = { 
 	id=32
 	name="STATE_32"
-	resources={
+	resources = { 
 		steel=30.000
 		aluminium=30.000
 	}
 
-	history={
+	history = { 
 		owner = FRA
 		buildings = {
 			infrastructure = 2
@@ -19,7 +19,7 @@ state={
 		add_core_of = FRA
 	}
 
-	provinces={
+	provinces = { 
 		762 780 3589 3762 3768 6784 11713 
 	}
 	manpower=1007500

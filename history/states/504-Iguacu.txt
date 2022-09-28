@@ -1,11 +1,11 @@
 
-state={
+state = { 
 	id=504
 	name="STATE_504"
 	
 	state_category = rural
 
-	history={
+	history = { 
 		owner = BRA
 		buildings = {
 			infrastructure = 1
@@ -15,7 +15,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		2111 2181 5200 8189 8224 10959 12951 
 	}
 	manpower=229900

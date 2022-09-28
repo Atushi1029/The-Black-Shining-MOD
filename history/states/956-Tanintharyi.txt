@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=956
 	name="STATE_956"
 
-	history={
+	history = { 
 		add_core_of = BRM
 		add_core_of = SIA
 		owner = SIA
@@ -13,7 +13,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1296 1315 1385 1403 4275 4408 7295 10217 12125 12238 12292 
 	}
 	manpower=2100000

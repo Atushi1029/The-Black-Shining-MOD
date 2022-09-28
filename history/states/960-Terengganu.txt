@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=960
 	name="STATE_960"
 
-	history={
+	history = { 
 		owner = MAL
 		victory_points = {
 			7329 1 
@@ -19,7 +19,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1348 4355 7329 10227 12199 
 	}
 	manpower=600100

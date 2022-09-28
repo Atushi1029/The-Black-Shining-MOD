@@ -791,6 +791,67 @@ CHU = {
 	color = rgb { 134 89 45 }
 	color_ui = rgb { 134 89 45 }
 }
+AFA = {
+	color = rgb { 153 0 51 }
+	color_ui = rgb { 153 0 51 }
+}
+BEG = {
+	color = rgb { 255 212 128 }
+	color_ui = rgb { 255 212 128 }
+}
+GBA = {
+	color = rgb { 0 153 51 }
+	color_ui = rgb { 0 153 51 }
+}
+HAR = {
+	color = rgb { 242 242 242 }
+	color_ui = rgb { 242 242 242 }
+}
+ORO = {
+	color = rgb { 255 77 77 }
+	color_ui = rgb { 255 77 77 }
+}
+SID = {
+	color = rgb { 102 102 255 }
+	color_ui = rgb { 102 102 255 }
+}
+TIG = {
+	color = rgb { 255 51 0 }
+	color_ui = rgb { 255 51 0 }
+}
+QEM = {
+	color = rgb { 51 102 153 }
+	color_ui = rgb { 51 102 153 }
+}
+KHA = {
+	color = rgb { 51 204 51 }
+	color_ui = rgb { 51 204 51 }
+}
+AOI = {
+	color = rgb { 0 153 51 }
+	color_ui = rgb { 0 153 51 }
+}
+LBV = {
+	color = rgb { 179 11 0 }
+	color_ui = rgb { 179 11 0 }
+}
+PAP = {
+	color = rgb { 255 255 204 }
+	color_ui = rgb { 255 255 204 }
+}
+TOS = {
+	color = rgb { 255 128 128 }
+	color_ui = rgb { 255 128 128 }
+}
+SPM = {
+	color = rgb { 0 255 255 }
+	color_ui = rgb { 0 255 255 }
+}
+TTS = {
+	color = rgb { 230 230 0 }
+	color_ui = rgb { 230 230 0 }
+}
+#The Black Shining
 ADU = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 204 0 0 }
@@ -1066,6 +1127,10 @@ RCG = {
 RFP = {
 	color = rgb { 38 146 90 }
 	color_ui = rgb { 38 146 90 }
+}
+RIF = {
+	color = rgb { 138 13 13 }
+	color_ui = rgb { 138 13 13 }
 }
 RKK = {
 	color = hsv { 0.1 0.15 0.4 }

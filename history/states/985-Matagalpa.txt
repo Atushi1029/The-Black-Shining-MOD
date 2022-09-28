@@ -1,11 +1,11 @@
-state={
+state = { 
 	id=985
 	name="STATE_985"
-	resources={}
+	resources = { }
 
 	state_category = rural
 
-	history={
+	history = { 
 		owner = NIC
 		buildings = {
 			infrastructure = 2
@@ -18,7 +18,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		10728
 	}
 	manpower=170750

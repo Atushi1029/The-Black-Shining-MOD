@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=900
 	name="STATE_900"
 
-	history={
+	history = { 
 		add_core_of = SAU
 		owner = SAU
 		victory_points = {
@@ -13,7 +13,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		13270 
 	}
 	manpower=20300

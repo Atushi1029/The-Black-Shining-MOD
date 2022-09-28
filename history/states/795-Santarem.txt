@@ -1,10 +1,10 @@
-state={
+state = { 
 	id=795
 	name="STATE_795"
-	resources={
+	resources = { 
 		chromium=20.000 #added due to portugal setup
 	}
-	history={
+	history = { 
 		owner = POR
 		victory_points = {
 			9869 1 
@@ -21,7 +21,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		844 924 3846 3886 3926 6986 9869 11768 
 	}
 	manpower=729712

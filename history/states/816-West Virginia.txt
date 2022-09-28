@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=816
 	name="STATE_816"
 	state_category = town
-	history={
+	history = { 
 		owner = USA
 		add_core_of = USA
 		buildings = {
@@ -14,7 +14,7 @@ state={
 			7588 3
 		}
 	}
-	provinces={
+	provinces = { 
 		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 
 	}
 	manpower=1901974

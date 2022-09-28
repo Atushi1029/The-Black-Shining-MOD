@@ -1,17 +1,17 @@
 
-state={
+state = { 
 	id=564
 	name="STATE_564" # Ulan Ude
 	manpower = 370893
 	state_category = rural
-	resources={
+	resources = { 
 		steel=10 # was: 20
 		chromium=12 # was: 34
 		tungsten=10 # was: 28
 		aluminium=4 # was: 8
 	}
 
-	history={
+	history = { 
 		owner = FER
 		add_core_of = FER
 		add_claim_by = RLA
@@ -30,7 +30,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		1696 1762 1810 4716 4766 4835 4837 7736 7816 7835 10524 10528 10543 10658 12506 12575 12644 13152
 	}
 

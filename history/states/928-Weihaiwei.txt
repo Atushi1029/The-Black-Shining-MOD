@@ -1,4 +1,4 @@
-state={
+state = { 
 	id=928
 	name="STATE_928"
 
@@ -17,7 +17,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		13279 
 	}
 	manpower=5200000

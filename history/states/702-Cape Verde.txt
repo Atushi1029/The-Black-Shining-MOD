@@ -1,22 +1,22 @@
-state={
+state = { 
 	id=702
 	name="STATE_702"
 	manpower = 150600
 	
 	state_category = small_island
 
-	history={
+	history = { 
 		owner = GNA
 		add_core_of = GNA
 		buildings = {
 			infrastructure = 2
-			13014 ={
+			13014  = { 
 				naval_base = 1
 			}
 		}
 	}
 
-	provinces={
+	provinces = { 
 		13014 
 	}
 

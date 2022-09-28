@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=954
 	name="STATE_954"
 
-	history={
+	history = { 
 		owner = SIA
 		buildings = {
 			infrastructure = 2
@@ -16,7 +16,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1253 1427 1488 4319 4348 4566 7312 7338 7367 7544 7559 7587 7675 10193 
 	}
 	manpower=3200000

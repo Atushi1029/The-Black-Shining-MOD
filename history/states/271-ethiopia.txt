@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=271
 	name="STATE_271"
-	resources={
+	resources = { 
 		rubber=2.000
 	}
 
-	history={
+	history = { 
 		owner = ETH
 		buildings = {
 			infrastructure = 2
@@ -24,8 +24,8 @@ state={
 		add_core_of = ETH
 	}
 
-	provinces={
-		1984 2009 2040 2072 4954 5010 5041 5097 7912 7944 8019 8036 8062 10734 10775 12856 13137 
+	provinces = { 
+		1984 2009 2040 2072 4954 5010 5097 7912 7944 8019 8036 8062 10734 10775 12856 13137 
 	}
 	manpower=7000000
 	buildings_max_level_factor=1.000

@@ -1,10 +1,10 @@
-state={
+state = { 
 	id=730
 	name="STATE_730"
 	manpower=3426
 	state_category = tiny_island
 
-	history={
+	history = { 
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
@@ -15,7 +15,7 @@ state={
 		}
 	}
 	
-	provinces={ 373 }
+	provinces = {  373 }
 
 	local_supplies=0.0 
 }

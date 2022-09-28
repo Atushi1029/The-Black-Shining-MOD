@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=204
 	name="STATE_204"
 
-	history={
+	history = { 
 		victory_points = {
 			3350 3 
 		}
@@ -19,7 +19,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		304 331 386 3350 6373 11313 
 	}
 	manpower=1041084

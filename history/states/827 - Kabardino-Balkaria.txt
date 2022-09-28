@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=827
 	name="STATE_827"
-	resources={
+	resources = { 
 		chromium=17.000
 	}
 
-	history={
+	history = { 
 		owner = RKK
 		add_core_of = RKK
 		set_state_flag = russian_old_states
@@ -20,7 +20,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		685 9628 9647 11614 
 	}
 	manpower=387990

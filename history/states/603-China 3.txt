@@ -1,9 +1,9 @@
 
-state={
+state = { 
 	id=603
 	name="STATE_603"
 
-	history={
+	history = { 
 		owner = CHI
 		add_core_of = CHI
 		
@@ -19,7 +19,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1474 1884 4192 4504 4532 7521 7549 7577 8095 10616 10819 
 	}
 	manpower=7543200

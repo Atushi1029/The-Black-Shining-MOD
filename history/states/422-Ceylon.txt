@@ -6,11 +6,11 @@ state=
 	
 	state_category = rural
 
-	resources={
+	resources = { 
 		rubber=60 # was: 116
 	}
 
-	history={
+	history = { 
 		add_core_of = JAP
 		add_core_of = SRL
 		owner = JAP
@@ -32,7 +32,7 @@ state=
 
 	}
 	
-	provinces={
+	provinces = { 
 		1213 4219 7260 7344 10201 10229 10287 12258 
 	}
 

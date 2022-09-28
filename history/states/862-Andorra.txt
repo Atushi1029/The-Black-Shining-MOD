@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=862
 	name="STATE_862"
 
-	history={
+	history = { 
 		owner = SPR
 		buildings = {
 			infrastructure = 3
@@ -13,7 +13,7 @@ state={
 		add_core_of = SPR
 	}
 
-	provinces={
+	provinces = { 
 		13243 
 	}
 	manpower=15012

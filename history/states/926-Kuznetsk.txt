@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=926
 	name="STATE_926"
 
-	history={
+	history = { 
 		owner = RLA
 		add_core_of = RLA
 		add_claim_by = FER
@@ -15,7 +15,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		208 257 324 345 353 380 483 3197 3224 3269 3285 3317 3334 3352 3383 3477 6327 6374 9325 11240 11269 11364 11373 11393 
 	}
 	manpower=900400

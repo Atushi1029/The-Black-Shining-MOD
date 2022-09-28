@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=953
 	name="STATE_953"
 
-	history={
+	history = { 
 		owner = CUB
 		victory_points = {
 			7546 1 
@@ -16,7 +16,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		4476 7546 10374 
 	}
 	manpower=802000

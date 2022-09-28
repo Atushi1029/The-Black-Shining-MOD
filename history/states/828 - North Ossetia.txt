@@ -1,12 +1,12 @@
 
-state={
+state = { 
 	id=828
 	name="STATE_828"
-	resources={
+	resources = { 
 		chromium=8.000
 	}
 
-	history={
+	history = { 
 		owner = RKK
 		add_core_of = GEO
 		add_core_of = RKK
@@ -20,7 +20,7 @@ state={
 
 	}
 
-	provinces={
+	provinces = { 
 		1530 9632 
 	}
 	manpower=387990

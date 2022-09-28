@@ -1,8 +1,8 @@
-state={
+state = { 
 	id=883
 	name="STATE_883"
 
-	history={
+	history = { 
 		owner = ROM
 		add_core_of = ROM
 		add_claim_by = RPG
@@ -24,7 +24,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = { 
 		657 687 3076 9635 13248 
 	}
 	manpower=1620000
