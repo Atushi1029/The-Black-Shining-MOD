@@ -60,6 +60,32 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	GER_armin_zimmermann = {
+		name = GER_armin_zimmermann
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Germany_Armin_Zimmermann"
+				small = "GFX_idea_Germany_armin_zimmermann"
+			}
+			army = {
+				large = "GFX_Portrait_Germany_Armin_Zimmermann"
+				small = "GFX_idea_Germany_armin_zimmermann"
+			}
+			navy = {
+				large = "GFX_Portrait_Germany_Armin_Zimmermann"
+				small = "GFX_idea_Germany_armin_zimmermann"
+			}
+		}
+		navy_leader = {
+			traits = { gentlemanly }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id = -1
+		}
+	}
 	GER_eckart_afheldt = {
 		name = GER_eckart_afheldt
 		portraits = {
@@ -262,6 +288,32 @@ characters = {
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	GER_gunter_luther = {
+		name = GER_gunter_luther
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Germany_Gunter_Luther"
+				small = "GFX_idea_Germany_gunter_luther"
+			}
+			army = {
+				large = "GFX_Portrait_Germany_Gunter_Luther"
+				small = "GFX_idea_Germany_gunter_luther"
+			}
+			navy = {
+				large = "GFX_Portrait_Germany_Gunter_Luther"
+				small = "GFX_idea_Germany_gunter_luther"
+			}
+		}
+		navy_leader = {
+			traits = { old_guard_navy }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
 			legacy_id = -1
 		}
 	}
@@ -560,6 +612,32 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	GER_theodor_hoffmann = {
+		name = GER_theodor_hoffmann
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Germany_Theodor_Hoffmann"
+				small = "GFX_idea_Germany_theodor_hoffmann"
+			}
+			army = {
+				large = "GFX_Portrait_Germany_Theodor_Hoffmann"
+				small = "GFX_idea_Germany_theodor_hoffmann"
+			}
+			navy = {
+				large = "GFX_Portrait_Germany_Theodor_Hoffmann"
+				small = "GFX_idea_Germany_theodor_hoffmann"
+			}
+		}
+		navy_leader = {
+			traits = { craven }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
 	GER_wolf_graf_von_baudissin = {
 		name = GER_wolf_graf_von_baudissin
 		portraits = {
@@ -583,6 +661,32 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	GER_wolfgang_benzino = {
+		name = GER_wolfgang_benzino
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Germany_Wolfgang_Benzino"
+				small = "GFX_idea_Germany_wolfgang_benzino"
+			}
+			army = {
+				large = "GFX_Portrait_Germany_Wolfgang_Benzino"
+				small = "GFX_idea_Germany_wolfgang_benzino"
+			}
+			navy = {
+				large = "GFX_Portrait_Germany_Wolfgang_Benzino"
+				small = "GFX_idea_Germany_wolfgang_benzino"
+			}
+		}
+		navy_leader = {
+			traits = { bold }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
 			legacy_id = -1
 		}
 	}

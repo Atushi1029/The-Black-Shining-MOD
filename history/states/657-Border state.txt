@@ -11,10 +11,8 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = FER
 		owner = MAN
 		add_core_of = MAN
-		add_claim_by = FER
 		set_state_flag = russian_old_states
 		victory_points = {
 			4805 1

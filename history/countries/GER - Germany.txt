@@ -17,6 +17,7 @@ recruit_character = GER_wilhelm_stuckart
 #Generals
 recruit_character = GER_adolf_heusinger
 recruit_character = GER_alfred_zerbel
+recruit_character = GER_armin_zimmermann
 recruit_character = GER_eckart_afheldt
 recruit_character = GER_friedrich_august_freiherr_von_der_heydte
 recruit_character = GER_friedrich_guggenberger
@@ -24,6 +25,7 @@ recruit_character = GER_fritz_albrecht
 recruit_character = GER_fritz_klingenberg
 recruit_character = GER_fritz_streletz
 recruit_character = GER_gerhard_wessel
+recruit_character = GER_gunter_luther
 recruit_character = GER_hans_scholl
 recruit_character = GER_hans_speidel
 recruit_character = GER_hans-joachim_loser
@@ -34,7 +36,9 @@ recruit_character = GER_herbert_gille
 recruit_character = GER_herwig_collmann
 recruit_character = GER_horst_brunner
 recruit_character = GER_otto_skorzeny
+recruit_character = GER_theodor_hoffmann
 recruit_character = GER_wolf_graf_von_baudissin
+recruit_character = GER_wolfgang_benzino
 set_convoys = 20
 add_ideas = {
 	GER_fritz_rossler_jus

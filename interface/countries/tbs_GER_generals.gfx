@@ -80,6 +80,22 @@ spriteTypes = {
 		name = "GFX_idea_GER_wolf_graf_von_baudissin"
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_wolf_graf_von_baudissin.png"
 	}
+	spriteType = {
+		name = "GFX_idea_Germany_armin_zimmermann"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_Germany_armin_zimmermann.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Germany_gunter_luther"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_Germany_gunter_luther.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Germany_theodor_hoffmann"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_Germany_theodor_hoffmann.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Germany_wolfgang_benzino"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_Germany_wolfgang_benzino.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_GER_Adolf_Heusinger"
@@ -160,5 +176,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_GER_Wolf_Graf_von_Baudissin"
 		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Wolf_Graf_von_Baudissin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Armin_Zimmermann"
+		texturefile = "gfx/leaders/GER/generals/Portrait_Germany_Armin_Zimmermann.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Gunter_Luther"
+		texturefile = "gfx/leaders/GER/generals/Portrait_Germany_Gunter_Luther.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Theodor_Hoffmann"
+		texturefile = "gfx/leaders/GER/generals/Portrait_Germany_Theodor_Hoffmann.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Wolfgang_Benzino"
+		texturefile = "gfx/leaders/GER/generals/Portrait_Germany_Wolfgang_Benzino.png"
 	}
 }

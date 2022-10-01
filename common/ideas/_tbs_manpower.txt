@@ -81,5 +81,47 @@ ideas = {
 				training_time_factor = 0.5
 			}
 		}
+		chitet_law = { #No Effects
+			name = ETH_chitet_law
+			picture = ETH_chitet_law
+			level = 1
+			allowed = { always = no }
+			available = { always = no }
+			cancel_if_invalid = yes
+			modifier = {}
+		}
+		chitet_law_peace_time = { #No Effects
+			name = ETH_chitet_law_peace_time
+			picture = ETH_chitet_law
+			level = 1
+			allowed = { always = no }
+			available = { always = no }
+			cancel_if_invalid = yes
+			modifier = {}
+		}
+		citizen_militia_1 = {
+			name = SWI_citizen_militia_1
+			picture = citizen_militia_1
+			level = 6
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				conscription = 0.1
+				ai_desired_divisions_factor = 1
+			}
+		}
+		citizen_militia_2 = {
+			name = SWI_citizen_militia_2
+			picture = citizen_militia_2
+			level = 6
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				conscription = 0.2
+				ai_desired_divisions_factor = 2
+			}
+		}
 	}
 }

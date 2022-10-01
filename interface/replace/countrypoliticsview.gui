@@ -146,7 +146,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "power_balance_button"
-				position = { x = 320 y = -62 }
+				position = { x = -76 y = 156 }
 				clipping = no
 
 				buttonType = {
@@ -191,7 +191,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 3 y = 375 }
+			position = { x = 3 y = 425 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
@@ -202,11 +202,11 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 95 y = 8 }
+				position = { x = 100 y = 8 }
 				font = "hoi_18mbs"
 				text = "autonomy"
 				fixedsize = yes
-				maxWidth = 100
+				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
@@ -545,7 +545,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "show_subjects_button_text"
-				position = { x = 0 y = 8 }
+				position = { x = 32 y = 8 }
 				font = "hoi_16mbs"
 				text = "MANAGE_SUBJECTS"
 				Orientation = "UPPER_LEFT"

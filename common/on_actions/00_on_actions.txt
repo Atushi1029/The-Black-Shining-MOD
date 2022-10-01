@@ -57,9 +57,11 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					NOT = { has_global_flag = romanian_civilwar_finish }
 					FROM = { tag = RPG }
 					ROOT = { tag = ROM }
 				}
+				set_global_flag = romanian_civilwar_finish
 				ROOT = {
 					ROM_delete_communist_states = yes
 					ROM_setup_communism_government = yes
@@ -76,9 +78,11 @@ on_actions = {
 			}
 			else_if = {
 				limit = {
+					NOT = { has_global_flag = romanian_civilwar_finish }
 					FROM = { tag = ROM }
 					ROOT = { tag = RPG }
 				}
+				set_global_flag = romanian_civilwar_finish
 				FROM = {
 					ROM_delete_communist_states = yes
 					white_peace = {
@@ -97,10 +101,13 @@ on_actions = {
 						tag = ROOT
 						message = white_peace_generic_tt
 					}
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
+				}
+				every_state = {
+					limit = {
+						is_owned_by = ROOT
+						is_claim_or_core_of_FROM = yes
 					}
+					transfer_state_to = FROM
 				}
 			}
 		}

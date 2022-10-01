@@ -15,6 +15,7 @@
  #軍人
  GER_adolf_heusinger:0 "アドルフ・ホイジンガー"
  GER_alfred_zerbel:0 "アルフレート・ツェルベル"
+ GER_armin_zimmermann:0 "アルミン・ツィンマーマン"
  GER_eckart_afheldt:0 "エッカート・アフェルド"
  GER_friedrich_august_freiherr_von_der_heydte:0 "フリードリヒ・フォン・デア・ハイテ"
  GER_friedrich_guggenberger:0 "フリードリヒ・グッゲンベルガー"
@@ -22,6 +23,7 @@
  GER_fritz_klingenberg:0 "フリッツ・クリンゲンベルク"
  GER_fritz_streletz:0 "フリッツ・シュトレーレッツ"
  GER_gerhard_wessel:0 "ゲルハルト・ヴェッセル"
+ GER_gunter_luther:0 "ギュンター・ルター"
  GER_hans_scholl:0 "ハンス・ショル"
  GER_hans_speidel:0 "ハンス・シュパイデル"
  GER_hans-joachim_loser:0 "ハンス＝ヨアヒム・レーサー"
@@ -32,7 +34,9 @@
  GER_herwig_collmann:0 "ヘルウィグ・コルマン"
  GER_horst_brunner:0 "ホルスト・ブリュンナー"
  GER_otto_skorzeny:0 "オットー・スコルツェニー"
+ GER_theodor_hoffmann:0 "テオドール・ホフマン"
  GER_wolf_graf_von_baudissin:0 "ヴォルフ・グラフ・フォン・バウディスィーン"
+ GER_wolfgang_benzino:0 "ヴォルフガング・ベンジーノ"
 #政党
  GER_totalitarian_socialism_party:0 "反ナチスレジスタンス運動"
  GER_totalitarian_socialism_party_long:0 "反ナチスレジスタンス運動"

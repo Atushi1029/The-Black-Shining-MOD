@@ -15,6 +15,7 @@
  #Generals
  GER_adolf_heusinger:0 "Adolf Heusinger"
  GER_alfred_zerbel:0 "Alfred Zerbel"
+ GER_armin_zimmermann:0 "Armin Zimmermann"
  GER_eckart_afheldt:0 "Eckart Afheldt"
  GER_friedrich_august_freiherr_von_der_heydte:0 "Friedrich August Freiherr von der Heydte"
  GER_friedrich_guggenberger:0 "Friedrich Guggenberger"
@@ -22,6 +23,7 @@
  GER_fritz_klingenberg:0 "Fritz Klingenberg"
  GER_fritz_streletz:0 "Fritz Streletz"
  GER_gerhard_wessel:0 "Gerhard Wessel"
+ GER_gunter_luther:0 "Günter Luther"
  GER_hans_scholl:0 "Hans Scholl"
  GER_hans_speidel:0 "Hans Speidel"
  GER_hans-joachim_loser:0 "Hans-Joachim Löser"
@@ -32,7 +34,9 @@
  GER_herwig_collmann:0 "Herwig Collmann"
  GER_horst_brunner:0 "Horst Brünner"
  GER_otto_skorzeny:0 "Otto Skorenzy"
+ GER_theodor_hoffmann:0 "Theodor Hoffmann"
  GER_wolf_graf_von_baudissin:0 "Wolf Graf von Baudissin"
+ GER_wolfgang_benzino:0 "Wolfgang Benzino"
 #Parties
  GER_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
  GER_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
