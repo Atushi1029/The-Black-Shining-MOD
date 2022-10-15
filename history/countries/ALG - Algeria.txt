@@ -1,5 +1,5 @@
 ﻿capital = 459
-oob = "ALG_1970
+oob = "ALG_1972
 
 
 

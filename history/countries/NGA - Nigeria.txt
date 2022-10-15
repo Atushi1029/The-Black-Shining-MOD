@@ -1,5 +1,5 @@
 ﻿capital = 558
-oob = "NGA_1970
+oob = "NGA_1972
 "
 set_cosmetic_tag = NGA_republic
 set_starting_values = yes

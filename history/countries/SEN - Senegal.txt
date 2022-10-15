@@ -1,5 +1,5 @@
 ﻿capital = 272
-oob = "SEN_1970
+oob = "SEN_1972
 "
 set_cosmetic_tag = SEN_republic
 set_starting_values = yes

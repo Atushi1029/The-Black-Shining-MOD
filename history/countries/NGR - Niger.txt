@@ -1,5 +1,5 @@
 ﻿capital = 781
-oob = "NGR_1970
+oob = "NGR_1972
 
 "
 set_starting_values = yes

@@ -1,5 +1,5 @@
 ﻿capital =298
-oob = "LIB_1970
+oob = "LIB_1972
 
 "
 set_cosmetic_tag = LIB_republic

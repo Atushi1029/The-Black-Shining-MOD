@@ -1,5 +1,5 @@
 ﻿capital = 780
-oob = "GNA_1970
+oob = "GNA_1972
 "
 set_cosmetic_tag = GNA_peoples_republic
 set_starting_values = yes

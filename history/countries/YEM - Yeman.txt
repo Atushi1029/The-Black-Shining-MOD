@@ -1,5 +1,5 @@
 ﻿capital = 293
-oob = "YEM_1970"
+oob = "YEM_1972"
 set_cosmetic_tag = YEM_republic
 set_starting_values = yes
 recruit_character = YEM_qahtan_muhammad_al_shaabi

@@ -1,5 +1,5 @@
 ﻿capital = 274
-oob = "GHA_1970
+oob = "GHA_1972
 "
 set_cosmetic_tag = GHA_republic
 set_starting_values = yes

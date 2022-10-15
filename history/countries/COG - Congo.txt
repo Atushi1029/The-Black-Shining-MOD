@@ -1,5 +1,5 @@
 ﻿capital = 295
-oob = "COG_1970"
+oob = "COG_1972"
 set_cosmetic_tag = COG_republic
 set_starting_values = yes
 recruit_character = COG_fulbert_youlou
