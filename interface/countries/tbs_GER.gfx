@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/idea_GER_heinz_knoke.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_josef_grohe"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_josef_grohe.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_karl_saur"
 		texturefile = "gfx/interface/advisors/GER/idea_GER_karl_saur.png"
 	}
@@ -41,6 +45,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/idea_GER_theo_hupfauer.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_wernher_von_braun"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_wernher_von_braun.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_wilhelm_stuckart"
 		texturefile = "gfx/interface/advisors/GER/idea_GER_wilhelm_stuckart.png"
 	}
@@ -60,6 +68,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_GER_Heinz_Knoke"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Heinz_Knoke.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Josef_Grohe"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Josef_Grohe.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_GER_Karl_Saur"
@@ -84,6 +96,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_GER_Theo_Hupfauer"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Theo_Hupfauer.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Wernher_von_Braun"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Wernher_von_Braun.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_GER_Wilhelm_Stuckart"

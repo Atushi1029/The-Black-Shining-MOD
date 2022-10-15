@@ -6,12 +6,9 @@ state = {
 		owner = GER
 		add_core_of = GER
 		add_core_of = SLV
-		victory_points = {
-			596 3
-		}
-		victory_points = {
-			3631 1
-		}
+		victory_points = { 596 3 }
+		victory_points = { 3631 1 }
+		victory_points = { 665 1 }
 		buildings = {
 			infrastructure = 3
 

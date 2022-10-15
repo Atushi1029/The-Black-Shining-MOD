@@ -49,6 +49,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_hans-joachim_loser.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_harald_wust"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_harald_wust.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_heinrich_trettner"
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_heinrich_trettner.png"
 	}
@@ -73,12 +77,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_horst_brunner.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_hubert_schmundt"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_hubert_schmundt.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_otto_skorzeny"
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_otto_skorzeny.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_rudolf_arendt"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_rudolf_arendt.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_theodor_burchardi"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_theodor_burchardi.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_wolf_graf_von_baudissin"
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_wolf_graf_von_baudissin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_wolfgang_altenburg"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_wolfgang_altenburg.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_wolfgang_thonke"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_wolfgang_thonke.png"
 	}
 	spriteType = {
 		name = "GFX_idea_Germany_armin_zimmermann"
@@ -146,6 +170,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Hans-Joachim_Loser.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_GER_Harald_Wust"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Harald_Wust.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_GER_Heinrich_Trettner"
 		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Heinrich_Trettner.png"
 	}
@@ -170,12 +198,32 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Horst_Brunner.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_GER_Hubert_Schmundt"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Hubert_Schmundt.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_GER_Otto_Skorzeny"
 		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Otto_Skorzeny.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_GER_Rudolf_Arendt"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Rudolf_Arendt.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Theodor_Burchardi"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Theodor_Burchardi.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_GER_Wolf_Graf_von_Baudissin"
 		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Wolf_Graf_von_Baudissin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Wolfgang_Altenburg"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Wolfgang_Altenburg.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Wolfgang_Thonke"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Wolfgang_Thonke.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_Germany_Armin_Zimmermann"

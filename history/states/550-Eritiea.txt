@@ -11,9 +11,8 @@ state=
 		owner = ETH
 		add_core_of = ERI
 		add_core_of = ETH
-		victory_points = {
-			12766 1
-		}
+		victory_points = { 12766 1 }
+		victory_points = { 12723 1 }
 		buildings = {
 			infrastructure = 2
 			air_base = 3

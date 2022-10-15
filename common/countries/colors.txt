@@ -1124,6 +1124,10 @@ RCG = {
 	color = rgb { 79 79 81 }
 	color_ui = rgb { 79 79 81 }
 }
+REA = {
+	color = rgb { 60 90 138 }
+	color_ui = rgb { 60 90 138 }
+}
 RFP = {
 	color = rgb { 38 146 90 }
 	color_ui = rgb { 38 146 90 }

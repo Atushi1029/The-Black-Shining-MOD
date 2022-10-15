@@ -93,6 +93,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/USA/idea_USA_hubert_humphrey.png"
 	}
 	spriteType = {
+		name = "GFX_idea_USA_james_russell_wiggins"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_james_russell_wiggins.png"
+	}
+	spriteType = {
 		name = "GFX_idea_USA_jesse_jackson"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_jesse_jackson.png"
 	}
@@ -107,6 +111,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_USA_john_b_anderson"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_john_b_anderson.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_joseph_walker_barr"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_joseph_walker_barr.png"
 	}
 	spriteType = {
 		name = "GFX_idea_USA_lloyd_bentsen"
@@ -133,6 +141,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/USA/idea_USA_patrick_lucey.png"
 	}
 	spriteType = {
+		name = "GFX_idea_USA_ramsey_clark"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_ramsey_clark.png"
+	}
+	spriteType = {
 		name = "GFX_idea_USA_richard_nixon"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_richard_nixon.png"
 	}
@@ -155,6 +167,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_USA_sidney_hook"
 		texturefile = "gfx/interface/advisors/USA/idea_USA_sidney_hook.png"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_stewart_udall"
+		texturefile = "gfx/interface/advisors/USA/idea_USA_stewart_udall.png"
 	}
 	spriteType = {
 		name = "GFX_idea_USA_tom_kahn"
@@ -262,6 +278,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/USA/Portrait_USA_Hubert_Humphrey.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_USA_James_Russell_Wiggins"
+		texturefile = "gfx/leaders/USA/Portrait_USA_James_Russell_Wiggins.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_USA_Jesse_Jackson"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Jesse_Jackson.png"
 	}
@@ -276,6 +296,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_USA_John_B_Anderson"
 		texturefile = "gfx/leaders/USA/Portrait_USA_John_B_Anderson.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Joseph_Walker_Barr"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Joseph_Walker_Barr.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Lloyd_Bentsen"
@@ -302,6 +326,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/USA/Portrait_USA_Patrick_Lucey.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_USA_Ramsey_Clark"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Ramsey_Clark.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_USA_Richard_Nixon"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Richard_Nixon.png"
 	}
@@ -324,6 +352,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_USA_Sidney_Hook"
 		texturefile = "gfx/leaders/USA/Portrait_USA_Sidney_Hook.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Stewart_Udall"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Stewart_Udall.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_USA_Tom_Kahn"

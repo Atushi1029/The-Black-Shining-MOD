@@ -1,10 +1,18 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
+		name = "GFX_idea_PHI_hong_sa-ik"
+		texturefile = "gfx/interface/advisors/PHI/idea_PHI_hong_sa-ik.png"
+	}
+	spriteType = {
 		name = "GFX_idea_PHI_toshio_nishimura"
 		texturefile = "gfx/interface/advisors/PHI/idea_PHI_toshio_nishimura.png"
 	}
 	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_PHI_Hong_Sa-ik"
+		texturefile = "gfx/leaders/PHI/Portrait_PHI_Hong_Sa-ik.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_PHI_Toshio_Nishimura"
 		texturefile = "gfx/leaders/PHI/Portrait_PHI_Toshio_Nishimura.png"

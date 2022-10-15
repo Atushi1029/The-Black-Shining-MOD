@@ -7,12 +7,14 @@ recruit_character = GER_albert_speer
 recruit_character = GER_baldur_von_schirach
 recruit_character = GER_fritz_rossler
 recruit_character = GER_heinz_knoke
+recruit_character = GER_josef_grohe
 recruit_character = GER_karl_saur
 recruit_character = GER_nsdap_central_commitee
 recruit_character = GER_oskar_dirlewanger
 recruit_character = GER_otto_ernst_remer
 recruit_character = GER_reinhard_heydrich
 recruit_character = GER_theo_hupfauer
+recruit_character = GER_wernher_von_braun
 recruit_character = GER_wilhelm_stuckart
 #Generals
 recruit_character = GER_adolf_heusinger
@@ -29,18 +31,28 @@ recruit_character = GER_gunter_luther
 recruit_character = GER_hans_scholl
 recruit_character = GER_hans_speidel
 recruit_character = GER_hans-joachim_loser
+recruit_character = GER_harald_wust
 recruit_character = GER_heinrich_trettner
 recruit_character = GER_heinz_gunther_guderian
 recruit_character = GER_heinz-georg_lemm
 recruit_character = GER_herbert_gille
 recruit_character = GER_herwig_collmann
 recruit_character = GER_horst_brunner
+recruit_character = GER_hubert_schmundt
 recruit_character = GER_otto_skorzeny
+recruit_character = GER_rudolf_arendt
+recruit_character = GER_theodor_burchardi
 recruit_character = GER_theodor_hoffmann
 recruit_character = GER_wolf_graf_von_baudissin
+recruit_character = GER_wolfgang_altenburg
 recruit_character = GER_wolfgang_benzino
+recruit_character = GER_wolfgang_thonke
 set_convoys = 20
 add_ideas = {
+	GER_legacy_of_the_end_sieg
+	GER_nazis_kaiserreich
+	GER_wind_of_democratization
+	GER_wo_alle_strassen_enden
 	GER_fritz_rossler_jus
 	GER_heinz_knoke_for
 	GER_karl_saur_eco

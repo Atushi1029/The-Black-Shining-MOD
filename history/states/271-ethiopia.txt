@@ -15,12 +15,18 @@ state = {
 			air_base = 1
 
 		}
-		victory_points = {
-			5010 5 
-		}
-		victory_points = {
-			1984 1.0 
-		}
+		victory_points = { 5010 5  }
+		victory_points = { 1984 1 }
+		victory_points = { 2072 1 }
+		victory_points = { 8036 1 }
+		victory_points = { 5097 1 }
+		victory_points = { 4954 1 }
+		victory_points = { 10734 1 }
+		victory_points = { 2009 1 }
+		victory_points = { 7912 1 }
+		victory_points = { 8019 1 }
+		victory_points = { 8062 1 }
+		victory_points = { 10775 1 }
 		add_core_of = ETH
 	}
 

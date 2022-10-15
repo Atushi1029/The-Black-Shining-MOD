@@ -1,7 +1,15 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_idea_HUN_andras_kun"
+		texturefile = "gfx/interface/advisors/HUN/idea_HUN_andras_kun.png"
+	}
+	spriteType = {
 		name = "GFX_idea_HUN_arpad_goncz"
 		texturefile = "gfx/interface/advisors/HUN/idea_HUN_arpad_goncz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_ferenc_szalasi"
+		texturefile = "gfx/interface/advisors/HUN/idea_HUN_ferenc_szalasi.png"
 	}
 	spriteType = {
 		name = "GFX_idea_HUN_istvan_horthy"

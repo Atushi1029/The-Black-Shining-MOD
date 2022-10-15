@@ -185,6 +185,23 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	JAP_hideoto_mori = {
+		name = JAP_hideoto_mori
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hideoto_Mori"
+				small = "GFX_idea_JAP_hideoto_mori"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hideoto_Mori"
+				small = "GFX_idea_JAP_hideoto_mori"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Hideoto_Mori"
+				small = "GFX_idea_JAP_hideoto_mori"
+			}
+		}
+	}
 	JAP_hirohito = {
 		name = JAP_hirohito
 		portraits = {
@@ -411,20 +428,20 @@ characters = {
 			traits = {}
 		}
 	}
-	JAP_kai_katsuyama = {
-		name = JAP_kai_katsuyama
+	JAP_jun_katsuyama = {
+		name = JAP_jun_katsuyama
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_JAP_Kai_Katsuyama"
-				small = "GFX_idea_JAP_kai_katsuyama"
+				large = "GFX_Portrait_JAP_Jun_Katsuyama"
+				small = "GFX_idea_JAP_jun_katsuyama"
 			}
 			army = {
-				large = "GFX_Portrait_JAP_Kai_Katsuyama"
-				small = "GFX_idea_JAP_kai_katsuyama"
+				large = "GFX_Portrait_JAP_Jun_Katsuyama"
+				small = "GFX_idea_JAP_jun_katsuyama"
 			}
 			navy = {
-				large = "GFX_Portrait_JAP_Kai_Katsuyama"
-				small = "GFX_idea_JAP_kai_katsuyama"
+				large = "GFX_Portrait_JAP_Jun_Katsuyama"
+				small = "GFX_idea_JAP_jun_katsuyama"
 			}
 		}
 		navy_leader = {
@@ -605,6 +622,23 @@ characters = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	JAP_kenzo_yamamoto = {
+		name = JAP_kenzo_yamamoto
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kenzo_Yamamoto"
+				small = "GFX_idea_JAP_kenzo_yamamoto"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kenzo_Yamamoto"
+				small = "GFX_idea_JAP_kenzo_yamamoto"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Kenzo_Yamamoto"
+				small = "GFX_idea_JAP_kenzo_yamamoto"
+			}
 		}
 	}
 	JAP_kiyosada_koda = {
@@ -1305,6 +1339,23 @@ characters = {
 			maneuvering_skill = 2
 			coordination_skill = 1
 			legacy_id = -1
+		}
+	}
+	JAP_shigenobu_sakano = {
+		name = JAP_shigenobu_sakano
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Shigenobu_Sakano"
+				small = "GFX_idea_JAP_shigenobu_sakano"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Shigenobu_Sakano"
+				small = "GFX_idea_JAP_shigenobu_sakano"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Shigenobu_Sakano"
+				small = "GFX_idea_JAP_shigenobu_sakano"
+			}
 		}
 	}
 	JAP_shinobu_takayama = {

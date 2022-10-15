@@ -1,4 +1,4 @@
-﻿capital = 229
+﻿capital = 231
 oob = ""
 set_starting_values = yes
 recruit_character = RKK_nsdap_central_commitee

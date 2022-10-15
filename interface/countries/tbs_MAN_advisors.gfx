@@ -12,6 +12,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/MAN/idea_MAN_kazuo_nonomura.png"
 	}
 	spriteType = {
+		name = "GFX_idea_MAN_kichihei_hanano"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_kichihei_hanano.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_takeo_ito"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_takeo_ito.png"
+	}
+	spriteType = {
 		name = "GFX_idea_MAN_toshio_hoshiko"
 		texturefile = "gfx/interface/advisors/MAN/idea_MAN_toshio_hoshiko.png"
 	}

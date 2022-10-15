@@ -7,4 +7,8 @@ spriteTypes = {
 		name = "GFX_idea_FRA_jean-marie_le_pen"
 		texturefile = "gfx/interface/advisors/FRA/idea_FRA_jean-marie_le_pen.png"
 	}
+	spriteType = {
+		name = "GFX_idea_FRA_napoleon_vi"
+		texturefile = "gfx/interface/advisors/FRA/idea_FRA_napoleon_vi.png"
+	}
 }

@@ -9,9 +9,9 @@ state = {
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			7980 1.0 
-		}
+		victory_points = { 7980 1 }
+		victory_points = { 12714 1 }
+		victory_points = { 12812 1 }
 		add_core_of = ETH
 	}
 

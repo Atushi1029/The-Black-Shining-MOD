@@ -1,0 +1,44 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_REA_gisen_sato"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_gisen_sato.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_gurgen_nagolyan"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_gurgen_nagolyan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_makoto_hashii"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_makoto_hashii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_muraichi_horie"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_muraichi_horie.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_takeo_nimiya"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_takeo_nimiya.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_REA_Gisen_Sato"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Gisen_Sato.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Gurgen_Nagolyan"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Gurgen_Nagolyan.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Makoto_Hashii"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Makoto_Hashii.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Muraichi_Horie"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Muraichi_Horie.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Takeo_Nimiya"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Takeo_Nimiya.png"
+	}
+}

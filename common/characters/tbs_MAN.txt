@@ -71,6 +71,40 @@ characters = {
 			traits = {}
 		}
 	}
+	MAN_kichihei_hanano = {
+		name = MAN_kichihei_hanano
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Kichihei_Hanano"
+				small = "GFX_idea_MAN_kichihei_hanano"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Kichihei_Hanano"
+				small = "GFX_idea_MAN_kichihei_hanano"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Kichihei_Hanano"
+				small = "GFX_idea_MAN_kichihei_hanano"
+			}
+		}
+	}
+	MAN_takeo_ito = {
+		name = MAN_takeo_ito
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Takeo_Ito"
+				small = "GFX_idea_MAN_takeo_ito"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Takeo_Ito"
+				small = "GFX_idea_MAN_takeo_ito"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Takeo_Ito"
+				small = "GFX_idea_MAN_takeo_ito"
+			}
+		}
+	}
 	MAN_toshio_hoshiko = {
 		name = MAN_toshio_hoshiko
 		portraits = {

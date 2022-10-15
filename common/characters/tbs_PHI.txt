@@ -1,4 +1,28 @@
 characters = {
+	PHI_hong_sa-ik = {
+		name = PHI_hong_sa-ik
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Hong_Sa-ik"
+				small = "GFX_idea_PHI_hong_sa-ik"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Hong_Sa-ik"
+				small = "GFX_idea_PHI_hong_sa-ik"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Hong_Sa-ik"
+				small = "GFX_idea_PHI_hong_sa-ik"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HONG_SA-IK_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	PHI_toshio_nishimura = {
 		name = PHI_toshio_nishimura
 		portraits = {
@@ -14,13 +38,6 @@ characters = {
 				large = "GFX_Portrait_PHI_Toshio_Nishimura"
 				small = "GFX_idea_PHI_toshio_nishimura"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_TOSHIO_NISHIMURA_DESC"
-			ideology = paternal_autocracy_ideology
-			expire = "1989.1.1.1"
-			id = -1
-			traits = {}
 		}
 	}
 }

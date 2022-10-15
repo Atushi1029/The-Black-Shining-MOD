@@ -406,6 +406,31 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	GER_harald_wust = {
+		name = GER_harald_wust
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Harald_Wust"
+				small = "GFX_idea_GER_harald_wust"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Harald_Wust"
+				small = "GFX_idea_GER_harald_wust"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Harald_Wust"
+				small = "GFX_idea_GER_harald_wust"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
 	GER_heinrich_trettner = {
 		name = GER_heinrich_trettner
 		portraits = {
@@ -583,6 +608,35 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	GER_hubert_schmundt = {
+		name = GER_hubert_schmundt
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Hubert_Schmundt"
+				small = "GFX_idea_GER_hubert_schmundt"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Hubert_Schmundt"
+				small = "GFX_idea_GER_hubert_schmundt"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Hubert_Schmundt"
+				small = "GFX_idea_GER_hubert_schmundt"
+			}
+		}
+		navy_leader = {
+			traits = {
+				craven
+				superior_tactician
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
 	GER_otto_skorzeny = {
 		name = GER_otto_skorzeny
 		portraits = {
@@ -609,6 +663,61 @@ characters = {
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	GER_rudolf_arendt = {
+		name = GER_rudolf_arendt
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Rudolf_Arendt"
+				small = "GFX_idea_GER_rudolf_arendt"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Rudolf_Arendt"
+				small = "GFX_idea_GER_rudolf_arendt"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Rudolf_Arendt"
+				small = "GFX_idea_GER_rudolf_arendt"
+			}
+		}
+		navy_leader = {
+			traits = { seawolf }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
+	GER_theodor_burchardi = {
+		name = GER_theodor_burchardi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Theodor_Burchardi"
+				small = "GFX_idea_GER_theodor_burchardi"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Theodor_Burchardi"
+				small = "GFX_idea_GER_theodor_burchardi"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Theodor_Burchardi"
+				small = "GFX_idea_GER_theodor_burchardi"
+			}
+		}
+		navy_leader = {
+			traits = {
+				old_guard_navy
+				bold
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
 			legacy_id = -1
 		}
 	}
@@ -664,6 +773,35 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	GER_wolfgang_altenburg = {
+		name = GER_wolfgang_altenburg
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Wolfgang_Altenburg"
+				small = "GFX_idea_GER_wolfgang_altenburg"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Wolfgang_Altenburg"
+				small = "GFX_idea_GER_wolfgang_altenburg"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Wolfgang_Altenburg"
+				small = "GFX_idea_GER_wolfgang_altenburg"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
 	GER_wolfgang_benzino = {
 		name = GER_wolfgang_benzino
 		portraits = {
@@ -687,6 +825,32 @@ characters = {
 			defense_skill = 2
 			maneuvering_skill = 3
 			coordination_skill = 3
+			legacy_id = -1
+		}
+	}
+	GER_wolfgang_thonke = {
+		name = GER_wolfgang_thonke
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Wolfgang_Thonke"
+				small = "GFX_idea_GER_wolfgang_thonke"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Wolfgang_Thonke"
+				small = "GFX_idea_GER_wolfgang_thonke"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Wolfgang_Thonke"
+				small = "GFX_idea_GER_wolfgang_thonke"
+			}
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id = -1
 		}
 	}

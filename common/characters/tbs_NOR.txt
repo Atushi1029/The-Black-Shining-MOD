@@ -23,4 +23,28 @@ characters = {
 			traits = {}
 		}
 	}
+	NOR_ivar_grande = {
+		name = NOR_ivar_grande
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_NOR_Ivar_Grande"
+				small = "GFX_idea_NOR_ivar_grande"
+			}
+			army = {
+				large = "GFX_Portrait_NOR_Ivar_Grande"
+				small = "GFX_idea_NOR_ivar_grande"
+			}
+			navy = {
+				large = "GFX_Portrait_NOR_Ivar_Grande"
+				small = "GFX_idea_NOR_ivar_grande"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IVAR_GRANDE_DESC"
+			ideology = national_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

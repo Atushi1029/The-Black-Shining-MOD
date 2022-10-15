@@ -2,7 +2,9 @@
 oob = ""
 set_cosmetic_tag = HUN_republic
 set_starting_values = yes
+recruit_character = HUN_andras_kun
 recruit_character = HUN_arpad_goncz
+recruit_character = HUN_ferenc_szalasi
 recruit_character = HUN_istvan_horthy
 set_convoys = 20
 add_ideas = {

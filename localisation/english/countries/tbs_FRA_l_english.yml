@@ -2,11 +2,12 @@
 #Characters
  FRA_henri_dorleans:0 "Henri d'Orléans"
  FRA_jean-marie_le_pen:0 "Jean-Marie Le Pen"
+ FRA_napoleon_vi:0 "Napoléon VI"
 #Parties
  FRA_totalitarian_socialism_party:0 "PCF"
- FRA_totalitarian_socialism_party_long:0 "Parti communiste Français"
+ FRA_totalitarian_socialism_party_long:0 "Parti Communiste Français"
  FRA_radical_socialism_party:0 "PCF"
- FRA_radical_socialism_party_long:0 "Parti communiste Français"
+ FRA_radical_socialism_party_long:0 "Parti Communiste Français"
  FRA_moderate_socialism_party:0 "SFIO-CGT"
  FRA_moderate_socialism_party_long:0 "Section Française de l'Internationale Ouvrière - Confédération Générale du Travail"
  FRA_social_democracy_party:0 "SFIO"

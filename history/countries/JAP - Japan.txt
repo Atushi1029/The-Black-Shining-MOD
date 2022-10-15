@@ -1,10 +1,5 @@
 ﻿capital = 282
 oob = ""
-set_global_flag = {
-	flag = tbs_welcome_events
-	value = 1
-	days = 14
-}
 set_variable = { global.econ_graph_month = 25 }
 set_variable = { global.xcycling = 0 }
 set_variable = { global.ycycling = 0.125 }
@@ -19,6 +14,7 @@ recruit_character = JAP_ayao_shirane
 recruit_character = JAP_chifuyu_masaki
 recruit_character = JAP_etsusaburo_shiina
 recruit_character = JAP_hachiro_hayashi
+recruit_character = JAP_hideoto_mori
 recruit_character = JAP_hirohito
 recruit_character = JAP_hiromu_tokugawa
 recruit_character = JAP_hiroo_onoda
@@ -28,13 +24,14 @@ recruit_character = JAP_hyozo_kashiwabara
 recruit_character = JAP_ichio_asukata
 recruit_character = JAP_ichizo_sugie
 recruit_character = JAP_japanese_national_political_reform_committee
-recruit_character = JAP_kai_katsuyama
+recruit_character = JAP_jun_katsuyama
 recruit_character = JAP_kakuei_tanaka
 recruit_character = JAP_katsuo_tsushima
 recruit_character = JAP_kei_hoashi
 recruit_character = JAP_keiu_matsuo
 recruit_character = JAP_keizo_hayashi
 recruit_character = JAP_kentaro_toji
+recruit_character = JAP_kenzo_yamamoto
 recruit_character = JAP_kiyosada_koda
 recruit_character = JAP_kiyoshi_utsumi
 recruit_character = JAP_ko_nagasawa
@@ -62,6 +59,7 @@ recruit_character = JAP_sakae_oba
 recruit_character = JAP_sei_matsuya
 recruit_character = JAP_seiichi_katsumata
 recruit_character = JAP_sekio_nishina
+recruit_character = JAP_shigenobu_sakano
 recruit_character = JAP_shinobu_takayama
 recruit_character = JAP_shiro_hara
 recruit_character = JAP_shiro_nonaka
@@ -133,6 +131,7 @@ add_to_faction = MAL
 add_to_faction = MAN
 add_to_faction = MEN
 add_to_faction = PHI
+add_to_faction = REA
 add_to_faction = STO
 add_to_faction = VIN
 set_autonomy = {
@@ -145,7 +144,7 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = INS
-	autonomous_state = autonomy_wtt_imperial_subject
+	autonomous_state = autonomy_wtt_imperial_associate
 }
 set_autonomy = {
 	target = MAN
@@ -153,6 +152,10 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = MEN
+	autonomous_state = autonomy_wtt_imperial_subject
+}
+set_autonomy = {
+	target = REA
 	autonomous_state = autonomy_wtt_imperial_subject
 }
 diplomatic_relation = {

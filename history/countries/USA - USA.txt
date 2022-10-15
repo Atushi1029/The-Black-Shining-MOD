@@ -25,22 +25,26 @@ recruit_character = USA_geraldine_ferraro
 recruit_character = USA_gus_hall
 recruit_character = USA_henry_kissinger
 recruit_character = USA_hubert_humphrey
+recruit_character = USA_james_russell_wiggins
 recruit_character = USA_jesse_jackson
 recruit_character = USA_jimmy_carter
 recruit_character = USA_joe_biden
 recruit_character = USA_john_b_anderson
+recruit_character = USA_joseph_walker_barr
 recruit_character = USA_lloyd_bentsen
 recruit_character = USA_lyndon_johnson
 recruit_character = USA_maureen_kennedy_salaman
 recruit_character = USA_michael_dukakis
 recruit_character = USA_nelson_rockefeller
 recruit_character = USA_patrick_lucey
+recruit_character = USA_ramsey_clark
 recruit_character = USA_richard_nixon
 recruit_character = USA_robert_mcnamara
 recruit_character = USA_ronald_reagan
 recruit_character = USA_scoop_jackson
 recruit_character = USA_shirley_chisolm
 recruit_character = USA_sidney_hook
+recruit_character = USA_stewart_udall
 recruit_character = USA_tom_kahn
 recruit_character = USA_walter_mondale
 recruit_character = USA_william_luther_pierce
@@ -48,7 +52,11 @@ set_convoys = 20
 add_ideas = {
 	#Advisors
 	USA_hubert_humphrey_hog
+	USA_james_russell_wiggins_for
+	USA_joseph_walker_barr_eco
+	USA_ramsey_clark_jus
 	USA_robert_mcnamara_sec
+	USA_stewart_udall_int
 	#National Spirits
 	USA_a_quiet_pacific
 	USA_bastion_of_liberty

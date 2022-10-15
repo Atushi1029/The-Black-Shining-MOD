@@ -334,7 +334,7 @@
  STATE_333:0 "Sarawak"
  STATE_334:1 "Kalimantan"
  STATE_335:0 "Java"
- STATE_336:0 "Singapore"
+ STATE_336:0 "Shōnan City"
  STATE_337:0 "Faroe Islands"
  STATE_338:0 "Gloucestershire"
  STATE_339:0 "Izmir"
@@ -996,3 +996,4 @@
  STATE_995:0 "Western Nikolayevsk"
  STATE_996:0 "Magadan"
  STATE_997:0 "Eastern Magadan"
+ STATE_998:0 "Salò"

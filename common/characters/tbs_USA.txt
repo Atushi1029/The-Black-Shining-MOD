@@ -400,6 +400,36 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	USA_james_russell_wiggins = {
+		name = USA_james_russell_wiggins
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_James_Russell_Wiggins"
+				small = "GFX_idea_USA_james_russell_wiggins"
+			}
+			army = {
+				large = "GFX_Portrait_USA_James_Russell_Wiggins"
+				small = "GFX_idea_USA_james_russell_wiggins"
+			}
+			navy = {
+				large = "GFX_Portrait_USA_James_Russell_Wiggins"
+				small = "GFX_idea_USA_james_russell_wiggins"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = USA_james_russell_wiggins_for
+			allowed = { original_tag = USA }
+			traits = {
+				tbs_foreign_minister
+				tbs_strict_diplomat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
 	USA_jesse_jackson = {
 		name = USA_jesse_jackson
 		portraits = {
@@ -466,6 +496,36 @@ characters = {
 				large = "GFX_Portrait_USA_John_B_Anderson"
 				small = "GFX_idea_USA_john_b_anderson"
 			}
+		}
+	}
+	USA_joseph_walker_barr = {
+		name = USA_joseph_walker_barr
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Joseph_Walker_Barr"
+				small = "GFX_idea_USA_joseph_walker_barr"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Joseph_Walker_Barr"
+				small = "GFX_idea_USA_joseph_walker_barr"
+			}
+			navy = {
+				large = "GFX_Portrait_USA_Joseph_Walker_Barr"
+				small = "GFX_idea_USA_joseph_walker_barr"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = USA_joseph_walker_barr_eco
+			allowed = { original_tag = USA }
+			traits = {
+				tbs_economy_minister
+				tbs_economic_reformer
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	USA_lloyd_bentsen = {
@@ -575,6 +635,36 @@ characters = {
 				large = "GFX_Portrait_USA_Patrick_Lucey"
 				small = "GFX_idea_USA_patrick_lucey"
 			}
+		}
+	}
+	USA_ramsey_clark = {
+		name = USA_ramsey_clark
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Ramsey_Clark"
+				small = "GFX_idea_USA_ramsey_clark"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Ramsey_Clark"
+				small = "GFX_idea_USA_ramsey_clark"
+			}
+			navy = {
+				large = "GFX_Portrait_USA_Ramsey_Clark"
+				small = "GFX_idea_USA_ramsey_clark"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = USA_ramsey_clark_jus
+			allowed = { original_tag = USA }
+			traits = {
+				tbs_justice_minister
+				tbs_great_compromiser
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	USA_richard_nixon = {
@@ -697,6 +787,36 @@ characters = {
 				large = "GFX_Portrait_USA_Sidney_Hook"
 				small = "GFX_idea_USA_sidney_hook"
 			}
+		}
+	}
+	USA_stewart_udall = {
+		name = USA_stewart_udall
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Stewart_Udall"
+				small = "GFX_idea_USA_stewart_udall"
+			}
+			army = {
+				large = "GFX_Portrait_USA_Stewart_Udall"
+				small = "GFX_idea_USA_stewart_udall"
+			}
+			navy = {
+				large = "GFX_Portrait_USA_Stewart_Udall"
+				small = "GFX_idea_USA_stewart_udall"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = USA_stewart_udall_int
+			allowed = { original_tag = USA }
+			traits = {
+				tbs_interior_minister
+				tbs_smile_socialite
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	USA_tom_kahn = {

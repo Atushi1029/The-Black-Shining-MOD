@@ -6,7 +6,7 @@ spriteTypes = {
 	}
 	#Portraits
 	spriteType = {
-		name = "GFX_Portrait_SWI_Federal_Council"
-		texturefile = "gfx/leaders/SWI/Portrait_SWI_Federal_Council.png"
+		name = "GFX_Portrait_Switzerland_Federal_Council"
+		texturefile = "gfx/leaders/SWI/Portrait_Switzerland_Federal_Council.png"
 	}
 }

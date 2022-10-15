@@ -1,0 +1,19 @@
+spriteTypes = {
+	#Ideas
+	spriteType = {
+		name = "GFX_idea_JAP_divided_public_opinion"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_divided_public_opinion.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_humiliation_on_the_continent"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_humiliation_on_the_continent.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_military_conspiracy"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_military_conspiracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_setting_sun"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_setting_sun.png"
+	}
+}

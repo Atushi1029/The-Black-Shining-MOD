@@ -1049,6 +1049,10 @@
  NID_DEF:0 "the Netherlands"
  NID_ADJ:0 "Dutch"
  
+ REA:0 "Singapore"
+ REA_DEF:0 "the Singapore"
+ REA_ADJ:0 "Singaporean"
+ 
  RFP:0 "Russia"
  RFP_DEF:0 "the Russia"
  RFP_ADJ:0 "Russian"

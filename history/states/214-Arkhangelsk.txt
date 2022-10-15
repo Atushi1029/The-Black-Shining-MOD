@@ -10,9 +10,8 @@ state = {
 		add_claim_by = RLA
 		add_claim_by = RUS
 		set_state_flag = rsr_core_states
-		victory_points = {
-			3338 5 
-		}
+		victory_points = { 3338 5 }
+		victory_points = { 138 1 }
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

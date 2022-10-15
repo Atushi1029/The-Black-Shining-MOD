@@ -100,6 +100,23 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	GER_josef_grohe = {
+		name = GER_josef_grohe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Josef_Grohe"
+				small = "GFX_idea_GER_josef_grohe"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Josef_Grohe"
+				small = "GFX_idea_GER_josef_grohe"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Josef_Grohe"
+				small = "GFX_idea_GER_josef_grohe"
+			}
+		}
+	}
 	GER_karl_saur = {
 		name = GER_karl_saur
 		portraits = {
@@ -260,6 +277,23 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	GER_wernher_von_braun = {
+		name = GER_wernher_von_braun
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Wernher_von_Braun"
+				small = "GFX_idea_GER_wernher_von_braun"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Wernher_von_Braun"
+				small = "GFX_idea_GER_wernher_von_braun"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Wernher_von_Braun"
+				small = "GFX_idea_GER_wernher_von_braun"
+			}
 		}
 	}
 	GER_wilhelm_stuckart = {

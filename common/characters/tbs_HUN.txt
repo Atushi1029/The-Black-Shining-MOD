@@ -1,4 +1,21 @@
 characters = {
+	HUN_andras_kun = {
+		name = HUN_andras_kun
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HUN_Andras_Kun"
+				small = "GFX_idea_HUN_andras_kun"
+			}
+			army = {
+				large = "GFX_Portrait_HUN_Andras_Kun"
+				small = "GFX_idea_HUN_andras_kun"
+			}
+			navy = {
+				large = "GFX_Portrait_HUN_Andras_Kun"
+				small = "GFX_idea_HUN_andras_kun"
+			}
+		}
+	}
 	HUN_arpad_goncz = {
 		name = HUN_arpad_goncz
 		portraits = {
@@ -21,6 +38,23 @@ characters = {
 			expire = "2015.10.6.1"
 			id = -1
 			traits = {}
+		}
+	}
+	HUN_ferenc_szalasi = {
+		name = HUN_ferenc_szalasi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HUN_Ferenc_Szalasi"
+				small = "GFX_idea_HUN_ferenc_szalasi"
+			}
+			army = {
+				large = "GFX_Portrait_HUN_Ferenc_Szalasi"
+				small = "GFX_idea_HUN_ferenc_szalasi"
+			}
+			navy = {
+				large = "GFX_Portrait_HUN_Ferenc_Szalasi"
+				small = "GFX_idea_HUN_ferenc_szalasi"
+			}
 		}
 	}
 	HUN_istvan_horthy = {
