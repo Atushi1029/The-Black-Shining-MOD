@@ -1,5 +1,6 @@
 ﻿capital = 774
-oob = ""
+oob = "CHA_1970
+"
 set_cosmetic_tag = CHA_republic
 set_starting_values = yes
 recruit_character = CHA_kalthouma_nguembang

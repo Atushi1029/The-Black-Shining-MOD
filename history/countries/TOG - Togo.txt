@@ -1,5 +1,6 @@
 ﻿capital = 777
-oob = ""
+oob = "TOG_1970
+"
 set_cosmetic_tag = TOG_and_BENIN_republic
 set_starting_values = yes
 recruit_character = TOG_gnassingbe_eyadema

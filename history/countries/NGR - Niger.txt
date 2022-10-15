@@ -1,5 +1,7 @@
 ﻿capital = 781
-oob = ""
+oob = "NGR_1970
+
+"
 set_starting_values = yes
 recruit_character = NGR_seyni_kountche
 set_convoys = 20

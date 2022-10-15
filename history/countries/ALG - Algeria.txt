@@ -1,5 +1,9 @@
 ﻿capital = 459
-oob = ""
+oob = "ALG_1970
+
+
+
+"
 set_cosmetic_tag = ALG_republic
 set_starting_values = yes
 recruit_character = ALG_ahmed_ben_bella
