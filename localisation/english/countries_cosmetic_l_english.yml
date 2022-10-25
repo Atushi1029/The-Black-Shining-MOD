@@ -132,6 +132,10 @@
  BRA_republic:0 "Republic of Brazil"
  BRA_republic_DEF:0 "the Republic of Brazil"
  BRA_republic_ADJ:0 "Brazilian"
+#Burgundy
+ BRG_rebel_army:0 "Rebel Aemy of Burgundy"
+ BRG_rebel_army_DEF:0 "the Rebel Aemy of Burgundy"
+ BRG_rebel_army_ADJ:0 "Burgundian"
 #ビルマ
  BRM_republic:0 "Republic of Burma"
  BRM_republic_DEF:0 "the Republic of Burma"
@@ -222,7 +226,13 @@
  FIN_republic:0 "Republic of Finland"
  FIN_republic_DEF:0 "the Republic of Finland"
  FIN_republic_ADJ:0 "Finnish"
-#フランス
+#France
+ FRA_national_syndical_state:0 "National Syndical State of France"
+ FRA_national_syndical_state_DEF:0 "the National Syndical State of France"
+ FRA_national_syndical_state_ADJ:0 "French"
+ FRA_republic:0 "Republic of France"
+ FRA_republic_DEF:0 "the Republic of France"
+ FRA_republic_ADJ:0 "French"
  FRA_state:0 "État Français"
  FRA_state_DEF:0 "the État Français"
  FRA_state_ADJ:0 "French"
