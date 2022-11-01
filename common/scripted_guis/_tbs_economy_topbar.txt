@@ -1,8 +1,0 @@
-scripted_gui = {
-	tbs_economy_topbar = {
-		parent_window_token = top_bar
-		window_name = "economy_topbar_window"
-		ai_enabled = { always = no }
-		visible = { is_ai = no }
-	}
-}

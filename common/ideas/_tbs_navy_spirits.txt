@@ -1,5 +1,0 @@
-ideas = {
-	naval_academy_spirit = {}
-	navy_spirit = {}
-	naval_command_spirit = {}
-}
