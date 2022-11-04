@@ -1,6 +1,6 @@
 ﻿capital = 14
 oob = ""
-#set_cosmetic_tag = 
+set_cosmetic_tag = BRI_francois_tanguy-prigent
 set_starting_values = yes
 #recruit_character = 
 set_convoys = 20
@@ -8,23 +8,23 @@ add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = social_democracy
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	totalitarian_socialism = 5
-	radical_socialism = 5
-	moderate_socialism = 5
-	social_democracy = 5
-	liberal_democracy = 5
-	social_conservatism = 5
-	authoritarian_democracy = 40
-	paternal_autocracy = 5
-	national_corporatism = 5
-	national_socialism = 5
-	ultra_nationalism = 5
-	religious_nationalism = 5
-	transhumanism = 5
+	radical_socialism = 8
+	moderate_socialism = 10
+	social_democracy = 33
+	liberal_democracy = 19
+	social_conservatism = 21
+	authoritarian_democracy = 4
+	paternal_autocracy = 0
+	national_corporatism = 0
+	national_socialism = 0
+	ultra_nationalism = 0
+	religious_nationalism = 0
+	transhumanism = 0
 }

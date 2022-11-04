@@ -100,6 +100,40 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	GER_helmut_schmid = {
+		name = GER_helmut_schmid
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Helmut_Schmid"
+				small = "GFX_idea_GER_helmut_schmid"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Helmut_Schmid"
+				small = "GFX_idea_GER_helmut_schmid"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Helmut_Schmid"
+				small = "GFX_idea_GER_helmut_schmid"
+			}
+		}
+	}
+	GER_horst_mahler = {
+		name = GER_horst_mahler
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Horst_Mahler"
+				small = "GFX_idea_GER_horst_mahler"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Horst_Mahler"
+				small = "GFX_idea_GER_horst_mahler"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Horst_Mahler"
+				small = "GFX_idea_GER_horst_mahler"
+			}
+		}
+	}
 	GER_josef_grohe = {
 		name = GER_josef_grohe
 		portraits = {

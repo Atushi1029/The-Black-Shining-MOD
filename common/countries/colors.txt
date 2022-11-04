@@ -68,8 +68,8 @@ ROM = {
 	color_ui = rgb { 215 196 72 }
 }
 YUG = {
-	color = rgb { 94 95 164 }
-	color_ui = rgb { 94 95 164 }
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 72 73 126 }
 }
 SWI = {
 	color = rgb { 224 5 5 }
@@ -348,8 +348,8 @@ SYR = {
 	color_ui = rgb { 59 148 65 }
 }
 SER = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 72 73 126 }
+	color = rgb { 160 110 110 }
+	color_ui = rgb { 160 110 110 }
 }
 ICE = {
 	color = rgb { 100 125 175 }
@@ -888,6 +888,10 @@ BRD = {
 	color = rgb { 94 121 78 }
 	color_ui = rgb { 94 121 78 }
 }
+BRG = {
+	color = rgb { 89 120 135 }
+	color_ui = rgb { 89 120 135 }
+}
 BRI = {
 	color = rgb { 144 160 179 }
 	color_ui = rgb { 144 160 179 }
@@ -1141,8 +1145,8 @@ RKK = {
 	color_ui = hsv { 0.1 0.15 0.4 }
 }
 RKM = {
-	color = hsv { 0.1 0.15 0.4 }
-	color_ui = hsv { 0.1 0.15 0.4 }
+	color = rgb { 120 100 90 }
+	color_ui = rgb { 120 100 90 }
 }
 RKO = {
 	color = hsv { 0.1 0.15 0.4 }

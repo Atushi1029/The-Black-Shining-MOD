@@ -65,7 +65,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "parties_grid"
-				position = { x = 260 y = 188 }
+				position = { x = 260 y = 190 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 230 height = 16 }
 				format = "UPPER_LEFT"
@@ -75,26 +75,26 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 270 y = 304 }
+			position = { x= 272 y = 304 }
 			size = { width=100 height=100 }
 			clipping = no
 
 			iconType = {
 				name = "chart"
 				spriteType = "GFX_political_chart"
-				position = { x = 28 y = 5 }
+				position = { x = 29 y = 5 }
 			}
 
 			iconType  = { 
 				name ="pol_view_bg"
-				spriteType = "GFX_pol_piechart_overlay_63x63"
+				spriteType = "GFX_tbs_pol_piechart_overlay_63x63"
 				position = { x= -2 y = 1s }
 			}
 		}
 
 		containerWindowType = {
 			name = "ruling_party_info"
-			position = { x = 88 y = 305 }
+			position = { x = 88 y = 308 }
 			size = { width = 175 height = 60 }
 			clipping = no
 
@@ -128,7 +128,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = -13 y = 86 }
+				position = { x = -13 y = 82 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 194
@@ -191,7 +191,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 3 y = 425 }
+			position = { x = 2 y = 370 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
@@ -432,20 +432,20 @@ guiTypes = {
 		}
 		iconType = {
 			name = "leader"
-			position = { x = 18 y = 58 }
+			position = { x = 14 y = 61 }
 			spriteType = "GFX_leader_unknown"
 		}
 
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
-			position = { x = 10 y = 44 }
+			position = { x = 6 y = 47 }
 			alwaystransparent = yes
 		}
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 18 y = 262 }
+			position = { x = 14 y = 265 }
 			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155

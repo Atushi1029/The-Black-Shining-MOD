@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_CLAUS_VON_STAUFFENBERG_DESC"
-			ideology = ultra_nationalism_ideology
+			ideology = national_socialism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

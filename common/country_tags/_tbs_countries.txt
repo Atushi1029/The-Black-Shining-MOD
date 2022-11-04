@@ -1,4 +1,5 @@
 BNF = "countries/continents/Western Europe.txt"
+BRG = "countries/continents/Western Europe.txt"
 CCS = "countries/continents/Eastern Europe.txt"
 GBR = "countries/continents/Commonwealth.txt"
 MAF = "countries/continents/Africa.txt"

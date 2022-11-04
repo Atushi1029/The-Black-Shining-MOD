@@ -3,7 +3,9 @@ state = {
 	name="STATE_855"
 
 	history = { 
-		owner = FRA
+		owner = BRG
+		add_core_of = BRG
+		add_core_of = FRA
 		victory_points = {
 			11516 5 
 		}
@@ -11,8 +13,6 @@ state = {
 			infrastructure = 4
 
 		}
-		add_core_of = FRA
-
 	}
 
 	provinces = { 

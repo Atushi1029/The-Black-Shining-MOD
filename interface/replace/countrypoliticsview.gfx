@@ -631,10 +631,14 @@ spriteTypes = {
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
-	
+	#TBS Replaces
 	spriteType = {
 		name = "GFX_pol_view_background"
 		texturefile = "gfx/interface/pol_view_background.png"
+	}
+	SpriteType = {
+		name = "GFX_tbs_pol_piechart_overlay_63x63"
+		textureFile = "gfx/interface/tbs_pol_piechart_overlay_63x63.png"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_head_of_government"

@@ -3,16 +3,28 @@ oob = ""
 set_cosmetic_tag = TRANSAMUR_republic
 set_starting_values = yes
 recruit_character = FER_alexander_bolotov
+recruit_character = FER_andrey_svetzarov
+recruit_character = FER_apollon_kruse
 recruit_character = FER_boris_tadley
 recruit_character = FER_donat_yosefovich_kunle
+recruit_character = FER_evgeny_ivanov
 recruit_character = FER_georgy_gins
 recruit_character = FER_georgy_shekerev
+recruit_character = FER_ivan_mikhailov
 recruit_character = FER_mikhail_matkovsky
+recruit_character = FER_mikhail_spasovsky
 recruit_character = FER_pyotr_wrangel_ii
 recruit_character = FER_rostislav_kolchak
+recruit_character = FER_vladimir_kibardin
+recruit_character = FER_vyacheslav_baranov
 set_convoys = 20
 add_ideas = {
-	
+	limited_conscription
+	limited_exports
+	FER_far_eastern_tiger
+	FER_frozen_economy
+	FER_japanese_domestic_dog
+	FER_revived_white_army
 }
 set_politics = {
 	ruling_party = authoritarian_democracy

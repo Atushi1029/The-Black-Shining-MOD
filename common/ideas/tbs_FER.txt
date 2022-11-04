@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		FER_far_eastern_tiger = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				
+			}
+		}
+		FER_frozen_economy = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				
+			}
+		}
+		FER_japanese_domestic_dog = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				
+			}
+		}
+		FER_revived_white_army = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				
+			}
+		}
+	}
+}

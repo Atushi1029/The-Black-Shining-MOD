@@ -15,6 +15,13 @@ characters = {
 				small = "GFX_idea_JAP_aiichiro_fujiyama"
 			}
 		}
+		country_leader = {
+			desc = "POLITICS_AIICHIRO_FUJIYAMA_DESC"
+			ideology = social_conservatism_ideology
+			expire = "1985.2.22.1"
+			id = -1
+			traits = {}
+		}
 	}
 	JAP_akira_yamaki = {
 		name = JAP_akira_yamaki
@@ -74,6 +81,30 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = -1
+		}
+	}
+	JAP_ayako_daidoji = {
+		name = JAP_ayako_daidoji
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Ayako_Daidoji"
+				small = "GFX_idea_JAP_ayako_daidoji"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Ayako_Daidoji"
+				small = "GFX_idea_JAP_ayako_daidoji"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Ayako_Daidoji"
+				small = "GFX_idea_JAP_ayako_daidoji"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AYAKO_DAIDOJI_DESC"
+			ideology = radical_socialism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
 		}
 	}
 	JAP_ayao_shirane = {
@@ -420,13 +451,6 @@ characters = {
 				small = "GFX_idea_JAP_japanese_national_political_reform_committee"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_JAPANESE_NATIONAL_POLITICAL_REFORM_COMMITTEE_DESC"
-			ideology = social_conservatism_ideology
-			expire = "1989.1.1.1"
-			id = -1
-			traits = {}
-		}
 	}
 	JAP_jun_katsuyama = {
 		name = JAP_jun_katsuyama
@@ -522,19 +546,6 @@ characters = {
 			expire = "1989.2.3.1"
 			id = -1
 			traits = {}
-		}
-		advisor = {
-			cost = 65535
-			slot = head_of_government
-			ledger = civilian
-			idea_token = JAP_kei_hoashi_hog
-			allowed = { original_tag = JAP }
-			traits = {
-				tbs_head_of_government
-				tbs_iron_fisted_brute
-			}
-			removal_cost = -1
-			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_keiu_matsuo = {
@@ -685,13 +696,6 @@ characters = {
 				small = "GFX_idea_JAP_kiyoshi_utsumi"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_KIYOSHI_UTSUMI_DESC"
-			ideology = authoritarian_democracy_ideology
-			expire = "1991.3.12.1"
-			id = -1
-			traits = {}
-		}
 	}
 	JAP_ko_nagasawa = {
 		name = JAP_ko_nagasawa
@@ -772,6 +776,30 @@ characters = {
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 1
+		}
+	}
+	JAP_kunio_bando = {
+		name = JAP_kunio_bando
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kunio_Bando"
+				small = "GFX_idea_JAP_kunio_bando"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kunio_Bando"
+				small = "GFX_idea_JAP_kunio_bando"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Kunio_Bando"
+				small = "GFX_idea_JAP_kunio_bando"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KUNIO_BANDO_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
 		}
 	}
 	JAP_masaji_ogasawara = {
@@ -895,13 +923,6 @@ characters = {
 				small = "GFX_idea_JAP_masashi_ishibashi"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_MASASHI_ISHIBASHI_DESC"
-			ideology = social_democracy_ideology
-			expire = "2019.12.9.1"
-			id = -1
-			traits = {}
-		}
 	}
 	JAP_masayoshi_ohira = {
 		name = JAP_masayoshi_ohira
@@ -964,13 +985,6 @@ characters = {
 				small = "GFX_idea_JAP_michitaka_konoe"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_MICHITAKA_KONOE_DESC"
-			ideology = national_socialism_ideology
-			expire = "2012.2.11.1"
-			id = -1
-			traits = {}
-		}
 	}
 	JAP_minoru_genda = {
 		name = JAP_minoru_genda
@@ -1001,6 +1015,13 @@ characters = {
 			maneuvering_skill = 4
 			coordination_skill = 5
 			legacy_id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_MINORU_GENDA_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.8.15.1"
+			id = -1
+			traits = {}
 		}
 	}
 	JAP_minoru_suzuki = {
@@ -1131,13 +1152,6 @@ characters = {
 				small = "GFX_idea_JAP_okinori_kaya"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_OKINORI_KAYA_DESC"
-			ideology = paternal_autocracy_ideology
-			expire = "1977.4.28.1"
-			id = -1
-			traits = {}
-		}
 	}
 	JAP_saburo_aizawa = {
 		name = JAP_saburo_aizawa
@@ -1215,6 +1229,13 @@ characters = {
 				large = "GFX_Portrait_JAP_Sadao_Akamatsu"
 				small = "GFX_idea_JAP_sadao_akamatsu"
 			}
+		}
+		country_leader = {
+			desc = "POLITICS_SADAO_AKAMATSU_DESC"
+			ideology = national_socialism_ideology
+			expire = "1982.8.16.1"
+			id = -1
+			traits = {}
 		}
 		corps_commander = {
 			traits = {
@@ -1303,13 +1324,13 @@ characters = {
 		}
 		advisor = {
 			cost = 65535
-			slot = justice_minister
+			slot = head_of_government
 			ledger = civilian
-			idea_token = JAP_seiichi_katsumata_jus
+			idea_token = JAP_seiichi_katsumata_hog
 			allowed = { original_tag = JAP }
 			traits = {
-				tbs_justice_minister
-				tbs_plodding_bureaucrat
+				tbs_head_of_government
+				tbs_iron_fisted_brute
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
@@ -1468,13 +1489,6 @@ characters = {
 				small = "GFX_idea_JAP_soji_fujii"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_SOJI_FUJII_DESC"
-			ideology = national_corporatism_ideology
-			expire = "1975.3.18.1"
-			id = -1
-			traits = {}
-		}
 	}
 	JAP_sokichi_takagi = {
 		name = JAP_sokichi_takagi
@@ -1520,13 +1534,6 @@ characters = {
 				large = "GFX_Portrait_JAP_Suehiro_Nishio"
 				small = "GFX_idea_JAP_suehiro_nishio"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_SUEHIRO_NISHIO_DESC"
-			ideology = liberal_democracy_ideology
-			expire = "1981.10.3.1"
-			id = -1
-			traits = {}
 		}
 	}
 	JAP_susumu_iida = {
@@ -1961,7 +1968,14 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_YOKUSAN_POLITICAL_COMMITTEE_DESC"
-			ideology = transhumanism_ideology
+			ideology = liberal_democracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_YOKUSAN_POLITICAL_COMMITTEE_DESC"
+			ideology = authoritarian_democracy_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

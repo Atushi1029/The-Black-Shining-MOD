@@ -174,10 +174,77 @@ clear_num_volunteers = {
 	}
 }
 update_volunteers_idea = {
-	
+	if = {
+		limit = { check_variable = { volunteers_tags^num > 0 } }
+		add_ideas = foreign_advisors
+	}
+	else = { remove_ideas = foreign_advisors }
+	force_update_dynamic_modifier = yes
+}
+vol_test = {
+	add_dynamic_modifier = { modifier = vol_troops_modifier }
 }
 ai_reload_volunteers_sent = {
 	
+}
+remove_claim_and_add_core_of_ROOT = {
+	if = {
+		limit = { is_claimed_by = ROOT }
+		remove_claim_by = ROOT
+	}
+	if = {
+		limit = { NOT = { is_core_of = ROOT } }
+		add_core_of = ROOT
+	}
+}
+remove_claim_and_add_core_of_target = {
+	if = {
+		limit = { is_claimed_by = var:tag_to_release }
+		remove_claim_by = var:tag_to_release
+	}
+	if = {
+		limit = { NOT = { is_core_of = var:tag_to_release } }
+		add_core_of = var:tag_to_release
+	}
+}
+remove_claim_and_core_of_target = {
+	if = {
+		limit = { is_core_of = var:tag_to_release }
+		remove_core_of = var:tag_to_release
+	}
+	if = {
+		limit = { is_claimed_by = var:tag_to_release }
+		remove_claim_by = var:tag_to_release
+	}
+}
+add_claim_of_target = {
+	if = {
+		limit = {
+			NOT = {
+				is_claimed_by = var:tag_to_release
+				is_core_of = var:tag_to_release
+			}
+		}
+		add_claim_by = var:tag_to_release
+	}
+}
+remove_all_cores_and_claims_of_tags = {
+	every_state = {
+		limit = {
+			any_of = {
+				array = core_removal_array
+				OR = {
+					is_core_of = var:v
+					is_claimed_by = var:v
+				}
+			}
+		}
+		for_each_loop = {
+			array = core_removal_array
+			remove_core_of = var:v
+			remove_claim_by = var:v
+		}
+	}
 }
 replace_civ_with_arms_factories = {
 	
@@ -1063,6 +1130,7 @@ set_starting_values = {
 				tag = JAP
 				tag = NID
 				tag = PHI
+				tag = REA
 				tag = STO
 				tag = VIN
 			}

@@ -11,4 +11,16 @@ spriteTypes = {
 		name = "GFX_Portrait_FRA_Napoleon_VI"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Napoleon_VI.png"
 	}
+	spriteType = {
+		name = "GFX_Portrait_FRA_Napoleon_VI_80s"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Napoleon_VI_80s.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FRA_Napoleon_VI_emperor"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Napoleon_VI_emperor.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FRA_Napoleon_VI_emperor_2nd"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Napoleon_VI_emperor_2nd.png"
+	}
 }

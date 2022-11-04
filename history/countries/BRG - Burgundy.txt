@@ -1,0 +1,35 @@
+﻿capital = 27
+oob = ""
+set_cosmetic_tag = BRG_rebel_army
+set_starting_values = yes
+recruit_character = BRG_francoise_dior
+set_global_flag = burgundy_rebellion
+set_convoys = 0
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 10
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	social_conservatism = 0
+	authoritarian_democracy = 5
+	paternal_autocracy = 5
+	national_corporatism = 15
+	national_socialism = 30
+	ultra_nationalism = 15
+	religious_nationalism = 10
+	transhumanism = 10
+}
+declare_war_on = {
+	target = FRA
+	type = annex_everything
+}

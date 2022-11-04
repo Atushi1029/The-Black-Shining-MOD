@@ -23,6 +23,40 @@ characters = {
 			traits = {}
 		}
 	}
+	FER_andrey_svetzarov = {
+		name = FER_andrey_svetzarov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Andrey_Svetzarov"
+				small = "GFX_idea_FER_andrey_svetzarov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Andrey_Svetzarov"
+				small = "GFX_idea_FER_andrey_svetzarov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Andrey_Svetzarov"
+				small = "GFX_idea_FER_andrey_svetzarov"
+			}
+		}
+	}
+	FER_apollon_kruse = {
+		name = FER_apollon_kruse
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Apollon_Kruse"
+				small = "GFX_idea_FER_apollon_kruse"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Apollon_Kruse"
+				small = "GFX_idea_FER_apollon_kruse"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Apollon_Kruse"
+				small = "GFX_idea_FER_apollon_kruse"
+			}
+		}
+	}
 	FER_boris_tadley = {
 		name = FER_boris_tadley
 		portraits = {
@@ -61,6 +95,23 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_FER_Donat_Yosefovich_Kunle"
 				small = "GFX_idea_FER_donat_yosefovich_kunle"
+			}
+		}
+	}
+	FER_evgeny_ivanov = {
+		name = FER_evgeny_ivanov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Evgeny_Ivanov"
+				small = "GFX_idea_FER_evgeny_ivanov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Evgeny_Ivanov"
+				small = "GFX_idea_FER_evgeny_ivanov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Evgeny_Ivanov"
+				small = "GFX_idea_FER_evgeny_ivanov"
 			}
 		}
 	}
@@ -105,6 +156,23 @@ characters = {
 			}
 		}
 	}
+	FER_ivan_mikhailov = {
+		name = FER_ivan_mikhailov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Ivan_Mikhailov"
+				small = "GFX_idea_FER_ivan_mikhailov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Ivan_Mikhailov"
+				small = "GFX_idea_FER_ivan_mikhailov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Ivan_Mikhailov"
+				small = "GFX_idea_FER_ivan_mikhailov"
+			}
+		}
+	}
 	FER_mikhail_matkovsky = {
 		name = FER_mikhail_matkovsky
 		portraits = {
@@ -119,6 +187,23 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_FER_Mikhail_Matkovsky"
 				small = "GFX_idea_FER_mikhail_matkovsky"
+			}
+		}
+	}
+	FER_mikhail_spasovsky = {
+		name = FER_mikhail_spasovsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Mikhail_Spasovsky"
+				small = "GFX_idea_FER_mikhail_spasovsky"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Mikhail_Spasovsky"
+				small = "GFX_idea_FER_mikhail_spasovsky"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Mikhail_Spasovsky"
+				small = "GFX_idea_FER_mikhail_spasovsky"
 			}
 		}
 	}
@@ -160,6 +245,40 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_FER_Rostislav_Kolchak_admiral"
 				small = "GFX_idea_FER_rostislav_kolchak_admiral"
+			}
+		}
+	}
+	FER_vladimir_kibardin = {
+		name = FER_vladimir_kibardin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Vladimir_Kibardin"
+				small = "GFX_idea_FER_vladimir_kibardin"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Vladimir_Kibardin"
+				small = "GFX_idea_FER_vladimir_kibardin"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Vladimir_Kibardin"
+				small = "GFX_idea_FER_vladimir_kibardin"
+			}
+		}
+	}
+	FER_vyacheslav_baranov = {
+		name = FER_vyacheslav_baranov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Vyacheslav_Baranov"
+				small = "GFX_idea_FER_vyacheslav_baranov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Vyacheslav_Baranov"
+				small = "GFX_idea_FER_vyacheslav_baranov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Vyacheslav_Baranov"
+				small = "GFX_idea_FER_vyacheslav_baranov"
 			}
 		}
 	}

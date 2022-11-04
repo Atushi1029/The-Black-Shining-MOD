@@ -296,3 +296,263 @@ has_expert_level_trigger = {
 has_genius_level_trigger = {
 	skill > 7
 }
+has_number_volunteers = {
+	OR = {
+		AND = {
+			check_variable = { number = 0 }
+			has_volunteers_amount_from = { tag = ROOT count > 0 }
+		}
+		AND = {
+			check_variable = { number = 1 }
+			has_volunteers_amount_from = { tag = ROOT count > 1 }
+		}
+		AND = {
+			check_variable = { number = 2 }
+			has_volunteers_amount_from = { tag = ROOT count > 2 }
+		}
+		AND = {
+			check_variable = { number = 3 }
+			has_volunteers_amount_from = { tag = ROOT count > 3 }
+		}
+		AND = {
+			check_variable = { number = 4 }
+			has_volunteers_amount_from = { tag = ROOT count > 4 }
+		}
+		AND = {
+			check_variable = { number = 5 }
+			has_volunteers_amount_from = { tag = ROOT count > 5 }
+		}
+		AND = {
+			check_variable = { number = 6 }
+			has_volunteers_amount_from = { tag = ROOT count > 6 }
+		}
+		AND = {
+			check_variable = { number = 7 }
+			has_volunteers_amount_from = { tag = ROOT count > 7 }
+		}
+	}
+}
+volunteer_cap_equal = {
+	set_temp_variable = { index = -1 }
+	OR = {
+		AND = {
+			NOT = { is_in_array = { array = volunteers_tags value = target } }
+			check_variable = { number = 0 }
+		}
+		volunteer_cap_eq_inner = yes
+	}
+}
+volunteer_cap_eq_inner = {
+	add_to_temp_variable = { index = 1 }
+	NOT = { check_variable = { index > volunteers_tags^num } }
+	OR = {
+		AND = {
+			check_variable = { volunteers_tags^index = target }
+			check_variable = { number = volunteers_amounts^index }
+		}
+		volunteer_cap_eq_inner = yes
+	}
+}
+volunteer_cap_equal_0 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_equal_0
+		set_temp_variable = { number = 0 }
+		volunteer_cap_equal = yes
+	}
+}
+volunteer_cap_equal_1 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_equal_1
+		set_temp_variable = { number = 1 }
+		volunteer_cap_equal = yes
+	}
+}
+volunteer_cap_equal_2 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_equal_2
+		set_temp_variable = { number = 2 }
+		volunteer_cap_equal = yes
+	}
+}
+volunteer_cap_equal_3 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_equal_3
+		set_temp_variable = { number = 3 }
+		volunteer_cap_equal = yes
+	}
+}
+volunteer_cap_equal_4 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_equal_4
+		set_temp_variable = { number = 4 }
+		volunteer_cap_equal = yes
+	}
+}
+volunteer_cap_equal_5 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_equal_5
+		set_temp_variable = { number = 5 }
+		volunteer_cap_equal = yes
+	}
+}
+volunteer_cap_greater = {
+	set_temp_variable = { index = -1 }
+	OR = {
+		AND = {
+			NOT = { is_in_array = { array = volunteers_tags value = target } }
+			check_variable = { number < 0 }
+		}
+		volunteer_cap_greater_inner = yes
+	}
+}
+volunteer_cap_greater_inner = {
+	add_to_temp_variable = { index = 1 }
+	NOT = { check_variable = { index > volunteers_tags^num } }
+	OR = {
+		AND = {
+			check_variable = { volunteers_tags^index = target }
+			check_variable = { number < volunteers_amounts^index }
+		}
+		volunteer_cap_greater_inner = yes
+	}
+}
+volunteer_cap_greater_0 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_greater_0
+		set_temp_variable = { number = 0 }
+		volunteer_cap_greater = yes
+	}
+}
+volunteer_cap_greater_1 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_greater_1
+		set_temp_variable = { number = 1 }
+		volunteer_cap_greater = yes
+	}
+}
+volunteer_cap_greater_2 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_greater_2
+		set_temp_variable = { number = 2 }
+		volunteer_cap_greater = yes
+	}
+}
+volunteer_cap_greater_3 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_greater_3
+		set_temp_variable = { number = 3 }
+		volunteer_cap_greater = yes
+	}
+}
+volunteer_cap_greater_4 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_greater_4
+		set_temp_variable = { number = 4 }
+		volunteer_cap_greater = yes
+	}
+}
+volunteer_cap_greater_5 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_greater_5
+		set_temp_variable = { number = 5 }
+		volunteer_cap_greater = yes
+	}
+}
+volunteer_cap_less = {
+	set_temp_variable = { index = -1 }
+	OR = {
+		AND = {
+			NOT = { is_in_array = { array = volunteers_tags value = target } }
+			check_variable = { number > 0 }
+		}
+		volunteer_cap_less_inner = yes
+	}
+}
+volunteer_cap_less_inner = {
+	add_to_temp_variable = { index = 1 }
+	NOT = { check_variable = { index > volunteers_tags^num } }
+	OR = {
+		AND = {
+			check_variable = { volunteers_tags^index = target }
+			check_variable = { number > volunteers_amounts^index }
+		}
+		volunteer_cap_less_inner = yes
+	}
+}
+volunteer_cap_less_1 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_1
+		set_temp_variable = { number = 1 }
+		volunteer_cap_less = yes
+	}
+}
+volunteer_cap_less_2 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_2
+		set_temp_variable = { number = 2 }
+		volunteer_cap_less = yes
+	}
+}
+volunteer_cap_less_3 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_3
+		set_temp_variable = { number = 3 }
+		volunteer_cap_less = yes
+	}
+}
+volunteer_cap_less_4 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_4
+		set_temp_variable = { number = 4 }
+		volunteer_cap_less = yes
+	}
+}
+volunteer_cap_less_5 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_5
+		set_temp_variable = { number = 5 }
+		volunteer_cap_less = yes
+	}
+}
+volunteer_cap_less_6 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_6
+		set_temp_variable = { number = 6 }
+		volunteer_cap_less = yes
+	}
+}
+volunteer_cap_less_7 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_7
+		set_temp_variable = { number = 7 }
+		volunteer_cap_less = yes
+	}
+}
+volunteer_cap_less_8 = {
+	custom_trigger_tooltip = {
+		tooltip = volunteer_cap_less_8
+		set_temp_variable = { number = 8 }
+		volunteer_cap_less = yes
+	}
+}
+is_num_vols_right = {
+	set_temp_variable = { index = -1 }
+	OR = {
+		AND = {
+			NOT = { is_in_array = { array = ROOT.volunteers_tags value = THIS } }
+			check_variable = { ROOT.test_additional_volunteers = 0 }
+		}
+		is_num_vols_right_inner = yes
+	}
+}
+is_num_vols_right_inner = {
+	add_to_temp_variable = { index = 1 }
+	NOT = { check_variable = { index > ROOT.volunteers_tags^num } }
+	OR = {
+		AND = {
+			check_variable = { ROOT.volunteers_tags^index = THIS }
+			check_variable = { ROOT.test_additional_volunteers = ROOT.volunteers_amounts^index }
+		}
+		is_num_vols_right_inner = yes
+	}
+}

@@ -1,13 +1,25 @@
 ﻿l_japanese:
 #キャラクター
  FER_alexander_bolotov:0 "アレクサンドル・ボロトフ"
+ FER_andrey_svetzarov:0 "アンドレイ・スヴェツァロフ"
+ FER_apollon_kruse:0 "アポロン・クルーゼ"
  FER_boris_tadley:0 "ボリス・タドリー"
  FER_donat_yosefovich_kunle:0 "ドナト・ヨセフォビッチ・クンレ"
+ FER_evgeny_ivanov:0 "エフゲニー・イワノフ"
  FER_georgy_gins:0 "ゲオルギー・ギンス"
  FER_georgy_shekerev:0 "ゲオルギー・シェケレフ"
+ FER_ivan_mikhailov:0 "イワン・ミハイロフ"
  FER_mikhail_matkovsky:0 "ミハイル・マトコフスキー"
+ FER_mikhail_spasovsky:0 "ミハイル・スパソフスキー"
  FER_pyotr_wrangel_ii:0 "ピョートル・ヴラーンゲリ2世"
  FER_rostislav_kolchak:0 "ロスチスラフ・コルチャーク"
+ FER_vladimir_kibardin:0 "ウラジーミル・キバルディン"
+ FER_vyacheslav_baranov:0 "ヴャチェスラフ・バラノフ"
+#国民精神
+ FER_far_eastern_tiger:0 "極東の虎"
+ FER_frozen_economy:0 "凍てついた経済"
+ FER_japanese_domestic_dog:0 "日本の飼い犬"
+ FER_revived_white_army:0 "蘇った白軍"
 #政党
  FER_totalitarian_socialism_party:0 "CPSU"
  FER_totalitarian_socialism_party_long:0 "ソビエト連邦共産党"

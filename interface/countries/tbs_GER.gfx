@@ -17,6 +17,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/idea_GER_heinz_knoke.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_helmut_schmid"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_helmut_schmid.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_horst_mahler"
+		texturefile = "gfx/interface/advisors/GER/idea_GER_horst_mahler.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_josef_grohe"
 		texturefile = "gfx/interface/advisors/GER/idea_GER_josef_grohe.png"
 	}
@@ -68,6 +76,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_GER_Heinz_Knoke"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Heinz_Knoke.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Helmut_Schmid"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Helmut_Schmid.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Horst_Mahler"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Horst_Mahler.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_GER_Josef_Grohe"

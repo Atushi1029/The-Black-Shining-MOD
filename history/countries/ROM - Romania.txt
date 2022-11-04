@@ -5,6 +5,7 @@ set_starting_values = yes
 recruit_character = ROM_corneliu_manescu
 recruit_character = ROM_michael_i
 recruit_character = ROM_nicolae_ceausescu
+set_global_flag = romanian_civilwar
 set_convoys = 20
 add_ideas = {
 	

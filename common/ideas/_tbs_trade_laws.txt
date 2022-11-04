@@ -1,0 +1,70 @@
+ideas = {
+	trade_laws = {
+		law = yes
+		use_list_view = yes
+		uncontrolled_exports = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			picture = isolation
+			modifier = {
+				min_export = 0.25
+				consumer_goods_factor = 0.05
+				civilian_intel_to_others = 40.0
+				navy_intel_to_others = 40.0
+				agency_upgrade_time = 0.15
+			}
+		}
+		free_trade = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				civilian_intel_to_others = 40.0
+				navy_intel_to_others = 20.0
+			}
+		}
+		export_focus = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+				civilian_intel_to_others = 20.0
+				navy_intel_to_others = 10.0
+			}
+			default = yes
+		}
+		limited_exports = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				min_export = 0.25
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.01
+				civilian_intel_to_others = 10.0
+				navy_intel_to_others = 5
+			}
+		}
+		closed_economy = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				min_export = 0
+			}
+		}
+	}
+}

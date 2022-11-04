@@ -10,6 +10,7 @@ set_starting_values = yes
 recruit_character = JAP_aiichiro_fujiyama
 recruit_character = JAP_akira_yamaki
 recruit_character = JAP_asaichi_isobe
+recruit_character = JAP_ayako_daidoji
 recruit_character = JAP_ayao_shirane
 recruit_character = JAP_chifuyu_masaki
 recruit_character = JAP_etsusaburo_shiina
@@ -37,6 +38,7 @@ recruit_character = JAP_kiyoshi_utsumi
 recruit_character = JAP_ko_nagasawa
 recruit_character = JAP_kogoro_yamazaki
 recruit_character = JAP_kumao_imoto
+recruit_character = JAP_kunio_bando
 recruit_character = JAP_masaji_ogasawara
 recruit_character = JAP_masanobu_tsuji
 recruit_character = JAP_masanosuke_ikeda
@@ -96,9 +98,8 @@ add_ideas = {
 	JAP_mon_hirohito
 	JAP_chifuyu_masaki_for
 	JAP_ichio_asukata_eco
-	JAP_kei_hoashi_hog
 	JAP_masaji_ogasawara_int
-	JAP_seiichi_katsumata_jus
+	JAP_seiichi_katsumata_hog
 	JAP_torazo_ninagawa_sec
 }
 set_politics = {

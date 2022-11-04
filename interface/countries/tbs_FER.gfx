@@ -5,12 +5,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_alexander_bolotov.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_andrey_svetzarov"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_andrey_svetzarov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_apollon_kruse"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_apollon_kruse.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_boris_tadley"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_boris_tadley.png"
 	}
 	spriteType = {
 		name = "GFX_idea_FER_donat_yosefovich_kunle"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_donat_yosefovich_kunle.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_evgeny_ivanov"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_evgeny_ivanov.png"
 	}
 	spriteType = {
 		name = "GFX_idea_FER_georgy_gins"
@@ -21,8 +33,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_georgy_shekerev.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_ivan_mikhailov"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_ivan_mikhailov.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_mikhail_matkovsky"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_mikhail_matkovsky.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_mikhail_spasovsky"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_mikhail_spasovsky.png"
 	}
 	spriteType = {
 		name = "GFX_idea_FER_pyotr_wrangel_ii"
@@ -40,10 +60,26 @@ spriteTypes = {
 		name = "GFX_idea_FER_rostislav_kolchak_admiral"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_rostislav_kolchak_admiral.png"
 	}
+	spriteType = {
+		name = "GFX_idea_FER_vladimir_kibardin"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_vladimir_kibardin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FER_vyacheslav_baranov"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_vyacheslav_baranov.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_FER_Alexander_Bolotov"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Alexander_Bolotov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Andrey_Svetzarov"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Andrey_Svetzarov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Apollon_Kruse"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Apollon_Kruse.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Boris_Tadley"
@@ -54,6 +90,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FER/Portrait_FER_Donat_Yosefovich_Kunle.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_FER_Evgeny_Ivanov"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Evgeny_Ivanov.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_FER_Georgy_Gins"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Georgy_Gins.png"
 	}
@@ -62,8 +102,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FER/Portrait_FER_Georgy_Shekerev.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_FER_Ivan_Mikhailov"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Ivan_Mikhailov.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_FER_Mikhail_Matkovsky"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Mikhail_Matkovsky.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Mikhail_Spasovsky"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Mikhail_Spasovsky.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Pyotr_Wrangel_II"
@@ -80,5 +128,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Rostislav_Kolchak_admiral"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Rostislav_Kolchak_admiral.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Vladimir_Kibardin"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Vladimir_Kibardin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Vyacheslav_Baranov"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Vyacheslav_Baranov.png"
 	}
 }

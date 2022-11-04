@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HIROKUNI_MUTA_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = national_corporatism_ideology
 			expire = "1987.6.29.1"
 			id = -1
 			traits = {}

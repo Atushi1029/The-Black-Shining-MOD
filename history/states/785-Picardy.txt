@@ -12,13 +12,13 @@ state = {
 			11420 5 
 		}
 		owner = FRA
+		add_core_of = BRG
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 
 		}
-
 	}
 
 	provinces = { 

@@ -17,3 +17,11 @@ set_popularities = {
 	authoritarian_democracy = 40
 	paternal_autocracy = 60
 }
+give_resource_rights = {
+	receiver = CHI
+	state = 322
+}
+give_resource_rights = {
+	receiver = CHI
+	state = 601
+}

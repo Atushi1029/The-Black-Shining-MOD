@@ -374,6 +374,13 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10750
 			}
 		}
+		foreign_advisors = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea foreign_advisors" }
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = generic_attache
+		}
 	}
 
 	# TECHNOLOGY

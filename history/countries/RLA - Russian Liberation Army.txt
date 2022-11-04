@@ -2,7 +2,22 @@
 oob = ""
 set_cosmetic_tag = RUS_liberation_army
 set_starting_values = yes
+recruit_character = RLA_alexander_albov
+recruit_character = RLA_andrey_dikiy
+recruit_character = RLA_constantine_kromiadi
+recruit_character = RLA_fyodor_truhin
+recruit_character = RLA_georgy_zhilenkov
+recruit_character = RLA_ivan_melkikh
+recruit_character = RLA_lev_savinkov
+recruit_character = RLA_mikhail_meandrov
+recruit_character = RLA_mikhail_oktan
+recruit_character = RLA_miletiy_zykov
+recruit_character = RLA_musa_calil
+recruit_character = RLA_semyon_bychkov
+recruit_character = RLA_sergei_bunyachenko
 recruit_character = RLA_viktor_maltzev
+recruit_character = RLA_vladimir_boyarsky
+recruit_character = RLA_yuri_evtukhovich
 set_convoys = 20
 add_ideas = {
 	

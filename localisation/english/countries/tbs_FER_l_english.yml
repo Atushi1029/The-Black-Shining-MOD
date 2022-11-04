@@ -1,13 +1,25 @@
 ﻿l_english:
 #Characters
  FER_alexander_bolotov:0 "Alexander Bolotov"
+ FER_andrey_svetzarov:0 "Andrey Svetzarov"
+ FER_apollon_kruse:0 "Apollon Kruse"
  FER_boris_tadley:0 "Boris Tadley"
  FER_donat_yosefovich_kunle:0 "Donat Yosefovich Kunle"
+ FER_evgeny_ivanov:0 "Evgeny Ivanov"
  FER_georgy_gins:0 "Georgy Gins"
  FER_georgy_shekerev:0 "Georgy Shekerev"
+ FER_ivan_mikhailov:0 "Ivan Mikhailov"
  FER_mikhail_matkovsky:0 "Mikhail Matkovsky"
+ FER_mikhail_spasovsky:0 "Mikhail Spasovsky"
  FER_pyotr_wrangel_ii:0 "Pyotr Wrangel II"
  FER_rostislav_kolchak:0 "Rostislav Kolchak"
+ FER_vladimir_kibardin:0 "Vladimir Kibardin"
+ FER_vyacheslav_baranov:0 "Vyacheslav Baranov"
+#National Spirits
+ FER_far_eastern_tiger:0 "Far Eastern Tiger"
+ FER_frozen_economy:0 "Frozen Economy"
+ FER_japanese_domestic_dog:0 "Japanese Domestic Dog"
+ FER_revived_white_army:0 "Revived White Army"
 #Parties
  FER_totalitarian_socialism_party:0 "CPSU"
  FER_totalitarian_socialism_party_long:0 "Communist Party of the Soviet Union"

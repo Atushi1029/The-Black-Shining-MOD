@@ -1,0 +1,26 @@
+characters = {
+	BRI_francois_tanguy-prigent = {
+		name = BRI_francois_tanguy-prigent
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRI_Francois_Tanguy-Prigent"
+				small = "GFX_idea_BRI_francois_tanguy-prigent"
+			}
+			army = {
+				large = "GFX_Portrait_BRI_Francois_Tanguy-Prigent"
+				small = "GFX_idea_BRI_francois_tanguy-prigent"
+			}
+			navy = {
+				large = "GFX_Portrait_BRI_Francois_Tanguy-Prigent"
+				small = "GFX_idea_BRI_francois_tanguy-prigent"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FRANCOIS_TANGUY-PRIGENT_DESC"
+			ideology = social_democracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

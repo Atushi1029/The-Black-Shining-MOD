@@ -1,6 +1,7 @@
 ﻿l_english:
 #キャラクター
  RKM_martin_mussgnug:0 "Martin Mußgnug"
+ RKM_werner_naumann:0 "Werner Naumann"
 #政党
  RKM_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
  RKM_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
@@ -18,12 +19,12 @@
  RKM_authoritarian_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  RKM_paternal_autocracy_party:0 "Anti-Nazi Resistance Movement"
  RKM_paternal_autocracy_party_long:0 "Anti-Nazi Resistance Movement"
- RKM_national_corporatism_party:0 "NSDAP-MS"
- RKM_national_corporatism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Mußgnugists"
+ RKM_national_corporatism_party:0 "NSDAP-R"
+ RKM_national_corporatism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  RKM_national_socialism_party:0 "NSDAP-M"
  RKM_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Mainstreams"
- RKM_ultra_nationalism_party:0 "NSDAP-MS"
- RKM_ultra_nationalism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Mußgnugists"
+ RKM_ultra_nationalism_party:0 "NSDAP-W"
+ RKM_ultra_nationalism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Wehrmacht"
  RKM_religious_nationalism_party:0 "NSDAP-SS"
  RKM_religious_nationalism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - SS"
  RKM_transhumanism_party:0 "Anti-Nazi Resistance Movement"

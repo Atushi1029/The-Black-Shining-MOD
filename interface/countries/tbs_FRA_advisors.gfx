@@ -11,4 +11,16 @@ spriteTypes = {
 		name = "GFX_idea_FRA_napoleon_vi"
 		texturefile = "gfx/interface/advisors/FRA/idea_FRA_napoleon_vi.png"
 	}
+	spriteType = {
+		name = "GFX_idea_FRA_napoleon_vi_80s"
+		texturefile = "gfx/interface/advisors/FRA/idea_FRA_napoleon_vi_80s.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_napoleon_vi_emperor"
+		texturefile = "gfx/interface/advisors/FRA/idea_FRA_napoleon_vi_emperor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_napoleon_vi_emperor_2nd"
+		texturefile = "gfx/interface/advisors/FRA/idea_FRA_napoleon_vi_emperor_2nd.png"
+	}
 }

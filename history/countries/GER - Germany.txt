@@ -7,6 +7,8 @@ recruit_character = GER_albert_speer
 recruit_character = GER_baldur_von_schirach
 recruit_character = GER_fritz_rossler
 recruit_character = GER_heinz_knoke
+recruit_character = GER_helmut_schmid
+recruit_character = GER_horst_mahler
 recruit_character = GER_josef_grohe
 recruit_character = GER_karl_saur
 recruit_character = GER_nsdap_central_commitee
@@ -102,10 +104,6 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = RKK
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = RKM
 	autonomous_state = autonomy_reichskommissariat
 }
 set_autonomy = {
