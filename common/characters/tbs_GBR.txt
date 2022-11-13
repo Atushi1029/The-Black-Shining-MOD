@@ -474,7 +474,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_TONY_BENN_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = syndicalism_ideology
 			expire = "2014.3.14.1"
 			id = -1
 			traits = {}

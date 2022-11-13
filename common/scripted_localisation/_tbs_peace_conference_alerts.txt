@@ -1,0 +1,100 @@
+defined_text = {
+	name = GetLoserAllies
+	text = {
+		trigger = { has_global_flag = losing_country_multiple }
+		localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_PLURAL
+	}
+	text = { localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_SINGULAR }
+}
+defined_text = {
+	name = GetWinnerAllies
+	text = {
+		trigger = { has_global_flag = winning_country_multiple }
+		localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_PLURAL
+	}
+	text = { localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_SINGULAR }
+}
+defined_text = {
+	name = GetLoserAlliesWithHas
+	text = {
+		trigger = { has_global_flag = losing_country_multiple }
+		localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = { localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_SINGULAR_HAS }
+}
+defined_text = {
+	name = GetWinnerAlliesWithHas
+	text = {
+		trigger = { has_global_flag = winning_country_multiple }
+		localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = { localization_key = PEACE_CONFERENCE_POPUP_COUNTRY_SINGULAR_HAS }
+}
+defined_text = {
+	name = GetPeaceConferencePopupDesc
+	text = {
+		trigger = { has_global_flag = war_won }
+		localization_key = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION
+	}
+	text = {
+		trigger = { has_global_flag = war_continuing }
+		localization_key = PEACE_CONFERENCE_POPUP_WAR_CONTINUING
+	}
+}
+defined_text = {
+	name = GetPeaceConferencePopupTitle
+	text = {
+		trigger = {
+			event_target:winning_country = { always = no }
+			event_target:losing_country = { always = no }
+		}
+		localization_key = ""
+	}
+	text = { localization_key = PEACE_CONFERENCE_POPUP_TITLE_DEFAULT }
+}
+defined_text = {
+	name = GetWarConclusionLoc
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				OR = {
+					tag = BRG
+					tag = FRA
+				}
+			}
+			event_target:losing_country = {
+				OR = {
+					tag = BRG
+					tag = FRA
+				}
+			}
+		}
+		localization_key = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_BRG_REBELLION
+	}
+	text = { localization_key = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_DEFAULT }
+}
+defined_text = {
+	name = GetWarContinuationLoc
+	text = { localization_key = PEACE_CONFERENCE_POPUP_WAR_CONTINUING_DEFAULT }
+}
+defined_text = {
+	name = GetPeaceConferencePopupFlavor
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				OR = {
+					tag = BRG
+					tag = FRA
+				}
+			}
+			event_target:losing_country = {
+				OR = {
+					tag = BRG
+					tag = FRA
+				}
+			}
+		}
+		localization_key = PEACE_CONFERENCE_POPUP_FLAVOR_BRG_REBELLION
+	}
+	text = { localization_key = PEACE_CONFERENCE_POPUP_FLAVOR_DEFAULT }
+}

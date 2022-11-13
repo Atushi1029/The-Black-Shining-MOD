@@ -13,6 +13,7 @@ recruit_character = FER_georgy_shekerev
 recruit_character = FER_ivan_mikhailov
 recruit_character = FER_mikhail_matkovsky
 recruit_character = FER_mikhail_spasovsky
+recruit_character = FER_nikolay_abramov
 recruit_character = FER_pyotr_wrangel_ii
 recruit_character = FER_rostislav_kolchak
 recruit_character = FER_vladimir_kibardin

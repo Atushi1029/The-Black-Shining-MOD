@@ -46,7 +46,5 @@
  cannot_use_strait_of_dover_tunnel_tt:0 "§R$DOVER_STRAIT_TUNNEL$が使用不可能である。§!"
  cannot_use_donghai_bridge_tt:0 "§R$DONGHAI_BRIDGE$が使用不可能である。§!"
  cannot_use_hong-kong-zhuhai-macao_bridge_tt:0 "§R$HKG-MCU_BRIDGE$が使用不可能である。§!"
- changed_ghan_route_tt:0 "§R$THE_GHAN_ROUTE$が変更された。§!"
- not_changed_ghan_route_tt:0 "§R$THE_GHAN_ROUTE$が変更されていない。§!"
  disable_midi_canal_tt:0 "§R$MIDI_CANAL$が使用不可能である。§!"
  build_dover_strait_tunnel_tt:0 "$DOVER_STRAIT_TUNNEL$を建設する。"

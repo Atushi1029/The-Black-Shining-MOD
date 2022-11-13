@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_FEDERICA_MONTSENY_DESC"
-			ideology = social_democracy_ideology
+			ideology = peoples_front_ideology
 			expire = "1994.1.14.1"
 			id = -1
 			traits = {}

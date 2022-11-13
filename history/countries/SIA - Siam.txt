@@ -2,8 +2,13 @@
 oob = ""
 set_cosmetic_tag = SIA_republic
 set_starting_values = yes
+recruit_character = SIA_bhumibol_adulyadej
 recruit_character = SIA_kukrit_pramoj
+recruit_character = SIA_pramarn_adireksarn
+recruit_character = SIA_praphas_charusathien
+recruit_character = SIA_prem_tinsulanonda
 recruit_character = SIA_pridi_banomyong
+recruit_character = SIA_seni_pramoj
 set_convoys = 20
 add_ideas = {
 	

@@ -10,6 +10,7 @@ state = {
 		owner = JAP
 		add_core_of = JAP
 		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
 		set_state_flag = man_core_states
 		victory_points = {
 			1150 1 

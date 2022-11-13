@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LEOPOLD_SEDAR_SENGHOR_DESC"
-			ideology = radical_socialism_ideology
+			ideology = pan_africanism_ideology
 			expire = "2001.12.20.1"
 			id = -1
 			traits = {}

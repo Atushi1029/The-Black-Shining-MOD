@@ -1,11 +1,12 @@
 state = { 
 	id=287
 	name="STATE_287"
-	impassable = yes
+	impassable = no
 	history = { 
 		owner = SIK
 		add_core_of = SIK
 		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
 		buildings = {
 			infrastructure = 1
 

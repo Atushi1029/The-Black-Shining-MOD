@@ -394,6 +394,10 @@
  PAR_republic:0 "Republic of Paraguay"
  PAR_republic_DEF:0 "the Republic of Paraguay"
  PAR_republic_ADJ:0 "Paraguayan"
+#People's Liberation Army
+ PEOPLES_LIBERATION_ARMY:0 "People's Liberation Army"
+ PEOPLES_LIBERATION_ARMY_DEF:0 "the People's Liberation Army"
+ PEOPLES_LIBERATION_ARMY_ADJ:0 "Chinese"
 #ペルシア
  PER_empire:0 "Empire of Persia"
  PER_empire_DEF:0 "the Empire of Persia"

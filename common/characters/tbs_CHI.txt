@@ -1,4 +1,96 @@
 characters = {
+	CHI_chang_hsueh-liang = {
+		name = CHI_chang_hsueh-liang
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CHI_Chang_Hsueh-liang"
+				small = "GFX_idea_CHI_chang_hsueh-liang"
+			}
+			army = {
+				large = "GFX_Portrait_CHI_Chang_Hsueh-liang"
+				small = "GFX_idea_CHI_chang_hsueh-liang"
+			}
+			navy = {
+				large = "GFX_Portrait_CHI_Chang_Hsueh-liang"
+				small = "GFX_idea_CHI_chang_hsueh-liang"
+			}
+		}
+	}
+	CHI_chiang_ching-kuo = {
+		name = CHI_chiang_ching-kuo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CHI_Chiang_Ching-kuo"
+				small = "GFX_idea_CHI_chiang_ching-kuo"
+			}
+			army = {
+				large = "GFX_Portrait_CHI_Chiang_Ching-kuo"
+				small = "GFX_idea_CHI_chiang_ching-kuo"
+			}
+			navy = {
+				large = "GFX_Portrait_CHI_Chiang_Ching-kuo"
+				small = "GFX_idea_CHI_chiang_ching-kuo"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CHIANG_CHING-KUO_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1988.1.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+	CHI_dai_li = {
+		name = CHI_dai_li
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CHI_Dai_Li"
+				small = "GFX_idea_CHI_dai_li"
+			}
+			army = {
+				large = "GFX_Portrait_CHI_Dai_Li"
+				small = "GFX_idea_CHI_dai_li"
+			}
+			navy = {
+				large = "GFX_Portrait_CHI_Dai_Li"
+				small = "GFX_idea_CHI_dai_li"
+			}
+		}
+	}
+	CHI_he_yingqin = {
+		name = CHI_he_yingqin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CHI_He_Yingqin"
+				small = "GFX_idea_CHI_he_yingqin"
+			}
+			army = {
+				large = "GFX_Portrait_CHI_He_Yingqin"
+				small = "GFX_idea_CHI_he_yingqin"
+			}
+			navy = {
+				large = "GFX_Portrait_CHI_He_Yingqin"
+				small = "GFX_idea_CHI_he_yingqin"
+			}
+		}
+	}
+	CHI_lien_chen-tung = {
+		name = CHI_lien_chen-tung
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CHI_Lien_Chen-tung"
+				small = "GFX_idea_CHI_lien_chen-tung"
+			}
+			army = {
+				large = "GFX_Portrait_CHI_Lien_Chen-tung"
+				small = "GFX_idea_CHI_lien_chen-tung"
+			}
+			navy = {
+				large = "GFX_Portrait_CHI_Lien_Chen-tung"
+				small = "GFX_idea_CHI_lien_chen-tung"
+			}
+		}
+	}
 	CHI_wang_yu-yun = {
 		name = CHI_wang_yu-yun
 		portraits = {
@@ -14,13 +106,6 @@ characters = {
 				large = "GFX_Portrait_CHI_Wang_Yu-yun"
 				small = "GFX_idea_CHI_wang_yu-yun"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_WANG_YU-YUN_DESC"
-			ideology = authoritarian_democracy_ideology
-			expire = "2009.8.17.1"
-			id = -1
-			traits = {}
 		}
 	}
 }

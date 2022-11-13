@@ -1,0 +1,6 @@
+﻿l_japanese:
+ FACTION_JOINING_POPUP_TITLE:0 "外交アラート"
+ FACTION_JOINING_POPUP_DESC:0 "§Y[faction_member.GetNameWithFlag]§!が、§Y[faction_leader.GetFactionName]§!に加盟した。"
+ FACTION_JOINING_POPUP_CLOSE:0 "閉じる"
+#Flavor
+ FACTION_JOINING_POPUP_FLAVOR_DEFAULT:0 "彼らの積極的行動は、世界的バランスの変化を示しており、ヨーロッパやその周辺の安定に悲惨な結果をもたらす可能性がある。"

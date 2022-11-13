@@ -308,8 +308,8 @@ CRO = {
 	color_ui = rgb { 109 142 96 }
 }
 PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 245 12 55 }
+	color = rgb { 187 85 73 }
+	color_ui = rgb { 187 85 73 }
 }
 GXC = {
 	color = rgb { 71 113 97 }

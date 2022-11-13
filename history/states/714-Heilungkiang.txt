@@ -6,6 +6,7 @@ state = {
 		owner = MAN
 		add_core_of = MAN
 		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
 		buildings = {
 			infrastructure = 2
 

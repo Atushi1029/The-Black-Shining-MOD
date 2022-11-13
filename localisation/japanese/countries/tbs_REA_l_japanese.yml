@@ -2,8 +2,13 @@
 #キャラクター
  REA_gisen_sato:0 "左藤義詮"
  REA_gurgen_nagolyan:0 "グルゲン・ナゴリャン"
+ REA_hayao_kinugasa:0 "衣笠駿雄"
+ REA_kiyoshi_hasegawa:0 "長谷川清"
  REA_makoto_hashii:0 "橋井真"
  REA_muraichi_horie:0 "堀江邑一"
+ REA_otoji_saito:0 "斉藤音次"
+ REA_shigeyoshi_inoue:0 "井上成美"
+ REA_shigeyoshi_saito:0 "斉藤滋与史"
  REA_takeo_nimiya:0 "仁宮武夫"
 #政党
  REA_totalitarian_socialism_party:0 "ナゴリャン商会"

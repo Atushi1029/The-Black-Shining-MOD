@@ -4,12 +4,22 @@ set_cosmetic_tag = EAST_ASIA_IJSAR
 set_starting_values = yes
 recruit_character = REA_gisen_sato
 recruit_character = REA_gurgen_nagolyan
+recruit_character = REA_hayao_kinugasa
+recruit_character = REA_kiyoshi_hasegawa
 recruit_character = REA_makoto_hashii
 recruit_character = REA_muraichi_horie
+recruit_character = REA_otoji_saito
+recruit_character = REA_shigeyoshi_inoue
+recruit_character = REA_shigeyoshi_saito
 recruit_character = REA_takeo_nimiya
 set_convoys = 20
 add_ideas = {
-	
+	REA_gisen_sato_hog
+	REA_hayao_kinugasa_sec
+	REA_kiyoshi_hasegawa_jus
+	REA_otoji_saito_for
+	REA_shigeyoshi_inoue_int
+	REA_shigeyoshi_saito_eco
 }
 1972.1.1 = {
 	set_politics = {

@@ -45,6 +45,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_mikhail_spasovsky.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_nikolay_abramov"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_nikolay_abramov.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_pyotr_wrangel_ii"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_pyotr_wrangel_ii.png"
 	}
@@ -112,6 +116,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Mikhail_Spasovsky"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Mikhail_Spasovsky.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Nikolay_Abramov"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Nikolay_Abramov.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Pyotr_Wrangel_II"

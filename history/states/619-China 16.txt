@@ -11,6 +11,7 @@ state = {
 		owner = SIK
 		add_core_of = SIK
 		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

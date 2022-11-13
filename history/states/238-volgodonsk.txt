@@ -6,6 +6,7 @@ state = {
 	history = { 
 		owner = RKK
 		add_core_of = RKK
+		set_state_flag = rk_moskowien_core_states
 		set_state_flag = russian_old_states
 		buildings = {
 			infrastructure = 2

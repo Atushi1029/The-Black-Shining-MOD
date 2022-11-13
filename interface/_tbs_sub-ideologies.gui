@@ -5,8 +5,8 @@ guiTypes = {
 		instantTextboxType = {
 			name = "sub-ideologies_name"
 			position = { x = 0 y = 0 }
-			font = "hoi_16mbs"
-			text = "[ROOT.GetSubIdeology]"
+			font = "hoi_18mbs"
+			text = "([ROOT.GetSubIdeology])"
 			pdx_tooltip = "[ROOT.GetSubIdeology]"
 			pdx_tooltip_delayed = "[ROOT.GetCoalitionInformation]"
 			maxWidth = 160

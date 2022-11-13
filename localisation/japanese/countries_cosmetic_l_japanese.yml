@@ -394,6 +394,10 @@
  PAR_republic:0 "パラグアイ共和国"
  PAR_republic_DEF:0 "パラグアイ共和国"
  PAR_republic_ADJ:0 "パラグアイ"
+#人民解放軍
+ PEOPLES_LIBERATION_ARMY:0 "人民解放軍"
+ PEOPLES_LIBERATION_ARMY_DEF:0 "人民解放軍"
+ PEOPLES_LIBERATION_ARMY_ADJ:0 "中国"
 #ペルシア
  PER_empire:0 "ペルシア帝国"
  PER_empire_DEF:0 "ペルシア帝国"

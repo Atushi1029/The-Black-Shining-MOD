@@ -6,6 +6,7 @@ state = {
 		owner = REA
 		add_core_of = REA
 		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
 		victory_points = {
 			1055 1 
 		}

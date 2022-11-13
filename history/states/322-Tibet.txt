@@ -4,11 +4,12 @@ state = {
 	resources = { 
 		tungsten=2.000
 	}
-	impassable = yes
+	impassable = no
 	history = { 
 		owner = TIB
 		add_core_of = TIB
 		add_claim_by = CHI
+		add_claim_by = PRC
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

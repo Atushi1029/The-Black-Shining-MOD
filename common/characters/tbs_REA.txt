@@ -22,6 +22,19 @@ characters = {
 			id = -1
 			traits = {}
 		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = REA_gisen_sato_hog
+			allowed = { original_tag = REA }
+			traits = {
+				tbs_head_of_government
+				tbs_iron_fisted_brute
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	REA_gurgen_nagolyan = {
 		name = REA_gurgen_nagolyan
@@ -45,6 +58,66 @@ characters = {
 			expire = "1974.6.4.1"
 			id = -1
 			traits = {}
+		}
+	}
+	REA_hayao_kinugasa = {
+		name = REA_hayao_kinugasa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Hayao_Kinugasa"
+				small = "GFX_idea_REA_hayao_kinugasa"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Hayao_Kinugasa"
+				small = "GFX_idea_REA_hayao_kinugasa"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Hayao_Kinugasa"
+				small = "GFX_idea_REA_hayao_kinugasa"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = REA_hayao_kinugasa_sec
+			allowed = { original_tag = REA }
+			traits = {
+				tbs_security_minister
+				tbs_armaments_organiser
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	REA_kiyoshi_hasegawa = {
+		name = REA_kiyoshi_hasegawa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Kiyoshi_Hasegawa"
+				small = "GFX_idea_REA_kiyoshi_hasegawa"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Kiyoshi_Hasegawa"
+				small = "GFX_idea_REA_kiyoshi_hasegawa"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Kiyoshi_Hasegawa"
+				small = "GFX_idea_REA_kiyoshi_hasegawa"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = REA_kiyoshi_hasegawa_jus
+			allowed = { original_tag = REA }
+			traits = {
+				tbs_justice_minister
+				tbs_great_compromiser
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	REA_makoto_hashii = {
@@ -86,6 +159,96 @@ characters = {
 			expire = "1991.11.24.1"
 			id = -1
 			traits = {}
+		}
+	}
+	REA_otoji_saito = {
+		name = REA_otoji_saito
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Otoji_Saito"
+				small = "GFX_idea_REA_otoji_saito"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Otoji_Saito"
+				small = "GFX_idea_REA_otoji_saito"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Otoji_Saito"
+				small = "GFX_idea_REA_otoji_saito"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = REA_otoji_saito_for
+			allowed = { original_tag = REA }
+			traits = {
+				tbs_foreign_minister
+				tbs_heretic_diplomat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	REA_shigeyoshi_inoue = {
+		name = REA_shigeyoshi_inoue
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Shigeyoshi_Inoue"
+				small = "GFX_idea_REA_shigeyoshi_inoue"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Shigeyoshi_Inoue"
+				small = "GFX_idea_REA_shigeyoshi_inoue"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Shigeyoshi_Inoue_admiral"
+				small = "GFX_idea_REA_shigeyoshi_inoue_admiral"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = REA_shigeyoshi_inoue_int
+			allowed = { original_tag = REA }
+			traits = {
+				tbs_interior_minister
+				tbs_old_admiral
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	REA_shigeyoshi_saito = {
+		name = REA_shigeyoshi_saito
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Shigeyoshi_Saito"
+				small = "GFX_idea_REA_shigeyoshi_saito"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Shigeyoshi_Saito"
+				small = "GFX_idea_REA_shigeyoshi_saito"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Shigeyoshi_Saito"
+				small = "GFX_idea_REA_shigeyoshi_saito"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = REA_shigeyoshi_saito_eco
+			allowed = { original_tag = REA }
+			traits = {
+				tbs_economy_minister
+				tbs_austere_finance_advocate
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	REA_takeo_nimiya = {

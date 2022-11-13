@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_JENNIE_LEE_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = syndicalism_ideology
 			expire = "1988.11.16.1"
 			id = -1
 			traits = {}

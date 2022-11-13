@@ -5,7 +5,7 @@ state = {
 	manpower = 79243
 	
 	state_category = wasteland
-	impassable = yes
+	impassable = no
 	history = { 
 		owner = MLI
 		add_core_of = MLI

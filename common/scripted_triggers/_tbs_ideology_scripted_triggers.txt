@@ -36,6 +36,9 @@ has_socialist_government = {
 			has_government = totalitarian_socialism
 			has_government = radical_socialism
 			has_government = moderate_socialism
+			has_a_coalition_with_totalitarian_socialism = yes
+			has_a_coalition_with_radical_socialism = yes
+			has_a_coalition_with_moderate_socialism = yes
 		}
 	}
 }
@@ -46,6 +49,9 @@ has_elected_government = {
 			has_government = social_democracy
 			has_government = liberal_democracy
 			has_government = social_conservatism
+			has_a_coalition_with_social_democracy = yes
+			has_a_coalition_with_liberal_democracy = yes
+			has_a_coalition_with_social_conservatism = yes
 		}
 	}
 }
@@ -57,6 +63,10 @@ has_democratic_government = {
 			has_government = liberal_democracy
 			has_government = social_conservatism
 			has_government = authoritarian_democracy
+			has_a_coalition_with_social_democracy = yes
+			has_a_coalition_with_liberal_democracy = yes
+			has_a_coalition_with_social_conservatism = yes
+			has_a_coalition_with_authoritarian_democracy = yes
 		}
 	}
 }
@@ -71,6 +81,13 @@ has_authoritarian_government = {
 			has_government = ultra_nationalism
 			has_government = religious_nationalism
 			has_government = transhumanism
+			has_a_coalition_with_authoritarian_democracy = yes
+			has_a_coalition_with_paternal_autocracy = yes
+			has_a_coalition_with_national_corporatism = yes
+			has_a_coalition_with_national_socialism = yes
+			has_a_coalition_with_ultra_nationalism = yes
+			has_a_coalition_with_religious_nationalism = yes
+			has_a_coalition_with_transhumanism = yes
 		}
 	}
 }
@@ -84,6 +101,12 @@ has_dictatorship_government = {
 			has_government = ultra_nationalism
 			has_government = religious_nationalism
 			has_government = transhumanism
+			has_a_coalition_with_paternal_autocracy = yes
+			has_a_coalition_with_national_corporatism = yes
+			has_a_coalition_with_national_socialism = yes
+			has_a_coalition_with_ultra_nationalism = yes
+			has_a_coalition_with_religious_nationalism = yes
+			has_a_coalition_with_transhumanism = yes
 		}
 	}
 }
@@ -94,6 +117,9 @@ has_right_democratic_government = {
 			has_government = liberal_democracy
 			has_government = social_conservatism
 			has_government = authoritarian_democracy
+			has_a_coalition_with_liberal_democracy = yes
+			has_a_coalition_with_social_conservatism = yes
+			has_a_coalition_with_authoritarian_democracy = yes
 		}
 	}
 }
@@ -103,6 +129,8 @@ has_left_democratic_government = {
 		OR = {
 			has_government = social_democracy
 			has_government = liberal_democracy
+			has_a_coalition_with_social_democracy = yes
+			has_a_coalition_with_liberal_democracy = yes
 		}
 	}
 }

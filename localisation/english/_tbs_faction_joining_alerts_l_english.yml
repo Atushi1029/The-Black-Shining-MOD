@@ -1,0 +1,6 @@
+﻿l_english:
+ FACTION_JOINING_POPUP_TITLE:0 "Diplomatic Alert"
+ FACTION_JOINING_POPUP_DESC:0 "§Y[faction_member.GetNameWithFlag]§! has joined the §Y[faction_leader.GetFactionName]§!."
+ FACTION_JOINING_POPUP_CLOSE:0 "Close"
+#Flavor
+ FACTION_JOINING_POPUP_FLAVOR_DEFAULT:0 "Their aggressive behaviour has marked a change in global balance and could have dire consequences for the stability in Europe and beyond."

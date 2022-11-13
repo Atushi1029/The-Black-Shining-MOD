@@ -3,9 +3,10 @@ state = {
 	name="STATE_979"
 
 	history = { 
-		owner = RKO
+		owner = RKM
 		add_core_of = EST
-		add_core_of = RKO
+		add_core_of = RKM
+		set_state_flag = rk_ostland_core_states
 		buildings = {
 			infrastructure = 3
 

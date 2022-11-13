@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_TESFAYE_GEBRE_KIDAN_DESC"
-			ideology = radical_socialism_ideology
+			ideology = pan_africanism_ideology
 			expire = "2004.6.2.1"
 			id = -1
 			traits = {}

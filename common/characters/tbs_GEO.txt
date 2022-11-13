@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GIVI_JAVAKHISHVILI_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = social_nationalism_ideology
 			expire = "1985.1.10.1"
 			id = -1
 			traits = {}

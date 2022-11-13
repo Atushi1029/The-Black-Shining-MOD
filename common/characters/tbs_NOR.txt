@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ERIK_GJEMS-ONSTAD_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = national_conservatism_ideology
 			expire = "2011.11.18.1"
 			id = -1
 			traits = {}

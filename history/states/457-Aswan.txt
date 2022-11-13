@@ -5,7 +5,7 @@ state=
 	manpower = 2194
 	
 	state_category = wasteland
-	impassable = yes
+	impassable = no
 	history = {
 		owner = EGY
 		buildings = {

@@ -1,0 +1,4 @@
+lar_local_recruitment = {
+	allowed = { always = yes }
+	visible = { is_debug = yes }
+}

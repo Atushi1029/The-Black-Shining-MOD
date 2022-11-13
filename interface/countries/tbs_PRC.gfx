@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_PRC_peng_dehuai_general"
+		texturefile = "gfx/interface/advisors/PRC/idea_PRC_peng_dehuai_general.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_PRC_Peng_Dehuai_general"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Peng_Dehuai_general.png"
+	}
+}

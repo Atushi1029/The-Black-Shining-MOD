@@ -1,8 +1,7 @@
 ﻿capital = 14
 oob = ""
-set_cosmetic_tag = BRI_francois_tanguy-prigent
 set_starting_values = yes
-#recruit_character = 
+recruit_character = BRI_francois_tanguy-prigent
 set_convoys = 20
 add_ideas = {
 	

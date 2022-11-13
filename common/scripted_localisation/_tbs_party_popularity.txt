@@ -318,7 +318,43 @@ defined_text = {
 }
 defined_text = {
 	name = GetSubIdeology
+	#Totalism
+	text = {
+		trigger = { has_country_leader_ideology = maoism_ideology }
+		localization_key = maoism_ideology
+	}
+	#Radical Socialism
+	text = {
+		trigger = { has_country_leader_ideology = anarcho_communism_ideology }
+		localization_key = anarcho_communism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = pan_africanism_ideology }
+		localization_key = pan_africanism_ideology
+	}
+	#Moderate Socialism
+	text = {
+		trigger = { has_country_leader_ideology = syndicalism_ideology }
+		localization_key = syndicalism_ideology
+	}
+	#Social Democracy
+	text = {
+		trigger = { has_country_leader_ideology = leftist_patriotism_ideology }
+		localization_key = leftist_patriotism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = peoples_front_ideology }
+		localization_key = peoples_front_ideology
+	}
 	#Liberal Democracy
+	text = {
+		trigger = { has_country_leader_ideology = environmental_liberalism_ideology }
+		localization_key = environmental_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_ideology }
+		localization_key = liberal_conservatism_ideology
+	}
 	text = {
 		trigger = { has_country_leader_ideology = longism_ideology }
 		localization_key = "longism_ideology"
@@ -328,10 +364,22 @@ defined_text = {
 		localization_key = "market_liberalism_ideology"
 	}
 	text = {
+		trigger = { has_country_leader_ideology = neo_liberalism_ideology }
+		localization_key = neo_liberalism_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = social_liberalism_ideology }
 		localization_key = "social_liberalism_ideology"
 	}
 	#Social Conservatism
+	text = {
+		trigger = { has_country_leader_ideology = fiscal_conservatism_ideology }
+		localization_key = fiscal_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = neo_conservatism_ideology }
+		localization_key = neo_conservatism_ideology
+	}
 	text = {
 		trigger = { has_country_leader_ideology = silent_conservatism_ideology }
 		localization_key = "silent_conservatism_ideology"
@@ -341,10 +389,23 @@ defined_text = {
 		trigger = { has_country_leader_ideology = dixiecrat_democracy_ideology }
 		localization_key = "dixiecrat_democracy_ideology"
 	}
+	text = {
+		trigger = { has_country_leader_ideology = national_conservatism_ideology }
+		localization_key = national_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = social_nationalism_ideology }
+		localization_key = social_nationalism_ideology
+	}
 	#National Corporatism
 	text = {
 		trigger = { has_country_leader_ideology = fascism_ideology }
 		localization_key = "fascism_ideology"
+	}
+	#Religious Nationalism
+	text = {
+		trigger = { has_country_leader_ideology = eurasianism_ideology }
+		localization_key = eurasianism_ideology
 	}
 	text = { localization_key = "" }
 }

@@ -2,6 +2,11 @@
 oob = ""
 set_cosmetic_tag = CHI_minkuo
 set_starting_values = yes
+recruit_character = CHI_chang_hsueh-liang
+recruit_character = CHI_chiang_ching-kuo
+recruit_character = CHI_dai_li
+recruit_character = CHI_he_yingqin
+recruit_character = CHI_lien_chen-tung
 recruit_character = CHI_wang_yu-yun
 set_convoys = 20
 add_ideas = {

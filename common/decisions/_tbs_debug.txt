@@ -1,0 +1,22 @@
+lar_local_recruitment = {
+	random_joining_faction = {
+		icon = generic_form_nation
+		available = { is_debug = yes }
+		visible = { is_debug = yes }
+		cost = 0
+		fire_only_once = no
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			random_country = {
+				limit = {
+					is_in_faction = no
+					is_subject = no
+				}
+				random_country = {
+					limit = { is_faction_leader = yes }
+					add_to_faction = PREV
+				}
+			}
+		}
+	}
+}

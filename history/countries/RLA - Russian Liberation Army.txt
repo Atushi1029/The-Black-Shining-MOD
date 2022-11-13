@@ -17,6 +17,7 @@ recruit_character = RLA_semyon_bychkov
 recruit_character = RLA_sergei_bunyachenko
 recruit_character = RLA_viktor_maltzev
 recruit_character = RLA_vladimir_boyarsky
+recruit_character = RLA_vyacheslav_artemiev
 recruit_character = RLA_yuri_evtukhovich
 set_convoys = 20
 add_ideas = {

@@ -290,7 +290,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LEV_GUMILYOV_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = eurasianism_ideology
 			expire = "1992.6.15.1"
 			id = -1
 			traits = {}

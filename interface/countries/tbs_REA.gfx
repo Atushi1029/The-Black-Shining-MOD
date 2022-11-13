@@ -9,12 +9,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/REA/idea_REA_gurgen_nagolyan.png"
 	}
 	spriteType = {
+		name = "GFX_idea_REA_hayao_kinugasa"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_hayao_kinugasa.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_kiyoshi_hasegawa"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_kiyoshi_hasegawa.png"
+	}
+	spriteType = {
 		name = "GFX_idea_REA_makoto_hashii"
 		texturefile = "gfx/interface/advisors/REA/idea_REA_makoto_hashii.png"
 	}
 	spriteType = {
 		name = "GFX_idea_REA_muraichi_horie"
 		texturefile = "gfx/interface/advisors/REA/idea_REA_muraichi_horie.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_otoji_saito"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_otoji_saito.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_shigeyoshi_inoue"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_shigeyoshi_inoue.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_shigeyoshi_inoue_admiral"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_shigeyoshi_inoue_admiral.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_shigeyoshi_saito"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_shigeyoshi_saito.png"
 	}
 	spriteType = {
 		name = "GFX_idea_REA_takeo_nimiya"
@@ -30,12 +54,36 @@ spriteTypes = {
 		texturefile = "gfx/leaders/REA/Portrait_REA_Gurgen_Nagolyan.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_REA_Hayao_Kinugasa"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Hayao_Kinugasa.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Kiyoshi_Hasegawa"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Kiyoshi_Hasegawa.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_REA_Makoto_Hashii"
 		texturefile = "gfx/leaders/REA/Portrait_REA_Makoto_Hashii.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_REA_Muraichi_Horie"
 		texturefile = "gfx/leaders/REA/Portrait_REA_Muraichi_Horie.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Otoji_Saito"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Otoji_Saito.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Shigeyoshi_Inoue"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Shigeyoshi_Inoue.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Shigeyoshi_Inoue_admiral"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Shigeyoshi_Inoue_admiral.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Shigeyoshi_Saito"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Shigeyoshi_Saito.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_REA_Takeo_Nimiya"

@@ -39,6 +39,15 @@ characters = {
 				small = "GFX_idea_FER_andrey_svetzarov"
 			}
 		}
+		corps_commander = {
+			traits = { cavalry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
 	}
 	FER_apollon_kruse = {
 		name = FER_apollon_kruse
@@ -55,6 +64,19 @@ characters = {
 				large = "GFX_Portrait_FER_Apollon_Kruse"
 				small = "GFX_idea_FER_apollon_kruse"
 			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				inflexible_strategist
+				politically_connected
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
 		}
 	}
 	FER_boris_tadley = {
@@ -114,6 +136,21 @@ characters = {
 				small = "GFX_idea_FER_evgeny_ivanov"
 			}
 		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				trait_reckless
+				infantry_officer
+				offensive_doctrine
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
 	}
 	FER_georgy_gins = {
 		name = FER_georgy_gins
@@ -155,6 +192,18 @@ characters = {
 				small = "GFX_idea_FER_georgy_shekerev"
 			}
 		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
 	}
 	FER_ivan_mikhailov = {
 		name = FER_ivan_mikhailov
@@ -171,6 +220,19 @@ characters = {
 				large = "GFX_Portrait_FER_Ivan_Mikhailov"
 				small = "GFX_idea_FER_ivan_mikhailov"
 			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				inflexible_strategist
+				politically_connected
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
 		}
 	}
 	FER_mikhail_matkovsky = {
@@ -207,6 +269,35 @@ characters = {
 			}
 		}
 	}
+	FER_nikolay_abramov = {
+		name = FER_nikolay_abramov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Nikolay_Abramov"
+				small = "GFX_idea_FER_nikolay_abramov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Nikolay_Abramov"
+				small = "GFX_idea_FER_nikolay_abramov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Nikolay_Abramov"
+				small = "GFX_idea_FER_nikolay_abramov"
+			}
+		}
+		navy_leader = {
+			traits = {
+				ironside
+				ground_pounder
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = -1
+		}
+	}
 	FER_pyotr_wrangel_ii = {
 		name = FER_pyotr_wrangel_ii
 		portraits = {
@@ -230,6 +321,20 @@ characters = {
 			id = -1
 			traits = {}
 		}
+		corps_commander = {
+			traits = {
+				old_guard
+				inflexible_strategist
+				career_officer
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
 	}
 	FER_rostislav_kolchak = {
 		name = FER_rostislav_kolchak
@@ -246,6 +351,18 @@ characters = {
 				large = "GFX_Portrait_FER_Rostislav_Kolchak_admiral"
 				small = "GFX_idea_FER_rostislav_kolchak_admiral"
 			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+				navy_career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id = -1
 		}
 	}
 	FER_vladimir_kibardin = {
@@ -280,6 +397,21 @@ characters = {
 				large = "GFX_Portrait_FER_Vyacheslav_Baranov"
 				small = "GFX_idea_FER_vyacheslav_baranov"
 			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				inflexible_strategist
+				politically_connected
+				defensive_doctrine
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
 		}
 	}
 }

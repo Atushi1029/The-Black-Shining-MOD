@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GABRIEL_RAMANANTSOA_DESC"
-			ideology = liberal_democracy_ideology
+			ideology = social_liberalism_ideology
 			expire = "1979.5.9.1"
 			id = -1
 			traits = {}

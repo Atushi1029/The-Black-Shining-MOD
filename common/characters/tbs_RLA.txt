@@ -464,6 +464,32 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	RLA_vyacheslav_artemiev = {
+		name = RLA_vyacheslav_artemiev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Vyacheslav_Artemiev"
+				small = "GFX_idea_RLA_vyacheslav_artemiev"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Vyacheslav_Artemiev"
+				small = "GFX_idea_RLA_vyacheslav_artemiev"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Vyacheslav_Artemiev"
+				small = "GFX_idea_RLA_vyacheslav_artemiev"
+			}
+		}
+		corps_commander = {
+			traits = { hill_fighter }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 	RLA_yuri_evtukhovich = {
 		name = RLA_yuri_evtukhovich
 		portraits = {

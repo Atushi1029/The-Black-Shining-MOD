@@ -10,6 +10,7 @@ state=
 		owner = JAP
 		add_core_of = JAP
 		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

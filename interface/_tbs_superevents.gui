@@ -64,7 +64,7 @@ guiTypes = {
 			clipping = no
 			background = {
 				name = "Background"
-				spriteType = "GFX_marble_tiled_bg_edges"
+				spriteType = "GFX_fullborder_tiled"
 			}
 		}
 		containerWindowType = {

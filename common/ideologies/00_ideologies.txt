@@ -2,6 +2,7 @@ ideologies = {
 	totalitarian_socialism = {
 		types = {
 			totalitarian_socialism_ideology = {}
+			maoism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 127 0 0 }
 		rules = {
@@ -27,6 +28,8 @@ ideologies = {
 	radical_socialism = {
 		types = {
 			radical_socialism_ideology = {}
+			anarcho_communism_ideology = { can_be_randomly_selected = no }
+			pan_africanism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 233 58 58 }
 		rules = {
@@ -52,6 +55,7 @@ ideologies = {
 	moderate_socialism = {
 		types = {
 			moderate_socialism_ideology = {}
+			syndicalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 255 0 0 }
 		rules = {
@@ -78,6 +82,7 @@ ideologies = {
 		types = {
 			social_democracy_ideology = {}
 			leftist_patriotism_ideology = { can_be_randomly_selected = no }
+			peoples_front_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 194 30 86 }
 		rules = {
@@ -104,6 +109,7 @@ ideologies = {
 		types = {
 			liberal_democracy_ideology = {}
 			environmental_liberalism_ideology = { can_be_randomly_selected = no }
+			liberal_conservatism_ideology = { can_be_randomly_selected = no }
 			longism_ideology = { can_be_randomly_selected = no }
 			market_liberalism_ideology = { can_be_randomly_selected = no }
 			neo_liberalism_ideology = { can_be_randomly_selected = no }
@@ -162,6 +168,8 @@ ideologies = {
 		types = {
 			authoritarian_democracy_ideology = {}
 			dixiecrat_democracy_ideology = { can_be_randomly_selected = no }
+			national_conservatism_ideology = { can_be_randomly_selected = no }
+			social_nationalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 110 110 110 }
 		rules = {
@@ -288,6 +296,7 @@ ideologies = {
 	religious_nationalism = {
 		types = {
 			religious_nationalism_ideology = {}
+			eurasianism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 52 25 80 }
 		rules = {

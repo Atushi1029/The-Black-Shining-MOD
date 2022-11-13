@@ -1,0 +1,38 @@
+characters = {
+	PRC_peng_dehuai = {
+		name = PRC_peng_dehuai
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PRC_Peng_Dehuai_general"
+				small = "GFX_idea_PRC_peng_dehuai_general"
+			}
+			army = {
+				large = "GFX_Portrait_PRC_Peng_Dehuai_general"
+				small = "GFX_idea_PRC_peng_dehuai_general"
+			}
+			navy = {
+				large = "GFX_Portrait_PRC_Peng_Dehuai_general"
+				small = "GFX_idea_PRC_peng_dehuai_general"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PENG_DEHUAI_DESC"
+			ideology = maoism_ideology
+			expire = "1974.11.29.1"
+			id = -1
+			traits = {}
+		}
+		field_marshal = {
+			traits = {
+				infantry_officer
+				trait_mountaineer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+}

@@ -101,7 +101,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_AYAKO_DAIDOJI_DESC"
-			ideology = radical_socialism_ideology
+			ideology = anarcho_communism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
@@ -796,7 +796,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KUNIO_BANDO_DESC"
-			ideology = totalitarian_socialism_ideology
+			ideology = maoism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}

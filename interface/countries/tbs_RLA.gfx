@@ -61,6 +61,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/RLA/idea_RLA_vladimir_boyarsky.png"
 	}
 	spriteType = {
+		name = "GFX_idea_RLA_vyacheslav_artemiev"
+		texturefile = "gfx/interface/advisors/RLA/idea_RLA_vyacheslav_artemiev.png"
+	}
+	spriteType = {
 		name = "GFX_idea_RLA_yuri_evtukhovich"
 		texturefile = "gfx/interface/advisors/RLA/idea_RLA_yuri_evtukhovich.png"
 	}
@@ -124,6 +128,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_RLA_Vladimir_Boyarsky"
 		texturefile = "gfx/leaders/RLA/Portrait_RLA_Vladimir_Boyarsky.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RLA_Vyacheslav_Artemiev"
+		texturefile = "gfx/leaders/RLA/Portrait_RLA_Vyacheslav_Artemiev.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_RLA_Yuri_Evtukhovich"

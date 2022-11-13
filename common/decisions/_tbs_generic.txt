@@ -187,6 +187,3 @@ political_actions = {
 	#	}
 	#}
 }
-lar_local_recruitment = {
-	
-}

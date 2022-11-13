@@ -30,6 +30,23 @@ set_num_volunteers = {
 		set_variable = { test_additional_volunteers = result }
 		update_volunteers_idea = yes
 		ai_reload_volunteers_sent = yes
+		add_ai_strategy = {
+			type = support
+			id = var:target
+			value = 100
+		}
+		add_ai_strategy = {
+			type = send_volunteers_desire
+			id = var:target
+			value = 100
+		}
+		var:target = {
+			add_ai_strategy = {
+				type = diplo_action_acceptance
+				id = ROOT
+				value = 100
+			}
+		}
 	}
 }
 add_num_volunteers = {
@@ -171,6 +188,23 @@ clear_num_volunteers = {
 		}
 		get_num_volunteers = yes
 		set_variable = { test_additional_volunteers = result }
+		add_ai_strategy = {
+			type = support
+			id = var:target
+			value = -100
+		}
+		add_ai_strategy = {
+			type = send_volunteers_desire
+			id = var:target
+			value = -100
+		}
+		var:target = {
+			add_ai_strategy = {
+				type = diplo_action_acceptance
+				id = ROOT
+				value = -100
+			}
+		}
 	}
 }
 update_volunteers_idea = {
@@ -1210,6 +1244,7 @@ set_starting_values = {
 	}
 	initiate_display_vars = yes
 	calculate_total_inflation = yes
+	add_dynamic_modifier = { modifier = vol_troops_modifier }
 }
 build_dover_strait_tunnel = {
 	custom_effect_tooltip = build_dover_strait_tunnel_tt

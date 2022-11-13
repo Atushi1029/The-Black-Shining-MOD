@@ -191,9 +191,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7369;10342;sea;4899;-1;-1;-1;-1;;Indonesia
 1098;10181;sea;8822;-1;-1;-1;-1;;Indonesia
 12190;10219;sea;5414;-1;-1;-1;-1;;Indonesia
-10791;8108;land;4932;-1;-1;-1;-1;;Saudi Arabia
-4487;10927;land;-1;-1;-1;-1;-1;THE_GHAN_ROUTE;The Ghan Route
-4487;8165;land;-1;-1;-1;-1;-1;THE_NEW_GHAN_ROUTE;The New Ghan Route
 3340;6334;sea;2358;-1;-1;-1;-1;;Germany
 3738;11683;sea;8131;-1;-1;-1;-1;;Ukraine
 721;11683;sea;8131;-1;-1;-1;-1;;Ukraine
