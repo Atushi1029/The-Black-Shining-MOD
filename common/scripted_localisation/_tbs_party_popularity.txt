@@ -332,6 +332,10 @@ defined_text = {
 		trigger = { has_country_leader_ideology = pan_africanism_ideology }
 		localization_key = pan_africanism_ideology
 	}
+	text = {
+		trigger = { has_country_leader_ideology = savinkovism_ideology }
+		localization_key = savinkovism_ideology
+	}
 	#Moderate Socialism
 	text = {
 		trigger = { has_country_leader_ideology = syndicalism_ideology }
@@ -397,10 +401,20 @@ defined_text = {
 		trigger = { has_country_leader_ideology = social_nationalism_ideology }
 		localization_key = social_nationalism_ideology
 	}
+	#Paternal Autocracy
+	text = {
+		trigger = { has_country_leader_ideology = technocracy_ideology }
+		localization_key = technocracy_ideology
+	}
 	#National Corporatism
 	text = {
 		trigger = { has_country_leader_ideology = fascism_ideology }
 		localization_key = "fascism_ideology"
+	}
+	#National Socialism
+	text = {
+		trigger = { has_country_leader_ideology = national_syndicalism_ideology }
+		localization_key = national_syndicalism_ideology
 	}
 	#Religious Nationalism
 	text = {

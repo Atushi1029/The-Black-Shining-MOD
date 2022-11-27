@@ -1,4 +1,35 @@
 characters = {
+	PRC_hu_yaobang = {
+		name = PRC_hu_yaobang
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PRC_Hu_Yaobang"
+				small = "GFX_idea_PRC_hu_yaobang"
+			}
+			army = {
+				large = "GFX_Portrait_PRC_Hu_Yaobang"
+				small = "GFX_idea_PRC_hu_yaobang"
+			}
+			navy = {
+				large = "GFX_Portrait_PRC_Hu_Yaobang"
+				small = "GFX_idea_PRC_hu_yaobang"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HU_YAOBANG_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "1989.4.15.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_HU_YAOBANG_DESC"
+			ideology = social_democracy_ideology
+			expire = "1989.4.15.1"
+			id = -1
+			traits = {}
+		}
+	}
 	PRC_peng_dehuai = {
 		name = PRC_peng_dehuai
 		portraits = {
@@ -22,6 +53,13 @@ characters = {
 			id = -1
 			traits = {}
 		}
+		country_leader = {
+			desc = "POLITICS_PENG_DEHUAI_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1974.11.29.1"
+			id = -1
+			traits = {}
+		}
 		field_marshal = {
 			traits = {
 				infantry_officer
@@ -33,6 +71,47 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = -1
+		}
+	}
+	PRC_wang_ming = {
+		name = PRC_wang_ming
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PRC_Wang_Ming_politician"
+				small = "GFX_idea_PRC_wang_ming_politician"
+			}
+			army = {
+				large = "GFX_Portrait_PRC_Wang_Ming_politician"
+				small = "GFX_idea_PRC_wang_ming_politician"
+			}
+			navy = {
+				large = "GFX_Portrait_PRC_Wang_Ming_politician"
+				small = "GFX_idea_PRC_wang_ming_politician"
+			}
+		}
+	}
+	PRC_zhou_enlai = {
+		name = PRC_zhou_enlai
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PRC_Zhou_Enlai"
+				small = "GFX_idea_PRC_zhou_enlai"
+			}
+			army = {
+				large = "GFX_Portrait_PRC_Zhou_Enlai"
+				small = "GFX_idea_PRC_zhou_enlai"
+			}
+			navy = {
+				large = "GFX_Portrait_PRC_Zhou_Enlai"
+				small = "GFX_idea_PRC_zhou_enlai"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ZHOU_ENLAI_DESC"
+			ideology = radical_socialism_ideology
+			expire = "1976.1.8.1"
+			id = -1
+			traits = {}
 		}
 	}
 }

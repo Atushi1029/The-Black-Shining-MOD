@@ -7,13 +7,13 @@ state = {
 		victory_points = {
 			1614 1
 		}
-		owner = TAJ
+		owner = KHI
+		add_core_of = KHI
+		add_core_of = UZB
 		buildings = {
 			infrastructure = 2
 
 		}	
-		add_core_of = TAJ
-		add_core_of = UZB	
 	}
 
 	provinces = {

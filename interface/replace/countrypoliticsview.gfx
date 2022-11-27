@@ -633,6 +633,10 @@ spriteTypes = {
 	}
 	#TBS Replaces
 	spriteType = {
+		name = "GFX_object_frame"
+		texturefile = "gfx/interface/object_frame.png"
+	}
+	spriteType = {
 		name = "GFX_pol_view_background"
 		texturefile = "gfx/interface/pol_view_background.png"
 	}

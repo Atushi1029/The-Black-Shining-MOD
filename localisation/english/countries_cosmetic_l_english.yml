@@ -307,6 +307,10 @@
  KAZ_republic:0 "Republic of Kazakhstan"
  KAZ_republic_DEF:0 "the Republic of Kazakhstan"
  KAZ_republic_ADJ:0 "Kazakh"
+#Khiva
+ KHI_khanate:0 "Khanate of Khiva"
+ KHI_khanate_DEF:0 "the Khanate of Khiva"
+ KHI_khanate_ADJ:0 "Khivan"
 #Laos
  LAO_kingdom:0 "Kingdom of Laos"
  LAO_kingdom_DEF:0 "the Kingdom of Laos"
@@ -519,6 +523,10 @@
  TIB_state:0 "State of Tibet"
  TIB_state_DEF:0 "the State of Tibet"
  TIB_state_ADJ:0 "Tibetan"
+#Turkmenistan
+ TMS_soviet_republic:0 "Soviet Republic of Turkmenistan"
+ TMS_soviet_republic_DEF:0 "the Soviet Republic of Turkmenistan"
+ TMS_soviet_republic_ADJ:0 "Turkmen"
 #トーゴ＝ベナン
  TOG_and_BENIN_republic:0 "Republic of Togo-Benin"
  TOG_and_BENIN_republic_DEF:0 "the Republic of Togo-Benin"
@@ -543,6 +551,10 @@
  USA_united_states:0 "United States of America"
  USA_united_states_DEF:0 "the United States of America"
  USA_united_states_ADJ:0 "American"
+#Uzbekistan
+ UZB_socialist_republic:0 "Socialist Republic of Uzbekistan"
+ UZB_socialist_republic_DEF:0 "the Socialist Republic of Uzbekistan"
+ UZB_socialist_republic_ADJ:0 "Uzbek"
 #バチカン
  VCT_city_state:0 "City State of Vatican"
  VCT_city_state_DEF:0 "the City State of Vatican"

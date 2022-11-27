@@ -5,6 +5,7 @@ set_starting_values = yes
 recruit_character = FER_alexander_bolotov
 recruit_character = FER_andrey_svetzarov
 recruit_character = FER_apollon_kruse
+recruit_character = FER_artemy_lysogorsky
 recruit_character = FER_boris_tadley
 recruit_character = FER_donat_yosefovich_kunle
 recruit_character = FER_evgeny_ivanov

@@ -17,6 +17,8 @@
  anarcho_communism_ideology_desc:0 "Anarcho-Communism is a diverse body politic that usually seeks the total or partial erosion of the state. It seeks to organise society by other means, through voluntary cooperation and free association of individuals and groups. Such socialists are often regarded by the mainstream left as traitors to the revolution. Anarcho-Communists, while seeking communist institutions, have no wider state structures, pursue complete egalitarianism, equality and freedom from all gods and masters, and reject all or most authoritative positions."
  pan_africanism_ideology:0 "Pan-Africanism"
  pan_africanism_ideology_desc:0 "Pan-Africanism is a product of European oppression. Proponents of this ideology reject individual African states, be they socialist or whatever, and instead preach that Africa must unite under one flag to truly stand up against European colonisers. Pan-Africanism, which falls on the left end of the political spectrum, can be easily distinguished from its one half, African socialism, by its avant-garde stance, including its emphasis on anti-imperialism and its stubborn adherence to a pan-national identity that Europe once called the 'Dark Continent'.\nIts supporters are found mainly in East and West Africa, but its ideas have penetrated from Cape Town to Cairo, and even into black communities in the USA and the Caribbean. Anyone with an interest in the region should keep an eye out for Pan-Africanists who are motivated, angry and actively seeking to expand their influence."
+ savinkovism_ideology: "Savinkovism"
+ savinkovism_ideology_desc: "Savinkovism is a syncretic ideology that combines a number of ideas influenced over the years by the socialist revolutionary and terrorist Boris Savinkov and his son Lev Savinkov, including the total socialist dictatorial ruling system, the agrarian socialist revolutionary policy, the Orthodox Church and the archaic concept of rebirth. It is a syncretic ideology. On the other hand, however, it also strongly panders to military centralisation, nationalism and SR Narodism ideology. \nThe regime's most prominent implementer, Lev Savinkov, integrated the SR into the ROA, creating a unique system that was socialist but, unlike the foolish communism of the Bolsheviks, had aspects of military nationalism."
 #Moderate Socialism
  moderate_socialism:0 "Moderate Socialism"
  moderate_socialism_noun:0 "Moderate Socialism"
@@ -83,6 +85,8 @@
  paternal_autocracy_desc:0 "Authoritarian Regime"
  paternal_autocracy_ideology:0 "Paternal Autocracy"
  paternal_autocracy_ideology_desc:0 "Paternal Autocracy refers to a state of government in which power is concentrated in the hands of a single power, therefore meaning the restraints found in other systems of government are virtually nonexistent. This means a single individual is responsible for all actions of the nation, while also possibly having advisors or a council. \nWhile this generally applies to monarchies, this is not always the case; it also can apply to military juntas or other forms of civil dictatorships. \nThese governments are also not inherently right or left-wing either; simply led by a single person who has supreme power over all."
+ technocracy_ideology: "Technocracy"
+ technocracy_ideology_desc: "Technocracy is a social system or ideology in which the economy and public administration are dominated by bureaucrats who participate in policy-making and implementation based on their high-level technical expertise in science and technology, economic management and social policy."
 #National Corporatism
  national_corporatism:0 "National Corporatism"
  national_corporatism_noun:0 "National Corporatism"
@@ -97,6 +101,8 @@
  national_socialism_desc:0 "Totalitarian Regime"
  national_socialism_ideology:0 "National Socialism"
  national_socialism_ideology_desc:0 "National Socialism, the prevalent idealogy in Nazi-occupied Europe, refers to a system of government, that like fascism is characterized by a dictatorial leader, extreme militarism, autocracy, belief in a central hierarchy, and the implementation of corporatism on the national level. \nIn the German strain of National Socialism, the ultimate goal is to achieve lebensraum for the Aryan Race, while simultaneously wiping out the threats to said race; including liberals, homosexuals, Jews, and communists. This would naturally mean Europe is wholly German. However, variants of the idealogy exist, most notably in the other countries that fought alongside \nGermany in the 2nd World War. Ultimately all their policies are the same; attempting to eradicate outside threats with extreme violence and prejudice, and secure a homeland for their people."
+ national_syndicalism_ideology: "National Syndicalism"
+ national_syndicalism_ideology_desc: "National Syndicalism is a type of nationalist syndicalism, an ideology that was once associated with the labour movement in Italy and elsewhere, and later became the basis for Benito Mussolini's PNF."
 #Ultra Nationalism
  ultra_nationalism:0 "Ultra Nationalism"
  ultra_nationalism_noun:0 "Ultra Nationalism"

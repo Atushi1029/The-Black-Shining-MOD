@@ -23,4 +23,28 @@ characters = {
 			traits = {}
 		}
 	}
+	VIN_kojiro_nishizumi = {
+		name = VIN_kojiro_nishizumi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_VIN_Kojiro_Nishizumi"
+				small = "GFX_idea_VIN_kojiro_nishizumi"
+			}
+			army = {
+				large = "GFX_Portrait_VIN_Kojiro_Nishizumi"
+				small = "GFX_idea_VIN_kojiro_nishizumi"
+			}
+			navy = {
+				large = "GFX_Portrait_VIN_Kojiro_Nishizumi"
+				small = "GFX_idea_VIN_kojiro_nishizumi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KOJIRO_NISHIZUMI_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

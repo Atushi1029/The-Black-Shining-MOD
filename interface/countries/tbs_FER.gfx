@@ -13,6 +13,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_apollon_kruse.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_artemy_lysogorsky"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_artemy_lysogorsky.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_boris_tadley"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_boris_tadley.png"
 	}
@@ -84,6 +88,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Apollon_Kruse"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Apollon_Kruse.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Artemy_Lysogorsky"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Artemy_Lysogorsky.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Boris_Tadley"

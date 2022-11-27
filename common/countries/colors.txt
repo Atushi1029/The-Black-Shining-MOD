@@ -776,8 +776,8 @@ BUK = {
 	color_ui = rgb { 172 115 57 }
 }
 KHI = {
-	color = rgb { 0 134 179 }
-	color_ui = rgb { 0 134 179 }
+	color = rgb { 65 75 159 }
+	color_ui = rgb { 65 75 159 }
 }
 UDM = {
 	color = rgb { 13 13 13 }

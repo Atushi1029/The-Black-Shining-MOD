@@ -17,8 +17,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/REA/idea_REA_kiyoshi_hasegawa.png"
 	}
 	spriteType = {
+		name = "GFX_idea_REA_lee_kuan_yew"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_lee_kuan_yew.png"
+	}
+	spriteType = {
 		name = "GFX_idea_REA_makoto_hashii"
 		texturefile = "gfx/interface/advisors/REA/idea_REA_makoto_hashii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_momofuku_ando"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_momofuku_ando.png"
 	}
 	spriteType = {
 		name = "GFX_idea_REA_muraichi_horie"
@@ -27,6 +35,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_REA_otoji_saito"
 		texturefile = "gfx/interface/advisors/REA/idea_REA_otoji_saito.png"
+	}
+	spriteType = {
+		name = "GFX_idea_REA_ryuzo_sejima"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_ryuzo_sejima.png"
 	}
 	spriteType = {
 		name = "GFX_idea_REA_shigeyoshi_inoue"
@@ -62,8 +74,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/REA/Portrait_REA_Kiyoshi_Hasegawa.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_REA_Lee_Kuan_Yew"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Lee_Kuan_Yew.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_REA_Makoto_Hashii"
 		texturefile = "gfx/leaders/REA/Portrait_REA_Makoto_Hashii.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Momofuku_Ando"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Momofuku_Ando.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_REA_Muraichi_Horie"
@@ -72,6 +92,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_REA_Otoji_Saito"
 		texturefile = "gfx/leaders/REA/Portrait_REA_Otoji_Saito.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_REA_Ryuzo_Sejima"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Ryuzo_Sejima.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_REA_Shigeyoshi_Inoue"

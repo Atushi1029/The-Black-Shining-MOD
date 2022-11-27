@@ -21,6 +21,10 @@ spriteTypes = {
 		name = "GFX_ideology_pan_africanism_ideology"
 		texturefile = "gfx/interface/ideologies/radical_socialism/pan_africanism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_savinkovism_ideology"
+		texturefile = "gfx/interface/ideologies/radical_socialism/savinkovism.png"
+	}
 	#Moderate Socialism
 	spriteType = {
 		name = "GFX_ideology_moderate_socialism_group"
@@ -111,6 +115,10 @@ spriteTypes = {
 		name = "GFX_ideology_paternal_autocracy_group"
 		texturefile = "gfx/interface/ideologies/paternal_autocracy/paternal_autocracy.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_technocracy_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_autocracy/technocracy.png"
+	}
 	#National Corporatism
 	spriteType = {
 		name = "GFX_ideology_national_corporatism_group"
@@ -124,6 +132,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_national_socialism_group"
 		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_syndicalism_ideology"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_syndicalism.png"
 	}
 	#Ultra Nationalism
 	spriteType = {

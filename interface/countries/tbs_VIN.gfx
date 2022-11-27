@@ -4,9 +4,17 @@ spriteTypes = {
 		name = "GFX_idea_VIN_hirokuni_muta"
 		texturefile = "gfx/interface/advisors/VIN/idea_VIN_hirokuni_muta.png"
 	}
+	spriteType = {
+		name = "GFX_idea_VIN_kojiro_nishizumi"
+		texturefile = "gfx/interface/advisors/VIN/idea_VIN_kojiro_nishizumi.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_VIN_Hirokuni_Muta"
 		texturefile = "gfx/leaders/VIN/Portrait_VIN_Hirokuni_Muta.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_VIN_Kojiro_Nishizumi"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Kojiro_Nishizumi.png"
 	}
 }

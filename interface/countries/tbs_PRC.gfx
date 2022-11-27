@@ -1,12 +1,36 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
+		name = "GFX_idea_PRC_hu_yaobang"
+		texturefile = "gfx/interface/advisors/PRC/idea_PRC_hu_yaobang.png"
+	}
+	spriteType = {
 		name = "GFX_idea_PRC_peng_dehuai_general"
 		texturefile = "gfx/interface/advisors/PRC/idea_PRC_peng_dehuai_general.png"
 	}
+	spriteType = {
+		name = "GFX_idea_PRC_wang_ming_politician"
+		texturefile = "gfx/interface/advisors/PRC/idea_PRC_wang_ming_politician.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_zhou_enlai"
+		texturefile = "gfx/interface/advisors/PRC/idea_PRC_zhou_enlai.png"
+	}
 	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_PRC_Hu_Yaobang"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Hu_Yaobang.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_PRC_Peng_Dehuai_general"
 		texturefile = "gfx/leaders/PRC/Portrait_PRC_Peng_Dehuai_general.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_PRC_Wang_Ming_politician"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Wang_Ming_politician.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_PRC_Zhou_Enlai"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Zhou_Enlai.png"
 	}
 }

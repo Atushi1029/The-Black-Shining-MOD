@@ -2,6 +2,7 @@
 oob = ""
 set_cosmetic_tag = FRA_republic
 set_starting_values = yes
+recruit_character = FRA_georges_bidault
 recruit_character = FRA_henri_dorleans
 recruit_character = FRA_jean-marie_le_pen
 recruit_character = FRA_napoleon_vi

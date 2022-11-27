@@ -79,6 +79,23 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	FER_artemy_lysogorsky = {
+		name = FER_artemy_lysogorsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Artemy_Lysogorsky"
+				small = "GFX_idea_FER_artemy_lysogorsky"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Artemy_Lysogorsky"
+				small = "GFX_idea_FER_artemy_lysogorsky"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Artemy_Lysogorsky"
+				small = "GFX_idea_FER_artemy_lysogorsky"
+			}
+		}
+	}
 	FER_boris_tadley = {
 		name = FER_boris_tadley
 		portraits = {

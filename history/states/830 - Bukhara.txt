@@ -5,21 +5,20 @@ state = {
 
 
 	history = {
-		owner = TAJ
+		owner = UZB
+		add_core_of = KHI
+		add_core_of = UZB
 		victory_points = {
 			1573 2 
 		}
 		victory_points = {
 			10671 1 
 		}
-		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
 		}	
-		add_core_of = TAJ
-		add_core_of = UZB
 	}
 
 	provinces = { 

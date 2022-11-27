@@ -1,4 +1,28 @@
 characters = {
+	FRA_georges_bidault = {
+		name = FRA_georges_bidault
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FRA_Georges_Bidault"
+				small = "GFX_idea_FRA_georges_bidault"
+			}
+			army = {
+				large = "GFX_Portrait_FRA_Georges_Bidault"
+				small = "GFX_idea_FRA_georges_bidault"
+			}
+			navy = {
+				large = "GFX_Portrait_FRA_Georges_Bidault"
+				small = "GFX_idea_FRA_georges_bidault"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GEORGES_BIDAULT_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1983.1.27.1"
+			id = -1
+			traits = {}
+		}
+	}
 	FRA_henri_dorleans = {
 		name = FRA_henri_dorleans
 		portraits = {
@@ -38,13 +62,6 @@ characters = {
 				large = "GFX_Portrait_FRA_Jean-Marie_Le_Pen"
 				small = "GFX_idea_FRA_jean-marie_le_pen"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_JEAN-MARIE_LE_PEN_DESC"
-			ideology = authoritarian_democracy_ideology
-			expire = "2050.1.1.1"
-			id = -1
-			traits = {}
 		}
 	}
 	FRA_napoleon_vi = {

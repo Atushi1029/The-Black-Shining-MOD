@@ -8,6 +8,10 @@ spriteTypes = {
 		name = "GFX_idea_PHI_toshio_nishimura"
 		texturefile = "gfx/interface/advisors/PHI/idea_PHI_toshio_nishimura.png"
 	}
+	spriteType = {
+		name = "GFX_idea_PHI_toyoaki_horiuchi"
+		texturefile = "gfx/interface/advisors/PHI/idea_PHI_toyoaki_horiuchi.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_PHI_Hong_Sa-ik"
@@ -16,5 +20,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_PHI_Toshio_Nishimura"
 		texturefile = "gfx/leaders/PHI/Portrait_PHI_Toshio_Nishimura.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_PHI_Toyoaki_Horiuchi"
+		texturefile = "gfx/leaders/PHI/Portrait_PHI_Toyoaki_Horiuchi.png"
 	}
 }

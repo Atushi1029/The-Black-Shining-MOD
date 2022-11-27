@@ -120,6 +120,23 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	REA_lee_kuan_yew = {
+		name = REA_lee_kuan_yew
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Lee_Kuan_Yew"
+				small = "GFX_idea_REA_lee_kuan_yew"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Lee_Kuan_Yew"
+				small = "GFX_idea_REA_lee_kuan_yew"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Lee_Kuan_Yew"
+				small = "GFX_idea_REA_lee_kuan_yew"
+			}
+		}
+	}
 	REA_makoto_hashii = {
 		name = REA_makoto_hashii
 		portraits = {
@@ -134,6 +151,23 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_REA_Makoto_Hashii"
 				small = "GFX_idea_REA_makoto_hashii"
+			}
+		}
+	}
+	REA_momofuku_ando = {
+		name = REA_momofuku_ando
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Momofuku_Ando"
+				small = "GFX_idea_REA_momofuku_ando"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Momofuku_Ando"
+				small = "GFX_idea_REA_momofuku_ando"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Momofuku_Ando"
+				small = "GFX_idea_REA_momofuku_ando"
 			}
 		}
 	}
@@ -189,6 +223,23 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+	REA_ryuzo_sejima = {
+		name = REA_ryuzo_sejima
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Ryuzo_Sejima"
+				small = "GFX_idea_REA_ryuzo_sejima"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Ryuzo_Sejima"
+				small = "GFX_idea_REA_ryuzo_sejima"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Ryuzo_Sejima"
+				small = "GFX_idea_REA_ryuzo_sejima"
+			}
 		}
 	}
 	REA_shigeyoshi_inoue = {

@@ -30,6 +30,7 @@ ideologies = {
 			radical_socialism_ideology = {}
 			anarcho_communism_ideology = { can_be_randomly_selected = no }
 			pan_africanism_ideology = { can_be_randomly_selected = no }
+			savinkovism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 233 58 58 }
 		rules = {
@@ -195,6 +196,7 @@ ideologies = {
 	paternal_autocracy = {
 		types = {
 			paternal_autocracy_ideology = {}
+			technocracy_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 45 45 45 }
 		rules = {
@@ -246,6 +248,7 @@ ideologies = {
 	national_socialism = {
 		types = {
 			national_socialism_ideology = {}
+			national_syndicalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 80 50 0 }
 		rules = {

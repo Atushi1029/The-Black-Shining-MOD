@@ -9,6 +9,105 @@ on_actions = {
 					days = 14
 				}
 			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { head_of_government }
+					}
+				}
+				add_ideas = Generic_vacancy_hog
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { interior_minister }
+					}
+				}
+				add_ideas = Generic_vacancy_int
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { foreign_minister }
+					}
+				}
+				add_ideas = Generic_vacancy_for
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { economy_minister }
+					}
+				}
+				add_ideas = Generic_vacancy_eco
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { justice_minister }
+					}
+				}
+				add_ideas = Generic_vacancy_jus
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { security_minister }
+					}
+				}
+				add_ideas = Generic_vacancy_sec
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { army_chief }
+					}
+				}
+				add_ideas = Generic_vacancy_arm
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { navy_chief }
+					}
+				}
+				add_ideas = Generic_vacancy_nav
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { air_chief }
+					}
+				}
+				add_ideas = Generic_vacancy_air
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { high_command }
+					}
+				}
+				add_ideas = Generic_vacancy_hig
+			}
+			every_country = {
+				limit = {
+					amount_taken_ideas = {
+						amount < 1
+						slots = { theorist }
+					}
+				}
+				add_ideas = Generic_vacancy_the
+			}
 		}
 	}
 	on_ruling_party_change = {

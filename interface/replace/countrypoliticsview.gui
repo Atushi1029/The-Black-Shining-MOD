@@ -195,13 +195,20 @@ guiTypes = {
 				}
 			}
 		}
+		
+		iconType = {
+			name = "object_frame"
+			position = { x = 2 y = 416 }
+			quadTextureSprite = "GFX_object_frame"
+			alwaystransparent = yes
+		}
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 2 y = 370 }
+			position = { x = 2 y = 368 }
 			size = { width = 255 height = 60 }
 			clipping = no
-
+			
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_subject_overlay"

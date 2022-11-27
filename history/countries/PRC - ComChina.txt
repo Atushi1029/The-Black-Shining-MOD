@@ -2,7 +2,10 @@
 oob = ""
 set_cosmetic_tag = PEOPLES_LIBERATION_ARMY
 set_starting_values = yes
+recruit_character = PRC_hu_yaobang
 recruit_character = PRC_peng_dehuai
+recruit_character = PRC_wang_ming
+recruit_character = PRC_zhou_enlai
 set_convoys = 20
 add_ideas = {
 	

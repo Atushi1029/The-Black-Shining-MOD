@@ -4,10 +4,9 @@ state = {
 	name="STATE_207"
 
 	history = { 
-		owner = RKM
+		owner = RKO
 		add_core_of = BLR
-		add_core_of = RKM
-		set_state_flag = rk_ostland_core_states
+		add_core_of = RKO
 		victory_points = {
 			11241 5 
 		}

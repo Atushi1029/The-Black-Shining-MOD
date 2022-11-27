@@ -40,4 +40,21 @@ characters = {
 			}
 		}
 	}
+	PHI_toyoaki_horiuchi = {
+		name = PHI_toyoaki_horiuchi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Toyoaki_Horiuchi"
+				small = "GFX_idea_PHI_toyoaki_horiuchi"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Toyoaki_Horiuchi"
+				small = "GFX_idea_PHI_toyoaki_horiuchi"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Toyoaki_Horiuchi"
+				small = "GFX_idea_PHI_toyoaki_horiuchi"
+			}
+		}
+	}
 }

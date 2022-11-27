@@ -307,6 +307,10 @@
  KAZ_republic:0 "カザフスタン共和国"
  KAZ_republic_DEF:0 "カザフスタン共和国"
  KAZ_republic_ADJ:0 "カザフスタン"
+#ヒヴァ
+ KHI_khanate:0 "ヒヴァ・ハン国"
+ KHI_khanate_DEF:0 "ヒヴァ・ハン国"
+ KHI_khanate_ADJ:0 "ヒヴァ"
 #ラオス
  LAO_kingdom:0 "ラオス王国"
  LAO_kingdom_DEF:0 "ラオス王国"
@@ -519,6 +523,10 @@
  TIB_state:0 "チベット国"
  TIB_state_DEF:0 "チベット国"
  TIB_state_ADJ:0 "チベット"
+#トルクメニスタン
+ TMS_soviet_republic:0 "トルクメン・ソビエト共和国"
+ TMS_soviet_republic_DEF:0 "トルクメン・ソビエト共和国"
+ TMS_soviet_republic_ADJ:0 "トルクメニスタン"
 #トーゴ＝ベナン
  TOG_and_BENIN_republic:0 "トーゴ＝ベナン共和国"
  TOG_and_BENIN_republic_DEF:0 "トーゴ＝ベナン共和国"
@@ -543,6 +551,10 @@
  USA_united_states:0 "アメリカ合衆国"
  USA_united_states_DEF:0 "アメリカ合衆国"
  USA_united_states_ADJ:0 "アメリカ"
+#ウズベキスタン
+ UZB_socialist_republic:0 "ウズベキスタン社会主義共和国"
+ UZB_socialist_republic_DEF:0 "ウズベキスタン社会主義共和国"
+ UZB_socialist_republic_ADJ:0 "ウズベキスタン"
 #バチカン
  VCT_city_state:0 "バチカン市国"
  VCT_city_state_DEF:0 "バチカン市国"
