@@ -129,6 +129,32 @@ characters = {
 			traits = {}
 		}
 	}
+	MAN_yoshimitsu_baba = {
+		name = MAN_yoshimitsu_baba
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Yoshimitsu_Baba"
+				small = "GFX_idea_MAN_yoshimitsu_baba"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Yoshimitsu_Baba"
+				small = "GFX_idea_MAN_yoshimitsu_baba"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Yoshimitsu_Baba"
+				small = "GFX_idea_MAN_yoshimitsu_baba"
+			}
+		}
+		field_marshal = {
+			traits = { career_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 	MAN_zhang_shaoji = {
 		name = MAN_zhang_shaoji
 		portraits = {

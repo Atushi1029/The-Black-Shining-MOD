@@ -3,28 +3,29 @@ oob = ""
 set_cosmetic_tag = SPR_republic
 set_starting_values = yes
 recruit_character = SPR_federica_montseny
+recruit_character = SPR_jose_antonio_giron
 set_convoys = 20
 add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = national_socialism
 	last_election = "1972.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	totalitarian_socialism = 10
-	radical_socialism = 15
-	moderate_socialism = 6
-	social_democracy = 54
-	liberal_democracy = 15
-	social_conservatism = 0
-	authoritarian_democracy = 0
-	paternal_autocracy = 0
-	national_corporatism = 0
-	national_socialism = 0
-	ultra_nationalism = 0
-	religious_nationalism = 0
+	totalitarian_socialism = 0
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	social_conservatism = 5
+	authoritarian_democracy = 10
+	paternal_autocracy = 10
+	national_corporatism = 20
+	national_socialism = 40
+	ultra_nationalism = 5
+	religious_nationalism = 10
 	transhumanism = 0
 }

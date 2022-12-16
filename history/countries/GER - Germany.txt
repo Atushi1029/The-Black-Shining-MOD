@@ -1,5 +1,5 @@
 ﻿capital = 64
-oob = ""
+oob = "GER_1972"
 set_cosmetic_tag = GERMANIA_greater_empire
 set_starting_values = yes
 #Politicians
@@ -83,6 +83,7 @@ set_popularities = {
 	religious_nationalism = 5
 	transhumanism = 0
 }
+#Factions
 create_faction = GER_stahlabkommen
 add_to_faction = BNF
 add_to_faction = DEN
@@ -94,6 +95,7 @@ add_to_faction = RKM
 add_to_faction = RKO
 add_to_faction = RKU
 add_to_faction = SLO
+#Autonomies
 set_autonomy = {
 	target = BNF
 	autonomous_state = autonomy_reichskommissariat
@@ -126,7 +128,34 @@ set_autonomy = {
 	target = SLO
 	autonomous_state = autonomy_dominion
 }
+#Non Aggression Pacts
 diplomatic_relation = {
 	country = RLA
 	relation = non_aggression_pact
+	active = yes
 }
+diplomatic_relation = {
+	country = SWE
+	relation = non_aggression_pact
+	active = yes
+}
+#Docking Rights
+diplomatic_relation = {
+	country = FIN
+	relation = docking_rights
+	active = yes
+}
+diplomatic_relation = {
+	country = GBR
+	relation = docking_rights
+	active = yes
+}
+diplomatic_relation = {
+	country = SPR
+	relation = docking_rights
+	active = yes
+}
+#Guarantees
+give_guarantee = FIN
+give_guarantee = GBR
+give_guarantee = SPR

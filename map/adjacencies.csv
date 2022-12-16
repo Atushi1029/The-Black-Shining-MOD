@@ -229,4 +229,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6691;9650;impassable;-1;-1;-1;-1;-1;;eastern alps
 9630;11618;impassable;-1;-1;-1;-1;-1;;eastern alps
 9650;3684;impassable;-1;-1;-1;-1;-1;;eastern alps
+1050;8282;sea;3726;-1;-1;-1;-1;DON_CANAL;Don Canal
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -157,9 +157,9 @@
  CHA_republic_DEF:0 "the Republic of Chad"
  CHA_republic_ADJ:0 "Chadian"
 #中国
- CHI_minkuo:0 "Chunghwa Minkuo"
- CHI_minkuo_DEF:0 "the Chunghwa Minkuo"
- CHI_minkuo_ADJ:0 "Chinese"
+ CHI_republic:0 "Chunghwa Minkuo"
+ CHI_republic_DEF:0 "the Chunghwa Minkuo"
+ CHI_republic_ADJ:0 "Chinese"
 #チリ
  CHL_peoples_republic:0 "People's Republic of Chile"
  CHL_peoples_republic_DEF:0 "the People's Republic of Chile"
@@ -222,6 +222,10 @@
  ETH_democratic_republic:0 "Democratic Republic of Ethiopia"
  ETH_democratic_republic_DEF:0 "the Democratic Republic of Ethiopia"
  ETH_democratic_republic_ADJ:0 "Ethiopian"
+#Far East
+ FER_republic:0 "Republic of Far East"
+ FER_republic_DEF:0 "the Republic of Far East"
+ FER_republic_ADJ:0 "Far Eastern"
 #フィンランド
  FIN_republic:0 "Republic of Finland"
  FIN_republic_DEF:0 "the Republic of Finland"
@@ -331,9 +335,9 @@
  MAL_federation_DEF:0 "the Federation of Malaysia"
  MAL_federation_ADJ:0 "Malaysian"
 #満州
- MAN_kuo:0 "Manchukuo"
- MAN_kuo_DEF:0 "the Manchukuo"
- MAN_kuo_ADJ:0 "Manchurian"
+ MAN_state:0 "Manchukuo"
+ MAN_state_DEF:0 "the Manchukuo"
+ MAN_state_ADJ:0 "Manchurian"
 #メキシコ
  MEX_united_states:0 "United States of Mexico"
  MEX_united_states_DEF:0 "the United States of Mexico"
@@ -445,9 +449,9 @@
  ROM_peoples_government:0 "People's Government of Romania"
  ROM_peoples_government_DEF:0 "the People's Government of Romania"
  ROM_peoples_government_ADJ:0 "Romanian"
- ROM_socialist_republic_175_13_0:0 "Socialist Republic of Romania"
- ROM_socialist_republic_175_13_0_DEF:0 "the Socialist Republic of Romania"
- ROM_socialist_republic_175_13_0_ADJ:0 "Romanian"
+ ROM_socialist_republic_2nd:0 "Socialist Republic of Romania"
+ ROM_socialist_republic_2nd_DEF:0 "the Socialist Republic of Romania"
+ ROM_socialist_republic_2nd_ADJ:0 "Romanian"
 #Russia
  RUS_fascist_council:0 "Fascist Council of Russia"
  RUS_fascist_council_DEF:0 "the Fascist Council of Russia"

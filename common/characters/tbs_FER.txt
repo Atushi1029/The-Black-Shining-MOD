@@ -3,16 +3,16 @@ characters = {
 		name = FER_alexander_bolotov
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_FER_Alexander_Bolotov"
-				small = "GFX_idea_FER_alexander_bolotov"
+				large = "GFX_Portrait_FER_Alexander_Bolotov_politician"
+				small = "GFX_idea_FER_alexander_bolotov_politician"
 			}
 			army = {
-				large = "GFX_Portrait_FER_Alexander_Bolotov"
-				small = "GFX_idea_FER_alexander_bolotov"
+				large = "GFX_Portrait_FER_Alexander_Bolotov_politician"
+				small = "GFX_idea_FER_alexander_bolotov_politician"
 			}
 			navy = {
-				large = "GFX_Portrait_FER_Alexander_Bolotov"
-				small = "GFX_idea_FER_alexander_bolotov"
+				large = "GFX_Portrait_FER_Alexander_Bolotov_politician"
+				small = "GFX_idea_FER_alexander_bolotov_politician"
 			}
 		}
 		country_leader = {
@@ -193,20 +193,20 @@ characters = {
 			traits = {}
 		}
 	}
-	FER_georgy_shekerev = {
-		name = FER_georgy_shekerev
+	FER_georgy_shekherev = {
+		name = FER_georgy_shekherev
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_FER_Georgy_Shekerev"
-				small = "GFX_idea_FER_georgy_shekerev"
+				large = "GFX_Portrait_FER_Georgy_Shekherev"
+				small = "GFX_idea_FER_georgy_shekherev"
 			}
 			army = {
-				large = "GFX_Portrait_FER_Georgy_Shekerev"
-				small = "GFX_idea_FER_georgy_shekerev"
+				large = "GFX_Portrait_FER_Georgy_Shekherev"
+				small = "GFX_idea_FER_georgy_shekherev"
 			}
 			navy = {
-				large = "GFX_Portrait_FER_Georgy_Shekerev"
-				small = "GFX_idea_FER_georgy_shekerev"
+				large = "GFX_Portrait_FER_Georgy_Shekherev"
+				small = "GFX_idea_FER_georgy_shekherev"
 			}
 		}
 		corps_commander = {
@@ -220,6 +220,40 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = -1
+		}
+	}
+	FER_georgy_taube = {
+		name = FER_georgy_taube
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Georgy_Taube"
+				small = "GFX_idea_FER_georgy_taube"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Georgy_Taube"
+				small = "GFX_idea_FER_georgy_taube"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Georgy_Taube"
+				small = "GFX_idea_FER_georgy_taube"
+			}
+		}
+	}
+	FER_igor_buntovsky = {
+		name = FER_igor_buntovsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Igor_Buntovsky"
+				small = "GFX_idea_FER_igor_buntovsky"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Igor_Buntovsky"
+				small = "GFX_idea_FER_igor_buntovsky"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Igor_Buntovsky"
+				small = "GFX_idea_FER_igor_buntovsky"
+			}
 		}
 	}
 	FER_ivan_mikhailov = {
@@ -250,6 +284,57 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = -1
+		}
+	}
+	FER_konstantin_rodzaevsky = {
+		name = FER_konstantin_rodzaevsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Konstantin_Rodzaevsky"
+				small = "GFX_idea_FER_konstantin_rodzaevsky"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Konstantin_Rodzaevsky"
+				small = "GFX_idea_FER_konstantin_rodzaevsky"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Konstantin_Rodzaevsky"
+				small = "GFX_idea_FER_konstantin_rodzaevsky"
+			}
+		}
+	}
+	FER_konstantin_steklov = {
+		name = FER_konstantin_steklov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Konstantin_Steklov"
+				small = "GFX_idea_FER_konstantin_steklov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Konstantin_Steklov"
+				small = "GFX_idea_FER_konstantin_steklov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Konstantin_Steklov"
+				small = "GFX_idea_FER_konstantin_steklov"
+			}
+		}
+	}
+	FER_mikhail_kapral = {
+		name = FER_mikhail_kapral
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Mikhail_Kapral"
+				small = "GFX_idea_FER_mikhail_kapral"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Mikhail_Kapral"
+				small = "GFX_idea_FER_mikhail_kapral"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Mikhail_Kapral"
+				small = "GFX_idea_FER_mikhail_kapral"
+			}
 		}
 	}
 	FER_mikhail_matkovsky = {
@@ -313,6 +398,23 @@ characters = {
 			maneuvering_skill = 1
 			coordination_skill = 1
 			legacy_id = -1
+		}
+	}
+	FER_nikolay_petlin = {
+		name = FER_nikolay_petlin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Nikolay_Petlin"
+				small = "GFX_idea_FER_nikolay_petlin"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Nikolay_Petlin"
+				small = "GFX_idea_FER_nikolay_petlin"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Nikolay_Petlin"
+				small = "GFX_idea_FER_nikolay_petlin"
+			}
 		}
 	}
 	FER_pyotr_wrangel_ii = {
@@ -429,6 +531,23 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 4
 			legacy_id = -1
+		}
+	}
+	FER_yuri_yungmeister = {
+		name = FER_yuri_yungmeister
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Yuri_Yungmeister"
+				small = "GFX_idea_FER_yuri_yungmeister"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Yuri_Yungmeister"
+				small = "GFX_idea_FER_yuri_yungmeister"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Yuri_Yungmeister"
+				small = "GFX_idea_FER_yuri_yungmeister"
+			}
 		}
 	}
 }

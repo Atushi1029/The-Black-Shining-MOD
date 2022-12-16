@@ -1,0 +1,20 @@
+state = {
+	id = 1004
+	name = "STATE_1004"
+	history = {
+		owner = STO
+		add_core_of = STO
+		set_state_flag = russian_old_states
+		victory_points = { 13292 1 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = { 13292 }
+	manpower = 34182
+	buildings_max_level_factor = 1
+	state_category = "pastoral"
+
+	local_supplies = 0.0 
+}

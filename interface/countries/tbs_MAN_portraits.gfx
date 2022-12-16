@@ -24,6 +24,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Toshio_Hoshiko.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_MAN_Yoshimitsu_Baba"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Yoshimitsu_Baba.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_MAN_Zhang_Shaoji"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Zhang_Shaoji.png"
 	}

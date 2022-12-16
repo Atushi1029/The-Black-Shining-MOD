@@ -1,6 +1,6 @@
 ﻿capital =328
 oob = ""
-set_cosmetic_tag = MAN_kuo
+set_cosmetic_tag = MAN_state
 set_starting_values = yes
 recruit_character = MAN_aisin_gioro_yuyan
 recruit_character = MAN_hisaya_morishige
@@ -8,6 +8,7 @@ recruit_character = MAN_kazuo_nonomura
 recruit_character = MAN_kichihei_hanano
 recruit_character = MAN_takeo_ito
 recruit_character = MAN_toshio_hoshiko
+recruit_character = MAN_yoshimitsu_baba
 recruit_character = MAN_zhang_shaoji
 set_convoys = 20
 add_ideas = {

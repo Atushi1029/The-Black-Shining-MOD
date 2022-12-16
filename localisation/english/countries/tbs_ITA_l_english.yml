@@ -1,6 +1,10 @@
 ﻿l_english:
 #Characters
  ITA_aldo_moro:0 "Aldo Moro"
+ ITA_enrico_berlinguer:0 "Enrico Berlinguer"
+ ITA_lelio_basso:0 "Lelio Basso"
+ ITA_onorato_damen:0 "Onorato Damen"
+ ITA_pietro_nenni:0 "Pietro Nenni"
  ITA_umberto_ii:0 "Umberto II"
 #National Spirits
  ITA_fascist_memory:0 "Fascist Memory"

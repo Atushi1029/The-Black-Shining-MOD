@@ -1,57 +1,46 @@
 leader_traits = {
 #Idea Traits
 	tbs_head_of_government = {
-		name = head_of_government
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_interior_minister = {
-		name = interior_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_foreign_minister = {
-		name = foreign_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_economy_minister = {
-		name = economy_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_justice_minister = {
-		name = justice_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_security_minister = {
-		name = security_minister
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_army_chief = {
-		name = army_chief
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_navy_chief = {
-		name = navy_chief
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_air_chief = {
-		name = air_chief
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_high_command = {
-		name = high_command
 		random = no
 		ai_will_do = { factor = 0 }
 	}
 	tbs_theorist = {
-		name = theorist
 		random = no
 		ai_will_do = { factor = 0 }
 	}

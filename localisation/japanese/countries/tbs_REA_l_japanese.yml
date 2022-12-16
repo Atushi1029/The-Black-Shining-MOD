@@ -1,18 +1,32 @@
 ﻿l_japanese:
+#キャラクター説明
+ #閣僚
+ REA_gisen_sato_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_iron_fisted_brute$§!"
+ REA_hayao_kinugasa_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_armaments_organiser$§!"
+ REA_kiyoshi_hasegawa_jus_desc:0 "§Y$tbs_justice_minister$\n$tbs_great_compromiser$§!"
+ REA_otoji_saito_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_heretic_diplomat$§!"
+ REA_shigeyoshi_inoue_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_old_admiral$§!"
+ REA_shigeyoshi_saito_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_austere_finance_advocate$§!"
 #キャラクター
  REA_gisen_sato:0 "左藤義詮"
  REA_gurgen_nagolyan:0 "グルゲン・ナゴリャン"
+ REA_hajime_yasuda:0 "安田一"
  REA_hayao_kinugasa:0 "衣笠駿雄"
  REA_kiyoshi_hasegawa:0 "長谷川清"
+ REA_kosaku_wada:0 "和田耕作"
  REA_lee_kuan_yew:0 "リー・クアンユー"
  REA_makoto_hashii:0 "橋井真"
  REA_momofuku_ando:0 "安藤百福"
  REA_muraichi_horie:0 "堀江邑一"
  REA_otoji_saito:0 "斉藤音次"
+ REA_ryokichi_minobe:0 "美濃部亮吉"
  REA_ryuzo_sejima:0 "瀬島龍三"
+ REA_satomi_hakamada:0 "袴田里見"
  REA_shigeyoshi_inoue:0 "井上成美"
  REA_shigeyoshi_saito:0 "斉藤滋与史"
+ REA_taisaku_ikeda:0 "池田大作"
  REA_takeo_nimiya:0 "仁宮武夫"
+ REA_tonosuke_otani:0 "大谷藤之助"
 #政党
  REA_totalitarian_socialism_party:0 "ナゴリャン商会"
  REA_totalitarian_socialism_party_long:0 "ナゴリャン商会"

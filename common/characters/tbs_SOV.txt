@@ -23,6 +23,23 @@ characters = {
 			traits = {}
 		}
 	}
+	SOV_anastas_mikoyan = {
+		name = SOV_anastas_mikoyan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Anastas_Mikoyan"
+				small = "GFX_idea_SOV_anastas_mikoyan"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Anastas_Mikoyan"
+				small = "GFX_idea_SOV_anastas_mikoyan"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Anastas_Mikoyan"
+				small = "GFX_idea_SOV_anastas_mikoyan"
+			}
+		}
+	}
 	SOV_anatoly_lukyanov = {
 		name = SOV_anatoly_lukyanov
 		portraits = {
@@ -210,6 +227,23 @@ characters = {
 			expire = "1979.2.2.1"
 			id = -1
 			traits = {}
+		}
+	}
+	SOV_ivan_yakubovsky = {
+		name = SOV_ivan_yakubovsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Ivan_Yakubovsky"
+				small = "GFX_idea_SOV_ivan_yakubovsky"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Ivan_Yakubovsky"
+				small = "GFX_idea_SOV_ivan_yakubovsky"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Ivan_Yakubovsky"
+				small = "GFX_idea_SOV_ivan_yakubovsky"
+			}
 		}
 	}
 	SOV_konstantin_chernenko = {
@@ -499,6 +533,23 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_SOV_Viktor_Chernomyrdin"
 				small = "GFX_idea_SOV_viktor_chernomyrdin"
+			}
+		}
+	}
+	SOV_vitaly_fedorchuk = {
+		name = SOV_vitaly_fedorchuk
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SOV_Vitaly_Fedorchuk"
+				small = "GFX_idea_SOV_vitaly_fedorchuk"
+			}
+			army = {
+				large = "GFX_Portrait_SOV_Vitaly_Fedorchuk"
+				small = "GFX_idea_SOV_vitaly_fedorchuk"
+			}
+			navy = {
+				large = "GFX_Portrait_SOV_Vitaly_Fedorchuk"
+				small = "GFX_idea_SOV_vitaly_fedorchuk"
 			}
 		}
 	}

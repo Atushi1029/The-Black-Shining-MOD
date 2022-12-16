@@ -1,6 +1,7 @@
 ﻿l_japanese:
 #キャラクター
  SOV_alexander_sergeyevich_yakovlev: "アレクサンドル・セルゲーエヴィチ・ヤコヴレフ"
+ SOV_anastas_mikoyan:0 "アナスタス・ミコヤン"
  SOV_anatoly_lukyanov:0 "アナトリー・ルキヤノフ"
  SOV_andrei_grechko: "アンドレイ・グレチコ"
  SOV_andrei_gromyko:0 "アンドレイ・グロムイコ"
@@ -8,6 +9,7 @@
  SOV_dmitry_yazov:0 "ドミトリー・ヤゾフ"
  SOV_georgy_zhukov: "ゲオルギー・ジューコフ"
  SOV_issa_pliyev: "イッサ・プリーエフ"
+ SOV_ivan_yakubovsky:0 "イワン・ヤクボフスキー"
  SOV_konstantin_chernenko: "コンスタンティン・チェルネンコ"
  SOV_leonid_brezhnev: "レオニード・ブレジネフ"
  SOV_lev_gumilyov: "レフ・グミリョフ"
@@ -20,6 +22,7 @@
  SOV_valentin_pavlov: "ヴァレンチン・パヴロフ"
  SOV_vasily_kuznetsov:0 "ヴァシリー・クズネツォフ"
  SOV_viktor_chernomyrdin:0 "ヴィクトル・チェルノムイルジン"
+ SOV_vitaly_fedorchuk:0 "ヴィタリー・フェドルチュク"
  SOV_vladimir_kryuchkov:0 "ウラジーミル・クリュチコフ"
  SOV_yevgeny_primakov:0 "エフゲニー・プリマコフ"
 #政党
@@ -35,8 +38,8 @@
  #SOV_liberal_democracy_party_long:0 ""
  #SOV_social_conservatism_party:0 ""
  #SOV_social_conservatism_party_long:0 ""
- SOV_authoritarian_democracy_party:0 "OH-R"
- SOV_authoritarian_democracy_party_long:0 "我が家“ロシア”"
+ SOV_authoritarian_democracy_party:0 "NDR"
+ SOV_authoritarian_democracy_party_long:0 "我が家ロシア"
  #SOV_paternal_autocracy_party:0 ""
  #SOV_paternal_autocracy_party_long:0 ""
  #SOV_national_corporatism_party:0 ""

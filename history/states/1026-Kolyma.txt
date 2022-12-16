@@ -1,0 +1,27 @@
+state = {
+	id = 1026
+	name = "STATE_1026"
+
+	history = {
+		owner = FER
+		add_core_of = FER
+		add_claim_by = RLA
+		add_claim_by = RUS
+		add_claim_by = SOV
+		set_state_flag = transamur_core_states
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 4229 2 }
+		victory_points = { 1819 1 }
+	}
+
+	provinces = {
+		1819 4006 4229 4455 12592 12634 13061
+	}
+	manpower = 34182
+	buildings_max_level_factor = 1
+	state_category = "wasteland"
+
+	local_supplies = 0.0 
+}

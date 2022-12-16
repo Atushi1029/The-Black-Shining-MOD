@@ -1,6 +1,7 @@
 ﻿l_english:
 #Characters
  SOV_alexander_sergeyevich_yakovlev: "Alexander Sergeyevich Yakovlev"
+ SOV_anastas_mikoyan:0 "Anastas Mikoyan"
  SOV_anatoly_lukyanov:0 "Anatoly Lukyanov"
  SOV_andrei_grechko: "Andrei Grechko"
  SOV_andrei_gromyko:0 "Andrei Gromyko"
@@ -8,6 +9,7 @@
  SOV_dmitry_yazov:0 "Dmitry Yazov"
  SOV_georgy_zhukov: "Georgy Zhukov"
  SOV_issa_pliyev: "Issa Pliyev"
+ SOV_ivan_yakubovsky:0 "Ivan Yakubovsky"
  SOV_konstantin_chernenko: "Konstantin Chernenko"
  SOV_leonid_brezhnev: "Leonid Brezhnev"
  SOV_lev_gumilyov: "Lev Gumilyov"
@@ -20,6 +22,7 @@
  SOV_valentin_pavlov: "Valentin Pavlov"
  SOV_vasily_kuznetsov:0 "Vasily Kuznetsov"
  SOV_viktor_chernomyrdin:0 "Viktor Chernomyrdin"
+ SOV_vitaly_fedorchuk:0 "Vitaly Fedorchuk"
  SOV_vladimir_kryuchkov:0 "Vladimir Kryuchkov"
  SOV_yevgeny_primakov:0 "Yevgeny Primakov"
 #Parties
@@ -35,8 +38,8 @@
  #SOV_liberal_democracy_party_long:0 ""
  #SOV_social_conservatism_party:0 ""
  #SOV_social_conservatism_party_long:0 ""
- SOV_authoritarian_democracy_party:0 "OH-R"
- SOV_authoritarian_democracy_party_long:0 "Our House “Russia”"
+ SOV_authoritarian_democracy_party:0 "NDR"
+ SOV_authoritarian_democracy_party_long:0 "Our Home – Russia [Nash dom – Rossiya]"
  #SOV_paternal_autocracy_party:0 ""
  #SOV_paternal_autocracy_party_long:0 ""
  #SOV_national_corporatism_party:0 ""

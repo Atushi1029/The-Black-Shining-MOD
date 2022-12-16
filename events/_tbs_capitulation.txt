@@ -308,3 +308,14 @@ news_event = {
 		}
 	}
 }
+country_event = {
+	id = country_capitulated.1
+	title = country_capitulated.1.title
+	desc = country_capitulated.1.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = country_capitulated.1.a
+		ai_chance = { base = 100 }
+	}
+}

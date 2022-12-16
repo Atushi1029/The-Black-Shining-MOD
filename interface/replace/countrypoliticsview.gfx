@@ -488,7 +488,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_pol_piechart_overlay"
-		textureFile = "gfx//interface//pol_piechart_overlay.dds"
+		textureFile = "gfx/interface/tbs_pol_piechart_overlay.png"
 		alwaystransparent = yes			
 	}
 
@@ -507,7 +507,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_pol_leader_frame"
-		textureFile = "gfx//interface//pol_leader_frame.dds"
+		textureFile = "gfx/interface/tbs_pol_leader_frame.png"
 	}
 	
 	spriteType = {
@@ -641,32 +641,56 @@ spriteTypes = {
 		texturefile = "gfx/interface/pol_view_background.png"
 	}
 	SpriteType = {
+		name = "GFX_tbs_header_bg"
+		textureFile = "gfx/interface/tbs_header_bg.png"
+	}
+	SpriteType = {
 		name = "GFX_tbs_pol_piechart_overlay_63x63"
 		textureFile = "gfx/interface/tbs_pol_piechart_overlay_63x63.png"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_head_of_government"
-		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_interior_minister"
-		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_foreign_minister"
-		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_economy_minister"
-		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_justice_minister"
-		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
 	}
 	spriteType = {
 		name = "GFX_idea_slot_security_minister"
-		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_army_chief"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_navy_chief"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_air_chief"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_high_command"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_theorist"
+		textureFile = "gfx/interface/advisors/Generic/idea_Generic_vacancy.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_unknown"

@@ -9,7 +9,7 @@ ROM_delete_communist_states = {
 	}
 }
 ROM_setup_communism_government = {
-	set_cosmetic_tag = ROM_socialist_republic_175_13_0
+	set_cosmetic_tag = ROM_socialist_republic_2nd
 	set_politics = {
 		ruling_party = radical_socialism
 		last_election = "1972.1.1"

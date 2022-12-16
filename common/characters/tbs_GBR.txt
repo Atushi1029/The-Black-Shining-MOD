@@ -102,12 +102,12 @@ characters = {
 		}
 		advisor = {
 			cost = 65535
-			slot = interior_minister
+			slot = head_of_government
 			ledger = civilian
-			idea_token = GBR_colin_jordan_int
+			idea_token = GBR_colin_jordan_hog
 			allowed = { original_tag = GBR }
 			traits = {
-				tbs_interior_minister
+				tbs_head_of_government
 				tbs_political_specialist
 			}
 			removal_cost = -1
@@ -115,12 +115,12 @@ characters = {
 		}
 		advisor = {
 			cost = 65535
-			slot = head_of_government
+			slot = interior_minister
 			ledger = civilian
-			idea_token = GBR_colin_jordan_hog
+			idea_token = GBR_colin_jordan_int
 			allowed = { original_tag = GBR }
 			traits = {
-				tbs_head_of_government
+				tbs_interior_minister
 				tbs_political_specialist
 			}
 			removal_cost = -1

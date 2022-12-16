@@ -1,0 +1,21 @@
+
+state = {
+	id = 1019
+	name = "STATE_1019"
+
+	history = {
+		owner = STO
+		add_core_of = STO
+		set_state_flag = russian_old_states
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces = { 13303 }
+	manpower = 48831
+	buildings_max_level_factor = 1
+	state_category = "pastoral"
+
+	local_supplies = 0.0 
+}

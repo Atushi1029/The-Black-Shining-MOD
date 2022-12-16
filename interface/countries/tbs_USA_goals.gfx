@@ -4,6 +4,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/USA/USA_a_handshake_in_tokyo.png"
 	}
 	SpriteType = {
+		name = "GFX_USA_americas_broken_economy"
+		texturefile = "gfx/interface/goals/USA/USA_americas_broken_economy.png"
+	}
+	SpriteType = {
 		name = "GFX_USA_expanding_the_cia"
 		texturefile = "gfx/interface/goals/USA/USA_expanding_the_cia.png"
 	}
@@ -18,6 +22,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_protecting_the_great_society"
 		texturefile = "gfx/interface/goals/USA/USA_protecting_the_great_society.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_right_wing_paramilitaries"
+		texturefile = "gfx/interface/goals/USA/USA_right_wing_paramilitaries.png"
 	}
 	SpriteType = {
 		name = "GFX_USA_the_curtain_call"

@@ -157,9 +157,9 @@
  CHA_republic_DEF:0 "チャド共和国"
  CHA_republic_ADJ:0 "チャド"
 #中国
- CHI_minkuo:0 "中華民国"
- CHI_minkuo_DEF:0 "中華民国"
- CHI_minkuo_ADJ:0 "中国"
+ CHI_republic:0 "中華民国"
+ CHI_republic_DEF:0 "中華民国"
+ CHI_republic_ADJ:0 "中国"
 #チリ
  CHL_peoples_republic:0 "チリ人民共和国"
  CHL_peoples_republic_DEF:0 "チリ人民共和国"
@@ -222,6 +222,10 @@
  ETH_democratic_republic:0 "エチオピア民主共和国"
  ETH_democratic_republic_DEF:0 "エチオピア民主共和国"
  ETH_democratic_republic_ADJ:0 "エチオピア"
+#極東
+ FER_republic:0 "極東共和国"
+ FER_republic_DEF:0 "極東共和国"
+ FER_republic_ADJ:0 "極東"
 #フィンランド
  FIN_republic:0 "フィンランド共和国"
  FIN_republic_DEF:0 "フィンランド共和国"
@@ -331,9 +335,9 @@
  MAL_federation_DEF:0 "マレーシア連邦"
  MAL_federation_ADJ:0 "マレーシア"
 #満州
- MAN_kuo:0 "満州国"
- MAN_kuo_DEF:0 "満州国"
- MAN_kuo_ADJ:0 "満州"
+ MAN_state:0 "満州国"
+ MAN_state_DEF:0 "満州国"
+ MAN_state_ADJ:0 "満州"
 #メキシコ
  MEX_united_states:0 "メキシコ合衆国"
  MEX_united_states_DEF:0 "メキシコ合衆国"
@@ -445,9 +449,9 @@
  ROM_peoples_government:0 "ルーマニア人民政府"
  ROM_peoples_government_DEF:0 "ルーマニア人民政府"
  ROM_peoples_government_ADJ:0 "ルーマニア"
- ROM_socialist_republic_175_13_0:0 "ルーマニア社会主義共和国"
- ROM_socialist_republic_175_13_0_DEF:0 "ルーマニア社会主義共和国"
- ROM_socialist_republic_175_13_0_ADJ:0 "ルーマニア"
+ ROM_socialist_republic_2nd:0 "ルーマニア社会主義共和国"
+ ROM_socialist_republic_2nd_DEF:0 "ルーマニア社会主義共和国"
+ ROM_socialist_republic_2nd_ADJ:0 "ルーマニア"
 #ロシア
  RUS_fascist_council:0 "ロシアファシスト評議会"
  RUS_fascist_council_DEF:0 "ロシアファシスト評議会"

@@ -883,9 +883,9 @@
  BYA_DEF:0 "the Buryatia"
  BYA_ADJ:0 "Buryat"
 
- FAE:0 "Far East"
- FAE_DEF:0 "the Far East"
- FAE_ADJ:0 "Far Eastern"
+ FER:0 "Far East"
+ FER_DEF:0 "the Far East"
+ FER_ADJ:0 "Far Eastern"
 
  CKK:0 "Chukchi"
  CKK_DEF:0 "the Chukchi"

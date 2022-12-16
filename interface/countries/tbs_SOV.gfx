@@ -5,6 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_alexander_sergeyevich_yakovlev.png"
 	}
 	spriteType = {
+		name = "GFX_idea_SOV_anastas_mikoyan"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_anastas_mikoyan.png"
+	}
+	spriteType = {
 		name = "GFX_idea_SOV_anatoly_lukyanov"
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_anatoly_lukyanov.png"
 	}
@@ -35,6 +39,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SOV_issa_pliyev"
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_issa_pliyev.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_ivan_yakubovsky"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_ivan_yakubovsky.png"
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_konstantin_chernenko"
@@ -89,6 +97,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_viktor_chernomyrdin.png"
 	}
 	spriteType = {
+		name = "GFX_idea_SOV_vitaly_fedorchuk"
+		texturefile = "gfx/interface/advisors/SOV/idea_SOV_vitaly_fedorchuk.png"
+	}
+	spriteType = {
 		name = "GFX_idea_SOV_vladimir_kryuchkov"
 		texturefile = "gfx/interface/advisors/SOV/idea_SOV_vladimir_kryuchkov.png"
 	}
@@ -100,6 +112,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SOV_Alexander_Sergeyevich_Yakovlev"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Alexander_Sergeyevich_Yakovlev.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Anastas_Mikoyan"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Anastas_Mikoyan.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SOV_Anatoly_Lukyanov"
@@ -132,6 +148,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SOV_Issa_Pliyev"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Issa_Pliyev.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Ivan_Yakubovsky"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Ivan_Yakubovsky.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SOV_Konstantin_Chernenko"
@@ -184,6 +204,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SOV_Viktor_Chernomyrdin"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Viktor_Chernomyrdin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SOV_Vitaly_Fedorchuk"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Vitaly_Fedorchuk.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_SOV_Vladimir_Kryuchkov"

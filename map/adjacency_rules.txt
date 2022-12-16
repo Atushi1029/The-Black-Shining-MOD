@@ -451,3 +451,37 @@ adjacency_rule  = {
 	icon = 9737
 	offset = { 0 0 0 }
 }
+adjacency_rule = { 
+	name = DON_CANAL
+	contested = { 
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy = { 
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend = { 
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = { 
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 585 728 742 745 748 765 775 3587 3726 3748 3765 3779 6748 6781 6783 9688 9705 9722 9739 9742 9744 11559 11690 11693 11694 11727 }
+	is_disabled = {
+		has_global_flag = DON_CANAL_BLOCKED
+		tooltip = disable_don_canal_tt
+	}
+	icon = 3726
+	offset = { 0 0 0 }
+}

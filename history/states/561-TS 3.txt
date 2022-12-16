@@ -15,15 +15,12 @@ state = {
 			arms_factory = 1
 		}
 		victory_points = {
-			7763 15
-		}
-		victory_points = {
-			10678 10
+			10678 5
 		}
 	}
 
 	provinces = { 
-		1739 4731 4847 7754 7763 7851 10678 12543 12657 
+		7851 10678 12543
 	}
 	manpower=454281
 	buildings_max_level_factor=1.000

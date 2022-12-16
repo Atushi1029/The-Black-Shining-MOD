@@ -167,6 +167,23 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	JAP_eiichi_nagasue = {
+		name = JAP_eiichi_nagasue
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Eiichi_Nagasue"
+				small = "GFX_idea_JAP_eiichi_nagasue"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Eiichi_Nagasue"
+				small = "GFX_idea_JAP_eiichi_nagasue"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Eiichi_Nagasue"
+				small = "GFX_idea_JAP_eiichi_nagasue"
+			}
+		}
+	}
 	JAP_eiichi_nishimura = {
 		name = JAP_eiichi_nishimura
 		portraits = {
@@ -518,6 +535,23 @@ characters = {
 			maneuvering_skill = 2
 			coordination_skill = 1
 			legacy_id = -1
+		}
+	}
+	JAP_ikko_kasuga = {
+		name = JAP_ikko_kasuga
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Ikko_Kasuga"
+				small = "GFX_idea_JAP_ikko_kasuga"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Ikko_Kasuga"
+				small = "GFX_idea_JAP_ikko_kasuga"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Ikko_Kasuga"
+				small = "GFX_idea_JAP_ikko_kasuga"
+			}
 		}
 	}
 	JAP_japanese_national_political_reform_committee = {
@@ -921,6 +955,23 @@ characters = {
 			traits = {}
 		}
 	}
+	JAP_makoto_tanabe = {
+		name = JAP_makoto_tanabe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Makoto_Tanabe"
+				small = "GFX_idea_JAP_makoto_tanabe"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Makoto_Tanabe"
+				small = "GFX_idea_JAP_makoto_tanabe"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Makoto_Tanabe"
+				small = "GFX_idea_JAP_makoto_tanabe"
+			}
+		}
+	}
 	JAP_masaharu_gotoda = {
 		name = JAP_masaharu_gotoda
 		portraits = {
@@ -968,6 +1019,23 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	JAP_masami_tanaka = {
+		name = JAP_masami_tanaka
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masami_Tanaka"
+				small = "GFX_idea_JAP_masami_tanaka"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masami_Tanaka"
+				small = "GFX_idea_JAP_masami_tanaka"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Masami_Tanaka"
+				small = "GFX_idea_JAP_masami_tanaka"
+			}
+		}
+	}
 	JAP_masanobu_tsuji = {
 		name = JAP_masanobu_tsuji
 		portraits = {
@@ -1010,6 +1078,23 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_JAP_Masanosuke_Ikeda"
 				small = "GFX_idea_JAP_masanosuke_ikeda"
+			}
+		}
+	}
+	JAP_masao_hori = {
+		name = JAP_masao_hori
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masao_Hori"
+				small = "GFX_idea_JAP_masao_hori"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masao_Hori"
+				small = "GFX_idea_JAP_masao_hori"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Masao_Hori"
+				small = "GFX_idea_JAP_masao_hori"
 			}
 		}
 	}
@@ -1289,6 +1374,23 @@ characters = {
 			}
 		}
 	}
+	JAP_mutsuo_kimura = {
+		name = JAP_mutsuo_kimura
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Mutsuo_Kimura"
+				small = "GFX_idea_JAP_mutsuo_kimura"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Mutsuo_Kimura"
+				small = "GFX_idea_JAP_mutsuo_kimura"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Mutsuo_Kimura"
+				small = "GFX_idea_JAP_mutsuo_kimura"
+			}
+		}
+	}
 	JAP_okinori_kaya = {
 		name = JAP_okinori_kaya
 		portraits = {
@@ -1303,6 +1405,23 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_JAP_Okinori_Kaya"
 				small = "GFX_idea_JAP_okinori_kaya"
+			}
+		}
+	}
+	JAP_osamu_inaba = {
+		name = JAP_osamu_inaba
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Osamu_Inaba"
+				small = "GFX_idea_JAP_osamu_inaba"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Osamu_Inaba"
+				small = "GFX_idea_JAP_osamu_inaba"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Osamu_Inaba"
+				small = "GFX_idea_JAP_osamu_inaba"
 			}
 		}
 	}
@@ -1386,6 +1505,13 @@ characters = {
 				small = "GFX_idea_JAP_saburo_eda"
 			}
 		}
+		country_leader = {
+			desc = "POLITICS_SABURO_EDA_DESC"
+			ideology = social_democracy_ideology
+			expire = "1977.5.22.1"
+			id = -1
+			traits = {}
+		}
 	}
 	JAP_saburo_shindo = {
 		name = JAP_saburo_shindo
@@ -1416,6 +1542,23 @@ characters = {
 			maneuvering_skill = 5
 			coordination_skill = 4
 			legacy_id = -1
+		}
+	}
+	JAP_saburo_tsukamoto = {
+		name = JAP_saburo_tsukamoto
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Saburo_Tsukamoto"
+				small = "GFX_idea_JAP_saburo_tsukamoto"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Saburo_Tsukamoto"
+				small = "GFX_idea_JAP_saburo_tsukamoto"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Saburo_Tsukamoto"
+				small = "GFX_idea_JAP_saburo_tsukamoto"
+			}
 		}
 	}
 	JAP_sadao_akamatsu = {
@@ -1510,6 +1653,23 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	JAP_seido_royama = {
+		name = JAP_seido_royama
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Seido_Royama"
+				small = "GFX_idea_JAP_seido_royama"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Seido_Royama"
+				small = "GFX_idea_JAP_seido_royama"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Seido_Royama"
+				small = "GFX_idea_JAP_seido_royama"
+			}
+		}
+	}
 	JAP_seiichi_katsumata = {
 		name = JAP_seiichi_katsumata
 		portraits = {
@@ -1555,6 +1715,13 @@ characters = {
 				large = "GFX_Portrait_JAP_Seijuro_Arafune"
 				small = "GFX_idea_JAP_seijuro_arafune"
 			}
+		}
+		country_leader = {
+			desc = "POLITICS_SEIJURO_ARAFUNE_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1980.11.25.1"
+			id = -1
+			traits = {}
 		}
 	}
 	JAP_seisuke_okuno = {
@@ -1614,6 +1781,23 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_JAP_Shigenobu_Sakano"
 				small = "GFX_idea_JAP_shigenobu_sakano"
+			}
+		}
+	}
+	JAP_shin_kanemaru = {
+		name = JAP_shin_kanemaru
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Shin_Kanemaru"
+				small = "GFX_idea_JAP_shin_kanemaru"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Shin_Kanemaru"
+				small = "GFX_idea_JAP_shin_kanemaru"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Shin_Kanemaru"
+				small = "GFX_idea_JAP_shin_kanemaru"
 			}
 		}
 	}
@@ -1874,6 +2058,57 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	JAP_takako_doi = {
+		name = JAP_takako_doi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Takako_Doi"
+				small = "GFX_idea_JAP_takako_doi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Takako_Doi"
+				small = "GFX_idea_JAP_takako_doi"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Takako_Doi"
+				small = "GFX_idea_JAP_takako_doi"
+			}
+		}
+	}
+	JAP_takashi_asari = {
+		name = JAP_takashi_asari
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Takashi_Asari"
+				small = "GFX_idea_JAP_takashi_asari"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Takashi_Asari"
+				small = "GFX_idea_JAP_takashi_asari"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Takashi_Asari"
+				small = "GFX_idea_JAP_takashi_asari"
+			}
+		}
+	}
+	JAP_takashi_yoshino = {
+		name = JAP_takashi_yoshino
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Takashi_Yoshino"
+				small = "GFX_idea_JAP_takashi_yoshino"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Takashi_Yoshino"
+				small = "GFX_idea_JAP_takashi_yoshino"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Takashi_Yoshino"
+				small = "GFX_idea_JAP_takashi_yoshino"
+			}
+		}
+	}
 	JAP_takeichi_nishi = {
 		name = JAP_takeichi_nishi
 		portraits = {
@@ -2083,6 +2318,36 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	JAP_tomomi_narita = {
+		name = JAP_tomomi_narita
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Tomomi_Narita"
+				small = "GFX_idea_JAP_tomomi_narita"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Tomomi_Narita"
+				small = "GFX_idea_JAP_tomomi_narita"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Tomomi_Narita"
+				small = "GFX_idea_JAP_tomomi_narita"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_tomomi_narita_jus
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_justice_minister
+				appeaser
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
 	JAP_torazo_ninagawa = {
 		name = JAP_torazo_ninagawa
 		portraits = {
@@ -2183,32 +2448,6 @@ characters = {
 				large = "GFX_Portrait_JAP_Toshio_Komoto"
 				small = "GFX_idea_JAP_toshio_komoto"
 			}
-		}
-	}
-	JAP_tsuneo_baba = {
-		name = JAP_tsuneo_baba
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Tsuneo_Baba"
-				small = "GFX_idea_JAP_tsuneo_baba"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Tsuneo_Baba"
-				small = "GFX_idea_JAP_tsuneo_baba"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Tsuneo_Baba"
-				small = "GFX_idea_JAP_tsuneo_baba"
-			}
-		}
-		corps_commander = {
-			traits = { career_officer }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = -1
 		}
 	}
 	JAP_umeichi_adachi = {

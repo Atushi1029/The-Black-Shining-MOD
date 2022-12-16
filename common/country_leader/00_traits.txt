@@ -3105,7 +3105,6 @@ leader_traits = {
 		#sprite = 10
 		production_factory_max_efficiency_factor = 0.1
 		#democratic_acceptance = 0.03 
-		materiel_manufacturer_cost_factor = -0.75
 		research_speed_factor = 0.2
 	}
 

@@ -23,6 +23,30 @@ characters = {
 			traits = {}
 		}
 	}
+	VIN_kinjo_kobori = {
+		name = VIN_kinjo_kobori
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_VIN_Kinjo_Kobori"
+				small = "GFX_idea_VIN_kinjo_kobori"
+			}
+			army = {
+				large = "GFX_Portrait_VIN_Kinjo_Kobori"
+				small = "GFX_idea_VIN_kinjo_kobori"
+			}
+			navy = {
+				large = "GFX_Portrait_VIN_Kinjo_Kobori"
+				small = "GFX_idea_VIN_kinjo_kobori"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KINJO_KOBORI_DESC"
+			ideology = national_socialism_ideology
+			expire = "1974.7.14.1"
+			id = -1
+			traits = {}
+		}
+	}
 	VIN_kojiro_nishizumi = {
 		name = VIN_kojiro_nishizumi
 		portraits = {

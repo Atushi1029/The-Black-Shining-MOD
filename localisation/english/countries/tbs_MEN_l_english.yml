@@ -1,3 +1,16 @@
 ﻿l_english:
-#キャラクター
+#Character Descs
+ #Advisors
+ MEN_dashiin_damba_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_silent_workhorse$§!"
+ MEN_duguersulong_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_popular_figurehead$§!"
+ MEN_li_shouxin_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_prince_of_terror$§!"
+ MEN_utaro_kataoka_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_compassionate_gentleman$§!"
+ MEN_wu_heling_jus_desc:0 "§Y$tbs_justice_minister$\n$tbs_iron_fisted_brute$§!"
+ MEN_zolbingiin_shijee_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_agricultural_economist$§!"
+#Characters
+ MEN_dashiin_damba:0 "Dashiin Damba"
  MEN_duguersulong:0 "Duguersulong"
+ MEN_li_shouxin:0 "Li Shouxin"
+ MEN_utaro_kataoka:0 "Utarō Kataoka"
+ MEN_wu_heling:0 "Wu Heling"
+ MEN_zolbingiin_shijee:0 "Zolbingiin Shijee"

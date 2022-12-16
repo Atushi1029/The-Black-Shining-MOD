@@ -1,6 +1,6 @@
 ﻿capital = 967
 oob = ""
-set_cosmetic_tag = CHI_minkuo
+set_cosmetic_tag = CHI_republic
 set_starting_values = yes
 recruit_character = CHI_chang_hsueh-liang
 recruit_character = CHI_chiang_ching-kuo

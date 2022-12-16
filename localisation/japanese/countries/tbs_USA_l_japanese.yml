@@ -1,4 +1,12 @@
 ﻿l_japanese:
+#キャラクター説明
+ #閣僚
+ USA_hubert_humphrey_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_idealist$§!"
+ USA_james_russell_wiggins_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_strict_diplomat$§!"
+ USA_joseph_walker_barr_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_economic_reformer$§!"
+ USA_ramsey_clark_jus_desc:0 "§Y$tbs_justice_minister$\n$tbs_great_compromiser$§!"
+ USA_robert_mcnamara_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_army_friend$§!"
+ USA_stewart_udall_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_smile_socialite$§!"
 #キャラクター
  USA_al_gore:0 "アル・ゴア"
  USA_angela_davis:0 "アンジェラ・デイヴィス"

@@ -19,7 +19,7 @@ guiTypes = {
 
 		iconType  = { 
 			name ="production_header_bg"
-			spriteType = "GFX_header_bg"
+			spriteType = "GFX_tbs_header_bg"
 			position = { x= 5 y = 07 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -198,7 +198,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "object_frame"
-			position = { x = 2 y = 416 }
+			position = { x = 2 y = 415 }
 			quadTextureSprite = "GFX_object_frame"
 			alwaystransparent = yes
 		}
@@ -1070,7 +1070,7 @@ guiTypes = {
 
 		iconType  = { 
 			name ="manage_occupied_header_bg"
-			spriteType = "GFX_header_bg"
+			spriteType = "GFX_tbs_header_bg"
 			position = { x= 7 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -1254,7 +1254,7 @@ guiTypes = {
 
 		iconType  = { 
 			name ="title_bg"
-			spriteType = "GFX_header_bg"
+			spriteType = "GFX_tbs_header_bg"
 			position = { x= 7 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -1589,7 +1589,7 @@ guiTypes = {
 
 		iconType  = { 
 			name ="manage_occupied_header_bg"
-			spriteType = "GFX_header_bg"
+			spriteType = "GFX_tbs_header_bg"
 			position = { x= 5 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}

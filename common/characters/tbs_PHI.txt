@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HONG_SA-IK_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = paternal_autocracy_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

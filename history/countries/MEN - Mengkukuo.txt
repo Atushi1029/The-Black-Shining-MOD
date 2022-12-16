@@ -1,10 +1,20 @@
 ﻿capital = 611
 oob = ""
 set_starting_values = yes
+recruit_character = MEN_dashiin_damba
 recruit_character = MEN_duguersulong
+recruit_character = MEN_li_shouxin
+recruit_character = MEN_utaro_kataoka
+recruit_character = MEN_wu_heling
+recruit_character = MEN_zolbingiin_shijee
 set_convoys = 20
 add_ideas = {
-	
+	MEN_dashiin_damba_for
+	MEN_duguersulong_hog
+	MEN_li_shouxin_sec
+	MEN_utaro_kataoka_int
+	MEN_wu_heling_jus
+	MEN_zolbingiin_shijee_eco
 }
 1972.1.1 = {
 	set_politics = {

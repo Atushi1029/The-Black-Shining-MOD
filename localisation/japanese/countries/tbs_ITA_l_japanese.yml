@@ -1,6 +1,10 @@
 ﻿l_japanese:
 #キャラクター
  ITA_aldo_moro:0 "アルド・モーロ"
+ ITA_enrico_berlinguer:0 "エンリコ・ベルリンゲル"
+ ITA_lelio_basso:0 "レイロ・バッソ"
+ ITA_onorato_damen:0 "オノラート・ダーメン"
+ ITA_pietro_nenni:0 "ピエトロ・ネンニ"
  ITA_umberto_ii:0 "ウンベルト2世"
 #国民精神
  ITA_fascist_memory:0 "ファシストの記憶"

@@ -1,4 +1,13 @@
 ﻿l_japanese:
+#キャラクター説明
+ #閣僚
+ GBR_andrew_fountaine_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_backroom_backstabber$§!"
+ GBR_colin_jordan_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_political_specialist$§!"
+ GBR_colin_jordan_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_political_specialist$§!"
+ GBR_jeffrey_hamm_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_ideological_crusader$§!"
+ GBR_john_kingsley_read_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_cold_leader$§!"
+ GBR_john_tyndall_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_mixed_economy_proponent$§!"
+ GBR_martin_webster_jus_desc:0 "§Y$tbs_justice_minister$\n$tbs_pragmatic_statesman$§!"
 #キャラクター
  GBR_andrew_fountaine:0 "アンドリュー・フォンテイン"
  GBR_archbishops_council:0 "大司教評議会"

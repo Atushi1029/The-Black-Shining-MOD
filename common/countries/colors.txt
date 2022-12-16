@@ -56,8 +56,8 @@ LAT = {
 	color_ui = rgb { 75 77 186 }
 }
 SPR = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 204 0 0 }
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 200 100 31 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -460,8 +460,8 @@ D02 = {
 	color_ui = rgb { 194 140 86 }
 }
 D03 = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 200 100 31 }
+	color = rgb { 255 255 122 }
+	color_ui = rgb { 255 255 122 }
 }
 D04 = {
 	color = rgb { 80 150 179 }
@@ -516,8 +516,8 @@ D16 = {
 	color_ui = rgb { 194 140 86 }
 }
 D17 = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 200 100 31 }
+	color = rgb { 255 255 122 }
+	color_ui = rgb { 255 255 122 }
 }
 D18 = {
 	color = rgb { 80 150 179 }
@@ -572,8 +572,8 @@ D30 = {
 	color_ui = rgb { 194 140 86 }
 }
 D31 = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 200 100 31 }
+	color = rgb { 255 255 122 }
+	color_ui = rgb { 255 255 122 }
 }
 D32 = {
 	color = rgb { 80 150 179 }
@@ -628,8 +628,8 @@ D44 = {
 	color_ui = rgb { 194 140 86 }
 }
 D45 = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 200 100 31 }
+	color = rgb { 255 255 122 }
+	color_ui = rgb { 255 255 122 }
 }
 D46 = {
 	color = rgb { 80 150 179 }

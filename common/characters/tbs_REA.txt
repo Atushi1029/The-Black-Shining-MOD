@@ -60,6 +60,30 @@ characters = {
 			traits = {}
 		}
 	}
+	REA_hajime_yasuda = {
+		name = REA_hajime_yasuda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Hajime_Yasuda"
+				small = "GFX_idea_REA_hajime_yasuda"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Hajime_Yasuda"
+				small = "GFX_idea_REA_hajime_yasuda"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Hajime_Yasuda"
+				small = "GFX_idea_REA_hajime_yasuda"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HAJIME_YASUDA_DESC"
+			ideology = transhumanism_ideology
+			expire = "1991.3.26.1"
+			id = -1
+			traits = {}
+		}
+	}
 	REA_hayao_kinugasa = {
 		name = REA_hayao_kinugasa
 		portraits = {
@@ -88,6 +112,18 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
 		}
 	}
 	REA_kiyoshi_hasegawa = {
@@ -120,6 +156,30 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	REA_kosaku_wada = {
+		name = REA_kosaku_wada
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Kosaku_Wada"
+				small = "GFX_idea_REA_kosaku_wada"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Kosaku_Wada"
+				small = "GFX_idea_REA_kosaku_wada"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Kosaku_Wada"
+				small = "GFX_idea_REA_kosaku_wada"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KOSAKU_WADA_DESC"
+			ideology = social_conservatism_ideology
+			expire = "2006.7.4.1"
+			id = -1
+			traits = {}
+		}
+	}
 	REA_lee_kuan_yew = {
 		name = REA_lee_kuan_yew
 		portraits = {
@@ -135,6 +195,13 @@ characters = {
 				large = "GFX_Portrait_REA_Lee_Kuan_Yew"
 				small = "GFX_idea_REA_lee_kuan_yew"
 			}
+		}
+		country_leader = {
+			desc = "POLITICS_LEE_KUAN_YEW_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "2015.3.23.1"
+			id = -1
+			traits = {}
 		}
 	}
 	REA_makoto_hashii = {
@@ -169,6 +236,13 @@ characters = {
 				large = "GFX_Portrait_REA_Momofuku_Ando"
 				small = "GFX_idea_REA_momofuku_ando"
 			}
+		}
+		country_leader = {
+			desc = "POLITICS_MOMOFUKU_ANDO_DESC"
+			ideology = market_liberalism_ideology
+			expire = "2007.1.5.1"
+			id = -1
+			traits = {}
 		}
 	}
 	REA_muraichi_horie = {
@@ -225,6 +299,30 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	REA_ryokichi_minobe = {
+		name = REA_ryokichi_minobe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Ryokichi_Minobe"
+				small = "GFX_idea_REA_ryokichi_minobe"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Ryokichi_Minobe"
+				small = "GFX_idea_REA_ryokichi_minobe"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Ryokichi_Minobe"
+				small = "GFX_idea_REA_ryokichi_minobe"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RYOKICHI_MINOBE_DESC"
+			ideology = social_democracy_ideology
+			expire = "1984.12.24.1"
+			id = -1
+			traits = {}
+		}
+	}
 	REA_ryuzo_sejima = {
 		name = REA_ryuzo_sejima
 		portraits = {
@@ -240,6 +338,37 @@ characters = {
 				large = "GFX_Portrait_REA_Ryuzo_Sejima"
 				small = "GFX_idea_REA_ryuzo_sejima"
 			}
+		}
+		country_leader = {
+			desc = "POLITICS_RYUZO_SEJIMA_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "2007.9.4.1"
+			id = -1
+			traits = {}
+		}
+	}
+	REA_satomi_hakamada = {
+		name = REA_satomi_hakamada
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Satomi_Hakamada"
+				small = "GFX_idea_REA_satomi_hakamada"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Satomi_Hakamada"
+				small = "GFX_idea_REA_satomi_hakamada"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Satomi_Hakamada"
+				small = "GFX_idea_REA_satomi_hakamada"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SATOMI_HAKAMADA_DESC"
+			ideology = radical_socialism_ideology
+			expire = "1990.5.10.1"
+			id = -1
+			traits = {}
 		}
 	}
 	REA_shigeyoshi_inoue = {
@@ -270,6 +399,19 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+		navy_leader = {
+			traits = {
+				superior_tactician
+				spotter
+				flight_deck_manager
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 4
+			coordination_skill = 5
+			legacy_id = -1
 		}
 	}
 	REA_shigeyoshi_saito = {
@@ -302,6 +444,30 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	REA_taisaku_ikeda = {
+		name = REA_taisaku_ikeda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Taisaku_Ikeda"
+				small = "GFX_idea_REA_taisaku_ikeda"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Taisaku_Ikeda"
+				small = "GFX_idea_REA_taisaku_ikeda"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Taisaku_Ikeda"
+				small = "GFX_idea_REA_taisaku_ikeda"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TAISAKU_IKEDA_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	REA_takeo_nimiya = {
 		name = REA_takeo_nimiya
 		portraits = {
@@ -324,6 +490,42 @@ characters = {
 			expire = "1980.2.16.1"
 			id = -1
 			traits = {}
+		}
+	}
+	REA_tonosuke_otani = {
+		name = REA_tonosuke_otani
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Tonosuke_Otani"
+				small = "GFX_idea_REA_tonosuke_otani"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Tonosuke_Otani"
+				small = "GFX_idea_REA_tonosuke_otani"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Tonosuke_Otani"
+				small = "GFX_idea_REA_tonosuke_otani"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TONOSUKE_OTANI_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.2.8.1"
+			id = -1
+			traits = {}
+		}
+		navy_leader = {
+			traits = {
+				battleship_adherent
+				superior_tactician
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
+			legacy_id = -1
 		}
 	}
 }
