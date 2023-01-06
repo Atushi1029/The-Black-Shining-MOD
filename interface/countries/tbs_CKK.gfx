@@ -1,12 +1,12 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
-		name = "GFX_idea_CKK_michael_feodorovich"
-		texturefile = "gfx/interface/advisors/CKK/idea_CKK_michael_feodorovich.png"
+		name = "GFX_idea_CKK_mikhail_romanov"
+		texturefile = "gfx/interface/advisors/CKK/idea_CKK_mikhail_romanov.png"
 	}
 	#Portraits
 	spriteType = {
-		name = "GFX_Portrait_CKK_Michael_Feodorovich"
-		texturefile = "gfx/leaders/CKK/Portrait_CKK_Michael_Feodorovich.png"
+		name = "GFX_Portrait_CKK_Mikhail_Romanov"
+		texturefile = "gfx/leaders/CKK/Portrait_CKK_Mikhail_Romanov.png"
 	}
 }

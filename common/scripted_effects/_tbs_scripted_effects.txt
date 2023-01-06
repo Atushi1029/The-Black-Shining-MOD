@@ -1,8 +1,10 @@
 set_num_volunteers = {
 	hidden_effect = {
 		meta_effect = { 
-			text = { set_country_flag = may_send_volunteers_to_[TARGET] }
-			TARGET = "[?target.GetTag]"
+			text = {
+				set_country_flag = may_send_volunteers_to_[VOLTARGET]
+			}
+			VOLTARGET = "[?target.GetTag]"
 		}
 		if = {
 			limit = { check_variable = { number = 0 } }
@@ -10,7 +12,14 @@ set_num_volunteers = {
 		}
 		else = {
 			if = {
-				limit = { NOT = { is_in_array = { array = volunteers_tags value = target } } }
+				limit = {
+					NOT = {
+						is_in_array = {
+							array = volunteers_tags
+							value = target
+						}
+					}
+				}
 				add_to_array = { volunteers_tags = target }
 				add_to_array = { volunteers_amounts = number }
 			}
@@ -36,15 +45,31 @@ add_num_volunteers = {
 	hidden_effect = {
 		set_temp_variable = { target_idx = -1 }
 		meta_effect = { 
-			text = { set_country_flag = may_send_volunteers_to_[TARGET] }
-			TARGET = "[?target.GetTag]"
+			text = {
+				set_country_flag = may_send_volunteers_to_[VOLTARGET]
+			}
+			VOLTARGET = "[?target.GetTag]"
 		}
 		if = {
-			limit = { NOT = { is_in_array = { array = volunteers_tags value = target } } }
+			limit = {
+				NOT = {
+					is_in_array = {
+						array = volunteers_tags
+						value = target
+					}
+				}
+			}
 			add_to_array = { volunteers_tags = target }
 			add_to_array = { volunteers_amounts = to_add }
 			if = {
-				limit = { NOT = { is_in_array = { array = global.volunteer_nations value = THIS } } }
+				limit = {
+					NOT = {
+						is_in_array = {
+							array = global.volunteer_nations
+							value = THIS
+						}
+					}
+				}
 				add_to_array = { global.volunteer_nations = THIS }
 			}
 		}
@@ -120,7 +145,14 @@ decrease_volunteer_cap_4 = {
 }
 get_num_volunteers = {
 	if = {
-		limit = { NOT = { is_in_array = { array = volunteers_tags value = target } } }
+		limit = {
+			NOT = {
+				is_in_array = {
+					array = volunteers_tags
+					value = target
+				}
+			}
+		}
 		set_temp_variable = { result = 0 }
 	}
 	else = {
@@ -143,8 +175,10 @@ clear_and_recall_volunteers = {
 	clear_num_volunteers = yes
 	recall_volunteers_from = target
 	meta_effect = { 
-		text = { clr_country_flag = may_send_volunteers_to_[TARGET] }
-		TARGET = "[?target.GetTag]"
+		text = {
+			clr_country_flag = may_send_volunteers_to_[VOLTARGET]
+		}
+		VOLTARGET = "[?target.GetTag]"
 	}
 }
 clear_num_volunteers = {
@@ -166,8 +200,10 @@ clear_num_volunteers = {
 		}
 		update_volunteers_idea = yes
 		meta_effect = { 
-			text = { clr_country_flag = may_send_volunteers_to_[TARGET] }
-			TARGET = "[?target.GetTag]"
+			text = {
+				clr_country_flag = may_send_volunteers_to_[VOLTARGET]
+			}
+			VOLTARGET = "[?target.GetTag]"
 		}
 		get_num_volunteers = yes
 		set_variable = { test_additional_volunteers = result }

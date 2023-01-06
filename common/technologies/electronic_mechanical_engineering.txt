@@ -1246,11 +1246,6 @@ technologies = {
 		categories = {
 			nuclear
 		}
-		
-		enable_building = {
-			building = nuclear_reactor
-			level = 1
-		}
 	}
 
 	nukes = {

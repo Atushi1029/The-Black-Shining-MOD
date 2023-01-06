@@ -1,0 +1,212 @@
+﻿focus_tree = {
+	id = tbs_japan
+	country = {
+		factor = 0
+		modifier = {
+			add = 2
+			tag = JAP
+		}
+	}
+	default = no
+	focus = {
+		id = JAP_vision_of_hoashi_and_katsumata
+		icon = GFX_JAP_vision_of_hoashi_and_katsumata
+		available = {}
+		allow_branch = {}
+		cancelable = no
+		x = 2
+		y = 0
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.0
+		}
+	}
+	focus = {
+		id = JAP_to_sec_minister_ninagawa
+		icon = GFX_JAP_to_sec_minister_ninagawa
+		prerequisite = { focus = JAP_vision_of_hoashi_and_katsumata }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = -1
+		y = 1
+		relative_position_id = JAP_vision_of_hoashi_and_katsumata
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.1
+		}
+	}
+	focus = {
+		id = JAP_go_to_the_usa
+		icon = GFX_JAP_go_to_the_usa
+		prerequisite = { focus = JAP_vision_of_hoashi_and_katsumata }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 1
+		y = 1
+		relative_position_id = JAP_vision_of_hoashi_and_katsumata
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.2
+		}
+	}
+	focus = {
+		id = JAP_head_of_the_economy
+		icon = GFX_JAP_head_of_the_economy
+		prerequisite = { focus = JAP_to_sec_minister_ninagawa }
+		prerequisite = { focus = JAP_go_to_the_usa }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 0
+		y = 1
+		relative_position_id = JAP_to_sec_minister_ninagawa
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.3
+		}
+	}
+	focus = {
+		id = JAP_pressure_on_the_puppets
+		icon = GFX_JAP_pressure_on_the_puppets
+		prerequisite = { focus = JAP_to_sec_minister_ninagawa }
+		prerequisite = { focus = JAP_go_to_the_usa }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 1
+		y = 1
+		relative_position_id = JAP_go_to_the_usa
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.4
+		}
+	}
+	focus = {
+		id = JAP_how_to_handle_the_numbers
+		icon = GFX_JAP_how_to_handle_the_numbers
+		prerequisite = { focus = JAP_head_of_the_economy }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = -1
+		y = 1
+		relative_position_id = JAP_head_of_the_economy
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_temp_variable = { inflation_temp = -1 }
+			econ_inflation_change = yes
+		}
+	}
+	focus = {
+		id = JAP_the_true_nature_of_the_imperial_economy
+		icon = GFX_JAP_the_true_nature_of_the_imperial_economy
+		prerequisite = { focus = JAP_head_of_the_economy }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 1
+		y = 1
+		relative_position_id = JAP_head_of_the_economy
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.5
+		}
+	}
+	focus = {
+		id = JAP_far_eastern_red_devil
+		icon = GFX_JAP_far_eastern_red_devil
+		prerequisite = { focus = JAP_how_to_handle_the_numbers }
+		prerequisite = { focus = JAP_the_true_nature_of_the_imperial_economy }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 1
+		y = 1
+		relative_position_id = JAP_how_to_handle_the_numbers
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.6
+		}
+	}
+	focus = {
+		id = JAP_the_legacy_of_kolchak
+		icon = GFX_JAP_the_legacy_of_kolchak
+		prerequisite = { focus = JAP_pressure_on_the_puppets }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 0
+		y = 1
+		relative_position_id = JAP_pressure_on_the_puppets
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.7
+		}
+	}
+	focus = {
+		id = JAP_secret_meetings_with_rfp
+		icon = GFX_JAP_secret_meetings_with_rfp
+		prerequisite = { focus = JAP_the_legacy_of_kolchak }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 0
+		y = 1
+		relative_position_id = JAP_the_legacy_of_kolchak
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = tbs_jap.8
+		}
+	}
+	focus = {
+		id = JAP_towards_the_election
+		icon = GFX_JAP_towards_the_election
+		prerequisite = { focus = JAP_far_eastern_red_devil }
+		prerequisite = { focus = JAP_secret_meetings_with_rfp }
+		available = {}
+		allow_branch = {}
+		cancelable = yes
+		x = 2
+		y = 1
+		relative_position_id = JAP_far_eastern_red_devil
+		cost = 3
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+		}
+	}
+}

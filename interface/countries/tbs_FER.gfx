@@ -81,6 +81,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_nikolay_petlin.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_nikolay_zaerko"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_nikolay_zaerko.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_pyotr_wrangel_ii"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_pyotr_wrangel_ii.png"
 	}
@@ -188,6 +192,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Nikolay_Petlin"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Nikolay_Petlin.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Nikolay_Zaerko"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Nikolay_Zaerko.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Pyotr_Wrangel_II"

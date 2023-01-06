@@ -1,0 +1,115 @@
+﻿add_namespace = tbs_jap
+country_event = {
+	id = tbs_jap.0
+	title = tbs_jap.0.title
+	desc = tbs_jap.0.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.0.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.1
+	title = tbs_jap.1.title
+	desc = tbs_jap.1.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.1.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.2
+	title = tbs_jap.2.title
+	desc = tbs_jap.2.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.2.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.3
+	title = tbs_jap.3.title
+	desc = tbs_jap.3.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.3.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.4
+	title = tbs_jap.4.title
+	desc = tbs_jap.4.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.4.a
+		ai_chance = { base = 100 }
+		every_other_country = {
+			limit = { is_subject_of = ROOT }
+			country_event = tbs_jap.9
+		}
+	}
+}
+country_event = {
+	id = tbs_jap.5
+	title = tbs_jap.5.title
+	desc = tbs_jap.5.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.5.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.6
+	title = tbs_jap.6.title
+	desc = tbs_jap.6.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.6.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.7
+	title = tbs_jap.7.title
+	desc = tbs_jap.7.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.7.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.8
+	title = tbs_jap.8.title
+	desc = tbs_jap.8.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.8.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_jap.9
+	title = tbs_jap.9.title
+	desc = tbs_jap.9.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_jap.9.a
+		ai_chance = { base = 100 }
+	}
+}

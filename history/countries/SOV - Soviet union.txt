@@ -1,4 +1,4 @@
-﻿capital = 351
+﻿capital = 214
 oob = ""
 set_cosmetic_tag = UNIFY_SOVIET_UNION
 set_starting_values = yes
@@ -27,11 +27,18 @@ recruit_character = SOV_viktor_chernomyrdin
 recruit_character = SOV_vitaly_fedorchuk
 recruit_character = SOV_vladimir_kryuchkov
 recruit_character = SOV_yevgeny_primakov
+set_technology = { penal_infantry = 1 }
 set_convoys = 20
 add_ideas = {
+	SOV_distorted_nation
+	SOV_red_army
+	SOV_rigid_officers
+	SOV_anastas_mikoyan_eco
 	SOV_andrei_grechko_sec
 	SOV_andrei_gromyko_for
+	SOV_ivan_yakubovsky_hog
 	SOV_nikolai_bulganin_jus
+	SOV_vitaly_fedorchuk_int
 }
 set_politics = {
 	ruling_party = totalitarian_socialism

@@ -49,3 +49,6 @@
  disable_midi_canal_tt:0 "§RCan't use $MIDI_CANAL$.§!"
  disable_don_canal_tt:0 "§RCan't use $DON_CANAL$.§!"
  build_dover_strait_tunnel_tt:0 "Builds the $DOVER_STRAIT_TUNNEL$."
+ intelligence_agency_blocker_tt:0 "[!intelligence_agency_blocker_button_click_enabled]"
+ add_proxy_war_conflict_tab_tt:0 "A new §Ypage§! will be §Gadded§! to the §WGlobal Conflicts§! Category.\n"
+ remove_proxy_war_conflict_tab_tt:0 "A §Ypage§! will be §Rremoved§! from the §WGlobal Conflicts§! Category.\n"

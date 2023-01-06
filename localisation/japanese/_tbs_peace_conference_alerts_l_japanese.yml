@@ -12,7 +12,7 @@
 #タイトル
  PEACE_CONFERENCE_POPUP_TITLE_DEFAULT:0 "外交アラート"
 #説明文
- PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_DEFAULT: "§Y[winning_country.GetNameWithFlag]§![ROOT.GetWinnerAlliesWithHas]が§Y[losing_country.GetNameWithFlag]§![ROOT.GetLoserAllies]を打ち負かした。"
+ PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_DEFAULT:0 "§Y[winning_country.GetNameWithFlag]§![ROOT.GetWinnerAlliesWithHas]が§Y[losing_country.GetNameWithFlag]§![ROOT.GetLoserAllies]を打ち負かした。"
  PEACE_CONFERENCE_POPUP_WAR_CONTINUING_DEFAULT:0 "§Y[winning_country.GetNameWithFlag]§!は§Y[losing_country.GetNameWithFlag]§!を打ち負かした。"
  PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_BRG_REBELLION:0 "§Y[winning_country.GetNameWithFlag]§!が§Rブルゴーニュ反乱§!において§Y[losing_country.GetNameWithFlag]§!を打ち負かした。"
 #フレーバー

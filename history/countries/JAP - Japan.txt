@@ -1,5 +1,5 @@
 ﻿capital = 282
-oob = ""
+oob = "JAP_1972"
 set_variable = { global.econ_graph_month = 25 }
 set_variable = { global.xcycling = 0 }
 set_variable = { global.ycycling = 0.125 }

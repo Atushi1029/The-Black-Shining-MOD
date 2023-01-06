@@ -556,3 +556,6 @@ is_num_vols_right_inner = {
 		is_num_vols_right_inner = yes
 	}
 }
+can_create_intelligence_agency = {
+	always = no
+}

@@ -1,6 +1,7 @@
 characters = {
 	BUL_margarita_i = {
 		name = BUL_margarita_i
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_BUL_Margarita_I"

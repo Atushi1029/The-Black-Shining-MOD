@@ -21,6 +21,7 @@ recruit_character = FER_mikhail_matkovsky
 recruit_character = FER_mikhail_spasovsky
 recruit_character = FER_nikolay_abramov
 recruit_character = FER_nikolay_petlin
+recruit_character = FER_nikolay_zaerko
 recruit_character = FER_pyotr_wrangel_ii
 recruit_character = FER_rostislav_kolchak
 recruit_character = FER_vladimir_kibardin

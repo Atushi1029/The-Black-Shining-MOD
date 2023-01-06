@@ -1,6 +1,7 @@
 characters = {
 	CHA_kalthouma_nguembang = {
 		name = CHA_kalthouma_nguembang
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_CHA_Kalthouma_Nguembang"

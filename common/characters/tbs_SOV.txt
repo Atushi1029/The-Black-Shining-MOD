@@ -39,6 +39,19 @@ characters = {
 				small = "GFX_idea_SOV_anastas_mikoyan"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = SOV_anastas_mikoyan_eco
+			allowed = { original_tag = SOV }
+			traits = {
+				tbs_economy_minister
+				tbs_collectivisation_specialist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	SOV_anatoly_lukyanov = {
 		name = SOV_anatoly_lukyanov
@@ -244,6 +257,19 @@ characters = {
 				large = "GFX_Portrait_SOV_Ivan_Yakubovsky"
 				small = "GFX_idea_SOV_ivan_yakubovsky"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = SOV_ivan_yakubovsky_hog
+			allowed = { original_tag = SOV }
+			traits = {
+				tbs_head_of_government
+				tbs_stubborn_veteran
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	SOV_konstantin_chernenko = {
@@ -551,6 +577,19 @@ characters = {
 				large = "GFX_Portrait_SOV_Vitaly_Fedorchuk"
 				small = "GFX_idea_SOV_vitaly_fedorchuk"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = SOV_vitaly_fedorchuk_int
+			allowed = { original_tag = SOV }
+			traits = {
+				tbs_interior_minister
+				tbs_political_protege
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	SOV_vladimir_kryuchkov = {

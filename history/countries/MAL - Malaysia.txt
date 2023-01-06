@@ -1,4 +1,4 @@
-﻿capital = 336
+﻿capital = 868
 oob = ""
 set_cosmetic_tag = MAL_federation
 set_starting_values = yes

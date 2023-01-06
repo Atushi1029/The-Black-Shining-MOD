@@ -3,6 +3,7 @@ equipments = {
 		year = 1972
 		is_archetype = yes
 		picture = archetype_motorized_equipment
+		interface_category = interface_category_land
 		is_buildable = no
 		type = {
 			#infantry #Removing inf type 

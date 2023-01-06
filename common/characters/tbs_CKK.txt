@@ -1,18 +1,18 @@
 characters = {
-	CKK_michael_feodorovich = {
-		name = CKK_michael_feodorovich
+	CKK_mikhail_romanov = {
+		name = CKK_mikhail_romanov
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_CKK_Michael_Feodorovich"
-				small = "GFX_idea_CKK_michael_feodorovich"
+				large = "GFX_Portrait_CKK_Mikhail_Romanov"
+				small = "GFX_idea_CKK_mikhail_romanov"
 			}
 			army = {
-				large = "GFX_Portrait_CKK_Michael_Feodorovich"
-				small = "GFX_idea_CKK_michael_feodorovich"
+				large = "GFX_Portrait_CKK_Mikhail_Romanov"
+				small = "GFX_idea_CKK_mikhail_romanov"
 			}
 			navy = {
-				large = "GFX_Portrait_CKK_Michael_Feodorovich"
-				small = "GFX_idea_CKK_michael_feodorovich"
+				large = "GFX_Portrait_CKK_Mikhail_Romanov"
+				small = "GFX_idea_CKK_mikhail_romanov"
 			}
 		}
 		country_leader = {

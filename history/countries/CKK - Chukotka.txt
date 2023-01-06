@@ -1,7 +1,7 @@
 ﻿capital = 822
 oob = ""
 set_starting_values = yes
-recruit_character = CKK_michael_feodorovich
+recruit_character = CKK_mikhail_romanov
 set_convoys = 20
 add_ideas = {
 	

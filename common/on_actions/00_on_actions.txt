@@ -110,6 +110,14 @@ on_actions = {
 					}
 					change_tag_from = FROM
 				}
+				GER = {
+					set_temp_variable = { target = RPG }
+					clear_num_volunteers = yes
+				}
+				ITA = {
+					set_temp_variable = { target = ROM }
+					clear_num_volunteers = yes
+				}
 			}
 			else_if = {
 				limit = {

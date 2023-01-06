@@ -1,6 +1,7 @@
 characters = {
 	BRG_francoise_dior = {
 		name = BRG_francoise_dior
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_BRG_Francoise_Dior"

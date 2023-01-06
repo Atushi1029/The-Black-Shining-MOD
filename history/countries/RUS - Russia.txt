@@ -3,6 +3,9 @@ oob = ""
 set_cosmetic_tag = RUS_republic
 set_starting_values = yes
 recruit_character = RUS_irina_yusupova
+recruit_character = RUS_roman_gul
+recruit_character = RUS_sergey_taboritsky
+recruit_character = RUS_yekaterina_furtseva
 set_convoys = 20
 add_ideas = {
 	

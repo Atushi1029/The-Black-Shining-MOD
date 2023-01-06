@@ -29,6 +29,7 @@ ideologies = {
 		types = {
 			radical_socialism_ideology = {}
 			anarcho_communism_ideology = { can_be_randomly_selected = no }
+			bill_of_rights_socialism_ideology = { can_be_randomly_selected = no }
 			pan_africanism_ideology = { can_be_randomly_selected = no }
 			savinkovism_ideology = { can_be_randomly_selected = no }
 		}
@@ -170,6 +171,7 @@ ideologies = {
 			authoritarian_democracy_ideology = {}
 			dixiecrat_democracy_ideology = { can_be_randomly_selected = no }
 			national_conservatism_ideology = { can_be_randomly_selected = no }
+			royal_democracy_ideology = { can_be_randomly_selected = no }
 			social_nationalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 110 110 110 }
@@ -196,6 +198,7 @@ ideologies = {
 	paternal_autocracy = {
 		types = {
 			paternal_autocracy_ideology = {}
+			absolute_monarchism_ideology = { can_be_randomly_selected = no }
 			technocracy_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 45 45 45 }
@@ -222,6 +225,7 @@ ideologies = {
 	national_corporatism = {
 		types = {
 			national_corporatism_ideology = {}
+			american_fascism_ideology = { can_be_randomly_selected = no }
 			fascism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 142 57 0 }
@@ -248,6 +252,7 @@ ideologies = {
 	national_socialism = {
 		types = {
 			national_socialism_ideology = {}
+			american_nazism_ideology = { can_be_randomly_selected = no }
 			national_syndicalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 80 50 0 }

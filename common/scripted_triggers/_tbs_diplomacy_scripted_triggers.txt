@@ -110,7 +110,11 @@ DIPLOMACY_RETURN_ATTACHE_ENABLE_TRIGGER = {
 	always = no
 }
 DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
-	has_country_flag = may_send_volunteers_to_@FROM
+	if = {
+		limit = { has_country_flag = may_send_volunteers_to_@FROM }
+		always = yes
+	}
+	else = { always = no }
 }
 DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 	always = no

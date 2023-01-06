@@ -37,6 +37,7 @@ set_popularities = {
 	religious_nationalism = 0
 	transhumanism = 0
 }
+#Autonomies
 set_autonomy = {
 	target = CRO
 	autonomous_state = autonomy_dominion
@@ -45,3 +46,14 @@ set_autonomy = {
 	target = MNT
 	autonomous_state = autonomy_dominion
 }
+#Volunteers
+set_country_flag = may_send_volunteers_to_ROM
+add_to_array = { volunteers_tags = ROM }
+add_to_array = { volunteers_amounts = 2 }
+for_loop_effect = {
+	start = 0
+	end = volunteers_tags^num
+	value = i
+	set_temp_variable = { result = volunteers_amounts^i }
+}
+set_variable = { test_additional_volunteers = result }

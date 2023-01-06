@@ -1,6 +1,7 @@
 characters = {
 	SCO_jennie_lee = {
 		name = SCO_jennie_lee
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_SCO_Jennie_Lee"

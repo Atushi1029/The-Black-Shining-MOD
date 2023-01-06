@@ -1,4 +1,4 @@
-﻿capital = 554
+﻿capital = 454
 oob = ""
 #set_cosmetic_tag = 
 set_starting_values = yes

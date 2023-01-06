@@ -153,6 +153,7 @@ characters = {
 	}
 	GBR_elizabeth_ii = {
 		name = GBR_elizabeth_ii
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_GBR_Elizabeth_II"

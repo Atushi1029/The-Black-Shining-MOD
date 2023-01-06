@@ -4,9 +4,7 @@ equipments = {
 		year = 1969
 
 		can_be_produced = {
-			NOT = {
-				always = yes
-			}
+			always = yes
 		}
 
 		is_archetype = yes
@@ -610,9 +608,7 @@ equipments = {
 		year = 1969
 
 		can_be_produced = {
-			NOT = {
-				always = yes
-			}
+			always = yes
 		}
 
 		is_archetype = yes
@@ -1214,9 +1210,7 @@ equipments = {
 		year = 1969
 
 		can_be_produced = {
-			NOT = {
-				always = yes
-			}
+			always = yes
 		}
 
 		is_archetype = yes
@@ -2042,9 +2036,7 @@ equipments = {
 		year = 1969
 
 		can_be_produced = {
-			NOT = {
-				always = yes
-			}
+			always = yes
 		}
 
 		is_archetype = yes

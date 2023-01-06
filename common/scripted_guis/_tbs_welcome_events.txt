@@ -8,7 +8,14 @@ scripted_gui = {
 			is_ai = no
 		}
 		effects = {
-			close_button_click = { clr_country_flag = tbs_welcome_events }
+			close_button_click = {
+				clr_country_flag = tbs_welcome_events
+				set_country_flag = {
+					flag = show_opening_screen
+					value = 1
+					days = 14
+				}
+			}
 		}
 	}
 }

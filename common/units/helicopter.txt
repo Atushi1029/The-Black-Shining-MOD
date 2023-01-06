@@ -6,5 +6,7 @@ sub_units = {
 		type = { cas }
 		need = { helicopter_CAS_equipment = 1 }
 		categories = { category_cas }
+		carrier_air_wing_size = 10
+		land_air_wing_size = 100
 	}
 }

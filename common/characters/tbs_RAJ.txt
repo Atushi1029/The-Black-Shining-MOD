@@ -1,6 +1,7 @@
 characters = {
 	RAJ_indira_gandhi = {
 		name = RAJ_indira_gandhi
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_RAJ_Indira_Gandhi"

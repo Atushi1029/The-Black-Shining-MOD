@@ -18,6 +18,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/radical_socialism/anarcho_communism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_bill_of_rights_socialism_ideology"
+		texturefile = "gfx/interface/ideologies/radical_socialism/bill_of_rights_socialism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_pan_africanism_ideology"
 		texturefile = "gfx/interface/ideologies/radical_socialism/pan_africanism.png"
 	}
@@ -107,6 +111,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/authoritarian_democracy/national_conservatism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_royal_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy/royal_democracy.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_social_nationalism_ideology"
 		texturefile = "gfx/interface/ideologies/authoritarian_democracy/social_nationalism.png"
 	}
@@ -114,6 +122,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_paternal_autocracy_group"
 		texturefile = "gfx/interface/ideologies/paternal_autocracy/paternal_autocracy.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_absolute_monarchism_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_autocracy/absolute_monarchism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_technocracy_ideology"
@@ -125,6 +137,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_corporatism/national_corporatism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_american_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/national_corporatism/american_fascism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_fascism_ideology"
 		texturefile = "gfx/interface/ideologies/national_corporatism/fascism.png"
 	}
@@ -132,6 +148,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_national_socialism_group"
 		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_american_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/national_socialism/american_nazism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_national_syndicalism_ideology"

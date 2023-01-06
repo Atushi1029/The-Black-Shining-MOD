@@ -49,3 +49,6 @@
  disable_midi_canal_tt:0 "§R$MIDI_CANAL$が使用不可能である。§!"
  disable_don_canal_tt:0 "§R$DON_CANAL$が使用不可能である。§!"
  build_dover_strait_tunnel_tt:0 "$DOVER_STRAIT_TUNNEL$を建設する。"
+ intelligence_agency_blocker_tt:0 "[!intelligence_agency_blocker_button_click_enabled]"
+ add_proxy_war_conflict_tab_tt:0 "§W代理戦争§!の項目に新しい§Yページ§!が§G追加§!される。\n"
+ remove_proxy_war_conflict_tab_tt:0 "§W代理戦争§!の項目から§Yページ§!が§R削除§!される。\n"

@@ -1,6 +1,7 @@
 characters = {
 	SPR_federica_montseny = {
 		name = SPR_federica_montseny
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_SPR_Federica_Montseny"

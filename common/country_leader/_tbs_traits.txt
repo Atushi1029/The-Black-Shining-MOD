@@ -156,7 +156,6 @@ leader_traits = {
 		production_speed_naval_base_factor = 0.15
 		production_speed_rocket_site_factor = 0.15
 		production_speed_radar_station_factor = 0.15
-		production_speed_nuclear_reactor_factor = 0.15
 		supply_node_range = 0.1
 
 		ai_will_do = {

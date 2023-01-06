@@ -112,53 +112,8 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 		value = 25
 	}
 }
-
 default_role_ratios = {
-	enable = {
-		not = {
-			has_dlc = "Man the Guns"
-		}
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_capital
-		value = 100
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_carrier
-		value = 100
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_sub
-		value = 100
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = naval_screen
-		value = 100
-	}
-}
-
-default_role_ratios = {
-	enable = {
-		has_dlc = "Man the Guns"
-		not = {
-			OR = {
-				original_tag = GER
-				original_tag = ENG
-				original_tag = USA
-				original_tag = JAP
-				original_tag = SOV
-			}
-		}
-	}
-
+	enable = { always = yes }
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital_bb
@@ -341,7 +296,6 @@ default_pp_spend_amount = {
 
 default_paratroopers_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
 	}
 	abort = {
@@ -357,15 +311,6 @@ default_paratroopers_production = {
 
 default_garrison_production = {
 	enable = {
-		NOT = {
-			original_tag = GER
-			original_tag = SOV
-			original_tag = USA
-			original_tag = CHI
-			original_tag = FRA
-			original_tag = JAP
-			original_tag = ENG
-		}
 		ai_wants_divisions >  12 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
 	}
@@ -390,7 +335,6 @@ default_garrison_production = {
 
 default_mountaineers_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions > 11 #Decreasing the amount of mountaineers the AI wants
 	}
 	abort = {
@@ -406,7 +350,6 @@ default_mountaineers_production = {
 
 default_marines_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -428,7 +371,6 @@ default_marines_production = {
 
 default_mobile_production = {
 	enable = {
-		NOT = { original_tag = GER }
 		ai_wants_divisions > 11
 		has_tech = motorised_infantry
 	}
@@ -445,8 +387,7 @@ default_mobile_production = {
 
 default_armored_production = {
 	enable = {
-		NOT = { original_tag = GER }
-		not = { original_tag = CZE }
+		
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -468,7 +409,7 @@ default_armored_production = {
 
 highered_armored_production = {
 	enable = {
-		NOT = { original_tag = GER }
+		
 		num_of_military_factories > 69
 	}
 	abort = {
@@ -487,7 +428,7 @@ slightly_naval_focused_nation = {
 		OR = {
 			tag = JAP
 			tag = USA
-			tag = ENG
+			tag = GBR
 			tag = FRA
 			tag = ITA
 		}
@@ -523,7 +464,7 @@ more_naval_focused_nation = {
 		OR = {
 			tag = JAP
 			tag = USA
-			tag = ENG
+			tag = GBR
 		}
 		date > "1977.1.1" #Delaying it by a couple of years
 	}
@@ -628,8 +569,7 @@ default_area_priority_non_africa = {
         NOT = { original_tag = ITA }
         NOT = { original_tag = FRA }
         NOT = { original_tag = USA }
-        NOT = { original_tag = ENG }
-        NOT = { is_subject_of = ENG }
+        NOT = { original_tag = GBR }
         NOT = { capital_scope = { is_on_continent = africa } }
     }
 
@@ -713,17 +653,6 @@ dont_build_capitals_if_on_treaty = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = {
-			OR = {
-				tag = GER
-				tag = ENG
-				tag = SOV
-				tag = ITA
-				tag = JAP
-				tag = USA
-				tag = POL
-			}
-		}
 		date < 1976.1.1
 	}
 	abort = {
@@ -775,17 +704,6 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = {
-			OR = {
-				tag = GER
-				tag = ENG
-				tag = SOV
-				tag = ITA
-				tag = JAP
-				tag = USA
-				tag = POL
-			}
-		}
 		date > 1976.1.1
 	}
 
@@ -1112,14 +1030,14 @@ division_limiter = {
 			upper_limit = num_of_factories
 		}
 		multiply_temp_variable = {
-			upper_limit = 1.15
+			upper_limit = 1.05
 		}
 		if = {
 			limit = {
 				has_war = yes
 			}
 			multiply_temp_variable = {
-				upper_limit = 1.2
+				upper_limit = 1.5
 			}
 		}
 		if = {
@@ -1127,7 +1045,7 @@ division_limiter = {
 				is_major = yes
 			}
 			multiply_temp_variable = {
-				upper_limit = 1.15
+				upper_limit = 1.5
 			}
 		}
 		if = {
@@ -1220,6 +1138,24 @@ division_limiter = {
 		type = build_army
 		id = infantry
 		value = -300
+	}
+
+}
+block_intelligence_agency = {
+	enable = {
+		has_intelligence_agency = no
+		can_create_intelligence_agency = no
+	}
+	abort = {
+		OR = {
+			has_intelligence_agency = yes
+			can_create_intelligence_agency = yes
+		}
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = -999
 	}
 
 }

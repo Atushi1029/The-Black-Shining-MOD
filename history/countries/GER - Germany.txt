@@ -49,6 +49,7 @@ recruit_character = GER_wolf_graf_von_baudissin
 recruit_character = GER_wolfgang_altenburg
 recruit_character = GER_wolfgang_benzino
 recruit_character = GER_wolfgang_thonke
+set_technology = { penal_infantry = 1 }
 set_convoys = 20
 add_ideas = {
 	GER_legacy_of_the_end_sieg
@@ -159,3 +160,14 @@ diplomatic_relation = {
 give_guarantee = FIN
 give_guarantee = GBR
 give_guarantee = SPR
+#Volunteers
+set_country_flag = may_send_volunteers_to_RPG
+add_to_array = { volunteers_tags = RPG }
+add_to_array = { volunteers_amounts = 2 }
+for_loop_effect = {
+	start = 0
+	end = volunteers_tags^num
+	value = i
+	set_temp_variable = { result = volunteers_amounts^i }
+}
+set_variable = { test_additional_volunteers = result }

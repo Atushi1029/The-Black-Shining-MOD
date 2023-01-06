@@ -4,9 +4,7 @@ equipments = {
 		year = 1958
 
 		can_be_produced = {
-			NOT = {
-				always = yes
-			}
+			always = yes
 		}
 
 		is_archetype = yes

@@ -10,7 +10,9 @@ bookmarks = {
 			history = "GER_THE_BLACK_SHINING_DESC"
 			ideology = national_socialism
 			ideas = {
-				
+				GER_legacy_of_the_end_sieg
+				GER_nazis_kaiserreich
+				GER_wo_alle_strassen_enden
 			}
 			focuses = {
 				
@@ -20,7 +22,9 @@ bookmarks = {
 			history = "ITA_THE_BLACK_SHINING_DESC"
 			ideology = authoritarian_democracy
 			ideas = {
-				
+				ITA_fascist_memory
+				ITA_wounds_of_the_german-italian_war
+				ITA_stagnant_economy
 			}
 			focuses = {
 				
@@ -30,7 +34,9 @@ bookmarks = {
 			history = "USA_THE_BLACK_SHINING_DESC"
 			ideology = liberal_democracy
 			ideas = {
-				
+				USA_bastion_of_liberty
+				USA_the_johnson_doctrine
+				USA_the_soaring_eagle
 			}
 			focuses = {
 				
@@ -40,7 +46,9 @@ bookmarks = {
 			history = "SOV_THE_BLACK_SHINING_DESC"
 			ideology = totalitarian_socialism
 			ideas = {
-				
+				SOV_distorted_nation
+				SOV_red_army
+				SOV_rigid_officers
 			}
 			focuses = {
 				
@@ -60,10 +68,14 @@ bookmarks = {
 			history = "JAP_THE_BLACK_SHINING_DESC"
 			ideology = moderate_socialism
 			ideas = {
-				
+				JAP_divided_public_opinion
+				JAP_humiliation_on_the_continent
+				JAP_setting_sun
 			}
 			focuses = {
-				
+				JAP_vision_of_hoashi_and_katsumata
+				JAP_go_to_the_usa
+				JAP_towards_the_election
 			}
 		}
 		effect = {

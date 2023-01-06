@@ -12,7 +12,7 @@
 #Title
  PEACE_CONFERENCE_POPUP_TITLE_DEFAULT:0 "Diplomatic Alert"
 #Descs
- PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_DEFAULT: "§Y[winning_country.GetNameWithFlag]§![ROOT.GetWinnerAlliesWithHas] defeated §Y[losing_country.GetNameWithFlag]§![ROOT.GetLoserAllies] in a war."
+ PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_DEFAULT:0 "§Y[winning_country.GetNameWithFlag]§![ROOT.GetWinnerAlliesWithHas] defeated §Y[losing_country.GetNameWithFlag]§![ROOT.GetLoserAllies] in a war."
  PEACE_CONFERENCE_POPUP_WAR_CONTINUING_DEFAULT:0 "§Y[winning_country.GetNameWithFlag]§! has defeated §Y[losing_country.GetNameWithFlag]§! in an ongoing conflict."
  PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_BRG_REBELLION:0 "§Y[winning_country.GetNameWithFlag]§! defeated §Y[losing_country.GetNameWithFlag]§! in §Rthe Burgundy Rebellion§!."
 #Flavors

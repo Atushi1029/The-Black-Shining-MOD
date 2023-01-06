@@ -4,9 +4,7 @@ equipments = {
 		year = 1972
 
 		can_be_produced = {
-			NOT = {
-				always = yes
-			}
+			always = yes
 		}
 
 		allow_mission_type = {

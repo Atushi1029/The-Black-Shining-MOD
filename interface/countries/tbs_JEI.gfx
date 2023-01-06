@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_"
+		texturefile = "gfx/interface/advisors/JEI/.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_"
+		texturefile = "gfx/leaders/JEI/.png"
+	}
+}

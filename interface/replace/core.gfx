@@ -730,7 +730,7 @@ objectTypes = {
 
 bitmapfonts = {
 
-	# Global text colors used in the entire game, for use in loc files ex: "§G Text Text§!"
+	# Global text colors used in the entire game, for use in loc files ex:0 "§G Text Text§!"
 	textcolors = {
 		B = { 0 0 255 }     # Blue
 		C = { 35 206 255 }  # Cyan
@@ -1764,10 +1764,18 @@ bitmapfonts = {
 		name = "GFX_red_cross_small"
 		textureFile = "gfx//interface//red_cross_small.dds"
 	}
-	
+	#TBSmod
 	spriteType = {
 		name = "GFX_the_black_shining_logo"
 		texturefile = "gfx/interface/the_black_shining_logo.png"
 		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tbs_op_ed_screen"
+		texturefile = "gfx/interface/tbs_op_ed_screen.png"
+	}
+	spriteType = {
+		name = "GFX_tbs_op_ed_screen_blank"
+		texturefile = "gfx/interface/tbs_op_ed_screen_blank.png"
 	}
 }

@@ -1,6 +1,7 @@
 characters = {
 	MEX_norma_villarreal_de_zambrano = {
 		name = MEX_norma_villarreal_de_zambrano
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_MEX_Norma_Villarreal_de_Zambrano"
