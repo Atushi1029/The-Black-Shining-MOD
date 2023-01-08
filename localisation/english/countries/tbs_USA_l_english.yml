@@ -8,6 +8,7 @@
  USA_robert_mcnamara_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_army_friend$§!"
  USA_stewart_udall_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_smile_socialite$§!"
 #Characters
+ #Politicians
  USA_al_gore:0 "Al Gore"
  USA_angela_davis:0 "Angela Davis"
  USA_bernie_sanders:0 "Bernie Sanders"
@@ -53,6 +54,22 @@
  USA_tom_kahn:0 "Tom Kahn"
  USA_walter_mondale:0 "Walter Mondale"
  USA_william_luther_pierce:0 "William Luther Pierce"
+ #Generals
+ USA_alexander_haig:0 "Alexander Haig"
+ USA_bernard_w_rogers:0 "Bernard W. Rogers"
+ USA_bruce_palmer_jr:0 "Bruce Palmer Jr."
+ USA_frank_t_mildren:0 "Frank T. Mildren"
+ USA_frederick_c_weyand:0 "Frederick C. Weyand"
+ USA_henry_a_miley_jr:0 "Henry A. Miley Jr."
+ USA_james_w_sutherland:0 "James W. Sutherland"
+ USA_john_h_michaelis:0 "John H. Michaelis"
+ USA_john_l_throckmorton:0 "John L. Throckmorton"
+ USA_karl_w_gustafson:0 "Karl W. Gustafson"
+ USA_lloyd_b_ramsey:0 "Lloyd B. Ramsey"
+ USA_ralph_e_haines_jr:0 "Ralph E. Haines Jr."
+ USA_richard_j_tallman:0 "Richard J. Tallman"
+ USA_walter_t_kerwin_jr:0 "Walter T. Kerwin Jr."
+ USA_william_b_rosson:0 "William B. Rosson"
 #National Sprits
  USA_a_quiet_pacific:0 "A Quiet Pacific"
  USA_a_quiet_pacific_desc:0 "There was a time where it was feared that the war in the Pacific would come to the shores of America, dragging the United States into the conflict that ravaged China for years, and turned the United Kingdom and France from colonial powers into humiliated, puppet states.\n\nBut America knew peace on its western coast.\n\nJapan and the United States have consistently reached agreements in the areas of trade, military matters, and diplomacy. Cultural exchanges between the two states are uncommon, but not unheard of. Japanese electronics are popular in the American markets, as Ford and Chevrolet trucks speed through Tokyo. An understanding between the two powers has been reached, as neither side wishes for another destructive war. There is a unspoken acknowledgement between Tokyo and Washington:\n\nFor Now!"

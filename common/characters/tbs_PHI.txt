@@ -23,6 +23,44 @@ characters = {
 			traits = {}
 		}
 	}
+	PHI_ritsu_ito = {
+		name = PHI_ritsu_ito
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Ritsu_Ito"
+				small = "GFX_idea_PHI_ritsu_ito"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Ritsu_Ito"
+				small = "GFX_idea_PHI_ritsu_ito"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Ritsu_Ito"
+				small = "GFX_idea_PHI_ritsu_ito"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RITSU_ITO_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "1989.8.7.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_RITSU_ITO_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1989.8.7.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_RITSU_ITO_DESC"
+			ideology = transhumanism_ideology
+			expire = "1989.8.7.1"
+			id = -1
+			traits = {}
+		}
+	}
 	PHI_toshio_nishimura = {
 		name = PHI_toshio_nishimura
 		portraits = {

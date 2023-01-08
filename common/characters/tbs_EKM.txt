@@ -1,0 +1,26 @@
+characters = {
+	EKM_konstantin_i = {
+		name = EKM_konstantin_i
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_EKM_Konstantin_I"
+				small = "GFX_idea_EKM_konstantin_i"
+			}
+			army = {
+				large = "GFX_Portrait_EKM_Konstantin_I"
+				small = "GFX_idea_EKM_konstantin_i"
+			}
+			navy = {
+				large = "GFX_Portrait_EKM_Konstantin_I"
+				small = "GFX_idea_EKM_konstantin_i"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KONSTANTIN_I_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -8,6 +8,7 @@
  USA_robert_mcnamara_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_army_friend$§!"
  USA_stewart_udall_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_smile_socialite$§!"
 #キャラクター
+ #政治家
  USA_al_gore:0 "アル・ゴア"
  USA_angela_davis:0 "アンジェラ・デイヴィス"
  USA_bernie_sanders:0 "バーニー・サンダース"
@@ -53,6 +54,22 @@
  USA_tom_kahn:0 "トム・カーン"
  USA_walter_mondale:0 "ウォルター・モンデール"
  USA_william_luther_pierce:0 "ウィリアム・ルーサー・ピアース"
+ #軍人
+ USA_alexander_haig:0 "アレクサンダー・ヘイグ"
+ USA_bernard_w_rogers:0 "バーナード・W・ロジャース"
+ USA_bruce_palmer_jr:0 "ブルース・パーマー・ジュニア"
+ USA_frank_t_mildren:0 "フランク・T・ミルドレン"
+ USA_frederick_c_weyand:0 "フレデリック・ウェイアンド"
+ USA_henry_a_miley_jr:0 "ヘンリー・A・マイリー・ジュニア"
+ USA_james_w_sutherland:0 "ジェームズ・W・サザーランド"
+ USA_john_h_michaelis:0 "ジョン・H・マイケレス"
+ USA_john_l_throckmorton:0 "ジョン・L・スロックモートン"
+ USA_karl_w_gustafson:0 "カール・W・グスタフソン"
+ USA_lloyd_b_ramsey:0 "ロイド・B・ラムゼイ"
+ USA_ralph_e_haines_jr:0 "ラルフ・E・ヘインズ・ジュニア"
+ USA_richard_j_tallman:0 "リチャード・J・トールマン"
+ USA_walter_t_kerwin_jr:0 "ウォルター・カーウィン・ジュニア"
+ USA_william_b_rosson:0 "ウィリアム・B・ロッソン"
 #国民精神
  USA_a_quiet_pacific:0 "静かなる太平洋"
  USA_a_quiet_pacific_desc:0 "太平洋戦争が西海岸まで到達し、中国を何年も苦しめ、イギリスとフランスを主要国から屈辱的な傀儡国家に引きずり下ろした争いに、アメリカが巻き込まれるのではないかと心配された時期もあったが、杞憂だった。\nアメリカはその西海岸で平和を知っていたのだ。日米の文化交流は珍しいことだが、ないわけでもない。フォードやシボレーのトラックが東京を走り、日本の電化製品がアメリカの市場で人気を博している。この2つの国は、どちらも破壊的な戦争の再発を望んでいないため、理解し合うことができた。現在、東京とワシントンの間には暗黙の了解があるのだ。"

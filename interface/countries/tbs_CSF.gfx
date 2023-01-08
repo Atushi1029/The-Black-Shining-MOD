@@ -1,12 +1,12 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
-		name = "GFX_"
-		texturefile = "gfx/interface/advisors/CSF/.png"
+		name = "GFX_idea_CSF_anatoly_volkov"
+		texturefile = "gfx/interface/advisors/CSF/idea_CSF_anatoly_volkov.png"
 	}
 	#Portraits
 	spriteType = {
-		name = "GFX_"
-		texturefile = "gfx/leaders/CSF/.png"
+		name = "GFX_Portrait_CSF_Anatoly_Volkov"
+		texturefile = "gfx/leaders/CSF/Portrait_CSF_Anatoly_Volkov.png"
 	}
 }

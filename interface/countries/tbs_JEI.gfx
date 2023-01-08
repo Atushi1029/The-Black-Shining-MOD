@@ -1,12 +1,12 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
-		name = "GFX_"
-		texturefile = "gfx/interface/advisors/JEI/.png"
+		name = "GFX_idea_JEI_hideo_miyoshi"
+		texturefile = "gfx/interface/advisors/JEI/idea_JEI_hideo_miyoshi.png"
 	}
 	#Portraits
 	spriteType = {
-		name = "GFX_"
-		texturefile = "gfx/leaders/JEI/.png"
+		name = "GFX_Portrait_JEI_Hideo_Miyoshi"
+		texturefile = "gfx/leaders/JEI/Portrait_JEI_Hideo_Miyoshi.png"
 	}
 }

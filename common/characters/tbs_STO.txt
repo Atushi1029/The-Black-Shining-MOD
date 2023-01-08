@@ -49,6 +49,37 @@ characters = {
 			traits = {}
 		}
 	}
+	STO_konstantin_lisetsky = {
+		name = STO_konstantin_lisetsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Konstantin_Lisetsky"
+				small = "GFX_idea_STO_konstantin_lisetsky"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Konstantin_Lisetsky"
+				small = "GFX_idea_STO_konstantin_lisetsky"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Konstantin_Lisetsky"
+				small = "GFX_idea_STO_konstantin_lisetsky"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				trait_reckless
+				cavalry_leader
+				ranger
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
 	STO_takeshi_misumi = {
 		name = STO_takeshi_misumi
 		portraits = {
@@ -75,6 +106,37 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	STO_yuri_vitvitsky = {
+		name = STO_yuri_vitvitsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				armor_officer
+				panzer_leader
+				panzer_expert
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
 			legacy_id = -1
 		}
 	}

@@ -3,6 +3,7 @@ oob = ""
 set_cosmetic_tag = PHI_army_of_14_area
 set_starting_values = yes
 recruit_character = PHI_hong_sa-ik
+recruit_character = PHI_ritsu_ito
 recruit_character = PHI_toshio_nishimura
 recruit_character = PHI_toyoaki_horiuchi
 set_convoys = 20

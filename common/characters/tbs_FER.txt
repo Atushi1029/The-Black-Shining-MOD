@@ -169,6 +169,23 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	FER_georgy_dobrovolsky = {
+		name = FER_georgy_dobrovolsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Georgy_Dobrovolsky"
+				small = "GFX_idea_FER_georgy_dobrovolsky"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Georgy_Dobrovolsky"
+				small = "GFX_idea_FER_georgy_dobrovolsky"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Georgy_Dobrovolsky"
+				small = "GFX_idea_FER_georgy_dobrovolsky"
+			}
+		}
+	}
 	FER_georgy_gins = {
 		name = FER_georgy_gins
 		portraits = {
@@ -499,6 +516,30 @@ characters = {
 			maneuvering_skill = 3
 			coordination_skill = 2
 			legacy_id = -1
+		}
+	}
+	FER_shigeto_yanita = {
+		name = FER_shigeto_yanita
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Shigeto_Yanita"
+				small = "GFX_idea_FER_shigeto_yanita"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Shigeto_Yanita"
+				small = "GFX_idea_FER_shigeto_yanita"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Shigeto_Yanita"
+				small = "GFX_idea_FER_shigeto_yanita"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SHIGETO_YANITA_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "2015.1.1.1"
+			id = -1
+			traits = {}
 		}
 	}
 	FER_vladimir_kibardin = {

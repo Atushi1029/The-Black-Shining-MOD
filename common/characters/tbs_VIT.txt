@@ -1,0 +1,26 @@
+characters = {
+	VIT_yuri_vitvitsky = {
+		name = STO_yuri_vitvitsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YURI_VITVITSKY_DESC"
+			ideology = fascism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

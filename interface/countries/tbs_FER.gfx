@@ -33,6 +33,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_evgeny_ivanov.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_georgy_dobrovolsky"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_georgy_dobrovolsky.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_georgy_gins"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_georgy_gins.png"
 	}
@@ -97,6 +101,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/FER/idea_FER_rostislav_kolchak.png"
 	}
 	spriteType = {
+		name = "GFX_idea_FER_shigeto_yanita"
+		texturefile = "gfx/interface/advisors/FER/idea_FER_shigeto_yanita.png"
+	}
+	spriteType = {
 		name = "GFX_idea_FER_rostislav_kolchak_admiral"
 		texturefile = "gfx/interface/advisors/FER/idea_FER_rostislav_kolchak_admiral.png"
 	}
@@ -144,6 +152,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Evgeny_Ivanov"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Evgeny_Ivanov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Georgy_Dobrovolsky"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Georgy_Dobrovolsky.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Georgy_Gins"
@@ -212,6 +224,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_FER_Rostislav_Kolchak_admiral"
 		texturefile = "gfx/leaders/FER/Portrait_FER_Rostislav_Kolchak_admiral.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FER_Shigeto_Yanita"
+		texturefile = "gfx/leaders/FER/Portrait_FER_Shigeto_Yanita.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_FER_Vladimir_Kibardin"

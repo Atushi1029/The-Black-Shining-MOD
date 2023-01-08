@@ -3,6 +3,7 @@ oob = "USA_1972"
 set_cosmetic_tag = USA_united_states
 set_country_flag = allowed_to_generate_wargoal
 set_starting_values = yes
+#Politicians
 recruit_character = USA_al_gore
 recruit_character = USA_angela_davis
 recruit_character = USA_bernie_sanders
@@ -48,6 +49,22 @@ recruit_character = USA_stewart_udall
 recruit_character = USA_tom_kahn
 recruit_character = USA_walter_mondale
 recruit_character = USA_william_luther_pierce
+#Generals
+recruit_character = USA_alexander_haig
+recruit_character = USA_bernard_w_rogers
+recruit_character = USA_bruce_palmer_jr
+recruit_character = USA_frank_t_mildren
+recruit_character = USA_frederick_c_weyand
+recruit_character = USA_henry_a_miley_jr
+recruit_character = USA_james_w_sutherland
+recruit_character = USA_john_h_michaelis
+recruit_character = USA_john_l_throckmorton
+recruit_character = USA_karl_w_gustafson
+recruit_character = USA_lloyd_b_ramsey
+recruit_character = USA_ralph_e_haines_jr
+recruit_character = USA_richard_j_tallman
+recruit_character = USA_walter_t_kerwin_jr
+recruit_character = USA_william_b_rosson
 set_convoys = 20
 add_ideas = {
 	#Advisors
