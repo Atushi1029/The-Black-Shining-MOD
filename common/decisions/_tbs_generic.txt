@@ -102,7 +102,7 @@ political_actions = {
 	#						is_controlled_by = CKK
 	#						is_controlled_by = JAP
 	#						is_controlled_by = MAN
-	#						NOT = { has_state_flag = transamur_core_states }
+	#						NOT = { has_state_flag = far_east_core_states }
 	#					}
 	#				}
 	#			}
@@ -139,6 +139,21 @@ political_actions = {
 	#			}
 	#			hidden_effect = { ROOT_unification_events = yes }
 	#			RUS = {
+	#				set_popularities = {
+	#					totalitarian_socialism = ROOT.party_popularity_100@totalitarian_socialism
+	#					radical_socialism = ROOT.party_popularity_100@radical_socialism
+	#					moderate_socialism = ROOT.party_popularity_100@moderate_socialism
+	#					social_democracy = ROOT.party_popularity_100@social_democracy
+	#					liberal_democracy = ROOT.party_popularity_100@liberal_democracy
+	#					social_conservatism = ROOT.party_popularity_100@social_conservatism
+	#					authoritarian_democracy = ROOT.party_popularity_100@authoritarian_democracy
+	#					paternal_autocracy = ROOT.party_popularity_100@paternal_autocracy
+	#					national_corporatism = ROOT.party_popularity_100@national_corporatism
+	#					national_socialism = ROOT.party_popularity_100@national_socialism
+	#					ultra_nationalism = ROOT.party_popularity_100@ultra_nationalism
+	#					religious_nationalism = ROOT.party_popularity_100@religious_nationalism
+	#					transhumanism = ROOT.party_popularity_100@transhumanism
+	#				}
 	#				annex_country = {
 	#					target = ROOT
 	#					transfer_troops = yes
@@ -157,8 +172,8 @@ political_actions = {
 	#						AND = {
 	#							is_claimed_by = RUS
 	#							OR = {
-	#								has_state_flag = transamur_core_states
-	#								has_state_flag = rsr_core_states
+	#								has_state_flag = far_east_core_states
+	#								has_state_flag = ussr_core_states
 	#								has_state_flag = rusrep_core_states
 	#								has_state_flag = rla_core_states
 	#							}

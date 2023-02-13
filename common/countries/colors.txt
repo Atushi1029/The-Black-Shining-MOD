@@ -32,8 +32,8 @@ HOL = {
 	color_ui = rgb { 203 138 74 }
 }
 CZE = {
-	color = rgb { 54 167 156 }
-	color_ui = rgb { 54 167 156 }
+	color = rgb { 161 139 40 }
+	color_ui = rgb { 161 139 40 }
 }
 POL = {
 	color = rgb { 214 102 139 }
@@ -451,206 +451,6 @@ CSA = {
 	color = rgb { 178 34 52 }
 	color_ui = rgb { 178 34 52 }
 }
-D01 = {
-	color = rgb { 122 179 97 }
-	color_ui = rgb { 122 179 97 }
-}
-D02 = {
-	color = rgb { 194 140 86 }
-	color_ui = rgb { 194 140 86 }
-}
-D03 = {
-	color = rgb { 255 255 122 }
-	color_ui = rgb { 255 255 122 }
-}
-D04 = {
-	color = rgb { 80 150 179 }
-	color_ui = rgb { 80 150 179 }
-}
-D05 = {
-	color = rgb { 92 92 197 }
-	color_ui = rgb { 92 92 197 }
-}
-D06 = {
-	color = rgb { 154 69 116 }
-	color_ui = rgb { 154 69 116 }
-}
-D07 = {
-	color = rgb { 195 149 155 }
-	color_ui = rgb { 195 149 155 }
-}
-D08 = {
-	color = rgb { 210 106 47 }
-	color_ui = rgb { 210 106 47 }
-}
-D09 = {
-	color = rgb { 105 147 86 }
-	color_ui = rgb { 105 147 86 }
-}
-D10 = {
-	color = rgb { 175 162 108 }
-	color_ui = rgb { 175 162 108 }
-}
-D11 = {
-	color = rgb { 124 140 162 }
-	color_ui = rgb { 124 140 162 }
-}
-D12 = {
-	color = rgb { 187 79 86 }
-	color_ui = rgb { 187 79 86 }
-}
-D13 = {
-	color = rgb { 69 157 208 }
-	color_ui = rgb { 69 157 208 }
-}
-D14 = {
-	color = rgb { 142 79 200 }
-	color_ui = rgb { 142 79 200 }
-}
-D15 = {
-	color = rgb { 122 179 97 }
-	color_ui = rgb { 122 179 97 }
-}
-D16 = {
-	color = rgb { 194 140 86 }
-	color_ui = rgb { 194 140 86 }
-}
-D17 = {
-	color = rgb { 255 255 122 }
-	color_ui = rgb { 255 255 122 }
-}
-D18 = {
-	color = rgb { 80 150 179 }
-	color_ui = rgb { 80 150 179 }
-}
-D19 = {
-	color = rgb { 92 92 197 }
-	color_ui = rgb { 92 92 197 }
-}
-D20 = {
-	color = rgb { 154 69 116 }
-	color_ui = rgb { 154 69 116 }
-}
-D21 = {
-	color = rgb { 195 149 155 }
-	color_ui = rgb { 195 149 155 }
-}
-D22 = {
-	color = rgb { 210 106 47 }
-	color_ui = rgb { 210 106 47 }
-}
-D23 = {
-	color = rgb { 155 62 51 }
-	color_ui = rgb { 155 62 51 }
-}
-D24 = {
-	color = rgb { 198 169 248 }
-	color_ui = rgb { 198 169 248 }
-}
-D25 = {
-	color = rgb { 124 140 162 }
-	color_ui = rgb { 124 140 162 }
-}
-D26 = {
-	color = rgb { 187 79 86 }
-	color_ui = rgb { 187 79 86 }
-}
-D27 = {
-	color = rgb { 69 157 208 }
-	color_ui = rgb { 69 157 208 }
-}
-D28 = {
-	color = rgb { 142 79 200 }
-	color_ui = rgb { 142 79 200 }
-}
-D29 = {
-	color = rgb { 122 179 97 }
-	color_ui = rgb { 122 179 97 }
-}
-D30 = {
-	color = rgb { 194 140 86 }
-	color_ui = rgb { 194 140 86 }
-}
-D31 = {
-	color = rgb { 255 255 122 }
-	color_ui = rgb { 255 255 122 }
-}
-D32 = {
-	color = rgb { 80 150 179 }
-	color_ui = rgb { 80 150 179 }
-}
-D33 = {
-	color = rgb { 92 92 197 }
-	color_ui = rgb { 92 92 197 }
-}
-D34 = {
-	color = rgb { 154 69 116 }
-	color_ui = rgb { 154 69 116 }
-}
-D35 = {
-	color = rgb { 195 149 155 }
-	color_ui = rgb { 195 149 155 }
-}
-D36 = {
-	color = rgb { 210 106 47 }
-	color_ui = rgb { 210 106 47 }
-}
-D37 = {
-	color = rgb { 105 147 86 }
-	color_ui = rgb { 105 147 86 }
-}
-D38 = {
-	color = rgb { 175 162 108 }
-	color_ui = rgb { 175 162 108 }
-}
-D39 = {
-	color = rgb { 124 140 162 }
-	color_ui = rgb { 124 140 162 }
-}
-D40 = {
-	color = rgb { 187 79 86 }
-	color_ui = rgb { 187 79 86 }
-}
-D41 = {
-	color = rgb { 69 157 208 }
-	color_ui = rgb { 69 157 208 }
-}
-D42 = {
-	color = rgb { 142 79 200 }
-	color_ui = rgb { 142 79 200 }
-}
-D43 = {
-	color = rgb { 122 179 97 }
-	color_ui = rgb { 122 179 97 }
-}
-D44 = {
-	color = rgb { 194 140 86 }
-	color_ui = rgb { 194 140 86 }
-}
-D45 = {
-	color = rgb { 255 255 122 }
-	color_ui = rgb { 255 255 122 }
-}
-D46 = {
-	color = rgb { 80 150 179 }
-	color_ui = rgb { 80 150 179 }
-}
-D47 = {
-	color = rgb { 92 92 197 }
-	color_ui = rgb { 92 92 197 }
-}
-D48 = {
-	color = rgb { 154 69 116 }
-	color_ui = rgb { 154 69 116 }
-}
-D49 = {
-	color = rgb { 195 149 155 }
-	color_ui = rgb { 195 149 155 }
-}
-D50 = {
-	color = rgb { 210 106 47 }
-	color_ui = rgb { 210 106 47 }
-}
 BAY = {
 	color = rgb { 233 231 246 }
 	color_ui = rgb { 233 231 246 }
@@ -720,8 +520,8 @@ CKK = {
 	color_ui = rgb { 61 102 117 }
 }
 YAK = {
-	color = rgb { 0 179 179 }
-	color_ui = rgb { 0 179 179 }
+	color = rgb { 79 99 101 }
+	color_ui = rgb { 79 99 101 }
 }
 VLA = {
 	color = rgb { 204 163 0 }
@@ -932,6 +732,14 @@ CRC = {
 	color = rgb { 216 188 123 }
 	color_ui = rgb { 216 188 123 }
 }
+CRU = {
+	color = rgb { 127 20 20 }
+	color_ui = rgb { 127 20 20 }
+}
+CSF = {
+	color = rgb { 184 99 120 }
+	color_ui = rgb { 184 99 120 }
+}
 CYP = {
 	color = rgb { 112 41 99 }
 	color_ui = rgb { 112 41 99 }
@@ -951,6 +759,10 @@ DNZ = {
 DON = {
 	color = rgb { 249 201 0 }
 	color_ui = rgb { 249 201 0 }
+}
+EKM = {
+	color = rgb { 98 72 124 }
+	color_ui = rgb { 98 72 124 }
 }
 EQG = {
 	color = rgb { 150 0 0 }
@@ -1019,6 +831,10 @@ HRZ = {
 IVO = {
 	color = rgb { 48 169 96 }
 	color_ui = rgb { 48 169 96 }
+}
+JEI = {
+	color = rgb { 71 124 178 }
+	color_ui = rgb { 71 124 178 }
 }
 KAZ = {
 	color = rgb { 196 64 74 }
@@ -1115,6 +931,18 @@ NMB = {
 OCC = {
 	color = rgb { 77 83 99 }
 	color_ui = rgb { 77 83 99 }
+}
+OMO = {
+	color = rgb { 210 213 219 }
+	color_ui = rgb { 210 213 219 }
+}
+OSR = {
+	color = rgb { 171 194 240 }
+	color_ui = rgb { 171 194 240 }
+}
+PKI = {
+	color = rgb { 244 48 58 }
+	color_ui = rgb { 244 48 58 }
 }
 PNG = {
 	color = rgb { 181 180 142 }
@@ -1249,8 +1077,8 @@ TUN = {
 	color_ui = rgb { 146 134 57 }
 }
 TZN = {
-	color = rgb { 89 120 135 }
-	color_ui = rgb { 89 120 135 }
+	color = rgb { 210 213 219 }
+	color_ui = rgb { 210 213 219 }
 }
 UAE = {
 	color = rgb { 141 145 155 }
@@ -1272,6 +1100,10 @@ VCT = {
 	color = rgb { 255 255 183 }
 	color_ui = rgb { 255 255 183 }
 }
+VIT = {
+	color = rgb { 84 68 34 }
+	color_ui = rgb { 84 68 34 }
+}
 VOL = {
 	color = rgb { 114 122 121 }
 	color_ui = rgb { 114 122 121 }
@@ -1287,4 +1119,805 @@ ZAM = {
 ZIM = {
 	color = rgb { 0 74 0 }
 	color_ui = rgb { 0 74 0 }
+}
+#Dynamic Countries
+C00 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C01 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C02 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C03 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C04 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C05 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C06 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C07 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C08 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C09 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C10 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C11 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C12 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C13 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C14 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C15 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C16 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C17 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C18 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C19 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C20 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C21 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C22 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C23 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C24 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C25 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C26 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C27 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C28 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C29 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C30 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C31 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C32 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C33 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C34 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C35 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C36 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C37 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C38 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C39 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C40 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C41 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C42 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C43 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C44 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C45 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C46 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C47 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C48 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C49 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C50 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C51 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C52 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C53 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C54 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C55 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C56 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C57 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C58 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C59 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C60 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C61 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C62 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C63 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C64 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C65 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C66 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C67 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C68 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C69 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C70 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C71 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C72 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C73 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C74 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C75 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C76 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C77 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C78 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C79 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C80 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C81 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C82 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C83 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C84 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C85 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C86 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C87 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C88 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C89 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C90 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C91 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C92 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C93 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C94 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C95 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C96 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C97 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C98 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+C99 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D00 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D01 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D02 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D03 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D04 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D05 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D06 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D07 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D08 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D09 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D10 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D11 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D12 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D13 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D14 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D15 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D16 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D17 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D18 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D19 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D20 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D21 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D22 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D23 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D24 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D25 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D26 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D27 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D28 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D29 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D30 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D31 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D32 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D33 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D34 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D35 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D36 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D37 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D38 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D39 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D40 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D41 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D42 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D43 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D44 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D45 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D46 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D47 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D48 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D49 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D50 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D51 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D52 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D53 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D54 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D55 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D56 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D57 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D58 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D59 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D60 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D61 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D62 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D63 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D64 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D65 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D66 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D67 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D68 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D69 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D70 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D71 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D72 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D73 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D74 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D75 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D76 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D77 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D78 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D79 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D80 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D81 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D82 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D83 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D84 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D85 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D86 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D87 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D88 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D89 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D90 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D91 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D92 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D93 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D94 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D95 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D96 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D97 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D98 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+D99 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }

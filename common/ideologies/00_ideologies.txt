@@ -83,7 +83,7 @@ ideologies = {
 	social_democracy = {
 		types = {
 			social_democracy_ideology = {}
-			leftist_patriotism_ideology = { can_be_randomly_selected = no }
+			left_patriotism_ideology = { can_be_randomly_selected = no }
 			peoples_front_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 194 30 86 }
@@ -169,7 +169,7 @@ ideologies = {
 	authoritarian_democracy = {
 		types = {
 			authoritarian_democracy_ideology = {}
-			dixiecrat_democracy_ideology = { can_be_randomly_selected = no }
+			dixiecratic_democracy_ideology = { can_be_randomly_selected = no }
 			national_conservatism_ideology = { can_be_randomly_selected = no }
 			royal_democracy_ideology = { can_be_randomly_selected = no }
 			social_nationalism_ideology = { can_be_randomly_selected = no }

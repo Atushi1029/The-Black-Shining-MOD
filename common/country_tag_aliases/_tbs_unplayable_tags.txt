@@ -1,0 +1,42 @@
+#######################################################################################################################
+
+ZZZ = {
+# BASE SETTING
+	#variable = 
+	#event_target = 
+	#global_event_target = 
+	original_tag = AFG
+	#targets = {}
+	#target_array = 
+	#country_score = {}
+	fallback = ABK
+# TRIGGER
+	has_cosmetic_tag = NAMELESS
+	#has_country_flag = 
+}
+
+#######################################################################################################################
+ALD = {
+	original_tag = FER
+	has_cosmetic_tag = ALD_far_eastern_collapse
+}
+AMR = {
+	original_tag = FER
+	has_cosmetic_tag = AMR_far_eastern_collapse
+}
+BDY = {
+	original_tag = FER
+	has_cosmetic_tag = BDY_far_eastern_collapse
+}
+IRK = {
+	original_tag = FER
+	has_cosmetic_tag = IRK_far_eastern_collapse
+}
+KOL = {
+	original_tag = FER
+	has_cosmetic_tag = KOL_far_eastern_collapse
+}
+UDT = {
+	original_tag = FER
+	has_cosmetic_tag = UDT_far_eastern_collapse
+}

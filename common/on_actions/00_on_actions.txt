@@ -9,6 +9,8 @@ on_actions = {
 					days = 14
 				}
 			}
+			set_variable = { total_world_gdp = 0 }
+			every_country = { add_to_variable = { ZZZ.total_world_gdp = gdp_var } }
 		}
 	}
 	on_ruling_party_change = {
@@ -89,165 +91,176 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					has_global_flag = romanian_civilwar
-					NOT = { has_global_flag = romanian_civilwar_finish }
-					FROM = { tag = RPG }
-					ROOT = { tag = ROM }
+					OR = {
+						ROOT = { is_in_faction = no }
+						ROOT = { all_allied_country = { has_capitulated = yes } }
+					}
 				}
-				set_global_flag = romanian_civilwar_finish
-				set_global_flag = skip_default_capitulation
 				set_global_flag = war_won
-				ROOT = {
-					ROM_delete_communist_states = yes
-					ROM_setup_communism_government = yes
-					white_peace = {
-						tag = FROM
-						message = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_FLAVOR_RCW
-					}
-					annex_country = {
-						target = FROM
-						transfer_troops = yes
-					}
-					change_tag_from = FROM
-				}
-				GER = {
-					set_temp_variable = { target = RPG }
-					clear_num_volunteers = yes
-				}
-				ITA = {
-					set_temp_variable = { target = ROM }
-					clear_num_volunteers = yes
-				}
-			}
-			else_if = {
-				limit = {
-					has_global_flag = romanian_civilwar
-					NOT = { has_global_flag = romanian_civilwar_finish }
-					FROM = { tag = ROM }
-					ROOT = { tag = RPG }
-				}
-				set_global_flag = romanian_civilwar_finish
-				set_global_flag = skip_default_capitulation
-				set_global_flag = war_won
-				FROM = {
-					ROM_delete_communist_states = yes
-					white_peace = {
-						tag = ROOT
-						message = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_FLAVOR_RCW
-					}
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					has_global_flag = burgundy_rebellion
-					NOT = { has_global_flag = burgundy_rebellion_finish }
-					FROM = { tag = FRA }
-					ROOT = { tag = BRG }
-				}
-				set_global_flag = burgundy_rebellion_finish
-				set_global_flag = skip_default_capitulation
-				set_global_flag = war_won
-				every_country = {
-					limit = { is_ai = no }
-					set_country_flag = {
-						flag = show_peace_conference_popup
-						value = 1
-						days = 14
-					}
-				}
-				every_state = {
-					limit = { is_core_of = ROOT }
-					remove_core_of = ROOT
-				}
-				every_state = {
-					limit = { is_claimed_by = ROOT }
-					remove_claim_by = ROOT
-				}
-				FROM = {
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					has_global_flag = burgundy_rebellion
-					NOT = { has_global_flag = burgundy_rebellion_finish }
-					FROM = { tag = BRG }
-					ROOT = { tag = FRA }
-				}
-				ROOT = { white_peace = FROM }
-				set_global_flag = burgundy_rebellion_finish
-				set_global_flag = skip_default_capitulation
-				set_global_flag = war_won
-				every_country = {
-					limit = { is_ai = no }
-					set_country_flag = {
-						flag = show_peace_conference_popup
-						value = 1
-						days = 14
-					}
-				}
-				every_state = {
+				if = {
 					limit = {
-						is_owned_by = ROOT
-						is_on_continent = europe
+						has_global_flag = romanian_civilwar
+						NOT = { has_global_flag = romanian_civilwar_finish }
+						FROM = { tag = RPG }
+						ROOT = { tag = ROM }
 					}
-					transfer_state_to = FROM
-				}
-			}
-			else_if = {
-				limit = { FROM = { is_subject = yes } }
-				FROM = {
-					white_peace = {
-						tag = ROOT
-						message = white_peace_generic_tt
+					set_global_flag = romanian_civilwar_finish
+					set_global_flag = skip_default_capitulation
+					ROOT = {
+						ROM_delete_communist_states = yes
+						ROM_setup_communism_government = yes
+						white_peace = {
+							tag = FROM
+							message = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_FLAVOR_RCW
+						}
+						annex_country = {
+							target = FROM
+							transfer_troops = yes
+						}
+						change_tag_from = FROM
+					}
+					GER = {
+						set_temp_variable = { target = RPG }
+						clear_num_volunteers = yes
+					}
+					ITA = {
+						set_temp_variable = { target = ROM }
+						clear_num_volunteers = yes
 					}
 				}
-				every_state = {
+				else_if = {
 					limit = {
-						is_owned_by = ROOT
-						OR = {
-							is_claimed_by = OVERLORD
-							is_core_of = OVERLORD
+						has_global_flag = romanian_civilwar
+						NOT = { has_global_flag = romanian_civilwar_finish }
+						FROM = { tag = ROM }
+						ROOT = { tag = RPG }
+					}
+					set_global_flag = romanian_civilwar_finish
+					set_global_flag = skip_default_capitulation
+					FROM = {
+						ROM_delete_communist_states = yes
+						white_peace = {
+							tag = ROOT
+							message = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_FLAVOR_RCW
+						}
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
 						}
 					}
-					transfer_state_to = OVERLORD
 				}
-				every_state = {
+				else_if = {
 					limit = {
-						is_owned_by = ROOT
-						is_claim_or_core_of_FROM = yes
-						NOT = {
-							is_claimed_by = OVERLORD
-							is_core_of = OVERLORD
+						has_global_flag = burgundy_rebellion
+						NOT = { has_global_flag = burgundy_rebellion_finish }
+						FROM = { tag = FRA }
+						ROOT = { tag = BRG }
+					}
+					set_global_flag = burgundy_rebellion_finish
+					set_global_flag = skip_default_capitulation
+					every_country = {
+						limit = { is_ai = no }
+						set_country_flag = {
+							flag = show_peace_conference_popup
+							value = 1
+							days = 14
 						}
 					}
-					transfer_state_to = FROM
+					every_state = {
+						limit = { is_core_of = ROOT }
+						remove_core_of = ROOT
+					}
+					every_state = {
+						limit = { is_claimed_by = ROOT }
+						remove_claim_by = ROOT
+					}
+					FROM = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
 				}
-				OVERLORD = { puppet = ROOT }
+				else_if = {
+					limit = {
+						has_global_flag = burgundy_rebellion
+						NOT = { has_global_flag = burgundy_rebellion_finish }
+						FROM = { tag = BRG }
+						ROOT = { tag = FRA }
+					}
+					ROOT = { white_peace = FROM }
+					set_global_flag = burgundy_rebellion_finish
+					set_global_flag = skip_default_capitulation
+					every_country = {
+						limit = { is_ai = no }
+						set_country_flag = {
+							flag = show_peace_conference_popup
+							value = 1
+							days = 14
+						}
+					}
+					every_state = {
+						limit = {
+							is_owned_by = ROOT
+							is_on_continent = europe
+						}
+						transfer_state_to = FROM
+					}
+				}
+				else_if = {
+					limit = { FROM = { is_subject = yes } }
+					set_global_flag = skip_default_capitulation
+					FROM = {
+						white_peace = {
+							tag = ROOT
+							message = white_peace_generic_tt
+						}
+					}
+					every_state = {
+						limit = {
+							is_owned_by = ROOT
+							OR = {
+								is_claimed_by = FROM.OVERLORD
+								is_core_of = FROM.OVERLORD
+							}
+						}
+						transfer_state_to = FROM.OVERLORD
+					}
+					every_state = {
+						limit = {
+							is_owned_by = ROOT
+							is_claim_or_core_of_FROM = yes
+							NOT = {
+								is_claimed_by = FROM.OVERLORD
+								is_core_of = FROM.OVERLORD
+							}
+						}
+						transfer_state_to = FROM
+					}
+					OVERLORD = { puppet = FROM.OVERLORD }
+				}
+				else = {
+					set_global_flag = skip_default_capitulation
+					FROM = {
+						white_peace = {
+							tag = ROOT
+							message = white_peace_generic_tt
+						}
+						puppet = ROOT
+					}
+					every_state = {
+						limit = {
+							is_owned_by = ROOT
+							is_claim_or_core_of_FROM = yes
+						}
+						transfer_state_to = FROM
+					}
+				}
 			}
 			else = {
-				FROM = {
-					white_peace = {
-						tag = ROOT
-						message = white_peace_generic_tt
-					}
-					puppet = ROOT
-				}
-				every_state = {
-					limit = {
-						is_owned_by = ROOT
-						is_claim_or_core_of_FROM = yes
-					}
-					transfer_state_to = FROM
-				}
+				set_global_flag = war_continuing
 			}
+			clr_global_flag = skip_default_capitulation
 		}
 	}
 }

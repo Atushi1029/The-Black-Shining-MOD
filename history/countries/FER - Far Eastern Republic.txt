@@ -61,3 +61,40 @@ set_popularities = {
 }
 add_to_array = { global.russian_warlords = FER }
 give_military_access = JAP
+#Dynamic Countries
+create_dynamic_country = {
+	original_tag = FER
+	set_cosmetic_tag = ALD_far_eastern_collapse
+	form_dynamic_government = yes
+	reserve_dynamic_country = yes
+}
+create_dynamic_country = {
+	original_tag = FER
+	set_cosmetic_tag = AMR_far_eastern_collapse
+	form_dynamic_government = yes
+	reserve_dynamic_country = yes
+}
+create_dynamic_country = {
+	original_tag = FER
+	set_cosmetic_tag = BDY_far_eastern_collapse
+	form_dynamic_government = yes
+	reserve_dynamic_country = yes
+}
+create_dynamic_country = {
+	original_tag = FER
+	set_cosmetic_tag = IRK_far_eastern_collapse
+	form_dynamic_government = yes
+	reserve_dynamic_country = yes
+}
+create_dynamic_country = {
+	original_tag = FER
+	set_cosmetic_tag = KOL_far_eastern_collapse
+	form_dynamic_government = yes
+	reserve_dynamic_country = yes
+}
+create_dynamic_country = {
+	original_tag = FER
+	set_cosmetic_tag = UDT_far_eastern_collapse
+	form_dynamic_government = yes
+	reserve_dynamic_country = yes
+}

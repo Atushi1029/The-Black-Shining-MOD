@@ -18,7 +18,7 @@ state = {
 		add_claim_by = FER
 		add_claim_by = RLA
 		add_claim_by = RUS
-		set_state_flag = rsr_core_states
+		set_state_flag = ussr_core_states
 	}
 
 	provinces = {

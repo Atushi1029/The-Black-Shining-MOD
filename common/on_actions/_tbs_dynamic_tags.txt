@@ -1,0 +1,62 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_state = {
+				limit = { is_core_of = ALD }
+				remove_core_of = ALD
+			}
+			every_state = {
+				limit = { is_claimed_by = ALD }
+				remove_claim_by = ALD
+			}
+			every_state = {
+				limit = { is_core_of = AMR }
+				remove_core_of = AMR
+			}
+			every_state = {
+				limit = { is_claimed_by = AMR }
+				remove_claim_by = AMR
+			}
+			every_state = {
+				limit = { is_core_of = BDY }
+				remove_core_of = BDY
+			}
+			every_state = {
+				limit = { is_claimed_by = BDY }
+				remove_claim_by = BDY
+			}
+			every_state = {
+				limit = { is_core_of = IRK }
+				remove_core_of = IRK
+			}
+			every_state = {
+				limit = { is_claimed_by = IRK }
+				remove_claim_by = IRK
+			}
+			every_state = {
+				limit = { is_core_of = KOL }
+				remove_core_of = KOL
+			}
+			every_state = {
+				limit = { is_claimed_by = KOL }
+				remove_claim_by = KOL
+			}
+			every_state = {
+				limit = { is_core_of = UDT }
+				remove_core_of = UDT
+			}
+			every_state = {
+				limit = { is_claimed_by = UDT }
+				remove_claim_by = UDT
+			}
+			every_state = {
+				limit = { is_core_of = ZZZ }
+				remove_core_of = ZZZ
+			}
+			every_state = {
+				limit = { is_claimed_by = ZZZ }
+				remove_claim_by = ZZZ
+			}
+		}
+	}
+}

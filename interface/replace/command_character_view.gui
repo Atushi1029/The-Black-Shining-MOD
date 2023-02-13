@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "command_character_view_window"
-		position = { x = -5000000000000000 y = -5000000000000000 }
+		position = { x = -50000 y = -50000 }
 		size = { width = 500 height = 590 }
 
 		background = {

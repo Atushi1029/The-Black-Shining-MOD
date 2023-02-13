@@ -6,6 +6,7 @@ recruit_character = REA_gisen_sato
 recruit_character = REA_gurgen_nagolyan
 recruit_character = REA_hajime_yasuda
 recruit_character = REA_hayao_kinugasa
+recruit_character = REA_kazuo_taoka
 recruit_character = REA_kiyoshi_hasegawa
 recruit_character = REA_kosaku_wada
 recruit_character = REA_lee_kuan_yew

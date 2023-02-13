@@ -1,4 +1,28 @@
 characters = {
+	Generic_anarchy = {
+		name = Generic_anarchy
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Generic_Anarchy"
+				small = "GFX_idea_Generic_anarchy"
+			}
+			army = {
+				large = "GFX_Portrait_Generic_Anarchy"
+				small = "GFX_idea_Generic_anarchy"
+			}
+			navy = {
+				large = "GFX_Portrait_Generic_Anarchy"
+				small = "GFX_idea_Generic_anarchy"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ANARCHY_DESC"
+			ideology = radical_socialism_ideology
+			expire = "9999.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	Generic_vacancy = {
 		name = Generic_vacancy
 		portraits = {

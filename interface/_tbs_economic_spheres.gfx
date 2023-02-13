@@ -1,0 +1,6 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_eco_zollverein"
+		texturefile = "gfx/interface/economic_gui/eco_zollverein.png"
+	}
+}

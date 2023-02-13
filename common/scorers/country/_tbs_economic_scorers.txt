@@ -1,0 +1,9 @@
+sphere_member_scorer = {
+	targets = {
+		target_array = economic_sphere_list_array
+		score = {
+			base = 0
+			modifier = { add = gdp_var }
+		}
+	}
+}

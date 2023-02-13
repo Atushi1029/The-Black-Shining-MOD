@@ -9,7 +9,7 @@ state = {
 		add_claim_by = FER
 		add_claim_by = RLA
 		add_claim_by = RUS
-		set_state_flag = rsr_core_states
+		set_state_flag = ussr_core_states
 		victory_points = {
 			11375 10 
 		}
@@ -22,7 +22,7 @@ state = {
 	}
 
 	provinces = { 
-		297 3303 6231 6295 6299 6370 6392 6410 9291 9298 9358 9360 9389 9407 11277 11344 11375 11394 
+		297 3303 6295 6299 6370 6410 9291 9298 9358 9360 9389 9407 11277 11344 11375 11394 
 	}
 	manpower=2854176
 	buildings_max_level_factor=1.000

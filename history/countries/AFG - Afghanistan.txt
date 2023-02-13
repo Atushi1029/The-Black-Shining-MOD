@@ -28,3 +28,38 @@ set_popularities = {
 	religious_nationalism = 10
 	transhumanism = 0
 }
+set_variable = { global.econ_graph_month = 25 }
+set_variable = { global.xcycling = 0 }
+set_variable = { global.ycycling = 0.125 }
+set_variable = { global.month_counter = 1 }
+econ_inflation_cycling_calculation = yes
+create_dynamic_country = {
+	original_tag = AFG
+	copy_tag = AFG
+	set_cosmetic_tag = NAMELESS
+	set_research_slots = 0
+	recruit_character = Generic_anarchy
+	recruit_character = Generic_vacancy
+	set_politics = {
+		ruling_party = radical_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarian_socialism = 0
+		radical_socialism = 100
+		moderate_socialism = 0
+		social_democracy = 0
+		liberal_democracy = 0
+		social_conservatism = 0
+		authoritarian_democracy = 0
+		paternal_autocracy = 0
+		national_corporatism = 0
+		national_socialism = 0
+		ultra_nationalism = 0
+		religious_nationalism = 0
+		transhumanism = 0
+	}
+	reserve_dynamic_country = yes
+}
