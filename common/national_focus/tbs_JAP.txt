@@ -12,29 +12,16 @@
 		id = JAP_vision_of_hoashi_and_katsumata
 		icon = GFX_JAP_vision_of_hoashi_and_katsumata
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = no
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 2
 		y = 0
-		cost = 1
+		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = { is_ai = no }
-				country_event = tbs_jap.0
-			}
+			country_event = tbs_jap.0
 		}
 	}
 	focus = {
@@ -42,30 +29,17 @@
 		icon = GFX_JAP_to_sec_minister_ninagawa
 		prerequisite = { focus = JAP_vision_of_hoashi_and_katsumata }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = -1
 		y = 1
 		relative_position_id = JAP_vision_of_hoashi_and_katsumata
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = { is_ai = no }
-				country_event = tbs_jap.1
-			}
+			country_event = tbs_jap.1
 		}
 	}
 	focus = {
@@ -73,24 +47,14 @@
 		icon = GFX_JAP_go_to_the_usa
 		prerequisite = { focus = JAP_vision_of_hoashi_and_katsumata }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 1
 		y = 1
 		relative_position_id = JAP_vision_of_hoashi_and_katsumata
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			country_event = tbs_jap.2
@@ -102,30 +66,17 @@
 		prerequisite = { focus = JAP_to_sec_minister_ninagawa }
 		prerequisite = { focus = JAP_go_to_the_usa }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 0
 		y = 1
 		relative_position_id = JAP_to_sec_minister_ninagawa
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = { is_ai = no }
-				country_event = tbs_jap.3
-			}
+			country_event = tbs_jap.3
 		}
 	}
 	focus = {
@@ -134,24 +85,14 @@
 		prerequisite = { focus = JAP_to_sec_minister_ninagawa }
 		prerequisite = { focus = JAP_go_to_the_usa }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 1
 		y = 1
 		relative_position_id = JAP_go_to_the_usa
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			country_event = tbs_jap.4
@@ -162,24 +103,14 @@
 		icon = GFX_JAP_how_to_handle_the_numbers
 		prerequisite = { focus = JAP_head_of_the_economy }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = -1
 		y = 1
 		relative_position_id = JAP_head_of_the_economy
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			set_temp_variable = { inflation_temp = -1 }
@@ -191,30 +122,17 @@
 		icon = GFX_JAP_the_true_nature_of_the_imperial_economy
 		prerequisite = { focus = JAP_head_of_the_economy }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 1
 		y = 1
 		relative_position_id = JAP_head_of_the_economy
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = { is_ai = no }
-				country_event = tbs_jap.5
-			}
+			country_event = tbs_jap.5
 		}
 	}
 	focus = {
@@ -223,30 +141,17 @@
 		prerequisite = { focus = JAP_how_to_handle_the_numbers }
 		prerequisite = { focus = JAP_the_true_nature_of_the_imperial_economy }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 1
 		y = 1
 		relative_position_id = JAP_how_to_handle_the_numbers
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = { is_ai = no }
-				country_event = tbs_jap.6
-			}
+			country_event = tbs_jap.6
 		}
 	}
 	focus = {
@@ -254,30 +159,17 @@
 		icon = GFX_JAP_the_legacy_of_kolchak
 		prerequisite = { focus = JAP_pressure_on_the_puppets }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 0
 		y = 1
 		relative_position_id = JAP_pressure_on_the_puppets
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = { is_ai = no }
-				country_event = tbs_jap.7
-			}
+			country_event = tbs_jap.7
 		}
 	}
 	focus = {
@@ -285,30 +177,17 @@
 		icon = GFX_JAP_secret_meetings_with_rfp
 		prerequisite = { focus = JAP_the_legacy_of_kolchak }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 0
 		y = 1
 		relative_position_id = JAP_the_legacy_of_kolchak
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = { is_ai = no }
-				country_event = tbs_jap.8
-			}
+			country_event = tbs_jap.8
 		}
 	}
 	focus = {
@@ -317,30 +196,17 @@
 		prerequisite = { focus = JAP_far_eastern_red_devil }
 		prerequisite = { focus = JAP_secret_meetings_with_rfp }
 		available = {}
-		available_if_capitulated = yes
 		allow_branch = {}
-		bypass = {}
-		bypass_if_unavailable = yes
-		cancel = {}
-		cancel_if_invalid = yes
 		cancelable = yes
-		continue_if_invalid = no
-		offset = {
-			x = 0
-			y = 0
-			trigger = {}
-		}
 		x = 2
 		y = 1
 		relative_position_id = JAP_far_eastern_red_devil
 		cost = 3
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			load_focus_tree = {
-				tree = generic_focus
-				keep_completed = no
-			}
+			
 		}
 	}
 }

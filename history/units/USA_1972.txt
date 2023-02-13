@@ -132,7 +132,7 @@ units = {
 	# I Army Corps (CO: Woodruff) #
 	division= {			
 		location = 6732
-		division_template = "Helicopter Battalions"
+		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -147,7 +147,7 @@ units = {
 	# II Army Corps (CO: Drum) #
 	division= {			
 		location = 3878
-		division_template = "Helicopter Battalions"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}			
 	division= {			
@@ -239,7 +239,7 @@ units = {
 	}			
 	division= {			
 		location = 12384
-		division_template = "Helicopter Battalions"
+		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 

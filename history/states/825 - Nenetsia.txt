@@ -15,7 +15,7 @@ state = {
 		add_claim_by = FER
 		add_claim_by = RLA
 		add_claim_by = RUS
-		set_state_flag = ussr_core_states
+		set_state_flag = rsr_core_states
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -27,7 +27,7 @@ state = {
 	}
 
 	provinces = { 
-		105 3147 6192 9205 10207 11047 12530 
+		105 198 3147 6040 6192 9205 10207 11047 11119 12530 
 	}
 	manpower=21795
 	buildings_max_level_factor=1.000

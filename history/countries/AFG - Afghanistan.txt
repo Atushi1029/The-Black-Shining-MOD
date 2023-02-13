@@ -28,8 +28,3 @@ set_popularities = {
 	religious_nationalism = 10
 	transhumanism = 0
 }
-set_variable = { global.econ_graph_month = 25 }
-set_variable = { global.xcycling = 0 }
-set_variable = { global.ycycling = 0.125 }
-set_variable = { global.month_counter = 1 }
-econ_inflation_cycling_calculation = yes

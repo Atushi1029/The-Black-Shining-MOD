@@ -28,7 +28,7 @@
 #		modifier = {
 #			add = 5
 #			# if the mapped tag has fascism give it a higher score
-#			has_government = fascism
+#			has_dictatorship_government = yes
 #		}
 #	}
 #
@@ -38,12 +38,14 @@
 #	or = {
 #		#only accept targets that is ally with us or is fascist
 #		is_in_faction_with = PREV
-#		has_government = fascism
+#		has_dictatorship_government = yes
 #	}
 #	# trigger 2
 #	# trigger 3
 #	# ...
 #}
+
 MOT = {
 	variable = generic_operation_target
 }
+

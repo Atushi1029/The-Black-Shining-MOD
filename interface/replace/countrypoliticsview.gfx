@@ -52,7 +52,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_subject_overlay"
-		texturefile = "gfx/interface/autonomy/tbs_subject_overlay.png"
+		texturefile = "gfx/interface/autonomy/subject_overlay.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
 	}
 
@@ -482,7 +482,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_pol_piechart_overlay_63x63"
-		textureFile = "gfx/interface/tbs_pol_piechart_overlay_63x63.png"
+		textureFile = "gfx//interface//pol_piechart_overlay_63x63.dds"
 		alwaystransparent = yes			
 	}
 	
@@ -558,7 +558,7 @@ spriteTypes = {
 
 	pieChartType = {
 		name = "GFX_political_chart_big"
-		size = 35
+		size = 30
 	}
 	
 	pieChartType = {

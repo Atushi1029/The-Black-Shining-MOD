@@ -1,11 +1,10 @@
 ﻿capital = 276
 oob = ""
 set_starting_values = yes
-recruit_character = CAN_elizabeth_ii
 recruit_character = CAN_real_caouette
 set_convoys = 20
 add_ideas = {
-	CAN_mon_elizabeth_ii
+	
 }
 set_politics = {
 	ruling_party = social_conservatism

@@ -7,9 +7,9 @@
  ENG_DEF:0 "the England"
  ENG_ADJ:0 "English"
  
- SOV:0 "Soviet"
- SOV_DEF:0 "the Soviet"
- SOV_ADJ:0 "Soviet"
+ SOV:0 "Russia"
+ SOV_DEF:0 "the Russia"
+ SOV_ADJ:0 "Russian"
  
  AFG:0 "Afghanistan"
  AFG_DEF:0 "the Afghanistan"
@@ -1029,18 +1029,6 @@
  
 #The Black Shining
  
- ALD:0 "Aldan"
- ALD_DEF:0 "the Aldan"
- ALD_ADJ:0 "Aldanese"
- 
- AMR:0 "Amur"
- AMR_DEF:0 "the Amur"
- AMR_ADJ:0 "Amurian"
- 
- BDY:0 "Bodaybo"
- BDY_DEF:0 "the Bodaybo"
- BDY_ADJ:0 "Bodaybo"
- 
  BNF:0 "Belgium-Northern France"
  BNF_DEF:0 "the Belgium-Northern France"
  BNF_ADJ:0 "Belgian-Northern French"
@@ -1053,33 +1041,9 @@
  CCS_DEF:0 "the Caucasus"
  CCS_ADJ:0 "Caucasian"
  
- CRU:0 "Korea"
- CRU_DEF:0 "the Korea"
- CRU_ADJ:0 "Korean"
- 
- CSF:0 "Far East"
- CSF_DEF:0 "the Far East"
- CSF_ADJ:0 "Far Eastern"
- 
- EKM:0 "Kamchatka"
- EKM_DEF:0 "the Kamchatka"
- EKM_ADJ:0 "Kamchatkanese"
- 
- GBR:0 "Great Britain"
- GBR_DEF:0 "the Great Britain"
- GBR_ADJ:0 "Great British"
- 
- IRK:0 "Irkutsk"
- IRK_DEF:0 "the Irkutsk"
- IRK_ADJ:0 "Irkutskian"
- 
- JEI:0 "East Indies"
- JEI_DEF:0 "the East Indies"
- JEI_ADJ:0 "East Indie-an"
- 
- KOL:0 "Kolyma"
- KOL_DEF:0 "the Kolyma"
- KOL_ADJ:0 "Kolymite"
+ GBR:0 "Britain"
+ GBR_DEF:0 "the Britain"
+ GBR_ADJ:0 "British"
  
  MAF:0 "Central Africa"
  MAF_DEF:0 "the Central Africa"
@@ -1089,18 +1053,6 @@
  NID_DEF:0 "the Netherlands"
  NID_ADJ:0 "Dutch"
  
- OMO:0 "Omolon"
- OMO_DEF:0 "the Omolon"
- OMO_ADJ:0 "Omolonian"
- 
- OSR:0 "Ossora"
- OSR_DEF:0 "the Ossora"
- OSR_ADJ:0 "Ossoran"
- 
- PKI:0 "Indonesia"
- PKI_DEF:0 "the Indonesia"
- PKI_ADJ:0 "Indonesian"
- 
  REA:0 "Singapore"
  REA_DEF:0 "the Singapore"
  REA_ADJ:0 "Singaporean"
@@ -1109,12 +1061,12 @@
  RFP_DEF:0 "the Russia"
  RFP_ADJ:0 "Russian"
  
- RKK:0 "Caucasia"
- RKK_DEF:0 "the Caucasia"
+ RKK:0 "Caucasus"
+ RKK_DEF:0 "the Caucasus"
  RKK_ADJ:0 "Caucasian"
  
  RKM:0 "Moscow"
- RKM_DEF:0 "the Moscow"
+ RKM_DEF:0 "Moscow"
  RKM_ADJ:0 "Muscovite"
  
  RKO:0 "Ostland"
@@ -1122,7 +1074,7 @@
  RKO_ADJ:0 "Ostland"
  
  RKU:0 "Ukraine"
- RKU_DEF:0 "the Ukraine"
+ RKU_DEF:0 "Ukraine"
  RKU_ADJ:0 "Ukrainian"
  
  RLA:0 "Russia"
@@ -1141,14 +1093,6 @@
  STO_DEF:0 "the Kamchatka"
  STO_ADJ:0 "Kamchatkanese"
  
- UDT:0 "Udachny"
- UDT_DEF:0 "the Udachny"
- UDT_ADJ:0 "Udachnaya"
- 
  VCT:0 "Vatican"
- VCT_DEF:0 "the Vatican"
+ VCT_DEF:0 "Vatican"
  VCT_ADJ:0 "Vaticanian"
- 
- VIT:0 "Kamchatka"
- VIT_DEF:0 "the Kamchatka"
- VIT_ADJ:0 "Kamchatkanese"

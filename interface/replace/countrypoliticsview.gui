@@ -87,7 +87,7 @@ guiTypes = {
 
 			iconType  = { 
 				name ="pol_view_bg"
-				spriteType = "GFX_pol_piechart_overlay_63x63"
+				spriteType = "GFX_tbs_pol_piechart_overlay_63x63"
 				position = { x= -2 y = 1s }
 			}
 		}
@@ -139,7 +139,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = -50000 y = -50000 }
+				position = { x = -5000000000000000 y = -5000000000000000 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
@@ -147,19 +147,18 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "power_balance_button"
-				position = { x = 58 y = 69 }
-				size = { width = 92 height = 52 }
+				position = { x = -76 y = 156 }
 				clipping = no
 
 				buttonType = {
 					name = "show_power_balance"
-					position = { x = 20 y = 0 }
-					quadTextureSprite = "GFX_tbs_bop_icon"
+					position = { x = 0 y = 0 }
+					quadTextureSprite = "GFX_show_power_balance_button"
 				}
 				
 				iconType = {
 					name = "show_power_balance_glow"
-					position = { x = -50000 y = -50000 }
+					position = { x = 0 y = 0 }
 					quadTextureSprite = "GFX_bop_glow_effect"
 					alwaystransparent = yes
 				}
@@ -167,7 +166,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "power_balance_percentage"
 					format = center
-					position = { x = -50000 y = -50000 }
+					position = { x = 40 y = 10 }
 					font = "hoi_16mbs"
 					text = "90%"
 					fixedsize = yes
@@ -179,7 +178,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "power_balance_levels"
 					format = center
-					position = { x = -50000 y = -50000 }
+					position = { x = 40 y = 25 }
 					font = "hoi_16mbs"
 					text = "3/5"
 					fixedsize = yes
@@ -190,7 +189,7 @@ guiTypes = {
 				
 				iconType = {
 					name = "power_balance_ICON"
-					position = { x = -50000 y = -50000 }
+					position = { x = 12 y = 4 }
 					quadTextureSprite = "GFX_placeholder_bordered"
 					alwaystransparent = yes				
 					scale = 0.55

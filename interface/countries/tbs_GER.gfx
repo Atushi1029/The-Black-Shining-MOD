@@ -1,10 +1,6 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
-		name = "GFX_idea_GER_adolf_von_thadden"
-		texturefile = "gfx/interface/advisors/GER/idea_GER_adolf_von_thadden.png"
-	}
-	spriteType = {
 		name = "GFX_idea_GER_albert_speer"
 		texturefile = "gfx/interface/advisors/GER/idea_GER_albert_speer.png"
 	}
@@ -65,10 +61,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/idea_GER_wilhelm_stuckart.png"
 	}
 	#Portraits
-	spriteType = {
-		name = "GFX_Portrait_GER_Adolf_von_Thadden"
-		texturefile = "gfx/leaders/GER/Portrait_GER_Adolf_von_Thadden.png"
-	}
 	spriteType = {
 		name = "GFX_Portrait_GER_Albert_Speer"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Albert_Speer.png"

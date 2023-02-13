@@ -1,4 +1,4 @@
-﻿capital = 505
+﻿capital = 500
 oob = ""
 set_cosmetic_tag = BRA_republic
 set_starting_values = yes

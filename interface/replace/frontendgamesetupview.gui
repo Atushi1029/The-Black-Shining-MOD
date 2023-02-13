@@ -1989,7 +1989,7 @@ guiTypes = {
 				
 				ButtonType = {
 					name = "scenario_button"
-					position = { x = -50000 y = -50000 }
+					position = { x = -5000000000000000 y = -5000000000000000 }
 					quadTextureSprite ="GFX_button_261x34"	
 					buttonText = "FE_CHANGE_SCENARIO"
 					buttonFont = "hoi_20b"

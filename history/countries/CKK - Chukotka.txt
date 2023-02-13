@@ -1,28 +1,27 @@
 ﻿capital = 822
 oob = ""
 set_starting_values = yes
-set_cosmetic_tag = CKK_republic
 recruit_character = CKK_mikhail_romanov
 set_convoys = 20
 add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = liberal_democracy
+	ruling_party = national_corporatism
 	last_election = "1972.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	totalitarian_socialism = 10
-	radical_socialism = 10
-	moderate_socialism = 10
-	social_democracy = 30
-	liberal_democracy = 40
+	totalitarian_socialism = 0
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
 	social_conservatism = 0
-	authoritarian_democracy = 0
-	paternal_autocracy = 0
-	national_corporatism = 0
+	authoritarian_democracy = 23
+	paternal_autocracy = 31
+	national_corporatism = 46
 	national_socialism = 0
 	ultra_nationalism = 0
 	religious_nationalism = 0

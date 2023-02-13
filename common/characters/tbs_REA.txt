@@ -126,23 +126,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	REA_kazuo_taoka = {
-		name = REA_kazuo_taoka
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_REA_Kazuo_Taoka"
-				small = "GFX_idea_REA_kazuo_taoka"
-			}
-			army = {
-				large = "GFX_Portrait_REA_Kazuo_Taoka"
-				small = "GFX_idea_REA_kazuo_taoka"
-			}
-			navy = {
-				large = "GFX_Portrait_REA_Kazuo_Taoka"
-				small = "GFX_idea_REA_kazuo_taoka"
-			}
-		}
-	}
 	REA_kiyoshi_hasegawa = {
 		name = REA_kiyoshi_hasegawa
 		portraits = {

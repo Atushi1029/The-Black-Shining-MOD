@@ -1,9 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_screen_op_generic"
-		texturefile = "gfx/interface/op_ed_screen_flavour_picture/screen_op_generic.png"
-	}
-	spriteType = {
 		name = "GFX_screen_op_JAP"
 		texturefile = "gfx/interface/op_ed_screen_flavour_picture/screen_op_JAP.png"
 	}

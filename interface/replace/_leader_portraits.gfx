@@ -12,10 +12,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 	spriteType = {
-		name = "GFX_Portrait_Generic_Anarchy"
-		texturefile = "gfx/leaders/Generic/Portrait_Generic_Anarchy.png"
-	}
-	spriteType = {
 		name = "GFX_Portrait_Generic_Vacancy"
 		texturefile = "gfx/leaders/Generic/Portrait_Generic_Vacancy.png"
 	}

@@ -1771,14 +1771,6 @@ bitmapfonts = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_tbs_bop_icon"
-		texturefile = "gfx/interface/tbs_bop_icon.png"
-	}
-	spriteType = {
-		name = "GFX_tbs_no_matter"
-		texturefile = "gfx/interface/tbs_no_matter.png"
-	}
-	spriteType = {
 		name = "GFX_tbs_op_ed_screen"
 		texturefile = "gfx/interface/tbs_op_ed_screen.png"
 	}

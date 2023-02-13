@@ -575,23 +575,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	JAP_junjuro_ishikawa = {
-		name = JAP_junjuro_ishikawa
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Junjuro_Ishikawa"
-				small = "GFX_idea_JAP_junjuro_ishikawa"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Junjuro_Ishikawa"
-				small = "GFX_idea_JAP_junjuro_ishikawa"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Junjuro_Ishikawa"
-				small = "GFX_idea_JAP_junjuro_ishikawa"
-			}
-		}
-	}
 	JAP_kakuei_tanaka = {
 		name = JAP_kakuei_tanaka
 		portraits = {
@@ -1010,23 +993,6 @@ characters = {
 			}
 		}
 	}
-	JAP_masamichi_royama = {
-		name = JAP_masamichi_royama
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Masamichi_Royama"
-				small = "GFX_idea_JAP_masamichi_royama"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Masamichi_Royama"
-				small = "GFX_idea_JAP_masamichi_royama"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Masamichi_Royama"
-				small = "GFX_idea_JAP_masamichi_royama"
-			}
-		}
-	}
 	JAP_masanobu_tsuji = {
 		name = JAP_masanobu_tsuji
 		portraits = {
@@ -1350,23 +1316,6 @@ characters = {
 			}
 		}
 	}
-	JAP_moritaro_yamada = {
-		name = JAP_moritaro_yamada
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Moritaro_Yamada"
-				small = "GFX_idea_JAP_moritaro_yamada"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Moritaro_Yamada"
-				small = "GFX_idea_JAP_moritaro_yamada"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Moritaro_Yamada"
-				small = "GFX_idea_JAP_moritaro_yamada"
-			}
-		}
-	}
 	JAP_mutsuo_kimura = {
 		name = JAP_mutsuo_kimura
 		portraits = {
@@ -1381,57 +1330,6 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_JAP_Mutsuo_Kimura"
 				small = "GFX_idea_JAP_mutsuo_kimura"
-			}
-		}
-	}
-	JAP_naka_funada = {
-		name = JAP_naka_funada
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Naka_Funada"
-				small = "GFX_idea_JAP_naka_funada"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Naka_Funada"
-				small = "GFX_idea_JAP_naka_funada"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Naka_Funada"
-				small = "GFX_idea_JAP_naka_funada"
-			}
-		}
-	}
-	JAP_nobuhiko_ushiba = {
-		name = JAP_nobuhiko_ushiba
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Nobuhiko_Ushiba"
-				small = "GFX_idea_JAP_nobuhiko_ushiba"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Nobuhiko_Ushiba"
-				small = "GFX_idea_JAP_nobuhiko_ushiba"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Nobuhiko_Ushiba"
-				small = "GFX_idea_JAP_nobuhiko_ushiba"
-			}
-		}
-	}
-	JAP_nobusuke_kishi = {
-		name = JAP_nobusuke_kishi
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Nobusuke_Kishi"
-				small = "GFX_idea_JAP_nobusuke_kishi"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Nobusuke_Kishi"
-				small = "GFX_idea_JAP_nobusuke_kishi"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Nobusuke_Kishi"
-				small = "GFX_idea_JAP_nobusuke_kishi"
 			}
 		}
 	}
@@ -1483,23 +1381,6 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_JAP_Raizo_Matsuno"
 				small = "GFX_idea_JAP_raizo_matsuno"
-			}
-		}
-	}
-	JAP_ryoichi_sasakawa = {
-		name = JAP_ryoichi_sasakawa
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Ryoichi_Sasakawa"
-				small = "GFX_idea_JAP_ryoichi_sasakawa"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Ryoichi_Sasakawa"
-				small = "GFX_idea_JAP_ryoichi_sasakawa"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Ryoichi_Sasakawa"
-				small = "GFX_idea_JAP_ryoichi_sasakawa"
 			}
 		}
 	}
@@ -1693,6 +1574,23 @@ characters = {
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 2
+		}
+	}
+	JAP_seido_royama = {
+		name = JAP_seido_royama
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Seido_Royama"
+				small = "GFX_idea_JAP_seido_royama"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Seido_Royama"
+				small = "GFX_idea_JAP_seido_royama"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Seido_Royama"
+				small = "GFX_idea_JAP_seido_royama"
+			}
 		}
 	}
 	JAP_seiichi_katsumata = {
@@ -2140,23 +2038,6 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	JAP_takeo_fukuda = {
-		name = JAP_takeo_fukuda
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Takeo_Fukuda"
-				small = "GFX_idea_JAP_takeo_fukuda"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Takeo_Fukuda"
-				small = "GFX_idea_JAP_takeo_fukuda"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Takeo_Fukuda"
-				small = "GFX_idea_JAP_takeo_fukuda"
-			}
-		}
-	}
 	JAP_takeo_miki = {
 		name = JAP_takeo_miki
 		portraits = {
@@ -2329,23 +2210,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	JAP_tomohiko_ushiba = {
-		name = JAP_tomohiko_ushiba
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Tomohiko_Ushiba"
-				small = "GFX_idea_JAP_tomohiko_ushiba"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Tomohiko_Ushiba"
-				small = "GFX_idea_JAP_tomohiko_ushiba"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Tomohiko_Ushiba"
-				small = "GFX_idea_JAP_tomohiko_ushiba"
-			}
-		}
-	}
 	JAP_tomomi_narita = {
 		name = JAP_tomomi_narita
 		portraits = {
@@ -2458,23 +2322,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	JAP_tsuneyoshi = {
-		name = JAP_tsuneyoshi
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Tsuneyoshi"
-				small = "GFX_idea_JAP_tsuneyoshi"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Tsuneyoshi"
-				small = "GFX_idea_JAP_tsuneyoshi"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Tsuneyoshi"
-				small = "GFX_idea_JAP_tsuneyoshi"
-			}
-		}
-	}
 	JAP_toshio_komoto = {
 		name = JAP_toshio_komoto
 		portraits = {
@@ -2565,23 +2412,6 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_JAP_Yasuhiro_Nakasone"
 				small = "GFX_idea_JAP_yasuhiro_nakasone"
-			}
-		}
-	}
-	JAP_yoshio_kodama = {
-		name = JAP_yoshio_kodama
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Yoshio_Kodama"
-				small = "GFX_idea_JAP_yoshio_kodama"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Yoshio_Kodama"
-				small = "GFX_idea_JAP_yoshio_kodama"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Yoshio_Kodama"
-				small = "GFX_idea_JAP_yoshio_kodama"
 			}
 		}
 	}

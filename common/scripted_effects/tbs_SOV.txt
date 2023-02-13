@@ -1,4 +1,0 @@
-SOV_reload_effects = {
-	set_variable = { SOV.reload_effect_log = 0 }
-	log = "[GetDateText]: [SOV.GetName]: Focus Completed"
-}
