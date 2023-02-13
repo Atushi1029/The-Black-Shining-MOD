@@ -1,29 +1,4 @@
-econ_recompile_all_spheres = {
-	hidden_effect = {
-		ZZZ = {
-			every_country = {
-				limit = { is_in_economic_spheres = yes }
-				clear_array = economic_sphere_list_array
-				every_country = {
-					limit = { check_variable = { economic_sphere_leader = PREV } }
-					add_to_array = { PREV.economic_sphere_list_array = THIS }
-				}
-				set_variable = { economic_sphere_total_gdp = 0 }
-				for_each_scope_loop = {
-					array = economic_sphere_list_array
-					add_to_variable = { PREV.economic_sphere_total_gdp = THIS.gdp_var }
-				}
-				set_variable = { eco_sphere_world_per = economic_sphere_total_gdp }
-				divide_variable = { eco_sphere_world_per = ZZZ.total_world_gdp }
-				multiply_variable = { eco_sphere_world_per = 100 }
-				get_sorted_scored_countries = {
-					scorer = sphere_member_scorer
-					array = economic_sphere_list_array
-				}
-			}
-		}
-	}
-}
+econ_recompile_all_spheres = {}
 add_to_GER_zollverein = {
 	if = {
 		limit = { is_in_GER_zollverein = no }

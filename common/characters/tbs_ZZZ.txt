@@ -1,7 +1,5 @@
-every_possible_country = {
-	limit = { is_dynamic_country = no }
-	generate_character = {
-		token_base = GG_anarchy # token will be TAG_token_base
+characters = {
+	Generic_anarchy = {
 		name = Generic_anarchy
 		portraits = {
 			civilian = {
@@ -17,9 +15,15 @@ every_possible_country = {
 				small = "GFX_idea_Generic_anarchy"
 			}
 		}
+		country_leader = {
+			desc = "POLITICS_ANARCHY_DESC"
+			ideology = radical_socialism_ideology
+			expire = "9999.1.1.1"
+			id = -1
+			traits = {}
+		}
 	}
-	generate_character = {
-		token_base = GG_vacancy # token will be TAG_token_base
+	Generic_vacancy = {
 		name = Generic_vacancy
 		portraits = {
 			civilian = {

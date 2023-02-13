@@ -1,17 +1,17 @@
 #######################################################################################################################
 
-ZZZ = {
+#tag = {
 # BASE SETTING
 	#variable = 
 	#event_target = 
 	#global_event_target = 
-	original_tag = AFG
+	#original_tag = 
 	#targets = {}
 	#target_array = 
 	#country_score = {}
-	fallback = ABK
+	#fallback = 
 # TRIGGER
-	has_cosmetic_tag = NAMELESS
+	#has_cosmetic_tag = 
 	#has_country_flag = 
 }
 

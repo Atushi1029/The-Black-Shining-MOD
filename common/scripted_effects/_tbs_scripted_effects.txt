@@ -715,58 +715,38 @@ form_moderate_socialism_government = {
 	set_popularities = { moderate_socialism = 100 }
 }
 form_social_democracy_government = {
-	meta_effect = {
-		text = {
-			set_politics = {
-				ruling_party = social_democracy
-				last_election = "[CURRENT_DATE]"
-				election_frequency = 48
-				elections_allowed = yes
-			}
-		}
-		CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
+	set_politics = {
+		ruling_party = social_democracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
 	set_popularities = { social_democracy = 100 }
 }
 form_liberal_democracy_government = {
-	meta_effect = {
-		text = {
-			set_politics = {
-				ruling_party = liberal_democracy
-				last_election = "[CURRENT_DATE]"
-				election_frequency = 48
-				elections_allowed = yes
-			}
-		}
-		CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
+	set_politics = {
+		ruling_party = liberal_democracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
 	set_popularities = { liberal_democracy = 100 }
 }
 form_social_conservatism_government = {
-	meta_effect = {
-		text = {
-			set_politics = {
-				ruling_party = social_conservatism
-				last_election = "[CURRENT_DATE]"
-				election_frequency = 48
-				elections_allowed = yes
-			}
-		}
-		CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
+	set_politics = {
+		ruling_party = social_conservatism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
 	set_popularities = { social_conservatism = 100 }
 }
 form_authoritarian_democracy_government = {
-	meta_effect = {
-		text = {
-			set_politics = {
-				ruling_party = authoritarian_democracy
-				last_election = "[CURRENT_DATE]"
-				election_frequency = 48
-				elections_allowed = yes
-			}
-		}
-		CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
+	set_politics = {
+		ruling_party = authoritarian_democracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
 	set_popularities = { authoritarian_democracy = 100 }
 }
