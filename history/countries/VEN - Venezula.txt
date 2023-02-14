@@ -1,5 +1,5 @@
 ﻿capital = 489
-#oob = ""
+oob = ""
 set_cosmetic_tag = VEN_socialist_republic
 set_starting_values = yes
 recruit_character = VEN_jose_vicente_rangel

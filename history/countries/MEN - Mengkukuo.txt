@@ -1,5 +1,5 @@
 ﻿capital = 611
-#oob = ""
+oob = ""
 set_starting_values = yes
 recruit_character = MEN_dashiin_damba
 recruit_character = MEN_duguersulong

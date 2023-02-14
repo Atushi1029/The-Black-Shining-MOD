@@ -1,5 +1,5 @@
 ﻿capital = 202
-#oob = ""
+oob = ""
 set_starting_values = yes
 recruit_character = RKU_claus_von_stauffenberg
 set_convoys = 20

@@ -10,7 +10,6 @@ state = {
 		owner = RKU
 		add_core_of = RKU
 		add_core_of = UKR
-		set_state_flag = rk_moskowien_core_states
 		victory_points = {
 			9461 1
 		}

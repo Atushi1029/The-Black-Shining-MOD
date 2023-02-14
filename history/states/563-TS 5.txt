@@ -15,7 +15,7 @@ state = {
 		add_claim_by = RLA
 		add_claim_by = RUS
 		add_claim_by = SOV
-		set_state_flag = far_east_core_states
+		set_state_flag = transamur_core_states
 		victory_points = {
 			4705 20
 		}

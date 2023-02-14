@@ -1,5 +1,5 @@
 ﻿capital = 540
-oob = ""
+oob = "ANG_1972"
 set_cosmetic_tag = ANG_peoples_republic
 set_starting_values = yes
 recruit_character = ANG_agostinho_neto

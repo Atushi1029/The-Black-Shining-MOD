@@ -1,5 +1,5 @@
 ﻿capital = 670
-#oob = ""
+oob = ""
 set_cosmetic_tag = LAO_republic
 set_starting_values = yes
 recruit_character = LAO_sisavang_vatthana

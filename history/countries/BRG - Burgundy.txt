@@ -1,5 +1,5 @@
 ﻿capital = 27
-#oob = ""
+oob = ""
 set_cosmetic_tag = BRG_rebel_army
 set_starting_values = yes
 recruit_character = BRG_francoise_dior

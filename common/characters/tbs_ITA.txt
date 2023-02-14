@@ -65,7 +65,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LELIO_BASSO_DESC"
-			ideology = left_patriotism_ideology
+			ideology = leftist_patriotism_ideology
 			expire = "1978.12.16.1"
 			id = -1
 			traits = {}

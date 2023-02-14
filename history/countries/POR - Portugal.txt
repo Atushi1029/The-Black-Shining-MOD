@@ -1,5 +1,5 @@
 ﻿capital = 112
-#oob = ""
+oob = ""
 set_cosmetic_tag = POR_republic
 set_starting_values = yes
 recruit_character = POR_otelo_saraiva_de_carvalho

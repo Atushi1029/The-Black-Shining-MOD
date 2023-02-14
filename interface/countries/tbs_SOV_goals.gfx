@@ -19,8 +19,4 @@ spriteTypes = {
 		name = "GFX_SOV_the_list"
 		texturefile = "gfx/interface/goals/SOV/SOV_the_list.png"
 	}
-	SpriteType = {
-		name = "GFX_SOV_the_old_marshal_and_the_two_heads"
-		texturefile = "gfx/interface/goals/SOV/SOV_the_old_marshal_and_the_two_heads.png"
-	}
 }

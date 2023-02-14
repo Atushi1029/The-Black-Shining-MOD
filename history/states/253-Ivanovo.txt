@@ -7,10 +7,12 @@ state = {
 	state_category = town
 
 	history = { 
-		owner = RKM
-		add_core_of = RKM
-		set_state_flag = rk_moskowien_core_states
-		set_state_flag = russian_old_states
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = FER
+		add_claim_by = RLA
+		add_claim_by = RUS
+		set_state_flag = rsr_core_states
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
@@ -20,7 +22,7 @@ state = {
 	}
 
 	provinces = { 
-		214 280 346 357 378 3202 3240 3268 3339 3347 3370 6135 6231 6247 6269 6316 6358 6362 6392 9257 9267 9278 9311 9356 11239 11252 11295 11338 11362 
+		214 280 346 357 378 3202 3240 3268 3339 3347 3370 6135 6215 6247 6269 6316 6358 6362 9033 9159 9257 9267 9278 9311 9356 11134 11239 11252 11295 11338 11362 
 	}
 
 	local_supplies=0.0 

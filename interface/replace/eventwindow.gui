@@ -499,7 +499,7 @@ guiTypes = {
 			
 			iconType = {
 				name ="event_picture_overlay"
-				spriteType = "GFX_paper_clip_event"
+				spriteType = "GFX_event_news_pic_overlay"
 				position = { x = 26 y = 140 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes

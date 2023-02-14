@@ -1,5 +1,5 @@
 ﻿capital = 461
-oob = ""
+oob = "MOR_1972"
 set_cosmetic_tag = MOR_kingdom
 set_starting_values = yes
 recruit_character = MOR_hassan_ii

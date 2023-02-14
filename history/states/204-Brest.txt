@@ -13,7 +13,6 @@ state = {
 		owner = RKO
 		add_core_of = BLR
 		add_core_of = RKO
-		set_state_flag = rk_moskowien_core_states
 		buildings = {
 			infrastructure = 3
 

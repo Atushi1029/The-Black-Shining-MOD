@@ -1,3 +1,0 @@
-is_in_GER_zollverein = {
-	has_country_flag = is_in_GER_zollverein
-}

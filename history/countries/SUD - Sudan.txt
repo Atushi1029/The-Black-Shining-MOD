@@ -1,5 +1,5 @@
 ﻿capital = 551
-oob = ""
+oob = "SUD_1972"
 set_cosmetic_tag = SUD_republic
 set_starting_values = yes
 recruit_character = SUD_jaafar_nimeiry

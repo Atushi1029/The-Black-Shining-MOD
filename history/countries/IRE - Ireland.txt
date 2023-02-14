@@ -1,5 +1,5 @@
 ﻿capital = 113
-#oob = ""
+oob = ""
 set_cosmetic_tag = IRE_state
 set_starting_values = yes
 recruit_character = IRE_patrick_hillery

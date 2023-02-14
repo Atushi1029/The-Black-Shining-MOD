@@ -1,5 +1,5 @@
 ﻿capital = 539
-oob = ""
+oob = "GAB_1972"
 set_starting_values = yes
 recruit_character = GAB_omar_bongo
 set_convoys = 20

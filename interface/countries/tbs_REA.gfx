@@ -17,10 +17,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/REA/idea_REA_hayao_kinugasa.png"
 	}
 	spriteType = {
-		name = "GFX_idea_REA_kazuo_taoka"
-		texturefile = "gfx/interface/advisors/REA/idea_REA_kazuo_taoka.png"
-	}
-	spriteType = {
 		name = "GFX_idea_REA_kiyoshi_hasegawa"
 		texturefile = "gfx/interface/advisors/REA/idea_REA_kiyoshi_hasegawa.png"
 	}
@@ -100,10 +96,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_REA_Hayao_Kinugasa"
 		texturefile = "gfx/leaders/REA/Portrait_REA_Hayao_Kinugasa.png"
-	}
-	spriteType = {
-		name = "GFX_Portrait_REA_Kazuo_Taoka"
-		texturefile = "gfx/leaders/REA/Portrait_REA_Kazuo_Taoka.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_REA_Kiyoshi_Hasegawa"
