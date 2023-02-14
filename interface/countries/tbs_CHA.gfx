@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_CHA_Kalthouma_Nguembang"
+		texturefile = "gfx/interface/advisors/CHA/idea_CHA_Kalthouma_Nguembang.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CHA_Kalthouma_Nguembang"
+		texturefile = "gfx/leaders/CHA/Portrait_CHA_Kalthouma_Nguembang.png"
+	}
+}

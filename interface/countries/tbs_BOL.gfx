@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_BOL_lidia_gueiler"
+		texturefile = "gfx/interface/advisors/BOL/idea_BOL_lidia_gueiler.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_BOL_Lidia_Gueiler"
+		texturefile = "gfx/leaders/BOL/Portrait_BOL_Lidia_Gueiler.png"
+	}
+}

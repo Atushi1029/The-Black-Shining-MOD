@@ -1,5 +1,5 @@
 ﻿capital = 863
-oob = ""
+#oob = ""
 set_cosmetic_tag = VCT_city_state
 set_starting_values = yes
 recruit_character = VCT_paul_vi

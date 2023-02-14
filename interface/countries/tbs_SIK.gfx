@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_SIK_burhan_shahidi"
+		texturefile = "gfx/interface/advisors/SIK/idea_SIK_burhan_shahidi.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_SIK_Burhan_Shahidi"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Burhan_Shahidi.png"
+	}
+}

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_OMO_ivan_krestiankin"
+		texturefile = "gfx/interface/advisors/OMO/idea_OMO_ivan_krestiankin.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_OMO_Ivan_Krestiankin"
+		texturefile = "gfx/leaders/OMO/Portrait_OMO_Ivan_Krestiankin.png"
+	}
+}

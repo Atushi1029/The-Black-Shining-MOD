@@ -1,0 +1,38 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_USA_a_handshake_in_tokyo"
+		texturefile = "gfx/interface/goals/USA/USA_a_handshake_in_tokyo.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_americas_broken_economy"
+		texturefile = "gfx/interface/goals/USA/USA_americas_broken_economy.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_expanding_the_cia"
+		texturefile = "gfx/interface/goals/USA/USA_expanding_the_cia.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_fight_socialist_influence"
+		texturefile = "gfx/interface/goals/USA/USA_fight_socialist_influence.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_guns_towards_germany"
+		texturefile = "gfx/interface/goals/USA/USA_guns_towards_germany.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_protecting_the_great_society"
+		texturefile = "gfx/interface/goals/USA/USA_protecting_the_great_society.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_right_wing_paramilitaries"
+		texturefile = "gfx/interface/goals/USA/USA_right_wing_paramilitaries.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_the_curtain_call"
+		texturefile = "gfx/interface/goals/USA/USA_the_curtain_call.png"
+	}
+	SpriteType = {
+		name = "GFX_USA_the_final_acts"
+		texturefile = "gfx/interface/goals/USA/USA_the_final_acts.png"
+	}
+}

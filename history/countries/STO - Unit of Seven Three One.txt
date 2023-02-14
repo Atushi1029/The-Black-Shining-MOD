@@ -1,5 +1,5 @@
 ﻿capital = 637
-oob = ""
+#oob = ""
 set_cosmetic_tag = STO_unit_of_731
 set_starting_values = yes
 recruit_character = STO_hideo_shimizu

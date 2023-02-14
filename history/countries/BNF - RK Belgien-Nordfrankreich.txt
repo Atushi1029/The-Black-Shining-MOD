@@ -1,5 +1,5 @@
 ﻿capital = 6
-oob = ""
+#oob = ""
 set_starting_values = yes
 recruit_character = BNF_josef_mengele
 set_convoys = 20

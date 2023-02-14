@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_LIB_Frank_E_Tolbert"
+		texturefile = "gfx/interface/advisors/LIB/idea_LIB_Frank_E_Tolbert.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_LIB_Frank_E_Tolbert"
+		texturefile = "gfx/leaders/LIB/Portrait_LIB_Frank_E_Tolbert.png"
+	}
+}

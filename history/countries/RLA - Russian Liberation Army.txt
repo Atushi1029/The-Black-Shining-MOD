@@ -1,5 +1,5 @@
 ﻿capital = 651
-oob = ""
+#oob = ""
 set_cosmetic_tag = RUS_liberation_army
 set_starting_values = yes
 recruit_character = RLA_alexander_albov

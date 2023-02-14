@@ -1,5 +1,5 @@
 ﻿capital = 16
-oob = ""
+#oob = ""
 set_cosmetic_tag = FRA_republic
 set_starting_values = yes
 recruit_character = FRA_georges_bidault

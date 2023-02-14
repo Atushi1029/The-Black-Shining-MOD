@@ -1,5 +1,5 @@
 ﻿capital = 313
-oob = ""
+#oob = ""
 set_cosmetic_tag = GUA_republic
 set_starting_values = yes
 recruit_character = GUA_carlos_manuel_arana_osorio

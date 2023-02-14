@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_CAM_norodom_sihanouk"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_norodom_sihanouk.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CAM_Norodom_Sihanouk"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Norodom_Sihanouk.png"
+	}
+}

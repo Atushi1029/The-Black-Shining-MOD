@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_TIB_dalai_lama_xiv"
+		texturefile = "gfx/interface/advisors/TIB/idea_TIB_dalai_lama_xiv.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_TIB_Dalai_Lama_XIV"
+		texturefile = "gfx/leaders/TIB/Portrait_TIB_Dalai_Lama_XIV.png"
+	}
+}

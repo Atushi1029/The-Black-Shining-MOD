@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_CMR_John_Ngu_Foncha"
+		texturefile = "gfx/interface/advisors/CMR/idea_CMR_John_Ngu_Foncha.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CMR_John_Ngu_Foncha"
+		texturefile = "gfx/leaders/CMR/Portrait_CMR_John_Ngu_Foncha.png"
+	}
+}

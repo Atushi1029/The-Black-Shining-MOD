@@ -1,5 +1,5 @@
 ﻿capital = 808
-oob = ""
+#oob = ""
 set_starting_values = yes
 recruit_character = RKO_willi_herold
 set_convoys = 20

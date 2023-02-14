@@ -1,5 +1,5 @@
 ﻿capital = 272
-oob = "SEN_1972"
+oob = ""
 set_cosmetic_tag = SEN_republic
 set_starting_values = yes
 recruit_character = SEN_leopold_sedar_senghor

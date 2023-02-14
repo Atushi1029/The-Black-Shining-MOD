@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_AST_william_mcmahon"
+		texturefile = "gfx/interface/advisors/AST/idea_AST_william_mcmahon.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_AST_William_McMahon"
+		texturefile = "gfx/leaders/AST/Portrait_AST_William_McMahon.png"
+	}
+}

@@ -559,3 +559,8 @@ is_num_vols_right_inner = {
 can_create_intelligence_agency = {
 	always = no
 }
+is_in_economic_spheres = {
+	OR = {
+		is_in_GER_zollverein = yes
+	}
+}

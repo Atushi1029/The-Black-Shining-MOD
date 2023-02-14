@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_OMA_qaboos_bin_said"
+		texturefile = "gfx/interface/advisors/OMA/idea_OMA_qaboos_bin_said.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_OMA_Qaboos_bin_Said"
+		texturefile = "gfx/leaders/OMA/Portrait_OMA_Qaboos_bin_Said.png"
+	}
+}

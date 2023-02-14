@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_YEM_qahtan_muhammad_al_shaabi"
+		texturefile = "gfx/interface/advisors/YEM/idea_YEM_qahtan_muhammad_al_shaabi.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_YEM_Qahtan_Muhammad_al_Shaabi"
+		texturefile = "gfx/leaders/YEM/Portrait_YEM_Qahtan_Muhammad_al_Shaabi.png"
+	}
+}

@@ -1,5 +1,5 @@
 ﻿capital = 121
-oob = ""
+#oob = ""
 set_starting_values = yes
 recruit_character = SCO_jennie_lee
 set_convoys = 20

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_GHA_Kwame_Nkrumah"
+		texturefile = "gfx/interface/advisors/GHA/idea_GHA_Kwame_Nkrumah.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_GHA_Kwame_Nkrumah"
+		texturefile = "gfx/leaders/GHA/Portrait_GHA_Kwame_Nkrumah.png"
+	}
+}

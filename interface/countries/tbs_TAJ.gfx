@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_TAJ_jabbor_rasulov"
+		texturefile = "gfx/interface/advisors/TAJ/idea_TAJ_jabbor_rasulov.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_TAJ_Jabbor_Rasulov"
+		texturefile = "gfx/leaders/TAJ/Portrait_TAJ_Jabbor_Rasulov.png"
+	}
+}

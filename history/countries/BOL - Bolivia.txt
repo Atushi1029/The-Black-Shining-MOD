@@ -1,5 +1,5 @@
 ﻿capital = 302
-oob = ""
+#oob = ""
 set_cosmetic_tag = BOL_state
 set_starting_values = yes
 recruit_character = BOL_lidia_gueiler

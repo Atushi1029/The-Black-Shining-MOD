@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_MON_yumjaagiin_tsedenbal"
+		texturefile = "gfx/interface/advisors/MON/idea_MON_yumjaagiin_tsedenbal.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_MON_Yumjaagiin_Tsedenbal"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Yumjaagiin_Tsedenbal.png"
+	}
+}

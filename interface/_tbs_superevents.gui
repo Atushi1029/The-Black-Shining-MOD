@@ -1,0 +1,91 @@
+guiTypes = {
+	containerWindowType = {
+		name = "superevents_window"
+		position = {
+			x = 0
+			y = 0
+		}
+		size = {
+			width = 720
+			height = 550
+		}
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+		show_sound = event_popup
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_pol_goal"
+		}
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 0 y = 24 }
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "[ROOT.GetSuperEventTitle]"
+			maxWidth = 720
+			maxHeight = 36
+			format = centre
+		}
+		containerWindowType = {
+			name = "superevents_container"
+			position = { x = 23 y = 81 }
+			size = { width = 674 height = 447 }
+			clipping = yes
+			iconType = {
+				name = "picture"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_picture_example"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name ="underlay"
+				spriteType = "GFX_superevent_text_underlay"
+				position = { x = 0 y = 310 }
+				alwaystransparent = yes
+			}
+			instantTextBoxType = {
+				name = "text"
+				position = { x = 8 y = 313 }
+				font = "Bomb_24"
+				text = "[ROOT.GetSuperEventQuote]"
+				maxWidth = 480
+				maxHeight = 134
+				fixedsize = yes
+				format = left
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "superevents_frame_container"
+			position = { x = 10 y = 68 }
+			size = { width = 700 height = 475 }
+			clipping = no
+			background = {
+				name = "Background"
+				spriteType = "GFX_fullborder_tiled"
+			}
+		}
+		containerWindowType = {
+			name = "superevents_button_container"
+			position = { x = -187 y = 227 }
+			size = { width = 374 height = 48 }
+			clipping = no
+			Orientation = center
+			background = {
+				name = "Background"
+				spriteType = "GFX_tiled_plain_bg_small"
+			}
+			buttonType = {
+				name = "close_button"
+				text = "[ROOT.GetSuperEventButton]"
+				shortcut = "ESCAPE"
+				position = { x = -180 y = -17 }
+				quadTextureSprite ="GFX_button_359x34"
+				buttonFont = "Bomb_24"
+				Orientation = center
+			}
+		}
+	}
+}

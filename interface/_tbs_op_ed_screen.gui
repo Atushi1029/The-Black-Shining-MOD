@@ -1,0 +1,62 @@
+guiTypes = {
+	containerWindowType = {
+		name = "op_ed_screen_window"
+		position = { x = 0 y = 0 }
+		size = { width = 945 height = 466 }
+		orientation = center
+		origo = center
+		fade_time = 200
+		fade_type = linear
+		show_sound = event_popup
+		hide_sound = menu_close_window
+		moveable = no
+		click_to_front = yes
+		background = {
+			name = "Background"
+			spriteType = "GFX_tbs_op_ed_screen_blank"
+		}
+		iconType = {
+			name = "country_flavour_picture"
+			position = { x = 751 y = 35 }
+		}
+		iconType = {
+			name = "GFX_tbs_op_ed_screen"
+			spriteType = "GFX_tbs_op_ed_screen"
+			position = { x = 0 y = 0 }
+		}
+		containerWindowType = {
+			name = "screen_top_container"
+			position = { x = 300 y = 7 }
+			size = { width = 645 height = 459 }
+			buttonType = {
+				name = "close_button"
+				position = { x = 610 y = 0 }
+				quadTextureSprite ="GFX_closebutton_small"
+				shortcut = "ESCAPE"
+				shortcut = "RETURN"
+				shortcut = "SPACE"
+			}
+			instantTextBoxType = {
+				name = "title"
+				position = { x = 0 y = 1 }
+				font = "hoi_24header"
+				maxWidth = 345
+				maxHeight = 24
+				format = center
+				vertical_alignment = center
+				alwaystransparent = yes
+				text = "[ROOT.GetOpEdTitle]"
+			}
+		}
+		instantTextBoxType = {
+			name = "description"
+			position = { x = 9 y = 35 }
+			font = "hoi_20bs"
+			text = "[ROOT.GetOpEdDesc]"
+			maxWidth = 737
+			maxHeight = 422
+			format = centre
+			scrollbarType = standardtext_slider
+		}
+	}
+}

@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MEN_dashiin_damba"
+		texturefile = "gfx/interface/advisors/MEN/idea_MEN_dashiin_damba.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MEN_duguersulong"
+		texturefile = "gfx/interface/advisors/MEN/idea_MEN_duguersulong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MEN_li_shouxin"
+		texturefile = "gfx/interface/advisors/MEN/idea_MEN_li_shouxin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MEN_utaro_kataoka"
+		texturefile = "gfx/interface/advisors/MEN/idea_MEN_utaro_kataoka.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MEN_wu_heling"
+		texturefile = "gfx/interface/advisors/MEN/idea_MEN_wu_heling.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MEN_zolbingiin_shijee"
+		texturefile = "gfx/interface/advisors/MEN/idea_MEN_zolbingiin_shijee.png"
+	}
+}

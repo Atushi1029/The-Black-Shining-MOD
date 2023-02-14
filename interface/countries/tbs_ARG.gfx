@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_ARG_francisco_manrique"
+		texturefile = "gfx/interface/advisors/ARG/idea_ARG_francisco_manrique.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_ARG_Francisco_Manrique"
+		texturefile = "gfx/leaders/ARG/Portrait_ARG_Francisco_Manrique.png"
+	}
+}

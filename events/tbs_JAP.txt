@@ -30,6 +30,7 @@ country_event = {
 	option = {
 		name = tbs_jap.2.a
 		ai_chance = { base = 100 }
+		add_political_power = 50
 	}
 }
 country_event = {
@@ -100,6 +101,7 @@ country_event = {
 	option = {
 		name = tbs_jap.8.a
 		ai_chance = { base = 100 }
+		add_political_power = 30
 	}
 }
 country_event = {
@@ -111,5 +113,9 @@ country_event = {
 	option = {
 		name = tbs_jap.9.a
 		ai_chance = { base = 100 }
+		add_opinion_modifier = {
+			target = FROM
+			modifier = KR_disapproves_of_govt
+		}
 	}
 }

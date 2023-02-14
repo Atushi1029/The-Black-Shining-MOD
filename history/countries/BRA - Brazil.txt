@@ -1,5 +1,5 @@
-﻿capital = 500
-oob = ""
+﻿capital = 505
+#oob = ""
 set_cosmetic_tag = BRA_republic
 set_starting_values = yes
 recruit_character = BRA_miguel_reale

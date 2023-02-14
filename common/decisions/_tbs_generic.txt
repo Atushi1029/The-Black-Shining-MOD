@@ -1,86 +1,4 @@
 political_actions = {
-	use_civilian_factoris_to_add_reserch_slot = {
-		icon = generic_operation
-		available = {
-			if = {
-				limit = { amount_research_slots < 3 }
-				num_of_civilian_factories > 5
-			}
-			else_if = {
-				limit = { check_variable = { amount_research_slots = 3 } }
-				num_of_civilian_factories > 10
-			}
-			else_if = {
-				limit = {
-					OR = {
-						check_variable = { amount_research_slots = 4 }
-						check_variable = { amount_research_slots = 5 }
-					}
-				}
-				num_of_civilian_factories > 20
-			}
-			else_if = {
-				limit = { check_variable = { amount_research_slots = 6 } }
-				num_of_civilian_factories > 50
-			}
-			else_if = {
-				limit = { check_variable = { amount_research_slots = 7 } }
-				num_of_civilian_factories > 75
-			}
-			else_if = {
-				limit = { check_variable = { amount_research_slots = 8 } }
-				num_of_civilian_factories > 100
-			}
-			amount_research_slots < 9
-			NOT = { has_country_flag = decision_in_progress }
-		}
-		fire_only_once = no
-		visible = { always = yes }
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 10
-				OR = {
-					if = {
-						limit = { amount_research_slots < 3 }
-						num_of_civilian_factories > 15
-					}
-					if = {
-						limit = { check_variable = { amount_research_slots = 3 } }
-						num_of_civilian_factories > 30
-					}
-					if = {
-						limit = {
-							OR = {
-								check_variable = { amount_research_slots = 4 }
-								check_variable = { amount_research_slots = 5 }
-							}
-						}
-						num_of_civilian_factories > 40
-					}
-					if = {
-						limit = { check_variable = { amount_research_slots = 6 } }
-						num_of_civilian_factories > 65
-					}
-					if = {
-						limit = { check_variable = { amount_research_slots = 7 } }
-						num_of_civilian_factories > 90
-					}
-					if = {
-						limit = { check_variable = { amount_research_slots = 8 } }
-						num_of_civilian_factories > 120
-					}
-				}
-			}
-		}
-		days_remove = 150
-		cost = 150
-		complete_effect = { hidden_effect = { set_country_flag = decision_in_progress } }
-		remove_effect = {
-			clr_country_flag = decision_in_progress
-			add_research_slot = 1
-		}
-	}
 	#russian_unification = {
 	#	icon = generic_form_nation
 	#	available = {
@@ -102,7 +20,7 @@ political_actions = {
 	#						is_controlled_by = CKK
 	#						is_controlled_by = JAP
 	#						is_controlled_by = MAN
-	#						NOT = { has_state_flag = transamur_core_states }
+	#						NOT = { has_state_flag = far_east_core_states }
 	#					}
 	#				}
 	#			}
@@ -139,6 +57,21 @@ political_actions = {
 	#			}
 	#			hidden_effect = { ROOT_unification_events = yes }
 	#			RUS = {
+	#				set_popularities = {
+	#					totalitarian_socialism = ROOT.party_popularity_100@totalitarian_socialism
+	#					radical_socialism = ROOT.party_popularity_100@radical_socialism
+	#					moderate_socialism = ROOT.party_popularity_100@moderate_socialism
+	#					social_democracy = ROOT.party_popularity_100@social_democracy
+	#					liberal_democracy = ROOT.party_popularity_100@liberal_democracy
+	#					social_conservatism = ROOT.party_popularity_100@social_conservatism
+	#					authoritarian_democracy = ROOT.party_popularity_100@authoritarian_democracy
+	#					paternal_autocracy = ROOT.party_popularity_100@paternal_autocracy
+	#					national_corporatism = ROOT.party_popularity_100@national_corporatism
+	#					national_socialism = ROOT.party_popularity_100@national_socialism
+	#					ultra_nationalism = ROOT.party_popularity_100@ultra_nationalism
+	#					religious_nationalism = ROOT.party_popularity_100@religious_nationalism
+	#					transhumanism = ROOT.party_popularity_100@transhumanism
+	#				}
 	#				annex_country = {
 	#					target = ROOT
 	#					transfer_troops = yes
@@ -157,8 +90,8 @@ political_actions = {
 	#						AND = {
 	#							is_claimed_by = RUS
 	#							OR = {
-	#								has_state_flag = transamur_core_states
-	#								has_state_flag = rsr_core_states
+	#								has_state_flag = far_east_core_states
+	#								has_state_flag = ussr_core_states
 	#								has_state_flag = rusrep_core_states
 	#								has_state_flag = rla_core_states
 	#							}
@@ -186,15 +119,4 @@ political_actions = {
 	#		}
 	#	}
 	#}
-	reload_units = {
-		icon = generic_form_nation
-		available = { is_ai = yes }
-		visible = { is_ai = yes }
-		cost = 0
-		fire_only_once = yes
-		ai_will_do = { factor = 1 }
-		complete_effect = {
-			load_oob = "generic_units"
-		}
-	}
 }

@@ -1,5 +1,5 @@
 ﻿capital = 604
-oob = ""
+#oob = ""
 set_cosmetic_tag = PEOPLES_LIBERATION_ARMY
 set_starting_values = yes
 recruit_character = PRC_hu_yaobang

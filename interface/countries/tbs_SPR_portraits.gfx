@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_SPR_Federica_Montseny"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Federica_Montseny.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SPR_Jose_Antonio_Giron"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Jose_Antonio_Giron.png"
+	}
+}

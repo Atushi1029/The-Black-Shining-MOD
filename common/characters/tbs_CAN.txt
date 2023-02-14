@@ -1,4 +1,22 @@
 characters = {
+	CAN_elizabeth_ii = {
+		name = GBR_elizabeth_ii
+		gender = female
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GBR_Elizabeth_II"
+				small = "GFX_idea_GBR_elizabeth_ii"
+			}
+			army = {
+				large = "GFX_Portrait_GBR_Elizabeth_II"
+				small = "GFX_idea_GBR_elizabeth_ii"
+			}
+			navy = {
+				large = "GFX_Portrait_GBR_Elizabeth_II"
+				small = "GFX_idea_GBR_elizabeth_ii"
+			}
+		}
+	}
 	CAN_real_caouette = {
 		name = CAN_real_caouette
 		portraits = {
