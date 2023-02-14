@@ -1,0 +1,67 @@
+scripted_gui = {
+	tbs_economic_sphere_button = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "economic_sphere_button_container"
+		ai_enabled = { always = no }
+		visible = {
+			is_ai = no
+			is_in_economic_spheres = yes
+		}
+		triggers = {
+			eco_zollverein_button_visible = { is_in_GER_zollverein = yes }
+		}
+		effects = {
+			eco_zollverein_button_click = {
+				if = {
+					limit = { has_country_flag = economic_sphere_list_open }
+					clear_array = ROOT.economic_sphere_list_array
+					clear_variable = ROOT.economic_sphere_leader
+					clr_country_flag = economic_sphere_list_open
+				}
+				else = {
+					add_to_array = { ROOT.economic_sphere_list_array = GER }
+					for_each_loop = {
+						array = GER.GER_zollverein_members
+						if = {
+							limit = { NOT = { is_in_array = { ROOT.economic_sphere_list_array = v } } }
+							add_to_array = { ROOT.economic_sphere_list_array = v }
+						}
+					}
+					set_variable = { economic_sphere_leader = GER }
+					set_country_flag = economic_sphere_list_open
+				}
+			}
+		}
+	}
+	tbs_economic_sphere_list = {
+		context_type = player_context
+		window_name = "economic_sphere_list_window"
+		ai_enabled = { always = no }
+		visible = {
+			is_ai = no
+			has_country_flag = economic_sphere_list_open
+		}
+		dynamic_lists = {
+			economic_sphere_tags_grid = {
+				array = economic_sphere_list_array
+				change_scope = yes
+				entry_container = economic_sphere_member_entry
+			}
+		}
+		triggers = { major_country_overlay_visible = { check_variable = { ROOT.economic_sphere_leader = THIS } } }
+		effects = {
+			button_zoom_click = { capital_scope = { ROOT = { goto_state = PREV } } }
+			button_close_click = {
+				for_each_scope_loop = { array = ROOT.economic_sphere_list_array }
+				clear_array = ROOT.economic_sphere_list_array
+				clear_variable = ROOT.economic_sphere_leader
+				clr_country_flag = economic_sphere_list_open
+			}
+		}
+		properties = {
+			economic_sphere_icon = { image = "[ROOT.GetEconomicSphereIcon]" }
+			country_flag = { image = "[THIS.GetFlag]" }
+		}
+	}
+}

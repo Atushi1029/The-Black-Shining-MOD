@@ -44,8 +44,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/social_democracy/social_democracy.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_leftist_patriotism_ideology"
-		texturefile = "gfx/interface/ideologies/social_democracy/leftist_patriotism.png"
+		name = "GFX_ideology_left_patriotism_ideology"
+		texturefile = "gfx/interface/ideologies/social_democracy/left_patriotism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_peoples_front_ideology"
@@ -103,8 +103,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/authoritarian_democracy/authoritarian_democracy.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_dixiecrat_democracy_ideology"
-		texturefile = "gfx/interface/ideologies/authoritarian_democracy/dixiecrat_democracy.png"
+		name = "GFX_ideology_dixiecratic_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy/dixiecratic_democracy.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_national_conservatism_ideology"

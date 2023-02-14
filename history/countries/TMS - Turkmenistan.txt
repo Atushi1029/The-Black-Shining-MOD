@@ -1,5 +1,5 @@
 ﻿capital = 584
-oob = ""
+#oob = ""
 set_cosmetic_tag = TMS_soviet_republic
 set_starting_values = yes
 recruit_character = TMS_muhammetnazar_gapurov

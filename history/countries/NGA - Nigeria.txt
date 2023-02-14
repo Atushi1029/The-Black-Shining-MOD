@@ -1,5 +1,5 @@
 ﻿capital = 558
-oob = "NGA_1972"
+oob = ""
 set_cosmetic_tag = NGA_republic
 set_starting_values = yes
 recruit_character = NGA_johnson_aguiyi-ironsi

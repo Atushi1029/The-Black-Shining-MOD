@@ -1,5 +1,5 @@
 ﻿capital = 11
-oob = ""
+#oob = ""
 #set_cosmetic_tag = 
 set_starting_values = yes
 #recruit_character = 

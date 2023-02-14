@@ -458,7 +458,7 @@ technologies = {
 		}
 		on_research_complete = {
 			hidden_effect = {
-				load_oob = "unlock_paratroopers"
+				#load_oob = "unlock_paratroopers"
 			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
@@ -584,7 +584,7 @@ technologies = {
 		}
 		on_research_complete = {
 			hidden_effect = {
-				load_oob = "unlock_marines"
+				#load_oob = "unlock_marines"
 			}			
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
@@ -706,7 +706,7 @@ technologies = {
 		}
 		on_research_complete = {
 			hidden_effect = {
-				load_oob = "unlock_mountineers"
+				#load_oob = "unlock_mountineers"
 			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
@@ -1576,7 +1576,7 @@ technologies = {
 		}
 		on_research_complete = {
 			hidden_effect = {
-				load_oob = "unlock_motorized"
+				#load_oob = "unlock_motorized"
 			}			
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}

@@ -1,5 +1,5 @@
 ﻿capital = 105
-oob = ""
+#oob = ""
 set_cosmetic_tag = MNT_kingdom
 set_starting_values = yes
 recruit_character = MNT_giorgio_calvi_di_bergolo

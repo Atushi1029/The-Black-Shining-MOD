@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_custom_newsheader_blank"
+		texturefile = "gfx/interface/custom_newsheaders/custom_newsheader_blank.png"
+	}
+	spriteType = {
+		name = "GFX_custom_newsheader_generic"
+		texturefile = "gfx/interface/custom_newsheaders/custom_newsheader_generic.png"
+	}
+}

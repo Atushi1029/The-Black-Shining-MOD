@@ -1,5 +1,5 @@
 ﻿capital = 110
-oob = ""
+#oob = ""
 set_cosmetic_tag = NOR_united_republic
 set_starting_values = yes
 recruit_character = NOR_erik_gjems-onstad

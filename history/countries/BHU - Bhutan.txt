@@ -1,5 +1,5 @@
 ﻿capital = 324
-oob = ""
+#oob = ""
 set_cosmetic_tag = BHU_kingdom
 set_starting_values = yes
 recruit_character = BHU_jigme_singye_wangchuck

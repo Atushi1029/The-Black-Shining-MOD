@@ -1,5 +1,5 @@
 ﻿capital = 311
-oob = ""
+#oob = ""
 set_cosmetic_tag = BLZ_republic
 set_starting_values = yes
 recruit_character = BLZ_george_cadle_price

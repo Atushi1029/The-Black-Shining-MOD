@@ -6,7 +6,7 @@ state = {
 		steel=14.000
 	}
 
-	history = { 
+	history = {
 		owner = RLA
 		add_core_of = RLA
 		add_claim_by = FER
@@ -24,7 +24,7 @@ state = {
 	}
 
 	provinces = { 
-		286 326 392 3196 3246 3276 3316 3343 3372 3382 6226 6294 6302 6337 6366 6394 9338 11273 11319 
+		286 392 3196 3246 3276 3382 6226 6294 6302 6337 6394 9338 11273 11319 
 	}
 	manpower=1630524
 	buildings_max_level_factor=1.000

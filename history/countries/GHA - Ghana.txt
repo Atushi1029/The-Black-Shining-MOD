@@ -1,5 +1,5 @@
 ﻿capital = 274
-oob = "GHA_1972"
+oob = ""
 set_cosmetic_tag = GHA_republic
 set_starting_values = yes
 recruit_character = GHA_kwame_nkrumah

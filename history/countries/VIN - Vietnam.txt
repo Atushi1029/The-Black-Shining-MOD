@@ -1,5 +1,5 @@
 ﻿capital = 671
-oob = ""
+#oob = ""
 set_cosmetic_tag = VIN_division_of_5
 set_starting_values = yes
 recruit_character = VIN_hirokuni_muta

@@ -1,5 +1,5 @@
 ﻿capital = 543
-oob = "MAD_1972"
+oob = ""
 set_cosmetic_tag = MAD_republic
 set_starting_values = yes
 recruit_character = MAD_gabriel_ramanantsoa

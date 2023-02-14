@@ -1,0 +1,30 @@
+﻿capital = 1013
+#oob = ""
+set_cosmetic_tag = OSR_military_government
+set_starting_values = yes
+recruit_character = OSR_konstantin_lisetsky
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = paternal_autocracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 0
+	radical_socialism = 0
+	moderate_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 10
+	social_conservatism = 5
+	authoritarian_democracy = 10
+	paternal_autocracy = 60
+	national_corporatism = 10
+	national_socialism = 5
+	ultra_nationalism = 0
+	religious_nationalism = 0
+	transhumanism = 0
+}

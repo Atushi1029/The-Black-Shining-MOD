@@ -1,5 +1,5 @@
 ﻿capital = 41
-oob = ""
+#oob = ""
 set_cosmetic_tag = SPR_republic
 set_starting_values = yes
 recruit_character = SPR_federica_montseny

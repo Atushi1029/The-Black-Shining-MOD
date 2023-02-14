@@ -1,5 +1,5 @@
 ﻿capital = 126
-oob = ""
+#oob = ""
 set_cosmetic_tag = GBR_united_kingdom
 set_starting_values = yes
 recruit_character = GBR_andrew_fountaine

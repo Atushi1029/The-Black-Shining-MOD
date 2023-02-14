@@ -4,7 +4,7 @@ has_far_eastern_siberia = {
 		all_state = { 
 			OR = {
 				is_controlled_by = ROOT
-				NOT = { has_state_flag = transamur_core_states }
+				NOT = { has_state_flag = far_east_core_states }
 			}
 		}
 	}
@@ -37,7 +37,7 @@ has_north_western_russia = {
 		all_state = { 
 			OR = {
 				is_controlled_by = ROOT
-				NOT = { has_state_flag = rsr_core_states }
+				NOT = { has_state_flag = ussr_core_states }
 			}
 		}
 	}

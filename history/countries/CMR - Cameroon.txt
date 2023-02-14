@@ -1,5 +1,5 @@
 ﻿capital = 773
-oob = "CMR_1972"
+oob = ""
 set_cosmetic_tag = CMR_union
 set_starting_values = yes
 recruit_character = CMR_john_ngu_foncha

@@ -220,9 +220,6 @@ update_volunteers_idea = {
 vol_test = {
 	add_dynamic_modifier = { modifier = vol_troops_modifier }
 }
-ai_reload_volunteers_sent = {
-	
-}
 remove_claim_and_add_core_of_ROOT = {
 	if = {
 		limit = { is_claimed_by = ROOT }
@@ -687,33 +684,184 @@ leave_the_coalition_transhumanism = {
 		}
 	}
 }
+form_totalitarian_socialism_government = {
+	set_politics = {
+		ruling_party = totalitarian_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { totalitarian_socialism = 100 }
+}
+form_radical_socialism_government = {
+	set_politics = {
+		ruling_party = radical_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { radical_socialism = 100 }
+}
+form_moderate_socialism_government = {
+	set_politics = {
+		ruling_party = moderate_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { moderate_socialism = 100 }
+}
+form_social_democracy_government = {
+	set_politics = {
+		ruling_party = social_democracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { social_democracy = 100 }
+}
+form_liberal_democracy_government = {
+	set_politics = {
+		ruling_party = liberal_democracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { liberal_democracy = 100 }
+}
+form_social_conservatism_government = {
+	set_politics = {
+		ruling_party = social_conservatism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { social_conservatism = 100 }
+}
+form_authoritarian_democracy_government = {
+	set_politics = {
+		ruling_party = authoritarian_democracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { authoritarian_democracy = 100 }
+}
+form__government = {
+	set_politics = {
+		ruling_party = paternal_autocracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { paternal_autocracy = 100 }
+}
+form_national_corporatism_government = {
+	set_politics = {
+		ruling_party = national_corporatism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { national_corporatism = 100 }
+}
+form_national_socialism_government = {
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { national_socialism = 100 }
+}
+form_ultra_nationalism_government = {
+	set_politics = {
+		ruling_party = ultra_nationalism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { ultra_nationalism = 100 }
+}
+form_religious_nationalism_government = {
+	set_politics = {
+		ruling_party = religious_nationalism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { religious_nationalism = 100 }
+}
+form_transhumanism_government = {
+	set_politics = {
+		ruling_party = transhumanism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = { transhumanism = 100 }
+}
+form_dynamic_government = {
+	set_politics = {
+		ruling_party = paternal_autocracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarian_socialism = 5
+		radical_socialism = 5
+		moderate_socialism = 5
+		social_democracy = 5
+		liberal_democracy = 5
+		social_conservatism = 5
+		authoritarian_democracy = 5
+		paternal_autocracy = 40
+		national_corporatism = 5
+		national_socialism = 5
+		ultra_nationalism = 5
+		religious_nationalism = 5
+		transhumanism = 5
+	}
+}
 econ_gdp_growth_change = {
-	add_to_variable = { gdp_growth = gdp_growth_temp }
+	add_to_variable = { gdp_growth_var = gdp_growth_temp }
 	if = {
 		limit = { check_variable = { gdp_growth_temp < 0 } }
 		multiply_temp_variable = {
 			var = gdp_growth_temp
 			value = -1
 		}
+		custom_effect_tooltip = gdp_growth_decrease_tt
 	}
+	else = { custom_effect_tooltip = gdp_growth_increase_tt }
 	calculate_display_variables = yes
 }
 econ_inflation_change = {
-	add_to_variable = { base_inflation_rate = inflation_temp }
+	add_to_variable = { inflation_var = inflation_temp }
 	if = {
 		limit = { check_variable = { inflation_temp < 0 } }
 		multiply_temp_variable = {
 			var = inflation_temp
 			value = -1
 		}
+		custom_effect_tooltip = inflation_decrease_tt
 	}
+	else = { custom_effect_tooltip = inflation_increase_tt }
 	calculate_total_inflation = yes
 }
 calculate_total_inflation = {
+	if = {
+		limit = { NOT = { has_variable = global.finish_effect } }
+		set_variable = { global.finish_effect = 1 }
+		set_variable = { global.econ_graph_month = 25 }
+		set_variable = { global.xcycling = 0 }
+		set_variable = { global.ycycling = 0.125 }
+		set_variable = { global.month_counter = 1 }
+		econ_inflation_cycling_calculation = yes
+	}
 	set_variable = { inflation_clamped_percentage_var = 0 }
-	#add_to_variable = { inflation_clamped_percentage_var = modifier@inflation_rate_modifier }
 	add_to_variable = { inflation_clamped_percentage_var = inflation_var }
-	#add_to_variable = { inflation_clamped_percentage_var = deficit_monetization_inflation_effect }
 	set_variable = { global.inflation_cycling_effect_adjusted = global.inflation_cycling_effect }
 	add_to_variable = { inflation_clamped_percentage_var = global.inflation_cycling_effect_adjusted }
 	clamp_variable = { 
@@ -747,160 +895,17 @@ update_inflation_cycling = {
 initiate_display_vars = {
 	set_variable = { gdp_trillion_var = 0 }
 	set_variable = { gdp_million_var = 0 }
-	set_variable = { total_budget_billion = 0 }
-	set_variable = { total_budget_thousand = 0 }
-	set_variable = { total_expenditures_billion = 0 }
-	set_variable = { total_expenditures_thousand = 0 }
-	set_variable = { civilian_expenditures_billion = 0 }
-	set_variable = { civilian_expenditures_thousand = 0 }
-	set_variable = { military_expenditures_billion = 0 }
-	set_variable = { military_expenditures_thousand = 0 }
-	set_variable = { money_reserves_billion = 0 }
-	set_variable = { money_reserves_thousand = 0 }
-	set_variable = { national_debt_trillion = 0 }
-	set_variable = { national_debt_million = 0 }
-	set_variable = { deficit_billion = 0 }
-	set_variable = { deficit_thousand = 0 }
-	set_variable = { manpower_costs_billion = 0 }
-	set_variable = { manpower_costs_thousand = 0 }
-	set_variable = { military_factory_costs_billion = 0 }
-	set_variable = { military_factory_costs_thousand = 0 }
-	set_variable = { misc_costs_billion = 0 }
-	set_variable = { misc_costs_thousand = 0 }
-	set_variable = { misc_income_billion = 0 }
-	set_variable = { misc_income_thousand = 0 }
-	set_variable = { annual_debt_payments_thousand = 0 }
-	set_variable = { annual_debt_payments_billion = 0 }
 	sliders_initialize = yes
 }
-sliders_initialize = {
-	set_variable = { econ_deficit_monetization_minimal_pct = 0 }
-	set_variable = { econ_deficit_monetization_maximal_pct = 100 }
-	set_variable = { econ_deficit_monetization_slider_pct = 0 }
-	set_variable = { econ_army_expenditures_slider_pct = 50 }
-	set_variable = { econ_naval_expenditures_slider_pct = 50 }
-	set_variable = { econ_research_expenditures_slider_pct = 50 }
-	set_variable = { econ_social_expenditures_slider_pct = 50 }
-	set_variable = { econ_admin_expenditures_slider_pct = 50 }
-	set_variable = { econ_nuclear_expenditures_slider_pct = 50 }
-	set_variable = { econ_consumer_goods_slider_pct = 50 }
-	set_variable = { econ_army_expenditures_minimal_pct = 25 }
-	set_variable = { econ_army_expenditures_maximal_pct = 75 }
-	set_variable = { econ_naval_expenditures_minimal_pct = 25 }
-	set_variable = { econ_naval_expenditures_maximal_pct = 75 }
-	set_variable = { econ_nuclear_expenditures_minimal_pct = 25 }
-	set_variable = { econ_nuclear_expenditures_maximal_pct = 75 }
-	set_variable = { econ_research_expenditures_minimal_pct = 25 }
-	set_variable = { econ_research_expenditures_maximal_pct = 75 }
-	set_variable = { econ_social_expenditures_minimal_pct = 25 }
-	set_variable = { econ_social_expenditures_maximal_pct = 75 }
-	set_variable = { econ_admin_expenditures_minimal_pct = 25 }
-	set_variable = { econ_admin_expenditures_maximal_pct = 75 }
-	set_variable = { econ_consumer_goods_minimal_pct = 25 }
-	set_variable = { econ_consumer_goods_maximal_pct = 75 }
-	set_variable = { econ_army_maintenance_slider_pct = 50 }
-	set_variable = { econ_army_R_D_slider_pct = 50 }
-	set_variable = { econ_army_logistics_slider_pct = 50 }
-	set_variable = { econ_army_procurement_slider_pct = 50 }
-	set_variable = { econ_social_healthcare_slider_pct = 50 }
-	set_variable = { econ_social_pensions_slider_pct = 50 }
-	set_variable = { econ_social_education_slider_pct = 50 }
-	set_variable = { econ_social_unemployment_slider_pct = 50 }
-	set_variable = { econ_admin_security_slider_pct = 50 }
-	set_variable = { econ_admin_safety_slider_pct = 50 }
-	set_variable = { econ_admin_pollution_slider_pct = 50 }
-	set_variable = { econ_admin_bureaucracy_slider_pct = 50 }
-	set_variable = { econ_research_science_slider_pct = 50 }
-	set_variable = { econ_research_facilities_slider_pct = 50 }
-	set_variable = { econ_army_maintenance_minimal_pct = 25 }
-	set_variable = { econ_army_R_D_minimal_pct = 25 }
-	set_variable = { econ_army_logistics_minimal_pct = 25 }
-	set_variable = { econ_army_procurement_minimal_pct = 25 }
-	set_variable = { econ_social_healthcare_minimal_pct = 25 }
-	set_variable = { econ_social_pensions_minimal_pct = 25 }
-	set_variable = { econ_social_education_minimal_pct = 25 }
-	set_variable = { econ_social_unemployment_minimal_pct = 25 }
-	set_variable = { econ_admin_security_minimal_pct = 25 }
-	set_variable = { econ_admin_safety_minimal_pct = 25 }
-	set_variable = { econ_admin_pollution_minimal_pct = 25 }
-	set_variable = { econ_admin_bureaucracy_minimal_pct = 25 }
-	set_variable = { econ_research_science_minimal_pct = 25 }
-	set_variable = { econ_research_facilities_minimal_pct = 25 }
-	set_variable = { econ_army_maintenance_maximal_pct = 75 }
-	set_variable = { econ_army_R_D_maximal_pct = 75 }
-	set_variable = { econ_army_logistics_maximal_pct = 75 }
-	set_variable = { econ_army_procurement_maximal_pct = 75 }
-	set_variable = { econ_social_healthcare_maximal_pct = 75 }
-	set_variable = { econ_social_pensions_maximal_pct = 75 }
-	set_variable = { econ_social_education_maximal_pct = 75 }
-	set_variable = { econ_social_unemployment_maximal_pct = 75 }
-	set_variable = { econ_admin_security_maximal_pct = 75 }
-	set_variable = { econ_admin_safety_maximal_pct = 75 }
-	set_variable = { econ_admin_pollution_maximal_pct = 75 }
-	set_variable = { econ_admin_bureaucracy_maximal_pct = 75 }
-	set_variable = { econ_research_science_maximal_pct = 75 }
-	set_variable = { econ_research_facilities_maximal_pct = 75 }
-	calculate_display_variables = yes
-}
+sliders_initialize = { calculate_display_variables = yes }
 calculate_display_variables = {
 	set_variable = { gdp_trillion_var = gdp_var }
 	set_variable = { gdp_million_var = gdp_var }
-	set_variable = { total_budget_trillion = total_budget }
-	set_variable = { total_budget_million = total_budget }
-	set_variable = { total_expenditures_trillion = total_expenditures }
-	set_variable = { total_expenditures_million = total_expenditures }
-	set_variable = { civilian_expenditures_trillion = civilian_expenditures }
-	set_variable = { civilian_expenditures_million = civilian_expenditures }
-	set_variable = { military_expenditures_trillion = military_expenditures }
-	set_variable = { military_expenditures_million = military_expenditures }
-	set_variable = { money_reserves_trillion = money_reserves_var }
-	set_variable = { money_reserves_million = money_reserves_var }
-	set_variable = { national_debt_trillion = national_debt_var }
-	set_variable = { national_debt_million = national_debt_var }
-	set_variable = { deficit_trillion = deficit }
-	set_variable = { deficit_million = deficit }
-	set_variable = { manpower_costs_trillion = manpower_costs }
-	set_variable = { manpower_costs_million = manpower_costs }
-	set_variable = { military_factory_costs_trillion = military_factory_costs }
-	set_variable = { military_factory_costs_million = military_factory_costs }
-	set_variable = { misc_costs_trillion = misc_costs_var }
-	#add_to_variable = { misc_costs_trillion = modifier@misc_costs_modifier }
-	set_variable = { misc_costs_million = misc_costs_var }
-	#add_to_variable = { misc_costs_million = modifier@misc_costs_modifier }
-	set_variable = { misc_income_trillion = misc_income_var }
-	#add_to_variable = { misc_income_trillion = modifier@misc_income_modifier }
-	set_variable = { misc_income_million = misc_income_var }
-	#add_to_variable = { misc_income_million = modifier@misc_income_modifier }
-	set_variable = { annual_debt_payments_million = annual_debt_payments }
-	set_variable = { annual_debt_payments_trillion = annual_debt_payments }
 	multiply_variable = { gdp_trillion_var = 0.001 }
 	multiply_variable = { gdp_million_var = 1000 }
-	multiply_variable = { total_budget_trillion = 0.001 }
-	multiply_variable = { total_budget_million = 1000 }
-	multiply_variable = { total_expenditures_trillion = 0.001 }
-	multiply_variable = { total_expenditures_million = 1000 }
-	multiply_variable = { civilian_expenditures_trillion = 0.001 }
-	multiply_variable = { civilian_expenditures_million = 1000 }
-	multiply_variable = { military_expenditures_trillion = 0.001 }
-	multiply_variable = { military_expenditures_million = 1000 }
-	multiply_variable = { money_reserves_trillion = 0.001 }
-	multiply_variable = { money_reserves_million = 1000 }
-	multiply_variable = { national_debt_trillion = 0.001 }
-	multiply_variable = { national_debt_million = 1000 }
-	multiply_variable = { deficit_trillion = 0.001 }
-	multiply_variable = { deficit_million = 1000 }
-	multiply_variable = { manpower_costs_trillion = 0.001 }
-	multiply_variable = { manpower_costs_million = 1000 }
-	multiply_variable = { military_factory_costs_trillion = 0.001 }
-	multiply_variable = { military_factory_costs_million = 1000 }
-	multiply_variable = { misc_costs_trillion = 0.001 }
-	multiply_variable = { misc_costs_million = 1000 }
-	multiply_variable = { misc_income_trillion = 0.001 }
-	multiply_variable = { misc_income_million = 1000 }
-	multiply_variable = { annual_debt_payments_trillion = 0.001 }
-	multiply_variable = { annual_debt_payments_million = 1000 }
 }
 set_starting_values = {
+	set_research_slots = 5
 	set_technology = {
 		early_fighter = 1
 		cv_early_fighter = 1
@@ -947,7 +952,6 @@ set_starting_values = {
 		}
 		set_stability = 0.7
 		set_war_support = 0.5
-		set_research_slots = 4
 		set_technology = {
 			fighter1 = 1
 			cv_fighter1 = 1
@@ -1089,7 +1093,6 @@ set_starting_values = {
 		}
 		set_stability = 0.6
 		set_war_support = 0.3
-		set_research_slots = 3
 		set_technology = {
 			basic_light_tank = 1
 			basic_light_td = 1
@@ -1141,7 +1144,6 @@ set_starting_values = {
 		}
 		set_stability = 0.5
 		set_war_support = 0.3
-		set_research_slots = 2
 		set_technology = {
 			basic_light_tank = 1
 			basic_light_td = 1
@@ -1160,7 +1162,6 @@ set_starting_values = {
 	else = {
 		set_stability = 0.5
 		set_war_support = 0.2
-		set_research_slots = 1
 	}
 	if = {
 		limit = {
@@ -1212,58 +1213,19 @@ set_starting_values = {
 	}
 	if = {
 		limit = { tag = JAP }
-		set_variable = { other_tax_var = 0 } 
-		set_variable = { sales_tax_var = 0.025 } 
-		set_variable = { consumer_goods_use_var = 1 }
-		set_variable = { civilian_costs_var = 0 }
 		set_variable = { gdp_var = 251.453 }
 		set_variable = { gdp_growth_var = 4.1 }
-		set_variable = { income_tax_var = 0.15 }
-		set_variable = { business_tax_var = 0.25 }
-		set_variable = { poverty_var = 29.2 }
-		set_variable = { poverty_monthly_var = 0.04 }
-		set_variable = { money_reserves_var = 0.0 }
-		set_variable = { national_debt_var = 260.517 }
-		set_variable = { misc_income_var = 0.0 }
-		set_variable = { misc_costs_var = 0.0 }
-		set_variable = { economic_centralization_var = 62 }
 		set_variable = { inflation_var = 2.5 }
 	}
 	else_if = {
 		limit = { tag = USA }
-		set_variable = { other_tax_var = 0 } 
-		set_variable = { sales_tax_var = 0.025 } 
-		set_variable = { consumer_goods_use_var = 1 }
-		set_variable = { civilian_costs_var = 0 }
 		set_variable = { gdp_var = 322.723 }
 		set_variable = { gdp_growth_var = 6.9 }
-		set_variable = { income_tax_var = 0.138 }
-		set_variable = { business_tax_var = 0.20 }
-		set_variable = { poverty_var = 28.4 }
-		set_variable = { poverty_monthly_var = 0.15 }
-		set_variable = { money_reserves_var = 0.0 }
-		set_variable = { national_debt_var = 102.517 }
-		set_variable = { misc_income_var = 0.0 }
-		set_variable = { misc_costs_var = 0.0 }
-		set_variable = { economic_centralization_var = 38 }
 		set_variable = { inflation_var = 6.3 }
 	}
 	else = {
-		set_variable = { other_tax_var = 0 } 
-		set_variable = { sales_tax_var = 0.025 } 
-		set_variable = { consumer_goods_use_var = 1 }
-		set_variable = { civilian_costs_var = 0 }
 		set_variable = { gdp_var = 10 }
 		set_variable = { gdp_growth_var = 2.5 }
-		set_variable = { income_tax_var = 0.1 }
-		set_variable = { business_tax_var = 0.1 }
-		set_variable = { poverty_var = 20 }
-		set_variable = { poverty_monthly_var = 0.1 }
-		set_variable = { money_reserves_var = 0.0 }
-		set_variable = { national_debt_var = 1.5 }
-		set_variable = { misc_income_var = 20 }
-		set_variable = { misc_costs_var = 0.5 }
-		set_variable = { economic_centralization_var = 50 }
 		set_variable = { inflation_var = 2.5 }
 	}
 	initiate_display_vars = yes
@@ -1272,8 +1234,5 @@ set_starting_values = {
 }
 build_dover_strait_tunnel = {
 	custom_effect_tooltip = build_dover_strait_tunnel_tt
-	hidden_effect = {
-		set_global_flag = CAN_USE_DOVER_STRAIT_TUNNEL
-		build_railway = { path = { 3501 11548 } }
-	}
+	hidden_effect = { set_global_flag = CAN_USE_DOVER_STRAIT_TUNNEL }
 }

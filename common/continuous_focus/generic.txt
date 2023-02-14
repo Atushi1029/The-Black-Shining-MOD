@@ -3,5 +3,4 @@ continuous_focus_palette = {
 	country = { factor = 0 }
 	default = yes
 	reset_on_civilwar = no
-	position = { x = 50 y = 1000 }
 }

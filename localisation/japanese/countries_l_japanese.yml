@@ -891,9 +891,9 @@
  CKK_DEF:0 "チュクチ"
  CKK_ADJ:0 "チュクチ"
 
- YAK:0 "ヤクーツク"
- YAK_DEF:0 "ヤクーツク"
- YAK_ADJ:0 "ヤクーツク"
+ YAK:0 "ヤクーチア"
+ YAK_DEF:0 "ヤクーチア"
+ YAK_ADJ:0 "ヤクーチア"
 
  VLA:0 "ウラジオストク"
  VLA_DEF:0 "ウラジオストク"
@@ -907,9 +907,9 @@
  TAY_DEF:0 "タイミル"
  TAY_ADJ:0 "タイミル"
 
- YAM:0 "ヤマル"
- YAM_DEF:0 "ヤマル"
- YAM_ADJ:0 "ヤマル"
+ YAM:0 "ヤマリア"
+ YAM_DEF:0 "ヤマリア"
+ YAM_ADJ:0 "ヤマリア"
 
  OVO:0 "オスチャーク＝ヴォグル"
  OVO_DEF:0 "オスチャーク＝ヴォグル"
@@ -957,7 +957,7 @@
 
  MEL:0 "マリ・エル"
  MEL_DEF:0 "マリ・エル"
- MEL_ADJ:0 "マリ"
+ MEL_ADJ:0 "マリ・エル"
 
  UDM:0 "ウドムルト"
  UDM_DEF:0 "ウドムルト"
@@ -1001,7 +1001,7 @@
 
  KHA:0 "ハカシア"
  KHA_DEF:0 "ハカシア"
- KHA_ADJ:0 "ハカス"
+ KHA_ADJ:0 "ハカシア"
 
  AOI:0 "東アフリカ"
  AOI_DEF:0 "東アフリカ"
@@ -1029,6 +1029,18 @@
  
 #The Black Shining
  
+ ALD:0 "アルダン"
+ ALD_DEF:0 "アルダン"
+ ALD_ADJ:0 "アルダン"
+ 
+ AMR:0 "アムール"
+ AMR_DEF:0 "アムール"
+ AMR_ADJ:0 "アムール"
+ 
+ BDY:0 "ボダイボ"
+ BDY_DEF:0 "ボダイボ"
+ BDY_ADJ:0 "ボダイボ"
+ 
  BNF:0 "ベルギー＝北フランス"
  BNF_DEF:0 "ベルギー＝北フランス"
  BNF_ADJ:0 "ベルギー＝北フランス"
@@ -1041,9 +1053,33 @@
  CCS_DEF:0 "コーカサス"
  CCS_ADJ:0 "コーカサス"
  
+ CRU:0 "朝鮮"
+ CRU_DEF:0 "朝鮮"
+ CRU_ADJ:0 "朝鮮"
+ 
+ CSF:0 "極東"
+ CSF_DEF:0 "極東"
+ CSF_ADJ:0 "極東"
+ 
+ EKM:0 "カムチャツカ"
+ EKM_DEF:0 "カムチャツカ"
+ EKM_ADJ:0 "カムチャツカ"
+ 
  GBR:0 "イギリス"
  GBR_DEF:0 "イギリス"
  GBR_ADJ:0 "イギリス"
+ 
+ IRK:0 "イルクーツク"
+ IRK_DEF:0 "イルクーツク"
+ IRK_ADJ:0 "イルクーツク"
+ 
+ JEI:0 "東インド諸島"
+ JEI_DEF:0 "東インド諸島"
+ JEI_ADJ:0 "東インド諸島"
+ 
+ KOL:0 "コルィマ"
+ KOL_DEF:0 "コルィマ"
+ KOL_ADJ:0 "コルィマ"
  
  MAF:0 "中央アフリカ"
  MAF_DEF:0 "中央アフリカ"
@@ -1053,6 +1089,18 @@
  NID_DEF:0 "オランダ"
  NID_ADJ:0 "オランダ"
  
+ OMO:0 "オモロン"
+ OMO_DEF:0 "オモロン"
+ OMO_ADJ:0 "オモロン"
+ 
+ OSR:0 "オッソラ"
+ OSR_DEF:0 "オッソラ"
+ OSR_ADJ:0 "オッソラ"
+ 
+ PKI:0 "インドネシア"
+ PKI_DEF:0 "インドネシア"
+ PKI_ADJ:0 "インドネシア"
+ 
  REA:0 "シンガポール"
  REA_DEF:0 "シンガポール"
  REA_ADJ:0 "シンガポール"
@@ -1061,9 +1109,9 @@
  RFP_DEF:0 "ロシア"
  RFP_ADJ:0 "ロシア"
  
- RKK:0 "コーカサス"
- RKK_DEF:0 "コーカサス"
- RKK_ADJ:0 "コーカサス"
+ RKK:0 "コーカシア"
+ RKK_DEF:0 "コーカシア"
+ RKK_ADJ:0 "コーカシア"
  
  RKM:0 "モスクワ"
  RKM_DEF:0 "モスクワ"
@@ -1093,6 +1141,14 @@
  STO_DEF:0 "カムチャツカ"
  STO_ADJ:0 "カムチャツカ"
  
+ UDT:0 "ウダーチヌイ"
+ UDT_DEF:0 "ウダーチヌイ"
+ UDT_ADJ:0 "ウダーチヌイ"
+ 
  VCT:0 "バチカン"
  VCT_DEF:0 "バチカン"
  VCT_ADJ:0 "バチカン"
+ 
+ VIT:0 "カムチャツカ"
+ VIT_DEF:0 "カムチャツカ"
+ VIT_ADJ:0 "カムチャツカ"
