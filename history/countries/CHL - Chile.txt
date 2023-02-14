@@ -1,5 +1,5 @@
 ﻿capital = 279
-#oob = ""
+oob = ""
 set_cosmetic_tag = CHL_peoples_republic
 set_starting_values = yes
 recruit_character = CHL_salvador_allende

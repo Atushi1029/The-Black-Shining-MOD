@@ -291,7 +291,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGE_WALLACE_DESC"
-			ideology = dixiecratic_democracy_ideology
+			ideology = dixiecrat_democracy_ideology
 			expire = "1998.9.13.1"
 			id = -1
 			traits = {}

@@ -51,9 +51,7 @@ bookmarks = {
 				SOV_rigid_officers
 			}
 			focuses = {
-				SOV_the_old_marshal_and_the_two_heads
-				SOV_on_the_cult_of_personality_and_its_consequences
-				SOV_the_list
+				
 			}
 		}
 		"CHI" = { 

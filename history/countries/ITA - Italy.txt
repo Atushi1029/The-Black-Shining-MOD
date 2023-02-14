@@ -1,5 +1,5 @@
 ﻿capital = 2
-#oob = """
+oob = ""
 set_cosmetic_tag = ITA_kingdom
 set_starting_values = yes
 recruit_character = ITA_aldo_moro

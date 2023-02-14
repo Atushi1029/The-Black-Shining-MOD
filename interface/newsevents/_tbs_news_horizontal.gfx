@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_news_hor_Generic"
-		texturefile = "gfx/event_pictures/news_horizontal/news_hor_Generic.png"
-	}
-}

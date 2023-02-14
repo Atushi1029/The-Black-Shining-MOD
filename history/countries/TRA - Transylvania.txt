@@ -1,5 +1,5 @@
 ﻿capital = 84
-#oob = ""
+oob = ""
 set_starting_values = yes
 recruit_character = TRA_wilhelm_georg_berger
 set_convoys = 20

@@ -1,5 +1,5 @@
 ﻿capital = 446
-oob = ""
+oob = "EGY_1972"
 set_cosmetic_tag = EGY_republic
 set_starting_values = yes
 recruit_character = EGY_anwar_sadat

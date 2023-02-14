@@ -7,15 +7,15 @@ defined_text = {
 		}
 		localization_key = "GFX_screen_op_JAP"
 	}
-	text = { localization_key = "GFX_screen_op_generic" }
+	text = { localization_key = "GFX_picture_example" }
 }
 defined_text = {
 	name = GetOpEdTitle
 	text = {
-		trigger = { has_country_flag = show_ending_screen }
-		localization_key = screen_ed_title
+		trigger = { has_country_flag = show_opening_screen }
+		localization_key = screen_op_title
 	}
-	text = { localization_key = screen_op_title }
+	text = { localization_key = screen_ed_title }
 }
 defined_text = {
 	name = GetOpEdDesc

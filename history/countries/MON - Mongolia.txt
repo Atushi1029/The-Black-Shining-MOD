@@ -1,5 +1,5 @@
 ﻿capital = 330
-#oob = ""
+oob = ""
 set_cosmetic_tag = MON_republic
 set_starting_values = yes
 recruit_character = MON_yumjaagiin_tsedenbal

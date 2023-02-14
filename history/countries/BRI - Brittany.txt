@@ -1,5 +1,5 @@
 ﻿capital = 14
-#oob = ""
+oob = ""
 set_starting_values = yes
 recruit_character = BRI_francois_tanguy-prigent
 set_convoys = 20

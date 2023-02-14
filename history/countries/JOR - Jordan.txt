@@ -1,5 +1,5 @@
 ﻿capital = 455
-oob = ""
+oob = "JOR_1972"
 set_cosmetic_tag = JOR_hashemite_kingdom
 set_starting_values = yes
 recruit_character = JOR_hussein_bin_talal

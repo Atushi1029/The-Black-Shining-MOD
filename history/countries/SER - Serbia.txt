@@ -1,5 +1,5 @@
 ﻿capital = 107
-#oob = ""
+oob = ""
 set_cosmetic_tag = SER_kingdom
 set_starting_values = yes
 recruit_character = SER_aleksandar_rankovic

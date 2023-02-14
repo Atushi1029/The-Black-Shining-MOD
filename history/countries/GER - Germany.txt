@@ -1,9 +1,8 @@
 ﻿capital = 64
-oob = ""
+oob = "GER_1972"
 set_cosmetic_tag = GERMANIA_greater_empire
 set_starting_values = yes
 #Politicians
-recruit_character = GER_adolf_von_thadden
 recruit_character = GER_albert_speer
 recruit_character = GER_baldur_von_schirach
 recruit_character = GER_fritz_rossler
@@ -92,16 +91,11 @@ add_to_faction = DEN
 add_to_faction = GER
 add_to_faction = MAF
 add_to_faction = NID
-add_to_faction = NOR
 add_to_faction = RKK
 add_to_faction = RKM
 add_to_faction = RKO
 add_to_faction = RKU
 add_to_faction = SLO
-every_country = {
-	limit = { is_in_faction_with = GER }
-	add_to_GER_zollverein = yes
-}
 #Autonomies
 set_autonomy = {
 	target = BNF

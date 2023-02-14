@@ -1,21 +1,4 @@
 characters = {
-	GER_adolf_von_thadden = {
-		name = GER_adolf_von_thadden
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_GER_Adolf_von_Thadden"
-				small = "GFX_idea_GER_adolf_von_thadden"
-			}
-			army = {
-				large = "GFX_Portrait_GER_Adolf_von_Thadden"
-				small = "GFX_idea_GER_adolf_von_thadden"
-			}
-			navy = {
-				large = "GFX_Portrait_GER_Adolf_von_Thadden"
-				small = "GFX_idea_GER_adolf_von_thadden"
-			}
-		}
-	}
 	GER_albert_speer = {
 		name = GER_albert_speer
 		portraits = {

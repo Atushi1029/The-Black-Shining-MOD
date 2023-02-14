@@ -1,5 +1,5 @@
 ﻿capital = 305
-#oob = ""
+oob = ""
 set_cosmetic_tag = ECU_republic
 set_starting_values = yes
 recruit_character = ECU_alfredo_poveda
