@@ -1,0 +1,19 @@
+characters = {
+	IRK_pavel_grachev = {
+		name = FER_pavel_grachev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Pavel_Grachev"
+				small = "GFX_idea_FER_pavel_grachev"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Pavel_Grachev"
+				small = "GFX_idea_FER_pavel_grachev"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Pavel_Grachev"
+				small = "GFX_idea_FER_pavel_grachev"
+			}
+		}
+	}
+}

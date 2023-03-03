@@ -1,0 +1,26 @@
+characters = {
+	CLN_augusto_pinochet = {
+		name = CHL_augusto_pinochet
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CHL_Augusto_Pinochet"
+				small = "GFX_idea_CHL_augusto_pinochet"
+			}
+			army = {
+				large = "GFX_Portrait_CHL_Augusto_Pinochet"
+				small = "GFX_idea_CHL_augusto_pinochet"
+			}
+			navy = {
+				large = "GFX_Portrait_CHL_Augusto_Pinochet"
+				small = "GFX_idea_CHL_augusto_pinochet"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AUGUSTO_PINOCHET_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "2006.12.10.14"
+			id = -1
+			traits = {}
+		}
+	}
+}

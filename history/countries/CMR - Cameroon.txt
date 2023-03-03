@@ -3,6 +3,7 @@ oob = "CMR_1972"
 set_cosmetic_tag = CMR_union
 set_starting_values = yes
 recruit_character = CMR_john_ngu_foncha
+recruit_character = CMR_kame_samuel
 set_convoys = 20
 add_ideas = {
 	

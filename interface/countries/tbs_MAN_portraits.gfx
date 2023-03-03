@@ -4,8 +4,20 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Aisin_Gioro_Yuyan.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_MAN_Goro_Takeda"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Goro_Takeda.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Hiroo_Wada"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hiroo_Wada.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_MAN_Hisaya_Morishige"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hisaya_Morishige.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Katsuji_Kawamata"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Katsuji_Kawamata.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_MAN_Kazuo_Nonomura"
@@ -16,8 +28,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Kichihei_Hanano.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_MAN_Seiji_Ozawa"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Seiji_Ozawa.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_MAN_Takeo_Ito"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Takeo_Ito.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Tetsuzo_Fuyushiba"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Tetsuzo_Fuyushiba.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_MAN_Toshio_Hoshiko"

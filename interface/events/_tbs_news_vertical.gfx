@@ -1,0 +1,86 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_news_ver_CHL_commies"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_CHL_commies.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_CHL_pinochet"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_CHL_pinochet.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_CHL_pinochet_2"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_CHL_pinochet_2.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_FER_bolotov_inkya"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_FER_bolotov_inkya.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_FER_georgy_gins"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_FER_georgy_gins.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_FER_rfp"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_FER_rfp.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_FER_rostislav_kolchak"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_FER_rostislav_kolchak.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_FER_wrangel_ii"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_FER_wrangel_ii.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_GBR_purge"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_GBR_purge.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_Generic"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_Generic.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_GER_grohe"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_GER_grohe.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_GER_remer"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_GER_remer.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_GER_schirach"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_GER_schirach.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_ITA_nuke_factory"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_ITA_nuke_factory.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_eda"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_eda.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_fukuda"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_fukuda.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_hoashi"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_hoashi.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_nishio"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_nishio.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_MAN_emperor"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_MAN_emperor.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_MAN_planning_board"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_MAN_planning_board.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_USA_newyork"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_USA_newyork.png"
+	}
+}

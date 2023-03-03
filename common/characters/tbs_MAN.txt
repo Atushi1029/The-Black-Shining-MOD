@@ -23,6 +23,54 @@ characters = {
 			traits = {}
 		}
 	}
+	MAN_goro_takeda = {
+		name = MAN_goro_takeda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Goro_Takeda"
+				small = "GFX_idea_MAN_goro_takeda"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Goro_Takeda"
+				small = "GFX_idea_MAN_goro_takeda"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Goro_Takeda"
+				small = "GFX_idea_MAN_goro_takeda"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GORO_TAKEDA_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "2020.2.12.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_hiroo_wada = {
+		name = MAN_hiroo_wada
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Hiroo_Wada"
+				small = "GFX_idea_MAN_hiroo_wada"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Hiroo_Wada"
+				small = "GFX_idea_MAN_hiroo_wada"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Hiroo_Wada"
+				small = "GFX_idea_MAN_hiroo_wada"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HIROO_WADA_DESC"
+			ideology = moderate_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	MAN_hisaya_morishige = {
 		name = MAN_hisaya_morishige
 		portraits = {
@@ -41,8 +89,32 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HISAYA_MORISHIGE_DESC"
-			ideology = social_conservatism_ideology
+			ideology = liberal_democracy_ideology
 			expire = "2009.11.10.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_katsuji_kawamata = {
+		name = MAN_katsuji_kawamata
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Katsuji_Kawamata"
+				small = "GFX_idea_MAN_katsuji_kawamata"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Katsuji_Kawamata"
+				small = "GFX_idea_MAN_katsuji_kawamata"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Katsuji_Kawamata"
+				small = "GFX_idea_MAN_katsuji_kawamata"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KATSUJI_KAWAMATA_DESC"
+			ideology = transhumanism_ideology
+			expire = "1986.3.29.1"
 			id = -1
 			traits = {}
 		}
@@ -65,7 +137,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KAZUO_NONOMURA_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = social_democracy_ideology
 			expire = "1998.1.12.1"
 			id = -1
 			traits = {}
@@ -88,6 +160,30 @@ characters = {
 			}
 		}
 	}
+	MAN_seiji_ozawa = {
+		name = MAN_seiji_ozawa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Seiji_Ozawa"
+				small = "GFX_idea_MAN_seiji_ozawa"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Seiji_Ozawa"
+				small = "GFX_idea_MAN_seiji_ozawa"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Seiji_Ozawa"
+				small = "GFX_idea_MAN_seiji_ozawa"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SEIJI_OZAWA_DESC"
+			ideology = social_conservatism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	MAN_takeo_ito = {
 		name = MAN_takeo_ito
 		portraits = {
@@ -103,6 +199,30 @@ characters = {
 				large = "GFX_Portrait_MAN_Takeo_Ito"
 				small = "GFX_idea_MAN_takeo_ito"
 			}
+		}
+	}
+	MAN_tetsuzo_fuyushiba = {
+		name = MAN_tetsuzo_fuyushiba
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Tetsuzo_Fuyushiba"
+				small = "GFX_idea_MAN_tetsuzo_fuyushiba"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Tetsuzo_Fuyushiba"
+				small = "GFX_idea_MAN_tetsuzo_fuyushiba"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Tetsuzo_Fuyushiba"
+				small = "GFX_idea_MAN_tetsuzo_fuyushiba"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TETSUZO_FUYUSHIBA_DESC"
+			ideology = religious_nationalism_ideology
+			expire = "2011.12.5.1"
+			id = -1
+			traits = {}
 		}
 	}
 	MAN_toshio_hoshiko = {
@@ -173,7 +293,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ZHANG_SHAOJI_DESC"
-			ideology = national_socialism_ideology
+			ideology = national_corporatism_ideology
 			expire = "2014.12.19.1"
 			id = -1
 			traits = {}

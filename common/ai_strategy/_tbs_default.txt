@@ -113,7 +113,14 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 	}
 }
 default_role_ratios = {
-	enable = { always = yes }
+	enable = {
+		has_dlc = "Man the Guns"
+		NOT = {
+			original_tag = GER
+			original_tag = JAP
+			original_tag = USA
+		}
+	}
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital_bb
@@ -296,7 +303,8 @@ default_pp_spend_amount = {
 
 default_paratroopers_production = {
 	enable = {
-		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
+		ai_wants_divisions > 12
+		NOT = { original_tag = GER }
 	}
 	abort = {
 		ai_wants_divisions < 13 #Massively decreasing the amount of paratroopers the AI wants
@@ -311,6 +319,16 @@ default_paratroopers_production = {
 
 default_garrison_production = {
 	enable = {
+		NOT = {
+			original_tag = CHI
+			original_tag = FRA
+			original_tag = GBR
+			original_tag = GER
+			original_tag = ITA
+			original_tag = JAP
+			original_tag = STO
+			original_tag = USA
+		}
 		ai_wants_divisions >  12 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
 	}
@@ -335,6 +353,7 @@ default_garrison_production = {
 
 default_mountaineers_production = {
 	enable = {
+		NOT = { original_tag = GER }
 		ai_wants_divisions > 11 #Decreasing the amount of mountaineers the AI wants
 	}
 	abort = {
@@ -350,6 +369,7 @@ default_mountaineers_production = {
 
 default_marines_production = {
 	enable = {
+		NOT = { original_tag = GER }
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -371,6 +391,7 @@ default_marines_production = {
 
 default_mobile_production = {
 	enable = {
+		NOT = { original_tag = GER }
 		ai_wants_divisions > 11
 		has_tech = motorised_infantry
 	}
@@ -387,7 +408,7 @@ default_mobile_production = {
 
 default_armored_production = {
 	enable = {
-		
+		NOT = { original_tag = GER }
 		ai_wants_divisions > 49
 	}
 	abort = {
@@ -653,6 +674,11 @@ dont_build_capitals_if_on_treaty = {
 
 DEFAULT_template_design = {
 	enable = {
+		NOT = {
+			tag = GER
+			tag = JAP
+			tag = USA
+		}
 		date < 1976.1.1
 	}
 	abort = {
@@ -1023,7 +1049,6 @@ default_produce_floating_harbors = {
 		value = 10
 	}
 }
-
 division_limiter = {
 	enable = {
 		set_temp_variable = {

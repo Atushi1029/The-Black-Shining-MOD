@@ -13,16 +13,26 @@ guiTypes = {
 		click_to_front = yes
 		background = {
 			name = "Background"
-			spriteType = "GFX_tbs_op_ed_screen_blank"
+			quadTextureSprite = "GFX_tiled_window_transparent"
 		}
 		iconType = {
 			name = "country_flavour_picture"
 			position = { x = 751 y = 35 }
 		}
 		iconType = {
-			name = "GFX_tbs_op_ed_screen"
-			spriteType = "GFX_tbs_op_ed_screen"
+			name = "op_ed_screen_bg"
 			position = { x = 0 y = 0 }
+			spriteType = "GFX_tbs_op_ed_screen"
+		}
+		instantTextBoxType = {
+			name = "description"
+			position = { x = 9 y = 35 }
+			font = "hoi_20bs"
+			text = "[ROOT.GetOpEdDesc]"
+			maxWidth = 721
+			maxHeight = 422
+			format = left
+			scrollbarType = standardtext_slider
 		}
 		containerWindowType = {
 			name = "screen_top_container"
@@ -47,16 +57,6 @@ guiTypes = {
 				alwaystransparent = yes
 				text = "[ROOT.GetOpEdTitle]"
 			}
-		}
-		instantTextBoxType = {
-			name = "description"
-			position = { x = 9 y = 35 }
-			font = "hoi_20bs"
-			text = "[ROOT.GetOpEdDesc]"
-			maxWidth = 737
-			maxHeight = 422
-			format = centre
-			scrollbarType = standardtext_slider
 		}
 	}
 }

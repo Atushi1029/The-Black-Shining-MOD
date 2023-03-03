@@ -1,5 +1,5 @@
 ﻿capital = 312
-oob = ""
+#oob = ""
 set_cosmetic_tag = HON_republic
 set_starting_values = yes
 recruit_character = HON_policarpo_paz_garcia

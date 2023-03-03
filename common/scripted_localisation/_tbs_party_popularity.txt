@@ -347,8 +347,8 @@ defined_text = {
 	}
 	#Social Democracy
 	text = {
-		trigger = { has_country_leader_ideology = leftist_patriotism_ideology }
-		localization_key = leftist_patriotism_ideology
+		trigger = { has_country_leader_ideology = left_patriotism_ideology }
+		localization_key = left_patriotism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = peoples_front_ideology }
@@ -394,8 +394,8 @@ defined_text = {
 	}
 	#Authoritarian Democracy
 	text = {
-		trigger = { has_country_leader_ideology = dixiecrat_democracy_ideology }
-		localization_key = "dixiecrat_democracy_ideology"
+		trigger = { has_country_leader_ideology = dixiecratic_democracy_ideology }
+		localization_key = "dixiecratic_democracy_ideology"
 	}
 	text = {
 		trigger = { has_country_leader_ideology = national_conservatism_ideology }
@@ -435,6 +435,11 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = national_syndicalism_ideology }
 		localization_key = national_syndicalism_ideology
+	}
+	#Ultra Nationalism
+	text = {
+		trigger = { has_country_leader_ideology = reformed_corporatism_ideology }
+		localization_key = reformed_corporatism_ideology
 	}
 	#Religious Nationalism
 	text = {

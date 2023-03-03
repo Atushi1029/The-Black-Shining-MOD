@@ -1,5 +1,5 @@
 ﻿capital = 397
-oob = ""
+#oob = ""
 set_starting_values = yes
 recruit_character = KOM_ivan_morozov
 set_convoys = 20

@@ -1,0 +1,19 @@
+characters = {
+	UDT_alexander_dubcek = {
+		name = FER_alexander_dubcek
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Alexander_Dubcek"
+				small = "GFX_idea_FER_alexander_dubcek"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Alexander_Dubcek"
+				small = "GFX_idea_FER_alexander_dubcek"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Alexander_Dubcek"
+				small = "GFX_idea_FER_alexander_dubcek"
+			}
+		}
+	}
+}

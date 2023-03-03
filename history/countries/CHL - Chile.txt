@@ -1,7 +1,8 @@
 ﻿capital = 279
-oob = ""
+#oob = ""
 set_cosmetic_tag = CHL_peoples_republic
 set_starting_values = yes
+recruit_character = CHL_augusto_pinochet
 recruit_character = CHL_salvador_allende
 set_convoys = 20
 add_ideas = {
@@ -27,4 +28,8 @@ set_popularities = {
 	ultra_nationalism = 0
 	religious_nationalism = 0
 	transhumanism = 0
+}
+country_event = {
+	id = tbs_skelton.4
+	days = 200
 }

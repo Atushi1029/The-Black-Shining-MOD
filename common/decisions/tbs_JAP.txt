@@ -1,0 +1,3 @@
+JAP_yokusan_election = {
+	
+}

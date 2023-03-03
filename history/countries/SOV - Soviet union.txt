@@ -1,5 +1,5 @@
 ﻿capital = 214
-oob = ""
+oob = "SOV_1972"
 set_cosmetic_tag = UNIFY_SOVIET_UNION
 set_starting_values = yes
 recruit_character = SOV_alexander_sergeyevich_yakovlev
@@ -27,9 +27,13 @@ recruit_character = SOV_viktor_chernomyrdin
 recruit_character = SOV_vitaly_fedorchuk
 recruit_character = SOV_vladimir_kryuchkov
 recruit_character = SOV_yevgeny_primakov
-set_technology = { penal_infantry = 1 }
+set_technology = {
+	motorised_infantry = 1
+	penal_infantry = 1
+}
 set_convoys = 20
 add_ideas = {
+	extensive_conscription
 	SOV_distorted_nation
 	SOV_red_army
 	SOV_rigid_officers

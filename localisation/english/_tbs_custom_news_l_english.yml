@@ -1,0 +1,25 @@
+﻿l_english:
+# HEADERS
+ newsheader_generic:0 "£custom_newsheader_generic\n£custom_newsheader_blank\n\n"
+
+# HORIZONTAL NEWS
+ #Titles
+ customnews_title_0:0 "Test"
+ customnews_title_1:0 "翼賛予備選挙で民政派が勝利"
+ customnews_title_2:0 "翼賛予備選挙で改革派が勝利"
+ customnews_title_3:0 "翼賛予備選挙で中曽根派が勝利"
+ customnews_title_4:0 "翼賛予備選挙で保守派が勝利"
+
+ #Descriptions
+ customnews_desc_0:0 "Test"
+ customnews_desc_1:0 "TODO"
+ customnews_desc_2:0 "TODO"
+ customnews_desc_3:0 "TODO"
+ customnews_desc_4:0 "TODO"
+
+ #Options
+ customnews_option_0:0 "Option"
+ customnews_option_1:0 "日本に自由主義が戻ってきた。"
+ customnews_option_2:0 "改革派の勢いは衰えない。"
+ customnews_option_3:0 "経済大国の片鱗を見せている。"
+ customnews_option_4:0 "真の大政翼賛会が帰ってきた。"

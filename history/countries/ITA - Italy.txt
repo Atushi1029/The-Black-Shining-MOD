@@ -1,5 +1,5 @@
 ﻿capital = 2
-oob = ""
+#oob = """
 set_cosmetic_tag = ITA_kingdom
 set_starting_values = yes
 recruit_character = ITA_aldo_moro
@@ -46,14 +46,7 @@ set_autonomy = {
 	target = MNT
 	autonomous_state = autonomy_dominion
 }
-#Volunteers
-set_country_flag = may_send_volunteers_to_ROM
-add_to_array = { volunteers_tags = ROM }
-add_to_array = { volunteers_amounts = 2 }
-for_loop_effect = {
-	start = 0
-	end = volunteers_tags^num
-	value = i
-	set_temp_variable = { result = volunteers_amounts^i }
+news_event = {
+	id = tbs_skelton_news.10
+	days = 2400
 }
-set_variable = { test_additional_volunteers = result }

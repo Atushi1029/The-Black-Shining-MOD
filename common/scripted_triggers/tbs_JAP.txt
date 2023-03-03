@@ -1,0 +1,72 @@
+JAP_YSK_shakakudo_leftists_majority = {
+	check_variable = { JAP_YSK_shakakudo_leftists > JAP_YSK_shakakudo_neoconstitutionalists }
+	check_variable = { JAP_YSK_shakakudo_leftists > JAP_YSK_shakakudo_nishio }
+	check_variable = { JAP_YSK_shakakudo_leftists > JAP_YSK_kentetsukai_minsei }
+	check_variable = { JAP_YSK_shakakudo_leftists > JAP_YSK_kentetsukai_reformists }
+	check_variable = { JAP_YSK_shakakudo_leftists > JAP_YSK_kyokakai_nakasone }
+	check_variable = { JAP_YSK_shakakudo_leftists > JAP_YSK_kyokakai_conservatives }
+	check_variable = { JAP_YSK_shakakudo_leftists > JAP_YSK_mushozoku }
+}
+JAP_YSK_shakakudo_neoconstitutionalists_majority = {
+	check_variable = { JAP_YSK_shakakudo_neoconstitutionalists > JAP_YSK_shakakudo_leftists }
+	check_variable = { JAP_YSK_shakakudo_neoconstitutionalists > JAP_YSK_shakakudo_nishio }
+	check_variable = { JAP_YSK_shakakudo_neoconstitutionalists > JAP_YSK_kentetsukai_minsei }
+	check_variable = { JAP_YSK_shakakudo_neoconstitutionalists > JAP_YSK_kentetsukai_reformists }
+	check_variable = { JAP_YSK_shakakudo_neoconstitutionalists > JAP_YSK_kyokakai_nakasone }
+	check_variable = { JAP_YSK_shakakudo_neoconstitutionalists > JAP_YSK_kyokakai_conservatives }
+	check_variable = { JAP_YSK_shakakudo_neoconstitutionalists > JAP_YSK_mushozoku }
+}
+JAP_YSK_shakakudo_nishio_majority = {
+	check_variable = { JAP_YSK_shakakudo_nishio > JAP_YSK_shakakudo_leftists }
+	check_variable = { JAP_YSK_shakakudo_nishio > JAP_YSK_shakakudo_neoconstitutionalists }
+	check_variable = { JAP_YSK_shakakudo_nishio > JAP_YSK_kentetsukai_minsei }
+	check_variable = { JAP_YSK_shakakudo_nishio > JAP_YSK_kentetsukai_reformists }
+	check_variable = { JAP_YSK_shakakudo_nishio > JAP_YSK_kyokakai_nakasone }
+	check_variable = { JAP_YSK_shakakudo_nishio > JAP_YSK_kyokakai_conservatives }
+	check_variable = { JAP_YSK_shakakudo_nishio > JAP_YSK_mushozoku }
+}
+JAP_YSK_kentetsukai_minsei_majority = {
+	check_variable = { JAP_YSK_kentetsukai_minsei > JAP_YSK_shakakudo_leftists }
+	check_variable = { JAP_YSK_kentetsukai_minsei > JAP_YSK_shakakudo_neoconstitutionalists }
+	check_variable = { JAP_YSK_kentetsukai_minsei > JAP_YSK_shakakudo_nishio }
+	check_variable = { JAP_YSK_kentetsukai_minsei > JAP_YSK_kentetsukai_reformists }
+	check_variable = { JAP_YSK_kentetsukai_minsei > JAP_YSK_kyokakai_nakasone }
+	check_variable = { JAP_YSK_kentetsukai_minsei > JAP_YSK_kyokakai_conservatives }
+	check_variable = { JAP_YSK_kentetsukai_minsei > JAP_YSK_mushozoku }
+}
+JAP_YSK_kentetsukai_reformists_majority = {
+	check_variable = { JAP_YSK_kentetsukai_reformists > JAP_YSK_shakakudo_leftists }
+	check_variable = { JAP_YSK_kentetsukai_reformists > JAP_YSK_shakakudo_neoconstitutionalists }
+	check_variable = { JAP_YSK_kentetsukai_reformists > JAP_YSK_shakakudo_nishio }
+	check_variable = { JAP_YSK_kentetsukai_reformists > JAP_YSK_kentetsukai_minsei }
+	check_variable = { JAP_YSK_kentetsukai_reformists > JAP_YSK_kyokakai_nakasone }
+	check_variable = { JAP_YSK_kentetsukai_reformists > JAP_YSK_kyokakai_conservatives }
+	check_variable = { JAP_YSK_kentetsukai_reformists > JAP_YSK_mushozoku }
+}
+JAP_YSK_kyokakai_nakasone_majority = {
+	check_variable = { JAP_YSK_kyokakai_nakasone > JAP_YSK_shakakudo_leftists }
+	check_variable = { JAP_YSK_kyokakai_nakasone > JAP_YSK_shakakudo_neoconstitutionalists }
+	check_variable = { JAP_YSK_kyokakai_nakasone > JAP_YSK_shakakudo_nishio }
+	check_variable = { JAP_YSK_kyokakai_nakasone > JAP_YSK_kentetsukai_minsei }
+	check_variable = { JAP_YSK_kyokakai_nakasone > JAP_YSK_kentetsukai_reformists }
+	check_variable = { JAP_YSK_kyokakai_nakasone > JAP_YSK_kyokakai_conservatives }
+	check_variable = { JAP_YSK_kyokakai_nakasone > JAP_YSK_mushozoku }
+}
+JAP_YSK_kyokakai_conservatives_majority = {
+	check_variable = { JAP_YSK_kyokakai_conservatives > JAP_YSK_shakakudo_leftists }
+	check_variable = { JAP_YSK_kyokakai_conservatives > JAP_YSK_shakakudo_neoconstitutionalists }
+	check_variable = { JAP_YSK_kyokakai_conservatives > JAP_YSK_shakakudo_nishio }
+	check_variable = { JAP_YSK_kyokakai_conservatives > JAP_YSK_kentetsukai_minsei }
+	check_variable = { JAP_YSK_kyokakai_conservatives > JAP_YSK_kentetsukai_reformists }
+	check_variable = { JAP_YSK_kyokakai_conservatives > JAP_YSK_kyokakai_nakasone }
+	check_variable = { JAP_YSK_kyokakai_conservatives > JAP_YSK_mushozoku }
+}
+JAP_YSK_mushozoku_majority = {
+	check_variable = { JAP_YSK_mushozoku > JAP_YSK_shakakudo_leftists }
+	check_variable = { JAP_YSK_mushozoku > JAP_YSK_shakakudo_neoconstitutionalists }
+	check_variable = { JAP_YSK_mushozoku > JAP_YSK_shakakudo_nishio }
+	check_variable = { JAP_YSK_mushozoku > JAP_YSK_kentetsukai_minsei }
+	check_variable = { JAP_YSK_mushozoku > JAP_YSK_kentetsukai_reformists }
+	check_variable = { JAP_YSK_mushozoku > JAP_YSK_kyokakai_nakasone }
+	check_variable = { JAP_YSK_mushozoku > JAP_YSK_kyokakai_conservatives }
+}

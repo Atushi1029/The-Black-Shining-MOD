@@ -1,5 +1,5 @@
 ﻿capital = 7
-oob = ""
+#oob = ""
 set_starting_values = yes
 recruit_character = NID_reinhold_hanning
 set_convoys = 20

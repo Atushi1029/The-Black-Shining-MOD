@@ -1,0 +1,783 @@
+add_namespace = tbs_skelton_news
+news_event = {
+	id = tbs_skelton_news.0
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.0" }
+	title = tbs_skelton_news.0.title
+	desc = tbs_skelton_news.0.desc
+	picture = GFX_news_ver_FER_georgy_gins
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.0.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.1
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.1" }
+	title = tbs_skelton_news.1.title
+	desc = tbs_skelton_news.1.desc
+	picture = GFX_news_ver_FER_rostislav_kolchak
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.1.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.2
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.2" }
+	title = tbs_skelton_news.2.title
+	desc = tbs_skelton_news.2.desc
+	picture = GFX_news_ver_FER_wrangel_ii
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.2.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.3
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.3" }
+	title = tbs_skelton_news.3.title
+	desc = tbs_skelton_news.3.desc
+	picture = GFX_news_ver_FER_rfp
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.3.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.4
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.4" }
+	title = tbs_skelton_news.4.title
+	desc = tbs_skelton_news.4.desc
+	picture = GFX_news_ver_FER_bolotov_inkya
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.4.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.5
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.5" }
+	title = tbs_skelton_news.5.title
+	desc = tbs_skelton_news.5.desc
+	picture = GFX_news_ver_GER_remer
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.5.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.6
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.6" }
+	title = tbs_skelton_news.6.title
+	desc = tbs_skelton_news.6.desc
+	picture = GFX_news_ver_GER_grohe
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.6.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.7
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.7" }
+	title = tbs_skelton_news.7.title
+	desc = tbs_skelton_news.7.desc
+	picture = GFX_news_ver_GER_schirach
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.7.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.8
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.8" }
+	title = tbs_skelton_news.8.title
+	desc = tbs_skelton_news.8.desc
+	picture = GFX_news_ver_GBR_purge
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.8.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.9
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.9" }
+	title = tbs_skelton_news.9.title
+	desc = tbs_skelton_news.9.desc
+	picture = GFX_news_ver_USA_newyork
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.9.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.10
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.10" }
+	title = tbs_skelton_news.10.title
+	desc = tbs_skelton_news.10.desc
+	picture = GFX_news_ver_ITA_nuke_factory
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.10.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.11
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.11" }
+	title = tbs_skelton_news.11.title
+	desc = tbs_skelton_news.11.desc
+	picture = GFX_news_ver_MAN_emperor
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.11.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.12
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.12" }
+	title = tbs_skelton_news.12.title
+	desc = tbs_skelton_news.12.desc
+	picture = GFX_news_ver_MAN_planning_board
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.12.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.13
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.13" }
+	title = tbs_skelton_news.13.title
+	desc = tbs_skelton_news.13.desc
+	picture = GFX_news_ver_CHL_commies
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.13.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.14
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.14" }
+	title = tbs_skelton_news.14.title
+	desc = tbs_skelton_news.14.desc
+	picture = GFX_news_ver_CHL_pinochet
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.14.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.15
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.15" }
+	title = tbs_skelton_news.15.title
+	desc = tbs_skelton_news.15.desc
+	#picture = 
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.15.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.16
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.16" }
+	title = tbs_skelton_news.16.title
+	desc = tbs_skelton_news.16.desc
+	#picture = 
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.16.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.17
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.17" }
+	title = tbs_skelton_news.17.title
+	desc = tbs_skelton_news.17.desc
+	#picture = 
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.17.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.18
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.18" }
+	title = tbs_skelton_news.18.title
+	desc = tbs_skelton_news.18.desc
+	#picture = 
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.18.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.19
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.19" }
+	title = tbs_skelton_news.19.title
+	desc = tbs_skelton_news.19.desc
+	#picture = 
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.19.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = {
+	id = tbs_skelton_news.20
+	immediate = { log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.20" }
+	title = tbs_skelton_news.20.title
+	desc = tbs_skelton_news.20.desc
+	#picture = 
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = tbs_skelton_news.20.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = { #
+	id = tbs_skelton_news.21
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.21"}
+	title = tbs_skelton_news.21.title
+	desc = tbs_skelton_news.21.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.21.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.22
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.22"}
+	title = tbs_skelton_news.22.title
+	desc = tbs_skelton_news.22.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.22.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.23
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.23"}
+	title = tbs_skelton_news.23.title
+	desc = tbs_skelton_news.23.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.23.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.24
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.24"}
+	title = tbs_skelton_news.24.title
+	desc = tbs_skelton_news.24.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.24.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.25
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.25"}
+	title = tbs_skelton_news.25.title
+	desc = tbs_skelton_news.25.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.25.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.26
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.26"}
+	title = tbs_skelton_news.26.title
+	desc = tbs_skelton_news.26.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.26.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.27
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.27"}
+	title = tbs_skelton_news.27.title
+	desc = tbs_skelton_news.27.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.27.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.28
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.28"}
+	title = tbs_skelton_news.28.title
+	desc = tbs_skelton_news.28.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.28.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.29
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.29"}
+	title = tbs_skelton_news.29.title
+	desc = tbs_skelton_news.29.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.29.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.30
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.30"}
+	title = tbs_skelton_news.30.title
+	desc = tbs_skelton_news.30.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.30.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.31
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.31"}
+	title = tbs_skelton_news.31.title
+	desc = tbs_skelton_news.31.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.31.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.32
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.32"}
+	title = tbs_skelton_news.32.title
+	desc = tbs_skelton_news.32.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.32.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.33
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.33"}
+	title = tbs_skelton_news.33.title
+	desc = tbs_skelton_news.33.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.33.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.34
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.34"}
+	title = tbs_skelton_news.34.title
+	desc = tbs_skelton_news.34.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.34.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.35
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.35"}
+	title = tbs_skelton_news.35.title
+	desc = tbs_skelton_news.35.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.35.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.36
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.36"}
+	title = tbs_skelton_news.36.title
+	desc = tbs_skelton_news.36.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.36.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.37
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.37"}
+	title = tbs_skelton_news.37.title
+	desc = tbs_skelton_news.37.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.37.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.38
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.38"}
+	title = tbs_skelton_news.38.title
+	desc = tbs_skelton_news.38.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.38.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.39
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.39"}
+	title = tbs_skelton_news.39.title
+	desc = tbs_skelton_news.39.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.39.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.40
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.40"}
+	title = tbs_skelton_news.40.title
+	desc = tbs_skelton_news.40.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.40.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.41
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.41"}
+	title = tbs_skelton_news.41.title
+	desc = tbs_skelton_news.41.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.41.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.42
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.42"}
+	title = tbs_skelton_news.42.title
+	desc = tbs_skelton_news.42.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.42.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.43
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.43"}
+	title = tbs_skelton_news.43.title
+	desc = tbs_skelton_news.43.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.43.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.44
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.44"}
+	title = tbs_skelton_news.44.title
+	desc = tbs_skelton_news.44.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.44.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.45
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.45"}
+	title = tbs_skelton_news.45.title
+	desc = tbs_skelton_news.45.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.45.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.46
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.46"}
+	title = tbs_skelton_news.46.title
+	desc = tbs_skelton_news.46.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.46.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.47
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.47"}
+	title = tbs_skelton_news.47.title
+	desc = tbs_skelton_news.47.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.47.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.48
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.48"}
+	title = tbs_skelton_news.48.title
+	desc = tbs_skelton_news.48.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.48.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.49
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.49"}
+	title = tbs_skelton_news.49.title
+	desc = tbs_skelton_news.49.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.49.a
+		ai_chance = { base = 100 }
+		
+	}
+}
+
+news_event = { #
+	id = tbs_skelton_news.50
+	immediate = {log = "[GetDateText]: [FROM.GetName]: event tbs_skelton_news.50"}
+	title = tbs_skelton_news.50.title
+	desc = tbs_skelton_news.50.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = { #
+		name = tbs_skelton_news.50.a
+		ai_chance = { base = 100 }
+		
+	}
+}

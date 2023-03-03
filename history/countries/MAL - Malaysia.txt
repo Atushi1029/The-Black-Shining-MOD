@@ -1,5 +1,5 @@
 ﻿capital = 868
-oob = ""
+#oob = ""
 set_cosmetic_tag = MAL_federation
 set_starting_values = yes
 recruit_character = MAL_abdul_razak_hussein

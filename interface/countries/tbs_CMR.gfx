@@ -4,9 +4,17 @@ spriteTypes = {
 		name = "GFX_idea_CMR_John_Ngu_Foncha"
 		texturefile = "gfx/interface/advisors/CMR/idea_CMR_John_Ngu_Foncha.png"
 	}
+	spriteType = {
+		name = "GFX_idea_CMR_kame_samuel"
+		texturefile = "gfx/interface/advisors/CMR/idea_CMR_kame_samuel.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_CMR_John_Ngu_Foncha"
 		texturefile = "gfx/leaders/CMR/Portrait_CMR_John_Ngu_Foncha.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CMR_Kame_Samuel"
+		texturefile = "gfx/leaders/CMR/Portrait_CMR_Kame_Samuel.png"
 	}
 }

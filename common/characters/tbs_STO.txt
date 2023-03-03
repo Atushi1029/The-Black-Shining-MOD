@@ -109,6 +109,23 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	STO_yoshio_furuie = {
+		name = STO_yoshio_furuie
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Yoshio_Furuie"
+				small = "GFX_idea_STO_yoshio_furuie"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Yoshio_Furuie"
+				small = "GFX_idea_STO_yoshio_furuie"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Yoshio_Furuie"
+				small = "GFX_idea_STO_yoshio_furuie"
+			}
+		}
+	}
 	STO_yuri_vitvitsky = {
 		name = STO_yuri_vitvitsky
 		portraits = {

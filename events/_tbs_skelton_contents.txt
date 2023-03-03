@@ -1,0 +1,435 @@
+add_namespace = tbs_skelton
+country_event = {
+	id = tbs_skelton.0
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.0" }
+	title = tbs_skelton.0.title
+	desc = tbs_skelton.0.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.0.a
+		ai_chance = { base = 100 }
+		if = {
+			limit = { has_character = FER_georgy_gins }
+			retire_character = FER_georgy_gins
+		}
+		if = {
+			limit = { has_character = FER_rostislav_kolchak }
+			add_country_leader_role = {
+				character = FER_rostislav_kolchak
+				country_leader = {
+					desc = "POLITICS_ROSTISLAV_KOLCHAK_DESC"
+					ideology = authoritarian_democracy_ideology
+					expire = "1989.1.1.1"
+					id = -1
+					traits = {}
+				}
+				promote_leader = yes
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = tbs_skelton.1
+				days = 10
+			}
+			news_event = tbs_skelton_news.0
+		}
+	}
+}
+country_event = {
+	id = tbs_skelton.1
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.1" }
+	title = tbs_skelton.1.title
+	desc = tbs_skelton.1.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.1.a
+		ai_chance = { base = 25 }
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.1
+				hours = 6
+			}
+		}
+	}
+	option = {
+		name = tbs_skelton.1.b
+		ai_chance = { base = 25 }
+		set_politics = {
+			ruling_party = paternal_autocracy
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = paternal_autocracy
+			popularity = 0.3
+		}
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.2
+				hours = 6
+			}
+		}
+	}
+	option = {
+		name = tbs_skelton.1.c
+		ai_chance = { base = 25 }
+		set_politics = {
+			ruling_party = national_corporatism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_corporatism
+			popularity = 0.3
+		}
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.3
+				hours = 6
+			}
+		}
+	}
+	option = {
+		name = tbs_skelton.1.d
+		ai_chance = { base = 25 }
+		set_politics = {
+			ruling_party = national_socialism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_socialism
+			popularity = 0.3
+		}
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.4
+				hours = 6
+			}
+		}
+	}
+}
+country_event = {
+	id = tbs_skelton.2
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.2" }
+	title = tbs_skelton.2.title
+	desc = tbs_skelton.2.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.2.a
+		ai_chance = { base = 40 }
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.5
+				hours = 6
+			}
+		}
+	}
+	option = {
+		name = tbs_skelton.2.b
+		ai_chance = { base = 30 }
+		if = {
+			limit = { has_character = GER_josef_grohe }
+			add_country_leader_role = {
+				character = GER_josef_grohe
+				country_leader = {
+					desc = "POLITICS_JOSEF_GROHE_DESC"
+					ideology = national_socialism_ideology
+					expire = "1987.12.27.1"
+					id = -1
+					traits = {}
+				}
+				promote_leader = yes
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.6
+				hours = 6
+			}
+		}
+	}
+	option = {
+		name = tbs_skelton.2.c
+		ai_chance = { base = 30 }
+		set_politics = {
+			ruling_party = national_corporatism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_corporatism
+			popularity = 0.3
+		}
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.7
+				hours = 6
+			}
+		}
+	}
+}
+country_event = {
+	id = tbs_skelton.3
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.3" }
+	title = tbs_skelton.3.title
+	desc = tbs_skelton.3.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.3.a
+		ai_chance = { base = 50 }
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.11
+				hours = 6
+			}
+		}
+	}
+	option = {
+		name = tbs_skelton.3.b
+		ai_chance = { base = 50 }
+		set_politics = {
+			ruling_party = moderate_socialism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.4
+		}
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.12
+				hours = 6
+			}
+		}
+	}
+}
+country_event = {
+	id = tbs_skelton.4
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.4" }
+	title = tbs_skelton.4.title
+	desc = tbs_skelton.4.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.4.a
+		ai_chance = { base = 50 }
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.13
+				hours = 6
+			}
+		}
+	}
+	option = {
+		name = tbs_skelton.4.b
+		ai_chance = { base = 50 }
+		set_politics = {
+			ruling_party = paternal_autocracy
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = paternal_autocracy
+			popularity = 0.4
+		}
+		hidden_effect = {
+			news_event = {
+				id = tbs_skelton_news.14
+				hours = 6
+			}
+		}
+	}
+}
+country_event = {
+	id = tbs_skelton.5
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.5" }
+	title = tbs_skelton.5.title
+	desc = tbs_skelton.5.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.5.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.6
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.6" }
+	title = tbs_skelton.6.title
+	desc = tbs_skelton.6.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.6.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.7
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.7" }
+	title = tbs_skelton.7.title
+	desc = tbs_skelton.7.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.7.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.8
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.8" }
+	title = tbs_skelton.8.title
+	desc = tbs_skelton.8.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.8.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.9
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.9" }
+	title = tbs_skelton.9.title
+	desc = tbs_skelton.9.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.9.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.10
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.10" }
+	title = tbs_skelton.10.title
+	desc = tbs_skelton.10.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.10.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.11
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.11" }
+	title = tbs_skelton.11.title
+	desc = tbs_skelton.11.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.11.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.12
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.12" }
+	title = tbs_skelton.12.title
+	desc = tbs_skelton.12.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.12.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.13
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.13" }
+	title = tbs_skelton.13.title
+	desc = tbs_skelton.13.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.13.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.14
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.14" }
+	title = tbs_skelton.14.title
+	desc = tbs_skelton.14.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.14.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.15
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.15" }
+	title = tbs_skelton.15.title
+	desc = tbs_skelton.15.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.15.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.16
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.16" }
+	title = tbs_skelton.16.title
+	desc = tbs_skelton.16.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.16.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.17
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.17" }
+	title = tbs_skelton.17.title
+	desc = tbs_skelton.17.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.17.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.18
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.18" }
+	title = tbs_skelton.18.title
+	desc = tbs_skelton.18.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.18.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.19
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.19" }
+	title = tbs_skelton.19.title
+	desc = tbs_skelton.19.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.19.a
+		ai_chance = { base = 100 }
+	}
+}
+country_event = {
+	id = tbs_skelton.20
+	immediate = { log = "[GetDateText]: [ROOT.GetName]: event tbs_skelton.20" }
+	title = tbs_skelton.20.title
+	desc = tbs_skelton.20.desc
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = tbs_skelton.20.a
+		ai_chance = { base = 100 }
+	}
+}
+

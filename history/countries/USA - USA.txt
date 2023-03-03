@@ -109,3 +109,7 @@ add_to_faction = BLZ
 add_to_faction = CAN
 add_to_faction = COL
 add_to_faction = NZL
+news_event = {
+	id = tbs_skelton_news.9
+	days = 1990
+}

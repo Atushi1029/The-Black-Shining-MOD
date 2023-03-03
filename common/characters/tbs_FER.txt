@@ -23,6 +23,23 @@ characters = {
 			traits = {}
 		}
 	}
+	FER_alexander_dubcek = {
+		name = FER_alexander_dubcek
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Alexander_Dubcek"
+				small = "GFX_idea_FER_alexander_dubcek"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Alexander_Dubcek"
+				small = "GFX_idea_FER_alexander_dubcek"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Alexander_Dubcek"
+				small = "GFX_idea_FER_alexander_dubcek"
+			}
+		}
+	}
 	FER_andrey_svetzarov = {
 		name = FER_andrey_svetzarov
 		portraits = {
@@ -120,6 +137,59 @@ characters = {
 			traits = {}
 		}
 	}
+	FER_dmitri_volkogonov = {
+		name = FER_dmitri_volkogonov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Dmitri_Volkogonov"
+				small = "GFX_idea_FER_dmitri_volkogonov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Dmitri_Volkogonov"
+				small = "GFX_idea_FER_dmitri_volkogonov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Dmitri_Volkogonov"
+				small = "GFX_idea_FER_dmitri_volkogonov"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	FER_dmitry_likhachyov = {
+		name = FER_dmitry_likhachyov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Dmitry_Likhachyov"
+				small = "GFX_idea_FER_dmitry_likhachyov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Dmitry_Likhachyov"
+				small = "GFX_idea_FER_dmitry_likhachyov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Dmitry_Likhachyov"
+				small = "GFX_idea_FER_dmitry_likhachyov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DMITRY_LIKHACHYOV_DESC"
+			ideology = social_conservatism_ideology
+			expire = "1999.9.30.1"
+			id = -1
+			traits = {}
+		}
+	}
 	FER_donat_yosefovich_kunle = {
 		name = FER_donat_yosefovich_kunle
 		portraits = {
@@ -208,6 +278,23 @@ characters = {
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
+		}
+	}
+	FER_georgy_ignatiev = {
+		name = FER_georgy_ignatiev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Georgy_Ignatiev"
+				small = "GFX_idea_FER_georgy_ignatiev"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Georgy_Ignatiev"
+				small = "GFX_idea_FER_georgy_ignatiev"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Georgy_Ignatiev"
+				small = "GFX_idea_FER_georgy_ignatiev"
+			}
 		}
 	}
 	FER_georgy_shekherev = {
@@ -301,6 +388,30 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = -1
+		}
+	}
+	FER_ivan_sevastyanov = {
+		name = FER_ivan_sevastyanov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Ivan_Sevastyanov"
+				small = "GFX_idea_FER_ivan_sevastyanov"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Ivan_Sevastyanov"
+				small = "GFX_idea_FER_ivan_sevastyanov"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Ivan_Sevastyanov"
+				small = "GFX_idea_FER_ivan_sevastyanov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IVAN_SEVASTYANOV_DESC"
+			ideology = syndicalism_ideology
+			expire = "1996.3.20.1"
+			id = -1
+			traits = {}
 		}
 	}
 	FER_konstantin_rodzaevsky = {
@@ -449,6 +560,30 @@ characters = {
 				large = "GFX_Portrait_FER_Nikolay_Zaerko"
 				small = "GFX_idea_FER_nikolay_zaerko"
 			}
+		}
+	}
+	FER_pavel_grachev = {
+		name = FER_pavel_grachev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Pavel_Grachev"
+				small = "GFX_idea_FER_pavel_grachev"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Pavel_Grachev"
+				small = "GFX_idea_FER_pavel_grachev"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Pavel_Grachev"
+				small = "GFX_idea_FER_pavel_grachev"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PAVEL_GRACHEV_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "2012.9.23.1"
+			id = -1
+			traits = {}
 		}
 	}
 	FER_pyotr_wrangel_ii = {

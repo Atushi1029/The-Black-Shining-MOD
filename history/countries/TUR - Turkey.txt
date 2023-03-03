@@ -1,5 +1,5 @@
 ﻿capital = 49
-oob = ""
+#oob = ""
 set_cosmetic_tag = TUR_republic
 set_starting_values = yes
 recruit_character = TUR_tekin_ariburun

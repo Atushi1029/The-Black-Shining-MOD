@@ -1,0 +1,212 @@
+defined_text = { 
+	name = GetShakakudoLeftName
+	text = { localization_key = JAP_shakakudo_leftists_name }
+}
+defined_text = { 
+	name = GetShakakudoNeoconName
+	text = { localization_key = JAP_shakakudo_neocon_name }
+}
+defined_text = { 
+	name = GetShakakudoNishioName
+	text = { localization_key = JAP_shakakudo_nishio_name }
+}
+defined_text = { 
+	name = GetKentetsuMinseiName
+	text = { localization_key = JAP_kentetsu_minsei_name }
+}
+defined_text = { 
+	name = GetKentetsuRefName
+	text = { localization_key = JAP_kentetsu_reformists_name }
+}
+defined_text = { 
+	name = GetKyokaNakasoneName
+	text = { localization_key = JAP_kyoka_nakasone_name }
+}
+defined_text = { 
+	name = GetKyokaConsName
+	text = { localization_key = JAP_kyoka_cons_name }
+}
+defined_text = { 
+	name = GetMushozokuName
+	text = { localization_key = JAP_mushozoku_name }
+}
+defined_text = { 
+	name = GetYPELeader
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = "GFX_Portrait_JAP_Kei_Hoashi"
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = "GFX_Portrait_JAP_Saburo_Eda"
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = "GFX_Portrait_JAP_Suehiro_Nishio"
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = "GFX_Portrait_JAP_Takeo_Miki"
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = "GFX_Portrait_JAP_Aiichiro_Fujiyama"
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = "GFX_Portrait_JAP_Yasuhiro_Nakasone"
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = "GFX_Portrait_JAP_Seijuro_Arafune"
+	}
+	text = {
+		trigger = { check_variable = { v = 8 } }
+		localization_key = "GFX_Portrait_JAP_Takeo_Fukuda"
+	}
+	text = { localization_key = "GFX_leader_unknown" }
+}
+defined_text = { 
+	name = GetYPEFactionName
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = "JAP_YPE_faction_1"
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = "JAP_YPE_faction_2"
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = "JAP_YPE_faction_3"
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = "JAP_YPE_faction_4"
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = "JAP_YPE_faction_5"
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = "JAP_YPE_faction_6"
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = "JAP_YPE_faction_7"
+	}
+	text = {
+		trigger = { check_variable = { v = 8 } }
+		localization_key = "JAP_YPE_faction_8"
+	}
+	text = { localization_key = "JAP_YPE_faction_0" }
+}
+defined_text = {
+	name = GetYPELeaderName
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = JAP_kei_hoashi
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = JAP_saburo_eda
+	}
+	text = {
+		trigger = { check_variable = { v = 3 } }
+		localization_key = JAP_suehiro_nishio
+	}
+	text = {
+		trigger = { check_variable = { v = 4 } }
+		localization_key = JAP_takeo_miki
+	}
+	text = {
+		trigger = { check_variable = { v = 5 } }
+		localization_key = JAP_aiichiro_fujiyama
+	}
+	text = {
+		trigger = { check_variable = { v = 6 } }
+		localization_key = JAP_yasuhiro_nakasone
+	}
+	text = {
+		trigger = { check_variable = { v = 7 } }
+		localization_key = JAP_seijuro_arafune
+	}
+	text = {
+		trigger = { check_variable = { v = 8 } }
+		localization_key = JAP_takeo_fukuda
+	}
+	text = { localization_key = UNIT_LEADER_NO_LEADER }
+}
+defined_text = {
+	name = GetYPELeaderDesc
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = POLITICS_KEI_HOASHI_DESC
+	}
+	text = { localization_key = "" }
+}
+defined_text = { 
+	name = GetMajorityFaction
+	text = {
+		trigger = { JAP_YSK_shakakudo_leftists_majority = yes }
+		localization_key = JAP_moderate_socialism_party
+	}
+	text = {
+		trigger = { JAP_YSK_shakakudo_neoconstitutionalists_majority = yes }
+		localization_key = JAP_social_democracy_party
+	}
+	text = {
+		trigger = { JAP_YSK_shakakudo_nishio_majority = yes }
+		localization_key = JAP_yokusankai_party_shakakudo_nishio
+	}
+	text = {
+		trigger = { JAP_YSK_kentetsukai_minsei_majority = yes }
+		localization_key = JAP_authoritarian_democracy_party_80s
+	}
+	text = {
+		trigger = { JAP_YSK_kentetsukai_reformists_majority = yes }
+		localization_key = JAP_social_conservatism_party
+	}
+	text = {
+		trigger = { JAP_YSK_kyokakai_nakasone_majority = yes }
+		localization_key = JAP_yokusankai_party_kyokakai_nakasone
+	}
+	text = {
+		trigger = { JAP_YSK_kyokakai_conservatives_majority = yes }
+		localization_key = JAP_national_corporatism_party
+	}
+	text = { localization_key = JAP_authoritarian_democracy_party }
+}
+defined_text = { 
+	name = GetYokusankaiLeader
+	text = {
+		trigger = { JAP_YSK_shakakudo_leftists_majority = yes }
+		localization_key = JAP_kei_hoashi
+	}
+	text = {
+		trigger = { JAP_YSK_shakakudo_neoconstitutionalists_majority = yes }
+		localization_key = JAP_saburo_eda
+	}
+	text = {
+		trigger = { JAP_YSK_shakakudo_nishio_majority = yes }
+		localization_key = JAP_suehiro_nishio
+	}
+	text = {
+		trigger = { JAP_YSK_kentetsukai_minsei_majority = yes }
+		localization_key = JAP_takeo_miki
+	}
+	text = {
+		trigger = { JAP_YSK_kentetsukai_reformists_majority = yes }
+		localization_key = JAP_aiichiro_fujiyama
+	}
+	text = {
+		trigger = { JAP_YSK_kyokakai_nakasone_majority = yes }
+		localization_key = JAP_yasuhiro_nakasone
+	}
+	text = {
+		trigger = { JAP_YSK_kyokakai_conservatives_majority = yes }
+		localization_key = JAP_seijuro_arafune
+	}
+	text = { localization_key = JAP_takeo_fukuda }
+}

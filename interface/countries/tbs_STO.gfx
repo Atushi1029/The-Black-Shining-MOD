@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/STO/idea_STO_takeshi_misumi.png"
 	}
 	spriteType = {
+		name = "GFX_idea_STO_yoshio_furuie"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_yoshio_furuie.png"
+	}
+	spriteType = {
 		name = "GFX_idea_STO_yuri_vitvitsky"
 		texturefile = "gfx/interface/advisors/STO/idea_STO_yuri_vitvitsky.png"
 	}
@@ -36,6 +40,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_STO_Takeshi_Misumi"
 		texturefile = "gfx/leaders/STO/Portrait_STO_Takeshi_Misumi.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_STO_Yoshio_Furuie"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Yoshio_Furuie.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_STO_Yuri_Vitvitsky"

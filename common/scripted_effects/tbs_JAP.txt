@@ -1,0 +1,133 @@
+JAP_yokusan_election_recalculation = {
+	if = {
+		limit = { check_variable = { yokusankai_support_temp > 0 } }
+		custom_effect_tooltip = JAP_yokusan_election_recalculation_increase_tt
+	}
+	else = {
+		set_temp_variable = { yokusankai_support_minus_temp = yokusankai_support_temp }
+		multiply_temp_variable = { yokusankai_support_minus_temp = -1 }
+		custom_effect_tooltip = JAP_yokusan_election_recalculation_decrease_tt
+	}
+	hidden_effect = {
+		if = {
+			limit = { NOT = { has_variable = yokusankai_support_temp } }
+			set_temp_variable = { yokusankai_support_temp = 0 }
+		}
+		clamp_variable = { 
+			var = yokusankai_recommended
+			min = 0
+			max = 466
+		}
+		set_temp_variable = { yokusankai_unrecommended_temp = 466 }
+		subtract_from_temp_variable = { yokusankai_unrecommended_temp = yokusankai_recommended }
+		set_variable = { yokusankai_unrecommended = yokusankai_unrecommended_temp }
+		set_temp_variable = { yokusankai_recommended_minus_temp = yokusankai_recommended }
+		multiply_temp_variable = { yokusankai_recommended_minus_temp = -1 }
+		clamp_temp_variable = {
+			var = yokusankai_support_temp
+			min = yokusankai_recommended_minus_temp
+			max = yokusankai_unrecommended
+		}
+		if = {
+			limit = { check_variable = { yokusankai_support_temp > 0 } }
+			add_to_variable = { yokusankai_recommended = yokusankai_support_temp }
+			subtract_from_variable = { yokusankai_unrecommended = yokusankai_support_temp }
+		}
+		else = {
+			multiply_temp_variable = { yokusankai_support_temp = -1 }
+			add_to_variable = { yokusankai_unrecommended = yokusankai_support_temp }
+			subtract_from_variable = { yokusankai_recommended = yokusankai_support_temp }
+		}
+		set_temp_variable = { yokusankai_temp = yokusankai_recommended }
+		divide_temp_variable = { yokusankai_temp = 466 }
+		multiply_temp_variable = { yokusankai_temp = 21 }
+		round_temp_variable = yokusankai_temp
+		if = {
+			limit = { check_variable = { yokusankai_temp > 0 } }
+			clamp_temp_variable = {
+				var = yokusankai_temp
+				min = 1
+				max = 21
+			}
+		}
+		else = { set_temp_variable = { yokusankai_temp = 1 } }
+		set_variable = { yokusankai_frame = yokusankai_temp }
+	}
+}
+JAP_setup_yokusan_primary_election_gui = {
+	hidden_effect = {
+		for_loop_effect = {
+			start = 1
+			end = 8
+			compare = less_than_or_equals
+			add_to_array = { JAP_YPE_array = v }
+		}
+		set_temp_variable = { JAP_YPE_total = JAP_YSK_shakakudo_leftists }
+		add_to_temp_variable = { JAP_YPE_total = JAP_YSK_shakakudo_neoconstitutionalists }
+		add_to_temp_variable = { JAP_YPE_total = JAP_YSK_shakakudo_nishio }
+		add_to_temp_variable = { JAP_YPE_total = JAP_YSK_kentetsukai_minsei }
+		add_to_temp_variable = { JAP_YPE_total = JAP_YSK_kentetsukai_reformists }
+		add_to_temp_variable = { JAP_YPE_total = JAP_YSK_kyokakai_nakasone }
+		add_to_temp_variable = { JAP_YPE_total = JAP_YSK_kyokakai_conservatives }
+		add_to_temp_variable = { JAP_YPE_total = JAP_YSK_mushozoku }
+		#SKD-Leftists
+		set_temp_variable = { JAP_SKD_left_temp = JAP_YSK_shakakudo_leftists }
+		divide_temp_variable = { JAP_SKD_left_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_SKD_left_temp = 100 }
+		round_temp_variable = JAP_SKD_left_temp
+		#SKD-NeoCons
+		set_temp_variable = { JAP_SKD_neocon_temp = JAP_YSK_shakakudo_neoconstitutionalists }
+		divide_temp_variable = { JAP_SKD_neocon_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_SKD_neocon_temp = 100 }
+		round_temp_variable = JAP_SKD_neocon_temp
+		#SKD-Nishios
+		set_temp_variable = { JAP_SKD_nishio_temp = JAP_YSK_shakakudo_nishio }
+		divide_temp_variable = { JAP_SKD_nishio_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_SKD_nishio_temp = 100 }
+		round_temp_variable = JAP_SKD_nishio_temp
+		#KTK-Mikists
+		set_temp_variable = { JAP_KTK_miki_temp = JAP_YSK_kentetsukai_minsei }
+		divide_temp_variable = { JAP_KTK_miki_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_KTK_miki_temp = 100 }
+		round_temp_variable = JAP_KTK_miki_temp
+		#KTK-Refs
+		set_temp_variable = { JAP_KTK_refs_temp = JAP_YSK_kentetsukai_reformists }
+		divide_temp_variable = { JAP_KTK_refs_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_KTK_refs_temp = 100 }
+		round_temp_variable = JAP_KTK_refs_temp
+		#KKK-Nakasones
+		set_temp_variable = { JAP_KKK_nakasone_temp = JAP_YSK_kyokakai_nakasone }
+		divide_temp_variable = { JAP_KKK_nakasone_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_KKK_nakasone_temp = 100 }
+		round_temp_variable = JAP_KKK_nakasone_temp
+		#KKK-Cons
+		set_temp_variable = { JAP_KKK_cons_temp = JAP_YSK_kyokakai_conservatives }
+		divide_temp_variable = { JAP_KKK_cons_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_KKK_cons_temp = 100 }
+		round_temp_variable = JAP_KKK_cons_temp
+		#KKK-Mushozoku
+		set_temp_variable = { JAP_mushozoku_temp = JAP_YSK_mushozoku }
+		divide_temp_variable = { JAP_mushozoku_temp = JAP_YPE_total }
+		multiply_temp_variable = { JAP_mushozoku_temp = 100 }
+		round_temp_variable = JAP_mushozoku_temp
+		add_to_array = { JAP_YPE_array_popularity = 0 } #Dummy
+		add_to_array = { JAP_YPE_array_popularity = JAP_SKD_left_temp }
+		add_to_array = { JAP_YPE_array_popularity = JAP_SKD_neocon_temp }
+		add_to_array = { JAP_YPE_array_popularity = JAP_SKD_nishio_temp }
+		add_to_array = { JAP_YPE_array_popularity = JAP_KTK_miki_temp }
+		add_to_array = { JAP_YPE_array_popularity = JAP_KTK_refs_temp }
+		add_to_array = { JAP_YPE_array_popularity = JAP_KKK_nakasone_temp }
+		add_to_array = { JAP_YPE_array_popularity = JAP_KKK_cons_temp }
+		add_to_array = { JAP_YPE_array_popularity = JAP_mushozoku_temp }
+	}
+}
+JAP_clear_yokusan_primary_election_gui = {
+	hidden_effect = {
+		clear_array = JAP_YPE_array
+		clear_array = JAP_YPE_array_popularity
+	}
+}
+JAP_reload_yokusan_primary_election_gui = {
+	JAP_clear_yokusan_primary_election_gui = yes
+	JAP_setup_yokusan_primary_election_gui = yes
+}

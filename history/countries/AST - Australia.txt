@@ -1,5 +1,5 @@
 ﻿capital = 285
-oob = ""
+#oob = ""
 set_cosmetic_tag = AST_commonwealth
 set_starting_values = yes
 recruit_character = AST_william_mcmahon

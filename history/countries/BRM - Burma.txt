@@ -1,5 +1,5 @@
 ﻿capital = 288
-oob = ""
+#oob = ""
 set_cosmetic_tag = BRM_republic
 set_starting_values = yes
 recruit_character = BRM_ne_win

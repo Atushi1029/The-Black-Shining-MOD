@@ -4,8 +4,8 @@ add_proxy_war_conflict_tab = {
 		limit = { NOT = { is_in_array = { active_conflicts = conflict_id } } }
 		add_to_array = { active_conflicts = conflict_id }
 		set_variable = { selected_conflict_id = conflict_id }
-		clear_array = world_conflict_guis
-		add_to_array = { world_conflict_guis = selected_conflict_id }
+		clear_array = JAP_yokusan_election_guis
+		add_to_array = { JAP_yokusan_election_guis = selected_conflict_id }
 		clear_array = world_conflict_selected
 		resize_array = { array = world_conflict_selected value = 1 size = 50 }
 		set_variable = { world_conflict_selected^selected_conflict_id = 2 }
@@ -23,11 +23,11 @@ remove_proxy_war_conflict_tab = {
 		set_variable = { selected_conflict_id = -1 }
 		if = {
 			limit = { check_variable = { active_conflicts^num > 0 } }
-			set_temp_variable = { next_conflict_idx = active_conflicts^num }
-			subtract_from_temp_variable = { next_conflict_idx = 1 }
-			set_variable = { selected_conflict_id = active_conflicts^next_conflict_idx }
-			clear_array = world_conflict_guis
-			add_to_array = { world_conflict_guis = selected_conflict_id }
+			set_temp_variable = { next_yokusan_leader_index = active_conflicts^num }
+			subtract_from_temp_variable = { next_yokusan_leader_index = 1 }
+			set_variable = { selected_conflict_id = active_conflicts^next_yokusan_leader_index }
+			clear_array = JAP_yokusan_election_guis
+			add_to_array = { JAP_yokusan_election_guis = selected_conflict_id }
 			clear_array = world_conflict_selected
 			resize_array = { array = world_conflict_selected value = 1 size = 50 }
 			set_variable = { world_conflict_selected^selected_conflict_id = 2 }

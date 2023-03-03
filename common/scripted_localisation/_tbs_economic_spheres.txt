@@ -1,0 +1,18 @@
+defined_text = {
+	name = GetEconomicSphereName
+	text = {
+		trigger = { check_variable = { ROOT.economic_sphere_leader = GER } }
+		localization_key = GER_zollverein_tt
+	}
+	text = {
+		localization_key = GENERIC_econ_sphere_tt
+	}
+}
+defined_text = {
+	name = GetEconomicSphereIcon
+	text = {
+		trigger = { check_variable = { ROOT.economic_sphere_leader = GER } }
+		localization_key = "GFX_eco_zollverein"
+	}
+	text = { localization_key = "GFX_pol_piechart_overlay" }
+}

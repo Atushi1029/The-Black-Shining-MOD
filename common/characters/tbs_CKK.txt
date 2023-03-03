@@ -16,9 +16,33 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_MICHAEL_FEODOROVICH_DESC"
+			desc = "POLITICS_MIKHAIL_ROMANOV_DESC"
 			ideology = national_corporatism_ideology
 			expire = "2008.9.22.1"
+			id = -1
+			traits = {}
+		}
+	}
+	CKK_yuri_rytkheu = {
+		name = CKK_yuri_rytkheu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CKK_Yuri_Rytkheu"
+				small = "GFX_idea_CKK_yuri_rytkheu"
+			}
+			army = {
+				large = "GFX_Portrait_CKK_Yuri_Rytkheu"
+				small = "GFX_idea_CKK_yuri_rytkheu"
+			}
+			navy = {
+				large = "GFX_Portrait_CKK_Yuri_Rytkheu"
+				small = "GFX_idea_CKK_yuri_rytkheu"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YURI_RYTKHEU_DESC"
+			ideology = social_liberalism_ideology
+			expire = "2008.5.14.1"
 			id = -1
 			traits = {}
 		}

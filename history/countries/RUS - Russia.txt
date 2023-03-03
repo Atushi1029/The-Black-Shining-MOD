@@ -1,5 +1,5 @@
 ﻿capital = 653
-oob = ""
+#oob = ""
 set_cosmetic_tag = RUS_republic
 set_starting_values = yes
 recruit_character = RUS_irina_yusupova

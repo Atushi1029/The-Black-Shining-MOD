@@ -1,5 +1,5 @@
 ﻿capital = 79
-oob = ""
+#oob = ""
 set_cosmetic_tag = ROM_peoples_government
 set_starting_values = yes
 recruit_character = RPG_corneliu_manescu

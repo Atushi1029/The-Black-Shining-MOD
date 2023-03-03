@@ -1,5 +1,5 @@
 ﻿capital = 405
-oob = ""
+#oob = ""
 set_cosmetic_tag = UZB_socialist_republic
 set_starting_values = yes
 recruit_character = UZB_sobir_kamolov

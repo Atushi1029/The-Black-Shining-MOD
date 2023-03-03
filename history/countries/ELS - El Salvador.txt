@@ -1,5 +1,5 @@
 ﻿capital = 314
-oob = ""
+#oob = ""
 set_cosmetic_tag = ELS_republic
 set_starting_values = yes
 recruit_character = ELS_arturo_armando_molina

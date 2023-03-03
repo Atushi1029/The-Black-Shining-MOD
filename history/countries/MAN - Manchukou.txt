@@ -1,12 +1,17 @@
-﻿capital =328
-oob = ""
+﻿capital = 328
+#oob = ""
 set_cosmetic_tag = MAN_state
 set_starting_values = yes
 recruit_character = MAN_aisin_gioro_yuyan
+recruit_character = MAN_goro_takeda
+recruit_character = MAN_hiroo_wada
 recruit_character = MAN_hisaya_morishige
+recruit_character = MAN_katsuji_kawamata
 recruit_character = MAN_kazuo_nonomura
 recruit_character = MAN_kichihei_hanano
+recruit_character = MAN_seiji_ozawa
 recruit_character = MAN_takeo_ito
+recruit_character = MAN_tetsuzo_fuyushiba
 recruit_character = MAN_toshio_hoshiko
 recruit_character = MAN_yoshimitsu_baba
 recruit_character = MAN_zhang_shaoji
@@ -38,3 +43,7 @@ add_ideas = {
 	}
 }
 join_the_coalition_national_corporatism = yes
+country_event = {
+	id = tbs_skelton.3
+	days = 500
+}

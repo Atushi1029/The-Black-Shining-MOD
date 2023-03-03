@@ -22,10 +22,10 @@ spriteTypes = {
 
 	corneredTileSpriteType = {
 		name = "GFX_event_report_tileable_midsection"
-		size = { x = 580 y = 66 }		
+		size = { x = 646 y = 168 }
 		textureFile = "gfx/interface/events/tbs_event_report_tileable_midsection.png"
-		borderSize = { x = 290 y = 16 }
-		alwaystransparent = yes			
+		borderSize = { x = 646 y = 24 }
+		alwaystransparent = yes
 	}
 
 	corneredTileSpriteType = {

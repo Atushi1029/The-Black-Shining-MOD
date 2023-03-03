@@ -81,4 +81,21 @@ characters = {
 			traits = {}
 		}
 	}
+	HUN_otto_von_habsburg = {
+		name = HUN_otto_von_habsburg
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HUN_Otto_von_Habsburg_tbs"
+				small = "GFX_idea_HUN_otto_von_habsburg"
+			}
+			army = {
+				large = "GFX_Portrait_HUN_Otto_von_Habsburg_tbs"
+				small = "GFX_idea_HUN_otto_von_habsburg"
+			}
+			navy = {
+				large = "GFX_Portrait_HUN_Otto_von_Habsburg_tbs"
+				small = "GFX_idea_HUN_otto_von_habsburg"
+			}
+		}
+	}
 }
