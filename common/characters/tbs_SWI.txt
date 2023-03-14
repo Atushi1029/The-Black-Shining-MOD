@@ -31,7 +31,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}

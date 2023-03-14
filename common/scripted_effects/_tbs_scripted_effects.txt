@@ -1,3 +1,22 @@
+remove_all_ministers = {
+	hidden_effect = {
+		remove_ideas_with_trait = tbs_head_of_government
+		remove_ideas_with_trait = tbs_interior_minister
+		remove_ideas_with_trait = tbs_foreign_minister
+		remove_ideas_with_trait = tbs_economy_minister
+		remove_ideas_with_trait = tbs_justice_minister
+		remove_ideas_with_trait = tbs_security_minister
+	}
+}
+remove_all_ministers_without_hog = {
+	hidden_effect = {
+		remove_ideas_with_trait = tbs_interior_minister
+		remove_ideas_with_trait = tbs_foreign_minister
+		remove_ideas_with_trait = tbs_economy_minister
+		remove_ideas_with_trait = tbs_justice_minister
+		remove_ideas_with_trait = tbs_security_minister
+	}
+}
 set_num_volunteers = {
 	hidden_effect = {
 		meta_effect = { 
@@ -383,6 +402,19 @@ end_coalition = {
 		clear_array = coalition_partners
 	}
 }
+join_the_coalition_neo_communism = {
+	custom_effect_tooltip = join_the_coalition_neo_communism_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_a_coalition_with_neo_communism = no
+				NOT = { has_government = neo_communism }
+			}
+			set_temp_variable = { coalition_partner_var = token:neo_communism }
+			add_to_coalition = yes
+		}
+	}
+}
 join_the_coalition_totalitarian_socialism = {
 	custom_effect_tooltip = join_the_coalition_totalitarian_socialism_tt
 	hidden_effect = {
@@ -396,28 +428,15 @@ join_the_coalition_totalitarian_socialism = {
 		}
 	}
 }
-join_the_coalition_radical_socialism = {
-	custom_effect_tooltip = join_the_coalition_radical_socialism_tt
+join_the_coalition_gradual_socialism = {
+	custom_effect_tooltip = join_the_coalition_gradual_socialism_tt
 	hidden_effect = {
 		if = {
 			limit = {
-				has_a_coalition_with_radical_socialism = no
-				NOT = { has_government = radical_socialism }
+				has_a_coalition_with_gradual_socialism = no
+				NOT = { has_government = gradual_socialism }
 			}
-			set_temp_variable = { coalition_partner_var = token:radical_socialism }
-			add_to_coalition = yes
-		}
-	}
-}
-join_the_coalition_moderate_socialism = {
-	custom_effect_tooltip = join_the_coalition_moderate_socialism_tt
-	hidden_effect = {
-		if = {
-			limit = {
-				has_a_coalition_with_moderate_socialism = no
-				NOT = { has_government = moderate_socialism }
-			}
-			set_temp_variable = { coalition_partner_var = token:moderate_socialism }
+			set_temp_variable = { coalition_partner_var = token:gradual_socialism }
 			add_to_coalition = yes
 		}
 	}
@@ -448,15 +467,15 @@ join_the_coalition_liberal_democracy = {
 		}
 	}
 }
-join_the_coalition_social_conservatism = {
-	custom_effect_tooltip = join_the_coalition_social_conservatism_tt
+join_the_coalition_conservatism = {
+	custom_effect_tooltip = join_the_coalition_conservatism_tt
 	hidden_effect = {
 		if = {
 			limit = {
-				has_a_coalition_with_social_conservatism = no
-				NOT = { has_government = social_conservatism }
+				has_a_coalition_with_conservatism = no
+				NOT = { has_government = conservatism }
 			}
-			set_temp_variable = { coalition_partner_var = token:social_conservatism }
+			set_temp_variable = { coalition_partner_var = token:conservatism }
 			add_to_coalition = yes
 		}
 	}
@@ -526,29 +545,26 @@ join_the_coalition_ultra_nationalism = {
 		}
 	}
 }
-join_the_coalition_religious_nationalism = {
-	custom_effect_tooltip = join_the_coalition_religious_nationalism_tt
+join_the_coalition_reactionism = {
+	custom_effect_tooltip = join_the_coalition_reactionism_tt
 	hidden_effect = {
 		if = {
 			limit = {
-				has_a_coalition_with_religious_nationalism = no
-				NOT = { has_government = religious_nationalism }
+				has_a_coalition_with_reactionism = no
+				NOT = { has_government = reactionism }
 			}
-			set_temp_variable = { coalition_partner_var = token:religious_nationalism }
+			set_temp_variable = { coalition_partner_var = token:reactionism }
 			add_to_coalition = yes
 		}
 	}
 }
-join_the_coalition_transhumanism = {
-	custom_effect_tooltip = join_the_coalition_transhumanism_tt
+leave_the_coalition_neo_communism = {
+	custom_effect_tooltip = leave_the_coalition_neo_communism_tt
 	hidden_effect = {
 		if = {
-			limit = {
-				has_a_coalition_with_transhumanism = no
-				NOT = { has_government = transhumanism }
-			}
-			set_temp_variable = { coalition_partner_var = token:transhumanism }
-			add_to_coalition = yes
+			limit = { has_a_coalition_with_neo_communism = yes }
+			set_temp_variable = { coalition_partner_var = token:neo_communism }
+			remove_from_coalition = yes
 		}
 	}
 }
@@ -562,22 +578,12 @@ leave_the_coalition_totalitarian_socialism = {
 		}
 	}
 }
-leave_the_coalition_radical_socialism = {
-	custom_effect_tooltip = leave_the_coalition_radical_socialism_tt
+leave_the_coalition_gradual_socialism = {
+	custom_effect_tooltip = leave_the_coalition_gradual_socialism_tt
 	hidden_effect = {
 		if = {
-			limit = { has_a_coalition_with_radical_socialism = yes }
-			set_temp_variable = { coalition_partner_var = token:radical_socialism }
-			remove_from_coalition = yes
-		}
-	}
-}
-leave_the_coalition_moderate_socialism = {
-	custom_effect_tooltip = leave_the_coalition_moderate_socialism_tt
-	hidden_effect = {
-		if = {
-			limit = { has_a_coalition_with_moderate_socialism = yes }
-			set_temp_variable = { coalition_partner_var = token:moderate_socialism }
+			limit = { has_a_coalition_with_gradual_socialism = yes }
+			set_temp_variable = { coalition_partner_var = token:gradual_socialism }
 			remove_from_coalition = yes
 		}
 	}
@@ -602,12 +608,12 @@ leave_the_coalition_liberal_democracy = {
 		}
 	}
 }
-leave_the_coalition_social_conservatism = {
-	custom_effect_tooltip = leave_the_coalition_social_conservatism_tt
+leave_the_coalition_conservatism = {
+	custom_effect_tooltip = leave_the_coalition_conservatism_tt
 	hidden_effect = {
 		if = {
-			limit = { has_a_coalition_with_social_conservatism = yes }
-			set_temp_variable = { coalition_partner_var = token:social_conservatism }
+			limit = { has_a_coalition_with_conservatism = yes }
+			set_temp_variable = { coalition_partner_var = token:conservatism }
 			remove_from_coalition = yes
 		}
 	}
@@ -662,25 +668,24 @@ leave_the_coalition_ultra_nationalism = {
 		}
 	}
 }
-leave_the_coalition_religious_nationalism = {
-	custom_effect_tooltip = leave_the_coalition_religious_nationalism_tt
+leave_the_coalition_reactionism = {
+	custom_effect_tooltip = leave_the_coalition_reactionism_tt
 	hidden_effect = {
 		if = {
-			limit = { has_a_coalition_with_religious_nationalism = yes }
-			set_temp_variable = { coalition_partner_var = token:religious_nationalism }
+			limit = { has_a_coalition_with_reactionism = yes }
+			set_temp_variable = { coalition_partner_var = token:reactionism }
 			remove_from_coalition = yes
 		}
 	}
 }
-leave_the_coalition_transhumanism = {
-	custom_effect_tooltip = leave_the_coalition_transhumanism_tt
-	hidden_effect = {
-		if = {
-			limit = { has_a_coalition_with_transhumanism = yes }
-			set_temp_variable = { coalition_partner_var = token:transhumanism }
-			remove_from_coalition = yes
-		}
+form_neo_communism_government = {
+	set_politics = {
+		ruling_party = neo_communism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
+	set_popularities = { neo_communism = 100 }
 }
 form_totalitarian_socialism_government = {
 	set_politics = {
@@ -691,23 +696,14 @@ form_totalitarian_socialism_government = {
 	}
 	set_popularities = { totalitarian_socialism = 100 }
 }
-form_radical_socialism_government = {
+form_gradual_socialism_government = {
 	set_politics = {
-		ruling_party = radical_socialism
+		ruling_party = gradual_socialism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
-	set_popularities = { radical_socialism = 100 }
-}
-form_moderate_socialism_government = {
-	set_politics = {
-		ruling_party = moderate_socialism
-		last_election = "1972.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = { moderate_socialism = 100 }
+	set_popularities = { gradual_socialism = 100 }
 }
 form_social_democracy_government = {
 	set_politics = {
@@ -727,14 +723,14 @@ form_liberal_democracy_government = {
 	}
 	set_popularities = { liberal_democracy = 100 }
 }
-form_social_conservatism_government = {
+form_conservatism_government = {
 	set_politics = {
-		ruling_party = social_conservatism
+		ruling_party = conservatism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
-	set_popularities = { social_conservatism = 100 }
+	set_popularities = { conservatism = 100 }
 }
 form_authoritarian_democracy_government = {
 	set_politics = {
@@ -745,7 +741,7 @@ form_authoritarian_democracy_government = {
 	}
 	set_popularities = { authoritarian_democracy = 100 }
 }
-form__government = {
+form_paternal_autocracy_government = {
 	set_politics = {
 		ruling_party = paternal_autocracy
 		last_election = "1972.1.1"
@@ -781,23 +777,14 @@ form_ultra_nationalism_government = {
 	}
 	set_popularities = { ultra_nationalism = 100 }
 }
-form_religious_nationalism_government = {
+form_reactionism_government = {
 	set_politics = {
-		ruling_party = religious_nationalism
+		ruling_party = reactionism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
-	set_popularities = { religious_nationalism = 100 }
-}
-form_transhumanism_government = {
-	set_politics = {
-		ruling_party = transhumanism
-		last_election = "1972.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = { transhumanism = 100 }
+	set_popularities = { reactionism = 100 }
 }
 form_dynamic_government = {
 	set_politics = {
@@ -807,19 +794,18 @@ form_dynamic_government = {
 		elections_allowed = no
 	}
 	set_popularities = {
+		neo_communism = 5
 		totalitarian_socialism = 5
-		radical_socialism = 5
-		moderate_socialism = 5
+		gradual_socialism = 5
 		social_democracy = 5
 		liberal_democracy = 5
-		social_conservatism = 5
+		conservatism = 5
 		authoritarian_democracy = 5
-		paternal_autocracy = 40
+		paternal_autocracy = 45
 		national_corporatism = 5
 		national_socialism = 5
 		ultra_nationalism = 5
-		religious_nationalism = 5
-		transhumanism = 5
+		reactionism = 5
 	}
 }
 econ_gdp_growth_change = {

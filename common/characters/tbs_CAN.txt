@@ -35,7 +35,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_REAL_CAOUETTE_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "1976.12.16.1"
 			id = -1
 			traits = {}

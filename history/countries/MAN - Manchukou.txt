@@ -28,18 +28,17 @@ add_ideas = {
 	}
 	set_popularities = {
 		totalitarian_socialism = 0
-		radical_socialism = 0
-		moderate_socialism = 16
+		neo_communism = 0
+		gradual_socialism = 16
 		social_democracy = 0
 		liberal_democracy = 0
-		social_conservatism = 14
+		conservatism = 14
 		authoritarian_democracy = 11
 		paternal_autocracy = 30
 		national_corporatism = 12
 		national_socialism = 17
 		ultra_nationalism = 0
-		religious_nationalism = 0
-		transhumanism = 0
+		reactionism = 0
 	}
 }
 join_the_coalition_national_corporatism = yes

@@ -210,7 +210,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LEV_SAVINKOV_DESC"
-			ideology = savinkovism_ideology
+			ideology = totsoc_savinkovism_ideology
 			expire = "1987.1.1.1"
 			id = -1
 			traits = {}

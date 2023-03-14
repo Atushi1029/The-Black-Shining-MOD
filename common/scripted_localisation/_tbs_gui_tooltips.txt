@@ -1,0 +1,8 @@
+defined_text = {
+	name = GetGUIAvailable
+	text = { localization_key = DECISION_PREREQUISITES_HEADER }
+}
+defined_text = {
+	name = GetGUIEffect
+	text = { localization_key = DECISION_SELECT_HEADER }
+}

@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_AIICHIRO_FUJIYAMA_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "1985.2.22.1"
 			id = -1
 			traits = {}
@@ -94,7 +94,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_AYAKO_DAIDOJI_DESC"
-			ideology = anarcho_communism_ideology
+			ideology = neocom_anarcho_communism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
@@ -172,6 +172,19 @@ characters = {
 				small = "GFX_idea_JAP_eiichi_nagasue"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_eiichi_nagasue_for
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_foreign_minister
+				tbs_neutralist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_eiichi_nishimura = {
 		name = JAP_eiichi_nishimura
@@ -188,6 +201,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Eiichi_Nishimura"
 				small = "GFX_idea_JAP_eiichi_nishimura"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_eiichi_nishimura_for
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_foreign_minister
+				tbs_negotiator_law
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_etsusaburo_shiina = {
@@ -265,6 +291,19 @@ characters = {
 				small = "GFX_idea_JAP_hirohide_ishida"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_hirohide_ishida_for
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_foreign_minister
+				tbs_smile_diplomat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_hirohito = {
 		name = JAP_hirohito
@@ -299,6 +338,19 @@ characters = {
 				small = "GFX_idea_JAP_hiromu_nonaka"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_hiromu_nonaka_eco
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_economy_minister
+				compassionate_gentleman
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_hiromu_tokugawa = {
 		name = JAP_hiromu_tokugawa
@@ -316,13 +368,14 @@ characters = {
 				small = "GFX_idea_JAP_hiromu_tokugawa"
 			}
 		}
-		corps_commander = {
+		navy_leader = {
 			traits = {}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = -1
 		}
 	}
 	JAP_hiroo_onoda = {
@@ -392,6 +445,19 @@ characters = {
 				small = "GFX_idea_JAP_hiroya_ino"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_hiroya_ino_jus
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_justice_minister
+				tbs_justice_executer
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_hisao_kimura = {
 		name = JAP_hisao_kimura
@@ -453,6 +519,19 @@ characters = {
 		}
 		advisor = {
 			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_ichio_asukata_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_popular_figurehead
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_ichio_asukata_eco
@@ -480,6 +559,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Ichiro_Nakagawa"
 				small = "GFX_idea_JAP_ichiro_nakagawa"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_ichiro_nakagawa_eco
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_economy_minister
+				tbs_traditionalist_economist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_ichizo_sugie = {
@@ -523,6 +615,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Ikko_Kasuga"
 				small = "GFX_idea_JAP_ikko_kasuga"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_ikko_kasuga_jus
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_justice_minister
+				prince_of_terror
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_japanese_national_political_reform_committee = {
@@ -601,6 +706,19 @@ characters = {
 				small = "GFX_idea_JAP_kakuei_tanaka"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_kakuei_tanaka_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_warm_leader
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_katsuo_tsushima = {
 		name = JAP_katsuo_tsushima
@@ -646,7 +764,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KEI_HOASHI_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = grasoc_planned_socialism_ideology
 			expire = "1989.2.3.1"
 			id = -1
 			traits = {}
@@ -726,6 +844,19 @@ characters = {
 				small = "GFX_idea_JAP_kentaro_kujime"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_kentaro_kujime_int
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_interior_minister
+				tbs_smile_socialite
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_kentaro_toji = {
 		name = JAP_kentaro_toji
@@ -784,6 +915,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Kiichi_Miyazawa"
 				small = "GFX_idea_JAP_kiichi_miyazawa"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_kiichi_miyazawa_for
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_foreign_minister
+				tbs_proud_nobleman
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_kiyosada_koda = {
@@ -923,7 +1067,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KUNIO_BANDO_DESC"
-			ideology = maoism_ideology
+			ideology = totsoc_maoism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
@@ -945,6 +1089,19 @@ characters = {
 				small = "GFX_idea_JAP_makoto_tanabe"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_makoto_tanabe_sec
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_security_minister
+				tbs_security_guard
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_masaharu_gotoda = {
 		name = JAP_masaharu_gotoda
@@ -961,6 +1118,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Masaharu_Gotoda"
 				small = "GFX_idea_JAP_masaharu_gotoda"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_masaharu_gotoda_jus
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_justice_minister
+				smooth_talking_charmer
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_masaji_ogasawara = {
@@ -1009,6 +1179,19 @@ characters = {
 				small = "GFX_idea_JAP_masami_tanaka"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_masami_tanaka_int
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_interior_minister
+				tbs_industry_tycoon
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_masamichi_royama = {
 		name = JAP_masamichi_royama
@@ -1025,6 +1208,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Masamichi_Royama"
 				small = "GFX_idea_JAP_masamichi_royama"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_masamichi_royama_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_crazy_monster
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_masanobu_tsuji = {
@@ -1085,6 +1281,19 @@ characters = {
 				small = "GFX_idea_JAP_masao_hori"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_masao_hori_eco
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_economy_minister
+				tbs_austere_finance_advocate
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_masaru_tanaka = {
 		name = JAP_masaru_tanaka
@@ -1128,6 +1337,19 @@ characters = {
 				small = "GFX_idea_JAP_masashi_ishibashi"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_masashi_ishibashi_for
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_foreign_minister
+				reluctant_interventionist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_masayoshi_ohira = {
 		name = JAP_masayoshi_ohira
@@ -1144,6 +1366,32 @@ characters = {
 				large = "GFX_Portrait_JAP_Masayoshi_Ohira"
 				small = "GFX_idea_JAP_masayoshi_ohira"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_masayoshi_ohira_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_smile_socialite
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_masayoshi_ohira_eco
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_economy_minister
+				technocrat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_matsuo_fujinaka = {
@@ -1215,7 +1463,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MINORU_GENDA_DESC"
-			ideology = reformed_corporatism_ideology
+			ideology = ultnat_reformed_corporatism_ideology
 			expire = "1989.8.15.1"
 			id = -1
 			traits = {}
@@ -1279,6 +1527,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Mitsu_Kono"
 				small = "GFX_idea_JAP_mitsu_kono"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_mitsu_kono_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_obedient_minion
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_mitsugu_ihara = {
@@ -1349,6 +1610,19 @@ characters = {
 				small = "GFX_idea_JAP_mitsuo_setoyama"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_mitsuo_setoyama_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_prince_of_terror
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_moritaro_yamada = {
 		name = JAP_moritaro_yamada
@@ -1382,6 +1656,32 @@ characters = {
 				large = "GFX_Portrait_JAP_Mutsuo_Kimura"
 				small = "GFX_idea_JAP_mutsuo_kimura"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_mutsuo_kimura_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_stubborn_veteran
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_mutsuo_kimura_sec
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_security_minister
+				tbs_mass_rebellion
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_naka_funada = {
@@ -1468,6 +1768,19 @@ characters = {
 				small = "GFX_idea_JAP_osamu_inaba"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_osamu_inaba_jus
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_justice_minister
+				tbs_legal_expert
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_raizo_matsuno = {
 		name = JAP_raizo_matsuno
@@ -1484,6 +1797,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Raizo_Matsuno"
 				small = "GFX_idea_JAP_raizo_matsuno"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_raizo_matsuno_int
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_interior_minister
+				tbs_national_reformer
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_ryoichi_sasakawa = {
@@ -1518,6 +1844,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Ryosaku_Sasaki"
 				small = "GFX_idea_JAP_ryosaku_sasaki"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_ryosaku_sasaki_eco
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_economy_minister
+				tbs_prpponent_market_open
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_saburo_aizawa = {
@@ -1563,7 +1902,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SABURO_EDA_DESC"
-			ideology = social_democracy_ideology
+			ideology = socdem_progressive_democracy_ideology
 			expire = "1977.5.22.1"
 			id = -1
 			traits = {}
@@ -1610,6 +1949,32 @@ characters = {
 				large = "GFX_Portrait_JAP_Saburo_Tsukamoto"
 				small = "GFX_idea_JAP_saburo_tsukamoto"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_saburo_tsukamoto_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_ideological_crusader
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_saburo_tsukamoto_int
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_interior_minister
+				tbs_honorable_cultural_person
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_sadao_akamatsu = {
@@ -1758,6 +2123,19 @@ characters = {
 				small = "GFX_idea_JAP_seisuke_okuno"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_seisuke_okuno_hog
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_head_of_government
+				tbs_popular_figurehead
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_sekio_nishina = {
 		name = JAP_sekio_nishina
@@ -1801,6 +2179,19 @@ characters = {
 				small = "GFX_idea_JAP_shigenobu_sakano"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_shigenobu_sakano_sec
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_security_minister
+				tbs_military_firstist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_shin_kanemaru = {
 		name = JAP_shin_kanemaru
@@ -1817,6 +2208,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Shin_Kanemaru"
 				small = "GFX_idea_JAP_shin_kanemaru"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_shin_kanemaru_sec
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_security_minister
+				anti_communist
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_shinobu_takayama = {
@@ -1886,6 +2290,19 @@ characters = {
 				small = "GFX_idea_JAP_shiro_hasegawa"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_shiro_hasegawa_int
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_interior_minister
+				tbs_silent_workhorse
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_shiro_nonaka = {
 		name = JAP_shiro_nonaka
@@ -1905,7 +2322,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SHIRO_NONAKA_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = reactionism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
@@ -2073,6 +2490,19 @@ characters = {
 				small = "GFX_idea_JAP_takako_doi"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_takako_doi_int
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_interior_minister
+				tbs_serious_careful
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_takashi_asari = {
 		name = JAP_takashi_asari
@@ -2090,6 +2520,19 @@ characters = {
 				small = "GFX_idea_JAP_takashi_asari"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_takashi_asari_sec
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_security_minister
+				rearmer
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_takashi_yoshino = {
 		name = JAP_takashi_yoshino
@@ -2106,6 +2549,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Takashi_Yoshino"
 				small = "GFX_idea_JAP_takashi_yoshino"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_takashi_yoshino_jus
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_justice_minister
+				tbs_worker_companion
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_takeichi_nishi = {
@@ -2285,6 +2741,19 @@ characters = {
 				small = "GFX_idea_JAP_tetsuro_minato"
 			}
 		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_tetsuro_minato_for
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_foreign_minister
+				tbs_great_compromiser
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_tokuma_utsunomiya = {
 		name = JAP_tokuma_utsunomiya
@@ -2301,6 +2770,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Tokuma_Utsunomiya"
 				small = "GFX_idea_JAP_tokuma_utsunomiya"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_tokuma_utsunomiya_jus
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_justice_minister
+				backroom_backstabber
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_tomoharu_nishimura = {
@@ -2458,23 +2940,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	JAP_tsuneyoshi = {
-		name = JAP_tsuneyoshi
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_JAP_Tsuneyoshi"
-				small = "GFX_idea_JAP_tsuneyoshi"
-			}
-			army = {
-				large = "GFX_Portrait_JAP_Tsuneyoshi"
-				small = "GFX_idea_JAP_tsuneyoshi"
-			}
-			navy = {
-				large = "GFX_Portrait_JAP_Tsuneyoshi"
-				small = "GFX_idea_JAP_tsuneyoshi"
-			}
-		}
-	}
 	JAP_toshio_komoto = {
 		name = JAP_toshio_komoto
 		portraits = {
@@ -2489,6 +2954,36 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_JAP_Toshio_Komoto"
 				small = "GFX_idea_JAP_toshio_komoto"
+			}
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_toshio_komoto_eco
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_economy_minister
+				tbs_prpponent_market_open
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_tsuneyoshi = {
+		name = JAP_tsuneyoshi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Tsuneyoshi"
+				small = "GFX_idea_JAP_tsuneyoshi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Tsuneyoshi"
+				small = "GFX_idea_JAP_tsuneyoshi"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Tsuneyoshi"
+				small = "GFX_idea_JAP_tsuneyoshi"
 			}
 		}
 	}
@@ -2524,6 +3019,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Usaburo_Chizaki"
 				small = "GFX_idea_JAP_usaburo_chizaki"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_usaburo_chizaki_sec
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_security_minister
+				armaments_aficionado
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_yasuhide_kurihara = {
@@ -2615,6 +3123,66 @@ characters = {
 			id = -1
 			traits = {}
 		}
+		advisor = {
+			cost = 65535
+			slot = head_of_government
+			ledger = civilian
+			idea_token = JAP_yokusan_political_committee_hog
+			allowed = { original_tag = JAP }
+			traits = { tbs_head_of_government }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = interior_minister
+			ledger = civilian
+			idea_token = JAP_yokusan_political_committee_int
+			allowed = { original_tag = JAP }
+			traits = { tbs_interior_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_yokusan_political_committee_for
+			allowed = { original_tag = JAP }
+			traits = { tbs_foreign_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = economy_minister
+			ledger = civilian
+			idea_token = JAP_yokusan_political_committee_eco
+			allowed = { original_tag = JAP }
+			traits = { tbs_economy_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = justice_minister
+			ledger = civilian
+			idea_token = JAP_yokusan_political_committee_jus
+			allowed = { original_tag = JAP }
+			traits = { tbs_justice_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			cost = 65535
+			slot = security_minister
+			ledger = civilian
+			idea_token = JAP_yokusan_political_committee_sec
+			allowed = { original_tag = JAP }
+			traits = { tbs_security_minister }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
 	}
 	JAP_yuichi_kori = {
 		name = JAP_yuichi_kori
@@ -2631,6 +3199,19 @@ characters = {
 				large = "GFX_Portrait_JAP_Yuichi_Kori"
 				small = "GFX_idea_JAP_yuichi_kori"
 			}
+		}
+		advisor = {
+			cost = 65535
+			slot = foreign_minister
+			ledger = civilian
+			idea_token = JAP_yuichi_kori_for
+			allowed = { original_tag = JAP }
+			traits = {
+				tbs_foreign_minister
+				tbs_strict_diplomat
+			}
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
 		}
 	}
 	JAP_yukio_seki = {

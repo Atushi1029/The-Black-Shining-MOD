@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ANATOLY_VOLKOV_DESC"
-			ideology = syndicalism_ideology
+			ideology = grasoc_syndicalism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

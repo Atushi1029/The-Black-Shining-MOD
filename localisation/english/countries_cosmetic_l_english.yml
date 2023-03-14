@@ -360,10 +360,6 @@
  MNT_kingdom:0 "Kingdom of Montenegro"
  MNT_kingdom_DEF:0 "the Kingdom of Montenegro"
  MNT_kingdom_ADJ:0 "Montenegrin"
-#モンゴル
- MON_republic:0 "Republic of Mongolia"
- MON_republic_DEF:0 "the Republic of Mongolia"
- MON_republic_ADJ:0 "Mongolian"
 #モロッコ
  MOR_kingdom:0 "Kingdom of Morocco"
  MOR_kingdom_DEF:0 "the Kingdom of Morocco"

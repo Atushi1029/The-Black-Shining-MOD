@@ -47,7 +47,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ARCHBISHOPS_COUNCIL_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = reactionism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
@@ -187,7 +187,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ENOCH_POWELL_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "1998.2.8.1"
 			id = -1
 			traits = {}
@@ -208,13 +208,6 @@ characters = {
 				large = "GFX_Portrait_GBR_George_Matthews"
 				small = "GFX_idea_GBR_george_matthews"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_GEORGE_MATTHEWS_DESC"
-			ideology = radical_socialism_ideology
-			expire = "2005.3.29.1"
-			id = -1
-			traits = {}
 		}
 	}
 	GBR_jeffrey_hamm = {
@@ -475,7 +468,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_TONY_BENN_DESC"
-			ideology = syndicalism_ideology
+			ideology = grasoc_syndicalism_ideology
 			expire = "2014.3.14.1"
 			id = -1
 			traits = {}

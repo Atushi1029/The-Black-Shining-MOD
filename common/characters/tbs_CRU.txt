@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_PANG_HAK-SE_DESC"
-			ideology = anarcho_communism_ideology
+			ideology = neocom_anarcho_communism_ideology
 			expire = "1992.7.18.1"
 			id = -1
 			traits = {}

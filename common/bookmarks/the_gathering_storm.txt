@@ -68,7 +68,7 @@ bookmarks = {
 		}
 		"JAP" = { 
 			history = "JAP_THE_BLACK_SHINING_DESC"
-			ideology = moderate_socialism
+			ideology = gradual_socialism
 			ideas = {
 				JAP_divided_public_opinion
 				JAP_humiliation_on_the_continent

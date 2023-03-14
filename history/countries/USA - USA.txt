@@ -88,19 +88,17 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	totalitarian_socialism = 0
-	radical_socialism = 4
-	moderate_socialism = 6
+	totalitarian_socialism = 4
+	gradual_socialism = 6
 	social_democracy = 20
 	liberal_democracy = 30
-	social_conservatism = 20
+	conservatism = 20
 	authoritarian_democracy = 15
 	paternal_autocracy = 0
 	national_corporatism = 3
 	national_socialism = 2
 	ultra_nationalism = 0
-	religious_nationalism = 0
-	transhumanism = 0
+	reactionism = 0
 }
 create_faction = USA_global_defense_coalition
 add_to_faction = USA

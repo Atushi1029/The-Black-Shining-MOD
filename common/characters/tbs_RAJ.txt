@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_INDIRA_GANDHI_DESC"
-			ideology = radical_socialism_ideology
+			ideology = social_democracy_ideology
 			expire = "1984.10.31.1"
 			id = -1
 			traits = {}

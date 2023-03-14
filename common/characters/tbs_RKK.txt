@@ -34,7 +34,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_RICHARD_FIEDLER_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = reactionism_ideology
 			expire = "1974.12.14.1"
 			id = -1
 			traits = {}

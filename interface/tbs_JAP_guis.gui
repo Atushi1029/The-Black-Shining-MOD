@@ -13,11 +13,14 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "JAP_yokusan_primary_election_gui_window"
-		position = { x = 0 y = 0 }
+		position = { x = -1172 y = 80 }
+		show_position = { x = 540 y = 80 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
 		size = { width = 1172 height = 719 }
 		moveable = no
-		Orientation = center
-		Origo = center
+		show_sound = open_sub_window
 		background = {
 			name = "Background"
 			spriteType ="GFX_tiled_bg"
@@ -69,11 +72,11 @@ guiTypes = {
 			scale = 0.47
 		}
 		iconType = {
-			name = "JAP_YPE_lobby_button"
+			name = "JAP_YPE_lobby_frame"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_JAP_leader"
-			pdx_tooltip = JAP_YPE_lobby_button_tt
-			pdx_tooltip_delayed = JAP_YPE_lobby_button_desc_tt
+			pdx_tooltip = JAP_YPE_lobby_frame_tt
+			pdx_tooltip_delayed = JAP_YPE_lobby_frame_desc_tt
 		}
 		instantTextBoxType = {
 			name = "text"
@@ -100,6 +103,107 @@ guiTypes = {
 				spriteType = "GFX_JAP_grahu"
 				position = { x = 0 y = 0 }
 			}
+		}
+		containerWindowType = {
+			name = "lobby_activation_window"
+			position = { x = 727 y = 43 }
+			size = { width = 290 height = 114 }
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_bg"
+			}
+			buttonType = {
+				name = "JAP_YPE_lobby_button"
+				position = { x = 15 y = 15 }
+				spriteType = "GFX_add_national_goal_button"
+				clicksound = click_default
+			}
+			instantTextboxType = {
+				name = "title"
+				position = { x = 43 y = 42 }
+				font = "hoi_18mbs"
+				text = "[ROOT.GetYPELobbyButtonTitle]"
+				maxWidth = 200
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "progress"
+				spriteType = "GFX_activegoal_progress"
+				position = { x = 27 y = 80 }
+			}
+			iconType = {
+				name = "progress_frame"
+				position = { x = 25 y = 80 }
+				spriteType = "GFX_pol_goal_progress_frame"
+				alwaystransparent = yes
+			}
+		}
+	}
+	containerWindowType = {
+		name = "JAP_YPE_lobby_gui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 315 height = 248 }
+		moveable = yes
+		Orientation = center
+		Origo = center
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_bg"
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = 274 y = 15 }
+			quadTextureSprite ="GFX_closebutton_small"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		gridboxtype = {
+			name = "JAP_YPE_lobby_button_grid"
+			position = { x = 15 y = 41 }
+			size = { width = 285 height = 64 }
+			slotsize = { width = 285 height = 64 }
+			max_slots_horizontal = 1
+			max_slots_vertical = 3
+			add_horizontal = no
+		}
+	}
+	containerWindowType = {
+		name = "JAP_YPE_lobby_gui_grid"
+		position = { x = 0 y = 0 }
+		size = { width = 285 height = 64 }
+		buttonType = {
+			name = "JAP_YPE_lobby_gui_activity_button"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_diplo_goal_button"
+			clicksound = click_default
+			pdx_tooltip = JAP_YPE_lobby_gui_activity_button_tt
+			pdx_tooltip_delayed = JAP_YPE_lobby_gui_activity_button_desc_tt
+		}
+		instantTextboxType = {
+			name = "national_focus_label"
+			position = { x = 43 y = 16 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetYPELobbyActivationTitle]"
+			maxWidth = 200
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+			vertical_alignment = center
+		}
+		iconType = {
+			name = "progress"
+			spriteType = "GFX_activegoal_progress"
+			position = { x = 26 y = 50 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "progress_frame"
+			position = { x = 24 y = 50 }
+			spriteType = "GFX_pol_goal_progress_frame"
+			alwaystransparent = yes
 		}
 	}
 	containerWindowType = {

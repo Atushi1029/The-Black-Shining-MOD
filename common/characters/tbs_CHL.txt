@@ -41,7 +41,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SALVADOR_ALLENDE_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = gradual_socialism_ideology
 			expire = "1973.9.11.1"
 			id = -1
 			traits = {}

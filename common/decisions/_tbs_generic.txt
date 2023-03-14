@@ -58,19 +58,18 @@ political_actions = {
 	#			hidden_effect = { ROOT_unification_events = yes }
 	#			RUS = {
 	#				set_popularities = {
+	#					neo_communism = ROOT.party_popularity_100@neo_communism
 	#					totalitarian_socialism = ROOT.party_popularity_100@totalitarian_socialism
-	#					radical_socialism = ROOT.party_popularity_100@radical_socialism
-	#					moderate_socialism = ROOT.party_popularity_100@moderate_socialism
+	#					gradual_socialism = ROOT.party_popularity_100@gradual_socialism
 	#					social_democracy = ROOT.party_popularity_100@social_democracy
 	#					liberal_democracy = ROOT.party_popularity_100@liberal_democracy
-	#					social_conservatism = ROOT.party_popularity_100@social_conservatism
+	#					conservatism = ROOT.party_popularity_100@conservatism
 	#					authoritarian_democracy = ROOT.party_popularity_100@authoritarian_democracy
 	#					paternal_autocracy = ROOT.party_popularity_100@paternal_autocracy
 	#					national_corporatism = ROOT.party_popularity_100@national_corporatism
 	#					national_socialism = ROOT.party_popularity_100@national_socialism
 	#					ultra_nationalism = ROOT.party_popularity_100@ultra_nationalism
-	#					religious_nationalism = ROOT.party_popularity_100@religious_nationalism
-	#					transhumanism = ROOT.party_popularity_100@transhumanism
+	#					reactionism = ROOT.party_popularity_100@reactionism
 	#				}
 	#				annex_country = {
 	#					target = ROOT

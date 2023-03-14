@@ -65,7 +65,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KOJIRO_NISHIZUMI_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = reactionism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

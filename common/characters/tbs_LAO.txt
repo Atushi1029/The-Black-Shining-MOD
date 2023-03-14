@@ -41,7 +41,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SOUPHANOUVONG_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = gradual_socialism_ideology
 			expire = "1995.1.9.1"
 			id = -1
 			traits = {}

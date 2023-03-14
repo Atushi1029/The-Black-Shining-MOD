@@ -3,9 +3,41 @@ lar_local_recruitment = {
 		icon = generic_form_nation
 		available = { is_debug = yes }
 		visible = { is_debug = yes }
+		#priority = {
+		#	base = 0
+		#	modifier = {
+		#		add = 0
+		#		tag = 
+		#	}
+		#}
+		#highlight_states = {
+		#	highlight_state_targets = { state =  }
+		#	highlight_color_while_active = 0
+		#	highlight_color_before_active = 0
+		#}
+		#days_re_enable = 
+		#custom_cost_trigger = {}
+		#custom_cost_text = 
+		#days_remove = 
+		#remove_trigger = {}
+		#modifier = {}
+		#targeted_modifier = {
+		#	tag = 
+		#}
+		#cancel_trigger = {}
+		#cancel_if_not_visible = yes
+		#war_with_on_remove = 
+		#war_with_on_complete = 
+		#fixed_random_seed = no
 		cost = 0
 		fire_only_once = no
-		ai_will_do = { factor = 0 }
+		ai_will_do = {
+			factor = 0
+		#	base = 
+		#	modifier = {
+		#		add = 0
+		#	}
+		}
 		complete_effect = {
 			news_event = tbs_skelton_news.0
 			random_country = {
@@ -19,5 +51,34 @@ lar_local_recruitment = {
 				}
 			}
 		}
+		#cancel_effect = {}
+		#remove_effect = {}
 	}
+	#mission_example = {
+	#	allowed = {}
+	#	activation = {}
+	#	available = {}
+	#	visible = {}
+	#	cancel_trigger = {}
+	#	days_mission_timeout = 
+	#	selectable_mission = yes
+	#	complete_effect = {}
+	#	timeout_effect = {}
+	#	is_good = yes
+	#	war_with_on_timeout = yes
+	#}
+	#targeted_example = {
+	#	targets = {}
+	#	targets_dynamic = yes
+	#	target_non_existing = yes
+	#	target_array = 
+	#	target_trigger = {}
+	#	target_root_trigger = {}
+	#	war_with_target_on_complete = yes
+	#	war_with_target_on_remove = yes
+	#	war_with_target_on_timeout = yes
+	#	state_target = yes
+	#	on_map_mode = map_only
+	#	on_map_mode = map_and_decisions_view
+	#}
 }

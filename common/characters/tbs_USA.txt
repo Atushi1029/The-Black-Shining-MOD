@@ -291,7 +291,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGE_WALLACE_DESC"
-			ideology = dixiecratic_democracy_ideology
+			ideology = autdem_dixiecratic_democracy_ideology
 			expire = "1998.9.13.1"
 			id = -1
 			traits = {}
@@ -566,7 +566,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LYNDON_JOHNSON_DESC"
-			ideology = social_liberalism_ideology
+			ideology = libdem_social_liberalism_ideology
 			expire = "1973.1.22.1"
 			id = -1
 			traits = {}
@@ -689,7 +689,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_RICHARD_NIXON_DESC"
-			ideology = silent_conservatism_ideology
+			ideology = con_silent_conservatism_ideology
 			expire = "1994.4.22.1"
 			id = -1
 			traits = {}

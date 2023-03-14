@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_NORMA_VILLARREAL_DE_ZAMBRANO_DESC"
-			ideology = transhumanism_ideology
+			ideology = national_socialism_ideology
 			expire = "2016.12.27.1"
 			id = -1
 			traits = {}

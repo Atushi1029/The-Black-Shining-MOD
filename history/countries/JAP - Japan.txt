@@ -115,8 +115,8 @@ recruit_character = JAP_tomomi_narita
 recruit_character = JAP_torazo_ninagawa
 recruit_character = JAP_toshiharu_konada
 recruit_character = JAP_toshihiko_ikeda
-recruit_character = JAP_tsuneyoshi
 recruit_character = JAP_toshio_komoto
+recruit_character = JAP_tsuneyoshi
 recruit_character = JAP_umeichi_adachi
 recruit_character = JAP_usaburo_chizaki
 recruit_character = JAP_yasuhide_kurihara
@@ -142,25 +142,23 @@ add_ideas = {
 	JAP_torazo_ninagawa_sec
 }
 set_politics = {
-	ruling_party = moderate_socialism
+	ruling_party = gradual_socialism
 	last_election = "1968.12.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	totalitarian_socialism = 0
-	radical_socialism = 0
-	moderate_socialism = 40
+	gradual_socialism = 40
 	social_democracy = 5
 	liberal_democracy = 15
-	social_conservatism = 5
+	conservatism = 5
 	authoritarian_democracy = 5
 	paternal_autocracy = 5
 	national_corporatism = 20
 	national_socialism = 2
 	ultra_nationalism = 3
-	religious_nationalism = 0
-	transhumanism = 0
+	reactionism = 0
 }
 #Yokusan Primary
 set_variable = { JAP_YSK_shakakudo_leftists = 0 }
@@ -171,6 +169,7 @@ set_variable = { JAP_YSK_kentetsukai_reformists = 0 }
 set_variable = { JAP_YSK_kyokakai_nakasone = 0 }
 set_variable = { JAP_YSK_kyokakai_conservatives = 0 }
 set_variable = { JAP_YSK_mushozoku = 0 }
+set_variable = { JAP_YPE_lobby_progbar = 0 }
 #Diplomatic
 create_faction = JAP_geacps
 add_to_faction = CAM
@@ -215,3 +214,7 @@ diplomatic_relation = {
 }
 set_variable = { yokusankai_recommended = 430 }
 JAP_yokusan_election_recalculation = yes
+country_event = {
+	id = tbs_JAP_yokusan_1972.17
+	days = 305
+}

@@ -189,11 +189,11 @@ country_event = {
 		name = tbs_skelton.3.b
 		ai_chance = { base = 50 }
 		set_politics = {
-			ruling_party = moderate_socialism
+			ruling_party = gradual_socialism
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = moderate_socialism
+			ideology = gradual_socialism
 			popularity = 0.4
 		}
 		hidden_effect = {

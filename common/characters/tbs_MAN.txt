@@ -65,7 +65,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HIROO_WADA_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = gradual_socialism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
@@ -110,13 +110,6 @@ characters = {
 				large = "GFX_Portrait_MAN_Katsuji_Kawamata"
 				small = "GFX_idea_MAN_katsuji_kawamata"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_KATSUJI_KAWAMATA_DESC"
-			ideology = transhumanism_ideology
-			expire = "1986.3.29.1"
-			id = -1
-			traits = {}
 		}
 	}
 	MAN_kazuo_nonomura = {
@@ -178,7 +171,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SEIJI_OZAWA_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
@@ -219,7 +212,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_TETSUZO_FUYUSHIBA_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = reactionism_ideology
 			expire = "2011.12.5.1"
 			id = -1
 			traits = {}

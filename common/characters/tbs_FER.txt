@@ -184,7 +184,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_DMITRY_LIKHACHYOV_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "1999.9.30.1"
 			id = -1
 			traits = {}
@@ -408,7 +408,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_IVAN_SEVASTYANOV_DESC"
-			ideology = syndicalism_ideology
+			ideology = grasoc_syndicalism_ideology
 			expire = "1996.3.20.1"
 			id = -1
 			traits = {}

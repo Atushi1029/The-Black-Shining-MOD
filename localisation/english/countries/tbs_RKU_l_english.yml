@@ -1,19 +1,20 @@
 ﻿l_english:
-#キャラクター
+#Characters
  RKU_claus_von_stauffenberg:0 "Claus von Stauffenberg"
-#政党
+ RKU_hans_zimmermann:0 "Hans Zimmermann"
+#Parties
+ RKU_neo_communism_party:0 "Anti-Nazi Resistance Movement"
+ RKU_neo_communism_party_long:0 "Anti-Nazi Resistance Movement"
  RKU_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
  RKU_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
- RKU_radical_socialism_party:0 "Anti-Nazi Resistance Movement"
- RKU_radical_socialism_party_long:0 "Anti-Nazi Resistance Movement"
- RKU_moderate_socialism_party:0 "Anti-Nazi Resistance Movement"
- RKU_moderate_socialism_party_long:0 "Anti-Nazi Resistance Movement"
+ RKU_gradual_socialism_party:0 "Anti-Nazi Resistance Movement"
+ RKU_gradual_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  RKU_social_democracy_party:0 "Anti-Nazi Resistance Movement"
  RKU_social_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  RKU_liberal_democracy_party:0 "Anti-Nazi Resistance Movement"
  RKU_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
- RKU_social_conservatism_party:0 "NSDAP-D"
- RKU_social_conservatism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Democrats"
+ RKU_conservatism_party:0 "NSDAP-D"
+ RKU_conservatism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Democrats"
  RKU_authoritarian_democracy_party:0 "NSDAP-R"
  RKU_authoritarian_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reformists"
  RKU_paternal_autocracy_party:0 "NSDAP-R"
@@ -24,7 +25,5 @@
  RKU_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Mainstreams"
  #RKU_ultra_nationalism_party:0 ""
  #RKU_ultra_nationalism_party_long:0 ""
- RKU_religious_nationalism_party:0 "NSDAP-SS"
- RKU_religious_nationalism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - SS"
- RKU_transhumanism_party:0 "Anti-Nazi Resistance Movement"
- RKU_transhumanism_party_long:0 "Anti-Nazi Resistance Movement"
+ RKU_reactionism_party:0 "NSDAP-SS"
+ RKU_reactionism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - SS"

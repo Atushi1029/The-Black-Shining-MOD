@@ -342,9 +342,13 @@
 				keep_completed = no
 			}
 			hidden_effect = {
-				country_event = {
-					id = tbs_JAP_yokusan_1972.0
-					days = 10
+				mark_focus_tree_layout_dirty = yes
+				if = {
+					limit = { date < 1972.9.1 }
+					country_event = {
+						id = tbs_JAP_yokusan_1972.0
+						days = 10
+					}
 				}
 			}
 		}

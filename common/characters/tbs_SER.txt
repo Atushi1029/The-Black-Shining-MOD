@@ -15,13 +15,6 @@ characters = {
 				small = "GFX_idea_SER_aleksandar_rankovic"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
-			ideology = radical_socialism_ideology
-			expire = "1983.8.19.1"
-			id = -1
-			traits = {}
-		}
 	}
 	SER_blagoje_jovovic = {
 		name = SER_blagoje_jovovic

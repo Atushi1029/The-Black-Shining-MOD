@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_PATRICK_HILLERY_DESC"
-			ideology = liberal_conservatism_ideology
+			ideology = libdem_liberal_conservatism_ideology
 			expire = "2008.4.12.1"
 			id = -1
 			traits = {}
