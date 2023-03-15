@@ -1,12 +1,8 @@
 ﻿l_english:
-  ### EQUIPMENT MODULE ROLE PERMISSIONS ###
  MODULE_ALLOW_ROLE:1 "§GAllows§! the $ROLE|H$ role"
  MODULE_ALLOW_ROLE_BUT_OTHER_FORBID:0 "§GAllows§! the $ROLE|H$ role, but $FORBIDDING_MODULE|H$ §Rforbids§! it"
  MODULE_FORBID_ROLE:1 "§RForbids§! the $ROLE|H$ role"
-
  MODULE_ALLOWED_ROLE_IS_FORBIDDEN_BY_ANOTHER_MODULE:0 "The role $ROLE|H$ is £trigger_yes£ by module $ALLOWING_MODULE|H$ but is £trigger_no£ by module $FORBIDDING_MODULE|H$.\n\n"
-
- ### EQUIPMENT MODULE CATEGORIES ###
  EQ_MOD_CAT_tank_engine_type_TITLE:0 "Engine Type"
  EQ_MOD_CAT_tank_armor_type_TITLE:0 "Armor Type"
  EQ_MOD_CAT_tank_suspension_type_TITLE:1 "Tracked Suspension"
@@ -24,8 +20,6 @@
  EQ_MOD_CAT_tank_radio_module_TITLE:0 "Radio"
  EQ_MOD_CAT_tank_secondary_turret_TITLE:0 "Secondary Turret"
  EQ_MOD_CAT_tank_non_tracked_suspension_type_TITLE:0 "Non-tracked Suspension"
- 
- ### EQUIPMENT MODULE SLOTS ###
  EQ_MOD_SLOT_main_armament_slot_TITLE:0 "Main Armament"
  EQ_MOD_SLOT_turret_type_slot_TITLE:0 "Turret"
  EQ_MOD_SLOT_suspension_type_slot_TITLE:0 "Suspension"
@@ -35,9 +29,6 @@
  EQ_MOD_SLOT_special_type_slot_2_TITLE:0 "Special Features"
  EQ_MOD_SLOT_special_type_slot_3_TITLE:0 "Special Features"
  EQ_MOD_SLOT_special_type_slot_4_TITLE:0 "Special Features"
-
- ### EQUIPMENT MODULES ###
- 
  tank_gasoline_engine:0 "Gasoline Engine"
  tank_gasoline_engine_desc:0 "An Engine running on gasoline will be faster for a given Engine Size, but the fuel will be much more prone to catching fire."
  tank_diesel_engine:0 "Diesel Engine"
@@ -381,6 +372,7 @@
  light_tank_artillery_equipment_0:0 "IW Light SP Artillery"
  medium_tank_artillery_equipment_0:0 "IW Medium SP Artillery"
  heavy_tank_artillery_equipment_0:0 "IW Heavy SP Artillery"
+ EQUIPMENT_AMPHIBIOUS:0 "Amphibious Tank"
  light_flame_tank:0 "Light Flame Tank Company"
  light_flame_tank_desc:0 "A company of light, flamethrower-equipped vehicles to provide support in assaulting cities and fortifications."
  medium_flame_tank:0 "Medium Flame Tank Company"

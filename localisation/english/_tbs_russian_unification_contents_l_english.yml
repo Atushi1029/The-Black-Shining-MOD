@@ -1,5 +1,4 @@
 ﻿l_english:
-#Tooltips
  has_far_eastern_siberia_tt:0 "Controls §YFar Eastern Siberia§!"
  has_kazakhstan_tt:0 "Controls §YKazakhstan§!"
  has_komi_tt:0 "Controls §YKomi States§!"
@@ -8,5 +7,4 @@
  has_western_urals_tt:0 "Controls §YWestern Urals§!"
  cannot_dominate_far_eastern_siberia_tt:0 "§RJapanese Domination Covered Far Eastern Siberia.§!"
  form_russia_tt:0 "§GUnifies Russia.§!"
-#Decisions
  russian_unification:0 "Russian Unification"
