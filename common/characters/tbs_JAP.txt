@@ -154,6 +154,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_eiichi_nagasue = {
@@ -183,7 +184,9 @@ characters = {
 				tbs_neutralist
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_eiichi_nishimura = {
@@ -213,7 +216,9 @@ characters = {
 				tbs_negotiator_law
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_etsusaburo_shiina = {
@@ -256,6 +261,23 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 3
+		}
+	}
+	JAP_haruo_okada = {
+		name = JAP_haruo_okada
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Haruo_Okada"
+				small = "GFX_idea_JAP_haruo_okada"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Haruo_Okada"
+				small = "GFX_idea_JAP_haruo_okada"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Haruo_Okada"
+				small = "GFX_idea_JAP_haruo_okada"
+			}
 		}
 	}
 	JAP_hideoto_mori = {
@@ -302,7 +324,9 @@ characters = {
 				tbs_smile_diplomat
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_hirohito = {
@@ -349,7 +373,9 @@ characters = {
 				compassionate_gentleman
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_hiromu_tokugawa = {
@@ -456,7 +482,9 @@ characters = {
 				tbs_justice_executer
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_hisao_kimura = {
@@ -482,6 +510,23 @@ characters = {
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	JAP_hisao_kuroda = {
+		name = JAP_hisao_kuroda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hisao_Kuroda"
+				small = "GFX_idea_JAP_hisao_kuroda"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hisao_Kuroda"
+				small = "GFX_idea_JAP_hisao_kuroda"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Hisao_Kuroda"
+				small = "GFX_idea_JAP_hisao_kuroda"
+			}
 		}
 	}
 	JAP_hyozo_kashiwabara = {
@@ -528,7 +573,9 @@ characters = {
 				tbs_popular_figurehead
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -541,7 +588,9 @@ characters = {
 				tbs_economic_reformer
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_ichiro_nakagawa = {
@@ -571,7 +620,9 @@ characters = {
 				tbs_traditionalist_economist
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_ichizo_sugie = {
@@ -627,7 +678,9 @@ characters = {
 				prince_of_terror
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_japanese_national_political_reform_committee = {
@@ -717,7 +770,9 @@ characters = {
 				tbs_warm_leader
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_katsuo_tsushima = {
@@ -855,7 +910,9 @@ characters = {
 				tbs_smile_socialite
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_kentaro_toji = {
@@ -927,7 +984,9 @@ characters = {
 				tbs_proud_nobleman
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_kiyosada_koda = {
@@ -953,6 +1012,23 @@ characters = {
 			defense_skill = 3
 			planning_skill = 5
 			logistics_skill = 2
+		}
+	}
+	JAP_kiyoshi_koiwai = {
+		name = JAP_kiyoshi_koiwai
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Kiyoshi_Koiwai"
+				small = "GFX_idea_JAP_kiyoshi_koiwai"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Kiyoshi_Koiwai"
+				small = "GFX_idea_JAP_kiyoshi_koiwai"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Kiyoshi_Koiwai"
+				small = "GFX_idea_JAP_kiyoshi_koiwai"
+			}
 		}
 	}
 	JAP_kiyoshi_utsumi = {
@@ -1100,7 +1176,9 @@ characters = {
 				tbs_security_guard
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_masaharu_gotoda = {
@@ -1130,7 +1208,9 @@ characters = {
 				smooth_talking_charmer
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_masaji_ogasawara = {
@@ -1160,7 +1240,9 @@ characters = {
 				socdem_reformist
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_masami_tanaka = {
@@ -1190,7 +1272,9 @@ characters = {
 				tbs_industry_tycoon
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_masamichi_royama = {
@@ -1220,7 +1304,9 @@ characters = {
 				tbs_crazy_monster
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_masanobu_tsuji = {
@@ -1292,7 +1378,26 @@ characters = {
 				tbs_austere_finance_advocate
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
+		}
+	}
+	JAP_masaru_nomizo = {
+		name = JAP_masaru_nomizo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Masaru_Nomizo"
+				small = "GFX_idea_JAP_masaru_nomizo"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Masaru_Nomizo"
+				small = "GFX_idea_JAP_masaru_nomizo"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Masaru_Nomizo"
+				small = "GFX_idea_JAP_masaru_nomizo"
+			}
 		}
 	}
 	JAP_masaru_tanaka = {
@@ -1348,7 +1453,9 @@ characters = {
 				reluctant_interventionist
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_masayoshi_ohira = {
@@ -1378,7 +1485,9 @@ characters = {
 				tbs_smile_socialite
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -1391,7 +1500,9 @@ characters = {
 				technocrat
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_matsuo_fujinaka = {
@@ -1539,7 +1650,9 @@ characters = {
 				tbs_obedient_minion
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_mitsugu_ihara = {
@@ -1621,7 +1734,9 @@ characters = {
 				tbs_prince_of_terror
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_moritaro_yamada = {
@@ -1668,7 +1783,9 @@ characters = {
 				tbs_stubborn_veteran
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -1681,7 +1798,9 @@ characters = {
 				tbs_mass_rebellion
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_naka_funada = {
@@ -1779,7 +1898,9 @@ characters = {
 				tbs_legal_expert
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_raizo_matsuno = {
@@ -1809,7 +1930,9 @@ characters = {
 				tbs_national_reformer
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_ryoichi_sasakawa = {
@@ -1856,7 +1979,9 @@ characters = {
 				tbs_prpponent_market_open
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_saburo_aizawa = {
@@ -1961,7 +2086,9 @@ characters = {
 				tbs_ideological_crusader
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -1974,7 +2101,9 @@ characters = {
 				tbs_honorable_cultural_person
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_sadao_akamatsu = {
@@ -2026,6 +2155,23 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 1
 			legacy_id=0
+		}
+	}
+	JAP_satoko_tokano = {
+		name = JAP_satoko_tokano
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Satoko_Tokano"
+				small = "GFX_idea_JAP_satoko_tokano"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Satoko_Tokano"
+				small = "GFX_idea_JAP_satoko_tokano"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Satoko_Tokano"
+				small = "GFX_idea_JAP_satoko_tokano"
+			}
 		}
 	}
 	JAP_sei_matsuya = {
@@ -2080,7 +2226,9 @@ characters = {
 				tbs_iron_fisted_brute
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_seijuro_arafune = {
@@ -2134,7 +2282,9 @@ characters = {
 				tbs_popular_figurehead
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_sekio_nishina = {
@@ -2161,6 +2311,23 @@ characters = {
 			maneuvering_skill = 2
 			coordination_skill = 1
 			legacy_id = -1
+		}
+	}
+	JAP_shichiro_hozumi = {
+		name = JAP_shichiro_hozumi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Shichiro_Hozumi"
+				small = "GFX_idea_JAP_shichiro_hozumi"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Shichiro_Hozumi"
+				small = "GFX_idea_JAP_shichiro_hozumi"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Shichiro_Hozumi"
+				small = "GFX_idea_JAP_shichiro_hozumi"
+			}
 		}
 	}
 	JAP_shigenobu_sakano = {
@@ -2190,7 +2357,9 @@ characters = {
 				tbs_military_firstist
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_shin_kanemaru = {
@@ -2220,7 +2389,9 @@ characters = {
 				anti_communist
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_shinobu_takayama = {
@@ -2301,7 +2472,9 @@ characters = {
 				tbs_silent_workhorse
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_shiro_nonaka = {
@@ -2501,7 +2674,9 @@ characters = {
 				tbs_serious_careful
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_takashi_asari = {
@@ -2531,7 +2706,9 @@ characters = {
 				rearmer
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_takashi_yoshino = {
@@ -2561,7 +2738,9 @@ characters = {
 				tbs_worker_companion
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_takeichi_nishi = {
@@ -2654,6 +2833,23 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
+		}
+	}
+	JAP_tatsuo_hamamori = {
+		name = JAP_tatsuo_hamamori
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Tatsuo_Hamamori"
+				small = "GFX_idea_JAP_tatsuo_hamamori"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Tatsuo_Hamamori"
+				small = "GFX_idea_JAP_tatsuo_hamamori"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Tatsuo_Hamamori"
+				small = "GFX_idea_JAP_tatsuo_hamamori"
+			}
 		}
 	}
 	JAP_teigi_nakayama = {
@@ -2752,7 +2948,9 @@ characters = {
 				tbs_great_compromiser
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_tokuma_utsunomiya = {
@@ -2782,7 +2980,9 @@ characters = {
 				backroom_backstabber
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_tomoharu_nishimura = {
@@ -2855,7 +3055,9 @@ characters = {
 				appeaser
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_torazo_ninagawa = {
@@ -2885,7 +3087,9 @@ characters = {
 				tbs_pragmatic_statesman
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_toshiharu_konada = {
@@ -2967,7 +3171,9 @@ characters = {
 				tbs_prpponent_market_open
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_tsuneyoshi = {
@@ -3031,7 +3237,9 @@ characters = {
 				armaments_aficionado
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_yasuhide_kurihara = {
@@ -3131,7 +3339,9 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_head_of_government }
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -3141,7 +3351,9 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_interior_minister }
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -3151,7 +3363,9 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_foreign_minister }
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -3161,7 +3375,9 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_economy_minister }
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -3171,7 +3387,9 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_justice_minister }
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		advisor = {
 			cost = 65535
@@ -3181,7 +3399,9 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_security_minister }
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_yuichi_kori = {
@@ -3211,7 +3431,9 @@ characters = {
 				tbs_strict_diplomat
 			}
 			removal_cost = -1
+			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	JAP_yukio_seki = {

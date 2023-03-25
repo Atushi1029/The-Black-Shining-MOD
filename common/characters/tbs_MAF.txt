@@ -15,10 +15,27 @@ characters = {
 				small = "GFX_idea_MAF_heinrich_berger"
 			}
 		}
+	}
+	MAF_wilhelm_mohnke = {
+		name = MAF_wilhelm_mohnke
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAF_Wilhelm_Mohnke"
+				small = "GFX_idea_MAF_wilhelm_mohnke"
+			}
+			army = {
+				large = "GFX_Portrait_MAF_Wilhelm_Mohnke"
+				small = "GFX_idea_MAF_wilhelm_mohnke"
+			}
+			navy = {
+				large = "GFX_Portrait_MAF_Wilhelm_Mohnke"
+				small = "GFX_idea_MAF_wilhelm_mohnke"
+			}
+		}
 		country_leader = {
-			desc = "POLITICS_HEINRICH_BERGER_DESC"
+			desc = "POLITICS_WILHELM_MOHNKE_DESC"
 			ideology = national_socialism_ideology
-			expire = "1989.1.1.1"
+			expire = "2001.8.6.1"
 			id = -1
 			traits = {}
 		}

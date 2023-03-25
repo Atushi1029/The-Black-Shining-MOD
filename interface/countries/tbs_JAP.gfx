@@ -33,6 +33,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_hachiro_hayashi.png"
 	}
 	spriteType = {
+		name = "GFX_idea_JAP_haruo_okada"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_haruo_okada.png"
+	}
+	spriteType = {
 		name = "GFX_idea_JAP_hideoto_mori"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_hideoto_mori.png"
 	}
@@ -55,6 +59,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_JAP_hisao_kimura"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_hisao_kimura.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_hisao_kuroda"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_hisao_kuroda.png"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_hyozo_kashiwabara"
@@ -113,6 +121,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_kiyosada_koda.png"
 	}
 	spriteType = {
+		name = "GFX_idea_JAP_kiyoshi_koiwai"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_kiyoshi_koiwai.png"
+	}
+	spriteType = {
 		name = "GFX_idea_JAP_kiyoshi_utsumi"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_kiyoshi_utsumi.png"
 	}
@@ -143,6 +155,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_JAP_masanosuke_ikeda"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_masanosuke_ikeda.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_masaru_nomizo"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_masaru_nomizo.png"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_masaru_tanaka"
@@ -241,6 +257,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_sakae_oba.png"
 	}
 	spriteType = {
+		name = "GFX_idea_JAP_satoko_tokano"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_satoko_tokano.png"
+	}
+	spriteType = {
 		name = "GFX_idea_JAP_sei_matsuya"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_sei_matsuya.png"
 	}
@@ -251,6 +271,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_JAP_sekio_nishina"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_sekio_nishina.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_shichiro_hozumi"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_shichiro_hozumi.png"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_shigenobu_sakano"
@@ -307,6 +331,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_JAP_takeo_tsutsui"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_takeo_tsutsui.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_tatsuo_hamamori"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_tatsuo_hamamori.png"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_teigi_nakayama"
@@ -542,6 +570,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Hachiro_Hayashi.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_JAP_Haruo_Okada"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Haruo_Okada.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_JAP_Hideoto_Mori"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Hideoto_Mori.png"
 	}
@@ -564,6 +596,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_JAP_Hisao_Kimura"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Hisao_Kimura.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Hisao_Kuroda"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Hisao_Kuroda.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_JAP_Hyozo_Kashiwabara"
@@ -622,6 +658,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kiyosada_Koda.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_JAP_Kiyoshi_Koiwai"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kiyoshi_Koiwai.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_JAP_Kiyoshi_Utsumi"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kiyoshi_Utsumi.png"
 	}
@@ -652,6 +692,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_JAP_Masanosuke_Ikeda"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Masanosuke_Ikeda.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Masaru_Nomizo"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Masaru_Nomizo.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_JAP_Masaru_Tanaka"
@@ -750,6 +794,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Sakae_Oba.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_JAP_Satoko_Tokano"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Satoko_Tokano.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_JAP_Sei_Matsuya"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Sei_Matsuya.png"
 	}
@@ -760,6 +808,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_JAP_Sekio_Nishina"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Sekio_Nishina.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Shichiro_Hozumi"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Shichiro_Hozumi.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_JAP_Shigenobu_Sakano"
@@ -816,6 +868,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_JAP_Takeo_Tsutsui"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Takeo_Tsutsui.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Tatsuo_Hamamori"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Tatsuo_Hamamori.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_JAP_Teigi_Nakayama"

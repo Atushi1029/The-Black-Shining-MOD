@@ -80,6 +80,23 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	STO_tadao_sato = {
+		name = STO_tadao_sato
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Tadao_Sato"
+				small = "GFX_idea_STO_tadao_sato"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Tadao_Sato"
+				small = "GFX_idea_STO_tadao_sato"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Tadao_Sato"
+				small = "GFX_idea_STO_tadao_sato"
+			}
+		}
+	}
 	STO_takeshi_misumi = {
 		name = STO_takeshi_misumi
 		portraits = {

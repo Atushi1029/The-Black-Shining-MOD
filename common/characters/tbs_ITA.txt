@@ -23,6 +23,23 @@ characters = {
 			traits = {}
 		}
 	}
+	ITA_amintore_fanfani = {
+		name = ITA_amintore_fanfani
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Amintore_Fanfani"
+				small = "GFX_idea_ITA_amintore_fanfani"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Amintore_Fanfani"
+				small = "GFX_idea_ITA_amintore_fanfani"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Amintore_Fanfani"
+				small = "GFX_idea_ITA_amintore_fanfani"
+			}
+		}
+	}
 	ITA_enrico_berlinguer = {
 		name = ITA_enrico_berlinguer
 		portraits = {
@@ -37,6 +54,40 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_ITA_Enrico_Berlinguer"
 				small = "GFX_idea_ITA_enrico_berlinguer"
+			}
+		}
+	}
+	ITA_giovanni_malagodi = {
+		name = ITA_giovanni_malagodi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Giovanni_Malagodi"
+				small = "GFX_idea_ITA_giovanni_malagodi"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Giovanni_Malagodi"
+				small = "GFX_idea_ITA_giovanni_malagodi"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Giovanni_Malagodi"
+				small = "GFX_idea_ITA_giovanni_malagodi"
+			}
+		}
+	}
+	ITA_giuseppe_saragat = {
+		name = ITA_giuseppe_saragat
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Giuseppe_Saragat"
+				small = "GFX_idea_ITA_giuseppe_saragat"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Giuseppe_Saragat"
+				small = "GFX_idea_ITA_giuseppe_saragat"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Giuseppe_Saragat"
+				small = "GFX_idea_ITA_giuseppe_saragat"
 			}
 		}
 	}
@@ -62,6 +113,23 @@ characters = {
 			expire = "1978.12.16.1"
 			id = -1
 			traits = {}
+		}
+	}
+	ITA_mariano_rumor = {
+		name = ITA_mariano_rumor
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Mariano_Rumor"
+				small = "GFX_idea_ITA_mariano_rumor"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Mariano_Rumor"
+				small = "GFX_idea_ITA_mariano_rumor"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Mariano_Rumor"
+				small = "GFX_idea_ITA_mariano_rumor"
+			}
 		}
 	}
 	ITA_onorato_damen = {

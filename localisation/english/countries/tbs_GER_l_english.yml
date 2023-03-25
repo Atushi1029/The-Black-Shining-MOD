@@ -1,14 +1,10 @@
 ﻿l_english:
-#Character Descs
- #Advisors
  GER_fritz_rossler_jus_desc:0 "§Y$tbs_justice_minister$\n$tbs_justice_executer$§!"
  GER_heinz_knoke_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_negotiator_law$§!"
  GER_karl_saur_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_transport_expert$§!"
  GER_otto_ernst_remer_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_military_person_back$§!"
  GER_theo_hupfauer_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_smile_socialite$§!"
  GER_wilhelm_stuckart_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_quartermaster_general$§!"
-#Characters
- #Politicians
  GER_adolf_von_thadden:0 "Adolf von Thadden"
  GER_albert_speer:0 "Albert Speer"
  GER_baldur_von_schirach:0 "Baldur von Schirach"
@@ -25,7 +21,6 @@
  GER_theo_hupfauer:0 "Theo Hupfauer"
  GER_wernher_von_braun:0 "Wernher von Braun"
  GER_wilhelm_stuckart:0 "Wilhelm Stuckart"
- #Generals
  GER_adolf_heusinger:0 "Adolf Heusinger"
  GER_alfred_zerbel:0 "Alfred Zerbel"
  GER_armin_zimmermann:0 "Armin Zimmermann"
@@ -56,7 +51,6 @@
  GER_wolfgang_altenburg:0 "Wolfgang Altenburg"
  GER_wolfgang_benzino:0 "Wolfgang Benzino"
  GER_wolfgang_thonke:0 "Wolfgang Thonke"
-#National Spirits
  GER_legacy_of_the_end_sieg:0 "Legacy of the End Sieg"
  GER_legacy_of_the_end_sieg_desc:0 "We won the second world war, but what we got was neither security nor authority, but a hopeless situation. The German-Italian war, which began with the failure of the Bormann government and the Goering government and Wehrmacht intrigues that began there, undermined Germany. The influence of the NSDAP has no longer been declining over the past few years, and the people have found themselves beginning to nudge towards democracy and socialism. If this situation is not addressed as soon as possible, this millennium will collapse."
  GER_nazis_kaiserreich:0 "Nazi's Kaiserreich"
@@ -65,19 +59,12 @@
  GER_wind_of_democratization_desc:0 "In recent years, there has been a noticeable shift away from Nazism and towards reform among young people in Germany. Democracy and socialism are beginning to attract attention in the country, not only among young people, and they are said to support the NSDAP reformist Albert Speer. He is an old NSDAP party member, but in recent years he has dreamt of resuming elections, restoring the multi-party system and creating a society with gender equality, and is now a popular figure among the public. Meanwhile, conservatives who fear these things are secretly carrying out a crackdown on speech, and there is no telling when a major rift with the public will erupt..."
  GER_wo_alle_strassen_enden:0 "Wo alle Straßen enden"
  GER_wo_alle_strassen_enden_desc:0 "Germany has lived with a history of struggle. The most recent war, the German-Italian War, was like a demonstration of Germany's weakness to the rest of the world, but since then Germany has changed a lot. On the other hand, as this history of struggle tells us, the German people today are living on the basis of countless corpses. This Germany, stained with blood and moaning, will never know defeat. We have won... surely..."
-#Parties
- GER_neo_communism_party:0 "Anti-Nazi Resistance Movement"
- GER_neo_communism_party_long:0 "Anti-Nazi Resistance Movement"
  GER_totalitarian_socialism_party:0 "Anti-Nazi Resistance Movement"
  GER_totalitarian_socialism_party_long:0 "Anti-Nazi Resistance Movement"
- GER_gradual_socialism_party:0 "Anti-Nazi Resistance Movement"
- GER_gradual_socialism_party_long:0 "Anti-Nazi Resistance Movement"
  GER_social_democracy_party:0 "Anti-Nazi Resistance Movement"
  GER_social_democracy_party_long:0 "Anti-Nazi Resistance Movement"
  GER_liberal_democracy_party:0 "Anti-Nazi Resistance Movement"
  GER_liberal_democracy_party_long:0 "Anti-Nazi Resistance Movement"
- GER_conservatism_party:0 "Anti-Nazi Resistance Movement"
- GER_conservatism_party_long:0 "Anti-Nazi Resistance Movement"
  GER_authoritarian_democracy_party:0 "NSDAP-Reas"
  GER_authoritarian_democracy_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Reactionarists"
  GER_paternal_autocracy_party:0 "NSDAP-GS"
@@ -88,5 +75,11 @@
  GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Mainstreams"
  GER_ultra_nationalism_party:0 "NSDAP-W"
  GER_ultra_nationalism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Wehrmacht"
+ GER_neo_communism_party:0 "反ナチスレジスタンス運動"
+ GER_neo_communism_party_long:0 "反ナチスレジスタンス運動"
+ GER_gradual_socialism_party:0 "反ナチスレジスタンス運動"
+ GER_gradual_socialism_party_long:0 "反ナチスレジスタンス運動"
+ GER_conservatism_party:0 "反ナチスレジスタンス運動"
+ GER_conservatism_party_long:0 "反ナチスレジスタンス運動"
  GER_reactionism_party:0 "NSDAP-SS"
- GER_reactionism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Schutzstaffel"
+ GER_reactionism_party_long:0 "国家社会主義ドイツ労働者党（SS派）"
