@@ -471,7 +471,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_TAISAKU_IKEDA_DESC"
-			ideology = reactionism_ideology
+			ideology = rea_soka_gakkai_cultism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}

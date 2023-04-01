@@ -9,6 +9,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/neo_communism/anarcho_communism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_neocom_communistic_cult_ideology"
+		texturefile = "gfx/interface/ideologies/neo_communism/communistic_cult.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_neocom_neo_stalinsim_ideology"
 		texturefile = "gfx/interface/ideologies/neo_communism/neo_stalinsim.png"
 	}
@@ -67,6 +71,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/gradual_socialism/planned_socialism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_grasoc_revolutionary_front_ideology"
+		texturefile = "gfx/interface/ideologies/gradual_socialism/revolutionary_front.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_grasoc_syndicalism_ideology"
 		texturefile = "gfx/interface/ideologies/gradual_socialism/syndicalism.png"
 	}
@@ -86,6 +94,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_socdem_progressive_democracy_ideology"
 		texturefile = "gfx/interface/ideologies/social_democracy/progressive_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_socdem_proletarian_liberalism_ideology"
+		texturefile = "gfx/interface/ideologies/social_democracy/proletarian_liberalism.png"
 	}
 	#Liberal Democracy
 	spriteType = {
@@ -142,6 +154,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism/fiscal_conservatism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_con_left_conservatism_ideology"
+		texturefile = "gfx/interface/ideologies/conservatism/left_conservatism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_con_neo_conservatism_ideology"
 		texturefile = "gfx/interface/ideologies/conservatism/neo_conservatism.png"
 	}
@@ -192,6 +208,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternal_autocracy/despotic_populism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_pataut_managerial_state_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_autocracy/managerial_state.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_pataut_social_militarism_ideology"
 		texturefile = "gfx/interface/ideologies/paternal_autocracy/social_militarism.png"
 	}
@@ -238,6 +258,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_socialism/national_syndicalism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_natsoc_proletarian_technocracy_ideology"
+		texturefile = "gfx/interface/ideologies/national_socialism/proletarian_technocracy.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_natsoc_tyrannical_nazism_ideology"
 		texturefile = "gfx/interface/ideologies/national_socialism/tyrannical_nazism.png"
 	}
@@ -258,5 +282,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_rea_eurasianism_ideology"
 		texturefile = "gfx/interface/ideologies/reactionism/eurasianism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_rea_shinto_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/reactionism/shinto_fascism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_rea_soka_gakkai_cultism_ideology"
+		texturefile = "gfx/interface/ideologies/reactionism/soka_gakkai_cultism.png"
 	}
 }

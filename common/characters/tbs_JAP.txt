@@ -184,7 +184,6 @@ characters = {
 				tbs_neutralist
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -215,7 +214,6 @@ characters = {
 				tbs_foreign_minister
 				tbs_negotiator_law
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -324,7 +322,6 @@ characters = {
 				tbs_smile_diplomat
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -372,7 +369,6 @@ characters = {
 				tbs_economy_minister
 				compassionate_gentleman
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -482,7 +478,6 @@ characters = {
 				tbs_justice_executer
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -573,7 +568,6 @@ characters = {
 				tbs_popular_figurehead
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -587,7 +581,6 @@ characters = {
 				tbs_economy_minister
 				tbs_economic_reformer
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -619,7 +612,6 @@ characters = {
 				tbs_economy_minister
 				tbs_traditionalist_economist
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -677,7 +669,6 @@ characters = {
 				tbs_justice_minister
 				prince_of_terror
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -769,7 +760,6 @@ characters = {
 				tbs_head_of_government
 				tbs_warm_leader
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -910,7 +900,6 @@ characters = {
 				tbs_smile_socialite
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -983,7 +972,6 @@ characters = {
 				tbs_foreign_minister
 				tbs_proud_nobleman
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -1176,7 +1164,6 @@ characters = {
 				tbs_security_guard
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1207,7 +1194,6 @@ characters = {
 				tbs_justice_minister
 				smooth_talking_charmer
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -1240,7 +1226,6 @@ characters = {
 				socdem_reformist
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1272,7 +1257,6 @@ characters = {
 				tbs_industry_tycoon
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1303,7 +1287,6 @@ characters = {
 				tbs_head_of_government
 				tbs_crazy_monster
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -1377,7 +1360,6 @@ characters = {
 				tbs_economy_minister
 				tbs_austere_finance_advocate
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -1453,7 +1435,6 @@ characters = {
 				reluctant_interventionist
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1485,7 +1466,6 @@ characters = {
 				tbs_smile_socialite
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1499,7 +1479,6 @@ characters = {
 				tbs_economy_minister
 				technocrat
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -1650,7 +1629,6 @@ characters = {
 				tbs_obedient_minion
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1734,7 +1712,6 @@ characters = {
 				tbs_prince_of_terror
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1783,7 +1760,6 @@ characters = {
 				tbs_stubborn_veteran
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1797,7 +1773,6 @@ characters = {
 				tbs_security_minister
 				tbs_mass_rebellion
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -1898,7 +1873,6 @@ characters = {
 				tbs_legal_expert
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -1929,7 +1903,6 @@ characters = {
 				tbs_interior_minister
 				tbs_national_reformer
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -1978,7 +1951,6 @@ characters = {
 				tbs_economy_minister
 				tbs_prpponent_market_open
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -2086,7 +2058,6 @@ characters = {
 				tbs_ideological_crusader
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -2100,7 +2071,6 @@ characters = {
 				tbs_interior_minister
 				tbs_honorable_cultural_person
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -2226,7 +2196,6 @@ characters = {
 				tbs_iron_fisted_brute
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -2281,7 +2250,6 @@ characters = {
 				tbs_head_of_government
 				tbs_popular_figurehead
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -2357,7 +2325,6 @@ characters = {
 				tbs_military_firstist
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -2388,7 +2355,6 @@ characters = {
 				tbs_security_minister
 				anti_communist
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -2472,7 +2438,6 @@ characters = {
 				tbs_silent_workhorse
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -2495,7 +2460,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SHIRO_NONAKA_DESC"
-			ideology = reactionism_ideology
+			ideology = rea_shinto_fascism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
@@ -2674,7 +2639,6 @@ characters = {
 				tbs_serious_careful
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -2706,7 +2670,6 @@ characters = {
 				rearmer
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -2737,7 +2700,6 @@ characters = {
 				tbs_justice_minister
 				tbs_worker_companion
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -2948,7 +2910,6 @@ characters = {
 				tbs_great_compromiser
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -2979,7 +2940,6 @@ characters = {
 				tbs_justice_minister
 				backroom_backstabber
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -3055,7 +3015,6 @@ characters = {
 				appeaser
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -3086,7 +3045,6 @@ characters = {
 				tbs_security_minister
 				tbs_pragmatic_statesman
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -3171,7 +3129,6 @@ characters = {
 				tbs_prpponent_market_open
 			}
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -3236,7 +3193,6 @@ characters = {
 				tbs_security_minister
 				armaments_aficionado
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -3339,7 +3295,6 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_head_of_government }
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -3350,7 +3305,6 @@ characters = {
 			idea_token = JAP_yokusan_political_committee_int
 			allowed = { original_tag = JAP }
 			traits = { tbs_interior_minister }
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -3363,7 +3317,6 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_foreign_minister }
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -3374,7 +3327,6 @@ characters = {
 			idea_token = JAP_yokusan_political_committee_eco
 			allowed = { original_tag = JAP }
 			traits = { tbs_economy_minister }
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -3387,7 +3339,6 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = { tbs_justice_minister }
 			removal_cost = -1
-			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
 		}
@@ -3398,7 +3349,6 @@ characters = {
 			idea_token = JAP_yokusan_political_committee_sec
 			allowed = { original_tag = JAP }
 			traits = { tbs_security_minister }
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
@@ -3430,7 +3380,6 @@ characters = {
 				tbs_foreign_minister
 				tbs_strict_diplomat
 			}
-			removal_cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no

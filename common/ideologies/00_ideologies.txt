@@ -3,6 +3,7 @@ ideologies = {
 		types = {
 			neo_communism_ideology = {}
 			neocom_anarcho_communism_ideology = { can_be_randomly_selected = no }
+			neocom_communistic_cult_ideology = { can_be_randomly_selected = no }
 			neocom_neo_stalinsim_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 164 148 110 }
@@ -65,6 +66,7 @@ ideologies = {
 			grasoc_bill_of_rights_socialism_ideology = { can_be_randomly_selected = no }
 			grasoc_bureaucratic_socialism_ideology = { can_be_randomly_selected = no }
 			grasoc_planned_socialism_ideology = { can_be_randomly_selected = no }
+			grasoc_revolutionary_front_ideology = { can_be_randomly_selected = no }
 			grasoc_syndicalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 255 0 0 }
@@ -94,6 +96,7 @@ ideologies = {
 			socdem_left_patriotism_ideology = { can_be_randomly_selected = no }
 			socdem_peoples_front_ideology = { can_be_randomly_selected = no }
 			socdem_progressive_democracy_ideology = { can_be_randomly_selected = no }
+			socdem_proletarian_liberalism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 194 30 86 }
 		rules = {
@@ -155,6 +158,7 @@ ideologies = {
 			con_agrarianism_ideology = { can_be_randomly_selected = no }
 			con_christian_conservatism_ideology = { can_be_randomly_selected = no }
 			con_fiscal_conservatism_ideology = { can_be_randomly_selected = no }
+			con_left_conservatism_ideology = { can_be_randomly_selected = no }
 			con_neo_conservatism_ideology = { can_be_randomly_selected = no }
 			con_silent_conservatism_ideology = { can_be_randomly_selected = no }
 		}
@@ -215,6 +219,7 @@ ideologies = {
 			pataut_absolute_monarchism_ideology = { can_be_randomly_selected = no }
 			pataut_civilian_dictatorship_ideology = { can_be_randomly_selected = no }
 			pataut_despotic_populism_ideology = { can_be_randomly_selected = no }
+			pataut_managerial_state_ideology = { can_be_randomly_selected = no }
 			pataut_social_militarism_ideology = { can_be_randomly_selected = no }
 			pataut_stratocracy_ideology = { can_be_randomly_selected = no }
 			pataut_technocracy_ideology = { can_be_randomly_selected = no }
@@ -274,6 +279,7 @@ ideologies = {
 			national_socialism_ideology = {}
 			natsoc_american_nazism_ideology = { can_be_randomly_selected = no }
 			natsoc_national_syndicalism_ideology = { can_be_randomly_selected = no }
+			natsoc_proletarian_technocracy_ideology = { can_be_randomly_selected = no }
 			natsoc_tyrannical_nazism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 80 50 0 }
@@ -327,6 +333,8 @@ ideologies = {
 		types = {
 			reactionism_ideology = {}
 			rea_eurasianism_ideology = { can_be_randomly_selected = no }
+			rea_shinto_fascism_ideology = { can_be_randomly_selected = no }
+			rea_soka_gakkai_cultism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 52 25 80 }
 		rules = {

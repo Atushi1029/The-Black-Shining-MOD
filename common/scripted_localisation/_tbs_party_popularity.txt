@@ -349,6 +349,10 @@ defined_text = {
 		localization_key = neocom_anarcho_communism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = neocom_communistic_cult_ideology }
+		localization_key = neocom_communistic_cult_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = neocom_neo_stalinsim_ideology }
 		localization_key = neocom_neo_stalinsim_ideology
 	}
@@ -381,7 +385,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = totsoc_stalinism_ideology }
 		localization_key = totsoc_stalinism_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyGraSoc
@@ -407,10 +411,14 @@ defined_text = {
 		localization_key = grasoc_planned_socialism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = grasoc_revolutionary_front_ideology }
+		localization_key = grasoc_revolutionary_front_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = grasoc_syndicalism_ideology }
 		localization_key = grasoc_syndicalism_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologySocDem
@@ -427,7 +435,11 @@ defined_text = {
 		trigger = { has_country_leader_ideology = socdem_progressive_democracy_ideology }
 		localization_key = socdem_progressive_democracy_ideology
 	}
-	text = { localization_key = "" }
+	text = {
+		trigger = { has_country_leader_ideology = socdem_proletarian_liberalism_ideology }
+		localization_key = socdem_proletarian_liberalism_ideology
+	}
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyLibDem
@@ -464,7 +476,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = libdem_social_liberalism_ideology }
 		localization_key = "libdem_social_liberalism_ideology"
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyCon
@@ -482,6 +494,10 @@ defined_text = {
 		localization_key = con_fiscal_conservatism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = con_left_conservatism_ideology }
+		localization_key = con_left_conservatism_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = con_neo_conservatism_ideology }
 		localization_key = con_neo_conservatism_ideology
 	}
@@ -489,7 +505,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = con_silent_conservatism_ideology }
 		localization_key = "con_silent_conservatism_ideology"
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyAutDem
@@ -514,7 +530,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = autdem_social_nationalism_ideology }
 		localization_key = autdem_social_nationalism_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyPatAut
@@ -532,6 +548,10 @@ defined_text = {
 		localization_key = pataut_despotic_populism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = pataut_managerial_state_ideology }
+		localization_key = pataut_managerial_state_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = pataut_social_militarism_ideology }
 		localization_key = pataut_social_militarism_ideology
 	}
@@ -547,7 +567,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = pataut_transhumanism_ideology }
 		localization_key = pataut_transhumanism_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyNatCor
@@ -564,7 +584,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = natcor_mythtic_fascism_ideology }
 		localization_key = natcor_mythtic_fascism_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyNatSoc
@@ -578,10 +598,14 @@ defined_text = {
 		localization_key = natsoc_national_syndicalism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = natsoc_proletarian_technocracy_ideology }
+		localization_key = natsoc_proletarian_technocracy_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = natsoc_tyrannical_nazism_ideology }
 		localization_key = natsoc_tyrannical_nazism_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyUltNat
@@ -590,7 +614,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = ultnat_reformed_corporatism_ideology }
 		localization_key = ultnat_reformed_corporatism_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = EMPTY_TT }
 }
 defined_text = {
 	name = GetSubIdeologyRea
@@ -599,5 +623,13 @@ defined_text = {
 		trigger = { has_country_leader_ideology = rea_eurasianism_ideology }
 		localization_key = rea_eurasianism_ideology
 	}
-	text = { localization_key = "" }
+	text = {
+		trigger = { has_country_leader_ideology = rea_shinto_fascism_ideology }
+		localization_key = rea_shinto_fascism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = rea_soka_gakkai_cultism_ideology }
+		localization_key = rea_soka_gakkai_cultism_ideology
+	}
+	text = { localization_key = EMPTY_TT }
 }
