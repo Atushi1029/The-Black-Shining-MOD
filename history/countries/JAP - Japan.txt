@@ -168,9 +168,9 @@ set_popularities = {
 	reactionism = 10
 }
 #Yokusan Primary
-set_variable = { JAP_YSK_shakakudo_leftists = 30 }
-set_variable = { JAP_YSK_shakakudo_neoconstitutionalists = 150 }
-set_variable = { JAP_YSK_shakakudo_nishio = 60 }
+set_variable = { JAP_YSK_shakakudo_leftists = 10 }
+set_variable = { JAP_YSK_shakakudo_neoconstitutionalists = 45 }
+set_variable = { JAP_YSK_shakakudo_nishio = 45 }
 #Diplomatic
 create_faction = JAP_geacps
 add_to_faction = CAM
