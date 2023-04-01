@@ -42,7 +42,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { check_variable = { v = 3 } }
-		localization_key = "GFX_Portrait_JAP_Suehiro_Nishio"
+		localization_key = "GFX_Portrait_JAP_Nobusuke_Kishi"
 	}
 	text = {
 		trigger = { check_variable = { v = 4 } }

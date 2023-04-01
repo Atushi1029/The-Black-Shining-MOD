@@ -149,34 +149,28 @@ add_ideas = {
 	JAP_torazo_ninagawa_sec
 }
 set_politics = {
-	ruling_party = gradual_socialism
+	ruling_party = paternal_autocracy
 	last_election = "1968.12.10"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	totalitarian_socialism = 0
-	gradual_socialism = 40
-	social_democracy = 5
-	liberal_democracy = 15
-	conservatism = 5
-	authoritarian_democracy = 5
-	paternal_autocracy = 5
+	gradual_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	conservatism = 0
+	authoritarian_democracy = 0
+	paternal_autocracy = 40
 	national_corporatism = 20
-	national_socialism = 2
-	ultra_nationalism = 3
-	reactionism = 0
+	national_socialism = 10
+	ultra_nationalism = 20
+	reactionism = 10
 }
 #Yokusan Primary
-set_variable = { JAP_YSK_shakakudo_leftists = 0 }
-set_variable = { JAP_YSK_shakakudo_neoconstitutionalists = 0 }
-set_variable = { JAP_YSK_shakakudo_nishio = 0 }
-set_variable = { JAP_YSK_kentetsukai_minsei = 0 }
-set_variable = { JAP_YSK_kentetsukai_reformists = 0 }
-set_variable = { JAP_YSK_kyokakai_nakasone = 0 }
-set_variable = { JAP_YSK_kyokakai_conservatives = 0 }
-set_variable = { JAP_YSK_mushozoku = 0 }
-set_variable = { JAP_YPE_lobby_progbar = 0 }
+set_variable = { JAP_YSK_shakakudo_leftists = 30 }
+set_variable = { JAP_YSK_shakakudo_neoconstitutionalists = 150 }
+set_variable = { JAP_YSK_shakakudo_nishio = 60 }
 #Diplomatic
 create_faction = JAP_geacps
 add_to_faction = CAM

@@ -809,7 +809,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KEI_HOASHI_DESC"
-			ideology = grasoc_planned_socialism_ideology
+			ideology = pataut_absolute_monarchism_ideology
 			expire = "1989.2.3.1"
 			id = -1
 			traits = {}
@@ -1551,13 +1551,7 @@ characters = {
 			coordination_skill = 5
 			legacy_id = -1
 		}
-		country_leader = {
-			desc = "POLITICS_MINORU_GENDA_DESC"
-			ideology = ultnat_reformed_corporatism_ideology
-			expire = "1989.8.15.1"
-			id = -1
-			traits = {}
-		}
+		
 	}
 	JAP_minoru_suzuki = {
 		name = JAP_minoru_suzuki
@@ -1828,6 +1822,13 @@ characters = {
 				small = "GFX_idea_JAP_nobusuke_kishi"
 			}
 		}
+		country_leader = {
+			desc = "POLITICS_MINORU_GENDA_DESC"
+			ideology = ultnat_reformed_corporatism_ideology
+			expire = "1989.8.15.1"
+			id = -1
+			traits = {}
+		}
 	}
 	JAP_okinori_kaya = {
 		name = JAP_okinori_kaya
@@ -1998,9 +1999,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_SABURO_EDA_DESC"
-			ideology = socdem_progressive_democracy_ideology
-			expire = "1977.5.22.1"
+			desc = "POLITICS_SEIJURO_ARAFUNE_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1980.11.25.1"
 			id = -1
 			traits = {}
 		}
@@ -2215,13 +2216,6 @@ characters = {
 				large = "GFX_Portrait_JAP_Seijuro_Arafune"
 				small = "GFX_idea_JAP_seijuro_arafune"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_SEIJURO_ARAFUNE_DESC"
-			ideology = national_corporatism_ideology
-			expire = "1980.11.25.1"
-			id = -1
-			traits = {}
 		}
 	}
 	JAP_seisuke_okuno = {

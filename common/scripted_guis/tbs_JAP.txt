@@ -5,7 +5,6 @@ scripted_gui = {
 		window_name = "JAP_yokusan_primary_election_gui_container"
 		ai_enabled = { always = no }
 		visible = {
-			has_country_flag = JAP_yokusan_struggle
 			is_ai = no
 			tag = JAP
 		}
