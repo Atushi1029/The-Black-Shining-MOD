@@ -401,6 +401,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_james_russell_wiggins = {
@@ -431,6 +432,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_jesse_jackson = {
@@ -529,6 +531,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_lloyd_bentsen = {
@@ -669,6 +672,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_richard_nixon = {
@@ -723,6 +727,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_ronald_reagan = {
@@ -821,6 +826,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_tom_kahn = {

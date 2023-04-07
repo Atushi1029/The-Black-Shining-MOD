@@ -20,7 +20,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_the_old_marshal_and_the_two_heads" }
 		}
 	}
 	focus = {
@@ -48,7 +48,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_about_domestic_affairs" }
 		}
 	}
 	focus = {
@@ -76,7 +76,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_about_economy" }
 		}
 	}
 	focus = {
@@ -104,7 +104,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_on_the_cult_of_personality_and_its_consequences" }
 		}
 	}
 	focus = {
@@ -132,7 +132,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_nkvd_debate" }
 		}
 	}
 	focus = {
@@ -161,7 +161,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_wisdom_given_to_the_ignorant" }
 		}
 	}
 	focus = {
@@ -190,7 +190,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_the_list" }
 		}
 	}
 	focus = {
@@ -219,7 +219,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_pros_and_cons_of_a_party_system" }
 		}
 	}
 	focus = {
@@ -248,7 +248,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_the_mates" }
 		}
 	}
 	focus = {
@@ -277,7 +277,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_become_tense" }
 		}
 	}
 	focus = {
@@ -305,7 +305,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_visit_the_leading_actors_of_the_era" }
 		}
 	}
 	focus = {
@@ -333,7 +333,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_reflecting_on_memories_of" }
 		}
 	}
 	focus = {
@@ -361,7 +361,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_food_problem" }
 		}
 	}
 	focus = {
@@ -389,7 +389,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_people_management" }
 		}
 	}
 	focus = {
@@ -418,7 +418,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_the_workers_rights" }
 		}
 	}
 	focus = {
@@ -447,7 +447,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_be_exposed_to_poison" }
 		}
 	}
 	focus = {
@@ -476,7 +476,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_campaigns_from_the_army" }
 		}
 	}
 	focus = {
@@ -505,7 +505,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_beyond_tomorrow" }
 		}
 	}
 	focus = {
@@ -534,7 +534,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_4th_five-year_plan" }
 		}
 	}
 	focus = {
@@ -564,7 +564,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_bowing_out" }
 		}
 	}
 	focus = {
@@ -593,7 +593,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_steel_suslov" }
 		}
 	}
 	focus = {
@@ -622,7 +622,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus SOV_reform_gorbachev" }
 		}
 	}
 }

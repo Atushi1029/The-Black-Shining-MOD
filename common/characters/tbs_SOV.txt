@@ -51,6 +51,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_anatoly_lukyanov = {
@@ -98,6 +99,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_andrei_gromyko = {
@@ -128,6 +130,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_boris_yeltsin = {
@@ -270,6 +273,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_konstantin_chernenko = {
@@ -300,6 +304,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_leonid_brezhnev = {
@@ -330,6 +335,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_lev_gumilyov = {
@@ -425,6 +431,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_nikolai_kuznetsov = {
@@ -472,6 +479,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_nikolai_tikhonov = {
@@ -519,6 +527,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_vasily_kuznetsov = {
@@ -583,6 +592,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_vladimir_kryuchkov = {

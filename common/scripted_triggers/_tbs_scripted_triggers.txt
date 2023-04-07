@@ -559,6 +559,12 @@ is_num_vols_right_inner = {
 can_create_intelligence_agency = {
 	always = no
 }
+is_allis_of_ROOT = {
+	OR = {
+		is_in_faction_with = ROOT
+		is_subject_of = ROOT
+	}
+}
 is_in_economic_spheres = {
 	OR = {
 		is_in_GER_zollverein = yes

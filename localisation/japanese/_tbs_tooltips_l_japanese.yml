@@ -54,3 +54,4 @@
  gdp_growth_decrease_tt:0 "§YGDP成長率§!が§Y[?gdp_growth_temp|2]%§!§R減少§!する。"
  inflation_increase_tt:0 "§Yインフレ率§!が§Y[?inflation_temp|2]%§!§R増加§!する。"
  inflation_decrease_tt:0 "§Yインフレ率§!が§Y[?inflation_temp|2]%§!§G減少§!する。"
+ EMPTY_TT:0 ""

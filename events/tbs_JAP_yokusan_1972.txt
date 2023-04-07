@@ -1114,17 +1114,7 @@ country_event = { #
 		name = tbs_JAP_yokusan_1972.19.a
 		ai_chance = { base = 100 }
 		JAP_yokusan_election_1972_set_popularities = yes
-		remove_all_ministers_without_hog = yes
-		hidden_effect = {
-			add_ideas = {
-				JAP_yokusan_political_committee_int
-				JAP_yokusan_political_committee_for
-				JAP_yokusan_political_committee_eco
-				JAP_yokusan_political_committee_jus
-				JAP_yokusan_political_committee_sec
-			}
-			news_event = tbs_JAP_yokusan_1972.28
-		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.28 }
 	}
 }
 country_event = { #
