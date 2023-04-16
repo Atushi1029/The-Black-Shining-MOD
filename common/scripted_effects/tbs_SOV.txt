@@ -1,0 +1,48 @@
+SOV_suslov_influence_1 = {
+	add_to_variable = {
+		var = SOV_suslov_influence
+		value = 1
+	}
+	custom_effect_tooltip = SOV_suslov_influence_1_tooltip
+}
+SOV_gorbachev_influence_1 = {
+	add_to_variable = {
+		var = SOV_gorbachev_influence
+		value = 1
+	}
+	custom_effect_tooltip = SOV_gorbachev_influence_1_tooltip
+}
+SOV_random_influence = {
+	hidden_effect = {
+		random_list = {
+			50 = {
+				add_to_variable = {
+					var = SOV_suslov_influence
+					value = 1
+				}
+			}
+			50 = {
+				add_to_variable = {
+					var = SOV_gorbachev_influence
+					value = 1
+				}
+			}
+		}
+	}
+	custom_effect_tooltip = SOV_random_influence_tooltip
+}
+
+SOV_add_other_modifier = {
+	if = {
+		limit = {
+			NOT = {
+				has_dynamic_modifier = {
+					modifier = SOV_other_national_situations_modifier
+				}
+			}
+		}
+		add_dynamic_modifier = {
+			modifier = SOV_other_national_situations_modifier
+		}
+	}
+}

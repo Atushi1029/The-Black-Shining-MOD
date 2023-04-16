@@ -20,7 +20,33 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.1.a
-		ai_chance = { base = 100 }
+		SOV_suslov_influence_1 = yes
+		load_oob = SOV_NKVD_Division
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_org
+			value = -0.025
+		}
+		custom_effect_tooltip = SOV_other_modifier_org_m0025
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = tbs_sov.1.b
+		SOV_gorbachev_influence_1 = yes
+		if = {
+			limit = {
+				has_dlc = "La Resistance"
+			}
+			create_intelligence_agency = {
+				name = KGB
+				icon = GFX_intelligence_agency_logo_KGB
+			}
+		}
+		delete_units = {
+			division_template = "NKVD Diviziya"
+			disband = yes
+		}
+		ai_chance = { base = 50 }
 	}
 }
 country_event = {
@@ -32,7 +58,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.2.a
-		ai_chance = { base = 100 }
+		SOV_suslov_influence_1 = yes
+		add_political_power = -25
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = tbs_sov.2.b
+		SOV_gorbachev_influence_1 = yes
+		add_stability = -0.03
+		ai_chance = { base = 50 }
 	}
 }
 country_event = {
@@ -44,7 +78,47 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.3.a
-		ai_chance = { base = 100 }
+		SOV_suslov_influence_1 = yes
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_pp
+			value = -0.04
+		}
+		custom_effect_tooltip = SOV_other_modifier_pp_m004
+		add_to_variable = {
+			var = SOV_other_modifier_research
+			value = -0.05
+		}
+		custom_effect_tooltip = SOV_other_modifier_research_m005
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = tbs_sov.3.b
+		SOV_gorbachev_influence_1 = yes
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_research
+			value = 0.05
+		}
+		custom_effect_tooltip = SOV_other_modifier_research_005
+		add_stability = -0.10
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = liberal_democracy
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = authoritarian_democracy
+			popularity = 0.025
+		}
+		ai_chance = { base = 50 }
 	}
 }
 country_event = {
@@ -56,7 +130,41 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.4.a
-		ai_chance = { base = 100 }
+		SOV_suslov_influence_1 = yes
+		add_political_power = -100
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.050
+		}
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = tbs_sov.4.b
+		SOV_gorbachev_influence_1 = yes
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_pp
+			value = -0.02
+		}
+		custom_effect_tooltip = SOV_other_modifier_pp_m002
+		add_stability = -0.05
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = liberal_democracy
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = authoritarian_democracy
+			popularity = 0.025
+		}
+		ai_chance = { base = 50 }
 	}
 }
 country_event = {
@@ -80,7 +188,46 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.6.a
-		ai_chance = { base = 100 }
+		SOV_suslov_influence_1 = yes
+		add_stability = -0.1
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_goods
+			value = -0.05
+		}
+		custom_effect_tooltip = SOV_other_modifier_goods_m005
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = tbs_sov.6.b
+		SOV_gorbachev_influence_1 = yes
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_capacity
+			value = 0.08
+		}
+		custom_effect_tooltip = SOV_other_modifier_capacity_008
+		add_to_variable = {
+			var = SOV_other_modifier_goods
+			value = 0.03
+		}
+		custom_effect_tooltip = SOV_other_modifier_goods_003
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		ai_chance = { base = 50 }
 	}
 }
 country_event = {
@@ -92,7 +239,30 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.7.a
-		ai_chance = { base = 100 }
+		SOV_suslov_influence_1 = yes
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_ef_gain
+			value = -0.02
+		}
+		custom_effect_tooltip = SOV_other_modifier_ef_gain_m002
+		ai_chance = { base = 50 }
+	}
+	option = {
+		name = tbs_sov.7.b
+		SOV_gorbachev_influence_1 = yes
+		SOV_add_other_modifier = yes
+		add_to_variable = {
+			var = SOV_other_modifier_ef_start
+			value = 0.04
+		}
+		custom_effect_tooltip = SOV_other_modifier_ef_start_004
+		add_to_variable = {
+			var = SOV_other_modifier_goods
+			value = 0.01
+		}
+		custom_effect_tooltip = SOV_other_modifier_goods_001
+		ai_chance = { base = 50 }
 	}
 }
 country_event = {
@@ -104,6 +274,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.8.a
+		SOV_suslov_influence_1 = yes
 		ai_chance = { base = 100 }
 	}
 }
@@ -116,6 +287,17 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = tbs_sov.9.a
+		if = {
+			limit = {
+				check_variable = {
+					SOV_suslov_influence > SOV_gorbachev_influence
+				}
+			}
+			complete_national_focus = SOV_steel_suslov
+		}
+		else = {
+			complete_national_focus = SOV_reform_gorbachev
+		}
 		ai_chance = { base = 100 }
 	}
 }

@@ -1,0 +1,22 @@
+SOV_other_national_situations_modifier = {
+	enable = { always = yes }
+	icon = GFX_SOV_other_national_situations_modifier
+	remove_trigger = {
+		AND = {
+			check_variable = { SOV_other_modifier_org = 0 }
+			check_variable = { SOV_other_modifier_pp = 0 }
+			check_variable = { SOV_other_modifier_research = 0 }
+			check_variable = { SOV_other_modifier_goods = 0 }
+			check_variable = { SOV_other_modifier_capacity = 0 }
+			check_variable = { SOV_other_modifier_ef_gain = 0 }
+			check_variable = { SOV_other_modifier_ef_start = 0 }
+		}
+	}
+	army_org_Factor = SOV_other_modifier_org
+	political_power_gain = SOV_other_modifier_pp
+	research_speed_factor = SOV_other_modifier_research
+	consumer_goods_factor = SOV_other_modifier_goods
+	industrial_capacity_factory = SOV_other_modifier_capacity
+	production_factory_efficiency_gain_factor = SOV_other_modifier_ef_gain
+	production_factory_start_efficiency_factor = SOV_other_modifier_ef_start
+}

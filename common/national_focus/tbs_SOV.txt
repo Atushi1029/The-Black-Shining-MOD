@@ -20,7 +20,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			add_political_power = 50
+			country_event = tbs_sov.0
 		}
 	}
 	focus = {
@@ -48,7 +49,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			add_political_power = 25
 		}
 	}
 	focus = {
@@ -76,7 +77,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			add_tech_bonus = {
+    			bonus = 0.1
+    			uses = 1
+    			category = industry
+			}
 		}
 	}
 	focus = {
@@ -104,7 +109,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.2
 		}
 	}
 	focus = {
@@ -132,7 +137,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.1
 		}
 	}
 	focus = {
@@ -161,7 +166,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.3
 		}
 	}
 	focus = {
@@ -190,7 +195,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			SOV_suslov_influence_1 = yes
 		}
 	}
 	focus = {
@@ -219,7 +224,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.4
 		}
 	}
 	focus = {
@@ -248,7 +253,23 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			SOV_gorbachev_influence_1 = yes
+			add_popularity = {
+				ideology = neo_communism
+				popularity = -0.025
+			}
+			add_popularity = {
+				ideology = totalitarian_socialism
+				popularity = -0.050
+			}
+			add_popularity = {
+				ideology = gradual_socialism
+				popularity = -0.025
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = -0.025
+			}
 		}
 	}
 	focus = {
@@ -277,7 +298,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			SOV_random_influence = yes
 		}
 	}
 	focus = {
@@ -305,7 +326,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.5
 		}
 	}
 	focus = {
@@ -333,7 +354,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	focus = {
@@ -361,7 +386,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.6
 		}
 	}
 	focus = {
@@ -389,7 +414,23 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			SOV_suslov_influence_1 = yes
+			add_manpower = 4328
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -418,7 +459,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.7
 		}
 	}
 	focus = {
@@ -447,7 +488,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			SOV_gorbachev_influence_1 = yes
+			add_tech_bonus = {
+    			bonus = 0.25
+    			uses = 2
+    			category = electronics
+			}
 		}
 	}
 	focus = {
@@ -476,7 +522,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.8
 		}
 	}
 	focus = {
@@ -505,7 +551,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			SOV_random_influence = yes
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -534,7 +581,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = SOV_4th_five-year_plan_idea
+				days = 1825
+			}
 		}
 	}
 	focus = {
@@ -564,7 +614,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.9
 		}
 	}
 	focus = {
@@ -593,7 +643,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.10
 		}
 	}
 	focus = {
@@ -622,7 +672,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			
+			country_event = tbs_sov.11
 		}
 	}
 }
