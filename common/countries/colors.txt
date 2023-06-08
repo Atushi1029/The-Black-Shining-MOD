@@ -836,6 +836,10 @@ IVO = {
 	color = rgb { 48 169 96 }
 	color_ui = rgb { 48 169 96 }
 }
+JAM = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 JEI = {
 	color = rgb { 71 124 178 }
 	color_ui = rgb { 71 124 178 }
@@ -1055,6 +1059,10 @@ SUR = {
 TAH = {
 	color = rgb { 99 160 139 }
 	color_ui = rgb { 99 160 139 }
+}
+WLS = {
+	color = rgb { 0 101 189 }
+	color_ui = rgb { 0 101 189 }
 }
 TAJ = {
 	color = rgb { 80 20 20 }
