@@ -1,0 +1,1 @@
+KOS = "countries/continents/Eastern Europe.txt"
