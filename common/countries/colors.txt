@@ -816,6 +816,10 @@ GNB = {
 	color = rgb { 30 131 162 }
 	color_ui = rgb { 30 131 162 }
 }
+GRN = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 GUM = {
 	color = rgb { 42 107 17 }
 	color_ui = rgb { 42 107 17 }
@@ -837,6 +841,10 @@ IVO = {
 	color_ui = rgb { 48 169 96 }
 }
 JAM = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+JAN = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
@@ -1031,6 +1039,10 @@ SIL = {
 SLV = {
 	color = rgb { 204 81 39 }
 	color_ui = rgb { 204 81 39 }
+}
+SMI = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 SOL = {
 	color = rgb { 106 119 89 }

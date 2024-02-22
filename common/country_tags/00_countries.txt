@@ -254,5 +254,8 @@ PAP = "countries/continents/Western Europe.txt"
 TOS = "countries/continents/Western Europe.txt"
 SPM = "countries/continents/Western Europe.txt"
 TTS = "countries/continents/Western Europe.txt"
+SMI = "countries/continents/Western Europe.txt"
+GRN = "countries/continents/Western Europe.txt"
+JAN = "countries/continents/Western Europe.txt"
 
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

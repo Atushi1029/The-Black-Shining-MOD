@@ -1026,6 +1026,18 @@
  TTS:0 "両シチリア"
  TTS_DEF:0 "両シチリア"
  TTS_ADJ:0 "両シチリア"
+
+ SMI:0 "サーミ"
+ SMI_DEF:0 "サーミ"
+ SMI_ADJ:0 "サーミ"
+
+ GRN:0 "グリーンランド"
+ GRN_DEF:0 "グリーンランド"
+ GRN_ADJ:0 "グリーンランド"
+
+ JAN:0 "ヤンマイエン"
+ JAN_DEF:0 "ヤンマイエン"
+ JAN_ADJ:0 "ヤンマイエン"
  
 #The Black Shining
  
