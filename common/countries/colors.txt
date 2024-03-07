@@ -720,6 +720,10 @@ CHA = {
 	color = rgb { 176 97 77 }
 	color_ui = rgb { 176 97 77 }
 }
+CHR = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 CLN = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 155 101 107 }
@@ -792,6 +796,10 @@ GAM = {
 	color = rgb { 44 106 72 }
 	color_ui = rgb { 44 106 72 }
 }
+GAR = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 GBR = {
 	color = rgb { 150 0 24 }
 	color_ui = rgb { 150 0 24 }
@@ -835,6 +843,22 @@ HAW = {
 HRZ = {
 	color = rgb { 255 111 84 }
 	color_ui = rgb { 255 111 84 }
+}
+IAS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+INC = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+INU = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ITZ = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 IVO = {
 	color = rgb { 48 169 96 }
@@ -892,6 +916,14 @@ MAF = {
 	color = hsv { 0.1 0.15 0.4 }
 	color_ui = hsv { 0.1 0.15 0.4 }
 }
+MAY = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+MIS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 MLD = {
 	color = rgb { 0 76 153 }
 	color_ui = rgb { 0 76 153 }
@@ -919,6 +951,10 @@ MOR = {
 MRT = {
 	color = rgb { 59 119 89 }
 	color_ui = rgb { 59 119 89 }
+}
+NAH = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 NAV = {
 	color = rgb { 46 72 46 }
@@ -968,6 +1004,14 @@ QAT = {
 	color = rgb { 0 146 51 }
 	color_ui = rgb { 0 146 51 }
 }
+QUE = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+RAP = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 RCG = {
 	color = rgb { 79 79 81 }
 	color_ui = rgb { 79 79 81 }
@@ -983,6 +1027,10 @@ RFP = {
 RIF = {
 	color = rgb { 138 13 13 }
 	color_ui = rgb { 138 13 13 }
+}
+RIG = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 RKK = {
 	color = hsv { 0.1 0.15 0.4 }
@@ -1135,6 +1183,14 @@ VOL = {
 WES = {
 	color = rgb { 140 71 71 }
 	color_ui = rgb { 140 71 71 }
+}
+WLA = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+YUC = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 ZAM = {
 	color = rgb { 150 102 167 }
