@@ -16,18 +16,16 @@ set_politics = {
 }
 set_popularities = {
 	totalitarian_socialism = 10
-	radical_socialism = 0
-	moderate_socialism = 0
+	gradual_socialism = 0
 	social_democracy = 0
 	liberal_democracy = 0
-	social_conservatism = 0
+	conservatism = 0
 	authoritarian_democracy = 5
 	paternal_autocracy = 5
 	national_corporatism = 15
 	national_socialism = 30
-	ultra_nationalism = 15
-	religious_nationalism = 10
-	transhumanism = 10
+	ultra_nationalism = 25
+	reactionism = 10
 }
 declare_war_on = {
 	target = FRA

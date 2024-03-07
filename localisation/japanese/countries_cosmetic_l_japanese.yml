@@ -251,8 +251,8 @@
  FRA_state_DEF:0 "フランス国"
  FRA_state_ADJ:0 "フランス"
 #イギリス
- GBR_united_kingdom:0 "イギリス連合王国"
- GBR_united_kingdom_DEF:0 "イギリス連合王国"
+ GBR_united_kingdom:0 "連合王国"
+ GBR_united_kingdom_DEF:0 "連合王国"
  GBR_united_kingdom_ADJ:0 "イギリス"
 #グルジア
  GEO_republic:0 "グルジア共和国"
@@ -271,6 +271,9 @@
  GNA_peoples_republic_DEF:0 "ギニア人民共和国"
  GNA_peoples_republic_ADJ:0 "ギニア"
 #ギリシャ
+ GRE_federal_republic:0 "ギリシャ連邦共和国"
+ GRE_federal_republic_DEF:0 "ギリシャ連邦共和国"
+ GRE_federal_republic_ADJ:0 "ギリシャ"
  GRE_republic:0 "ギリシャ共和国"
  GRE_republic_DEF:0 "ギリシャ共和国"
  GRE_republic_ADJ:0 "ギリシャ"
@@ -360,10 +363,6 @@
  MNT_kingdom:0 "モンテネグロ王国"
  MNT_kingdom_DEF:0 "モンテネグロ王国"
  MNT_kingdom_ADJ:0 "モンテネグロ"
-#モンゴル
- MON_republic:0 "モンゴル共和国"
- MON_republic_DEF:0 "モンゴル共和国"
- MON_republic_ADJ:0 "モンゴル"
 #モロッコ
  MOR_kingdom:0 "モロッコ王国"
  MOR_kingdom_DEF:0 "モロッコ王国"

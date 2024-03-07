@@ -2,6 +2,7 @@
 #oob = ""
 set_starting_values = yes
 recruit_character = RKU_claus_von_stauffenberg
+recruit_character = RKU_hans_zimmermann
 set_convoys = 20
 add_ideas = {
 	
@@ -14,18 +15,8 @@ add_ideas = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		totalitarian_socialism = 0
-		radical_socialism = 0
-		moderate_socialism = 0
-		social_democracy = 0
-		liberal_democracy = 0
-		social_conservatism = 10
+		conservatism = 10
 		authoritarian_democracy = 15
-		paternal_autocracy = 0
-		national_corporatism = 0
 		national_socialism = 75
-		ultra_nationalism = 0
-		religious_nationalism = 0
-		transhumanism = 0
 	}
 }

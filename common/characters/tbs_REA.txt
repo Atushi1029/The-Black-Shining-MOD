@@ -34,6 +34,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	REA_gurgen_nagolyan = {
@@ -76,13 +77,6 @@ characters = {
 				small = "GFX_idea_REA_hajime_yasuda"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_HAJIME_YASUDA_DESC"
-			ideology = transhumanism_ideology
-			expire = "1991.3.26.1"
-			id = -1
-			traits = {}
-		}
 	}
 	REA_hayao_kinugasa = {
 		name = REA_hayao_kinugasa
@@ -112,6 +106,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		corps_commander = {
 			traits = {
@@ -171,6 +166,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	REA_kosaku_wada = {
@@ -191,7 +187,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KOSAKU_WADA_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "2006.7.4.1"
 			id = -1
 			traits = {}
@@ -256,7 +252,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MOMOFUKU_ANDO_DESC"
-			ideology = market_liberalism_ideology
+			ideology = libdem_market_liberalism_ideology
 			expire = "2007.1.5.1"
 			id = -1
 			traits = {}
@@ -280,7 +276,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MURAICHI_HORIE_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = grasoc_bureaucratic_socialism_ideology
 			expire = "1991.11.24.1"
 			id = -1
 			traits = {}
@@ -314,6 +310,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	REA_ryokichi_minobe = {
@@ -380,13 +377,6 @@ characters = {
 				small = "GFX_idea_REA_satomi_hakamada"
 			}
 		}
-		country_leader = {
-			desc = "POLITICS_SATOMI_HAKAMADA_DESC"
-			ideology = radical_socialism_ideology
-			expire = "1990.5.10.1"
-			id = -1
-			traits = {}
-		}
 	}
 	REA_shigeyoshi_inoue = {
 		name = REA_shigeyoshi_inoue
@@ -416,6 +406,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 		navy_leader = {
 			traits = {
@@ -459,6 +450,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	REA_taisaku_ikeda = {
@@ -479,7 +471,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_TAISAKU_IKEDA_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = rea_soka_gakkai_cultism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}

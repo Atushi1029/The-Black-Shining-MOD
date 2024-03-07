@@ -361,7 +361,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_diplo_opinion_bg"
-		textureFile = "gfx/interface/diplo_opinion_bg.dds"
+		textureFile = "gfx/interface/diplomatic_gui/tbs_diplo_opinion_bg.png"
 	}
 
 	spriteType = {

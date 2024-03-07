@@ -1,5 +1,9 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_JAP_dying_out_of_a_fire"
+		texturefile = "gfx/interface/goals/JAP/JAP_dying_out_of_a_fire.png"
+	}
+	SpriteType = {
 		name = "GFX_JAP_far_eastern_red_devil"
 		texturefile = "gfx/interface/goals/JAP/JAP_far_eastern_red_devil.png"
 	}
@@ -20,6 +24,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/JAP/JAP_pressure_on_the_puppets.png"
 	}
 	SpriteType = {
+		name = "GFX_JAP_pursuing_businessmen"
+		texturefile = "gfx/interface/goals/JAP/JAP_pursuing_businessmen.png"
+	}
+	SpriteType = {
 		name = "GFX_JAP_secret_meetings_with_rfp"
 		texturefile = "gfx/interface/goals/JAP/JAP_secret_meetings_with_rfp.png"
 	}
@@ -38,6 +46,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_JAP_towards_the_election"
 		texturefile = "gfx/interface/goals/JAP/JAP_towards_the_election.png"
+	}
+	SpriteType = {
+		name = "GFX_JAP_use_the_media"
+		texturefile = "gfx/interface/goals/JAP/JAP_use_the_media.png"
 	}
 	SpriteType = {
 		name = "GFX_JAP_vision_of_hoashi_and_katsumata"

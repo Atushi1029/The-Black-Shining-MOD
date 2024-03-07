@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_CORNELIU_MANESCU_DESC"
-			ideology = radical_socialism_ideology
+			ideology = socdem_peoples_front_ideology
 			expire = "2000.6.26.1"
 			id = -1
 			traits = {}

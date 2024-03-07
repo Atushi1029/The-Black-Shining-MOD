@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MUHAMMETNAZAR_GAPUROV_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = gradual_socialism_ideology
 			expire = "1999.7.13.1"
 			id = -1
 			traits = {}

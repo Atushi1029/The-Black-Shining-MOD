@@ -24,7 +24,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_IERONIM_UBOREVICH_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = reactionism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

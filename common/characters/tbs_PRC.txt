@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HU_YAOBANG_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = gradual_socialism_ideology
 			expire = "1989.4.15.1"
 			id = -1
 			traits = {}
@@ -48,7 +48,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_PENG_DEHUAI_DESC"
-			ideology = maoism_ideology
+			ideology = totsoc_maoism_ideology
 			expire = "1974.11.29.1"
 			id = -1
 			traits = {}
@@ -105,13 +105,6 @@ characters = {
 				large = "GFX_Portrait_PRC_Zhou_Enlai"
 				small = "GFX_idea_PRC_zhou_enlai"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_ZHOU_ENLAI_DESC"
-			ideology = radical_socialism_ideology
-			expire = "1976.1.8.1"
-			id = -1
-			traits = {}
 		}
 	}
 }

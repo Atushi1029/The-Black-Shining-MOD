@@ -9,25 +9,23 @@ add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = moderate_socialism
+	ruling_party = gradual_socialism
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	totalitarian_socialism = 10
-	radical_socialism = 12
-	moderate_socialism = 47
+	totalitarian_socialism = 22
+	gradual_socialism = 47
 	social_democracy = 8
 	liberal_democracy = 2
-	social_conservatism = 2
+	conservatism = 2
 	authoritarian_democracy = 5
 	paternal_autocracy = 5
 	national_corporatism = 9
 	national_socialism = 0
 	ultra_nationalism = 0
-	religious_nationalism = 0
-	transhumanism = 0
+	reactionism = 0
 }
 country_event = {
 	id = tbs_skelton.4

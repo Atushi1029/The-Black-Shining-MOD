@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_JOHN_VORSTER_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "1983.9.10.1"
 			id = -1
 			traits = {}

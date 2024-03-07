@@ -16,17 +16,16 @@ add_ideas = {
 	}
 	set_popularities = {
 		totalitarian_socialism = 0
-		radical_socialism = 0
-		moderate_socialism = 2
+		neo_communism = 0
+		gradual_socialism = 2
 		social_democracy = 12
 		liberal_democracy = 21
-		social_conservatism = 5
+		conservatism = 5
 		authoritarian_democracy = 13
 		paternal_autocracy = 46
 		national_corporatism = 1
 		national_socialism = 0
 		ultra_nationalism = 0
-		religious_nationalism = 0
-		transhumanism = 0
+		reactionism = 0
 	}
 }

@@ -1,3 +1,50 @@
 JAP_yokusan_election = {
-	
+	JAP_support_recommended_small = {
+		available = {
+			check_variable = { yokusankai_recommended < 466 }
+			NOT = { has_country_flag = JAP_yokusan_election_1972_activate }
+		}
+		ai_will_do = { base = 1 }
+		fire_only_once = no
+		days_remove = 5
+		cost = 50
+		complete_effect = { set_country_flag = JAP_yokusan_election_1972_activate }
+		remove_effect = {
+			clr_country_flag = JAP_yokusan_election_1972_activate
+			set_temp_variable = { yokusankai_support_temp = 1 }
+			JAP_yokusan_election_recalculation = yes
+		}
+	}
+	JAP_support_recommended_large = {
+		available = {
+			check_variable = { yokusankai_recommended < 466 }
+			NOT = { has_country_flag = JAP_yokusan_election_1972_activate }
+		}
+		ai_will_do = { base = 1 }
+		fire_only_once = no
+		days_remove = 7
+		cost = 100
+		complete_effect = { set_country_flag = JAP_yokusan_election_1972_activate }
+		remove_effect = {
+			clr_country_flag = JAP_yokusan_election_1972_activate
+			set_temp_variable = { yokusankai_support_temp = 3 }
+			JAP_yokusan_election_recalculation = yes
+		}
+	}
+	JAP_support_unrecommended = {
+		available = {
+			check_variable = { yokusankai_unrecommended < 466 }
+			NOT = { has_country_flag = JAP_yokusan_election_1972_activate }
+		}
+		ai_will_do = { base = 1 }
+		fire_only_once = no
+		days_remove = 7
+		cost = 50
+		complete_effect = { set_country_flag = JAP_yokusan_election_1972_activate }
+		remove_effect = {
+			clr_country_flag = JAP_yokusan_election_1972_activate
+			set_temp_variable = { yokusankai_support_temp = -1 }
+			JAP_yokusan_election_recalculation = yes
+		}
+	}
 }

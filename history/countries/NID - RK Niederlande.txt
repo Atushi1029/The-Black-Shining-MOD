@@ -1,6 +1,7 @@
 ﻿capital = 7
 #oob = ""
 set_starting_values = yes
+recruit_character = NID_joachim_peiper
 recruit_character = NID_reinhold_hanning
 set_convoys = 20
 add_ideas = {
@@ -8,24 +9,16 @@ add_ideas = {
 }
 1972.1.1 = {
 	set_politics = {
-		ruling_party = religious_nationalism
+		ruling_party = national_socialism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		totalitarian_socialism = 0
-		radical_socialism = 0
-		moderate_socialism = 0
-		social_democracy = 0
-		liberal_democracy = 5
-		social_conservatism = 0
+		conservatism = 5
 		authoritarian_democracy = 5
 		paternal_autocracy = 10
-		national_corporatism = 0
-		national_socialism = 20
-		ultra_nationalism = 0
-		religious_nationalism = 60
-		transhumanism = 0
+		national_corporatism = 20
+		national_socialism = 60
 	}
 }

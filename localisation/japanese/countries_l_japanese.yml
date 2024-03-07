@@ -1026,6 +1026,74 @@
  TTS:0 "両シチリア"
  TTS_DEF:0 "両シチリア"
  TTS_ADJ:0 "両シチリア"
+
+ SMI:0 "サーミ"
+ SMI_DEF:0 "サーミ"
+ SMI_ADJ:0 "サーミ"
+
+ GRN:0 "グリーンランド"
+ GRN_DEF:0 "グリーンランド"
+ GRN_ADJ:0 "グリーンランド"
+
+ JAN:0 "ヤンマイエン"
+ JAN_DEF:0 "ヤンマイエン"
+ JAN_ADJ:0 "ヤンマイエン"
+
+ RAP:0 "ラパ・ヌイ"
+ RAP_DEF:0 "ラパ・ヌイ"
+ RAP_ADJ:0 "ラパ・ヌイ"
+
+ GAR:0 "グアラニー"
+ GAR_DEF:0 "グアラニー"
+ GAR_ADJ:0 "グアラニー"
+
+ INC:0 "インカ"
+ INC_DEF:0 "インカ"
+ INC_ADJ:0 "インカ"
+
+ MIS:0 "ミスキート"
+ MIS_DEF:0 "ミスキート"
+ MIS_ADJ:0 "ミスキート"
+
+ MAY:0 "マヤ"
+ MAY_DEF:0 "マヤ"
+ MAY_ADJ:0 "マヤ"
+
+ INU:0 "イヌイット"
+ INU_DEF:0 "イヌイット"
+ INU_ADJ:0 "イヌイット"
+
+ CHR:0 "チャルーア"
+ CHR_DEF:0 "チャルーア"
+ CHR_ADJ:0 "チャルーア"
+
+ ITZ:0 "イッツァ"
+ ITZ_DEF:0 "イッツァ"
+ ITZ_ADJ:0 "イッツァ"
+
+ NAH:0 "ナワ"
+ NAH_DEF:0 "ナワ"
+ NAH_ADJ:0 "ナワ"
+
+ IAS:0 "イストモ・アメリンディア"
+ IAS_DEF:0 "イストモ・アメリンディア"
+ IAS_ADJ:0 "イストモ・アメリンディア"
+
+ YUC:0 "ユカタン"
+ YUC_DEF:0 "ユカタン"
+ YUC_ADJ:0 "ユカタン"
+
+ RIG:0 "リオ・グランデ"
+ RIG_DEF:0 "リオ・グランデ"
+ RIG_ADJ:0 "リオ・グランデ"
+
+ QUE:0 "ケベック"
+ QUE_DEF:0 "ケベック"
+ QUE_ADJ:0 "ケベック"
+
+ WLA:0 "イ・ウラドファ"
+ WLA_DEF:0 "イ・ウラドファ"
+ WLA_ADJ:0 "イ・ウラドファ"
  
 #The Black Shining
  

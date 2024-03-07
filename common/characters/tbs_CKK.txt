@@ -41,7 +41,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_YURI_RYTKHEU_DESC"
-			ideology = social_liberalism_ideology
+			ideology = libdem_social_liberalism_ideology
 			expire = "2008.5.14.1"
 			id = -1
 			traits = {}

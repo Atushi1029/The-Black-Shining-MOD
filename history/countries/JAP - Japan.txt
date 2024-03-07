@@ -12,6 +12,7 @@ recruit_character = JAP_eiichi_nagasue
 recruit_character = JAP_eiichi_nishimura
 recruit_character = JAP_etsusaburo_shiina
 recruit_character = JAP_hachiro_hayashi
+recruit_character = JAP_haruo_okada
 recruit_character = JAP_hideoto_mori
 recruit_character = JAP_hirohide_ishida
 recruit_character = JAP_hirohito
@@ -21,6 +22,7 @@ recruit_character = JAP_hiroo_onoda
 recruit_character = JAP_hiroshi_kuroki
 recruit_character = JAP_hiroya_ino
 recruit_character = JAP_hisao_kimura
+recruit_character = JAP_hisao_kuroda
 recruit_character = JAP_hyozo_kashiwabara
 recruit_character = JAP_ichio_asukata
 recruit_character = JAP_ichiro_nakagawa
@@ -39,6 +41,7 @@ recruit_character = JAP_kentaro_toji
 recruit_character = JAP_kenzo_yamamoto
 recruit_character = JAP_kiichi_miyazawa
 recruit_character = JAP_kiyosada_koda
+recruit_character = JAP_kiyoshi_koiwai
 recruit_character = JAP_kiyoshi_utsumi
 recruit_character = JAP_ko_nagasawa
 recruit_character = JAP_kogoro_yamazaki
@@ -52,6 +55,7 @@ recruit_character = JAP_masamichi_royama
 recruit_character = JAP_masanobu_tsuji
 recruit_character = JAP_masanosuke_ikeda
 recruit_character = JAP_masao_hori
+recruit_character = JAP_masaru_nomizo
 recruit_character = JAP_masaru_tanaka
 recruit_character = JAP_masashi_ishibashi
 recruit_character = JAP_masayoshi_ohira
@@ -80,11 +84,13 @@ recruit_character = JAP_saburo_shindo
 recruit_character = JAP_saburo_tsukamoto
 recruit_character = JAP_sadao_akamatsu
 recruit_character = JAP_sakae_oba
+recruit_character = JAP_satoko_tokano
 recruit_character = JAP_sei_matsuya
 recruit_character = JAP_seiichi_katsumata
 recruit_character = JAP_seijuro_arafune
 recruit_character = JAP_seisuke_okuno
 recruit_character = JAP_sekio_nishina
+recruit_character = JAP_shichiro_hozumi
 recruit_character = JAP_shigenobu_sakano
 recruit_character = JAP_shin_kanemaru
 recruit_character = JAP_shinobu_takayama
@@ -104,6 +110,7 @@ recruit_character = JAP_takeichi_nishi
 recruit_character = JAP_takeo_fukuda
 recruit_character = JAP_takeo_miki
 recruit_character = JAP_takeo_tsutsui
+recruit_character = JAP_tatsuo_hamamori
 recruit_character = JAP_teigi_nakayama
 recruit_character = JAP_teiichi_suzuki
 recruit_character = JAP_teruzo_ando
@@ -115,8 +122,8 @@ recruit_character = JAP_tomomi_narita
 recruit_character = JAP_torazo_ninagawa
 recruit_character = JAP_toshiharu_konada
 recruit_character = JAP_toshihiko_ikeda
-recruit_character = JAP_tsuneyoshi
 recruit_character = JAP_toshio_komoto
+recruit_character = JAP_tsuneyoshi
 recruit_character = JAP_umeichi_adachi
 recruit_character = JAP_usaburo_chizaki
 recruit_character = JAP_yasuhide_kurihara
@@ -142,25 +149,23 @@ add_ideas = {
 	JAP_torazo_ninagawa_sec
 }
 set_politics = {
-	ruling_party = moderate_socialism
+	ruling_party = gradual_socialism
 	last_election = "1968.12.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	totalitarian_socialism = 0
-	radical_socialism = 0
-	moderate_socialism = 40
+	gradual_socialism = 40
 	social_democracy = 5
 	liberal_democracy = 15
-	social_conservatism = 5
+	conservatism = 5
 	authoritarian_democracy = 5
 	paternal_autocracy = 5
 	national_corporatism = 20
 	national_socialism = 2
 	ultra_nationalism = 3
-	religious_nationalism = 0
-	transhumanism = 0
+	reactionism = 0
 }
 #Yokusan Primary
 set_variable = { JAP_YSK_shakakudo_leftists = 0 }
@@ -171,6 +176,7 @@ set_variable = { JAP_YSK_kentetsukai_reformists = 0 }
 set_variable = { JAP_YSK_kyokakai_nakasone = 0 }
 set_variable = { JAP_YSK_kyokakai_conservatives = 0 }
 set_variable = { JAP_YSK_mushozoku = 0 }
+set_variable = { JAP_YPE_lobby_progbar = 0 }
 #Diplomatic
 create_faction = JAP_geacps
 add_to_faction = CAM
@@ -215,3 +221,11 @@ diplomatic_relation = {
 }
 set_variable = { yokusankai_recommended = 430 }
 JAP_yokusan_election_recalculation = yes
+country_event = {
+	id = tbs_JAP_yokusan_1972.17
+	days = 305
+}
+country_event = {
+	id = tbs_jap.10
+	days = 383
+}

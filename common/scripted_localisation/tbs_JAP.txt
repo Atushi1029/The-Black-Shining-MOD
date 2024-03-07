@@ -150,7 +150,7 @@ defined_text = {
 	name = GetMajorityFaction
 	text = {
 		trigger = { JAP_YSK_shakakudo_leftists_majority = yes }
-		localization_key = JAP_moderate_socialism_party
+		localization_key = JAP_gradual_socialism_party
 	}
 	text = {
 		trigger = { JAP_YSK_shakakudo_neoconstitutionalists_majority = yes }
@@ -166,7 +166,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { JAP_YSK_kentetsukai_reformists_majority = yes }
-		localization_key = JAP_social_conservatism_party
+		localization_key = JAP_conservatism_party
 	}
 	text = {
 		trigger = { JAP_YSK_kyokakai_nakasone_majority = yes }
@@ -209,4 +209,24 @@ defined_text = {
 		localization_key = JAP_seijuro_arafune
 	}
 	text = { localization_key = JAP_takeo_fukuda }
+}
+defined_text = {
+	name = GetYPELobbyButtonTitle
+	text = {
+		trigger = { has_variable = JAP_YPE_activated_lobby }
+		localization_key = JAP_YPE_cannot_use_lobby
+	}
+	text = { localization_key = JAP_YPE_can_use_lobby }
+}
+defined_text = {
+	name = GetYPELobbyActivationTitle
+	text = {
+		trigger = { check_variable = { v = 1 } }
+		localization_key = JAP_YPE_lobby_gui_charge_small
+	}
+	text = {
+		trigger = { check_variable = { v = 2 } }
+		localization_key = JAP_YPE_lobby_gui_charge_medium
+	}
+	text = { localization_key = JAP_YPE_lobby_gui_charge_large }
 }

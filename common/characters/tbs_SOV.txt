@@ -51,6 +51,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_anatoly_lukyanov = {
@@ -98,6 +99,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_andrei_gromyko = {
@@ -128,6 +130,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_boris_yeltsin = {
@@ -270,6 +273,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_konstantin_chernenko = {
@@ -300,6 +304,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_leonid_brezhnev = {
@@ -330,6 +335,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_lev_gumilyov = {
@@ -350,7 +356,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LEV_GUMILYOV_DESC"
-			ideology = eurasianism_ideology
+			ideology = rea_eurasianism_ideology
 			expire = "1992.6.15.1"
 			id = -1
 			traits = {}
@@ -374,7 +380,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = gradual_socialism_ideology
 			expire = "2022.8.30.1"
 			id = -1
 			traits = {}
@@ -395,13 +401,6 @@ characters = {
 				large = "GFX_Portrait_SOV_Mikhail_Suslov"
 				small = "GFX_idea_SOV_mikhail_suslov"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
-			ideology = radical_socialism_ideology
-			expire = "1982.1.25.1"
-			id = -1
-			traits = {}
 		}
 	}
 	SOV_nikolai_bulganin = {
@@ -432,6 +431,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_nikolai_kuznetsov = {
@@ -479,6 +479,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_nikolai_tikhonov = {
@@ -526,6 +527,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_vasily_kuznetsov = {
@@ -590,6 +592,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	SOV_vladimir_kryuchkov = {

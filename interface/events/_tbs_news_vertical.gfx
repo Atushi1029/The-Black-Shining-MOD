@@ -56,6 +56,42 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_vertical/news_ver_ITA_nuke_factory.png"
 	}
 	spriteType = {
+		name = "GFX_news_ver_JAP_1972_conservative_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_conservative_won.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_corporatist_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_corporatist_won.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_deadlock"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_deadlock.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_fukuda_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_fukuda_won.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_leftist_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_leftist_won.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_nakasone_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_nakasone_won.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_nishio_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_nishio_won.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_progressive_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_progressive_won.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_1972_soclib_won"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_1972_soclib_won.png"
+	}
+	spriteType = {
 		name = "GFX_news_ver_JAP_eda"
 		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_eda.png"
 	}
@@ -70,6 +106,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_ver_JAP_nishio"
 		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_nishio.png"
+	}
+	spriteType = {
+		name = "GFX_news_ver_JAP_pelton_incident"
+		texturefile = "gfx/event_pictures/news_vertical/news_ver_JAP_pelton_incident.png"
 	}
 	spriteType = {
 		name = "GFX_news_ver_MAN_emperor"

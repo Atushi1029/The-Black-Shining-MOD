@@ -1,4 +1,28 @@
 characters = {
+	BNF_albert_frey = {
+		name = BNF_albert_frey
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BNF_Albert_Frey"
+				small = "GFX_idea_BNF_albert_frey"
+			}
+			army = {
+				large = "GFX_Portrait_BNF_Albert_Frey"
+				small = "GFX_idea_BNF_albert_frey"
+			}
+			navy = {
+				large = "GFX_Portrait_BNF_Albert_Frey"
+				small = "GFX_idea_BNF_albert_frey"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALBERT_FREY_DESC"
+			ideology = national_socialism_ideology
+			expire = "2003.9.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	BNF_josef_mengele = {
 		name = BNF_josef_mengele
 		portraits = {
@@ -17,7 +41,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_JOSEF_MENGELE_DESC"
-			ideology = religious_nationalism_ideology
+			ideology = reactionism_ideology
 			expire = "1979.2.7.1"
 			id = -1
 			traits = {}

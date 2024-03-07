@@ -836,6 +836,10 @@ country_event = { #
 		name = tbs_JAP_yokusan_1972.11.a
 		ai_chance = { base = 100 }
 		hidden_effect = {
+			clear_variable = JAP_YPE_activated_lobby
+			clear_variable = JAP_YPE_lobby_progbar_1
+			clear_variable = JAP_YPE_lobby_progbar_2
+			clear_variable = JAP_YPE_lobby_progbar_3
 			if = {
 				limit = { has_country_flag = JAP_yokusan_struggle }
 				clr_country_flag = JAP_yokusan_struggle
@@ -843,6 +847,11 @@ country_event = { #
 			if = {
 				limit = { has_country_flag = JAP_yokusan_primary_election_gui }
 				clr_country_flag = JAP_yokusan_primary_election_gui
+			}
+			if = {
+				limit = { has_variable = JAP_YPE_lobby_gui }
+				clear_variable = JAP_YPE_lobby_gui
+				clear_array = JAP_YPE_lobby_array
 			}
 			JAP_clear_yokusan_primary_election_gui = yes
 			country_event = {
@@ -864,10 +873,6 @@ country_event = { #
 		name = tbs_JAP_yokusan_1972.12.a
 		ai_chance = { base = 100 }
 		hidden_effect = {
-			country_event = {
-				id = tbs_JAP_yokusan_1972.17
-				days = 7
-			}
 			if = {
 				limit = { JAP_YSK_shakakudo_leftists_majority = yes }
 				set_country_flag = JAP_YSK_shakakudo_leftists_70s
@@ -975,6 +980,20 @@ news_event = {
 }
 country_event = { #
 	id = tbs_JAP_yokusan_1972.17
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.17"
+			if = {
+				limit = { has_focus_tree = tbs_japan }
+				set_variable = { JAP_YSK_shakakudo_leftists = 5 }
+				load_focus_tree = {
+					tree = generic_focus
+					keep_completed = no
+				}
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
 	title = tbs_JAP_yokusan_1972.17.title
 	desc = tbs_JAP_yokusan_1972.17.desc
 	#picture = 
@@ -989,327 +1008,482 @@ country_event = { #
 		}
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.18
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.18" }
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.18"
+			if = {
+				limit = { has_country_flag = JAP_yokusan_election_1972 }
+				clr_country_flag = JAP_yokusan_election_1972
+			}
+		}
+	}
 	title = tbs_JAP_yokusan_1972.18.title
 	desc = tbs_JAP_yokusan_1972.18.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.18.a
 		ai_chance = { base = 100 }
-		
+		hidden_effect = {
+			if = {
+				limit = { check_variable = { yokusankai_recommended > yokusankai_unrecommended } }
+				if = {
+					limit = { JAP_YSK_shakakudo_leftists_majority = yes }
+					set_country_flag = JAP_yokusan_election_1972_shakakudo_leftists_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.19
+						days = 7
+					}
+				}
+				else_if = {
+					limit = { JAP_YSK_shakakudo_neoconstitutionalists_majority = yes }
+					set_country_flag = JAP_yokusan_election_1972_shakakudo_neoconstitutionalists_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.20
+						days = 7
+					}
+				}
+				else_if = {
+					limit = { JAP_YSK_shakakudo_nishio_majority = yes }
+					set_country_flag = JAP_yokusan_election_1972_shakakudo_nishio_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.21
+						days = 7
+					}
+				}
+				else_if = {
+					limit = { JAP_YSK_kentetsukai_minsei_majority = yes }
+					set_country_flag = JAP_yokusan_election_1972_kentetsukai_minsei_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.22
+						days = 7
+					}
+				}
+				else_if = {
+					limit = { JAP_YSK_kentetsukai_reformists_majority = yes }
+					set_country_flag = JAP_yokusan_election_1972_kentetsukai_reformists_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.23
+						days = 7
+					}
+				}
+				else_if = {
+					limit = { JAP_YSK_kyokakai_nakasone_majority = yes }
+					set_country_flag = JAP_yokusan_election_1972_kyokakai_nakasone_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.24
+						days = 7
+					}
+				}
+				else_if = {
+					limit = { JAP_YSK_kyokakai_conservatives_majority = yes }
+					set_country_flag = JAP_yokusan_election_1972_kyokakai_conservatives_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.25
+						days = 7
+					}
+				}
+				else = {
+					set_country_flag = JAP_yokusan_election_1972_mushozoku_won
+					country_event = {
+						id = tbs_JAP_yokusan_1972.26
+						days = 7
+					}
+				}
+			}
+			else = {
+				set_country_flag = JAP_yokusan_election_1972_unrecommended_won
+				country_event = {
+					id = tbs_JAP_yokusan_1972.27
+					days = 7
+				}
+			}
+		}
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.19
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.19" }
 	title = tbs_JAP_yokusan_1972.19.title
 	desc = tbs_JAP_yokusan_1972.19.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.19.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.28 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.20
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.20" }
 	title = tbs_JAP_yokusan_1972.20.title
 	desc = tbs_JAP_yokusan_1972.20.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.20.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		set_politics = {
+			ruling_party = social_democracy
+			elections_allowed = yes
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			JAP_mitsu_kono_hog
+			JAP_takako_doi_int
+			JAP_masashi_ishibashi_for
+			JAP_masao_hori_eco
+			JAP_takashi_yoshino_jus
+			JAP_makoto_tanabe_sec
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.29 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.21
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.21" }
 	title = tbs_JAP_yokusan_1972.21.title
 	desc = tbs_JAP_yokusan_1972.21.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.21.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		set_politics = {
+			ruling_party = liberal_democracy
+			elections_allowed = yes
+			name = JAP_yokusankai_party_shakakudo_nishio
+			long_name = JAP_yokusankai_party_shakakudo_nishio_long
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			JAP_masamichi_royama_hog
+			JAP_saburo_tsukamoto_int
+			JAP_eiichi_nagasue_for
+			JAP_ryosaku_sasaki_eco
+			JAP_ikko_kasuga_jus
+			JAP_takashi_asari_sec
+		}
+		if = {
+			limit = { has_character = JAP_suehiro_nishio }
+			add_country_leader_role = {
+				character = JAP_suehiro_nishio
+				country_leader = {
+					desc = "POLITICS_SUEHIRO_NISHIO_DESC"
+					ideology = libdem_neo_liberalism_ideology
+					expire = "1981.10.3.1"
+					id = -1
+					traits = {}
+				}
+				promote_leader = yes
+			}
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.30 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.22
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.22" }
 	title = tbs_JAP_yokusan_1972.22.title
 	desc = tbs_JAP_yokusan_1972.22.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.22.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		set_politics = {
+			ruling_party = liberal_democracy
+			elections_allowed = yes
+			name = JAP_authoritarian_democracy_party_80s
+			long_name = JAP_authoritarian_democracy_party_80s_long
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			JAP_masayoshi_ohira_hog
+			JAP_masami_tanaka_int
+			JAP_kiichi_miyazawa_for
+			JAP_masayoshi_ohira_eco
+			JAP_osamu_inaba_jus
+			JAP_mutsuo_kimura_sec
+		}
+		if = {
+			limit = { has_character = JAP_takeo_miki }
+			add_country_leader_role = {
+				character = JAP_takeo_miki
+				country_leader = {
+					desc = "POLITICS_TAKEO_MIKI_DESC"
+					ideology = libdem_social_liberalism_ideology
+					expire = "1988.11.14.1"
+					id = -1
+					traits = {}
+				}
+				promote_leader = yes
+			}
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.31 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.23
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.23" }
 	title = tbs_JAP_yokusan_1972.23.title
 	desc = tbs_JAP_yokusan_1972.23.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.23.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		set_politics = {
+			ruling_party = conservatism
+			elections_allowed = yes
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			JAP_kakuei_tanaka_hog
+			JAP_raizo_matsuno_int
+			JAP_eiichi_nishimura_for
+			JAP_hiromu_nonaka_eco
+			JAP_masaharu_gotoda_jus
+			JAP_shin_kanemaru_sec
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.32 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.24
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.24" }
 	title = tbs_JAP_yokusan_1972.24.title
 	desc = tbs_JAP_yokusan_1972.24.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.24.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		set_politics = {
+			ruling_party = liberal_democracy
+			elections_allowed = yes
+			name = JAP_yokusankai_party_kyokakai_nakasone
+			long_name = JAP_yokusankai_party_kyokakai_nakasone_long
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			JAP_mitsuo_setoyama_hog
+			JAP_kentaro_kujime_int
+			JAP_hirohide_ishida_for
+			JAP_toshio_komoto_eco
+			JAP_tokuma_utsunomiya_jus
+			JAP_usaburo_chizaki_sec
+		}
+		if = {
+			limit = { has_character = JAP_yasuhiro_nakasone }
+			add_country_leader_role = {
+				character = JAP_yasuhiro_nakasone
+				country_leader = {
+					desc = "POLITICS_YASUHIRO_NAKASONE_DESC"
+					ideology = libdem_market_liberalism_ideology
+					expire = "2019.11.29.1"
+					id = -1
+					traits = {}
+				}
+				promote_leader = yes
+			}
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.33 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.25
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.25" }
 	title = tbs_JAP_yokusan_1972.25.title
 	desc = tbs_JAP_yokusan_1972.25.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.25.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		set_politics = {
+			ruling_party = national_corporatism
+			elections_allowed = yes
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			JAP_seisuke_okuno_hog
+			JAP_shiro_hasegawa_int
+			JAP_tetsuro_minato_for
+			JAP_ichiro_nakagawa_eco
+			JAP_hiroya_ino_jus
+			JAP_shigenobu_sakano_sec
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.34 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.26
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.26" }
 	title = tbs_JAP_yokusan_1972.26.title
 	desc = tbs_JAP_yokusan_1972.26.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.26.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		set_politics = {
+			ruling_party = authoritarian_democracy
+			elections_allowed = yes
+		}
+		remove_all_ministers = yes
+		add_ideas = {
+			JAP_yokusan_political_committee_hog
+			JAP_yokusan_political_committee_int
+			JAP_yuichi_kori_for
+			JAP_yokusan_political_committee_eco
+			JAP_yokusan_political_committee_jus
+			JAP_yokusan_political_committee_sec
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.35 }
 	}
 }
-
 country_event = { #
 	id = tbs_JAP_yokusan_1972.27
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.27" }
 	title = tbs_JAP_yokusan_1972.27.title
 	desc = tbs_JAP_yokusan_1972.27.desc
 	#picture = 
-	
 	is_triggered_only = yes
-	fire_only_once = no
-	
 	option = { #
 		name = tbs_JAP_yokusan_1972.27.a
 		ai_chance = { base = 100 }
-		
+		JAP_yokusan_election_1972_set_popularities = yes
+		remove_all_ministers_without_hog = yes
+		hidden_effect = {
+			add_ideas = {
+				JAP_yokusan_political_committee_int
+				JAP_yokusan_political_committee_for
+				JAP_yokusan_political_committee_eco
+				JAP_yokusan_political_committee_jus
+				JAP_yokusan_political_committee_sec
+			}
+		}
+		hidden_effect = { news_event = tbs_JAP_yokusan_1972.36 }
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.28
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.28" }
 	title = tbs_JAP_yokusan_1972.28.title
 	desc = tbs_JAP_yokusan_1972.28.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_leftist_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.28.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.29
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.29" }
 	title = tbs_JAP_yokusan_1972.29.title
 	desc = tbs_JAP_yokusan_1972.29.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_progressive_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.29.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.30
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.30" }
 	title = tbs_JAP_yokusan_1972.30.title
 	desc = tbs_JAP_yokusan_1972.30.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_nishio_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.30.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.31
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.31" }
 	title = tbs_JAP_yokusan_1972.31.title
 	desc = tbs_JAP_yokusan_1972.31.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_soclib_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.31.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.32
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.32" }
 	title = tbs_JAP_yokusan_1972.32.title
 	desc = tbs_JAP_yokusan_1972.32.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_conservative_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.32.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.33
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.33" }
 	title = tbs_JAP_yokusan_1972.33.title
 	desc = tbs_JAP_yokusan_1972.33.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_nakasone_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.33.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.34
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.34" }
 	title = tbs_JAP_yokusan_1972.34.title
 	desc = tbs_JAP_yokusan_1972.34.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_corporatist_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.34.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.35
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.35" }
 	title = tbs_JAP_yokusan_1972.35.title
 	desc = tbs_JAP_yokusan_1972.35.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_fukuda_won
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.35.a
 		ai_chance = { base = 100 }
-		
 	}
 }
-
-country_event = { #
+news_event = {
 	id = tbs_JAP_yokusan_1972.36
-	immediate = { log = "[GetDateText]: [Root.GetName]: event tbs_JAP_yokusan_1972.36" }
 	title = tbs_JAP_yokusan_1972.36.title
 	desc = tbs_JAP_yokusan_1972.36.desc
-	#picture = 
-	
+	picture = GFX_news_ver_JAP_1972_deadlock
 	is_triggered_only = yes
-	fire_only_once = no
-	
+	major = yes
 	option = { #
 		name = tbs_JAP_yokusan_1972.36.a
 		ai_chance = { base = 100 }
-		
 	}
 }
 

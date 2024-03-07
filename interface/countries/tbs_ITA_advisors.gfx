@@ -4,12 +4,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/ITA/idea_ITA_aldo_moro.png"
 	}
 	spriteType = {
+		name = "GFX_idea_ITA_amintore_fanfani"
+		texturefile = "gfx/interface/advisors/ITA/idea_ITA_amintore_fanfani.png"
+	}
+	spriteType = {
 		name = "GFX_idea_ITA_enrico_berlinguer"
 		texturefile = "gfx/interface/advisors/ITA/idea_ITA_enrico_berlinguer.png"
 	}
 	spriteType = {
+		name = "GFX_idea_ITA_giovanni_malagodi"
+		texturefile = "gfx/interface/advisors/ITA/idea_ITA_giovanni_malagodi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_giuseppe_saragat"
+		texturefile = "gfx/interface/advisors/ITA/idea_ITA_giuseppe_saragat.png"
+	}
+	spriteType = {
 		name = "GFX_idea_ITA_lelio_basso"
 		texturefile = "gfx/interface/advisors/ITA/idea_ITA_lelio_basso.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_mariano_rumor"
+		texturefile = "gfx/interface/advisors/ITA/idea_ITA_mariano_rumor.png"
 	}
 	spriteType = {
 		name = "GFX_idea_ITA_onorato_damen"

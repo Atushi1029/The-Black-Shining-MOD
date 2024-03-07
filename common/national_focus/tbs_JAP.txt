@@ -35,6 +35,7 @@
 				limit = { is_ai = no }
 				country_event = tbs_jap.0
 			}
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_vision_of_hoashi_and_katsumata"
 		}
 	}
 	focus = {
@@ -66,6 +67,7 @@
 				limit = { is_ai = no }
 				country_event = tbs_jap.1
 			}
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_to_sec_minister_ninagawa"
 		}
 	}
 	focus = {
@@ -94,6 +96,7 @@
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			country_event = tbs_jap.2
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_go_to_the_usa"
 		}
 	}
 	focus = {
@@ -126,6 +129,7 @@
 				limit = { is_ai = no }
 				country_event = tbs_jap.3
 			}
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_head_of_the_economy"
 		}
 	}
 	focus = {
@@ -155,6 +159,7 @@
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			country_event = tbs_jap.4
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_pressure_on_the_puppets"
 		}
 	}
 	focus = {
@@ -184,6 +189,7 @@
 		completion_reward = {
 			set_temp_variable = { inflation_temp = -1 }
 			econ_inflation_change = yes
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_how_to_handle_the_numbers"
 		}
 	}
 	focus = {
@@ -215,6 +221,7 @@
 				limit = { is_ai = no }
 				country_event = tbs_jap.5
 			}
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_the_true_nature_of_the_imperial_economy"
 		}
 	}
 	focus = {
@@ -247,6 +254,7 @@
 				limit = { is_ai = no }
 				country_event = tbs_jap.6
 			}
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_far_eastern_red_devil"
 		}
 	}
 	focus = {
@@ -278,6 +286,7 @@
 				limit = { is_ai = no }
 				country_event = tbs_jap.7
 			}
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_the_legacy_of_kolchak"
 		}
 	}
 	focus = {
@@ -309,6 +318,7 @@
 				limit = { is_ai = no }
 				country_event = tbs_jap.8
 			}
+			log = "[GetDateText]: [ROOT.GetName]: Focus JAP_secret_meetings_with_rfp"
 		}
 	}
 	focus = {
@@ -342,11 +352,231 @@
 				keep_completed = no
 			}
 			hidden_effect = {
-				country_event = {
-					id = tbs_JAP_yokusan_1972.0
-					days = 10
+				mark_focus_tree_layout_dirty = yes
+				if = {
+					limit = { date < 1972.9.1 }
+					country_event = {
+						id = tbs_JAP_yokusan_1972.0
+						days = 10
+					}
 				}
+				log = "[GetDateText]: [ROOT.GetName]: Focus JAP_towards_the_election"
 			}
 		}
 	}
+}
+focus_tree = {
+	id = tbs_japan_shakakudo_1973_starting
+	country = { factor = 0 }
+	default = no
+	focus = {
+		id = JAP_confession_of_ronald_pelton
+		icon = GFX_goal_unknown
+		available = { always = no }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 2
+		y = 0
+		cost = 0
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = unlock_focuses_tt
+		}
+	}
+	focus = {
+		id = JAP_interview_with_katsumata
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_confession_of_ronald_pelton }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = -2
+		y = 1
+		relative_position_id = JAP_confession_of_ronald_pelton
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_interview_with_katsumata" }
+		}
+	}
+	focus = {
+		id = JAP_blame_the_kentetsukai
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_confession_of_ronald_pelton }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 0
+		y = 1
+		relative_position_id = JAP_confession_of_ronald_pelton
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_blame_the_kentetsukai" }
+		}
+	}
+	focus = {
+		id = JAP_pursuing_businessmen
+		icon = GFX_JAP_pursuing_businessmen
+		prerequisite = { focus = JAP_confession_of_ronald_pelton }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 2
+		y = 1
+		relative_position_id = JAP_confession_of_ronald_pelton
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_pursuing_businessmen" }
+		}
+	}
+	focus = {
+		id = JAP_vindication_of_innocence
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_interview_with_katsumata }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 0
+		y = 1
+		relative_position_id = JAP_interview_with_katsumata
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_vindication_of_innocence" }
+		}
+	}
+	focus = {
+		id = JAP_rebellion_against_the_kyokakai
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_blame_the_kentetsukai }
+		prerequisite = { focus = JAP_pursuing_businessmen }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 1
+		y = 1
+		relative_position_id = JAP_blame_the_kentetsukai
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_rebellion_against_the_kyokakai" }
+		}
+	}
+	focus = {
+		id = JAP_expulsion_of_unnecessaries
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_vindication_of_innocence }
+		prerequisite = { focus = JAP_rebellion_against_the_kyokakai }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 0
+		y = 1
+		relative_position_id = JAP_vindication_of_innocence
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_expulsion_of_unnecessaries" }
+		}
+	}
+	focus = {
+		id = JAP_anti-rightist_united_front
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_vindication_of_innocence }
+		prerequisite = { focus = JAP_rebellion_against_the_kyokakai }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = -1
+		y = 1
+		relative_position_id = JAP_rebellion_against_the_kyokakai
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_anti-rightist_united_front" }
+		}
+	}
+	focus = {
+		id = JAP_lifting_shuzo_inaba
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_blame_the_kentetsukai }
+		prerequisite = { focus = JAP_pursuing_businessmen }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 0
+		y = 2
+		relative_position_id = JAP_pursuing_businessmen
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_lifting_shuzo_inaba" }
+		}
+	}
+	focus = {
+		id = JAP_shut_peoples_eyes_to_our_crime
+		icon = GFX_goal_unknown
+		prerequisite = { focus = JAP_expulsion_of_unnecessaries }
+		prerequisite = { focus = JAP_anti-rightist_united_front }
+		prerequisite = { focus = JAP_lifting_shuzo_inaba }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = -1
+		y = 1
+		relative_position_id = JAP_anti-rightist_united_front
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_shut_peoples_eyes_to_our_crime" }
+		}
+	}
+	focus = {
+		id = JAP_use_the_media
+		icon = GFX_JAP_use_the_media
+		prerequisite = { focus = JAP_expulsion_of_unnecessaries }
+		prerequisite = { focus = JAP_anti-rightist_united_front }
+		prerequisite = { focus = JAP_lifting_shuzo_inaba }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 1
+		y = 1
+		relative_position_id = JAP_anti-rightist_united_front
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_use_the_media" }
+		}
+	}
+	focus = {
+		id = JAP_dying_out_of_a_fire
+		icon = GFX_JAP_dying_out_of_a_fire
+		prerequisite = { focus = JAP_shut_peoples_eyes_to_our_crime }
+		prerequisite = { focus = JAP_use_the_media }
+		available_if_capitulated = yes
+		continue_if_invalid = no
+		x = 1
+		y = 1
+		relative_position_id = JAP_shut_peoples_eyes_to_our_crime
+		cost = 1
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			hidden_effect = { log = "[GetDateText]: [ROOT.GetName]: Focus JAP_dying_out_of_a_fire" }
+		}
+	}
+}
+focus_tree = {
+	id = tbs_japan_kentetsukai_1973_starting
+	country = { factor = 0 }
+	default = no
+}
+focus_tree = {
+	id = tbs_japan_kyokakai_1973_starting
+	country = { factor = 0 }
+	default = no
 }

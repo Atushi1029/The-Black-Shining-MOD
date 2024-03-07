@@ -8,26 +8,23 @@ add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = moderate_socialism
+	ruling_party = gradual_socialism
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	totalitarian_socialism = 5
-	radical_socialism = 20
-	moderate_socialism = 25
+	gradual_socialism = 45
 	social_democracy = 18
 	liberal_democracy = 6
-	social_conservatism = 7
+	conservatism = 7
 	authoritarian_democracy = 12
 	paternal_autocracy = 3
 	national_corporatism = 4
 	national_socialism = 0
 	ultra_nationalism = 0
-	religious_nationalism = 0
-	transhumanism = 0
+	reactionism = 0
 }
-join_the_coalition_radical_socialism = yes
 join_the_coalition_social_democracy = yes
 join_the_coalition_authoritarian_democracy = yes

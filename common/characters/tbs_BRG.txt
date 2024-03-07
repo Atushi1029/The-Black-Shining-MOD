@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_FRANCOIS_DIOR_DESC"
-			ideology = national_syndicalism_ideology
+			ideology = natsoc_national_syndicalism_ideology
 			expire = "1993.1.20.1"
 			id = -1
 			traits = {}

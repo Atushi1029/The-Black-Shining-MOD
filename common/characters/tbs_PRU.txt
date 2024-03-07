@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_FERNANDO_BELAUNDE_DESC"
-			ideology = market_liberalism_ideology
+			ideology = libdem_market_liberalism_ideology
 			expire = "2002.6.4.1"
 			id = -1
 			traits = {}

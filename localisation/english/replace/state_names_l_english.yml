@@ -397,9 +397,9 @@
  STATE_396:0 "Indiana"
  STATE_397:0 "Syktyvkar"
  STATE_398:0 "Perm"
- STATE_399:1 "Udmurtia" #Was Izhevsk, but was renamed to that of the republic it represents
+ STATE_399:1 "Udmurtia"
  STATE_400:0 "Kirov"
- STATE_401:1 "Balakovo" #Was Engels, but the State does not include that city anymore
+ STATE_401:1 "Balakovo"
  STATE_402:0 "Akhtubinsk"
  STATE_403:0 "Tyumen"
  STATE_404:0 "Kyzyl Orda"
@@ -939,7 +939,7 @@
  STATE_938:0 "Eastern Jordan"
  STATE_939:0 "Eastern Yemen"
  STATE_940:0 "Kaiser-Wilhelmsland"
- STATE_941:0 "West Togo" 
+ STATE_941:0 "West Togo"
  STATE_942:0 "Niigata"
  STATE_943:0 "Fukushima"
  STATE_944:0 "Kyōto"

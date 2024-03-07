@@ -5,6 +5,7 @@ set_starting_values = yes
 recruit_character = STO_hideo_shimizu
 recruit_character = STO_kiyoshi_kawashima
 recruit_character = STO_konstantin_lisetsky
+recruit_character = STO_tadao_sato
 recruit_character = STO_takeshi_misumi
 recruit_character = STO_yoshio_furuie
 recruit_character = STO_yuri_vitvitsky
@@ -20,16 +21,14 @@ set_politics = {
 }
 set_popularities = {
 	totalitarian_socialism = 0
-	radical_socialism = 0
-	moderate_socialism = 0
+	gradual_socialism = 0
 	social_democracy = 0
 	liberal_democracy = 0
-	social_conservatism = 0
+	conservatism = 0
 	authoritarian_democracy = 0
 	paternal_autocracy = 20
 	national_corporatism = 20
 	national_socialism = 0
 	ultra_nationalism = 60
-	religious_nationalism = 0
-	transhumanism = 0
+	reactionism = 0
 }

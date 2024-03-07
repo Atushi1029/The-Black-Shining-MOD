@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MIKKO_JUVA_DESC"
-			ideology = liberal_conservatism_ideology
+			ideology = libdem_liberal_conservatism_ideology
 			expire = "2004.1.1.1"
 			id = -1
 			traits = {}

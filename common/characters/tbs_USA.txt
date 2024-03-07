@@ -291,7 +291,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGE_WALLACE_DESC"
-			ideology = dixiecratic_democracy_ideology
+			ideology = autdem_dixiecratic_democracy_ideology
 			expire = "1998.9.13.1"
 			id = -1
 			traits = {}
@@ -401,6 +401,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_james_russell_wiggins = {
@@ -431,6 +432,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_jesse_jackson = {
@@ -529,6 +531,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_lloyd_bentsen = {
@@ -566,7 +569,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LYNDON_JOHNSON_DESC"
-			ideology = social_liberalism_ideology
+			ideology = libdem_social_liberalism_ideology
 			expire = "1973.1.22.1"
 			id = -1
 			traits = {}
@@ -669,6 +672,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_richard_nixon = {
@@ -689,7 +693,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_RICHARD_NIXON_DESC"
-			ideology = silent_conservatism_ideology
+			ideology = con_silent_conservatism_ideology
 			expire = "1994.4.22.1"
 			id = -1
 			traits = {}
@@ -723,6 +727,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_ronald_reagan = {
@@ -821,6 +826,7 @@ characters = {
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+			can_be_fired = no
 		}
 	}
 	USA_tom_kahn = {

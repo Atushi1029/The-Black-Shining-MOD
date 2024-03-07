@@ -1,4 +1,28 @@
 characters = {
+	RKO_gerhard_klopfer = {
+		name = RKO_gerhard_klopfer
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKO_Gerhard_Klopfer"
+				small = "GFX_idea_RKO_gerhard_klopfer"
+			}
+			army = {
+				large = "GFX_Portrait_RKO_Gerhard_Klopfer"
+				small = "GFX_idea_RKO_gerhard_klopfer"
+			}
+			navy = {
+				large = "GFX_Portrait_RKO_Gerhard_Klopfer"
+				small = "GFX_idea_RKO_gerhard_klopfer"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GERHARD_KLOPFER_DESC"
+			ideology = national_socialism_ideology
+			expire = "1987.1.29.1"
+			id = -1
+			traits = {}
+		}
+	}
 	RKO_willi_herold = {
 		name = RKO_willi_herold
 		portraits = {
@@ -14,13 +38,6 @@ characters = {
 				large = "GFX_Portrait_RKO_Willi_Herold"
 				small = "GFX_idea_RKO_willi_herold"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_WILLI_HEROLD_DESC"
-			ideology = national_socialism_ideology
-			expire = "1989.1.1.1"
-			id = -1
-			traits = {}
 		}
 	}
 }

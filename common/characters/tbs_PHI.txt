@@ -41,7 +41,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_RITSU_ITO_DESC"
-			ideology = moderate_socialism_ideology
+			ideology = gradual_socialism_ideology
 			expire = "1989.8.7.1"
 			id = -1
 			traits = {}
@@ -49,13 +49,6 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_RITSU_ITO_DESC"
 			ideology = national_corporatism_ideology
-			expire = "1989.8.7.1"
-			id = -1
-			traits = {}
-		}
-		country_leader = {
-			desc = "POLITICS_RITSU_ITO_DESC"
-			ideology = transhumanism_ideology
 			expire = "1989.8.7.1"
 			id = -1
 			traits = {}

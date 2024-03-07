@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_YURI_VITVITSKY_DESC"
-			ideology = fascism_ideology
+			ideology = natcor_fascism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

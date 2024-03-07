@@ -75,7 +75,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ISTVAN_HORTHY_DESC"
-			ideology = social_conservatism_ideology
+			ideology = conservatism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

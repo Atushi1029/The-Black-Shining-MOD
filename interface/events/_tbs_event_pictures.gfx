@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/country_events/event_JAP_ichio_asukata.png"
 	}
 	spriteType = {
+		name = "GFX_event_JAP_koban"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_koban.png"
+	}
+	spriteType = {
 		name = "GFX_event_JAP_meeting_with_gins"
 		texturefile = "gfx/event_pictures/country_events/event_JAP_meeting_with_gins.png"
 	}
@@ -22,6 +26,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_event_JAP_ninagawa_sec_minister"
 		texturefile = "gfx/event_pictures/country_events/event_JAP_ninagawa_sec_minister.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_pelton"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_pelton.png"
 	}
 	spriteType = {
 		name = "GFX_event_JAP_president_hideoto_mori"
