@@ -101,12 +101,12 @@ set_popularities = {
 	reactionism = 0
 }
 create_faction = USA_global_defense_coalition
-add_to_faction = USA
 add_to_faction = AST
 add_to_faction = BLZ
 add_to_faction = CAN
 add_to_faction = COL
 add_to_faction = NZL
+add_to_faction = USA
 news_event = {
 	id = tbs_skelton_news.9
 	days = 1990
