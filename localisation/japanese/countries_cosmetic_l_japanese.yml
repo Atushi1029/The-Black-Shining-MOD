@@ -251,8 +251,8 @@
  FRA_state_DEF:0 "フランス国"
  FRA_state_ADJ:0 "フランス"
 #イギリス
- GBR_united_kingdom:0 "イギリス連合王国"
- GBR_united_kingdom_DEF:0 "イギリス連合王国"
+ GBR_united_kingdom:0 "連合王国"
+ GBR_united_kingdom_DEF:0 "連合王国"
  GBR_united_kingdom_ADJ:0 "イギリス"
 #グルジア
  GEO_republic:0 "グルジア共和国"
