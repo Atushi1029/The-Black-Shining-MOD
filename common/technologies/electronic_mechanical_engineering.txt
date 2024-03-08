@@ -182,8 +182,6 @@ technologies = {
 		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_2
-			air_ground_radar_1
-			air_air_radar_1
 		}
 
 		path = {
@@ -230,6 +228,7 @@ technologies = {
 		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_3
+			air_air_radar_1
 			tank_radio_3
 		}
 
@@ -278,8 +277,7 @@ technologies = {
 		}
 		coordination_bonus = 0.01
 		enable_equipment_modules = {
-			air_ground_radar_2
-			air_air_radar_2
+			air_ground_radar_1
 		}
 
 		static_anti_air_hit_chance_factor = 0.2
@@ -328,6 +326,8 @@ technologies = {
 		coordination_bonus = 0.01
 		enable_equipment_modules = { 
 			ship_radar_4
+			air_ground_radar_2
+			air_air_radar_2
 		}
 		
 		static_anti_air_hit_chance_factor = 0.2
@@ -383,7 +383,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 7
+			factor = 10
 		}
 		
 		categories = {
@@ -1080,6 +1080,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_3
+			guided_anti_ship_missile
 		}
 		
 		rocket_artillery = {
@@ -1173,25 +1174,31 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			base = 1
 			
 			modifier = {
 				factor = 1.2
-				date > "1977.1.1"
+				date > 1977.1.1
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1978.1.1"
+				date > 1978.1.1
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1979.1.1"
+				date > 1979.1.1
 			}
-			
+
 			modifier = {
 				factor = 2
+				is_major = yes
+				date > 1979.1.1
+			}
+
+			modifier = {
+				factor = 4
 				tag = USA
 			}
 		}
@@ -1211,7 +1218,30 @@ technologies = {
 							check_variable = { global.atomic_research_race < 3 }
 						}
 						add_to_variable = { global.atomic_research_race = 1 }
-						
+						if = {
+							limit = {
+								original_tag = ITA
+								NOT = { has_country_flag = ITA_pioneer_in_atomic_research_flag }
+							}
+							set_country_flag = ITA_pioneer_in_atomic_research_flag
+						}
+						else_if = {
+							limit = {
+								check_variable = { global.atomic_research_race = 3 }
+								NOT = {
+									any_country = {
+										original_tag = ITA
+										has_country_flag = ITA_pioneer_in_atomic_research_flag
+									}
+								}
+							}
+							random_country = {
+								limit = {
+									original_tag = ITA
+								}
+								set_country_flag = ITA_late_to_the_atomic_party_flag
+							}
+						}
 					}
 				}
 			}
@@ -1246,6 +1276,11 @@ technologies = {
 		categories = {
 			nuclear
 		}
+		
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}
 	}
 
 	nukes = {
@@ -1264,26 +1299,14 @@ technologies = {
 		
 		nuclear_production = 1
 		on_research_complete = {
-			
+			if = {
+				limit = {
+					tag = USA
+					has_war_with = JAP
+				}
+				play_warning_to_japan_effect = yes
+			}
 		}
-		categories = {
-			nuclear
-		}
-	}
-	tbs_nukes = {
-	
-		start_year = 1945
-		research_cost = 1
-		
-		allow = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
-		
-		nuclear_production = 1
-		on_research_complete = {}
 		categories = {
 			nuclear
 		}
