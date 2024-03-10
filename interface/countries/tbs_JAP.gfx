@@ -630,6 +630,22 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kakuei_Tanaka.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_JAP_Kakuei_Tanaka_after_the_incident_of_lockheed"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kakuei_Tanaka_after_the_incident_of_lockheed.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Kakuei_Tanaka_after_the_operation_tokyo"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kakuei_Tanaka_after_the_operation_tokyo.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Kakuei_Tanaka_after_tokyo_apocalypse"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kakuei_Tanaka_after_tokyo_apocalypse.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Kakuei_Tanaka_political_success"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kakuei_Tanaka_political_success.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_JAP_Katsuo_Tsushima"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Katsuo_Tsushima.png"
 	}

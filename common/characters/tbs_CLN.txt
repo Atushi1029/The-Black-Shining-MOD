@@ -3,15 +3,15 @@ characters = {
 		name = CHL_augusto_pinochet
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_CHL_Augusto_Pinochet"
+				large = "GFX_Portrait_Chile_Augusto_Pinochet"
 				small = "GFX_idea_CHL_augusto_pinochet"
 			}
 			army = {
-				large = "GFX_Portrait_CHL_Augusto_Pinochet"
+				large = "GFX_Portrait_Chile_Augusto_Pinochet"
 				small = "GFX_idea_CHL_augusto_pinochet"
 			}
 			navy = {
-				large = "GFX_Portrait_CHL_Augusto_Pinochet"
+				large = "GFX_Portrait_Chile_Augusto_Pinochet"
 				small = "GFX_idea_CHL_augusto_pinochet"
 			}
 		}
