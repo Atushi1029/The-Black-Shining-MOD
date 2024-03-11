@@ -39,7 +39,6 @@ lar_local_recruitment = {
 		#	}
 		}
 		complete_effect = {
-			news_event = tbs_skelton_news.0
 			random_country = {
 				limit = {
 					is_in_faction = no

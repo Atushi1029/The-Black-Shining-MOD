@@ -233,6 +233,7 @@ country_event = {
 			popularity = 0.4
 		}
 		hidden_effect = {
+			leave_faction = yes
 			news_event = {
 				id = tbs_skelton_news.14
 				hours = 6

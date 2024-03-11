@@ -106,13 +106,13 @@ characters = {
 		}
 		advisor = {
 			cost = 65535
-			slot = foreign_minister
+			slot = security_minister
 			ledger = civilian
-			idea_token = GER_heinz_knoke_for
+			idea_token = GER_heinz_knoke_sec
 			allowed = { original_tag = GER }
 			traits = {
-				tbs_foreign_minister
-				tbs_negotiator_law
+				tbs_security_minister
+				tbs_quartermaster_general
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
@@ -370,13 +370,13 @@ characters = {
 		}
 		advisor = {
 			cost = 65535
-			slot = security_minister
+			slot = foreign_minister
 			ledger = civilian
-			idea_token = GER_wilhelm_stuckart_sec
+			idea_token = GER_wilhelm_stuckart_for
 			allowed = { original_tag = GER }
 			traits = {
-				tbs_security_minister
-				tbs_quartermaster_general
+				tbs_foreign_minister
+				tbs_negotiator_law
 			}
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
