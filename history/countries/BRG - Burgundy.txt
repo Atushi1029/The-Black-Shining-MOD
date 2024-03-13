@@ -1,9 +1,8 @@
 ﻿capital = 27
 #oob = ""
-set_cosmetic_tag = BRG_rebel_army
+#set_cosmetic_tag =
 set_starting_values = yes
 recruit_character = BRG_francoise_dior
-set_global_flag = burgundy_rebellion
 set_convoys = 0
 add_ideas = {
 	

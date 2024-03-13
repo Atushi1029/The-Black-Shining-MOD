@@ -148,64 +148,6 @@ on_actions = {
 					}
 				}
 				else_if = {
-					limit = {
-						has_global_flag = burgundy_rebellion
-						NOT = { has_global_flag = burgundy_rebellion_finish }
-						FROM = { tag = FRA }
-						ROOT = { tag = BRG }
-					}
-					set_global_flag = burgundy_rebellion_finish
-					set_global_flag = skip_default_capitulation
-					every_country = {
-						limit = { is_ai = no }
-						set_country_flag = {
-							flag = show_peace_conference_popup
-							value = 1
-							days = 14
-						}
-					}
-					every_state = {
-						limit = { is_core_of = ROOT }
-						remove_core_of = ROOT
-					}
-					every_state = {
-						limit = { is_claimed_by = ROOT }
-						remove_claim_by = ROOT
-					}
-					FROM = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						has_global_flag = burgundy_rebellion
-						NOT = { has_global_flag = burgundy_rebellion_finish }
-						FROM = { tag = BRG }
-						ROOT = { tag = FRA }
-					}
-					ROOT = { white_peace = FROM }
-					set_global_flag = burgundy_rebellion_finish
-					set_global_flag = skip_default_capitulation
-					every_country = {
-						limit = { is_ai = no }
-						set_country_flag = {
-							flag = show_peace_conference_popup
-							value = 1
-							days = 14
-						}
-					}
-					every_state = {
-						limit = {
-							is_owned_by = ROOT
-							is_on_continent = europe
-						}
-						transfer_state_to = FROM
-					}
-				}
-				else_if = {
 					limit = { FROM = { is_subject = yes } }
 					set_global_flag = skip_default_capitulation
 					FROM = {
