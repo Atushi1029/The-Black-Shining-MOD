@@ -26,7 +26,3 @@ set_popularities = {
 	ultra_nationalism = 25
 	reactionism = 10
 }
-declare_war_on = {
-	target = FRA
-	type = annex_everything
-}
