@@ -57,19 +57,13 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:winning_country = {
-				OR = {
-					tag = BRG
-					tag = FRA
-				}
+				
 			}
 			event_target:losing_country = {
-				OR = {
-					tag = BRG
-					tag = FRA
-				}
+				
 			}
 		}
-		localization_key = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_BRG_REBELLION
+		localization_key = ""
 	}
 	text = { localization_key = PEACE_CONFERENCE_POPUP_WAR_CONCLUSION_DEFAULT }
 }
@@ -82,19 +76,13 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:winning_country = {
-				OR = {
-					tag = BRG
-					tag = FRA
-				}
+				
 			}
 			event_target:losing_country = {
-				OR = {
-					tag = BRG
-					tag = FRA
-				}
+				
 			}
 		}
-		localization_key = PEACE_CONFERENCE_POPUP_FLAVOR_BRG_REBELLION
+		localization_key = ""
 	}
 	text = { localization_key = PEACE_CONFERENCE_POPUP_FLAVOR_DEFAULT }
 }

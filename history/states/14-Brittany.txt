@@ -7,7 +7,6 @@ state = {
 		owner = FRA
 		add_core_of = BRI
 		add_core_of = FRA
-		add_claim_by = BRG
 		victory_points = {
 			3552 20 
 		}

@@ -1,11 +1,11 @@
 #equipments = {
 #
 #	fighter_equipment = {
-#		year = 1969
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -54,7 +54,7 @@
 #	}
 #	# Early Fighter
 #	fighter_equipment_0 = {
-#		year = 1969
+#		year = 1933
 #
 #		archetype = fighter_equipment
 #		priority = 5
@@ -72,7 +72,7 @@
 #	
 #	# Basic Fighter
 #	fighter_equipment_1 = {
-#		year = 1972
+#		year = 1936
 #
 #		archetype = fighter_equipment
 #		parent = fighter_equipment_0
@@ -100,7 +100,7 @@
 #
 #	# Improved Fighter
 #	fighter_equipment_2 = {
-#		year = 1976
+#		year = 1940
 #
 #		archetype = fighter_equipment
 #		parent = fighter_equipment_1
@@ -128,7 +128,7 @@
 #
 #	# Advanced Fighter
 #	fighter_equipment_3 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = fighter_equipment
 #		parent = fighter_equipment_2
@@ -155,11 +155,11 @@
 #	}
 #
 #	jet_fighter_equipment = {
-#		year = 1969
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -206,7 +206,7 @@
 #
 #	# Basic Jet Fighter
 #	jet_fighter_equipment_1 = {
-#		year = 1981
+#		year = 1945
 #
 #		archetype = jet_fighter_equipment
 #		priority = 20
@@ -221,7 +221,7 @@
 #
 #	# Improved Jet Fighter
 #	jet_fighter_equipment_2 = {
-#		year = 1986
+#		year = 1950
 #
 #		archetype = jet_fighter_equipment
 #		parent = jet_fighter_equipment_1
@@ -245,11 +245,11 @@
 #	}
 #
 #	cv_fighter_equipment = {
-#		year = 1969
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -301,7 +301,7 @@
 #
 #	# Early Carrier Fighter
 #	cv_fighter_equipment_0 = {
-#		year = 1969
+#		year = 1933
 #
 #		archetype = cv_fighter_equipment
 #		carrier_capable = yes
@@ -321,7 +321,7 @@
 #	}
 #	# Basic Carrier Fighter
 #	cv_fighter_equipment_1 = {
-#		year = 1972
+#		year = 1936
 #
 #		archetype = cv_fighter_equipment
 #		parent = cv_fighter_equipment_0
@@ -348,7 +348,7 @@
 #	}
 #	# Improved Carrier Fighter
 #	cv_fighter_equipment_2 = {
-#		year = 1976
+#		year = 1940
 #
 #		archetype = cv_fighter_equipment
 #		parent = cv_fighter_equipment_1
@@ -374,7 +374,7 @@
 #	}
 #	# Advanced Carrier Fighter
 #	cv_fighter_equipment_3 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = cv_fighter_equipment
 #		parent = cv_fighter_equipment_2
@@ -401,11 +401,11 @@
 #	}
 #
 #	CAS_equipment = {
-#		year = 1969
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -455,7 +455,7 @@
 #	
 #	# Basic CAS
 #	CAS_equipment_1 = {
-#		year = 1972
+#		year = 1936
 #
 #		archetype = CAS_equipment
 #		priority = 40
@@ -473,7 +473,7 @@
 #
 #	# Improved CAS
 #	CAS_equipment_2 = {
-#		year = 1976
+#		year = 1940
 #
 #		archetype = CAS_equipment
 #		parent = CAS_equipment_1
@@ -501,7 +501,7 @@
 #
 #	# Advanced CAS
 #	CAS_equipment_3 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = CAS_equipment
 #		parent = CAS_equipment_2
@@ -528,11 +528,11 @@
 #	}
 #
 #	cv_CAS_equipment = {
-#		year = 1969
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -583,7 +583,7 @@
 #	
 #	# Basic Carrier CAS
 #	cv_CAS_equipment_1 = {
-#		year = 1972
+#		year = 1936
 #
 #		archetype = cv_CAS_equipment
 #		carrier_capable = yes
@@ -605,7 +605,7 @@
 #	}
 #	# Improved Carrier CAS
 #	cv_CAS_equipment_2 = {
-#		year = 1976
+#		year = 1940
 #
 #		archetype = cv_CAS_equipment
 #		parent = cv_CAS_equipment_1
@@ -633,7 +633,7 @@
 #	}
 #	# Advanced Carrier CAS
 #	cv_CAS_equipment_3 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = cv_CAS_equipment
 #		parent = cv_CAS_equipment_2
@@ -660,11 +660,11 @@
 #		sub_detection = 9.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 #	}
 #	nav_bomber_equipment = {
-#		year = 1969
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -710,7 +710,7 @@
 #	}
 #	# Basic nav_bomber
 #	nav_bomber_equipment_1 = {
-#		year = 1972
+#		year = 1936
 #
 #		archetype = nav_bomber_equipment
 #		priority = 60
@@ -724,7 +724,7 @@
 #	}
 #	# Improved nav_bomber
 #	nav_bomber_equipment_2 = {
-#		year = 1976
+#		year = 1940
 #
 #		archetype = nav_bomber_equipment
 #		parent = nav_bomber_equipment_1
@@ -750,7 +750,7 @@
 #	}
 #	# Advanced nav_bomber
 #	nav_bomber_equipment_3 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = nav_bomber_equipment
 #		parent = nav_bomber_equipment_2
@@ -775,11 +775,11 @@
 #	}
 #	
 #	cv_nav_bomber_equipment = {
-#		year = 1969
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -828,7 +828,7 @@
 #
 #	# Basic Carrier nav_bomber
 #	cv_nav_bomber_equipment_1 = {
-#		year = 1972
+#		year = 1936
 #
 #		archetype = cv_nav_bomber_equipment
 #		carrier_capable = yes
@@ -844,7 +844,7 @@
 #	}
 #	# Improved Carrier nav_bomber
 #	cv_nav_bomber_equipment_2 = {
-#		year = 1976
+#		year = 1940
 #
 #		archetype = cv_nav_bomber_equipment
 #		parent = cv_nav_bomber_equipment_1
@@ -869,7 +869,7 @@
 #	}
 #	# Advanced Carrier nav_bomber
 #	cv_nav_bomber_equipment_3 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = cv_nav_bomber_equipment
 #		parent = cv_nav_bomber_equipment_2
@@ -895,11 +895,11 @@
 #	
 #	# ROCKET INTERCEPTORS ###############
 #	rocket_interceptor_equipment = {
-#		year = 1972
+#		year = 1936
 #
 #		can_be_produced = {
 #			NOT = {
-#				always = yes
+#				has_idea = BUL_army_restrictions
 #			}
 #		}
 #
@@ -938,7 +938,7 @@
 #	
 #	# Basic Rocket Interceptor
 #	rocket_interceptor_equipment_1 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = rocket_interceptor_equipment
 #		priority = 80
@@ -960,7 +960,7 @@
 #
 #	# Improved Rocket Interceptor
 #	rocket_interceptor_equipment_2 = {
-#		year = 1981
+#		year = 1945
 #
 #		archetype = rocket_interceptor_equipment
 #		parent = rocket_interceptor_equipment_1
@@ -982,7 +982,7 @@
 #
 #	# Advanced Rocket Interceptor
 #	rocket_interceptor_equipment_3 = {
-#		year = 1982
+#		year = 1946
 #
 #		archetype = rocket_interceptor_equipment
 #		parent = rocket_interceptor_equipment_2
@@ -1005,7 +1005,7 @@
 #
 #	# ROCKET INTERCEPTORS ###############
 #	suicide_craft_equipment = {
-#		year = 1972
+#		year = 1936
 #
 #		is_archetype = yes
 #		is_convertable = no
@@ -1038,7 +1038,7 @@
 #
 #	# Rocket interceptor suicide craft!
 #	rocket_suicide_equipment_1 = {
-#		year = 1980
+#		year = 1944
 #
 #		archetype = suicide_craft_equipment
 #		priority = 90

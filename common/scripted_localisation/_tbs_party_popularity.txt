@@ -362,6 +362,10 @@ defined_text = {
 	name = GetSubIdeologyTotSoc
 	#Totalitarian Socialism
 	text = {
+		trigger = { has_country_leader_ideology = totsoc_left-wing_communism_ideology }
+		localization_key = totsoc_left-wing_communism_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = totsoc_maoism_ideology }
 		localization_key = totsoc_maoism_ideology
 	}
@@ -573,8 +577,8 @@ defined_text = {
 	name = GetSubIdeologyNatCor
 	#National Corporatism
 	text = {
-		trigger = { has_country_leader_ideology = natcor_american_natcor_fascism_ideology }
-		localization_key = natcor_american_natcor_fascism_ideology
+		trigger = { has_country_leader_ideology = natcor_american_fascism_ideology }
+		localization_key = natcor_american_fascism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = natcor_fascism_ideology }

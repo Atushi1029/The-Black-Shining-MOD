@@ -2,11 +2,11 @@
 #キャラクター説明
  #閣僚
  GER_fritz_rossler_jus_desc:0 "§Y$tbs_justice_minister$\n$tbs_justice_executer$§!"
- GER_heinz_knoke_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_negotiator_law$§!"
+ GER_heinz_knoke_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_quartermaster_general$§!"
  GER_karl_saur_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_transport_expert$§!"
  GER_otto_ernst_remer_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_military_person_back$§!"
  GER_theo_hupfauer_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_smile_socialite$§!"
- GER_wilhelm_stuckart_sec_desc:0 "§Y$tbs_security_minister$\n$tbs_quartermaster_general$§!"
+ GER_wilhelm_stuckart_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_negotiator_law$§!"
 #キャラクター
  #政治家
  GER_adolf_von_thadden:0 "アドルフ・フォン・タッデン"

@@ -2,9 +2,12 @@ technologies = {
 
 
 	@1954 = 0
-	@1972 = 2
-	@1974 = 4
-	@1975 = 6
+	@1970 = 2
+	@1971 = 3
+	@1972 = 4
+	@1973 = 5
+	@1974 = 5
+	@1975 = 7
 	@1976 = 7
 	@1977 = 8
 	@1978 = 9
@@ -15,6 +18,8 @@ technologies = {
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
+
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			light_tank_chassis_0
@@ -77,14 +82,14 @@ technologies = {
 						has_tech = motorised_infantry
 					}
 
-					#load_oob = "unlock_tanks_mot"
+					load_oob = "unlock_tanks_mot"
 				}
 				if = {
 					limit = {
 						NOT = { has_tech = motorised_infantry }
 					}
 
-					#load_oob = "unlock_tanks"
+					load_oob = "unlock_tanks"
 				}
 			}
 
@@ -139,7 +144,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -167,14 +174,14 @@ technologies = {
 						has_tech = motorised_infantry
 					}
 
-					#load_oob = "unlock_tanks_mot"
+					load_oob = "unlock_tanks_mot"
 				}
 				if = {
 					limit = {
 						NOT = { has_tech = motorised_infantry }
 					}
 
-					#load_oob = "unlock_tanks"
+					load_oob = "unlock_tanks"
 				}
 			}
 
@@ -186,16 +193,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = amphibious_tank_chassis
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1970
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 2 }
+			position = { x = -1 y = 2 }
 		}
 
 		ai_will_do = {
@@ -224,7 +226,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -242,12 +246,17 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = amphibious_tank_chassis
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1972
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 4 }
+			position = { x = -1 y = 4 }
 		}
 
 		ai_will_do = {
@@ -256,9 +265,11 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				not = {
-					tag = JAP
-					num_of_military_factories < 50
+				NOT = {
+					AND = {
+						tag = JAP
+						num_of_military_factories < 50
+					}
 				}
 			}
 			modifier = {
@@ -270,6 +281,12 @@ technologies = {
 			modifier = {
 				tag = SOV
 				factor = 3
+			}
+			modifier = {
+				factor = 3
+				# Matilda II was designed and entered production in 1973
+				tag = ENG
+				date > "1972.9.1"
 			}
 
 			modifier = {
@@ -289,12 +306,13 @@ technologies = {
 		}
 
 		on_research_complete = {
-			
 		}
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -324,7 +342,7 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = 5 }
+			position = { x = -4 y = 5 }
 		}
 
 		ai_will_do = {
@@ -356,7 +374,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			tp_tech
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -387,7 +407,7 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -1 y = 8 }
+			position = { x = -4 y = 8 }
 		}
 
 		ai_will_do = {
@@ -416,7 +436,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			tp_tech
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -434,14 +456,14 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -4 y = 8 }
+			position = { x = -1 y = 8 }
 		}
 
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
 				is_major = no
-				factor = 2
+				factor = 2  # Minors prefer light tanks
 			}
 
 			modifier = {
@@ -462,7 +484,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
 		}
 	}
 
@@ -491,14 +515,14 @@ technologies = {
 						has_tech = motorised_infantry
 					}
 
-					#load_oob = "unlock_tanks_mot"
+					load_oob = "unlock_tanks_mot"
 				}
 				if = {
 					limit = {
 						NOT = { has_tech = motorised_infantry }
 					}
 
-					#load_oob = "unlock_tanks"
+					load_oob = "unlock_tanks"
 				}
 			}
 
@@ -510,17 +534,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = amphibious_tank_chassis
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
-		start_year = 1972
+		start_year = 1974
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1972 }
+			position = { x = 2 y = @1973 }
 		}
 
 		ai_will_do = {
@@ -529,9 +548,11 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				not = {
-					tag = JAP
-					num_of_military_factories < 50
+				NOT = {
+					AND = {
+						tag = JAP
+						num_of_military_factories < 50
+					}
 				}
 				date > "1974.1.1"
 			}
@@ -539,6 +560,12 @@ technologies = {
 				tag = SOV
 				factor = 1.5
 			}
+
+			modifier = {
+				factor = 1.1
+				date > "1975.1.1"
+			}
+
 			modifier = {
 				factor = 1.1
 				date > "1976.1.1"
@@ -563,7 +590,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -592,7 +621,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			
 		}
 
 		ai_will_do = {
@@ -601,9 +629,11 @@ technologies = {
 			modifier = {
 				factor = 2
 				is_major = yes
-				not = {
-					tag = JAP
-					num_of_military_factories < 50
+				NOT = {
+					AND = {
+						tag = JAP
+						num_of_military_factories < 50
+					}
 				}
 			}
 			modifier = {
@@ -638,7 +668,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -665,7 +697,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			
 		}
 
 		ai_will_do = {
@@ -689,7 +720,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -734,7 +767,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
 		}
 	}
 
@@ -764,14 +799,14 @@ technologies = {
 						has_tech = motorised_infantry
 					}
 
-					#load_oob = "unlock_tanks_mot"
+					load_oob = "unlock_tanks_mot"
 				}
 				if = {
 					limit = {
 						NOT = { has_tech = motorised_infantry }
 					}
 
-					#load_oob = "unlock_tanks"
+					load_oob = "unlock_tanks"
 				}
 			}
 
@@ -821,7 +856,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -853,7 +890,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			
 		}
 
 		ai_will_do = {
@@ -881,7 +917,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -909,7 +947,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			
 		}
 
 		ai_will_do = {
@@ -933,7 +970,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -962,7 +1001,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			
 		}
 
 		ai_will_do = {
@@ -971,7 +1009,9 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
 			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -991,10 +1031,10 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1970
+		start_year = 1972
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 3 y = @1972 }
+			position = { x = 3 y = @1971 }
 		}
 
 		ai_will_do = {
@@ -1027,6 +1067,10 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1046,7 +1090,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1972
+		start_year = 1974
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 3 y = @1974 }
@@ -1082,6 +1126,10 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1135,6 +1183,10 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1182,6 +1234,10 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1200,7 +1256,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1972 }
+			position = { x = 2 y = @1971 }
 		}
 
 		ai_will_do = {
@@ -1233,6 +1289,10 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1250,7 +1310,7 @@ technologies = {
 		show_effect_as_desc = yes
 
 		research_cost = 1
-		start_year = 1972
+		start_year = 1974
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 2 y = @1974 }
@@ -1286,6 +1346,10 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1337,6 +1401,10 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
 
@@ -1382,6 +1450,38 @@ technologies = {
 
 		categories = {
 			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
+
+	NOR_rikstanken_tech = {
+
+		allow = { always = no } #Only obtained through Rikstanken Event
+
+		enable_equipment_modules = {
+			NOR_rikstanken_turret
+			NOR_tank_rikstanken_armor
+		}
+
+		path = {
+		}
+
+		on_research_complete = {
+		
+		}
+
+		show_effect_as_desc = no
+
+		research_cost = 1
+		start_year = 1972
+
+
+		categories = {
+			armor
+		}
+	}
+
 }

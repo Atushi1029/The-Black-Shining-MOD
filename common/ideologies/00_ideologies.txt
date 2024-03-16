@@ -30,6 +30,7 @@ ideologies = {
 	totalitarian_socialism = {
 		types = {
 			totalitarian_socialism_ideology = {}
+			totsoc_left-wing_communism_ideology = { can_be_randomly_selected = no }
 			totsoc_maoism_ideology = { can_be_randomly_selected = no }
 			totsoc_military_communism_ideology = { can_be_randomly_selected = no }
 			totsoc_national_marxism_ideology = { can_be_randomly_selected = no }
@@ -249,7 +250,7 @@ ideologies = {
 	national_corporatism = {
 		types = {
 			national_corporatism_ideology = {}
-			natcor_american_natcor_fascism_ideology = { can_be_randomly_selected = no }
+			natcor_american_fascism_ideology = { can_be_randomly_selected = no }
 			natcor_fascism_ideology = { can_be_randomly_selected = no }
 			natcor_mythtic_fascism_ideology = { can_be_randomly_selected = no }
 		}

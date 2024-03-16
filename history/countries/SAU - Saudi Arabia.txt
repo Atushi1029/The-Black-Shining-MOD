@@ -19,10 +19,10 @@ set_popularities = {
 	social_democracy = 0
 	liberal_democracy = 0
 	conservatism = 0
-	authoritarian_democracy = 0
+	authoritarian_democracy = 30
 	paternal_autocracy = 70
 	national_corporatism = 0
 	national_socialism = 0
 	ultra_nationalism = 0
-	reactionism = 30
+	reactionism = 0
 }

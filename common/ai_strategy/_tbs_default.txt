@@ -4,8 +4,8 @@
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
-		
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
@@ -121,6 +121,7 @@ default_role_ratios = {
 			original_tag = USA
 		}
 	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital_bb
@@ -287,6 +288,7 @@ default_pp_spend_amount = {
 	enable = {
 		always = yes
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = pp_spend_amount
@@ -454,6 +456,7 @@ slightly_naval_focused_nation = {
 			tag = ITA
 		}
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = unit_ratio
@@ -487,8 +490,9 @@ more_naval_focused_nation = {
 			tag = USA
 			tag = GBR
 		}
-		date > "1977.1.1" #Delaying it by a couple of years
+		date > "1977.1.1"
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = unit_ratio
@@ -522,6 +526,7 @@ default_area_priority = {
 		NOT = { original_tag = FRA }
 		NOT = { original_tag = JAP }
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = area_priority
@@ -593,6 +598,7 @@ default_area_priority_non_africa = {
         NOT = { original_tag = GBR }
         NOT = { capital_scope = { is_on_continent = africa } }
     }
+	abort_when_not_enabled = yes
 
     ai_strategy = {
         type = area_priority
@@ -732,6 +738,7 @@ DEFAULT_template_design = {
 	enable = {
 		date > 1976.1.1
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = template_prio
@@ -837,6 +844,7 @@ build_intelligence_agency_as_major = {
 			date > 1974.1.1
 		}
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = intelligence_agency_usable_factories
@@ -905,6 +913,7 @@ addintelligence_agency_normal_upgrade_prio = {
 	enable = {
 		always = yes
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = intelligence_agency_branch_desire_factor
@@ -976,6 +985,7 @@ put_garrisons_on_high_prio = {
 	enable = {
 		always = yes
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = garrison_reinforcement_priority

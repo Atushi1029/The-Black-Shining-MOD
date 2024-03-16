@@ -1,4 +1,28 @@
 characters = {
+	MAN_aisin_gioro_pujie = {
+		name = MAN_aisin_gioro_pujie
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AISIN_GIORO_PUJIE_DESC"
+			ideology = pataut_absolute_monarchism_ideology
+			expire = "1994.2.28.1"
+			id = -1
+			traits = {}
+		}
+	}
 	MAN_aisin_gioro_yuyan = {
 		name = MAN_aisin_gioro_yuyan
 		portraits = {
@@ -17,10 +41,27 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_AISIN_GIORO_YUYAN_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = reactionism_ideology
 			expire = "1999.1.18.1"
 			id = -1
 			traits = {}
+		}
+	}
+	MAN_choe_yong-gon = {
+		name = MAN_choe_yong-gon
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Choe_Yong-gon"
+				small = "GFX_idea_MAN_choe_yong-gon"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Choe_Yong-gon"
+				small = "GFX_idea_MAN_choe_yong-gon"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Choe_Yong-gon"
+				small = "GFX_idea_MAN_choe_yong-gon"
+			}
 		}
 	}
 	MAN_goro_takeda = {
@@ -45,6 +86,23 @@ characters = {
 			expire = "2020.2.12.1"
 			id = -1
 			traits = {}
+		}
+	}
+	MAN_hideo_shimojo = {
+		name = MAN_hideo_shimojo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Hideo_Shimojo"
+				small = "GFX_idea_MAN_hideo_shimojo"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Hideo_Shimojo"
+				small = "GFX_idea_MAN_hideo_shimojo"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Hideo_Shimojo"
+				small = "GFX_idea_MAN_hideo_shimojo"
+			}
 		}
 	}
 	MAN_hiroo_wada = {
@@ -153,6 +211,23 @@ characters = {
 			}
 		}
 	}
+	MAN_park_chung_hee = {
+		name = MAN_masao_takagi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Park_Chung_Hee"
+				small = "GFX_idea_MAN_park_chung_hee"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Park_Chung_Hee"
+				small = "GFX_idea_MAN_park_chung_hee"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Park_Chung_Hee"
+				small = "GFX_idea_MAN_park_chung_hee"
+			}
+		}
+	}
 	MAN_seiji_ozawa = {
 		name = MAN_seiji_ozawa
 		portraits = {
@@ -175,6 +250,40 @@ characters = {
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
+		}
+	}
+	MAN_tadayuki_furumi = {
+		name = MAN_tadayuki_furumi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Tadayuki_Furumi"
+				small = "GFX_idea_MAN_tadayuki_furumi"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Tadayuki_Furumi"
+				small = "GFX_idea_MAN_tadayuki_furumi"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Tadayuki_Furumi"
+				small = "GFX_idea_MAN_tadayuki_furumi"
+			}
+		}
+	}
+	MAN_takakichi_aso = {
+		name = MAN_takakichi_aso
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Takakichi_Aso"
+				small = "GFX_idea_MAN_takakichi_aso"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Takakichi_Aso"
+				small = "GFX_idea_MAN_takakichi_aso"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Takakichi_Aso"
+				small = "GFX_idea_MAN_takakichi_aso"
+			}
 		}
 	}
 	MAN_takeo_ito = {

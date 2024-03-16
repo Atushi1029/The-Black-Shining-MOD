@@ -10,11 +10,11 @@ spriteTypes = {
 	}
 	#Portraits
 	spriteType = {
-		name = "GFX_Portrait_CHL_Augusto_Pinochet"
-		texturefile = "gfx/leaders/CHL/Portrait_CHL_Augusto_Pinochet.png"
+		name = "GFX_Portrait_Chile_Augusto_Pinochet"
+		texturefile = "gfx/leaders/CHL/Portrait_Chile_Augusto_Pinochet.png"
 	}
 	spriteType = {
-		name = "GFX_Portrait_CHL_Salvador_Allende"
-		texturefile = "gfx/leaders/CHL/Portrait_CHL_Salvador_Allende.png"
+		name = "GFX_Portrait_Chile_Salvador_Allende"
+		texturefile = "gfx/leaders/CHL/Portrait_Chile_Salvador_Allende.png"
 	}
 }

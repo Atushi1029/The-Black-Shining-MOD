@@ -58,11 +58,11 @@ add_ideas = {
 	GER_wind_of_democratization
 	GER_wo_alle_strassen_enden
 	GER_fritz_rossler_jus
-	GER_heinz_knoke_for
+	GER_heinz_knoke_sec
 	GER_karl_saur_eco
 	GER_otto_ernst_remer_hog
 	GER_theo_hupfauer_int
-	GER_wilhelm_stuckart_sec
+	GER_wilhelm_stuckart_for
 }
 set_politics = {
 	ruling_party = national_socialism

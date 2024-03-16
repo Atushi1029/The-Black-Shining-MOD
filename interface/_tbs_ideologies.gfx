@@ -22,6 +22,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/totalitarian_socialism/totalitarian_socialism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_totsoc_left-wing_communism_ideology"
+		texturefile = "gfx/interface/ideologies/totalitarian_socialism/left-wing_communism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_totsoc_maoism_ideology"
 		texturefile = "gfx/interface/ideologies/totalitarian_socialism/maoism.png"
 	}
@@ -233,7 +237,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_corporatism/national_corporatism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_natcor_american_natcor_fascism_ideology"
+		name = "GFX_ideology_natcor_american_fascism_ideology"
 		texturefile = "gfx/interface/ideologies/national_corporatism/american_fascism.png"
 	}
 	spriteType = {
