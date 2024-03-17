@@ -3,8 +3,8 @@ state = {
 	name="STATE_956"
 
 	history = { 
-		add_core_of = BRM
 		add_core_of = SIA
+		add_claim_by = BRM
 		owner = SIA
 		buildings = {
 			infrastructure = 2

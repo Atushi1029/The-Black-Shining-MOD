@@ -1,0 +1,20 @@
+
+state = { 
+	id=1034
+	name="STATE_1034"
+
+	history = { 
+		owner = BRM
+		add_core_of = BRM
+		victory_points = { 4425 1 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = { 1082 1934 4318 4425 4996 8063 10920 }
+	manpower = 1200000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies=0.000
+}
