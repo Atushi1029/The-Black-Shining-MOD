@@ -1,12 +1,28 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
+		name = "GFX_idea_CAM_ieu_koeus"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_ieu_koeus.png"
+	}
+	spriteType = {
 		name = "GFX_idea_CAM_norodom_sihanouk"
 		texturefile = "gfx/interface/advisors/CAM/idea_CAM_norodom_sihanouk.png"
 	}
+	spriteType = {
+		name = "GFX_idea_CAM_son_ngoc_thanh"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_son_ngoc_thanh.png"
+	}
 	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CAM_Ieu_Koeus"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Ieu_Koeus.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_CAM_Norodom_Sihanouk"
 		texturefile = "gfx/leaders/CAM/Portrait_CAM_Norodom_Sihanouk.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CAM_Son_Ngoc_Thanh"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Son_Ngoc_Thanh.png"
 	}
 }

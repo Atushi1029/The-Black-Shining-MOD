@@ -3,6 +3,7 @@
 set_cosmetic_tag = ROM_peoples_government
 set_starting_values = yes
 recruit_character = RPG_corneliu_manescu
+recruit_character = RPG_ion_iliescu
 recruit_character = RPG_nicolae_ceausescu
 set_convoys = 20
 add_ideas = {

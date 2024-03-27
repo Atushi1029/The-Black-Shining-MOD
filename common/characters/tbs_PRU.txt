@@ -23,4 +23,28 @@ characters = {
 			traits = {}
 		}
 	}
+	PRU_juan_velasco_alvarado = {
+		name = PRU_juan_velasco_alvarado
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PRU_Juan_Velasco_Alvarado"
+				small = "GFX_idea_PRU_juan_velasco_alvarado"
+			}
+			army = {
+				large = "GFX_Portrait_PRU_Juan_Velasco_Alvarado"
+				small = "GFX_idea_PRU_juan_velasco_alvarado"
+			}
+			navy = {
+				large = "GFX_Portrait_PRU_Juan_Velasco_Alvarado"
+				small = "GFX_idea_PRU_juan_velasco_alvarado"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JUAN_VELASCO_ALVARADO_DESC"
+			ideology = pataut_social_militarism_ideology
+			expire = "1977.12.24.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

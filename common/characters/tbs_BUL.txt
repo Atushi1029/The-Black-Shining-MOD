@@ -1,4 +1,28 @@
 characters = {
+	BUL_branimir_ormanov = {
+		name = BUL_branimir_ormanov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BUL_Branimir_Ormanov"
+				small = "GFX_idea_BUL_branimir_ormanov"
+			}
+			army = {
+				large = "GFX_Portrait_BUL_Branimir_Ormanov"
+				small = "GFX_idea_BUL_branimir_ormanov"
+			}
+			navy = {
+				large = "GFX_Portrait_BUL_Branimir_Ormanov"
+				small = "GFX_idea_BUL_branimir_ormanov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_BRANIMIR_ORMANOV_DESC"
+			ideology = autdem_social_nationalism_ideology
+			expire = "1985.8.19.1"
+			id = -1
+			traits = {}
+		}
+	}
 	BUL_margarita_i = {
 		name = BUL_margarita_i
 		gender = female

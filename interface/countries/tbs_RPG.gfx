@@ -5,6 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/RPG/idea_RPG_corneliu_manescu.png"
 	}
 	spriteType = {
+		name = "GFX_idea_RPG_ion_iliescu"
+		texturefile = "gfx/interface/advisors/RPG/idea_RPG_ion_iliescu.png"
+	}
+	spriteType = {
 		name = "GFX_idea_RPG_nicolae_ceausescu"
 		texturefile = "gfx/interface/advisors/RPG/idea_RPG_nicolae_ceausescu.png"
 	}
@@ -12,6 +16,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_RPG_Corneliu_Manescu"
 		texturefile = "gfx/leaders/RPG/Portrait_RPG_Corneliu_Manescu.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RPG_Ion_Iliescu"
+		texturefile = "gfx/leaders/RPG/Portrait_RPG_Ion_Iliescu.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_RPG_Nicolae_Ceausescu"

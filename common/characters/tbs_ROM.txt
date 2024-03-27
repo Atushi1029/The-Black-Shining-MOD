@@ -15,10 +15,27 @@ characters = {
 				small = "GFX_idea_RPG_corneliu_manescu"
 			}
 		}
+	}
+	ROM_ion_iliescu = {
+		name = RPG_ion_iliescu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RPG_Ion_Iliescu"
+				small = "GFX_idea_RPG_ion_iliescu"
+			}
+			army = {
+				large = "GFX_Portrait_RPG_Ion_Iliescu"
+				small = "GFX_idea_RPG_ion_iliescu"
+			}
+			navy = {
+				large = "GFX_Portrait_RPG_Ion_Iliescu"
+				small = "GFX_idea_RPG_ion_iliescu"
+			}
+		}
 		country_leader = {
-			desc = "POLITICS_CORNELIU_MANESCU_DESC"
+			desc = "POLITICS_ION_ILIESCU_DESC"
 			ideology = socdem_peoples_front_ideology
-			expire = "2000.6.26.1"
+			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
 		}

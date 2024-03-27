@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_idea_BUL_margarita_i"
-		texturefile = "gfx/interface/advisors/BUL/idea_BUL_margarita_i.png"
-	}
-}

@@ -81,6 +81,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_hubert_schmundt.png"
 	}
 	spriteType = {
+		name = "GFX_idea_GER_maximilian_karl_otto_von_herff"
+		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_maximilian_karl_otto_von_herff.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GER_otto_skorzeny"
 		texturefile = "gfx/interface/advisors/GER/generals/idea_GER_otto_skorzeny.png"
 	}
@@ -200,6 +204,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_GER_Hubert_Schmundt"
 		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Hubert_Schmundt.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GER_Maximilian_Karl_Otto_von_Herff"
+		texturefile = "gfx/leaders/GER/generals/Portrait_GER_Maximilian_Karl_Otto_von_Herff.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_GER_Otto_Skorzeny"

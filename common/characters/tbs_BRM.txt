@@ -16,6 +16,40 @@ characters = {
 			}
 		}
 	}
+	BRM_ba_maw = {
+		name = BRM_ba_maw
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+		}
+	}
+	BRM_ba_swe = {
+		name = BRM_ba_swe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Ba_Swe"
+				small = "GFX_idea_BRM_ba_swe"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Ba_Swe"
+				small = "GFX_idea_BRM_ba_swe"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Ba_Swe"
+				small = "GFX_idea_BRM_ba_swe"
+			}
+		}
+	}
 	BRM_ne_win = {
 		name = BRM_ne_win
 		portraits = {

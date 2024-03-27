@@ -637,6 +637,23 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	GER_maximilian_von_herff = {
+		name = GER_maximilian_von_herff
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GER_Maximilian_Karl_Otto_von_Herff"
+				small = "GFX_idea_GER_maximilian_karl_otto_von_herff"
+			}
+			army = {
+				large = "GFX_Portrait_GER_Maximilian_Karl_Otto_von_Herff"
+				small = "GFX_idea_GER_maximilian_karl_otto_von_herff"
+			}
+			navy = {
+				large = "GFX_Portrait_GER_Maximilian_Karl_Otto_von_Herff"
+				small = "GFX_idea_GER_maximilian_karl_otto_von_herff"
+			}
+		}
+	}
 	GER_otto_skorzeny = {
 		name = GER_otto_skorzeny
 		portraits = {

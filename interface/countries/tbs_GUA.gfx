@@ -4,9 +4,17 @@ spriteTypes = {
 		name = "GFX_idea_GUA_carlos_manuel_arana_osorio"
 		texturefile = "gfx/interface/advisors/GUA/idea_GUA_carlos_manuel_arana_osorio.png"
 	}
+	spriteType = {
+		name = "GFX_idea_GUA_jacobo_arbenz"
+		texturefile = "gfx/interface/advisors/GUA/idea_GUA_jacobo_arbenz.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_GUA_Carlos_Manuel_Arana_Osorio"
 		texturefile = "gfx/leaders/GUA/Portrait_GUA_Carlos_Manuel_Arana_Osorio.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GUA_Jacobo_Arbenz"
+		texturefile = "gfx/leaders/GUA/Portrait_GUA_Jacobo_Arbenz.png"
 	}
 }
