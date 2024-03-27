@@ -15,10 +15,27 @@ characters = {
 				small = "GFX_idea_GUA_carlos_manuel_arana_osorio"
 			}
 		}
+	}
+	GUA_jacobo_arbenz = {
+		name = GUA_jacobo_arbenz
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GUA_Jacobo_Arbenz"
+				small = "GFX_idea_GUA_jacobo_arbenz"
+			}
+			army = {
+				large = "GFX_Portrait_GUA_Jacobo_Arbenz"
+				small = "GFX_idea_GUA_jacobo_arbenz"
+			}
+			navy = {
+				large = "GFX_Portrait_GUA_Jacobo_Arbenz"
+				small = "GFX_idea_GUA_jacobo_arbenz"
+			}
+		}
 		country_leader = {
-			desc = "POLITICS_CARLOS_MANUEL_ARANA_OSORIO_DESC"
-			ideology = paternal_autocracy_ideology
-			expire = "2003.12.6.1"
+			desc = "POLITICS_JACOBO_ARBENZ_DESC"
+			ideology = pataut_social_militarism_ideology
+			expire = "1972.1.1.1"
 			id = -1
 			traits = {}
 		}

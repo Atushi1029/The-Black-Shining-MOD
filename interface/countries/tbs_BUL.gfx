@@ -1,0 +1,20 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_BUL_branimir_ormanov"
+		texturefile = "gfx/interface/advisors/BUL/idea_BUL_branimir_ormanov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BUL_margarita_i"
+		texturefile = "gfx/interface/advisors/BUL/idea_BUL_margarita_i.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_BUL_Branimir_Ormanov"
+		texturefile = "gfx/leaders/BUL/Portrait_BUL_Branimir_Ormanov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_BUL_Margarita_I"
+		texturefile = "gfx/leaders/BUL/Portrait_BUL_Margarita_I.png"
+	}
+}

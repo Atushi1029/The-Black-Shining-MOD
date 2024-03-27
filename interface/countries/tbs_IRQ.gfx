@@ -1,10 +1,18 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
+		name = "GFX_idea_IRQ_abdul-karim_qasim"
+		texturefile = "gfx/interface/advisors/IRQ/idea_IRQ_abdul-karim_qasim.png"
+	}
+	spriteType = {
 		name = "GFX_idea_IRQ_Saddam_Hussein"
 		texturefile = "gfx/interface/advisors/IRQ/idea_IRQ_Saddam_Hussein.png"
 	}
 	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_IRQ_Abdul-Karim_Qasim"
+		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Abdul-Karim_Qasim.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_IRQ_Saddam_Hussein"
 		texturefile = "gfx/leaders/IRQ/Portrait_IRQ_Saddam_Hussein.png"

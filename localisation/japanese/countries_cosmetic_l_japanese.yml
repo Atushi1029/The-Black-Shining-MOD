@@ -144,6 +144,10 @@
  BUL_kingdom:0 "ブルガリア王国"
  BUL_kingdom_DEF:0 "ブルガリア王国"
  BUL_kingdom_ADJ:0 "ブルガリア"
+
+ BUL_republic:0 "ブルガリア共和国"
+ BUL_republic_DEF:0 "ブルガリア共和国"
+ BUL_republic_ADJ:0 "ブルガリア"
 #カンボジア
  CAM_kingdom:0 "カンボジア王国"
  CAM_kingdom_DEF:0 "カンボジア王国"

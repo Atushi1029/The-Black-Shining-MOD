@@ -6,7 +6,7 @@ spriteTypes = {
 	}
 	#Portraits
 	spriteType = {
-		name = "GFX_Portrait_BRA_Miguel_Reale"
-		texturefile = "gfx/leaders/BRA/Portrait_BRA_Miguel_Reale.png"
+		name = "GFX_Portrait_Brazil_Miguel_Reale"
+		texturefile = "gfx/leaders/BRA/Portrait_Brazil_Miguel_Reale.png"
 	}
 }

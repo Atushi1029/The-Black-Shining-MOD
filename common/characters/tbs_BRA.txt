@@ -3,15 +3,15 @@ characters = {
 		name = BRA_miguel_reale
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_BRA_Miguel_Reale"
+				large = "GFX_Portrait_Brazil_Miguel_Reale"
 				small = "GFX_idea_BRA_miguel_reale"
 			}
 			army = {
-				large = "GFX_Portrait_BRA_Miguel_Reale"
+				large = "GFX_Portrait_Brazil_Miguel_Reale"
 				small = "GFX_idea_BRA_miguel_reale"
 			}
 			navy = {
-				large = "GFX_Portrait_BRA_Miguel_Reale"
+				large = "GFX_Portrait_Brazil_Miguel_Reale"
 				small = "GFX_idea_BRA_miguel_reale"
 			}
 		}

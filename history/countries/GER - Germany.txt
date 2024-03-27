@@ -42,6 +42,7 @@ recruit_character = GER_herbert_gille
 recruit_character = GER_herwig_collmann
 recruit_character = GER_horst_brunner
 recruit_character = GER_hubert_schmundt
+recruit_character = GER_maximilian_von_herff
 recruit_character = GER_otto_skorzeny
 recruit_character = GER_rudolf_arendt
 recruit_character = GER_theodor_burchardi

@@ -1,4 +1,21 @@
 characters = {
+	IRQ_abdul-karim_qasim = {
+		name = IRQ_abdul-karim_qasim
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_IRQ_Abdul-Karim_Qasim"
+				small = "GFX_idea_IRQ_abdul-karim_qasim"
+			}
+			army = {
+				large = "GFX_Portrait_IRQ_Abdul-Karim_Qasim"
+				small = "GFX_idea_IRQ_abdul-karim_qasim"
+			}
+			navy = {
+				large = "GFX_Portrait_IRQ_Abdul-Karim_Qasim"
+				small = "GFX_idea_IRQ_abdul-karim_qasim"
+			}
+		}
+	}
 	IRQ_saddam_hussein = {
 		name = IRQ_saddam_hussein
 		portraits = {

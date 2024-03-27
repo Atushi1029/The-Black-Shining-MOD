@@ -2,6 +2,7 @@
 #oob = ""
 set_cosmetic_tag = IRQ_republic
 set_starting_values = yes
+recruit_character = IRQ_abdul-karim_qasim
 recruit_character = IRQ_saddam_hussein
 set_convoys = 20
 add_ideas = {
