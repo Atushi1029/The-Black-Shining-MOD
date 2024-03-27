@@ -4,7 +4,7 @@ add_to_GER_zollverein = {
 		limit = { is_in_GER_zollverein = no }
 		custom_effect_tooltip = add_to_GER_zollverein_tt
 		set_country_flag = is_in_GER_zollverein
-		add_to_array = { GER.GER_zollverein_members = THIS }
+		add_to_array = { GER.economic_sphere_members = THIS }
 	}
 }
 remove_from_GER_zollverein = {
@@ -13,7 +13,7 @@ remove_from_GER_zollverein = {
 		custom_effect_tooltip = remove_from_GER_zollverein_tt
 		hidden_effect = {
 			clr_country_flag = is_in_GER_zollverein
-			remove_from_array = { GER.GER_zollverein_members = THIS }
+			remove_from_array = { GER.economic_sphere_members = THIS }
 		}
 	}
 }

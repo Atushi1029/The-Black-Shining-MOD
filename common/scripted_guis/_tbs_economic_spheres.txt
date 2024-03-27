@@ -22,7 +22,7 @@ scripted_gui = {
 				else = {
 					add_to_array = { ROOT.economic_sphere_list_array = GER }
 					for_each_loop = {
-						array = GER.GER_zollverein_members
+						array = GER.economic_sphere_members
 						if = {
 							limit = { NOT = { is_in_array = { ROOT.economic_sphere_list_array = v } } }
 							add_to_array = { ROOT.economic_sphere_list_array = v }
