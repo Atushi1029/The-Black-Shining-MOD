@@ -1,0 +1,31 @@
+﻿capital = 231
+#oob = ""
+set_starting_values = yes
+recruit_character = RKK_nsdap_central_commitee
+recruit_character = RKK_richard_fiedler
+recruit_character = RKK_siegfried_kasche
+set_convoys = 20
+add_ideas = {
+	
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarian_socialism = 13
+		gradual_socialism = 0
+		social_democracy = 0
+		liberal_democracy = 0
+		conservatism = 0
+		authoritarian_democracy = 6
+		paternal_autocracy = 6
+		national_corporatism = 5
+		national_socialism = 45
+		ultra_nationalism = 0
+		reactionism = 25
+	}
+}

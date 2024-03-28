@@ -1,0 +1,26 @@
+characters = {
+	CCS_serge_jaroff = {
+		name = CCS_serge_jaroff
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CCS_Serge_Jaroff"
+				small = "GFX_idea_CCS_serge_jaroff"
+			}
+			army = {
+				large = "GFX_Portrait_CCS_Serge_Jaroff"
+				small = "GFX_idea_CCS_serge_jaroff"
+			}
+			navy = {
+				large = "GFX_Portrait_CCS_Serge_Jaroff"
+				small = "GFX_idea_CCS_serge_jaroff"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SERGE_JAROFF_DESC"
+			ideology = conservatism_ideology
+			expire = "1985.10.5.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+﻿l_japanese:
+ POLITICS_NOELECTIONS:0 "選挙無し/イベントによる選挙"
+ POLITICS_ADVISOR_COST:0 "§R閣僚の手動での削除、追加は不可能です。§!イベント、国家方針、ディシジョンなどからでしか変更できません。\nこのリストに載っている人物は、国家が利用可能な閣僚全員であり、他国にいたり、現政権と対立している場合がある。"
+ minister:0 "政府"
+ head_of_government:0 "政府首班"
+ interior_minister:0 "内務大臣"
+ foreign_minister:0 "外務大臣"
+ economy_minister:0 "財務大臣"
+ justice_minister:0 "法務大臣"
+ security_minister:0 "国防大臣"

@@ -1,0 +1,68 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_SIA_bhumibol_adulyadej"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_bhumibol_adulyadej.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_bhumibol_adulyadej_king"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_bhumibol_adulyadej_king.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_kukrit_pramoj"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_kukrit_pramoj.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_pramarn_adireksarn"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_pramarn_adireksarn.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_praphas_charusathien"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_praphas_charusathien.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_prem_tinsulanonda"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_prem_tinsulanonda.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_pridi_banomyong"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_pridi_banomyong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_seni_pramoj"
+		texturefile = "gfx/interface/advisors/SIA/idea_SIA_seni_pramoj.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_SIA_Bhumibol_Adulyadej"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Bhumibol_Adulyadej.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Bhumibol_Adulyadej_king"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Bhumibol_Adulyadej_king.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Kukrit_Pramoj"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Kukrit_Pramoj.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Pramarn_Adireksarn"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Pramarn_Adireksarn.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Praphas_Charusathien"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Praphas_Charusathien.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Prem_Tinsulanonda"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Prem_Tinsulanonda.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Pridi_Banomyong"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Pridi_Banomyong.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SIA_Seni_Pramoj"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Seni_Pramoj.png"
+	}
+}

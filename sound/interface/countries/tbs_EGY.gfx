@@ -1,0 +1,20 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_EGY_anwar_sadat"
+		texturefile = "gfx/interface/advisors/EGY/idea_EGY_anwar_sadat.png"
+	}
+	spriteType = {
+		name = "GFX_idea_EGY_gamal_abdel_nasser"
+		texturefile = "gfx/interface/advisors/EGY/idea_EGY_gamal_abdel_nasser.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_EGY_Anwar_Sadat"
+		texturefile = "gfx/leaders/EGY/Portrait_EGY_Anwar_Sadat.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_EGY_Gamal_Abdel_Nasser"
+		texturefile = "gfx/leaders/EGY/Portrait_EGY_Gamal_Abdel_Nasser.png"
+	}
+}

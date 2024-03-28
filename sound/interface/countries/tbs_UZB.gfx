@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_UZB_sobir_kamolov"
+		texturefile = "gfx/interface/advisors/UZB/idea_UZB_sobir_kamolov.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_UZB_Sobir_Kamolov"
+		texturefile = "gfx/leaders/UZB/Portrait_UZB_Sobir_Kamolov.png"
+	}
+}

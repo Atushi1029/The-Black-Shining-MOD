@@ -1,0 +1,20 @@
+﻿capital = 461
+oob = "MOR_1972"
+set_cosmetic_tag = MOR_kingdom
+set_starting_values = yes
+recruit_character = MOR_hassan_ii
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = paternal_autocracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	conservatism = 15
+	authoritarian_democracy = 15
+	paternal_autocracy = 70
+}

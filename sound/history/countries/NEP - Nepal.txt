@@ -1,0 +1,28 @@
+﻿capital = 323
+#oob = ""
+set_cosmetic_tag = NEP_kingdom
+set_starting_values = yes
+recruit_character = NEP_birendra
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalitarian_socialism = 6
+	gradual_socialism = 0
+	social_democracy = 11
+	liberal_democracy = 7
+	conservatism = 7
+	authoritarian_democracy = 45
+	paternal_autocracy = 23
+	national_corporatism = 1
+	national_socialism = 0
+	ultra_nationalism = 0
+	reactionism = 0
+}

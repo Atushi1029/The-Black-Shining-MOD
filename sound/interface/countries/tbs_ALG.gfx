@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_ALG_Ahmed_Ben_Bella"
+		texturefile = "gfx/interface/advisors/ALG/idea_ALG_Ahmed_Ben_Bella.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_ALG_Ahmed_Ben_Bella"
+		texturefile = "gfx/leaders/ALG/Portrait_ALG_Ahmed_Ben_Bella.png"
+	}
+}

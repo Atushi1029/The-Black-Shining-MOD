@@ -1,0 +1,18 @@
+#######################################################################################################################
+
+#tag = {
+# BASE SETTING
+	#variable = 
+	#event_target = 
+	#global_event_target = 
+	#original_tag = 
+	#targets = {}
+	#target_array = 
+	#country_score = {}
+	#fallback = 
+# TRIGGER
+	#has_cosmetic_tag = 
+	#has_country_flag = 
+}
+
+#######################################################################################################################

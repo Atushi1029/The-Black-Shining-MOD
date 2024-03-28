@@ -1,0 +1,35 @@
+
+state = { 
+	id=989
+	name="STATE_989"
+	manpower = 1332100
+	resources = { 
+		steel=21 # was: 36
+	}
+	
+	state_category = city
+
+	history = { 
+		owner = FRA
+		add_core_of = FRA
+		add_claim_by = BRI
+		victory_points = {
+			6449 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 6
+			6449 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces = { 
+		539 553 3579 6449 6599 9550 11521 11535
+	}
+
+	local_supplies=0.0 
+}

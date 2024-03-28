@@ -1,0 +1,26 @@
+state = { 
+	id=926
+	name="STATE_926"
+
+	history = {
+		owner = RKM
+		add_core_of = RKM
+		set_state_flag = rk_moskowien_core_states
+		set_state_flag = russian_old_states
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			257 1 
+		}
+	}
+
+	provinces = { 
+		3343 3372 326 6366 3316 208 257 324 353 380 483 3317 3477 11240 11269 11364 11393 
+	}
+	manpower=900400
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,29 @@
+﻿capital = 278
+#oob = ""
+set_cosmetic_tag = ARG_republic
+set_starting_values = yes
+recruit_character = ARG_francisco_manrique
+recruit_character = ARG_juan_peron
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1963.7.7"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 4
+	gradual_socialism = 14
+	social_democracy = 16
+	liberal_democracy = 8
+	conservatism = 6
+	authoritarian_democracy = 30
+	paternal_autocracy = 12
+	national_corporatism = 3
+	national_socialism = 7
+	ultra_nationalism = 0
+	reactionism = 0
+}

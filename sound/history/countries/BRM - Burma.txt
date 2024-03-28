@@ -1,0 +1,32 @@
+﻿capital = 288
+#oob = ""
+set_cosmetic_tag = BRM_republic
+set_starting_values = yes
+recruit_character = BRM_aung_san
+recruit_character = BRM_ba_maw
+recruit_character = BRM_ba_swe
+recruit_character = BRM_ne_win
+recruit_character = BRM_u_saw
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 8
+	gradual_socialism = 10
+	social_democracy = 5
+	liberal_democracy = 6
+	conservatism = 13
+	authoritarian_democracy = 14
+	paternal_autocracy = 7
+	national_corporatism = 5
+	national_socialism = 32
+	ultra_nationalism = 0
+	reactionism = 0
+}

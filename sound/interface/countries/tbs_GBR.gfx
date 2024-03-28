@@ -1,0 +1,153 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_GBR_andrew_fountaine"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_andrew_fountaine.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_archbishops_council"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_archbishops_council.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_arthur_scargill"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_arthur_scargill.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_colin_jordan"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_colin_jordan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_edward_viii"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_edward_viii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_elizabeth_ii"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_elizabeth_ii.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_enoch_powell"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_enoch_powell.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_george_matthews"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_george_matthews.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_jeffrey_hamm"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_jeffrey_hamm.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_jeremy_thorpe"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_jeremy_thorpe.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_john_kingsley_read"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_john_kingsley_read.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_john_obrian"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_john_obrian.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_john_tyndall"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_john_tyndall.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_martin_webster"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_martin_webster.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_rab_butler"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_rab_butler.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_roy_jenkins"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_roy_jenkins.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_roy_painter"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_roy_painter.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_tony_benn"
+		texturefile = "gfx/interface/advisors/GBR/idea_GBR_tony_benn.png"
+	}
+	#Ideas
+	spriteType = {
+		name = "GFX_idea_GBR_the_second_1714"
+		texturefile = "gfx/interface/ideas/GBR/idea_GBR_the_second_1714.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_GBR_Andrew_Fountaine"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Andrew_Fountaine.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Archbishops_Council"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Archbishops_Council.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Arthur_Scargill"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Arthur_Scargill.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Colin_Jordan"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Colin_Jordan.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Edward_VIII"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Edward_VIII.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Elizabeth_II"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Elizabeth_II.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Enoch_Powell"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Enoch_Powell.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_George_Matthews"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_George_Matthews.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Jeffrey_Hamm"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Jeffrey_Hamm.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Jeremy_Thorpe"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Jeremy_Thorpe.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_John_Kingsley_Read"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_John_Kingsley_Read.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_John_OBrian"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_John_OBrian.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_John_Tyndall"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_John_Tyndall.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Martin_Webster"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Martin_Webster.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Rab_Butler"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Rab_Butler.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Roy_Jenkins"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Roy_Jenkins.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Roy_Painter"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Roy_Painter.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GBR_Tony_Benn"
+		texturefile = "gfx/leaders/GBR/Portrait_GBR_Tony_Benn.png"
+	}
+}

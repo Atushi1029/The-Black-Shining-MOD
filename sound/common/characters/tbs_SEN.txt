@@ -1,0 +1,26 @@
+characters = {
+	SEN_leopold_sedar_senghor = {
+		name = SEN_leopold_sedar_senghor
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SEN_Leopold_Sedar_Senghor"
+				small = "GFX_idea_SEN_Leopold_Sedar_Senghor"
+			}
+			army = {
+				large = "GFX_Portrait_SEN_Leopold_Sedar_Senghor"
+				small = "GFX_idea_SEN_Leopold_Sedar_Senghor"
+			}
+			navy = {
+				large = "GFX_Portrait_SEN_Leopold_Sedar_Senghor"
+				small = "GFX_idea_SEN_Leopold_Sedar_Senghor"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LEOPOLD_SEDAR_SENGHOR_DESC"
+			ideology = totsoc_pan_africanism_ideology
+			expire = "2001.12.20.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

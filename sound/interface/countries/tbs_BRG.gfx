@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_BRG_francoise_dior"
+		texturefile = "gfx/interface/advisors/BRG/idea_BRG_francoise_dior.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_BRG_Francoise_Dior"
+		texturefile = "gfx/leaders/BRG/Portrait_BRG_Francoise_Dior.png"
+	}
+}

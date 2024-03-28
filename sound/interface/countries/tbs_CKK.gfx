@@ -1,0 +1,20 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_CKK_mikhail_romanov"
+		texturefile = "gfx/interface/advisors/CKK/idea_CKK_mikhail_romanov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CKK_yuri_rytkheu"
+		texturefile = "gfx/interface/advisors/CKK/idea_CKK_yuri_rytkheu.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CKK_Mikhail_Romanov"
+		texturefile = "gfx/leaders/CKK/Portrait_CKK_Mikhail_Romanov.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CKK_Yuri_Rytkheu"
+		texturefile = "gfx/leaders/CKK/Portrait_CKK_Yuri_Rytkheu.png"
+	}
+}

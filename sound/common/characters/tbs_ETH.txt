@@ -1,0 +1,26 @@
+characters = {
+	ETH_tesfaye_gebre_kidan = {
+		name = ETH_tesfaye_gebre_kidan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ETH_Tesfaye_Gebre_Kidan"
+				small = "GFX_idea_ETH_Tesfaye_Gebre_Kidan"
+			}
+			army = {
+				large = "GFX_Portrait_ETH_Tesfaye_Gebre_Kidan"
+				small = "GFX_idea_ETH_Tesfaye_Gebre_Kidan"
+			}
+			navy = {
+				large = "GFX_Portrait_ETH_Tesfaye_Gebre_Kidan"
+				small = "GFX_idea_ETH_Tesfaye_Gebre_Kidan"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TESFAYE_GEBRE_KIDAN_DESC"
+			ideology = totsoc_pan_africanism_ideology
+			expire = "2004.6.2.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

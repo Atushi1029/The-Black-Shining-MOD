@@ -1,0 +1,66 @@
+has_far_eastern_siberia = {
+	custom_trigger_tooltip = {
+		tooltip = has_far_eastern_siberia_tt
+		all_state = { 
+			OR = {
+				is_controlled_by = ROOT
+				NOT = { has_state_flag = far_east_core_states }
+			}
+		}
+	}
+}
+has_kazakhstan = {
+	custom_trigger_tooltip = {
+		tooltip = has_kazakhstan_tt
+		all_state = { 
+			OR = {
+				is_controlled_by = ROOT
+				NOT = { has_state_flag = kaz_core_states }
+			}
+		}
+	}
+}
+has_komi = {
+	custom_trigger_tooltip = {
+		tooltip = has_komi_tt
+		all_state = { 
+			OR = {
+				is_controlled_by = ROOT
+				NOT = { has_state_flag = komi_core_states }
+			}
+		}
+	}
+}
+has_north_western_russia = {
+	custom_trigger_tooltip = {
+		tooltip = has_north_western_russia_tt
+		all_state = { 
+			OR = {
+				is_controlled_by = ROOT
+				NOT = { has_state_flag = ussr_core_states }
+			}
+		}
+	}
+}
+has_western_siberia = {
+	custom_trigger_tooltip = {
+		tooltip = has_western_siberia_tt
+		all_state = { 
+			OR = {
+				is_controlled_by = ROOT
+				NOT = { has_state_flag = rusrep_core_states }
+			}
+		}
+	}
+}
+has_western_urals = {
+	custom_trigger_tooltip = {
+		tooltip = has_western_urals_tt
+		all_state = { 
+			OR = {
+				is_controlled_by = ROOT
+				NOT = { has_state_flag = rla_core_states }
+			}
+		}
+	}
+}

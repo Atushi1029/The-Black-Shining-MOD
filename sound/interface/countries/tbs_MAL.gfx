@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_MAL_abdul_razak_hussein"
+		texturefile = "gfx/interface/advisors/MAL/idea_MAL_abdul_razak_hussein.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_MAL_Abdul_Razak_Hussein"
+		texturefile = "gfx/leaders/MAL/Portrait_MAL_Abdul_Razak_Hussein.png"
+	}
+}

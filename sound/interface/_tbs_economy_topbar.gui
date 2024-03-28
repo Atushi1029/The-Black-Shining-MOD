@@ -1,0 +1,44 @@
+guiTypes = {
+	containerWindowType = {
+		name = "economy_topbar_window"
+		position = { x = 808 y = 5 }
+		instantTextBoxType = {
+			name ="gdp_text"
+			position = { x = 0 y = 4 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetGDP]"
+			format = right
+			maxWidth = 87
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "gdp_title_tt"
+			pdx_tooltip_delayed = "gdp_desc_tt"
+		}
+		iconType = {
+			name = "gdp_icon"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_gdp_icon"
+			pdx_tooltip = "gdp_title_tt"
+			pdx_tooltip_delayed = "gdp_desc_tt"
+		}
+		instantTextBoxType = {
+			name ="inflation_text"
+			position = { x = 99 y = 4 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetInflation]"
+			format = right
+			maxWidth = 61
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "inflation_title_tt"
+			pdx_tooltip_delayed = "inflation_desc_tt"
+		}
+		iconType = {
+			name = "inflation_icon"
+			position = { x = 99 y = 0 }
+			spriteType = "GFX_inflation_icon"
+			pdx_tooltip = inflation_title_tt
+			pdx_tooltip_delayed = inflation_desc_tt
+		}
+	}
+}

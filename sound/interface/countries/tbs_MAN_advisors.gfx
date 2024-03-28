@@ -1,0 +1,78 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MAN_aisin_gioro_pujie"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_aisin_gioro_pujie.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_aisin_gioro_yuyan"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_aisin_gioro_yuyan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_choe_yong-gon"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_choe_yong-gon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_goro_takeda"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_goro_takeda.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_hideo_shimojo"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_hideo_shimojo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_hiroo_wada"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_hiroo_wada.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_hisaya_morishige"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_hisaya_morishige.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_katsuji_kawamata"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_katsuji_kawamata.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_kazuo_nonomura"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_kazuo_nonomura.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_kichihei_hanano"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_kichihei_hanano.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_park_chung_hee"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_park_chung_hee.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_seiji_ozawa"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_seiji_ozawa.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_tadayuki_furumi"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_tadayuki_furumi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_takakichi_aso"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_takakichi_aso.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_takeo_ito"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_takeo_ito.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_tetsuzo_fuyushiba"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_tetsuzo_fuyushiba.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_toshio_hoshiko"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_toshio_hoshiko.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_yoshimitsu_baba"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_yoshimitsu_baba.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_zhang_shaoji"
+		texturefile = "gfx/interface/advisors/MAN/idea_MAN_zhang_shaoji.png"
+	}
+}

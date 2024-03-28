@@ -1,0 +1,43 @@
+characters = {
+	SWE_carl_xvi_gustaf = {
+		name = SWE_carl_xvi_gustaf
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SWE_Carl_XVI_Gustaf"
+				small = "GFX_idea_SWE_carl_xvi_gustaf"
+			}
+			army = {
+				large = "GFX_Portrait_SWE_Carl_XVI_Gustaf"
+				small = "GFX_idea_SWE_carl_xvi_gustaf"
+			}
+			navy = {
+				large = "GFX_Portrait_SWE_Carl_XVI_Gustaf"
+				small = "GFX_idea_SWE_carl_xvi_gustaf"
+			}
+		}
+	}
+	SWE_yngve_holmberg = {
+		name = SWE_yngve_holmberg
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SWE_Yngve_Holmberg"
+				small = "GFX_idea_SWE_yngve_holmberg"
+			}
+			army = {
+				large = "GFX_Portrait_SWE_Yngve_Holmberg"
+				small = "GFX_idea_SWE_yngve_holmberg"
+			}
+			navy = {
+				large = "GFX_Portrait_SWE_Yngve_Holmberg"
+				small = "GFX_idea_SWE_yngve_holmberg"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YNGVE_HOLMBERG_DESC"
+			ideology = liberal_democracy_ideology
+			expire = "2011.10.29.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+characters = {
+	YAK_ieronim_uborevich = {
+		name = YAK_ieronim_uborevich
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_YAK_Ieronim_Uborevich"
+				small = "GFX_idea_YAK_ieronim_uborevich"
+			}
+			army = {
+				large = "GFX_Portrait_YAK_Ieronim_Uborevich"
+				small = "GFX_idea_YAK_ieronim_uborevich"
+			}
+			navy = {
+				large = "GFX_Portrait_YAK_Ieronim_Uborevich"
+				small = "GFX_idea_YAK_ieronim_uborevich"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IERONIM_UBOREVICH_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_IERONIM_UBOREVICH_DESC"
+			ideology = reactionism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

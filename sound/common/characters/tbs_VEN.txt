@@ -1,0 +1,26 @@
+characters = {
+	VEN_jose_vicente_rangel = {
+		name = VEN_jose_vicente_rangel
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_VEN_Jose_Vicente_Rangel"
+				small = "GFX_idea_VEN_jose_vicente_rangel"
+			}
+			army = {
+				large = "GFX_Portrait_VEN_Jose_Vicente_Rangel"
+				small = "GFX_idea_VEN_jose_vicente_rangel"
+			}
+			navy = {
+				large = "GFX_Portrait_VEN_Jose_Vicente_Rangel"
+				small = "GFX_idea_VEN_jose_vicente_rangel"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOSE_VICENTE_RANGEL_DESC"
+			ideology = gradual_socialism_ideology
+			expire = "2020.12.18.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

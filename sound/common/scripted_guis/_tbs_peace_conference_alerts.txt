@@ -1,0 +1,26 @@
+scripted_gui = {
+	tbs_peace_conference_popup = {
+		context_type = player_context
+		window_name = "tbs_peace_conference_popup_window"
+		ai_enabled = { always = no }
+		properties = {
+			flag_1 = { image = "[winning_country.GetFlag]" }
+			flag_2 = { image = "[losing_country.GetFlag]" }
+		}
+		visible = {
+			has_country_flag = show_peace_conference_popup
+			is_ai = no
+		}
+		effects = {
+			ok_button_click = {
+				clr_country_flag = show_peace_conference_popup
+				clr_global_flag = losing_country_multiple
+				clr_global_flag = winning_country_multiple
+				clr_global_flag = war_continuing
+				clr_global_flag = war_won
+				clear_global_event_target = winning_country
+				clear_global_event_target = losing_country
+			}
+		}
+	}
+}

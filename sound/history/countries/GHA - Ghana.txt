@@ -1,0 +1,23 @@
+﻿capital = 274
+oob = "GHA_1972"
+set_cosmetic_tag = GHA_republic
+set_starting_values = yes
+recruit_character = GHA_kwame_nkrumah
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = totalitarian_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 40
+	gradual_socialism = 20
+	social_democracy = 20
+	liberal_democracy = 2
+	conservatism = 8
+	authoritarian_democracy = 10
+}

@@ -1,0 +1,26 @@
+characters = {
+	MLI_modibo_keita = {
+		name = MLI_modibo_keita
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MLI_Modibo_Keita"
+				small = "GFX_idea_MLI_Modibo_Keita"
+			}
+			army = {
+				large = "GFX_Portrait_MLI_Modibo_Keita"
+				small = "GFX_idea_MLI_Modibo_Keita"
+			}
+			navy = {
+				large = "GFX_Portrait_MLI_Modibo_Keita"
+				small = "GFX_idea_MLI_Modibo_Keita"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MODIBO_KEITA_DESC"
+			ideology = totsoc_pan_africanism_ideology
+			expire = "1977.5.16.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

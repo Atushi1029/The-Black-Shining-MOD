@@ -1,0 +1,28 @@
+
+state = { 
+	id=1027
+	name="STATE_1027"
+
+	history = { 
+		owner = FER
+		add_core_of = FER
+		add_claim_by = RLA
+		add_claim_by = RUS
+		add_claim_by = SOV
+		set_state_flag = far_east_core_states
+		victory_points = {
+			1748 1 
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+	}
+
+	provinces = { 1730 1748 1845 4752 7691 7785 7844 10608 10667 12591 12660 12694 }
+	manpower=407866
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

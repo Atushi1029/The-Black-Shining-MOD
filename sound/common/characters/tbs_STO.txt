@@ -1,0 +1,177 @@
+characters = {
+	STO_hideo_shimizu = {
+		name = STO_hideo_shimizu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Hideo_Shimizu"
+				small = "GFX_idea_STO_hideo_shimizu"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Hideo_Shimizu"
+				small = "GFX_idea_STO_hideo_shimizu"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Hideo_Shimizu"
+				small = "GFX_idea_STO_hideo_shimizu"
+			}
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	STO_kiyoshi_kawashima = {
+		name = STO_kiyoshi_kawashima
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Kiyoshi_Kawashima"
+				small = "GFX_idea_STO_kiyoshi_kawashima"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Kiyoshi_Kawashima"
+				small = "GFX_idea_STO_kiyoshi_kawashima"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Kiyoshi_Kawashima"
+				small = "GFX_idea_STO_kiyoshi_kawashima"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KIYOSHI_KAWASHIMA_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	STO_konstantin_lisetsky = {
+		name = STO_konstantin_lisetsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Konstantin_Lisetsky"
+				small = "GFX_idea_STO_konstantin_lisetsky"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Konstantin_Lisetsky"
+				small = "GFX_idea_STO_konstantin_lisetsky"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Konstantin_Lisetsky"
+				small = "GFX_idea_STO_konstantin_lisetsky"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				trait_reckless
+				cavalry_leader
+				ranger
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	STO_tadao_sato = {
+		name = STO_tadao_sato
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Tadao_Sato"
+				small = "GFX_idea_STO_tadao_sato"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Tadao_Sato"
+				small = "GFX_idea_STO_tadao_sato"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Tadao_Sato"
+				small = "GFX_idea_STO_tadao_sato"
+			}
+		}
+	}
+	STO_takeshi_misumi = {
+		name = STO_takeshi_misumi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Takeshi_Misumi"
+				small = "GFX_idea_STO_takeshi_misumi"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Takeshi_Misumi"
+				small = "GFX_idea_STO_takeshi_misumi"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Takeshi_Misumi"
+				small = "GFX_idea_STO_takeshi_misumi"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	STO_yoshio_furuie = {
+		name = STO_yoshio_furuie
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Yoshio_Furuie"
+				small = "GFX_idea_STO_yoshio_furuie"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Yoshio_Furuie"
+				small = "GFX_idea_STO_yoshio_furuie"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Yoshio_Furuie"
+				small = "GFX_idea_STO_yoshio_furuie"
+			}
+		}
+	}
+	STO_yuri_vitvitsky = {
+		name = STO_yuri_vitvitsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+			army = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+			navy = {
+				large = "GFX_Portrait_STO_Yuri_Vitvitsky"
+				small = "GFX_idea_STO_yuri_vitvitsky"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				armor_officer
+				panzer_leader
+				panzer_expert
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+}

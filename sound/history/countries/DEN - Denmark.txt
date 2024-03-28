@@ -1,0 +1,31 @@
+﻿capital = 37
+#oob = ""
+set_cosmetic_tag = DEN_republic
+set_starting_values = yes
+recruit_character = DEN_knud_borge_martinsen
+set_convoys = 20
+add_ideas = {
+	
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarian_socialism = 0
+		neo_communism = 0
+		gradual_socialism = 10
+		social_democracy = 15
+		liberal_democracy = 0
+		conservatism = 0
+		authoritarian_democracy = 0
+		paternal_autocracy = 0
+		national_corporatism = 0
+		national_socialism = 75
+		ultra_nationalism = 0
+		reactionism = 0
+	}
+}

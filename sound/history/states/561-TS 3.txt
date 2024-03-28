@@ -1,0 +1,29 @@
+
+state = { 
+	id=561
+	name="STATE_561"
+
+	history = { 
+		owner = FER
+		add_core_of = FER
+		add_claim_by = RLA
+		add_claim_by = RUS
+		add_claim_by = SOV
+		set_state_flag = far_east_core_states
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			10678 5
+		}
+	}
+
+	provinces = { 
+		7851 10678 12543
+	}
+	manpower=454281
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=6.000
+}

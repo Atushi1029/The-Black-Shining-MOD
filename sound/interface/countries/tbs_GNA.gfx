@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_GNA_Ahmed_Sekou_Toure"
+		texturefile = "gfx/interface/advisors/GNA/idea_GNA_Ahmed_Sekou_Toure.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_GNA_Ahmed_Sekou_Toure"
+		texturefile = "gfx/leaders/GNA/Portrait_GNA_Ahmed_Sekou_Toure.png"
+	}
+}

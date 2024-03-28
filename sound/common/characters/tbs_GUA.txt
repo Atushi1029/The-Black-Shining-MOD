@@ -1,0 +1,43 @@
+characters = {
+	GUA_carlos_manuel_arana_osorio = {
+		name = GUA_carlos_manuel_arana_osorio
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GUA_Carlos_Manuel_Arana_Osorio"
+				small = "GFX_idea_GUA_carlos_manuel_arana_osorio"
+			}
+			army = {
+				large = "GFX_Portrait_GUA_Carlos_Manuel_Arana_Osorio"
+				small = "GFX_idea_GUA_carlos_manuel_arana_osorio"
+			}
+			navy = {
+				large = "GFX_Portrait_GUA_Carlos_Manuel_Arana_Osorio"
+				small = "GFX_idea_GUA_carlos_manuel_arana_osorio"
+			}
+		}
+	}
+	GUA_jacobo_arbenz = {
+		name = GUA_jacobo_arbenz
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_GUA_Jacobo_Arbenz"
+				small = "GFX_idea_GUA_jacobo_arbenz"
+			}
+			army = {
+				large = "GFX_Portrait_GUA_Jacobo_Arbenz"
+				small = "GFX_idea_GUA_jacobo_arbenz"
+			}
+			navy = {
+				large = "GFX_Portrait_GUA_Jacobo_Arbenz"
+				small = "GFX_idea_GUA_jacobo_arbenz"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JACOBO_ARBENZ_DESC"
+			ideology = pataut_social_militarism_ideology
+			expire = "1972.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

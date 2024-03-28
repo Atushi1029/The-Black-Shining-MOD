@@ -1,0 +1,4 @@
+proxy_war_decision = {
+	allowed = { always = yes }
+	visible = { is_major = yes }
+}

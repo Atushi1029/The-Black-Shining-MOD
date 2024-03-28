@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_VCT_paul_vi"
+		texturefile = "gfx/interface/advisors/VCT/idea_VCT_paul_vi.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_VCT_Paul_VI"
+		texturefile = "gfx/leaders/VCT/Portrait_VCT_Paul_VI.png"
+	}
+}

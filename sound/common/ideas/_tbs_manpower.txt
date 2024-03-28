@@ -1,0 +1,127 @@
+ideas = {
+	mobilization_laws = {
+		law = yes
+		use_list_view = yes
+		disarmed_nation = {
+			level = 7
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				conscription = 0.01
+			}
+		}
+		volunteer_only = {
+			level = 6
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				conscription = 0.015
+			}
+			default = yes
+		}
+		limited_conscription = {
+			level = 5
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		extensive_conscription = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			level = 4
+			modifier = {
+				conscription = 0.05
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.1
+			}
+		}
+		service_by_requirement = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			level = 3
+			modifier = {
+				conscription = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.2
+			}
+		}
+		all_adults_serve = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			level = 2
+			modifier = {
+				conscription = 0.2
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
+				training_time_factor = 0.3
+			}
+		}
+		scraping_the_barrel = {
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			level = 1
+			modifier = {
+				conscription = 0.25
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				training_time_factor = 0.5
+			}
+		}
+		chitet_law = { #No Effects
+			name = ETH_chitet_law
+			picture = ETH_chitet_law
+			level = 1
+			allowed = { always = no }
+			available = { always = no }
+			cancel_if_invalid = yes
+			modifier = {}
+		}
+		chitet_law_peace_time = { #No Effects
+			name = ETH_chitet_law_peace_time
+			picture = ETH_chitet_law
+			level = 1
+			allowed = { always = no }
+			available = { always = no }
+			cancel_if_invalid = yes
+			modifier = {}
+		}
+		citizen_militia_1 = {
+			name = SWI_citizen_militia_1
+			picture = citizen_militia_1
+			level = 6
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				conscription = 0.1
+				ai_desired_divisions_factor = 1
+			}
+		}
+		citizen_militia_2 = {
+			name = SWI_citizen_militia_2
+			picture = citizen_militia_2
+			level = 6
+			allowed = { always = yes }
+			available = { always = no }
+			cancel_if_invalid = no
+			modifier = {
+				conscription = 0.2
+				ai_desired_divisions_factor = 2
+			}
+		}
+	}
+}

@@ -1,0 +1,1498 @@
+leader_traits = {
+#Idea Traits
+	tbs_head_of_government = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_interior_minister = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_foreign_minister = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_economy_minister = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_justice_minister = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_security_minister = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_army_chief = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_navy_chief = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_air_chief = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_high_command = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_theorist = {
+		random = no
+		ai_will_do = { factor = 0 }
+	}
+	tbs_backroom_backstabber = {
+		#sprite = 13
+		random = no
+		political_power_factor = 0.1
+		war_stability_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_compassionate_gentleman = {
+		#sprite = 13
+		random = no
+		compliance_gain = 0.01
+		political_power_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_flamboyant_brute = {
+		#sprite = 13
+		random = no
+		war_support_factor = 0.15
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_great_compromiser = {
+		#sprite = 13
+		random = no
+		political_power_factor = 0.05
+		#political_advisor_cost_factor = -0.33
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_iron_fisted_brute = {
+		#sprite = 13
+		random = no
+		resistance_target = -0.05
+		war_support_factor = 0.1
+		army_attack_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_man_of_the_people = {
+		#sprite = 13
+		random = no
+		stability_factor = 0.10
+		conscription_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_naive_optimist = {
+		#sprite = 13
+		random = no
+		stability_factor = 0.05
+		production_speed_industrial_complex_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_plodding_bureaucrat = { #Assign cheap cost to offset negative PP gain (50-75)
+		#sprite = 13
+		random = no
+		political_power_gain = -0.1
+		supply_consumption_factor = -0.05
+	}
+	tbs_political_protege = {
+		#sprite = 13
+		random = no
+		political_power_gain = 0.10
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_political_specialist = {
+		#sprite = 13
+		random = no
+		mobilization_laws_cost_factor = -0.25
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		#political_advisor_cost_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_popular_figurehead = {
+		#sprite = 13
+		random = no
+		stability_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_quartermaster_general = {
+		#sprite = 10
+		random = yes
+		production_speed_air_base_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+		production_speed_rocket_site_factor = 0.15
+		production_speed_radar_station_factor = 0.15
+		supply_node_range = 0.1
+
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	tbs_ideological_crusader = {
+		random = yes
+		#sprite = 13
+		opinion_gain_monthly_same_ideology_factor = 1.0
+		party_popularity_stability_factor = 0.25
+		justify_war_goal_time = -0.25
+
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	tbs_pragmatic_statesman = {
+		#sprite = 13
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		min_export = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_prince_of_terror = {
+		#sprite = 13
+		resistance_damage_to_garrison = -0.25
+		foreign_subversive_activites = -0.25
+		non_core_manpower = 0.025
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_silent_workhorse = {
+		#sprite = 13
+		random = no
+		political_power_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_ultranationalist_agitator = {
+		#sprite = 13
+		random = no
+		stability_factor = -0.05
+		conscription_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### Economic ###
+
+	tbs_agricultural_economist = {
+		#sprite = 10
+		random = no
+		global_building_slots_factor = 0.20
+		monthly_population = 0.20
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_austere_finance_advocate = {
+		#sprite = 10
+		random = no
+		consumer_goods_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_bank_president = {
+		#sprite = 13
+		random = no
+		production_speed_buildings_factor = 0.05
+		political_power_gain = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_collectivisation_specialist = {
+		#sprite = 12
+		random = no
+		global_building_slots_factor = 0.20
+		production_speed_buildings_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_council_communist = {
+		#sprite = 12
+		random = no
+		political_power_factor = -0.2
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_economic_reformer = {
+		#sprite = 10
+		random = no
+		economy_cost_factor = -0.2
+		production_speed_buildings_factor = 0.05
+		line_change_production_efficiency_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_industrialiser = {
+		#sprite = 10
+		random = no
+		industrial_capacity_factory = 0.05
+		production_speed_buildings_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_inflation_finance_advocate = {
+		#sprite = 10
+		random = no
+		stability_factor = -0.05
+		production_speed_buildings_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_interventionist_economist = {     # Formerly Keynesian Economist
+		#sprite = 10
+		random = no
+		consumer_goods_factor = -0.03
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_laissez_faire_capitalist = {
+		#sprite = 10
+		random = no
+		production_factory_max_efficiency_factor = 0.1
+		production_speed_buildings_factor = 0.05
+		local_resources_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_mixed_economy_proponent = {
+		#sprite = 10
+		random = no
+		production_factory_max_efficiency_factor = 0.1
+		consumer_goods_factor = -0.03
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_traditionalist_economist = {
+		#sprite = 10
+		random = no
+		stability_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		production_factory_max_efficiency_factor = 0.025
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### Military ###
+
+	tbs_adventurous_daredevil = {
+		#sprite = 13
+		random = no
+		war_support_factor = 0.05
+		army_morale_factor = 0.1
+		experience_gain_air = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tbs_air_superiority_proponent = {
+		#sprite = 1
+		random = no
+		experience_gain_air = 0.03
+		equipment_bonus = {
+			fighter_equipment = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+			heavy_fighter_equipment = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_armaments_organiser = {
+		#sprite = 10
+		random = no
+		production_speed_arms_factory_factor = 0.1
+		conversion_cost_civ_to_mil_factor = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_battlefield_support_proponent = {
+		#sprite = 1
+		random = no
+		experience_gain_air = 0.03
+		equipment_bonus = {
+			CAS_equipment = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+			tac_bomber_equipment = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_battlefleet_proponent = {
+		#sprite = 3
+		random = no
+		experience_gain_navy = 0.06
+		navy_max_range_factor = 0.15
+		equipment_bonus = {
+			screen_ship = {
+				build_cost_ic = -0.075
+				instant = yes
+			}
+			capital_ship = {
+				build_cost_ic = -0.075
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_carrier_proponent = {
+		#sprite = 3
+		random = no
+		experience_gain_navy = 0.06
+		navy_max_range_factor = 0.15
+		equipment_bonus = {
+			ship_hull_carrier = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_general_staffer = {
+		#sprite = 12
+		random = no
+		high_command_cost_factor = -0.2
+		max_command_power = 20
+		command_abilities_cost_factor = -0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tbs_infantry_proponent = {
+		#sprite = 5
+		random = no
+		command_abilities_cost_factor = -0.15
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+			support_equipment = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_naval_aviation_proponent = {
+		#sprite = 3
+		random = no
+		experience_gain_air = 0.03
+		equipment_bonus = {
+			cv_fighter_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			cv_CAS_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			cv_nav_bomber_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_old_admiral = {
+		#sprite = 3
+		random = no
+		navy_chief_cost_factor = 0.25
+		production_speed_naval_base_factor = 0.1
+		production_speed_dockyard_factor = 0.05
+		experience_gain_navy = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_old_air_marshal = {
+		#sprite = 1
+		random = no
+		air_chief_cost_factor = 0.25
+		production_speed_air_base_factor = 0.10
+		experience_gain_air = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_old_general = {
+		#sprite = 9
+		random = no
+		army_chief_cost_factor = 0.25
+		production_speed_bunker_factor = 0.10
+		max_planning = 0.1
+		experience_gain_army = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_reformist_soldier = {
+		#sprite = 5
+		random = no
+		experience_gain_army = 0.03
+		high_command_cost_factor = -0.25
+		experience_gain_army_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_respected_war_hero = {
+		#sprite = 12
+		random = no
+		army_core_attack_factor = 0.05
+		army_core_defence_factor = 0.05
+		war_stability_factor = 0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_strategic_destruction_proponent = {
+		#sprite = 1
+		random = no
+		experience_gain_air = 0.03
+		equipment_bonus = {
+			tac_bomber_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			strat_bomber_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_submarine_proponent = {
+		#sprite = 3
+		random = no
+		experience_gain_navy = 0.03
+		equipment_bonus = {
+			ship_hull_submarine = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tbs_war_propagandist = {
+		#sprite = 13
+		random = no
+		war_support_weekly = 0.001
+		conscription_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_young_guard = {
+		#sprite = 12
+		random = no
+		political_power_factor = 0.05
+		land_doctrine_cost_factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tbs_motivate_incomp = {
+		#やる気ある無能
+		random = yes
+		political_power_factor = 0.15
+		stability_weekly = -0.002
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_exiled_in_command = {
+		random = no
+		max_planning_factor = -0.05
+		planning_speed = -0.02
+		army_attack_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_stubborn_veteran = {
+		#頑固なベテラン
+		random = yes
+		stability_factor = 0.05
+		war_support_factor = 0.07
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_ambitious_amateur = {
+		#野心ある素人
+		random = yes
+		political_power_factor = -0.05
+		stability_factor = 0.05
+		consumer_goods_factor = -0.02
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_competent_corruption = {
+		#有能な汚職好き
+		random = yes
+		production_factory_max_efficiency_factor = 0.05
+		industrial_capacity_factory = 0.05
+		consumer_goods_factor = 0.05
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_one_of_people = {
+		#人民の一人
+		random = yes
+		stability_factor = 0.1
+		conscription_factor = -0.02
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_mass_rebellion = {
+		#反骨精神の塊
+		random = yes
+		political_power_factor = 0.1
+		stability_factor = -0.1
+		drift_defence_factor = -0.2
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_national_reformer = {
+		#国家の改革者
+		random = yes
+		stability_factor = -0.05
+		production_speed_buildings_factor = 0.1
+		army_morale_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_cold_leader = {
+		#冷徹な指導者
+		random = yes
+		conscription_factor = -0.02
+		army_org_factor = 0.1
+		consumer_goods_factor = -0.03
+		resistance_activity = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_smile_socialite = {
+		#笑顔の社交人
+		random = yes
+		consumer_goods_factor = -0.03
+		political_power_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_obedient_minion = {
+		#従順な子分
+		random = yes
+		stability_factor = 0.03
+		political_power_gain = 0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_military_person_back = {
+		#経歴ある軍人
+		random = yes
+		political_power_gain = -0.03
+		war_support_factor = 0.05
+		experience_gain_army_factor = 0.1
+		army_org_factor = 0.05
+		army_morale_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_amateur_politician = {
+		#素人政治家
+		random = yes
+		political_power_factor = -0.05
+		war_support_factor = -0.02
+		industrial_capacity_factory = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_warm_leader = {
+		#温情ある指導者
+		random = yes
+		stability_factor = 0.06
+		conscription_factor = -0.03
+		production_speed_infrastructure_factor = 0.03
+		production_speed_rail_way_factor = 0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_proud_nobleman = {
+		#高慢な貴人
+		random = yes
+		consumer_goods_factor = 0.03
+		political_power_factor = 0.08
+		local_resources_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_crazy_monster = {
+		#狂気の怪人
+		random = yes
+		army_attack_factor = 0.08
+		attrition = -0.05
+		political_power_gain = -0.3
+		stability_factor = -0.08
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_serious_careful = {
+		#真面目かつ几帳面
+		random = yes
+		political_power_gain = 0.5
+		industrial_capacity_factory = 0.03
+		production_factory_max_efficiency_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_harsh_fighter = {
+		#過酷な闘争者
+		random = yes
+		war_support_factor = 0.08
+		political_power_factor = 0.08
+		conscription = 0.01
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#外務大臣特性 #Minister of Foreign Affairs
+	tbs_strict_diplomat = {
+		#厳しい外交官
+		random = no
+		opinion_gain_monthly_factor = -0.2
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_diplomat_good_face = {
+		#顔が利く外交官
+		random = no
+		opinion_gain_monthly_factor = 0.01
+		min_export = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_interferist = {
+		#干渉主義者
+		random = no
+		guarantee_cost = -0.05
+		lend_lease_tension = -0.07
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_negotiator_law = {
+		#義理堅い交渉者
+		random = no
+		improve_relations_maintain_cost_factor = -1
+		political_power_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_warlike_person = {
+		#好戦的な人物
+		random = no
+		political_power_factor = -0.03
+		justify_war_goal_time = -0.2
+		stability_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_idealist = {
+		#イデオロギーの闘士
+		random = no
+		drift_defence_factor = 0.1
+		opinion_gain_monthly_factor = -0.02
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_too_humble_appeasementist = {
+		#謙虚過ぎる融和主義者
+		random = no
+		drift_defence_factor = -0.15
+		political_power_factor = -0.03
+		stability_factor = 0.1
+		war_support_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_smile_diplomat = {
+		#笑顔の外交官
+		random = no
+		improve_relations_maintain_cost_factor = -0.15
+		opinion_gain_monthly_factor = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_heretic_diplomat = {
+		#異端な外交官
+		random = no
+		improve_relations_maintain_cost_factor = 0.3
+		justify_war_goal_time = -0.05
+		political_power_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_yanagi_master = {
+		#柳腰な達人
+		random = no
+		improve_relations_maintain_cost_factor = -0.4
+		stability_factor = 0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_honorable_cultural_person = {
+		#名誉ある文化人
+		random = no
+		improve_relations_maintain_cost_factor = 0.15
+		political_power_gain = -0.2
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_defender_peace = {
+		#平和の擁護者
+		random = no
+		ai_focus_aggressive_factor = -0.3
+		ai_focus_defense_factor = 0.3
+		stability_factor = 0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_neutralist = {
+		#中立主義者
+		random = no
+		stability_factor = 0.03
+		justify_war_goal_time = 0.15
+		enemy_justify_war_goal_time = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_master_of_back_door_trading = {
+		#裏取引の達人
+		random = no
+		political_power_gain = -0.3
+		foreign_subversive_activites = 0.05
+		justify_war_goal_time = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_clever_skill = {
+		#巧妙な手腕
+		random = no
+		political_power_gain = 0.5
+		improve_relations_maintain_cost_factor = -0.15
+		drift_defence_factor = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_internationalist_vanguard = {
+		#国際主義の先兵
+		random = no
+		min_export = 0.1
+		guarantee_cost = -0.25
+		improve_relations_maintain_cost_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_bearish_puppet = {
+		#弱気な傀儡
+		random = no
+		political_power_gain = -0.3
+		drift_defence_factor = -0.15
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#財務大臣特性
+	tbs_protectionist_follower = {
+		#保護貿易の信奉者
+		random = no
+		min_export = -0.1
+		stability_factor = 0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_advocate_planned_economy = {
+		#計画経済の提唱者
+		random = no
+		line_change_production_efficiency_factor = -0.1
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		consumer_goods_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_prpponent_market_open = {
+		#市場開放の提唱者
+		random = no
+		min_export = 0.1
+		industrial_capacity_factory = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_face_business_world = {
+		#財界の顔
+		random = no
+		production_factory_max_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.05
+		local_resources_factor = 0.05
+		political_power_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_army_friend = {
+		#軍の友人
+		random = no
+		production_speed_arms_factory_factor = 0.1
+		political_power_gain = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_economic_invader = {
+		#経済の侵略者
+		random = no
+		war_support_factor = 0.05
+		production_factory_max_efficiency_factor = 0.1
+		local_resources_factor = 0.05
+		min_export = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_transport_expert = {
+		#運輸の専門家
+		random = no
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+		stability_factor = 0.03
+		production_speed_air_base_factor = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_expert_like_ship = {
+		#船好きな有識者
+		random = no
+		production_cost_max_convoy = -0.1
+		industrial_capacity_dockyard = 0.05
+		production_speed_naval_base_factor = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_master_resource_dev = {
+		#資源開発の達人
+		random = no
+		local_resources_factor = 0.1
+		production_speed_infrastructure_factor = 0.05
+		production_speed_rail_way_factor = 0.02
+		stability_factor = -0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_oil_king = {
+		#石油王
+		random = no
+		production_oil_factor = 0.1
+		country_resource_cost_oil = -5
+		industrial_capacity_factory = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_former_bank_governor = {
+		#元銀行総裁
+		random = no
+		consumer_goods_factor = -0.05
+		min_export = 0.08
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_industry_tycoon = {
+		#産業界の大物
+		random = no
+		industrial_capacity_factory = 0.1
+		production_speed_infrastructure_factor = 0.05
+		production_speed_rail_way_factor = 0.05
+		consumer_goods_factor = -0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_embezzlement_addict = {
+		#横領の常習犯
+		random = no
+		consumer_goods_factor = 0.03
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_business_people_without_foresight = {
+		#先見性のない経済人
+		random = no
+		stability_factor = -0.05
+		industrial_capacity_factory = -0.05
+		production_factory_efficiency_gain_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_cold_capitalist = {
+		#冷徹な資本家
+		random = no
+		consumer_goods_factor = 0.05
+		stability_factor = -0.06
+		production_factory_max_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_economic_bureaucracy = {
+		#経済官僚
+		random = no
+		political_power_gain = -0.5
+		consumer_goods_factor = 0.02
+		production_factory_max_efficiency_factor = 0.1
+		industrial_capacity_factory = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#国防大臣特性
+	tbs_veterans = {
+		#退役軍人
+		random = no
+		war_support_factor = 0.1
+		production_speed_arms_factory_factor = 0.05
+		production_speed_dockyard_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_military_firstist = {
+		#軍事第一主義者
+		random = no
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_efficiency_firstist = {
+		#能率第一主義者
+		random = no
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.05
+		line_change_production_efficiency_factor = -0.05
+		conscription_factor = -0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_promoter_heavy_industry = {
+		#重工業化の推進者
+		random = no
+		production_speed_arms_factory_factor = 0.15
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.05
+		stability_factor = -0.1
+		conscription_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_special_force_authority = {
+		#特殊部隊の権威
+		random = no
+		special_forces_cap = 0.1
+		special_forces_attack_factor = 0.05
+		special_forces_defence_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_military_scientist = {
+		#軍事的な科学者
+		random = no
+		research_speed_factor = 0.05
+		industrial_capacity_factory = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_expert_dream_in_sky = {
+		#空に夢見る専門家
+		random = no
+		production_speed_air_base_factor = 0.1
+		production_speed_arms_factory_factor = 0.05
+		#research_bonus = {}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_stupid_civilian = {
+		#愚鈍な民間人
+		random = no
+		production_speed_arms_factory_factor = -0.05
+		stability_factor = -0.05
+		production_factory_max_efficiency_factor = -0.1
+		political_power_factor = 0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_military_minister = {
+		#軍人大臣
+		random = no
+		industrial_capacity_factory = -0.05
+		army_org_factor = 0.05
+		army_morale_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_heroic_general = {
+		#英雄的な将軍
+		random = no
+		war_support_factor = 0.08
+		army_attack_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_sea_person = {
+		#海の人
+		random = no
+		production_speed_dockyard_factor = 0.1
+		industrial_capacity_dockyard = 0.05
+		#research_bonus = {}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_merchants_death = {
+		#死の商人
+		random = no
+		stability_factor = -0.08
+		industrial_capacity_factory = 0.1
+		equipment_bonus = {
+			infantry_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			artillery_equipment = {
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			light_tank_chassis = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			armor = {
+				build_cost_ic = -0.05
+				instant = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_from_an_intelligence_organization = {
+		#諜報組織の出身者
+		random = no
+		operative_slot = 1
+		decryption = 2
+		encryption = 2
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_powerful_conductor = {
+		#力強い指揮者
+		random = no
+		command_power_gain = 0.5
+		army_org_factor = 0.05
+		industrial_capacity_factory = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_computational_politician = {
+		#計算高い政治家
+		random = no
+		production_factory_max_efficiency_factor = 0.05
+		industrial_capacity_factory = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_military_industry_tyrant = {
+		#軍事産業の暴君
+		random = no
+		industrial_capacity_factory = 0.05
+		conscription_factor = -0.03
+		consumer_goods_factor = 0.03
+		production_factory_max_efficiency_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#内務大臣特性
+	tbs_magician = {
+		#魔法使い
+		random = no
+		stability_factor = 0.1
+		political_power_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_launched_bureaucracy = {
+		#たたき上げの官僚
+		random = no
+		political_power_gain = 0.3
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_justice_executer = {
+		#正義の執行者
+		random = no
+		political_power_gain = 0.3
+		compliance_gain = 0.5
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_welfare_expert = {
+		#福祉の専門家
+		random = no
+		consumer_goods_factor = 0.03
+		monthly_population = 0.15
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_worker_companion = {
+		#労働者の仲間
+		random = no
+		consumer_goods_factor = 0.02
+		industrial_capacity_factory = 0.1
+		production_speed_buildings_factor = 0.05
+		political_power_gain = -0.02
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_legal_expert = {
+		#法の専門家
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_arrogant_person = {
+		#傲慢な人
+		random = no
+		political_power_gain = 0.05
+		consumer_goods_factor = 0.02
+		stability_factor = -0.03
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_fill_my_stomach = {
+		#私腹を肥やす者
+		random = no
+		consumer_goods_factor = 0.03
+		production_speed_buildings_factor = -0.03
+		stability_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_security_guard = {
+		#治安の守り人
+		random = no
+		stability_factor = 0.1
+		consumer_goods_factor = 0.01
+		conscription_factor = -0.01
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_hr_professional = {
+		#人事のプロ
+		random = no
+		conscription_factor = 0.03
+		mobilization_speed = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_master_cost_cut = {
+		#コストカットの達人
+		random = no
+		consumer_goods_factor = -0.03
+		industrial_capacity_factory = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_agricaltual_promoter = {
+		#農業の推進者
+		random = no
+		local_resources_factor = 0.05
+		monthly_population = 0.15
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_innovative_technician = {
+		#革新的技術者
+		random = no
+		political_power_gain = -0.3
+		industrial_capacity_factory = 0.05
+		production_speed_buildings_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_national_architect = {
+		#国家の建築家
+		random = no
+		production_speed_buildings_factor = 0.1
+		production_speed_infrastructure_factor = 0.05
+		production_speed_rail_way_factor = 0.05
+		consumer_goods_factor = 0.02
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_infrastructure_maintenance_specialist = {
+		#インフラ整備の専門家
+		random = no
+		production_speed_infrastructure_factor = 0.1
+		production_speed_rail_way_factor = 0.1
+		local_resources_factor = 0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_promoter_of_military_priority_policy = {
+		#軍事優先政策の推進者
+		random = no
+		consumer_goods_factor = 0.02
+		industrial_capacity_factory = 0.05
+		production_speed_industrial_complex_factor = -0.05
+		production_speed_arms_factory_factor = 0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#設計社・理論家特性
+	tbs_army_school = {
+		#陸軍学校
+		random = no
+		land_doctrine_cost_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_naval_school = {
+		#海軍学校
+		random = no
+		naval_doctrine_cost_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_air_school = {
+		#空軍学校
+		random = no
+		air_doctrine_cost_factor = -0.1
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_military_school = {
+		#軍事学校(総合)
+		random = no
+		land_doctrine_cost_factor = -0.05
+		naval_doctrine_cost_factor = -0.05
+		air_doctrine_cost_factor = -0.05
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	tbs_theoretical_physicist = { #理論物理学者
+		random = no
+	}
+	tbs_nuclear_physicist = { #核物理学者
+		random = no
+	}
+	tbs_mathematician = { #数学者
+		random = no
+	}
+	tbs_chemist = { #化学者
+		random = no
+	}
+	tbs_medical_doctor = { #医学博士
+		random = no
+	}
+	tbs_cryptographic_expert = { #暗号の専門家
+		random = no
+		encryption_factor = 0.07
+		decryption_factor = 0.07
+	}
+}

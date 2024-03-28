@@ -1,0 +1,26 @@
+characters = {
+	RFP_donat_yosefovich_kunle = {
+		name = FER_donat_yosefovich_kunle
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_FER_Donat_Yosefovich_Kunle"
+				small = "GFX_idea_FER_donat_yosefovich_kunle"
+			}
+			army = {
+				large = "GFX_Portrait_FER_Donat_Yosefovich_Kunle"
+				small = "GFX_idea_FER_donat_yosefovich_kunle"
+			}
+			navy = {
+				large = "GFX_Portrait_FER_Donat_Yosefovich_Kunle"
+				small = "GFX_idea_FER_donat_yosefovich_kunle"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DONAT_YOSEFOVICH_KUNLE_DESC"
+			ideology = natcor_fascism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

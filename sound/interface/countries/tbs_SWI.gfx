@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_SWI_federal_council"
+		texturefile = "gfx/interface/advisors/SWI/idea_SWI_federal_council.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_Switzerland_Federal_Council"
+		texturefile = "gfx/leaders/SWI/Portrait_Switzerland_Federal_Council.png"
+	}
+}

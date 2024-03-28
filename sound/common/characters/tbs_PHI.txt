@@ -1,0 +1,91 @@
+characters = {
+	PHI_hong_sa-ik = {
+		name = PHI_hong_sa-ik
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Hong_Sa-ik"
+				small = "GFX_idea_PHI_hong_sa-ik"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Hong_Sa-ik"
+				small = "GFX_idea_PHI_hong_sa-ik"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Hong_Sa-ik"
+				small = "GFX_idea_PHI_hong_sa-ik"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HONG_SA-IK_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	PHI_ritsu_ito = {
+		name = PHI_ritsu_ito
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Ritsu_Ito"
+				small = "GFX_idea_PHI_ritsu_ito"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Ritsu_Ito"
+				small = "GFX_idea_PHI_ritsu_ito"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Ritsu_Ito"
+				small = "GFX_idea_PHI_ritsu_ito"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RITSU_ITO_DESC"
+			ideology = gradual_socialism_ideology
+			expire = "1989.8.7.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_RITSU_ITO_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1989.8.7.1"
+			id = -1
+			traits = {}
+		}
+	}
+	PHI_toshio_nishimura = {
+		name = PHI_toshio_nishimura
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Toshio_Nishimura"
+				small = "GFX_idea_PHI_toshio_nishimura"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Toshio_Nishimura"
+				small = "GFX_idea_PHI_toshio_nishimura"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Toshio_Nishimura"
+				small = "GFX_idea_PHI_toshio_nishimura"
+			}
+		}
+	}
+	PHI_toyoaki_horiuchi = {
+		name = PHI_toyoaki_horiuchi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Toyoaki_Horiuchi"
+				small = "GFX_idea_PHI_toyoaki_horiuchi"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Toyoaki_Horiuchi"
+				small = "GFX_idea_PHI_toyoaki_horiuchi"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Toyoaki_Horiuchi"
+				small = "GFX_idea_PHI_toyoaki_horiuchi"
+			}
+		}
+	}
+}

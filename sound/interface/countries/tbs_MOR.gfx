@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_MOR_hassan_ii"
+		texturefile = "gfx/interface/advisors/MOR/idea_MOR_hassan_ii.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_MOR_Hassan_II"
+		texturefile = "gfx/leaders/MOR/Portrait_MOR_Hassan_II.png"
+	}
+}

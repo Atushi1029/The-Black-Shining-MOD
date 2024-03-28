@@ -1,0 +1,29 @@
+﻿capital = 641
+#oob = ""
+#set_cosmetic_tag = 
+set_starting_values = yes
+#recruit_character = 
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	neo_communism = 0
+	totalitarian_socialism = 0
+	gradual_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	conservatism = 0
+	authoritarian_democracy = 100
+	paternal_autocracy = 0
+	national_corporatism = 0
+	national_socialism = 0
+	ultra_nationalism = 0
+	reactionism = 0
+}

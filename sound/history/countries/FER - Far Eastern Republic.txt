@@ -1,0 +1,78 @@
+﻿capital = 563
+#oob = ""
+set_cosmetic_tag = FER_republic
+set_starting_values = yes
+recruit_character = FER_alexander_bolotov
+recruit_character = FER_alexander_dubcek
+recruit_character = FER_andrey_svetzarov
+recruit_character = FER_apollon_kruse
+recruit_character = FER_artemy_lysogorsky
+recruit_character = FER_boris_tadley
+recruit_character = FER_dmitri_volkogonov
+recruit_character = FER_dmitry_likhachyov
+recruit_character = FER_donat_yosefovich_kunle
+recruit_character = FER_evgeny_ivanov
+recruit_character = FER_georgy_dobrovolsky
+recruit_character = FER_georgy_gins
+recruit_character = FER_georgy_ignatiev
+recruit_character = FER_georgy_shekherev
+recruit_character = FER_georgy_taube
+recruit_character = FER_igor_buntovsky
+recruit_character = FER_ivan_mikhailov
+recruit_character = FER_ivan_sevastyanov
+recruit_character = FER_konstantin_rodzaevsky
+recruit_character = FER_konstantin_steklov
+recruit_character = FER_mikhail_kapral
+recruit_character = FER_mikhail_matkovsky
+recruit_character = FER_mikhail_spasovsky
+recruit_character = FER_nikolay_abramov
+recruit_character = FER_nikolay_petlin
+recruit_character = FER_nikolay_zaerko
+recruit_character = FER_pavel_grachev
+recruit_character = FER_pyotr_wrangel_ii
+recruit_character = FER_rostislav_kolchak
+recruit_character = FER_shigeto_yanita
+recruit_character = FER_vladimir_kibardin
+recruit_character = FER_vyacheslav_baranov
+recruit_character = FER_yuri_yungmeister
+#For Dynamic Countries
+recruit_character = ALD_georgy_ignatiev
+recruit_character = AMR_dmitri_volkogonov
+recruit_character = BDY_dmitry_likhachyov
+recruit_character = IRK_pavel_grachev
+recruit_character = KOL_ivan_sevastyanov
+recruit_character = UDT_alexander_dubcek
+set_convoys = 20
+add_ideas = {
+	limited_conscription
+	limited_exports
+	FER_far_eastern_tiger
+	FER_frozen_economy
+	FER_japanese_domestic_dog
+	FER_revived_white_army
+}
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1968.8.23"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalitarian_socialism = 4
+	gradual_socialism = 2
+	social_democracy = 0
+	liberal_democracy = 0
+	conservatism = 5
+	authoritarian_democracy = 32
+	paternal_autocracy = 26
+	national_corporatism = 15
+	national_socialism = 10
+	ultra_nationalism = 6
+	reactionism = 0
+}
+add_to_array = { global.russian_warlords = FER }
+give_military_access = JAP
+country_event = {
+	id = tbs_skelton.0
+	days = 480
+}

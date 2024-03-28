@@ -1,0 +1,21 @@
+﻿capital = 808
+#oob = ""
+set_starting_values = yes
+recruit_character = RKO_gerhard_klopfer
+recruit_character = RKO_willi_herold
+set_convoys = 20
+add_ideas = {
+	
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		national_corporatism = 30
+		national_socialism = 70
+	}
+}

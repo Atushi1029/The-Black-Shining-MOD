@@ -1,0 +1,301 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+	
+	take_our_cores = {
+        peace_action_type = { take_states }
+        enable = { always = no }
+        ai_desire = 0
+    }
+	
+    democracy_force_government_on_austria = {
+        peace_action_type = force_government
+        enable = { always = no }
+        ai_desire = 0
+    }
+	
+	fascist_majors_on_a_mission = {
+        peace_action_type = take_states
+        enable = { always = no }
+        ai_desire = 0
+    }
+	
+	fascist_puppet_desire = {
+		peace_action_type = puppet
+		enable = { always = no }
+		ai_desire = 0
+    }
+	
+	fascist_liberate_desire = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+    # Countries the ai should be more unlikely to release in a peace deal
+    unlikely_countries = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    # Countries the ai should be more unlikely to puppet in a peace deal
+    unlikely_countries = {
+        peace_action_type = puppet
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    # Breakaway countries in the Soviet Civil war don't want to liberate stuff
+    breakaway_country = {
+        peace_action_type = { liberate puppet force_government }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    # Force gov on communism preferably
+    democracy_force_government_on_communism = {
+        peace_action_type = force_government
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    democracy_owner_does_not_have_core = {
+        peace_action_type = { force_government puppet take_states }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    other_owner_does_not_have_core = {
+        peace_action_type = { force_government puppet take_states }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_grab_exclaves = {
+        peace_action_type = take_states
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    do_grab_stuff_near_us = {
+        peace_action_type = take_states
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    leave_force_gov_at_will_to_allies = { #It is a bit hacky, but we need a preference here or we end up worse than where we started
+        peace_action_type = force_government
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    generic_occupies_state = {
+        peace_action_type = { take_states puppet liberate force_government }
+
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    democrats_dont_liberate_the_wrong_ideology = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_puppet_and_force_government = {
+        peace_action_type = { puppet }
+
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_force_government_and_puppet = {
+        peace_action_type = { force_government }
+
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    nonaligned_dont_liberate_the_wrong_ideology = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    communism_dont_liberate_the_wrong_ideology = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    fascism_dont_liberate_the_wrong_ideology = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_force_government_or_puppet_on_non_core = {
+        peace_action_type = { puppet force_government }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    liberate_on_non_core = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    try_and_take_neighbors_when_forcing_gov = { #Leaving here; this has unintended consequences, but we need it for SOV
+        peace_action_type = { force_government puppet }
+        enable = { always = no }
+		ai_desire = 0
+    }
+	
+	dont_take_land_if_sov_government_is_forced = { 
+        peace_action_type = { take_states puppet }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    liberate_if_already_exists = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    minors_and_subjects_dont_liberate = {
+        peace_action_type = { liberate take_states force_government puppet }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    non_aligned_should_stick_to_claims = {
+        peace_action_type = take_states
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    wrong_ideology_faction_members_dont_force_gov = {
+        peace_action_type = force_government
+        enable = { always = no }
+		ai_desire = 0
+    }
+	
+	avoid_forcing_gov_if_ally_has_core = {
+        peace_action_type = force_government
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+    force_gov_puppets = {
+        peace_action_type = force_government
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_resurrect_hitler = {
+        peace_action_type = liberate
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_take_states_for_wrong_ideology_allies = {
+        peace_action_type = take_states
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    fascism_take_states_germany_sov = {
+        peace_action_type = take_states
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    prefer_take_states_for_puppets_with_cores = {
+        peace_action_type = take_states
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_force_government_for_puppets_with_cores = {
+        peace_action_type = { force_government puppet }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    # push countries to actually retake territory that has risen up against them
+    retake_territory_from_independence_wars = {
+        peace_action_type = { take_states }
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+
+    dont_change_gov_after_independence_wars = {
+        peace_action_type = { force_government liberate puppet }
+        enable = { always = no }
+		ai_desire = 0
+    }
+	
+	no_more_spains_after_scw = {
+        peace_action_type = { force_government puppet liberate }
+        enable = { always = no }
+		ai_desire = 0
+    }
+	
+	return_the_spains = {
+        peace_action_type = take_states
+        enable = { always = no }
+		ai_desire = 0
+    }
+	
+	return_puppet_cores = { #This simply has to be the highest priority.
+		peace_action_type = take_states
+		enable = { always = no }
+		ai_desire = 0
+	}
+	
+	allies_dont_liberate_on_sov = {
+        peace_action_type = { liberate puppet }
+        enable = { always = no }
+		ai_desire = 0
+    }
+	
+	allies_force_gov_on_sov = {
+        peace_action_type = force_government
+        enable = { always = no }
+		ai_desire = 0
+    }
+
+}

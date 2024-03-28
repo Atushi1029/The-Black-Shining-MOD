@@ -1,0 +1,27 @@
+characters = {
+	SCO_jennie_lee = {
+		name = SCO_jennie_lee
+		gender = female
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SCO_Jennie_Lee"
+				small = "GFX_idea_SCO_jennie_lee"
+			}
+			army = {
+				large = "GFX_Portrait_SCO_Jennie_Lee"
+				small = "GFX_idea_SCO_jennie_lee"
+			}
+			navy = {
+				large = "GFX_Portrait_SCO_Jennie_Lee"
+				small = "GFX_idea_SCO_jennie_lee"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JENNIE_LEE_DESC"
+			ideology = grasoc_syndicalism_ideology
+			expire = "1988.11.16.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

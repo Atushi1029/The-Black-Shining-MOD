@@ -1,0 +1,25 @@
+﻿capital = 543
+oob = "MAD_1972"
+set_cosmetic_tag = MAD_republic
+set_starting_values = yes
+recruit_character = MAD_gabriel_ramanantsoa
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = liberal_democracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalitarian_socialism = 10
+	gradual_socialism = 8
+	social_democracy = 9
+	liberal_democracy = 30
+	conservatism = 3
+	authoritarian_democracy = 14
+	paternal_autocracy = 21
+	national_corporatism = 5
+}

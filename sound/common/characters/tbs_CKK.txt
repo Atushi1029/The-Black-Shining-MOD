@@ -1,0 +1,50 @@
+characters = {
+	CKK_mikhail_romanov = {
+		name = CKK_mikhail_romanov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CKK_Mikhail_Romanov"
+				small = "GFX_idea_CKK_mikhail_romanov"
+			}
+			army = {
+				large = "GFX_Portrait_CKK_Mikhail_Romanov"
+				small = "GFX_idea_CKK_mikhail_romanov"
+			}
+			navy = {
+				large = "GFX_Portrait_CKK_Mikhail_Romanov"
+				small = "GFX_idea_CKK_mikhail_romanov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_ROMANOV_DESC"
+			ideology = national_corporatism_ideology
+			expire = "2008.9.22.1"
+			id = -1
+			traits = {}
+		}
+	}
+	CKK_yuri_rytkheu = {
+		name = CKK_yuri_rytkheu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CKK_Yuri_Rytkheu"
+				small = "GFX_idea_CKK_yuri_rytkheu"
+			}
+			army = {
+				large = "GFX_Portrait_CKK_Yuri_Rytkheu"
+				small = "GFX_idea_CKK_yuri_rytkheu"
+			}
+			navy = {
+				large = "GFX_Portrait_CKK_Yuri_Rytkheu"
+				small = "GFX_idea_CKK_yuri_rytkheu"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YURI_RYTKHEU_DESC"
+			ideology = libdem_social_liberalism_ideology
+			expire = "2008.5.14.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

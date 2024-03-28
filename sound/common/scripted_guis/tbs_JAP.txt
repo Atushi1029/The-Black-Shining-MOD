@@ -1,0 +1,141 @@
+scripted_gui = {
+	JAP_yokusan_primary_election_gui = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "JAP_yokusan_primary_election_gui_container"
+		ai_enabled = { always = no }
+		visible = {
+			has_country_flag = JAP_yokusan_struggle
+			is_ai = no
+			tag = JAP
+		}
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { has_country_flag = JAP_yokusan_primary_election_gui }
+					clr_country_flag = JAP_yokusan_primary_election_gui
+					JAP_clear_yokusan_primary_election_gui = yes
+					if = {
+						limit = { has_variable = JAP_YPE_lobby_gui }
+						clear_variable = JAP_YPE_lobby_gui
+						clear_array = JAP_YPE_lobby_array
+					}
+				}
+				else = {
+					set_country_flag = JAP_yokusan_primary_election_gui
+					JAP_setup_yokusan_primary_election_gui = yes
+				}
+			}
+		}
+	}
+	JAP_yokusan_primary_election_gui_window = {
+		context_type = player_context
+		window_name = "JAP_yokusan_primary_election_gui_window"
+		ai_enabled = { always = no }
+		properties = {
+			JAP_YPE_portrait = { image = "[ROOT.GetYPELeader]" }
+			JAP_YPE_progressbar = { frame = JAP_YPE_array_popularity^v }
+			progress = { frame = JAP_YPE_activated_lobby_progress }
+		}
+		visible = {
+			has_country_flag = JAP_yokusan_primary_election_gui
+			is_ai = no
+			tag = JAP
+		}
+		dynamic_lists = {
+			JAP_yokusan_primary_election_gui_grid = {
+				array = JAP_YPE_array
+				index = JAP_YPE_index
+				#value = JAP_YPE_value
+				change_scope = no
+				entry_container = JAP_YPE_gui_grid
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = JAP_yokusan_primary_election_gui
+				JAP_clear_yokusan_primary_election_gui = yes
+				if = {
+					limit = { has_variable = JAP_YPE_lobby_gui }
+					clear_variable = JAP_YPE_lobby_gui
+					clear_array = JAP_YPE_lobby_array
+				}
+			}
+			JAP_YPE_lobby_button_click = {
+				if = {
+					limit = { has_variable = JAP_YPE_lobby_gui }
+					clear_variable = JAP_YPE_lobby_gui
+					clear_array = JAP_YPE_lobby_array
+				}
+				else = {
+					set_variable = { JAP_YPE_lobby_gui = v }
+					for_loop_effect = {
+						start = 1
+						end = 3
+						compare = less_than_or_equals
+						add_to_array = { JAP_YPE_lobby_array = v }
+					}
+				}
+			}
+		}
+	}
+	JAP_YPE_lobby_gui_window = {
+		context_type = player_context
+		window_name = "JAP_YPE_lobby_gui_window"
+		ai_enabled = { always = no }
+		properties = { progress = { frame = JAP_YPE_activated_lobby_progress } }
+		visible = {
+			has_variable = JAP_YPE_lobby_gui
+			is_ai = no
+			tag = JAP
+		}
+		triggers = {
+			JAP_YPE_lobby_gui_activity_button_click_enabled = {
+				NOT = { has_variable = JAP_YPE_activated_lobby }
+				if = {
+					limit = { check_variable = { v = 1 } }
+					has_political_power > 49.99
+				}
+				else_if = {
+					limit = { check_variable = { v = 2 } }
+					has_political_power > 99.99
+					command_power > 4
+				}
+				else = {
+					has_political_power > 149.99
+					command_power > 14
+					has_stability > 0.01
+				}
+			}
+			progress_visible = { JAP_YPE_lobby_gui_progbar_visible = yes }
+			progress_frame_visible = { JAP_YPE_lobby_gui_progbar_visible = yes }
+		}
+		dynamic_lists = {
+			JAP_YPE_lobby_button_grid = {
+				array = JAP_YPE_lobby_array
+				index = JAP_YPE_lobby_index
+				change_scope = no
+				entry_container = JAP_YPE_lobby_gui_grid
+			}
+		}
+		effects = {
+			close_button_click = {
+				if = {
+					limit = { has_variable = JAP_YPE_lobby_gui }
+					clear_variable = JAP_YPE_lobby_gui
+					clear_array = JAP_YPE_lobby_array
+				}
+			}
+			JAP_YPE_lobby_gui_activity_button_click = { JAP_activate_lobby_button = yes }
+		}
+	}
+	JAP_yokusan_election_gui = {
+		context_type = decision_category
+		window_name = "JAP_yokusan_election_gui_window"
+		ai_enabled = { always = no }
+		visible = { is_ai = no }
+		properties = {
+			JAP_yokusan_election_members = { frame = yokusankai_frame }
+		}
+	}
+}

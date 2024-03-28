@@ -1,0 +1,47 @@
+characters = {
+	SWI_federal_council = {
+		name = SWI_federal_council
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Switzerland_Federal_Council"
+				small = "GFX_idea_SWI_federal_council"
+			}
+			army = {
+				large = "GFX_Portrait_Switzerland_Federal_Council"
+				small = "GFX_idea_SWI_federal_council"
+			}
+			navy = {
+				large = "GFX_Portrait_Switzerland_Federal_Council"
+				small = "GFX_idea_SWI_federal_council"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+			ideology = social_democracy_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+			ideology = liberal_democracy_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+			ideology = conservatism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

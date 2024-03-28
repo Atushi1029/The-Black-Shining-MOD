@@ -1,0 +1,28 @@
+state = { 
+	id=928
+	name="STATE_928"
+
+	history=
+	{
+		owner = JAP
+		add_core_of = JAP
+		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
+		buildings = {
+			infrastructure = 3
+			13279 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = { 
+		13279 
+	}
+	manpower=5200000
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+characters = {
+	KAZ_sagadat_nurmagambetov = {
+		name = KAZ_sagadat_nurmagambetov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_KAZ_Sagadat_Nurmagambetov"
+				small = "GFX_idea_KAZ_sagadat_nurmagambetov"
+			}
+			army = {
+				large = "GFX_Portrait_KAZ_Sagadat_Nurmagambetov"
+				small = "GFX_idea_KAZ_sagadat_nurmagambetov"
+			}
+			navy = {
+				large = "GFX_Portrait_KAZ_Sagadat_Nurmagambetov"
+				small = "GFX_idea_KAZ_sagadat_nurmagambetov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SAGADAT_NURMAGAMBETOV_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "2013.9.24.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

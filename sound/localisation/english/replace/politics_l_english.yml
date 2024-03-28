@@ -1,0 +1,10 @@
+﻿l_english:
+ POLITICS_NOELECTIONS:0 "Any elections by event."
+ POLITICS_ADVISOR_COST:0 "§RMinisters can't be manually added or removed.§! They can only be changed via events, focuses, decisions and so on.\nThis list represents all possible ministers for a nation, so the people here may be at odds with the current government, in a different country or even dead."
+ minister:0 "Government"
+ head_of_government:0 "Head of Government"
+ interior_minister:0 "Minister of Interior"
+ foreign_minister:0 "Minister of Foreign Affairs"
+ economy_minister:0 "Minister of Economy"
+ justice_minister:0 "Minister of Justice"
+ security_minister:0 "Minister of Security"

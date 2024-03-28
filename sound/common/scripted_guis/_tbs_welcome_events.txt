@@ -1,0 +1,21 @@
+scripted_gui = {
+	tbs_welcome_events = {
+		context_type = player_context
+		window_name = "welcome_events_container"
+		ai_enabled = { always = no }
+		visible = {
+			has_country_flag = tbs_welcome_events
+			is_ai = no
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = tbs_welcome_events
+				set_country_flag = {
+					flag = show_opening_screen
+					value = 1
+					days = 14
+				}
+			}
+		}
+	}
+}

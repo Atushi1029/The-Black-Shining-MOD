@@ -1,0 +1,26 @@
+characters = {
+	KHI_abdurasul_mukhammedyarovych_madiyarov = {
+		name = KHI_abdurasul_mukhammedyarovych_madiyarov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_KHI_Abdurasul_Mukhammedyarovych_Madiyarov"
+				small = "GFX_idea_KHI_abdurasul_mukhammedyarovych_madiyarov"
+			}
+			army = {
+				large = "GFX_Portrait_KHI_Abdurasul_Mukhammedyarovych_Madiyarov"
+				small = "GFX_idea_KHI_abdurasul_mukhammedyarovych_madiyarov"
+			}
+			navy = {
+				large = "GFX_Portrait_KHI_Abdurasul_Mukhammedyarovych_Madiyarov"
+				small = "GFX_idea_KHI_abdurasul_mukhammedyarovych_madiyarov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ABDURASUL_MUKHAMMEDYAROVYCH_MADIYAROV_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

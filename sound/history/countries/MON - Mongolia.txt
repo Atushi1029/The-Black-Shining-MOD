@@ -1,0 +1,13 @@
+﻿capital = 330
+oob = ""
+set_starting_values = yes
+recruit_character = MON_yumjaagiin_tsedenbal
+set_convoys = 0
+add_ideas = {}
+set_politics = {
+	ruling_party = paternal_autocracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = { paternal_autocracy = 100 }

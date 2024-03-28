@@ -1,0 +1,26 @@
+characters = {
+	TMS_muhammetnazar_gapurov = {
+		name = TMS_muhammetnazar_gapurov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_TMS_Muhammetnazar_Gapurov"
+				small = "GFX_idea_TMS_muhammetnazar_gapurov"
+			}
+			army = {
+				large = "GFX_Portrait_TMS_Muhammetnazar_Gapurov"
+				small = "GFX_idea_TMS_muhammetnazar_gapurov"
+			}
+			navy = {
+				large = "GFX_Portrait_TMS_Muhammetnazar_Gapurov"
+				small = "GFX_idea_TMS_muhammetnazar_gapurov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MUHAMMETNAZAR_GAPUROV_DESC"
+			ideology = gradual_socialism_ideology
+			expire = "1999.7.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

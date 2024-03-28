@@ -1,0 +1,23 @@
+﻿capital = 604
+#oob = ""
+set_cosmetic_tag = PEOPLES_LIBERATION_ARMY
+set_starting_values = yes
+recruit_character = PRC_hu_yaobang
+recruit_character = PRC_peng_dehuai
+recruit_character = PRC_wang_ming
+recruit_character = PRC_zhou_enlai
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = totalitarian_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 80
+	gradual_socialism = 15
+	social_democracy = 5
+}

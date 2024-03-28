@@ -1,0 +1,61 @@
+add_namespace = tbs_russian_unification
+news_event = { #Russian Republic
+	id = tbs_russian_unification.0
+	title = tbs_russian_unification.0.title
+	desc = tbs_russian_unification.0.desc
+	major = yes
+	is_triggered_only = yes
+	#picture = 
+	option = {
+		name = tbs_russian_unification.0.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = { #Transamur
+	id = tbs_russian_unification.1
+	title = tbs_russian_unification.1.title
+	desc = tbs_russian_unification.1.desc
+	major = yes
+	is_triggered_only = yes
+	#picture = 
+	option = {
+		name = tbs_russian_unification.1.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = { #Russian Liberation Army
+	id = tbs_russian_unification.2
+	title = tbs_russian_unification.2.title
+	desc = tbs_russian_unification.2.desc
+	major = yes
+	is_triggered_only = yes
+	#picture = 
+	option = {
+		name = tbs_russian_unification.2.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = { #Russian Socialist Republic
+	id = tbs_russian_unification.3
+	title = tbs_russian_unification.3.title
+	desc = tbs_russian_unification.3.desc
+	major = yes
+	is_triggered_only = yes
+	#picture = 
+	option = {
+		name = tbs_russian_unification.3.a
+		ai_chance = { base = 100 }
+	}
+}
+news_event = { #Russian Republic(Generic)
+	id = tbs_russian_unification.4
+	title = tbs_russian_unification.4.title
+	desc = tbs_russian_unification.4.desc
+	major = yes
+	is_triggered_only = yes
+	#picture = 
+	option = {
+		name = tbs_russian_unification.4.a
+		ai_chance = { base = 100 }
+	}
+}

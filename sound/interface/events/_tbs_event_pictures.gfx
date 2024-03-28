@@ -1,0 +1,46 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_event_Generic_sign_agreement"
+		texturefile = "gfx/event_pictures/country_events/event_Generic_sign_agreement.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_hoashi_katsumata_vision"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_hoashi_katsumata_vision.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_ichio_asukata"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_ichio_asukata.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_koban"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_koban.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_meeting_with_gins"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_meeting_with_gins.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_meeting_with_rfp"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_meeting_with_rfp.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_ninagawa_sec_minister"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_ninagawa_sec_minister.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_pelton"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_pelton.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_president_hideoto_mori"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_president_hideoto_mori.png"
+	}
+	spriteType = {
+		name = "GFX_event_JAP_singapore"
+		texturefile = "gfx/event_pictures/country_events/event_JAP_singapore.png"
+	}
+	spriteType = {
+		name = "GFX_event_USA_lbj"
+		texturefile = "gfx/event_pictures/country_events/event_USA_lbj.png"
+	}
+}

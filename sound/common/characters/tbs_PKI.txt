@@ -1,0 +1,26 @@
+characters = {
+	PKI_sudisman = {
+		name = PKI_sudisman
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PKI_Sudisman"
+				small = "GFX_idea_PKI_sudisman"
+			}
+			army = {
+				large = "GFX_Portrait_PKI_Sudisman"
+				small = "GFX_idea_PKI_sudisman"
+			}
+			navy = {
+				large = "GFX_Portrait_PKI_Sudisman"
+				small = "GFX_idea_PKI_sudisman"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SUDISMAN_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

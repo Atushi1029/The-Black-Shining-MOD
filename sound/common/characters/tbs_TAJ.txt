@@ -1,0 +1,26 @@
+characters = {
+	TAJ_jabbor_rasulov = {
+		name = TAJ_jabbor_rasulov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_TAJ_Jabbor_Rasulov"
+				small = "GFX_idea_TAJ_jabbor_rasulov"
+			}
+			army = {
+				large = "GFX_Portrait_TAJ_Jabbor_Rasulov"
+				small = "GFX_idea_TAJ_jabbor_rasulov"
+			}
+			navy = {
+				large = "GFX_Portrait_TAJ_Jabbor_Rasulov"
+				small = "GFX_idea_TAJ_jabbor_rasulov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JABBOR_RASULOV_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "1982.4.4.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

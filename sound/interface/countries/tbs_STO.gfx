@@ -1,0 +1,60 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_STO_hideo_shimizu"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_hideo_shimizu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_STO_kiyoshi_kawashima"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_kiyoshi_kawashima.png"
+	}
+	spriteType = {
+		name = "GFX_idea_STO_konstantin_lisetsky"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_konstantin_lisetsky.png"
+	}
+	spriteType = {
+		name = "GFX_idea_STO_tadao_sato"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_tadao_sato.png"
+	}
+	spriteType = {
+		name = "GFX_idea_STO_takeshi_misumi"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_takeshi_misumi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_STO_yoshio_furuie"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_yoshio_furuie.png"
+	}
+	spriteType = {
+		name = "GFX_idea_STO_yuri_vitvitsky"
+		texturefile = "gfx/interface/advisors/STO/idea_STO_yuri_vitvitsky.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_STO_Hideo_Shimizu"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Hideo_Shimizu.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_STO_Kiyoshi_Kawashima"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Kiyoshi_Kawashima.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_STO_Konstantin_Lisetsky"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Konstantin_Lisetsky.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_STO_Tadao_Sato"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Tadao_Sato.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_STO_Takeshi_Misumi"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Takeshi_Misumi.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_STO_Yoshio_Furuie"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Yoshio_Furuie.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_STO_Yuri_Vitvitsky"
+		texturefile = "gfx/leaders/STO/Portrait_STO_Yuri_Vitvitsky.png"
+	}
+}

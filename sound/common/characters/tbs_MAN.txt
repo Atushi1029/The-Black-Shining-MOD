@@ -1,0 +1,404 @@
+characters = {
+	MAN_aisin_gioro_pujie = {
+		name = MAN_aisin_gioro_pujie
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AISIN_GIORO_PUJIE_DESC"
+			ideology = pataut_absolute_monarchism_ideology
+			expire = "1994.2.28.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_aisin_gioro_yuyan = {
+		name = MAN_aisin_gioro_yuyan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AISIN_GIORO_YUYAN_DESC"
+			ideology = reactionism_ideology
+			expire = "1999.1.18.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_choe_yong-gon = {
+		name = MAN_choe_yong-gon
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Choe_Yong-gon"
+				small = "GFX_idea_MAN_choe_yong-gon"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Choe_Yong-gon"
+				small = "GFX_idea_MAN_choe_yong-gon"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Choe_Yong-gon"
+				small = "GFX_idea_MAN_choe_yong-gon"
+			}
+		}
+	}
+	MAN_goro_takeda = {
+		name = MAN_goro_takeda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Goro_Takeda"
+				small = "GFX_idea_MAN_goro_takeda"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Goro_Takeda"
+				small = "GFX_idea_MAN_goro_takeda"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Goro_Takeda"
+				small = "GFX_idea_MAN_goro_takeda"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GORO_TAKEDA_DESC"
+			ideology = ultra_nationalism_ideology
+			expire = "2020.2.12.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_hideo_shimojo = {
+		name = MAN_hideo_shimojo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Hideo_Shimojo"
+				small = "GFX_idea_MAN_hideo_shimojo"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Hideo_Shimojo"
+				small = "GFX_idea_MAN_hideo_shimojo"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Hideo_Shimojo"
+				small = "GFX_idea_MAN_hideo_shimojo"
+			}
+		}
+	}
+	MAN_hiroo_wada = {
+		name = MAN_hiroo_wada
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Hiroo_Wada"
+				small = "GFX_idea_MAN_hiroo_wada"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Hiroo_Wada"
+				small = "GFX_idea_MAN_hiroo_wada"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Hiroo_Wada"
+				small = "GFX_idea_MAN_hiroo_wada"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HIROO_WADA_DESC"
+			ideology = gradual_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_hisaya_morishige = {
+		name = MAN_hisaya_morishige
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Hisaya_Morishige"
+				small = "GFX_idea_MAN_hisaya_morishige"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Hisaya_Morishige"
+				small = "GFX_idea_MAN_hisaya_morishige"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Hisaya_Morishige"
+				small = "GFX_idea_MAN_hisaya_morishige"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HISAYA_MORISHIGE_DESC"
+			ideology = liberal_democracy_ideology
+			expire = "2009.11.10.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_katsuji_kawamata = {
+		name = MAN_katsuji_kawamata
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Katsuji_Kawamata"
+				small = "GFX_idea_MAN_katsuji_kawamata"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Katsuji_Kawamata"
+				small = "GFX_idea_MAN_katsuji_kawamata"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Katsuji_Kawamata"
+				small = "GFX_idea_MAN_katsuji_kawamata"
+			}
+		}
+	}
+	MAN_kazuo_nonomura = {
+		name = MAN_kazuo_nonomura
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Kazuo_Nonomura"
+				small = "GFX_idea_MAN_kazuo_nonomura"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Kazuo_Nonomura"
+				small = "GFX_idea_MAN_kazuo_nonomura"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Kazuo_Nonomura"
+				small = "GFX_idea_MAN_kazuo_nonomura"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KAZUO_NONOMURA_DESC"
+			ideology = social_democracy_ideology
+			expire = "1998.1.12.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_kichihei_hanano = {
+		name = MAN_kichihei_hanano
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Kichihei_Hanano"
+				small = "GFX_idea_MAN_kichihei_hanano"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Kichihei_Hanano"
+				small = "GFX_idea_MAN_kichihei_hanano"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Kichihei_Hanano"
+				small = "GFX_idea_MAN_kichihei_hanano"
+			}
+		}
+	}
+	MAN_park_chung_hee = {
+		name = MAN_masao_takagi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Park_Chung_Hee"
+				small = "GFX_idea_MAN_park_chung_hee"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Park_Chung_Hee"
+				small = "GFX_idea_MAN_park_chung_hee"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Park_Chung_Hee"
+				small = "GFX_idea_MAN_park_chung_hee"
+			}
+		}
+	}
+	MAN_seiji_ozawa = {
+		name = MAN_seiji_ozawa
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Seiji_Ozawa"
+				small = "GFX_idea_MAN_seiji_ozawa"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Seiji_Ozawa"
+				small = "GFX_idea_MAN_seiji_ozawa"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Seiji_Ozawa"
+				small = "GFX_idea_MAN_seiji_ozawa"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SEIJI_OZAWA_DESC"
+			ideology = conservatism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_tadayuki_furumi = {
+		name = MAN_tadayuki_furumi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Tadayuki_Furumi"
+				small = "GFX_idea_MAN_tadayuki_furumi"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Tadayuki_Furumi"
+				small = "GFX_idea_MAN_tadayuki_furumi"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Tadayuki_Furumi"
+				small = "GFX_idea_MAN_tadayuki_furumi"
+			}
+		}
+	}
+	MAN_takakichi_aso = {
+		name = MAN_takakichi_aso
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Takakichi_Aso"
+				small = "GFX_idea_MAN_takakichi_aso"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Takakichi_Aso"
+				small = "GFX_idea_MAN_takakichi_aso"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Takakichi_Aso"
+				small = "GFX_idea_MAN_takakichi_aso"
+			}
+		}
+	}
+	MAN_takeo_ito = {
+		name = MAN_takeo_ito
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Takeo_Ito"
+				small = "GFX_idea_MAN_takeo_ito"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Takeo_Ito"
+				small = "GFX_idea_MAN_takeo_ito"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Takeo_Ito"
+				small = "GFX_idea_MAN_takeo_ito"
+			}
+		}
+	}
+	MAN_tetsuzo_fuyushiba = {
+		name = MAN_tetsuzo_fuyushiba
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Tetsuzo_Fuyushiba"
+				small = "GFX_idea_MAN_tetsuzo_fuyushiba"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Tetsuzo_Fuyushiba"
+				small = "GFX_idea_MAN_tetsuzo_fuyushiba"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Tetsuzo_Fuyushiba"
+				small = "GFX_idea_MAN_tetsuzo_fuyushiba"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TETSUZO_FUYUSHIBA_DESC"
+			ideology = reactionism_ideology
+			expire = "2011.12.5.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_toshio_hoshiko = {
+		name = MAN_toshio_hoshiko
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Toshio_Hoshiko"
+				small = "GFX_idea_MAN_toshio_hoshiko"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Toshio_Hoshiko"
+				small = "GFX_idea_MAN_toshio_hoshiko"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Toshio_Hoshiko"
+				small = "GFX_idea_MAN_toshio_hoshiko"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TOSHIO_HOSHIKO_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1995.7.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+	MAN_yoshimitsu_baba = {
+		name = MAN_yoshimitsu_baba
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Yoshimitsu_Baba"
+				small = "GFX_idea_MAN_yoshimitsu_baba"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Yoshimitsu_Baba"
+				small = "GFX_idea_MAN_yoshimitsu_baba"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Yoshimitsu_Baba"
+				small = "GFX_idea_MAN_yoshimitsu_baba"
+			}
+		}
+		field_marshal = {
+			traits = { career_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	MAN_zhang_shaoji = {
+		name = MAN_zhang_shaoji
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Zhang_Shaoji"
+				small = "GFX_idea_MAN_zhang_shaoji"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Zhang_Shaoji"
+				small = "GFX_idea_MAN_zhang_shaoji"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Zhang_Shaoji"
+				small = "GFX_idea_MAN_zhang_shaoji"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_SHAOJI_DESC"
+			ideology = national_corporatism_ideology
+			expire = "2014.12.19.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

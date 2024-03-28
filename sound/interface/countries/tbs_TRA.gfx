@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_TRA_wilhelm_georg_berger"
+		texturefile = "gfx/interface/advisors/TRA/idea_TRA_wilhelm_georg_berger.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_TRA_Wilhelm_Georg_Berger"
+		texturefile = "gfx/leaders/TRA/Portrait_TRA_Wilhelm_Georg_Berger.png"
+	}
+}

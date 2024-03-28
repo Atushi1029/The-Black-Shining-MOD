@@ -1,0 +1,94 @@
+characters = {
+	BRM_aung_san = {
+		name = BRM_aung_san
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Aung_San"
+				small = "GFX_idea_BRM_aung_san"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Aung_San"
+				small = "GFX_idea_BRM_aung_san"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Aung_San"
+				small = "GFX_idea_BRM_aung_san"
+			}
+		}
+	}
+	BRM_ba_maw = {
+		name = BRM_ba_maw
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+		}
+	}
+	BRM_ba_swe = {
+		name = BRM_ba_swe
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Ba_Swe"
+				small = "GFX_idea_BRM_ba_swe"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Ba_Swe"
+				small = "GFX_idea_BRM_ba_swe"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Ba_Swe"
+				small = "GFX_idea_BRM_ba_swe"
+			}
+		}
+	}
+	BRM_ne_win = {
+		name = BRM_ne_win
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Ne_Win"
+				small = "GFX_idea_BRM_ne_win"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Ne_Win"
+				small = "GFX_idea_BRM_ne_win"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Ne_Win"
+				small = "GFX_idea_BRM_ne_win"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NE_WIN_DESC"
+			ideology = national_socialism_ideology
+			expire = "2002.12.5.1"
+			id = -1
+			traits = {}
+		}
+	}
+	BRM_u_saw = {
+		name = BRM_u_saw
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_U_Saw"
+				small = "GFX_idea_BRM_u_saw"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_U_Saw"
+				small = "GFX_idea_BRM_u_saw"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_U_Saw"
+				small = "GFX_idea_BRM_u_saw"
+			}
+		}
+	}
+}

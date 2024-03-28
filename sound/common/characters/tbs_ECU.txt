@@ -1,0 +1,26 @@
+characters = {
+	ECU_alfredo_poveda = {
+		name = ECU_alfredo_poveda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ECU_Alfredo_Poveda"
+				small = "GFX_idea_ECU_alfredo_poveda"
+			}
+			army = {
+				large = "GFX_Portrait_ECU_Alfredo_Poveda"
+				small = "GFX_idea_ECU_alfredo_poveda"
+			}
+			navy = {
+				large = "GFX_Portrait_ECU_Alfredo_Poveda"
+				small = "GFX_idea_ECU_alfredo_poveda"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALFREDO_POVEDA_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1990.6.7.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+state = { 
+	id=986
+	name="STATE_986"
+	resources = { }
+
+	state_category = rural
+
+	history = { 
+		owner = NIC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NIC
+		victory_points = {
+			2075 1
+		}
+
+	}
+
+	provinces = { 
+		2075
+	}
+	manpower=170750
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

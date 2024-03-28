@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_TOG_Gnassingbe_Eyadema"
+		texturefile = "gfx/interface/advisors/TOG/idea_TOG_Gnassingbe_Eyadema.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_TOG_Gnassingbe_Eyadema"
+		texturefile = "gfx/leaders/TOG/Portrait_TOG_Gnassingbe_Eyadema.png"
+	}
+}

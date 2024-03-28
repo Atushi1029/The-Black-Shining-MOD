@@ -1,0 +1,39 @@
+
+state = { 
+	id=993
+	name="STATE_993"
+	resources = { 
+		chromium=20.000
+	}
+
+	history = { 
+		owner = MAN
+		add_core_of = MAN
+		set_state_flag = russian_old_states
+		victory_points = {
+			6838 1 
+		}
+		victory_points = {
+			6961 1 
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			air_base = 5
+			6961 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+	}
+
+	provinces = { 
+		664 681 810 837 3695 3723 3739 3753 3787 3811 3843 3977 5427 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904 
+	}
+	manpower=841465
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

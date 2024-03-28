@@ -1,0 +1,22 @@
+scripted_gui = {
+	tbs_faction_joining_alert_window = {
+		context_type = player_context
+		window_name = "faction_joining_alert_window"
+		ai_enabled = { always = no }
+		properties = {
+			flag_1 = { image = "[faction_member.GetFlag]" }
+			flag_2 = { image = "[faction_leader.GetFlag]" }
+		}
+		visible = {
+			has_country_flag = show_faction_joining_popup
+			is_ai = no
+		}
+		effects = {
+			ok_button_click = {
+				clr_country_flag = show_faction_joining_popup
+				clear_global_event_target = faction_member
+				clear_global_event_target = faction_leader
+			}
+		}
+	}
+}

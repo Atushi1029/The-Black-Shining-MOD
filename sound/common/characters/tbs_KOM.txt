@@ -1,0 +1,26 @@
+characters = {
+	KOM_ivan_morozov = {
+		name = KOM_ivan_morozov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_KOM_Ivan_Morozov"
+				small = "GFX_idea_KOM_ivan_morozov"
+			}
+			army = {
+				large = "GFX_Portrait_KOM_Ivan_Morozov"
+				small = "GFX_idea_KOM_ivan_morozov"
+			}
+			navy = {
+				large = "GFX_Portrait_KOM_Ivan_Morozov"
+				small = "GFX_idea_KOM_ivan_morozov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IVAN_MOROZOV_DESC"
+			ideology = social_democracy_ideology
+			expire = "1987.4.26.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

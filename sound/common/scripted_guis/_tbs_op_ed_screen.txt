@@ -1,0 +1,29 @@
+scripted_gui = {
+	tbs_op_ed_screen_window = {
+		context_type = player_context
+		window_name = "op_ed_screen_window"
+		ai_enabled = { always = no }
+		properties = {
+			country_flavour_picture = { image = "[ROOT.GetFlavourPicture]" }
+		}
+		visible = {
+			OR = {
+				has_country_flag = show_opening_screen
+				has_country_flag = show_ending_screen
+			}
+			is_ai = no
+		}
+		effects = {
+			close_button_click = {
+				if = {
+					limit = { has_country_flag = show_opening_screen }
+					clr_country_flag = show_opening_screen
+				}
+				else_if = {
+					limit = { has_country_flag = show_ending_screen }
+					clr_country_flag = show_ending_screen
+				}
+			}
+		}
+	}
+}

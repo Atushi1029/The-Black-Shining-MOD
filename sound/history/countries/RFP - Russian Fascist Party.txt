@@ -1,0 +1,28 @@
+﻿capital = 561
+#oob = ""
+set_cosmetic_tag = RUS_fascist_council
+set_starting_values = yes
+recruit_character = RFP_donat_yosefovich_kunle
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = national_corporatism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 0
+	gradual_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	conservatism = 0
+	authoritarian_democracy = 0
+	paternal_autocracy = 10
+	national_corporatism = 60
+	national_socialism = 20
+	ultra_nationalism = 10
+	reactionism = 0
+}

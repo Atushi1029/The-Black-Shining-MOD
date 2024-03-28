@@ -1,0 +1,54 @@
+﻿capital = 2
+#oob = """
+set_cosmetic_tag = ITA_kingdom
+set_starting_values = yes
+recruit_character = ITA_aldo_moro
+recruit_character = ITA_amintore_fanfani
+recruit_character = ITA_enrico_berlinguer
+recruit_character = ITA_giovanni_malagodi
+recruit_character = ITA_giuseppe_saragat
+recruit_character = ITA_lelio_basso
+recruit_character = ITA_mariano_rumor
+recruit_character = ITA_onorato_damen
+recruit_character = ITA_pietro_nenni
+recruit_character = ITA_umberto_ii
+set_convoys = 20
+add_ideas = {
+	ITA_mon_umberto_ii
+	ITA_fascist_memory
+	ITA_wounds_of_the_german-italian_war
+	ITA_stagnant_economy
+	ITA_rise_of_the_reds
+}
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalitarian_socialism = 0
+	gradual_socialism = 0
+	social_democracy = 10
+	liberal_democracy = 10
+	conservatism = 10
+	authoritarian_democracy = 60
+	paternal_autocracy = 0
+	national_corporatism = 10
+	national_socialism = 0
+	ultra_nationalism = 0
+	reactionism = 0
+}
+#Autonomies
+set_autonomy = {
+	target = CRO
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = MNT
+	autonomous_state = autonomy_dominion
+}
+news_event = {
+	id = tbs_skelton_news.10
+	days = 2400
+}

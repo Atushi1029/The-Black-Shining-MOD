@@ -1,0 +1,54 @@
+﻿capital = 336
+#oob = ""
+set_cosmetic_tag = EAST_ASIA_IJSAR
+set_starting_values = yes
+recruit_character = REA_gisen_sato
+recruit_character = REA_gurgen_nagolyan
+recruit_character = REA_hajime_yasuda
+recruit_character = REA_hayao_kinugasa
+recruit_character = REA_kazuo_taoka
+recruit_character = REA_kiyoshi_hasegawa
+recruit_character = REA_kosaku_wada
+recruit_character = REA_lee_kuan_yew
+recruit_character = REA_makoto_hashii
+recruit_character = REA_momofuku_ando
+recruit_character = REA_muraichi_horie
+recruit_character = REA_otoji_saito
+recruit_character = REA_ryokichi_minobe
+recruit_character = REA_ryuzo_sejima
+recruit_character = REA_satomi_hakamada
+recruit_character = REA_shigeyoshi_inoue
+recruit_character = REA_shigeyoshi_saito
+recruit_character = REA_taisaku_ikeda
+recruit_character = REA_takeo_nimiya
+recruit_character = REA_tonosuke_otani
+set_convoys = 20
+add_ideas = {
+	REA_gisen_sato_hog
+	REA_hayao_kinugasa_sec
+	REA_kiyoshi_hasegawa_jus
+	REA_otoji_saito_for
+	REA_shigeyoshi_inoue_int
+	REA_shigeyoshi_saito_eco
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = national_corporatism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarian_socialism = 5
+		gradual_socialism = 5
+		social_democracy = 5
+		liberal_democracy = 5
+		conservatism = 10
+		authoritarian_democracy = 10
+		paternal_autocracy = 10
+		national_corporatism = 30
+		national_socialism = 5
+		ultra_nationalism = 5
+		reactionism = 10
+	}
+}

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_BHU_jigme_singye_wangchuck"
+		texturefile = "gfx/interface/advisors/BHU/idea_BHU_jigme_singye_wangchuck.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_BHU_Jigme_Singye_Wangchuck"
+		texturefile = "gfx/leaders/BHU/Portrait_BHU_Jigme_Singye_Wangchuck.png"
+	}
+}

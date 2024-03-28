@@ -1,0 +1,33 @@
+
+state = { 
+	id=651
+	name="STATE_651"
+
+	history = { 
+		owner = RLA
+		add_core_of = RLA
+		add_claim_by = FER
+		add_claim_by = RUS
+		add_claim_by = SOV
+		set_state_flag = rla_core_states
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1278 5 
+		}
+		victory_points = {
+			4354 1 
+		}
+	}
+
+	provinces = { 
+		273 291 1258 1278 1305 3289 4283 4354 6246 6285 7237 7416 7431 7444 9349 10226 12130 12172 
+	}
+	manpower=2552075
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

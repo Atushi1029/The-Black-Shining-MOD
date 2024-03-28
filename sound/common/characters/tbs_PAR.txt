@@ -1,0 +1,26 @@
+characters = {
+	PAR_alfredo_stroessner = {
+		name = PAR_alfredo_stroessner
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PAR_Alfredo_Stroessner"
+				small = "GFX_idea_PAR_alfredo_stroessner"
+			}
+			army = {
+				large = "GFX_Portrait_PAR_Alfredo_Stroessner"
+				small = "GFX_idea_PAR_alfredo_stroessner"
+			}
+			navy = {
+				large = "GFX_Portrait_PAR_Alfredo_Stroessner"
+				small = "GFX_idea_PAR_alfredo_stroessner"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALFREDO_STROESSNER_DESC"
+			ideology = national_corporatism_ideology
+			expire = "2006.8.16.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

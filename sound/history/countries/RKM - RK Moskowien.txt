@@ -1,0 +1,29 @@
+﻿capital = 219
+#oob = ""
+set_cosmetic_tag = RKM_militarbezirk
+set_starting_values = yes
+recruit_character = RKM_martin_mussgnug
+recruit_character = RKM_werner_naumann
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = ultra_nationalism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 0
+	gradual_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	conservatism = 0
+	authoritarian_democracy = 7
+	paternal_autocracy = 18
+	national_corporatism = 10
+	national_socialism = 20
+	ultra_nationalism = 40
+	reactionism = 5
+}

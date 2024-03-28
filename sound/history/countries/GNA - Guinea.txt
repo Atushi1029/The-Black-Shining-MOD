@@ -1,0 +1,20 @@
+﻿capital = 780
+oob = "GNA_1972"
+set_cosmetic_tag = GNA_peoples_republic
+set_starting_values = yes
+recruit_character = GNA_ahmed_sekou_toure
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = totalitarian_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 70
+	conservatism = 25
+	paternal_autocracy = 5
+}

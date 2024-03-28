@@ -1,0 +1,26 @@
+characters = {
+	VCT_paul_vi = {
+		name = VCT_paul_vi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_VCT_Paul_VI"
+				small = "GFX_idea_VCT_paul_vi"
+			}
+			army = {
+				large = "GFX_Portrait_VCT_Paul_VI"
+				small = "GFX_idea_VCT_paul_vi"
+			}
+			navy = {
+				large = "GFX_Portrait_VCT_Paul_VI"
+				small = "GFX_idea_VCT_paul_vi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PAUL_VI_DESC"
+			ideology = pataut_absolute_monarchism_ideology
+			expire = "1978.8.6.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

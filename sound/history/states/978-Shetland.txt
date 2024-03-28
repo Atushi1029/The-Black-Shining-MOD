@@ -1,0 +1,27 @@
+state = { 
+	id=978
+	name="STATE_978"
+
+	history= {
+		owner = GBR
+		add_core_of = GBR
+		victory_points = {
+			13289 1 
+		}
+		buildings = {
+			infrastructure = 2
+			13289 = {
+				naval_base = 8
+
+			}
+		}
+	}
+
+	provinces = { 
+		13289 
+	}
+	manpower=42000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = pastoral
+}

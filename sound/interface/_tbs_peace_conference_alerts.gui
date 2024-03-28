@@ -1,0 +1,83 @@
+guiTypes = {
+	containerWindowType = {
+		name = "tbs_peace_conference_popup_window"
+		position = { x = 0 y = 0 }
+		size = { width = 480 height = 382 }
+		orientation = center
+		origo = center
+		moveable = yes
+		fade_time = 200
+		fade_type = linear
+		show_sound = peace_summary_message
+		hide_sound = menu_close_window
+		click_to_front = yes
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_pol_goal"
+		}
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 83 y = 25 }
+			font = "hoi_36header"
+			borderSize = { x = 0 y = 0 }
+			text = "PEACE_CONFERENCE_POPUP_TITLE"
+			maxWidth = 320
+			maxHeight = 40
+			fixedsize = yes
+			format = centre
+		}
+		instantTextBoxType = {
+			name = "description"
+			position = { x = 30 y = 105 }
+			font = "hoi_18mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "PEACE_CONFERENCE_POPUP_DESC"
+			maxWidth = 410
+			maxHeight = 80
+			format = centre
+			scrollbartype = "standardtext_slider"
+		}
+		instantTextBoxType = {
+			name = "flavor"
+			position = { x = 30 y = 185 }
+			font = "hoi_18mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "PEACE_CONFERENCE_POPUP_FLAVOR"
+			maxWidth = 410
+			maxHeight = 120
+			format = centre
+			scrollbartype = "standardtext_slider"
+		}
+		iconType = {
+			name = "flag_1"
+			quadTextureSprite = "GFX_flag_small2"
+			position = { x = 40 y = 28 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "flag_1_frame"
+			spriteType = "GFX_diplo_countrylist_flag_frame"
+			position = { x = 35 y = 24 }
+		}
+		iconType = {
+			name = "flag_2"
+			quadTextureSprite = "GFX_flag_small2"
+			position = { x = 399 y = 28 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "flag_2_frame"
+			spriteType = "GFX_diplo_countrylist_flag_frame"
+			position = { x = 394 y = 24 }
+		}
+		buttonType = {
+			name = "ok_button"
+			position = { x = 185 y = 320}
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "PEACE_CONFERENCE_POPUP_CLOSE"
+			buttonFont = "hoi_18mbs"
+			shortcut = "RETURN"
+			clicksound = click_ok
+		}
+	}
+}

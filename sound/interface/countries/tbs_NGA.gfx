@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_NGA_Johnson_Aguiyi-Ironsi"
+		texturefile = "gfx/interface/advisors/NGA/idea_NGA_Johnson_Aguiyi-Ironsi.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_NGA_Johnson_Aguiyi-Ironsi"
+		texturefile = "gfx/leaders/NGA/Portrait_NGA_Johnson_Aguiyi-Ironsi.png"
+	}
+}

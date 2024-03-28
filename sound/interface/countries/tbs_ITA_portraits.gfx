@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_ITA_Aldo_Moro"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Aldo_Moro.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Amintore_Fanfani"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Amintore_Fanfani.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Enrico_Berlinguer"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Enrico_Berlinguer.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Giovanni_Malagodi"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Giovanni_Malagodi.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Giuseppe_Saragat"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Giuseppe_Saragat.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Lelio_Basso"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Lelio_Basso.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Mariano_Rumor"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Mariano_Rumor.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Onorato_Damen"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Onorato_Damen.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Pietro_Nenni"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Pietro_Nenni.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ITA_Umberto_II"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Umberto_II.png"
+	}
+}

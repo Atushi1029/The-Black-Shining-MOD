@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_COS_jose_figueres_ferrer"
+		texturefile = "gfx/interface/advisors/COS/idea_COS_jose_figueres_ferrer.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_COS_Jose_Figueres_Ferrer"
+		texturefile = "gfx/leaders/COS/Portrait_COS_Jose_Figueres_Ferrer.png"
+	}
+}

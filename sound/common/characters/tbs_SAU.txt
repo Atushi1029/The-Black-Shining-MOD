@@ -1,0 +1,26 @@
+characters = {
+	SAU_khalid_bin_abdulaziz_al_saud = {
+		name = SAU_khalid_bin_abdulaziz_al_saud
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+				small = "GFX_idea_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+			}
+			army = {
+				large = "GFX_Portrait_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+				small = "GFX_idea_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+			}
+			navy = {
+				large = "GFX_Portrait_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+				small = "GFX_idea_SAU_Khalid_bin_Abdulaziz_Al_Saud"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KHALID_BIN_ABDULAZIZ_AL_SAUD_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1982.6.13.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

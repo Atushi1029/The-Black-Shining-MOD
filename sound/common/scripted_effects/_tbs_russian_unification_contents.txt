@@ -1,0 +1,41 @@
+ROOT_unification_events = {
+	if = {
+		limit = { tag = FER }
+		RUS = {
+			set_cosmetic_tag = UNIFY_RUSSIA_STATE
+			news_event = {
+				id = tbs_russian_unification.1
+				hours = 6
+			}
+		}
+	}
+	else_if = {
+		limit = { tag = RLA }
+		RUS = {
+			set_cosmetic_tag = RUS_republic
+			news_event = {
+				id = tbs_russian_unification.2
+				hours = 6
+			}
+		}
+	}
+	else_if = {
+		limit = { tag = SOV }
+		RUS = {
+			set_cosmetic_tag = UNIFY_SOVIET_UNION
+			news_event = {
+				id = tbs_russian_unification.3
+				hours = 6
+			}
+		}
+	}
+	else = {
+		RUS = {
+			set_cosmetic_tag = RUS_republic
+			news_event = {
+				id = tbs_russian_unification.4
+				hours = 6
+			}
+		}
+	}
+}

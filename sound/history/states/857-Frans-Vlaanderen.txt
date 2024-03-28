@@ -1,0 +1,34 @@
+state = { 
+	id=857
+	name="STATE_857"
+
+	history = { 
+		owner = BNF
+		add_core_of = BNF
+		add_core_of = FRA
+		set_state_flag = burgundy_old_core_states
+		victory_points = {
+			575 5 
+		}
+		victory_points = {
+			11483 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			575 = {
+				naval_base = 3s
+
+			}
+
+		}
+	}
+
+	provinces = { 
+		575 11483 
+	}
+	manpower=1320000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=15.000
+}

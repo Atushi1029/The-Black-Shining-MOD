@@ -1,0 +1,38 @@
+﻿capital = 289
+#oob = ""
+set_cosmetic_tag = SIA_republic
+set_starting_values = yes
+recruit_character = SIA_bhumibol_adulyadej
+recruit_character = SIA_kukrit_pramoj
+recruit_character = SIA_pramarn_adireksarn
+recruit_character = SIA_praphas_charusathien
+recruit_character = SIA_prem_tinsulanonda
+recruit_character = SIA_pridi_banomyong
+recruit_character = SIA_seni_pramoj
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	totalitarian_socialism = 15
+	gradual_socialism = 6
+	social_democracy = 4
+	liberal_democracy = 5
+	conservatism = 3
+	authoritarian_democracy = 47
+	paternal_autocracy = 11
+	national_corporatism = 9
+	national_socialism = 0
+	ultra_nationalism = 0
+	reactionism = 0
+}
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomy_colony
+}

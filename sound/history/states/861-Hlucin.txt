@@ -1,0 +1,22 @@
+state = { 
+	id=861
+	name="STATE_861"
+
+	history = { 
+		owner = GER
+		add_core_of = CZE
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces = { 
+		13259 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

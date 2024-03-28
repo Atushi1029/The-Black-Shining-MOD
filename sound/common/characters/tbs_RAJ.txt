@@ -1,0 +1,27 @@
+characters = {
+	RAJ_indira_gandhi = {
+		name = RAJ_indira_gandhi
+		gender = female
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RAJ_Indira_Gandhi"
+				small = "GFX_idea_RAJ_indira_gandhi"
+			}
+			army = {
+				large = "GFX_Portrait_RAJ_Indira_Gandhi"
+				small = "GFX_idea_RAJ_indira_gandhi"
+			}
+			navy = {
+				large = "GFX_Portrait_RAJ_Indira_Gandhi"
+				small = "GFX_idea_RAJ_indira_gandhi"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_INDIRA_GANDHI_DESC"
+			ideology = social_democracy_ideology
+			expire = "1984.10.31.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

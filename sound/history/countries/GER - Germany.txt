@@ -1,0 +1,191 @@
+﻿capital = 64
+oob = "GER_1972"
+set_cosmetic_tag = GERMANIA_greater_empire
+set_starting_values = yes
+#Politicians
+recruit_character = GER_adolf_von_thadden
+recruit_character = GER_albert_speer
+recruit_character = GER_baldur_von_schirach
+recruit_character = GER_fritz_rossler
+recruit_character = GER_heinz_knoke
+recruit_character = GER_helmut_schmid
+recruit_character = GER_horst_mahler
+recruit_character = GER_josef_grohe
+recruit_character = GER_karl_saur
+recruit_character = GER_nsdap_central_commitee
+recruit_character = GER_oskar_dirlewanger
+recruit_character = GER_otto_ernst_remer
+recruit_character = GER_reinhard_heydrich
+recruit_character = GER_theo_hupfauer
+recruit_character = GER_wernher_von_braun
+recruit_character = GER_wilhelm_stuckart
+#Generals
+recruit_character = GER_adolf_heusinger
+recruit_character = GER_alfred_zerbel
+recruit_character = GER_armin_zimmermann
+recruit_character = GER_eckart_afheldt
+recruit_character = GER_friedrich_august_freiherr_von_der_heydte
+recruit_character = GER_friedrich_guggenberger
+recruit_character = GER_fritz_albrecht
+recruit_character = GER_fritz_klingenberg
+recruit_character = GER_fritz_streletz
+recruit_character = GER_gerhard_wessel
+recruit_character = GER_gunter_luther
+recruit_character = GER_hans_scholl
+recruit_character = GER_hans_speidel
+recruit_character = GER_hans-joachim_loser
+recruit_character = GER_harald_wust
+recruit_character = GER_heinrich_trettner
+recruit_character = GER_heinz_gunther_guderian
+recruit_character = GER_heinz-georg_lemm
+recruit_character = GER_herbert_gille
+recruit_character = GER_herwig_collmann
+recruit_character = GER_horst_brunner
+recruit_character = GER_hubert_schmundt
+recruit_character = GER_maximilian_von_herff
+recruit_character = GER_otto_skorzeny
+recruit_character = GER_rudolf_arendt
+recruit_character = GER_theodor_burchardi
+recruit_character = GER_theodor_hoffmann
+recruit_character = GER_wolf_graf_von_baudissin
+recruit_character = GER_wolfgang_altenburg
+recruit_character = GER_wolfgang_benzino
+recruit_character = GER_wolfgang_thonke
+set_technology = { penal_infantry = 1 }
+set_convoys = 20
+add_ideas = {
+	GER_legacy_of_the_end_sieg
+	GER_nazis_kaiserreich
+	GER_wind_of_democratization
+	GER_wo_alle_strassen_enden
+	GER_fritz_rossler_jus
+	GER_heinz_knoke_sec
+	GER_karl_saur_eco
+	GER_otto_ernst_remer_hog
+	GER_theo_hupfauer_int
+	GER_wilhelm_stuckart_for
+}
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 0
+	gradual_socialism = 0
+	social_democracy = 0
+	liberal_democracy = 0
+	conservatism = 0
+	authoritarian_democracy = 0
+	paternal_autocracy = 0
+	national_corporatism = 20
+	national_socialism = 70
+	ultra_nationalism = 5
+	reactionism = 5
+}
+#Factions
+create_faction = GER_stahlabkommen
+add_to_faction = BNF
+add_to_faction = DEN
+add_to_faction = GER
+add_to_faction = MAF
+add_to_faction = NID
+add_to_faction = NOR
+add_to_faction = RKK
+add_to_faction = RKM
+add_to_faction = RKO
+add_to_faction = RKU
+add_to_faction = SLO
+every_country = {
+	limit = {
+		OR = {
+			is_in_faction_with = GER
+			original_tag = BUL
+			original_tag = FIN
+			original_tag = GBR
+			original_tag = SPR
+			original_tag = SWE
+			original_tag = TUR
+		}
+	}
+	add_to_GER_zollverein = yes
+}
+#Autonomies
+set_autonomy = {
+	target = BNF
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = NID
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKK
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKO
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKU
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = MAF
+	autonomous_state = autonomy_reichsprotectorate
+}
+set_autonomy = {
+	target = DEN
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = SLO
+	autonomous_state = autonomy_dominion
+}
+#Non Aggression Pacts
+diplomatic_relation = {
+	country = BUL
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = RLA
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = SWE
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = TUR
+	relation = non_aggression_pact
+	active = yes
+}
+#Docking Rights
+diplomatic_relation = {
+	country = FIN
+	relation = docking_rights
+	active = yes
+}
+diplomatic_relation = {
+	country = GBR
+	relation = docking_rights
+	active = yes
+}
+diplomatic_relation = {
+	country = SPR
+	relation = docking_rights
+	active = yes
+}
+#Guarantees
+give_guarantee = FIN
+give_guarantee = GBR
+give_guarantee = SPR
+country_event = {
+	id = tbs_skelton.2
+	days = 800
+}

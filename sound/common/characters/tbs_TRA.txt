@@ -1,0 +1,26 @@
+characters = {
+	TRA_wilhelm_georg_berger = {
+		name = TRA_wilhelm_georg_berger
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_TRA_Wilhelm_Georg_Berger"
+				small = "GFX_idea_TRA_wilhelm_georg_berger"
+			}
+			army = {
+				large = "GFX_Portrait_TRA_Wilhelm_Georg_Berger"
+				small = "GFX_idea_TRA_wilhelm_georg_berger"
+			}
+			navy = {
+				large = "GFX_Portrait_TRA_Wilhelm_Georg_Berger"
+				small = "GFX_idea_TRA_wilhelm_georg_berger"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WILHELM_GEORG_BERGER_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1993.3.8.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

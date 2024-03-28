@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_operative_unknown"
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_unknown"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_unknown_female"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Anarchy"
+		texturefile = "gfx/leaders/Generic/Portrait_Generic_Anarchy.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Vacancy"
+		texturefile = "gfx/leaders/Generic/Portrait_Generic_Vacancy.png"
+	}
+}

@@ -1,0 +1,519 @@
+characters = {
+	RLA_alexander_albov = {
+		name = RLA_alexander_albov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Alexander_Albov"
+				small = "GFX_idea_RLA_alexander_albov"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Alexander_Albov"
+				small = "GFX_idea_RLA_alexander_albov"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Alexander_Albov"
+				small = "GFX_idea_RLA_alexander_albov"
+			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				inflexible_strategist
+				career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	RLA_andrey_dikiy = {
+		name = RLA_andrey_dikiy
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Andrey_Dikiy"
+				small = "GFX_idea_RLA_andrey_dikiy"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Andrey_Dikiy"
+				small = "GFX_idea_RLA_andrey_dikiy"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Andrey_Dikiy"
+				small = "GFX_idea_RLA_andrey_dikiy"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ANDREY_DIKIY_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1977.4.4.1"
+			id = -1
+			traits = {}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				trait_reckless
+				armor_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	RLA_constantine_kromiadi = {
+		name = RLA_constantine_kromiadi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Constantine_Kromiadi"
+				small = "GFX_idea_RLA_constantine_kromiadi"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Constantine_Kromiadi"
+				small = "GFX_idea_RLA_constantine_kromiadi"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Constantine_Kromiadi"
+				small = "GFX_idea_RLA_constantine_kromiadi"
+			}
+		}
+		field_marshal = {
+			traits = {
+				career_officer
+				defensive_doctrine
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	RLA_fyodor_truhin = {
+		name = RLA_fyodor_truhin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Fyodor_Truhin"
+				small = "GFX_idea_RLA_fyodor_truhin"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Fyodor_Truhin"
+				small = "GFX_idea_RLA_fyodor_truhin"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Fyodor_Truhin"
+				small = "GFX_idea_RLA_fyodor_truhin"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				trait_cautious
+				infantry_officer
+				trickster
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	RLA_georgy_zhilenkov = {
+		name = RLA_georgy_zhilenkov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Georgy_Zhilenkov"
+				small = "GFX_idea_RLA_georgy_zhilenkov"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Georgy_Zhilenkov"
+				small = "GFX_idea_RLA_georgy_zhilenkov"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Georgy_Zhilenkov"
+				small = "GFX_idea_RLA_georgy_zhilenkov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GEORGY_ZHILENKOV_DESC"
+			ideology = national_socialism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	RLA_ivan_melkikh = {
+		name = RLA_ivan_melkikh
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Ivan_Melkikh"
+				small = "GFX_idea_RLA_ivan_melkikh"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Ivan_Melkikh"
+				small = "GFX_idea_RLA_ivan_melkikh"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Ivan_Melkikh"
+				small = "GFX_idea_RLA_ivan_melkikh"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				trait_cautious
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	RLA_lev_savinkov = {
+		name = RLA_lev_savinkov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Lev_Savinkov"
+				small = "GFX_idea_RLA_lev_savinkov"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Lev_Savinkov"
+				small = "GFX_idea_RLA_lev_savinkov"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Lev_Savinkov"
+				small = "GFX_idea_RLA_lev_savinkov"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LEV_SAVINKOV_DESC"
+			ideology = totsoc_savinkovism_ideology
+			expire = "1987.1.1.1"
+			id = -1
+			traits = {}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	RLA_mikhail_meandrov = {
+		name = RLA_mikhail_meandrov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Mikhail_Meandrov"
+				small = "GFX_idea_RLA_mikhail_meandrov"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Mikhail_Meandrov"
+				small = "GFX_idea_RLA_mikhail_meandrov"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Mikhail_Meandrov"
+				small = "GFX_idea_RLA_mikhail_meandrov"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	RLA_mikhail_oktan = {
+		name = RLA_mikhail_oktan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Mikhail_Oktan"
+				small = "GFX_idea_RLA_mikhail_oktan"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Mikhail_Oktan"
+				small = "GFX_idea_RLA_mikhail_oktan"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Mikhail_Oktan"
+				small = "GFX_idea_RLA_mikhail_oktan"
+			}
+		}
+		corps_commander = {
+			traits = {
+				media_personality
+				harsh_leader
+				armor_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	RLA_miletiy_zykov = {
+		name = RLA_miletiy_zykov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Miletiy_Zykov"
+				small = "GFX_idea_RLA_miletiy_zykov"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Miletiy_Zykov"
+				small = "GFX_idea_RLA_miletiy_zykov"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Miletiy_Zykov"
+				small = "GFX_idea_RLA_miletiy_zykov"
+			}
+		}
+		corps_commander = {
+			traits = { hill_fighter }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	RLA_musa_calil = {
+		name = RLA_musa_calil
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Musa_Calil"
+				small = "GFX_idea_RLA_musa_calil"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Musa_Calil"
+				small = "GFX_idea_RLA_musa_calil"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Musa_Calil"
+				small = "GFX_idea_RLA_musa_calil"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	RLA_semyon_bychkov = {
+		name = RLA_semyon_bychkov
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Semyon_Bychkov"
+				small = "GFX_idea_RLA_semyon_bychkov"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Semyon_Bychkov"
+				small = "GFX_idea_RLA_semyon_bychkov"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Semyon_Bychkov"
+				small = "GFX_idea_RLA_semyon_bychkov"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	RLA_sergei_bunyachenko = {
+		name = RLA_sergei_bunyachenko
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Sergei_Bunyachenko"
+				small = "GFX_idea_RLA_sergei_bunyachenko"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Sergei_Bunyachenko"
+				small = "GFX_idea_RLA_sergei_bunyachenko"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Sergei_Bunyachenko"
+				small = "GFX_idea_RLA_sergei_bunyachenko"
+			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				defensive_doctrine
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	RLA_viktor_maltzev = {
+		name = RLA_viktor_maltzev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Viktor_Maltzev"
+				small = "GFX_idea_RLA_viktor_maltzev"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Viktor_Maltzev"
+				small = "GFX_idea_RLA_viktor_maltzev"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Viktor_Maltzev"
+				small = "GFX_idea_RLA_viktor_maltzev"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VIKTOR_MALTZEV_DESC"
+			ideology = paternal_autocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+		country_leader = {
+			desc = "POLITICS_VIKTOR_MALTZEV_DESC"
+			ideology = national_corporatism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				trait_cautious
+				defensive_doctrine
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	RLA_vladimir_boyarsky = {
+		name = RLA_vladimir_boyarsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Vladimir_Boyarsky"
+				small = "GFX_idea_RLA_vladimir_boyarsky"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Vladimir_Boyarsky"
+				small = "GFX_idea_RLA_vladimir_boyarsky"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Vladimir_Boyarsky"
+				small = "GFX_idea_RLA_vladimir_boyarsky"
+			}
+		}
+		corps_commander = {
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	RLA_vyacheslav_artemiev = {
+		name = RLA_vyacheslav_artemiev
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Vyacheslav_Artemiev"
+				small = "GFX_idea_RLA_vyacheslav_artemiev"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Vyacheslav_Artemiev"
+				small = "GFX_idea_RLA_vyacheslav_artemiev"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Vyacheslav_Artemiev"
+				small = "GFX_idea_RLA_vyacheslav_artemiev"
+			}
+		}
+		corps_commander = {
+			traits = { hill_fighter }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	RLA_yuri_evtukhovich = {
+		name = RLA_yuri_evtukhovich
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RLA_Yuri_Evtukhovich"
+				small = "GFX_idea_RLA_yuri_evtukhovich"
+			}
+			army = {
+				large = "GFX_Portrait_RLA_Yuri_Evtukhovich"
+				small = "GFX_idea_RLA_yuri_evtukhovich"
+			}
+			navy = {
+				large = "GFX_Portrait_RLA_Yuri_Evtukhovich"
+				small = "GFX_idea_RLA_yuri_evtukhovich"
+			}
+		}
+		corps_commander = {
+			traits = { winter_specialist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

@@ -1,0 +1,23 @@
+﻿capital = 446
+oob = "EGY_1972"
+set_cosmetic_tag = EGY_republic
+set_starting_values = yes
+recruit_character = EGY_anwar_sadat
+recruit_character = EGY_gamal_abdel_nasser
+set_convoys = 20
+add_ideas = {
+	
+}
+set_politics = {
+	ruling_party = totalitarian_socialism
+	last_election = "1972.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalitarian_socialism = 30
+	gradual_socialism = 10
+	social_democracy = 25
+	authoritarian_democracy = 10
+	paternal_autocracy = 25
+}

@@ -1,0 +1,200 @@
+characters = {
+	ITA_aldo_moro = {
+		name = ITA_aldo_moro
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Aldo_Moro"
+				small = "GFX_idea_ITA_aldo_moro"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Aldo_Moro"
+				small = "GFX_idea_ITA_aldo_moro"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Aldo_Moro"
+				small = "GFX_idea_ITA_aldo_moro"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALDO_MORO_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1978.5.9.1"
+			id = -1
+			traits = {}
+		}
+	}
+	ITA_amintore_fanfani = {
+		name = ITA_amintore_fanfani
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Amintore_Fanfani"
+				small = "GFX_idea_ITA_amintore_fanfani"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Amintore_Fanfani"
+				small = "GFX_idea_ITA_amintore_fanfani"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Amintore_Fanfani"
+				small = "GFX_idea_ITA_amintore_fanfani"
+			}
+		}
+	}
+	ITA_enrico_berlinguer = {
+		name = ITA_enrico_berlinguer
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Enrico_Berlinguer"
+				small = "GFX_idea_ITA_enrico_berlinguer"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Enrico_Berlinguer"
+				small = "GFX_idea_ITA_enrico_berlinguer"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Enrico_Berlinguer"
+				small = "GFX_idea_ITA_enrico_berlinguer"
+			}
+		}
+	}
+	ITA_giovanni_malagodi = {
+		name = ITA_giovanni_malagodi
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Giovanni_Malagodi"
+				small = "GFX_idea_ITA_giovanni_malagodi"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Giovanni_Malagodi"
+				small = "GFX_idea_ITA_giovanni_malagodi"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Giovanni_Malagodi"
+				small = "GFX_idea_ITA_giovanni_malagodi"
+			}
+		}
+	}
+	ITA_giuseppe_saragat = {
+		name = ITA_giuseppe_saragat
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Giuseppe_Saragat"
+				small = "GFX_idea_ITA_giuseppe_saragat"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Giuseppe_Saragat"
+				small = "GFX_idea_ITA_giuseppe_saragat"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Giuseppe_Saragat"
+				small = "GFX_idea_ITA_giuseppe_saragat"
+			}
+		}
+	}
+	ITA_lelio_basso = {
+		name = ITA_lelio_basso
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Lelio_Basso"
+				small = "GFX_idea_ITA_lelio_basso"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Lelio_Basso"
+				small = "GFX_idea_ITA_lelio_basso"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Lelio_Basso"
+				small = "GFX_idea_ITA_lelio_basso"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LELIO_BASSO_DESC"
+			ideology = socdem_left_patriotism_ideology
+			expire = "1978.12.16.1"
+			id = -1
+			traits = {}
+		}
+	}
+	ITA_mariano_rumor = {
+		name = ITA_mariano_rumor
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Mariano_Rumor"
+				small = "GFX_idea_ITA_mariano_rumor"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Mariano_Rumor"
+				small = "GFX_idea_ITA_mariano_rumor"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Mariano_Rumor"
+				small = "GFX_idea_ITA_mariano_rumor"
+			}
+		}
+	}
+	ITA_onorato_damen = {
+		name = ITA_onorato_damen
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Onorato_Damen"
+				small = "GFX_idea_ITA_onorato_damen"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Onorato_Damen"
+				small = "GFX_idea_ITA_onorato_damen"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Onorato_Damen"
+				small = "GFX_idea_ITA_onorato_damen"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ONORATO_DAMEN_DESC"
+			ideology = totalitarian_socialism_ideology
+			expire = "1979.10.14.1"
+			id = -1
+			traits = {}
+		}
+	}
+	ITA_pietro_nenni = {
+		name = ITA_pietro_nenni
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Pietro_Nenni"
+				small = "GFX_idea_ITA_pietro_nenni"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Pietro_Nenni"
+				small = "GFX_idea_ITA_pietro_nenni"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Pietro_Nenni"
+				small = "GFX_idea_ITA_pietro_nenni"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PIETRO_NENNI_DESC"
+			ideology = gradual_socialism_ideology
+			expire = "1980.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	ITA_umberto_ii = {
+		name = ITA_umberto_ii
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ITA_Umberto_II"
+				small = "GFX_idea_ITA_umberto_ii"
+			}
+			army = {
+				large = "GFX_Portrait_ITA_Umberto_II"
+				small = "GFX_idea_ITA_umberto_ii"
+			}
+			navy = {
+				large = "GFX_Portrait_ITA_Umberto_II"
+				small = "GFX_idea_ITA_umberto_ii"
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_NEP_birendra"
+		texturefile = "gfx/interface/advisors/NEP/idea_NEP_birendra.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_NEP_Birendra"
+		texturefile = "gfx/leaders/NEP/Portrait_NEP_Birendra.png"
+	}
+}

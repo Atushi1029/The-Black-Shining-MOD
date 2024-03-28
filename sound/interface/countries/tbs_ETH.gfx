@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_ETH_Tesfaye_Gebre_Kidan"
+		texturefile = "gfx/interface/advisors/ETH/idea_ETH_Tesfaye_Gebre_Kidan.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_ETH_Tesfaye_Gebre_Kidan"
+		texturefile = "gfx/leaders/ETH/Portrait_ETH_Tesfaye_Gebre_Kidan.png"
+	}
+}

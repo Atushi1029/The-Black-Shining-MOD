@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_MAD_gabriel_ramanantsoa"
+		texturefile = "gfx/interface/advisors/MAD/idea_MAD_gabriel_ramanantsoa.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_MAD_Gabriel_Ramanantsoa"
+		texturefile = "gfx/leaders/MAD/Portrait_MAD_Gabriel_Ramanantsoa.png"
+	}
+}

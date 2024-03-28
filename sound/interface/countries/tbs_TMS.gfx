@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_TMS_muhammetnazar_gapurov"
+		texturefile = "gfx/interface/advisors/TMS/idea_TMS_muhammetnazar_gapurov.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_TMS_Muhammetnazar_Gapurov"
+		texturefile = "gfx/leaders/TMS/Portrait_TMS_Muhammetnazar_Gapurov.png"
+	}
+}

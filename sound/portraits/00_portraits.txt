@@ -1,0 +1,148 @@
+default = {
+	operative = {
+		male = { "GFX_portrait_leader_marshal_unknown" }
+		female = { "GFX_portrait_leader_marshal_unknown" }
+	}
+	male = { "GFX_portrait_leader_marshal_unknown" }
+	female = { "GFX_portrait_leader_marshal_unknown" }
+}
+continent = {
+	name = europe
+	operative = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	political = {
+		neo_communism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		gradual_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		reactionism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	}
+}
+continent = {
+	name = north_america
+	operative = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	political = {
+		neo_communism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		gradual_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		reactionism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	}
+}
+continent = {
+	name = south_america
+	operative = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	political = {
+		neo_communism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		gradual_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		reactionism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	}
+}
+continent = {
+	name = australia
+	operative = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	political = {
+		neo_communism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		gradual_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		reactionism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	}
+}
+continent = {
+	name = africa
+	operative = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	political = {
+		neo_communism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		gradual_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		reactionism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	}
+}
+continent = {
+	name = asia
+	operative = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	political = {
+		neo_communism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		gradual_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		reactionism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	}
+}
+continent = {
+	name = middle_east
+	operative = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	army = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	navy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	political = {
+		neo_communism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		totalitarian_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		gradual_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		social_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		reactionism = { male = { "GFX_portrait_leader_marshal_unknown" } }
+	}
+}

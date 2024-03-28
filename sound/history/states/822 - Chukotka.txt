@@ -1,0 +1,22 @@
+state = {
+	id = 822
+	name = "STATE_822" #Chukotka
+
+	history = {
+		owner = STO
+		add_core_of = STO
+		set_state_flag = russian_old_states
+		victory_points = { 13063 10 }
+		victory_points = { 13204 1 }
+		buildings = {
+			infrastructure = 3
+			13063  = { naval_base = 5 }
+			13204  = { naval_base = 5 }
+		}
+	}
+	provinces = { 13063 13204 13293 }
+	manpower = 34182
+	buildings_max_level_factor = 1
+	state_category = "pastoral"
+	local_supplies = 0.0 
+}

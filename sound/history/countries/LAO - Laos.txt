@@ -1,0 +1,31 @@
+﻿capital = 670
+#oob = ""
+set_cosmetic_tag = LAO_republic
+set_starting_values = yes
+recruit_character = LAO_sisavang_vatthana
+recruit_character = LAO_souphanouvong
+set_convoys = 20
+add_ideas = {
+	
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = gradual_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		totalitarian_socialism = 11
+		gradual_socialism = 47
+		social_democracy = 1
+		liberal_democracy = 4
+		conservatism = 14
+		authoritarian_democracy = 10
+		paternal_autocracy = 12
+		national_corporatism = 1
+		national_socialism = 0
+		ultra_nationalism = 0
+		reactionism = 0
+	}
+}

@@ -1,0 +1,29 @@
+state = { 
+	id=729
+	name="STATE_729"
+	manpower = 157805
+	
+	state_category = enclave
+	
+	history = { 
+		owner = REA
+		add_core_of = REA
+		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
+		victory_points = {
+			4189 1 
+		}
+		buildings = {
+			infrastructure = 2
+			4189 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces = { 
+		4189 
+	}
+
+	local_supplies=0.0 
+}

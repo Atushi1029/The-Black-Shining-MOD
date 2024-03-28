@@ -1,0 +1,26 @@
+characters = {
+	NEP_birendra = {
+		name = NEP_birendra
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_NEP_Birendra"
+				small = "GFX_idea_NEP_birendra"
+			}
+			army = {
+				large = "GFX_Portrait_NEP_Birendra"
+				small = "GFX_idea_NEP_birendra"
+			}
+			navy = {
+				large = "GFX_Portrait_NEP_Birendra"
+				small = "GFX_idea_NEP_birendra"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_BIRENDRA_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "2001.6.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

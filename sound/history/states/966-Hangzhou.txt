@@ -1,0 +1,33 @@
+state = { 
+	id=966
+	name="STATE_966"
+
+	history = { 
+		owner = REA
+		add_core_of = REA
+		add_claim_by = CHI
+		set_state_flag = commie_china_core_states
+		victory_points = {
+			7191 5 
+		}
+		buildings = {
+			infrastructure = 2
+			7191 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+	}
+
+
+	provinces = { 
+		7191 
+	}
+	manpower=6030300
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,56 @@
+characters = {
+	RPG_corneliu_manescu = {
+		name = RPG_corneliu_manescu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RPG_Corneliu_Manescu"
+				small = "GFX_idea_RPG_corneliu_manescu"
+			}
+			army = {
+				large = "GFX_Portrait_RPG_Corneliu_Manescu"
+				small = "GFX_idea_RPG_corneliu_manescu"
+			}
+			navy = {
+				large = "GFX_Portrait_RPG_Corneliu_Manescu"
+				small = "GFX_idea_RPG_corneliu_manescu"
+			}
+		}
+	}
+	RPG_ion_iliescu = {
+		name = RPG_ion_iliescu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RPG_Ion_Iliescu"
+				small = "GFX_idea_RPG_ion_iliescu"
+			}
+			army = {
+				large = "GFX_Portrait_RPG_Ion_Iliescu"
+				small = "GFX_idea_RPG_ion_iliescu"
+			}
+			navy = {
+				large = "GFX_Portrait_RPG_Ion_Iliescu"
+				small = "GFX_idea_RPG_ion_iliescu"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ION_ILIESCU_DESC"
+			ideology = socdem_peoples_front_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+	RPG_nicolae_ceausescu = {
+		name = RPG_nicolae_ceausescu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RPG_Nicolae_Ceausescu"
+				small = "GFX_idea_RPG_nicolae_ceausescu"
+			}
+			navy = {
+				large = "GFX_Portrait_RPG_Nicolae_Ceausescu"
+				small = "GFX_idea_RPG_nicolae_ceausescu"
+			}
+		}
+	}
+}

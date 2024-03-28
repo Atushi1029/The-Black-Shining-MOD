@@ -1,0 +1,128 @@
+characters = {
+	SIA_bhumibol_adulyadej = {
+		name = SIA_bhumibol_adulyadej
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Bhumibol_Adulyadej"
+				small = "GFX_idea_SIA_bhumibol_adulyadej"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Bhumibol_Adulyadej"
+				small = "GFX_idea_SIA_bhumibol_adulyadej"
+			}
+			navy = {
+				large = "GFX_Portrait_SIA_Bhumibol_Adulyadej"
+				small = "GFX_idea_SIA_bhumibol_adulyadej"
+			}
+		}
+	}
+	SIA_kukrit_pramoj = {
+		name = SIA_kukrit_pramoj
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Kukrit_Pramoj"
+				small = "GFX_idea_SIA_kukrit_pramoj"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Kukrit_Pramoj"
+				small = "GFX_idea_SIA_kukrit_pramoj"
+			}
+			navy = {
+				large = "GFX_Portrait_SIA_Kukrit_Pramoj"
+				small = "GFX_idea_SIA_kukrit_pramoj"
+			}
+		}
+	}
+	SIA_pramarn_adireksarn = {
+		name = SIA_pramarn_adireksarn
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Pramarn_Adireksarn"
+				small = "GFX_idea_SIA_pramarn_adireksarn"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Pramarn_Adireksarn"
+				small = "GFX_idea_SIA_pramarn_adireksarn"
+			}
+			navy = {
+				large = "GFX_Portrait_SIA_Pramarn_Adireksarn"
+				small = "GFX_idea_SIA_pramarn_adireksarn"
+			}
+		}
+	}
+	SIA_praphas_charusathien = {
+		name = SIA_praphas_charusathien
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Praphas_Charusathien"
+				small = "GFX_idea_SIA_praphas_charusathien"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Praphas_Charusathien"
+				small = "GFX_idea_SIA_praphas_charusathien"
+			}
+			navy = {
+				large = "GFX_Portrait_SIA_Praphas_Charusathien"
+				small = "GFX_idea_SIA_praphas_charusathien"
+			}
+		}
+	}
+	SIA_prem_tinsulanonda = {
+		name = SIA_prem_tinsulanonda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Prem_Tinsulanonda"
+				small = "GFX_idea_SIA_prem_tinsulanonda"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Prem_Tinsulanonda"
+				small = "GFX_idea_SIA_prem_tinsulanonda"
+			}
+			navy = {
+				large = "GFX_Portrait_SIA_Prem_Tinsulanonda"
+				small = "GFX_idea_SIA_prem_tinsulanonda"
+			}
+		}
+	}
+	SIA_pridi_banomyong = {
+		name = SIA_pridi_banomyong
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Pridi_Banomyong"
+				small = "GFX_idea_SIA_pridi_banomyong"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Pridi_Banomyong"
+				small = "GFX_idea_SIA_pridi_banomyong"
+			}
+			navy = {
+				large = "GFX_Portrait_SIA_Pridi_Banomyong"
+				small = "GFX_idea_SIA_pridi_banomyong"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PRIDI_BANOMYONG_DESC"
+			ideology = authoritarian_democracy_ideology
+			expire = "1983.5.2.1"
+			id = -1
+			traits = {}
+		}
+	}
+	SIA_seni_pramoj = {
+		name = SIA_seni_pramoj
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SIA_Seni_Pramoj"
+				small = "GFX_idea_SIA_seni_pramoj"
+			}
+			army = {
+				large = "GFX_Portrait_SIA_Seni_Pramoj"
+				small = "GFX_idea_SIA_seni_pramoj"
+			}
+			navy = {
+				large = "GFX_Portrait_SIA_Seni_Pramoj"
+				small = "GFX_idea_SIA_seni_pramoj"
+			}
+		}
+	}
+}

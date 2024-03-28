@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+		GER_legacy_of_the_end_sieg = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				stability_weekly = -0.01
+				army_org_factor = -0.1
+				army_morale_factor = -0.1
+			}
+		}
+		GER_nazis_kaiserreich = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				drift_defence_factor = 0.1
+				party_popularity_stability_factor = 0.2
+			}
+		}
+		GER_wind_of_democratization = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				war_support_weekly = -0.01
+				political_power_gain = 0.05
+			}
+		}
+		GER_wo_alle_strassen_enden = {
+			allowed = { always = yes }
+			removal_cost = -1
+			allowed_civil_war = { always = yes }
+			#picture = 
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+			}
+		}
+	}
+}

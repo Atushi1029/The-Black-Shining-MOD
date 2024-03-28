@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_CRU_pang_hak-se"
+		texturefile = "gfx/interface/advisors/CRU/idea_CRU_pang_hak-se.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CRU_Pang_Hak-se"
+		texturefile = "gfx/leaders/CRU/Portrait_CRU_Pang_Hak-se.png"
+	}
+}

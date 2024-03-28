@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_SOV_distorted_nation"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_distorted_nation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_red_army"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_red_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_rigid_officers"
+		texturefile = "gfx/interface/ideas/SOV/idea_SOV_rigid_officers.png"
+	}
+}
