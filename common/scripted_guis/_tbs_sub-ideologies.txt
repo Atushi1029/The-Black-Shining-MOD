@@ -9,4 +9,13 @@ scripted_gui = {
 			has_sub-ideologies = yes
 		}
 	}
+	tbs_sub-ideology_notice_diplomacy = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "sub-ideology_notice_diplomacy_window"
+		ai_enabled = { always = no }
+		visible = {
+			ROOT = { is_ai = no }
+		}
+	}
 }

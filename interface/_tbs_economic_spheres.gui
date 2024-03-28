@@ -3,11 +3,11 @@ guiTypes = {
 		name = "economic_sphere_button_container"
 		position = { x = 82 y = 420 }
 		buttonType = {
-			name = "eco_zollverein_button"
+			name = "eco_sphere_button"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_eco_zollverein"
-			pdx_tooltip = GER_zollverein_tt
-			pdx_tooltip_delayed = GER_zollverein_tt_desc
+			pdx_tooltip = economic_sphere_icon_tt
+			pdx_tooltip_delayed = economic_sphere_icon_desc_tt
 		}
 	}
 	containerWindowType = {
@@ -105,6 +105,29 @@ guiTypes = {
 			maxWidth = 110
 			maxHeight = 40
 			fixedsize = yes
+		}
+	}
+	containerWindowType = {
+		name = "economic_sphere_icon_window"
+		position = { x = 462 y = 122 }
+		iconType = {
+			name = "economic_sphere_icon"
+			spriteType = "GFX_eco_zollverein"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = economic_sphere_icon_tt
+			pdx_tooltip_delayed = economic_sphere_icon_desc_tt
+		}
+	}
+	containerwindowtype = {
+		name = "economic_sphere_mapmode_mapicons_window"
+		position = { x = -35 y = 0 }
+		size = { width = 86 height = 60 }
+		iconType = {
+			name = "economic_sphere_mapicon"
+			spriteType = "GFX_eco_zollverein"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = economic_sphere_icon_tt
+			pdx_tooltip_delayed = economic_sphere_icon_desc_tt
 		}
 	}
 }

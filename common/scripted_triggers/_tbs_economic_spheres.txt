@@ -1,3 +1,12 @@
+is_in_economic_spheres = {
+	OR = {
+		is_in_GER_zollverein = yes
+		is_in_USA_american_economic_sphere = yes
+	}
+}
 is_in_GER_zollverein = {
 	has_country_flag = is_in_GER_zollverein
+}
+is_in_USA_american_economic_sphere = {
+	has_country_flag = is_in_USA_american_economic_sphere
 }

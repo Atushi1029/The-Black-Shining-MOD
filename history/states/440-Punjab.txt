@@ -10,8 +10,8 @@ state = {
 		victory_points = {
 			10887 5
 		}
-		owner = PAK
-		add_core_of = PAK
+		owner = RAJ
+		add_core_of = RAJ
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

@@ -132,10 +132,6 @@
  BRA_republic:0 "ブラジル共和国"
  BRA_republic_DEF:0 "ブラジル共和国"
  BRA_republic_ADJ:0 "ブラジル"
-#ブルゴーニュ
- BRG_rebel_army:0 "ブルゴーニュ反乱軍"
- BRG_rebel_army_DEF:0 "ブルゴーニュ反乱軍"
- BRG_rebel_army_ADJ:0 "ブルゴーニュ"
 #ビルマ
  BRM_republic:0 "ビルマ共和国"
  BRM_republic_DEF:0 "ビルマ共和国"
@@ -210,6 +206,14 @@
  DIETSLAND:0 "ディーツラント"
  DIETSLAND_DEF:0 "ディーツラント"
  DIETSLAND_ADJ:0 "ディーツラント"
+#Dominica
+ DOM_republic:0 "ドミニカ共和国"
+ DOM_republic_DEF:0 "ドミニカ共和国"
+ DOM_republic_ADJ:0 "ドミニカ"
+#Dravidistan
+ DRV_republic:0 "ドラヴィディスタン共和国"
+ DRV_republic_DEF:0 "ドラヴィディスタン共和国"
+ DRV_republic_ADJ:0 "ドラヴィディスタン"
 #東アジア
  EAST_ASIA_IJSAR:0 "日本領東亜特別行政区"
  EAST_ASIA_IJSAR_DEF:0 "帝国直轄領東アジア特別行政区"
@@ -254,6 +258,10 @@
  FRA_state:0 "フランス国"
  FRA_state_DEF:0 "フランス国"
  FRA_state_ADJ:0 "フランス"
+#ガボン
+ GAB_republic:0 "ガボン共和国"
+ GAB_republic_DEF:0 "ガボン共和国"
+ GAB_republic_ADJ:0 "ガボン"
 #イギリス
  GBR_united_kingdom:0 "連合王国"
  GBR_united_kingdom_DEF:0 "連合王国"
@@ -289,6 +297,10 @@
  GYA_republic:0 "ガイアナ共和国"
  GYA_republic_DEF:0 "ガイアナ共和国"
  GYA_republic_ADJ:0 "ガイアナ"
+#ハイチ
+ HAI_republic:0 "ハイチ共和国"
+ HAI_republic_DEF:0 "ハイチ共和国"
+ HAI_republic_ADJ:0 "ハイチ"
 #ホンジュラス
  HON_republic:0 "ホンジュラス共和国"
  HON_republic_DEF:0 "ホンジュラス共和国"
@@ -316,6 +328,10 @@
  ITA_kingdom:0 "イタリア王国"
  ITA_kingdom_DEF:0 "イタリア王国"
  ITA_kingdom_ADJ:0 "イタリア"
+#ジャマイカ
+ JAM_republic:0 "ジャマイカ共和国"
+ JAM_republic_DEF:0 "ジャマイカ共和国"
+ JAM_republic_ADJ:0 "ジャマイカ"
 #日本
  JAP_greater_empire:0 "大日本帝国"
  JAP_greater_empire_DEF:0 "大日本帝国"
@@ -387,6 +403,10 @@
  NGA_republic:0 "ナイジェリア共和国"
  NGA_republic_DEF:0 "ナイジェリア共和国"
  NGA_republic_ADJ:0 "ナイジェリア"
+#ニジェール
+ NGR_republic:0 "ニジェール共和国"
+ NGR_republic_DEF:0 "ニジェール共和国"
+ NGR_republic_ADJ:0 "ニジェール"
 #ニカラグア
  NIC_republic:0 "ニカラグア共和国"
  NIC_republic_DEF:0 "ニカラグア共和国"
@@ -407,10 +427,6 @@
  OSR_military_government:0 "オッソラ軍事政府"
  OSR_military_government_DEF:0 "オッソラ軍事政府"
  OSR_military_government_ADJ:0 "オッソラ"
-#パキスタン
- PAK_islamic_republic:0 "パキスタン・イスラム共和国"
- PAK_islamic_republic_DEF:0 "パキスタン・イスラム共和国"
- PAK_islamic_republic_ADJ:0 "パキスタン"
 #パレスチナ
  PAL_state:0 "パレスチナ国"
  PAL_state_DEF:0 "パレスチナ国"
@@ -428,9 +444,9 @@
  PEOPLES_LIBERATION_ARMY_DEF:0 "人民解放軍"
  PEOPLES_LIBERATION_ARMY_ADJ:0 "中国"
 #ペルシア
- PER_empire:0 "ペルシア帝国"
- PER_empire_DEF:0 "ペルシア帝国"
- PER_empire_ADJ:0 "ペルシア"
+ PER_republic:0 "ペルシア共和国"
+ PER_republic_DEF:0 "ペルシア共和国"
+ PER_republic_ADJ:0 "ペルシア"
 #フィリピン
  PHI_army_of_14_area:0 "第14方面軍統治領フィリピン"
  PHI_army_of_14_area_DEF:0 "第14方面軍統治領フィリピン"

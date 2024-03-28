@@ -9,10 +9,10 @@ scripted_gui = {
 			is_in_economic_spheres = yes
 		}
 		triggers = {
-			eco_zollverein_button_visible = { is_in_GER_zollverein = yes }
+			eco_sphere_button_visible = { is_in_economic_spheres = yes }
 		}
 		effects = {
-			eco_zollverein_button_click = {
+			eco_sphere_button_click = {
 				if = {
 					limit = { has_country_flag = economic_sphere_list_open }
 					clear_array = ROOT.economic_sphere_list_array
@@ -20,18 +20,24 @@ scripted_gui = {
 					clr_country_flag = economic_sphere_list_open
 				}
 				else = {
-					add_to_array = { ROOT.economic_sphere_list_array = GER }
-					for_each_loop = {
-						array = GER.economic_sphere_members
-						if = {
-							limit = { NOT = { is_in_array = { ROOT.economic_sphere_list_array = v } } }
-							add_to_array = { ROOT.economic_sphere_list_array = v }
+					random_country = {
+						limit = { is_in_array = { economic_sphere_members = PREV } }
+						add_to_array = { PREV.economic_sphere_list_array = THIS }
+						for_each_loop = {
+							array = economic_sphere_members
+							if = {
+								limit = { NOT = { is_in_array = { PREV.economic_sphere_list_array = v } } }
+								add_to_array = { PREV.economic_sphere_list_array = v }
+							}
 						}
+						PREV = { set_variable = { economic_sphere_leader = PREV } }
 					}
-					set_variable = { economic_sphere_leader = GER }
 					set_country_flag = economic_sphere_list_open
 				}
 			}
+		}
+		properties = {
+			eco_sphere_button = { image = "[GetEconomicSphereIcon]" }
 		}
 	}
 	tbs_economic_sphere_list = {
@@ -62,6 +68,40 @@ scripted_gui = {
 		properties = {
 			economic_sphere_icon = { image = "[ROOT.GetEconomicSphereIcon]" }
 			country_flag = { image = "[THIS.GetFlag]" }
+		}
+	}
+	tbs_economic_sphere_icon = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "economic_sphere_icon_window"
+		ai_enabled = {
+			always = no
+		}
+		visible = {
+			any_country = {
+				is_in_array = { economic_sphere_members = PREV }
+			}
+			ROOT = { is_ai = no }
+		}
+		properties = {
+			economic_sphere_icon = { image = "[GetEconomicSphereIcon]" }
+		}
+	}
+	tbs_economic_sphere_mapmode_mapicons = {
+		context_type = country_mapicon
+		window_name = "economic_sphere_mapmode_mapicons_window"
+		mapmode = tbs_economic_sphere_map_mode
+		visible = {
+			ROOT = { is_ai = no }
+		}
+		mapicon_targets = {
+			target_array = global.countries
+			target_trigger = {
+				FROM = { is_in_economic_spheres = yes }
+			}
+		}
+		properties = {
+			economic_sphere_mapicon = { image = "[FROM.GetEconomicSphereIcon]" }
 		}
 	}
 }
