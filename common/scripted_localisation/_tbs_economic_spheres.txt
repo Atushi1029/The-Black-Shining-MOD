@@ -1,8 +1,12 @@
 defined_text = {
 	name = GetEconomicSphereName
 	text = {
-		trigger = { check_variable = { ROOT.economic_sphere_leader = GER } }
+		trigger = { is_in_array = { GER.economic_sphere_members = THIS } }
 		localization_key = GER_zollverein_tt
+	}
+	text = {
+		trigger = { is_in_array = { USA.economic_sphere_members = THIS } }
+		localization_key = USA_american_economic_sphere_tt
 	}
 	text = {
 		localization_key = GENERIC_econ_sphere_tt
@@ -11,8 +15,24 @@ defined_text = {
 defined_text = {
 	name = GetEconomicSphereIcon
 	text = {
-		trigger = { check_variable = { ROOT.economic_sphere_leader = GER } }
+		trigger = { is_in_array = { GER.economic_sphere_members = THIS } }
 		localization_key = "GFX_eco_zollverein"
 	}
-	text = { localization_key = "GFX_pol_piechart_overlay" }
+	text = {
+		trigger = { is_in_array = { USA.economic_sphere_members = THIS } }
+		localization_key = "GFX_eco_american_economic_sphere"
+	}
+	text = { localization_key = "GFX_eco_zollverein" }
+}
+defined_text = {
+	name = GetEconomicSphereDesc
+	text = {
+		trigger = { is_in_array = { GER.economic_sphere_members = THIS } }
+		localization_key = GER_zollverein_desc_tt
+	}
+	text = {
+		trigger = { is_in_array = { USA.economic_sphere_members = THIS } }
+		localization_key = USA_american_economic_sphere_desc_tt
+	}
+	text = { localization_key = GENERIC_econ_sphere_desc_tt }
 }

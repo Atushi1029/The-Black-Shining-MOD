@@ -1,0 +1,37 @@
+scripted_map_modes = {
+	tbs_economic_sphere_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = country
+			color = {
+				set_temp_variable = { alpha = 0.95 }
+				#set_temp_variable = { thickness = 10.0 }
+				#set_temp_variable = { highlighted = 1.0 }
+				if = {
+					limit = {
+						is_in_array = { GER.economic_sphere_members = FROM }
+					}
+					set_temp_variable = { red = 0.212 }
+					set_temp_variable = { green = 0.212 }
+					set_temp_variable = { blue = 0.212 }
+				}
+				else_if = {
+					limit = {
+						is_in_array = { USA.economic_sphere_members = FROM }
+					}
+					set_temp_variable = { red = 0.392 }
+					set_temp_variable = { green = 0.541 }
+					set_temp_variable = { blue = 0.745 }
+				}
+				else = {
+					set_temp_variable = { red = 0.5 }
+					set_temp_variable = { green = 0.5 }
+					set_temp_variable = { blue = 0.5 }
+				}
+			}
+		}
+		far_text = country
+		near_text = none
+		update_daily = no
+	}
+}

@@ -1,5 +1,6 @@
 ﻿capital = 318
 #oob = ""
+set_cosmetic_tag = HAI_republic
 set_starting_values = yes
 #recruit_character = 
 set_convoys = 20

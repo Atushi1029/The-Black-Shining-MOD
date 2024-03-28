@@ -1114,7 +1114,6 @@ set_starting_values = {
 				tag = MEN
 				tag = NOR
 				tag = OMA
-				tag = PAK
 				tag = PAL
 				tag = POR
 				tag = RPG

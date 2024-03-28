@@ -1,5 +1,6 @@
 ﻿capital = 539
 oob = "GAB_1972"
+set_cosmetic_tag = GAB_republic
 set_starting_values = yes
 recruit_character = GAB_omar_bongo
 set_convoys = 20

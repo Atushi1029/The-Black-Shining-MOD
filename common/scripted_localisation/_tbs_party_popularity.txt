@@ -297,49 +297,49 @@ defined_text = {
 	name = GetSubIdeology
 	text = {
 		trigger = { has_government = neo_communism }
-		localization_key = "[ROOT.GetSubIdeologyNeoCom]"
+		localization_key = "[GetSubIdeologyNeoCom]"
 	}
 	text = {
 		trigger = { has_government = totalitarian_socialism }
-		localization_key = "[ROOT.GetSubIdeologyTotSoc]"
+		localization_key = "[GetSubIdeologyTotSoc]"
 	}
 	text = {
 		trigger = { has_government = gradual_socialism }
-		localization_key = "[ROOT.GetSubIdeologyGraSoc]"
+		localization_key = "[GetSubIdeologyGraSoc]"
 	}
 	text = {
 		trigger = { has_government = social_democracy }
-		localization_key = "[ROOT.GetSubIdeologySocDem]"
+		localization_key = "[GetSubIdeologySocDem]"
 	}
 	text = {
 		trigger = { has_government = liberal_democracy }
-		localization_key = "[ROOT.GetSubIdeologyLibDem]"
+		localization_key = "[GetSubIdeologyLibDem]"
 	}
 	text = {
 		trigger = { has_government = conservatism }
-		localization_key = "[ROOT.GetSubIdeologyCon]"
+		localization_key = "[GetSubIdeologyCon]"
 	}
 	text = {
 		trigger = { has_government = authoritarian_democracy }
-		localization_key = "[ROOT.GetSubIdeologyAutDem]"
+		localization_key = "[GetSubIdeologyAutDem]"
 	}
 	text = {
 		trigger = { has_government = paternal_autocracy }
-		localization_key = "[ROOT.GetSubIdeologyPatAut]"
+		localization_key = "[GetSubIdeologyPatAut]"
 	}
 	text = {
 		trigger = { has_government = national_corporatism }
-		localization_key = "[ROOT.GetSubIdeologyNatCor]"
+		localization_key = "[GetSubIdeologyNatCor]"
 	}
 	text = {
 		trigger = { has_government = national_socialism }
-		localization_key = "[ROOT.GetSubIdeologyNatSoc]"
+		localization_key = "[GetSubIdeologyNatSoc]"
 	}
 	text = {
 		trigger = { has_government = ultra_nationalism }
-		localization_key = "[ROOT.GetSubIdeologyUltNat]"
+		localization_key = "[GetSubIdeologyUltNat]"
 	}
-	text = { localization_key = "[ROOT.GetSubIdeologyRea]" }
+	text = { localization_key = "[GetSubIdeologyRea]" }
 }
 defined_text = {
 	name = GetSubIdeologyNeoCom
@@ -356,7 +356,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = neocom_neo_stalinsim_ideology }
 		localization_key = neocom_neo_stalinsim_ideology
 	}
-	text = { localization_key = "" }
+	text = { localization_key = neo_communism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyTotSoc
@@ -389,7 +389,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = totsoc_stalinism_ideology }
 		localization_key = totsoc_stalinism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = totalitarian_socialism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyGraSoc
@@ -422,7 +422,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = grasoc_syndicalism_ideology }
 		localization_key = grasoc_syndicalism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = gradual_socialism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologySocDem
@@ -443,7 +443,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = socdem_proletarian_liberalism_ideology }
 		localization_key = socdem_proletarian_liberalism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = social_democracy_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyLibDem
@@ -480,7 +480,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = libdem_social_liberalism_ideology }
 		localization_key = "libdem_social_liberalism_ideology"
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = liberal_democracy_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyCon
@@ -509,7 +509,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = con_silent_conservatism_ideology }
 		localization_key = "con_silent_conservatism_ideology"
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = conservatism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyAutDem
@@ -534,7 +534,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = autdem_social_nationalism_ideology }
 		localization_key = autdem_social_nationalism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = authoritarian_democracy_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyPatAut
@@ -571,7 +571,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = pataut_transhumanism_ideology }
 		localization_key = pataut_transhumanism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = paternal_autocracy_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyNatCor
@@ -582,13 +582,13 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_country_leader_ideology = natcor_fascism_ideology }
-		localization_key = "natcor_fascism_ideology"
+		localization_key = natcor_fascism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = natcor_mythtic_fascism_ideology }
 		localization_key = natcor_mythtic_fascism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = national_corporatism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyNatSoc
@@ -609,7 +609,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = natsoc_tyrannical_nazism_ideology }
 		localization_key = natsoc_tyrannical_nazism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = national_socialism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyUltNat
@@ -618,7 +618,7 @@ defined_text = {
 		trigger = { has_country_leader_ideology = ultnat_reformed_corporatism_ideology }
 		localization_key = ultnat_reformed_corporatism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = ultra_nationalism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyRea
@@ -635,5 +635,5 @@ defined_text = {
 		trigger = { has_country_leader_ideology = rea_soka_gakkai_cultism_ideology }
 		localization_key = rea_soka_gakkai_cultism_ideology
 	}
-	text = { localization_key = EMPTY_TT }
+	text = { localization_key = reactionism_ideology }
 }

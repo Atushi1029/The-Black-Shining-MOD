@@ -768,6 +768,10 @@ DON = {
 	color = rgb { 249 201 0 }
 	color_ui = rgb { 249 201 0 }
 }
+DRV = {
+	color = rgb { 226 135 40 }
+	color_ui = rgb { 226 135 40 }
+}
 EKM = {
 	color = rgb { 98 72 124 }
 	color_ui = rgb { 98 72 124 }
@@ -865,8 +869,8 @@ IVO = {
 	color_ui = rgb { 48 169 96 }
 }
 JAM = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
 }
 JAN = {
 	color = rgb { 0 0 0 }

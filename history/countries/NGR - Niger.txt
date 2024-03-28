@@ -1,5 +1,6 @@
 ﻿capital = 781
 oob = "NGR_1972"
+set_cosmetic_tag = NGR_republic
 set_starting_values = yes
 recruit_character = NGR_seyni_kountche
 set_convoys = 20
