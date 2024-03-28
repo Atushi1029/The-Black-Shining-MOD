@@ -1,9 +1,0 @@
-JAP_yokusan_election = {
-	allowed = { tag = JAP }
-	visible = {
-		has_country_flag = JAP_yokusan_election_1972
-		is_ai = no
-	}
-	scripted_gui = JAP_yokusan_election_gui
-	visible_when_empty = yes
-}

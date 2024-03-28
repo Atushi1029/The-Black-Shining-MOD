@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_Portrait_POR_Otelo_Saraiva_de_Carvalho"
-		texturefile = "gfx/leaders/POR/Portrait_POR_Otelo_Saraiva_de_Carvalho.png"
-	}
-}

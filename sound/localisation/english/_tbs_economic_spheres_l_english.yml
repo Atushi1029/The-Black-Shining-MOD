@@ -1,7 +1,0 @@
-﻿l_english:
- GENERIC_econ_sphere_tt:0 "Economic Sphere"
- GER_zollverein_tt:0 "Zollverein"
- GER_zollverein_desc_tt:0 "Zollverein is a customs and economic union unifying Germany and its sphere of influence, established after the last war."
- add_to_GER_zollverein_tt:0 "Join to §YZollverein§!"
- remove_from_GER_zollverein_tt:0 "Leave from §YZollverein§!"
- is_in_GER_zollverein:0 "Is in §YZollverein§!"

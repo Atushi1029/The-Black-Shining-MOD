@@ -1,4 +1,0 @@
-ideas = {
-	air_force_spirit = {}
-	air_force_command_spirit = {}
-}
