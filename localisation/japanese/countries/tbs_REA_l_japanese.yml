@@ -8,6 +8,7 @@
  REA_shigeyoshi_inoue_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_old_admiral$§!"
  REA_shigeyoshi_saito_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_austere_finance_advocate$§!"
 #キャラクター
+ REA_daisaku_ikeda:0 "池田大作"
  REA_gisen_sato:0 "左藤義詮"
  REA_gurgen_nagolyan:0 "グルゲン・ナゴリャン"
  REA_hajime_yasuda:0 "安田一"
@@ -25,7 +26,6 @@
  REA_satomi_hakamada:0 "袴田里見"
  REA_shigeyoshi_inoue:0 "井上成美"
  REA_shigeyoshi_saito:0 "斉藤滋与史"
- REA_taisaku_ikeda:0 "池田大作"
  REA_takeo_nimiya:0 "仁宮武夫"
  REA_tonosuke_otani:0 "大谷藤之助"
 #政党
