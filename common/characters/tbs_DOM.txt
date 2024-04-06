@@ -1,3 +1,26 @@
 characters = {
-	
+	DOM_joaquin_balaguer = {
+		name = DOM_joaquin_balaguer
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_DOM_Joaquin_Balaguer"
+				small = "GFX_idea_DOM_joaquin_balaguer"
+			}
+			army = {
+				large = "GFX_Portrait_DOM_Joaquin_Balaguer"
+				small = "GFX_idea_DOM_joaquin_balaguer"
+			}
+			navy = {
+				large = "GFX_Portrait_DOM_Joaquin_Balaguer"
+				small = "GFX_idea_DOM_joaquin_balaguer"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOAQUIN_BALAGUER_DESC"
+			ideology = autdem_national_conservatism_ideology
+			expire = "2002.7.14.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

@@ -1,6 +1,12 @@
 spriteTypes = {
 	#Advisors
-	
+	spriteType = {
+		name = "GFX_idea_DRV_v_k_krishna_menon"
+		texturefile = "gfx/interface/advisors/DRV/idea_DRV_v_k_krishna_menon.png"
+	}
 	#Portraits
-	
+	spriteType = {
+		name = "GFX_Portrait_DRV_V_K_Krishna_Menon"
+		texturefile = "gfx/leaders/DRV/Portrait_DRV_V_K_Krishna_Menon.png"
+	}
 }

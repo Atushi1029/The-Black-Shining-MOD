@@ -42,7 +42,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_GAMAL_ABDEL_NASSER_DESC"
 			ideology = totalitarian_socialism_ideology
-			expire = "1972.1.1.1"
+			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
 		}

@@ -81,6 +81,30 @@ characters = {
 			traits = {}
 		}
 	}
+	HUN_janos_kadar = {
+		name = HUN_janos_kadar
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HUN_Janos_Kadar"
+				small = "GFX_idea_HUN_janos_kadar"
+			}
+			army = {
+				large = "GFX_Portrait_HUN_Janos_Kadar"
+				small = "GFX_idea_HUN_janos_kadar"
+			}
+			navy = {
+				large = "GFX_Portrait_HUN_Janos_Kadar"
+				small = "GFX_idea_HUN_janos_kadar"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JANOS_KADAR_DESC"
+			ideology = social_democracy_ideology
+			expire = "1989.7.6.1"
+			id = -1
+			traits = {}
+		}
+	}
 	HUN_otto_von_habsburg = {
 		name = HUN_otto_von_habsburg
 		portraits = {

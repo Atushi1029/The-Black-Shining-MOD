@@ -2,26 +2,26 @@
 #oob = ""
 set_cosmetic_tag = DRV_republic
 set_starting_values = yes
-#recruit_character =
+recruit_character = DRV_v_k_krishna_menon
 set_convoys = 20
 add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = social_democracy
 	last_election = "1972.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	neo_communism = 0
-	totalitarian_socialism = 0
-	gradual_socialism = 0
-	social_democracy = 0
-	liberal_democracy = 0
-	conservatism = 0
-	authoritarian_democracy = 100
-	paternal_autocracy = 0
+	neo_communism = 1
+	totalitarian_socialism = 1
+	gradual_socialism = 26
+	social_democracy = 41
+	liberal_democracy = 28
+	conservatism = 1
+	authoritarian_democracy = 1
+	paternal_autocracy = 1
 	national_corporatism = 0
 	national_socialism = 0
 	ultra_nationalism = 0

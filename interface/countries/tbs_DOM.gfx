@@ -1,6 +1,12 @@
 spriteTypes = {
 	#Advisors
-	
+	spriteType = {
+		name = "GFX_idea_DOM_joaquin_balaguer"
+		texturefile = "gfx/interface/advisors/DOM/idea_DOM_joaquin_balaguer.png"
+	}
 	#Portraits
-	
+	spriteType = {
+		name = "GFX_Portrait_DOM_Joaquin_Balaguer"
+		texturefile = "gfx/leaders/DOM/Portrait_DOM_Joaquin_Balaguer.png"
+	}
 }

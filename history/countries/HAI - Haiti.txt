@@ -2,26 +2,26 @@
 #oob = ""
 set_cosmetic_tag = HAI_republic
 set_starting_values = yes
-#recruit_character = 
+recruit_character = HAI_jean-claude_duvalier
 set_convoys = 20
 add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = paternal_autocracy
 	last_election = "1972.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	neo_communism = 0
-	totalitarian_socialism = 0
-	gradual_socialism = 0
-	social_democracy = 0
-	liberal_democracy = 0
-	conservatism = 0
-	authoritarian_democracy = 100
-	paternal_autocracy = 0
+	neo_communism = 2
+	totalitarian_socialism = 9
+	gradual_socialism = 3
+	social_democracy = 19
+	liberal_democracy = 19
+	conservatism = 19
+	authoritarian_democracy = 2
+	paternal_autocracy = 27
 	national_corporatism = 0
 	national_socialism = 0
 	ultra_nationalism = 0

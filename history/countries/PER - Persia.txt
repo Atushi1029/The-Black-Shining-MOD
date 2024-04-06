@@ -2,6 +2,7 @@
 #oob = ""
 set_cosmetic_tag = PER_republic
 set_starting_values = yes
+recruit_character = PER_mohammad_mosaddegh
 recruit_character = PER_mohammad_reza_pahlavi
 set_convoys = 20
 add_ideas = {
@@ -17,7 +18,7 @@ set_popularities = {
 	totalitarian_socialism = 0
 	gradual_socialism = 0
 	social_democracy = 0
-	liberal_democracy = 0
+	liberal_democracy = 5
 	conservatism = 8
 	authoritarian_democracy = 11
 	paternal_autocracy = 12

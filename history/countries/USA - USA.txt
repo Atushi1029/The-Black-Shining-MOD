@@ -124,6 +124,7 @@ every_country = {
 	}
 	add_to_USA_american_economic_sphere = yes
 }
+set_variable = { eco_sphere_post = 1 }
 #Non Aggression Pacts
 diplomatic_relation = {
 	country = CMR

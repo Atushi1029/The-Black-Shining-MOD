@@ -31,3 +31,4 @@ country_event = {
 	id = tbs_skelton.4
 	days = 200
 }
+set_variable = { eco_sphere_post = 5 }

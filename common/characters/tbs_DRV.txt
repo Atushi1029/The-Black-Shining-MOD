@@ -1,3 +1,26 @@
 characters = {
-	
+	DRV_v_k_krishna_menon = {
+		name = DRV_v_k_krishna_menon
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_DRV_V_K_Krishna_Menon"
+				small = "GFX_idea_DRV_v_k_krishna_menon"
+			}
+			army = {
+				large = "GFX_Portrait_DRV_V_K_Krishna_Menon"
+				small = "GFX_idea_DRV_v_k_krishna_menon"
+			}
+			navy = {
+				large = "GFX_Portrait_DRV_V_K_Krishna_Menon"
+				small = "GFX_idea_DRV_v_k_krishna_menon"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_V_K_KRISHNA_MENON_DESC"
+			ideology = socdem_progressive_democracy_ideology
+			expire = "1974.10.6.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

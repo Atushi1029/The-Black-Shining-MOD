@@ -1,6 +1,12 @@
 spriteTypes = {
 	#Advisors
-	
+	spriteType = {
+		name = "GFX_idea_JAM_michael_manley"
+		texturefile = "gfx/interface/advisors/JAM/idea_JAM_michael_manley.png"
+	}
 	#Portraits
-	
+	spriteType = {
+		name = "GFX_Portrait_JAM_Michael_Manley"
+		texturefile = "gfx/leaders/JAM/Portrait_JAM_Michael_Manley.png"
+	}
 }

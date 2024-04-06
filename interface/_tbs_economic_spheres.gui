@@ -102,8 +102,17 @@ guiTypes = {
 			position = { x = 56 y = 6 }
 			font = "hoi_16mbs"
 			text = "[THIS.GetName]"
+			maxWidth = 140
+			maxHeight = 16
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "post"
+			position = { x = 56 y = 22 }
+			font = "hoi_16mbs"
+			text = "[THIS.GetEconomicSpherePostName]"
 			maxWidth = 110
-			maxHeight = 40
+			maxHeight = 16
 			fixedsize = yes
 		}
 	}
@@ -114,7 +123,7 @@ guiTypes = {
 			name = "economic_sphere_icon"
 			spriteType = "GFX_eco_zollverein"
 			position = { x = 0 y = 0 }
-			pdx_tooltip = economic_sphere_icon_tt
+			pdx_tooltip = economic_sphere_icon_with_post_tt
 			pdx_tooltip_delayed = economic_sphere_icon_desc_tt
 		}
 	}
@@ -126,7 +135,7 @@ guiTypes = {
 			name = "economic_sphere_mapicon"
 			spriteType = "GFX_eco_zollverein"
 			position = { x = 0 y = 0 }
-			pdx_tooltip = economic_sphere_icon_tt
+			pdx_tooltip = economic_sphere_icon_with_post_tt
 			pdx_tooltip_delayed = economic_sphere_icon_desc_tt
 		}
 	}

@@ -36,3 +36,55 @@ defined_text = {
 	}
 	text = { localization_key = GENERIC_econ_sphere_desc_tt }
 }
+defined_text = {
+	name = GetEconomicSpherePostName
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 1 } }
+		}
+		localization_key = eco_sphere_post_1_tt
+	}
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 2 } }
+		}
+		localization_key = eco_sphere_post_2_tt
+	}
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 3 } }
+		}
+		localization_key = eco_sphere_post_3_tt
+	}
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 4 } }
+		}
+		localization_key = eco_sphere_post_4_tt
+	}
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 5 } }
+		}
+		localization_key = eco_sphere_post_5_tt
+	}
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 6 } }
+		}
+		localization_key = eco_sphere_post_6_tt
+	}
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 7 } }
+		}
+		localization_key = eco_sphere_post_7_tt
+	}
+	text = {
+		trigger = {
+			THIS = { check_variable = { eco_sphere_post = 8 } }
+		}
+		localization_key = eco_sphere_post_8_tt
+	}
+	text = { localization_key = eco_sphere_post_nomal_tt }
+}
