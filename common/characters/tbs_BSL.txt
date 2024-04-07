@@ -1,0 +1,26 @@
+characters = {
+	BSL_ba_maw = {
+		name = BRM_ba_maw
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Ba_Maw"
+				small = "GFX_idea_BRM_ba_maw"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_BA_MAW_DESC"
+			ideology = autdem_aristocracy_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

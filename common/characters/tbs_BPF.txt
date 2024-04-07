@@ -1,0 +1,26 @@
+characters = {
+	BPF_aung_san = {
+		name = BRM_aung_san
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_Aung_San"
+				small = "GFX_idea_BRM_aung_san"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_Aung_San"
+				small = "GFX_idea_BRM_aung_san"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_Aung_San"
+				small = "GFX_idea_BRM_aung_san"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_AUNG_SAN_DESC"
+			ideology = autdem_social_nationalism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

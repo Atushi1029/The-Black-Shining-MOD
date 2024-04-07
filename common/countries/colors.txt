@@ -684,6 +684,10 @@ BOS = {
 	color = rgb { 67 158 34 }
 	color_ui = rgb { 67 158 34 }
 }
+BPF = {
+	color = rgb { 190 45 45 }
+	color_ui = rgb { 190 45 45 }
+}
 BRD = {
 	color = rgb { 94 121 78 }
 	color_ui = rgb { 94 121 78 }
@@ -699,6 +703,10 @@ BRI = {
 BRM = {
 	color = rgb { 76 153 0 }
 	color_ui = rgb { 76 153 0 }
+}
+BSL = {
+	color = rgb { 27 27 184 }
+	color_ui = rgb { 27 27 184 }
 }
 CAR = {
 	color = rgb { 130 31 72 }
