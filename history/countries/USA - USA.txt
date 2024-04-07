@@ -113,6 +113,7 @@ every_country = {
 	limit = {
 		OR = {
 			is_in_faction_with = USA
+			original_tag = BSL
 			original_tag = CMR
 			original_tag = DOM
 			original_tag = ECU

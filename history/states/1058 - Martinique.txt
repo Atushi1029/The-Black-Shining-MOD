@@ -1,0 +1,21 @@
+state = { 
+	id = 1058
+	name = "STATE_1058"
+	manpower = 407000
+	state_category = tiny_island
+	history = { 
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+			177 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 177 1 }
+	}
+	provinces = { 
+		177 
+	}
+	local_supplies=0.0 
+}

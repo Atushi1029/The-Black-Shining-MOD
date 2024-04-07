@@ -133,14 +133,19 @@
  BRA_republic_DEF:0 "ブラジル共和国"
  BRA_republic_ADJ:0 "ブラジル"
 #ビルマ
+ BRM_peoples_front:0 "ビルマ人民戦線"
+ BRM_peoples_front_DEF:0 "ビルマ人民戦線"
+ BRM_peoples_front_ADJ:0 "ビルマ"
  BRM_republic:0 "ビルマ共和国"
  BRM_republic_DEF:0 "ビルマ共和国"
  BRM_republic_ADJ:0 "ビルマ"
+ BRM_salvation_legion:0 "ビルマ救国軍団"
+ BRM_salvation_legion_DEF:0 "ビルマ救国軍団"
+ BRM_salvation_legion_ADJ:0 "ビルマ"
 #ブルガリア
  BUL_kingdom:0 "ブルガリア王国"
  BUL_kingdom_DEF:0 "ブルガリア王国"
  BUL_kingdom_ADJ:0 "ブルガリア"
-
  BUL_republic:0 "ブルガリア共和国"
  BUL_republic_DEF:0 "ブルガリア共和国"
  BUL_republic_ADJ:0 "ブルガリア"
@@ -234,6 +239,10 @@
  ETH_democratic_republic:0 "エチオピア民主共和国"
  ETH_democratic_republic_DEF:0 "エチオピア民主共和国"
  ETH_democratic_republic_ADJ:0 "エチオピア"
+#East Turkestan
+ SIK_republic:0 "東トルキスタン共和国"
+ SIK_republic_DEF:0 "東トルキスタン共和国"
+ SIK_republic_ADJ:0 "東トルキスタン"
 #極東
  FER_combined_syndicates:0 "極東労働組合連盟"
  FER_combined_syndicates_DEF:0 "極東労働組合連盟"

@@ -1,5 +1,7 @@
 BNF = "countries/continents/Western Europe.txt"
+BPF = "countries/continents/Asia.txt"
 BRG = "countries/continents/Western Europe.txt"
+BSL = "countries/continents/Asia.txt"
 CCS = "countries/continents/Eastern Europe.txt"
 CLN = "countries/continents/Latin America.txt"
 CRU = "countries/continents/Asia.txt"

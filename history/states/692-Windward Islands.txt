@@ -1,7 +1,7 @@
 state = { 
-	id=692
-	name="STATE_692"
-	manpower=76485
+	id = 692
+	name = "STATE_692"
+	manpower = 243500
 	state_category = small_island
 
 	history = { 
@@ -13,13 +13,11 @@ state = {
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			11350 1
-		}
+		victory_points = { 11350 1 }
 	}
 	
 	provinces = { 
-		379 11106 11350 13009 
+		11350 
 	}
 
 	local_supplies=4.0 
