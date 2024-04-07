@@ -73,8 +73,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/REA/idea_REA_shigeyoshi_saito.png"
 	}
 	spriteType = {
-		name = "GFX_idea_REA_taisaku_ikeda"
-		texturefile = "gfx/interface/advisors/REA/idea_REA_taisaku_ikeda.png"
+		name = "GFX_idea_REA_daisaku_ikeda"
+		texturefile = "gfx/interface/advisors/REA/idea_REA_daisaku_ikeda.png"
 	}
 	spriteType = {
 		name = "GFX_idea_REA_takeo_nimiya"
@@ -158,8 +158,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/REA/Portrait_REA_Shigeyoshi_Saito.png"
 	}
 	spriteType = {
-		name = "GFX_Portrait_REA_Taisaku_Ikeda"
-		texturefile = "gfx/leaders/REA/Portrait_REA_Taisaku_Ikeda.png"
+		name = "GFX_Portrait_REA_Daisaku_Ikeda"
+		texturefile = "gfx/leaders/REA/Portrait_REA_Daisaku_Ikeda.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_REA_Takeo_Nimiya"

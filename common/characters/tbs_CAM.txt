@@ -18,7 +18,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_IEU_KOEUS_DESC"
 			ideology = socdem_left_patriotism_ideology
-			expire = "1972.1.1.1"
+			expire = "1989.1.1.1"
 			id = -1
 			traits = {}
 		}

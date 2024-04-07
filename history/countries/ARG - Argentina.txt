@@ -27,3 +27,9 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+create_faction = ARG_buenos_aires_entente
+add_to_faction = ARG
+add_to_faction = CHL
+add_to_faction = PRU
+add_to_faction = VEN
+set_variable = { eco_sphere_post = 5 }

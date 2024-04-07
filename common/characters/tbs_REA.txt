@@ -1,4 +1,28 @@
 characters = {
+	REA_daisaku_ikeda = {
+		name = REA_daisaku_ikeda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_REA_Daisaku_Ikeda"
+				small = "GFX_idea_REA_daisaku_ikeda"
+			}
+			army = {
+				large = "GFX_Portrait_REA_Daisaku_Ikeda"
+				small = "GFX_idea_REA_daisaku_ikeda"
+			}
+			navy = {
+				large = "GFX_Portrait_REA_Daisaku_Ikeda"
+				small = "GFX_idea_REA_daisaku_ikeda"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TAISAKU_IKEDA_DESC"
+			ideology = rea_soka_gakkai_cultism_ideology
+			expire = "2050.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	REA_gisen_sato = {
 		name = REA_gisen_sato
 		portraits = {
@@ -451,30 +475,6 @@ characters = {
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
 			can_be_fired = no
-		}
-	}
-	REA_taisaku_ikeda = {
-		name = REA_taisaku_ikeda
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_REA_Taisaku_Ikeda"
-				small = "GFX_idea_REA_taisaku_ikeda"
-			}
-			army = {
-				large = "GFX_Portrait_REA_Taisaku_Ikeda"
-				small = "GFX_idea_REA_taisaku_ikeda"
-			}
-			navy = {
-				large = "GFX_Portrait_REA_Taisaku_Ikeda"
-				small = "GFX_idea_REA_taisaku_ikeda"
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_TAISAKU_IKEDA_DESC"
-			ideology = rea_soka_gakkai_cultism_ideology
-			expire = "2050.1.1.1"
-			id = -1
-			traits = {}
 		}
 	}
 	REA_takeo_nimiya = {

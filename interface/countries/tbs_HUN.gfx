@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/HUN/idea_HUN_istvan_horthy.png"
 	}
 	spriteType = {
+		name = "GFX_idea_HUN_janos_kadar"
+		texturefile = "gfx/interface/advisors/HUN/idea_HUN_janos_kadar.png"
+	}
+	spriteType = {
 		name = "GFX_idea_HUN_otto_von_habsburg"
 		texturefile = "gfx/interface/advisors/HUN/idea_HUN_otto_von_habsburg.png"
 	}
@@ -36,6 +40,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_HUN_Istvan_Horthy"
 		texturefile = "gfx/leaders/HUN/Portrait_HUN_Istvan_Horthy.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_HUN_Janos_Kadar"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Janos_Kadar.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_HUN_Otto_von_Habsburg_tbs"

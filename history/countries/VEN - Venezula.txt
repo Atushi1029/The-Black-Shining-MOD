@@ -26,5 +26,6 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+set_variable = { eco_sphere_post = 5 }
 join_the_coalition_social_democracy = yes
 join_the_coalition_authoritarian_democracy = yes

@@ -1,6 +1,12 @@
 spriteTypes = {
 	#Advisors
-	
+	spriteType = {
+		name = "GFX_idea_HAI_jean-claude_duvalier"
+		texturefile = "gfx/interface/advisors/HAI/idea_HAI_jean-claude_duvalier.png"
+	}
 	#Portraits
-	
+	spriteType = {
+		name = "GFX_Portrait_HAI_Jean-Claude_Duvalier"
+		texturefile = "gfx/leaders/HAI/Portrait_HAI_Jean-Claude_Duvalier.png"
+	}
 }

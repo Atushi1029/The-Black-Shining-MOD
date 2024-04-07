@@ -124,6 +124,7 @@ every_country = {
 	}
 	add_to_USA_american_economic_sphere = yes
 }
+set_variable = { eco_sphere_post = 1 }
 #Non Aggression Pacts
 diplomatic_relation = {
 	country = CMR
@@ -176,6 +177,26 @@ diplomatic_relation = {
 	relation = docking_rights
 	active = yes
 }
+#Guarantees
+give_guarantee = COS
+give_guarantee = DOM
+give_guarantee = ECU
+give_guarantee = ELS
+give_guarantee = GYA
+give_guarantee = HAI
+give_guarantee = HON
+give_guarantee = JAM
+give_guarantee = NIC
+give_guarantee = PAN
+give_guarantee = PAR
+give_guarantee = URG
+#Embargo
+send_embargo = ARG
+send_embargo = CHL
+send_embargo = CUB
+send_embargo = GUA
+send_embargo = PRU
+send_embargo = VEN
 news_event = {
 	id = tbs_skelton_news.9
 	days = 1990

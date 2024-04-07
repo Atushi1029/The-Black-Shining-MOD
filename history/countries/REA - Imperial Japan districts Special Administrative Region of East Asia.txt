@@ -2,6 +2,7 @@
 #oob = ""
 set_cosmetic_tag = EAST_ASIA_IJSAR
 set_starting_values = yes
+recruit_character = REA_daisaku_ikeda
 recruit_character = REA_gisen_sato
 recruit_character = REA_gurgen_nagolyan
 recruit_character = REA_hajime_yasuda
@@ -19,7 +20,6 @@ recruit_character = REA_ryuzo_sejima
 recruit_character = REA_satomi_hakamada
 recruit_character = REA_shigeyoshi_inoue
 recruit_character = REA_shigeyoshi_saito
-recruit_character = REA_taisaku_ikeda
 recruit_character = REA_takeo_nimiya
 recruit_character = REA_tonosuke_otani
 set_convoys = 20

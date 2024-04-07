@@ -180,7 +180,6 @@ set_variable = { JAP_YPE_lobby_progbar = 0 }
 #Diplomatic
 create_faction = JAP_geacps
 add_to_faction = CAM
-add_to_faction = CHL
 add_to_faction = INS
 add_to_faction = JAP
 add_to_faction = MAL

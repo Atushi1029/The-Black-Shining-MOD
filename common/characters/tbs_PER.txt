@@ -1,4 +1,28 @@
 characters = {
+	PER_mohammad_mosaddegh = {
+		name = PER_mohammad_mosaddegh
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PER_Mohammad_Mosaddegh"
+				small = "GFX_idea_PER_mohammad_mosaddegh"
+			}
+			army = {
+				large = "GFX_Portrait_PER_Mohammad_Mosaddegh"
+				small = "GFX_idea_PER_mohammad_mosaddegh"
+			}
+			navy = {
+				large = "GFX_Portrait_PER_Mohammad_Mosaddegh"
+				small = "GFX_idea_PER_mohammad_mosaddegh"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MOHAMMAD_MOSADDEGH_DESC"
+			ideology = natsoc_tyrannical_nazism_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 	PER_mohammad_reza_pahlavi = {
 		name = PER_mohammad_reza_pahlavi
 		portraits = {

@@ -1,3 +1,26 @@
 characters = {
-	
+	JAM_michael_manley = {
+		name = JAM_michael_manley
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAM_Michael_Manley"
+				small = "GFX_idea_JAM_michael_manley"
+			}
+			army = {
+				large = "GFX_Portrait_JAM_Michael_Manley"
+				small = "GFX_idea_JAM_michael_manley"
+			}
+			navy = {
+				large = "GFX_Portrait_JAM_Michael_Manley"
+				small = "GFX_idea_JAM_michael_manley"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MICHAEL_MANLEY_DESC"
+			ideology = social_democracy_ideology
+			expire = "1997.3.6.1"
+			id = -1
+			traits = {}
+		}
+	}
 }
