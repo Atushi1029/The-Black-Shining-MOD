@@ -1,0 +1,21 @@
+state = { 
+	id = 1046
+	name = "STATE_1046"
+	history = { 
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			9961 1
+		}
+	}
+	provinces = { 
+		7218 9961 
+	}
+	manpower = 322200
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

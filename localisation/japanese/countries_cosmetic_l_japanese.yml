@@ -588,9 +588,9 @@
  UGA_state_DEF:0 "ウガンダ国"
  UGA_state_ADJ:0 "ウガンダ"
 #ウルグアイ
- URG_republic:0 "ウルグアイ共和国"
- URG_republic_DEF:0 "ウルグアイ共和国"
- URG_republic_ADJ:0 "ウルグアイ"
+ URG_oriental_republic:0 "ウルグアイ東方共和国"
+ URG_oriental_republic_DEF:0 "ウルグアイ東方共和国"
+ URG_oriental_republic_ADJ:0 "ウルグアイ"
 #アメリカ
  USA_united_states:0 "アメリカ合衆国"
  USA_united_states_DEF:0 "アメリカ合衆国"
