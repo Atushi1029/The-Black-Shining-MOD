@@ -17,6 +17,24 @@ remove_from_GER_zollverein = {
 		}
 	}
 }
+add_to_JAP_geacps = {
+	if = {
+		limit = { is_in_JAP_geacps = no }
+		custom_effect_tooltip = add_to_JAP_geacps_tt
+		set_country_flag = is_in_JAP_geacps
+		add_to_array = { JAP.economic_sphere_members = THIS }
+	}
+}
+remove_from_JAP_geacps = {
+	if = {
+		limit = { is_in_JAP_geacps = yes }
+		custom_effect_tooltip = remove_from_JAP_geacps_tt
+		hidden_effect = {
+			clr_country_flag = is_in_JAP_geacps
+			remove_from_array = { JAP.economic_sphere_members = THIS }
+		}
+	}
+}
 add_to_USA_american_economic_sphere = {
 	if = {
 		limit = { is_in_USA_american_economic_sphere = no }

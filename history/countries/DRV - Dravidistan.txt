@@ -27,3 +27,4 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+set_variable = { eco_sphere_post = 6 }

@@ -5,6 +5,10 @@ defined_text = {
 		localization_key = GER_zollverein_tt
 	}
 	text = {
+		trigger = { is_in_array = { JAP.economic_sphere_members = THIS } }
+		localization_key = JAP_geacps_tt
+	}
+	text = {
 		trigger = { is_in_array = { USA.economic_sphere_members = THIS } }
 		localization_key = USA_american_economic_sphere_tt
 	}
@@ -19,6 +23,10 @@ defined_text = {
 		localization_key = "GFX_eco_zollverein"
 	}
 	text = {
+		trigger = { is_in_array = { JAP.economic_sphere_members = THIS } }
+		localization_key = "GFX_eco_geacps"
+	}
+	text = {
 		trigger = { is_in_array = { USA.economic_sphere_members = THIS } }
 		localization_key = "GFX_eco_american_economic_sphere"
 	}
@@ -29,6 +37,10 @@ defined_text = {
 	text = {
 		trigger = { is_in_array = { GER.economic_sphere_members = THIS } }
 		localization_key = GER_zollverein_desc_tt
+	}
+	text = {
+		trigger = { is_in_array = { JAP.economic_sphere_members = THIS } }
+		localization_key = JAP_geacps_desc_tt
 	}
 	text = {
 		trigger = { is_in_array = { USA.economic_sphere_members = THIS } }

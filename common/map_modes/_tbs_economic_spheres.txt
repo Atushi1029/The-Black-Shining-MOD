@@ -17,6 +17,14 @@ scripted_map_modes = {
 				}
 				else_if = {
 					limit = {
+						is_in_array = { JAP.economic_sphere_members = FROM }
+					}
+					set_temp_variable = { red = 0.125 }
+					set_temp_variable = { green = 0.184 }
+					set_temp_variable = { blue = 0.333 }
+				}
+				else_if = {
+					limit = {
 						is_in_array = { USA.economic_sphere_members = FROM }
 					}
 					set_temp_variable = { red = 0.392 }

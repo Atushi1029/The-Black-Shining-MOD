@@ -70,6 +70,7 @@ set_popularities = {
 	ultra_nationalism = 6
 	reactionism = 0
 }
+set_variable = { eco_sphere_post = 6 }
 add_to_array = { global.russian_warlords = FER }
 give_military_access = JAP
 country_event = {

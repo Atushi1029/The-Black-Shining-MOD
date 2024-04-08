@@ -189,6 +189,19 @@ add_to_faction = PHI
 add_to_faction = REA
 add_to_faction = STO
 add_to_faction = VIN
+every_country = {
+	limit = {
+		OR = {
+			is_in_faction_with = JAP
+			original_tag = BPF
+			original_tag = DRV
+			original_tag = FER
+		}
+	}
+	add_to_JAP_geacps = yes
+}
+set_variable = { eco_sphere_post = 1 }
+#Puppet
 set_autonomy = {
 	target = CAM
 	autonomous_state = autonomy_wtt_imperial_protectorate
@@ -213,11 +226,31 @@ set_autonomy = {
 	target = REA
 	autonomous_state = autonomy_wtt_imperial_subject
 }
+#Non Aggression Pacts
+diplomatic_relation = {
+	country = BPF
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = DRV
+	relation = non_aggression_pact
+	active = yes
+}
 diplomatic_relation = {
 	country = FER
 	relation = non_aggression_pact
 	active = yes
 }
+#Docking Rights
+diplomatic_relation = {
+	country = DRV
+	relation = docking_rights
+	active = yes
+}
+#Guarantees
+give_guarantee = BPF
+give_guarantee = DRV
 set_variable = { yokusankai_recommended = 430 }
 JAP_yokusan_election_recalculation = yes
 country_event = {
