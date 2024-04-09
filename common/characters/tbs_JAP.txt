@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -66,7 +66,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { brilliant_strategist politically_connected trickster trait_engineer }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -117,7 +117,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { bold battleship_adherent superior_tactician spotter }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -391,7 +391,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { gentlemanly }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -417,7 +417,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { politically_connected JAP_samurai_lineage offensive_doctrine }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -442,7 +442,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { navy_career_officer aviation_enthusiast }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -634,7 +634,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { battleship_adherent naval_lineage fly_swatter }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -708,7 +708,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { spotter }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -782,7 +782,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { JAP_samurai_lineage offensive_doctrine }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -832,7 +832,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { old_guard_navy bold ironside }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -865,7 +865,7 @@ characters = {
 			traits = {}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { career_officer infantry_officer trickster }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -921,7 +921,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { trait_reckless }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -994,7 +994,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { brilliant_strategist infantry_officer }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -1053,7 +1053,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { old_guard_navy bold ironside }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -1079,7 +1079,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { bold navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 4
@@ -1105,7 +1105,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { career_officer }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1309,7 +1309,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { politically_connected JAP_samurai_lineage }
 			skill = 4
 			attack_skill = 5
 			defense_skill = 2
@@ -1399,7 +1399,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { inflexible_strategist trait_reckless JAP_samurai_lineage }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -1501,7 +1501,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { trait_reckless infantry_officer }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1543,7 +1543,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { bold navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
@@ -1576,7 +1576,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { old_guard_navy }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -1650,7 +1650,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { battleship_adherent }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -1676,7 +1676,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { navy_career_officer seawolf }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1973,7 +1973,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = {}
+			traits = { career_officer substance_abuser }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 5
@@ -2022,7 +2022,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
@@ -2093,7 +2093,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { career_officer }
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4
@@ -2118,7 +2118,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { politically_connected JAP_samurai_lineage }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -2129,6 +2129,7 @@ characters = {
 	}
 	JAP_satoko_tokano = {
 		name = JAP_satoko_tokano
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_Portrait_JAP_Satoko_Tokano"
@@ -2161,7 +2162,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { inflexible_strategist trait_reckless JAP_samurai_lineage }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
@@ -2272,7 +2273,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { old_guard_navy bold ironside }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -2377,7 +2378,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { career_officer substance_abuser }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -2403,7 +2404,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { old_guard trait_reckless cavalry_officer }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -2466,7 +2467,7 @@ characters = {
 			traits = {}
 		}
 		field_marshal = {
-			traits = {}
+			traits = { JAP_samurai_lineage offensive_doctrine }
 			skill = 5
 			attack_skill = 4
 			defense_skill = 5
@@ -2508,7 +2509,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { bold navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
 			skill = 5
 			attack_skill = 4
 			defense_skill = 4
@@ -2551,7 +2552,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { trait_reckless infantry_officer }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
@@ -2576,7 +2577,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { spotter }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -2602,7 +2603,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { old_guard_navy bold ironside }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -2722,7 +2723,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { politically_connected JAP_samurai_lineage }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -2788,10 +2789,10 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
+			traits = { inflexible_strategist trait_reckless JAP_samurai_lineage }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = -1
@@ -2831,7 +2832,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { gentlemanly }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
@@ -2874,7 +2875,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { old_guard politically_connected JAP_samurai_lineage }
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -2962,7 +2963,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { old_guard_navy }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 2
@@ -3067,7 +3068,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { battleship_adherent naval_lineage fly_swatter }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -3093,7 +3094,7 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = {}
+			traits = { trait_reckless infantry_officer JAP_samurai_lineage trickster }
 			skill=1
 			attack_skill = 1
 			defense_skill = 1
@@ -3215,7 +3216,7 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = {}
+			traits = { career_officer substance_abuser }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
@@ -3402,7 +3403,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { navy_career_officer seawolf }
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -3428,7 +3429,7 @@ characters = {
 			}
 		}
 		navy_leader = {
-			traits = {}
+			traits = { gentlemanly }
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
