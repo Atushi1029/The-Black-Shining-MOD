@@ -7,10 +7,9 @@ state = {
 	state_category = rural
 
 	history = { 
-		owner = RKO
+		owner = RKU
 		add_core_of = BLR
-		add_core_of = RKO
-		set_state_flag = rk_moskowien_core_states
+		add_core_of = RKU
 		buildings = {
 			infrastructure = 2
 			air_base = 3

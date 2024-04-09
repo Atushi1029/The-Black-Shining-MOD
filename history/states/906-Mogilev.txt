@@ -3,9 +3,9 @@ state = {
 	name="STATE_906"
 
 	history = { 
-		owner = RKO
+		owner = RKM
 		add_core_of = BLR
-		add_core_of = RKO
+		add_core_of = RKM
 		set_state_flag = rk_moskowien_core_states
 		victory_points = {
 			9289 5 

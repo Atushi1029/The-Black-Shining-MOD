@@ -1160,7 +1160,6 @@ set_starting_values = {
 		set_technology = {
 			atomic_research = 1
 			nuclear_reactor = 1
-			tbs_nukes = 1
 		}
 	}
 	if = {

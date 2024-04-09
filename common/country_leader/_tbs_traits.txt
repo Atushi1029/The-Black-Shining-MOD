@@ -359,14 +359,6 @@ leader_traits = {
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
-			fighter_equipment = {
-				build_cost_ic = -0.10
-				instant = yes
-			}
-			heavy_fighter_equipment = {
-				build_cost_ic = -0.10
-				instant = yes
-			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -387,14 +379,6 @@ leader_traits = {
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
-			CAS_equipment = {
-				build_cost_ic = -0.10
-				instant = yes
-			}
-			tac_bomber_equipment = {
-				build_cost_ic = -0.10
-				instant = yes
-			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -469,18 +453,6 @@ leader_traits = {
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
-			cv_fighter_equipment = {
-				build_cost_ic = -0.1
-				instant = yes
-			}
-			cv_CAS_equipment = {
-				build_cost_ic = -0.1
-				instant = yes
-			}
-			cv_nav_bomber_equipment = {
-				build_cost_ic = -0.1
-				instant = yes
-			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -548,14 +520,6 @@ leader_traits = {
 		random = no
 		experience_gain_air = 0.03
 		equipment_bonus = {
-			tac_bomber_equipment = {
-				build_cost_ic = -0.1
-				instant = yes
-			}
-			strat_bomber_equipment = {
-				build_cost_ic = -0.1
-				instant = yes
-			}
 		}
 		ai_will_do = {
 			factor = 1
