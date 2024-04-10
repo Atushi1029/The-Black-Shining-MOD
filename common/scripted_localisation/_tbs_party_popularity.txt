@@ -411,8 +411,24 @@ defined_text = {
 		localization_key = grasoc_bureaucratic_socialism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = grasoc_left_populism_ideology }
+		localization_key = grasoc_left_populism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = grasoc_left-wing_ethnicism_ideology }
+		localization_key = grasoc_left-wing_ethnicism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = grasoc_pan-arab_socialism_ideology }
+		localization_key = grasoc_pan-arab_socialism_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = grasoc_planned_socialism_ideology }
 		localization_key = grasoc_planned_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = grasoc_qasimism_ideology }
+		localization_key = grasoc_qasimism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = grasoc_revolutionary_front_ideology }
@@ -427,6 +443,10 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologySocDem
 	#Social Democracy
+	text = {
+		trigger = { has_country_leader_ideology = socdem_democratic_socialism_ideology }
+		localization_key = socdem_democratic_socialism_ideology
+	}
 	text = {
 		trigger = { has_country_leader_ideology = socdem_left_patriotism_ideology }
 		localization_key = socdem_left_patriotism_ideology

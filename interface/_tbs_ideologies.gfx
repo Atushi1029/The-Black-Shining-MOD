@@ -71,8 +71,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/gradual_socialism/bureaucratic_socialism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_grasoc_left_populism_ideology"
+		texturefile = "gfx/interface/ideologies/gradual_socialism/left_populism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_grasoc_left-wing_ethnicism_ideology"
+		texturefile = "gfx/interface/ideologies/gradual_socialism/left-wing_ethnicism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_grasoc_pan-arab_socialism_ideology"
+		texturefile = "gfx/interface/ideologies/gradual_socialism/pan-arab_socialism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_grasoc_planned_socialism_ideology"
 		texturefile = "gfx/interface/ideologies/gradual_socialism/planned_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_grasoc_qasimism_ideology"
+		texturefile = "gfx/interface/ideologies/gradual_socialism/qasimism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_grasoc_revolutionary_front_ideology"
@@ -86,6 +102,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_social_democracy_group"
 		texturefile = "gfx/interface/ideologies/social_democracy/social_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_socdem_democratic_socialism_ideology"
+		texturefile = "gfx/interface/ideologies/social_democracy/democratic_socialism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_socdem_left_patriotism_ideology"

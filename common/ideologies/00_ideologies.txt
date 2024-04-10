@@ -66,7 +66,11 @@ ideologies = {
 			grasoc_anarchy_ideology = { can_be_randomly_selected = no }
 			grasoc_bill_of_rights_socialism_ideology = { can_be_randomly_selected = no }
 			grasoc_bureaucratic_socialism_ideology = { can_be_randomly_selected = no }
+			grasoc_left_populism_ideology = { can_be_randomly_selected = no }
+			grasoc_left-wing_ethnicism_ideology = { can_be_randomly_selected = no }
+			grasoc_pan-arab_socialism_ideology = { can_be_randomly_selected = no }
 			grasoc_planned_socialism_ideology = { can_be_randomly_selected = no }
+			grasoc_qasimism_ideology = { can_be_randomly_selected = no }
 			grasoc_revolutionary_front_ideology = { can_be_randomly_selected = no }
 			grasoc_syndicalism_ideology = { can_be_randomly_selected = no }
 		}
@@ -94,6 +98,7 @@ ideologies = {
 	social_democracy = {
 		types = {
 			social_democracy_ideology = {}
+			socdem_democratic_socialism_ideology = { can_be_randomly_selected = no }
 			socdem_left_patriotism_ideology = { can_be_randomly_selected = no }
 			socdem_peoples_front_ideology = { can_be_randomly_selected = no }
 			socdem_progressive_democracy_ideology = { can_be_randomly_selected = no }
