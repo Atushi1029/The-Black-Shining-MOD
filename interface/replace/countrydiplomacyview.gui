@@ -121,7 +121,7 @@ guiTypes = {
 
 				instantTextboxType = {
 					name = "our_opinion_value"
-					position = { x = 102 y = 0 }
+					position = { x = 102 y = 16 }
 					font = "hoi_16mbs"
 					text = "+50"
 					maxWidth = 30
@@ -138,7 +138,7 @@ guiTypes = {
 
 				instantTextboxType = {
 					name = "their_opinion_value"
-					position = { x = 8 y = 16 }
+					position = { x = 8 y = 0 }
 					font = "hoi_16mbs"
 					text = "-100"
 					maxWidth = 30
