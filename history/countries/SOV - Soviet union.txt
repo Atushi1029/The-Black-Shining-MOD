@@ -1,5 +1,5 @@
 ﻿capital = 214
-oob = "SOV_1972"
+oob = ""
 set_cosmetic_tag = UNIFY_SOVIET_UNION
 set_starting_values = yes
 recruit_character = SOV_alexander_sergeyevich_yakovlev

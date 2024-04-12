@@ -451,7 +451,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ROY_PAINTER_DESC"
-			ideology = national_corporatism_ideology
+			ideology = natcor_british_fascism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}

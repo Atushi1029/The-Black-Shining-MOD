@@ -1,4 +1,0 @@
-focus = {
-	current = SOV_the_old_marshal_and_the_two_heads
-	progress = 0
-}

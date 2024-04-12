@@ -1,5 +1,5 @@
 ﻿capital = 781
-oob = "NGR_1972"
+oob = ""
 set_cosmetic_tag = NGR_republic
 set_starting_values = yes
 recruit_character = NGR_seyni_kountche

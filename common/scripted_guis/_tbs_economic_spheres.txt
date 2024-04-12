@@ -66,7 +66,8 @@ scripted_gui = {
 			}
 		}
 		properties = {
-			economic_sphere_icon = { image = "[ROOT.GetEconomicSphereIcon]" }
+			button_zoom = { image = "[THIS.GetButtonColor]" }
+			economic_sphere_icon = { image = "[GetEconomicSphereIcon]" }
 			country_flag = { image = "[THIS.GetFlag]" }
 		}
 	}
