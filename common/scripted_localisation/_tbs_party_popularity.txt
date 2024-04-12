@@ -444,8 +444,20 @@ defined_text = {
 	name = GetSubIdeologySocDem
 	#Social Democracy
 	text = {
+		trigger = { has_country_leader_ideology = socdem_christian_social_democracy_ideology }
+		localization_key = socdem_christian_social_democracy_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = socdem_democratic_socialism_ideology }
 		localization_key = socdem_democratic_socialism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = socdem_eda_vision_ideology }
+		localization_key = socdem_eda_vision_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = socdem_left_corporatism_ideology }
+		localization_key = socdem_left_corporatism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = socdem_left_patriotism_ideology }
@@ -482,11 +494,15 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_country_leader_ideology = libdem_longism_ideology }
-		localization_key = "libdem_longism_ideology"
+		localization_key = libdem_longism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = libdem_market_liberalism_ideology }
-		localization_key = "libdem_market_liberalism_ideology"
+		localization_key = libdem_market_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libdem_minseito_liberalism_ideology }
+		localization_key = libdem_minseito_liberalism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = libdem_neo_liberalism_ideology }
@@ -498,7 +514,11 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_country_leader_ideology = libdem_social_liberalism_ideology }
-		localization_key = "libdem_social_liberalism_ideology"
+		localization_key = libdem_social_liberalism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libdem_yuaikai_progressivism_ideology }
+		localization_key = libdem_yuaikai_progressivism_ideology
 	}
 	text = { localization_key = liberal_democracy_ideology }
 }
@@ -522,12 +542,20 @@ defined_text = {
 		localization_key = con_left_conservatism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = con_liberal_conservatism_ideology }
+		localization_key = con_liberal_conservatism_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = con_neo_conservatism_ideology }
 		localization_key = con_neo_conservatism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = con_seiyukai_conservative_minpon_shugi_ideology }
+		localization_key = con_seiyukai_conservative_minpon_shugi_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = con_silent_conservatism_ideology }
-		localization_key = "con_silent_conservatism_ideology"
+		localization_key = con_silent_conservatism_ideology
 	}
 	text = { localization_key = conservatism_ideology }
 }
@@ -539,12 +567,20 @@ defined_text = {
 		localization_key = autdem_aristocracy_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = autdem_bureaucratic_admin_ideology }
+		localization_key = autdem_bureaucratic_admin_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = autdem_dixiecratic_democracy_ideology }
-		localization_key = "autdem_dixiecratic_democracy_ideology"
+		localization_key = autdem_dixiecratic_democracy_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = autdem_national_conservatism_ideology }
 		localization_key = autdem_national_conservatism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = autdem_nationalitive_front_ideology }
+		localization_key = autdem_nationalitive_front_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = autdem_royal_democracy_ideology }
@@ -572,8 +608,16 @@ defined_text = {
 		localization_key = pataut_despotic_populism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = pataut_interim_administration_ideology }
+		localization_key = pataut_interim_administration_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = pataut_managerial_state_ideology }
 		localization_key = pataut_managerial_state_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = pataut_military_junta_ideology }
+		localization_key = pataut_military_junta_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = pataut_social_militarism_ideology }
@@ -601,12 +645,24 @@ defined_text = {
 		localization_key = natcor_american_fascism_ideology
 	}
 	text = {
+		trigger = { has_country_leader_ideology = natcor_british_fascism_ideology }
+		localization_key = natcor_british_fascism_ideology
+	}
+	text = {
 		trigger = { has_country_leader_ideology = natcor_fascism_ideology }
 		localization_key = natcor_fascism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = natcor_mythtic_fascism_ideology }
 		localization_key = natcor_mythtic_fascism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = natcor_revolutionary_fascism_ideology }
+		localization_key = natcor_revolutionary_fascism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = natcor_yokusan_fascism_ideology }
+		localization_key = natcor_yokusan_fascism_ideology
 	}
 	text = { localization_key = national_corporatism_ideology }
 }
@@ -616,6 +672,14 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = natsoc_american_nazism_ideology }
 		localization_key = natsoc_american_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = natsoc_foreign_ministry_nazism_ideology }
+		localization_key = natsoc_foreign_ministry_nazism_ideology
+	}
+	text = {
+		trigger = { has_country_leader_ideology = natsoc_national_bolshevism_ideology }
+		localization_key = natsoc_national_bolshevism_ideology
 	}
 	text = {
 		trigger = { has_country_leader_ideology = natsoc_national_syndicalism_ideology }
@@ -634,6 +698,10 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyUltNat
 	#Ultra Nationalism
+	text = {
+		trigger = { has_country_leader_ideology = ultnat_reactionary_militantism_ideology }
+		localization_key = ultnat_reactionary_militantism_ideology
+	}
 	text = {
 		trigger = { has_country_leader_ideology = ultnat_reformed_corporatism_ideology }
 		localization_key = ultnat_reformed_corporatism_ideology

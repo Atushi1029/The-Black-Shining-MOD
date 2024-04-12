@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_AIICHIRO_FUJIYAMA_DESC"
-			ideology = conservatism_ideology
+			ideology = con_seiyukai_conservative_minpon_shugi_ideology
 			expire = "1985.2.22.1"
 			id = -1
 			traits = {}
@@ -1999,7 +1999,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SABURO_EDA_DESC"
-			ideology = socdem_progressive_democracy_ideology
+			ideology = socdem_eda_vision_ideology
 			expire = "1977.5.22.1"
 			id = -1
 			traits = {}
@@ -2219,7 +2219,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SEIJURO_ARAFUNE_DESC"
-			ideology = national_corporatism_ideology
+			ideology = natcor_yokusan_fascism_ideology
 			expire = "1980.11.25.1"
 			id = -1
 			traits = {}
