@@ -4,8 +4,9 @@ state = {
 	name="STATE_192"
 
 	history = { 
-		owner = RKU
-		add_core_of = RKU
+		owner = RPG
+		add_core_of = ROM
+		add_core_of = RPG
 		add_core_of = UKR
 		victory_points = {
 			11670 10 

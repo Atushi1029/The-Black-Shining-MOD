@@ -5,7 +5,7 @@ state = {
 	history = { 
 		owner = ROM
 		add_core_of = ROM
-		add_claim_by = RPG
+		add_core_of = RPG
 		victory_points = {
 			657 3 
 		}

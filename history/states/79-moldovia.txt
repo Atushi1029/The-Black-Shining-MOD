@@ -4,7 +4,9 @@ state = {
 	name="STATE_79"
 
 	history = { 
-		owner = RPG
+		owner = ROM
+		add_core_of = ROM
+		add_core_of = RPG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -17,8 +19,6 @@ state = {
 		victory_points = {
 			6706 1 
 		}
-		add_core_of = ROM
-		add_core_of = RPG
 	}
 
 	provinces = { 
