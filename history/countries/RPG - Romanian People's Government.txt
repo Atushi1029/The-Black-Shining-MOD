@@ -1,4 +1,4 @@
-﻿capital = 79
+﻿capital = 192
 #oob = ""
 set_cosmetic_tag = ROM_peoples_government
 set_starting_values = yes
