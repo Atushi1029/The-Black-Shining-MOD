@@ -34,7 +34,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_JACOBO_ARBENZ_DESC"
-			ideology = pataut_social_militarism_ideology
+			ideology = grasoc_agrarian_socialism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

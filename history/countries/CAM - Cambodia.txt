@@ -12,7 +12,7 @@ add_ideas = {
 set_variable = { eco_sphere_post = 5 }
 1972.1.1 = {
 	set_politics = {
-		ruling_party = social_democracy
+		ruling_party = authoritarian_democracy
 		last_election = "1970.12.17"
 		election_frequency = 72
 		elections_allowed = yes
@@ -21,10 +21,10 @@ set_variable = { eco_sphere_post = 5 }
 		neo_communism = 0
 		totalitarian_socialism = 6
 		gradual_socialism = 4
-		social_democracy = 30
-		liberal_democracy = 10
+		social_democracy = 22
+		liberal_democracy = 5
 		conservatism = 4
-		authoritarian_democracy = 17
+		authoritarian_democracy = 30
 		paternal_autocracy = 19
 		national_corporatism = 10
 		national_socialism = 0

@@ -34,7 +34,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_CHIANG_CHING-KUO_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = autdem_controlled_democracy_ideology
 			expire = "1988.1.13.1"
 			id = -1
 			traits = {}

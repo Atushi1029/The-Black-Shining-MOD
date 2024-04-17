@@ -41,7 +41,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_JUAN_PERON_DESC"
-			ideology = autdem_social_nationalism_ideology
+			ideology = autdem_peronism_ideology
 			expire = "1974.7.1.1"
 			id = -1
 			traits = {}

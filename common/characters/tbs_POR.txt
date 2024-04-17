@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_OTELO_SARAIVA_DE_CARVALHO_DESC"
-			ideology = social_democracy_ideology
+			ideology = socdem_left_patriotism_ideology
 			expire = "2021.7.25.1"
 			id = -1
 			traits = {}

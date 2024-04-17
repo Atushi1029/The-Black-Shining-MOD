@@ -9,10 +9,10 @@ add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = paternal_autocracy
 	last_election = "1972.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	totalitarian_socialism = 20
@@ -20,8 +20,8 @@ set_popularities = {
 	social_democracy = 20
 	liberal_democracy = 0
 	conservatism = 0
-	authoritarian_democracy = 45
-	paternal_autocracy = 0
+	authoritarian_democracy = 0
+	paternal_autocracy = 45
 	national_corporatism = 0
 	national_socialism = 0
 	ultra_nationalism = 0

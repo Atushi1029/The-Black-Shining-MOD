@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KALTHOUMA_NGUEMBANG_DESC"
-			ideology = totsoc_pan_africanism_ideology
+			ideology = totsoc_pan-africanism_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

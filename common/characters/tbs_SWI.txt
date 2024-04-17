@@ -17,28 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-			ideology = social_democracy_ideology
-			expire = "2050.1.1.1"
-			id = -1
-			traits = {}
-		}
-		country_leader = {
-			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-			ideology = liberal_democracy_ideology
-			expire = "2050.1.1.1"
-			id = -1
-			traits = {}
-		}
-		country_leader = {
-			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-			ideology = conservatism_ideology
-			expire = "2050.1.1.1"
-			id = -1
-			traits = {}
-		}
-		country_leader = {
-			desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = autdem_oligarchism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}

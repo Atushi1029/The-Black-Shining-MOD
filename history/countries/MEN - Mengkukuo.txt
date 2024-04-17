@@ -1,5 +1,6 @@
 ﻿capital = 611
 #oob = ""
+set_cosmetic_tag = MEN_united_autonomous_government
 set_starting_values = yes
 recruit_character = MEN_dashiin_damba
 recruit_character = MEN_duguersulong

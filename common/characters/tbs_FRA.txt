@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGES_BIDAULT_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = autdem_nationalitive_front_ideology
 			expire = "1983.1.27.1"
 			id = -1
 			traits = {}

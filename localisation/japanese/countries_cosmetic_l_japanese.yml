@@ -376,6 +376,10 @@
  MAN_state:0 "満州国"
  MAN_state_DEF:0 "満州国"
  MAN_state_ADJ:0 "満州"
+#蒙古国
+ MEN_united_autonomous_government:0 "蒙古連合自治政府"
+ MEN_united_autonomous_government_DEF:0 "蒙古連合自治政府"
+ MEN_united_autonomous_government_ADJ:0 "蒙古"
 #メキシコ
  MEX_united_states:0 "メキシコ合衆国"
  MEX_united_states_DEF:0 "メキシコ合衆国"

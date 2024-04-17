@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGE_HABASH_DESC"
-			ideology = totalitarian_socialism_ideology
+			ideology = totsoc_maoism_ideology
 			expire = "2008.1.26.1"
 			id = -1
 			traits = {}

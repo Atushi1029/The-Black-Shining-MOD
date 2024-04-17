@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_AHMED_SEKOU_TOURE_DESC"
-			ideology = totsoc_pan_africanism_ideology
+			ideology = totsoc_pan-africanism_ideology
 			expire = "1984.3.26.1"
 			id = -1
 			traits = {}
