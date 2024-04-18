@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_IRINA_YUSUPOVA_DESC"
-			ideology = conservatism_ideology
+			ideology = con_liberal_conservatism_ideology
 			expire = "1983.8.30.1"
 			id = -1
 			traits = {}

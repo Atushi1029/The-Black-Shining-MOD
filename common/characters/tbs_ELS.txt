@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ARTURO_ARMANDO_MOLINA_DESC"
-			ideology = conservatism_ideology
+			ideology = con_popular_conservatism_ideology
 			expire = "2021.7.18.1"
 			id = -1
 			traits = {}

@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SAGADAT_NURMAGAMBETOV_DESC"
-			ideology = totalitarian_socialism_ideology
+			ideology = totsoc_left-wing_communism_ideology
 			expire = "2013.9.24.1"
 			id = -1
 			traits = {}

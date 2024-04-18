@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_QAHTAN_MUHAMMAD_AL_SHAABI_DESC"
-			ideology = totalitarian_socialism_ideology
+			ideology = totsoc_marxism_ideology
 			expire = "1981.7.7.1"
 			id = -1
 			traits = {}

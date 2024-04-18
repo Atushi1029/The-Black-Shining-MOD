@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SOBIR_KAMOLOV_DESC"
-			ideology = totalitarian_socialism_ideology
+			ideology = totsoc_stalinism_ideology
 			expire = "1990.6.6.1"
 			id = -1
 			traits = {}

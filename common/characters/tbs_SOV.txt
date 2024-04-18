@@ -204,7 +204,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GEORGY_ZHUKOV_DESC"
-			ideology = totalitarian_socialism_ideology
+			ideology = totsoc_military_communism_ideology
 			expire = "1974.6.18.1"
 			id = -1
 			traits = {}

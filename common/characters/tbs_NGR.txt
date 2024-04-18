@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SEYNI_KOUNTCHE_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = pataut_military_junta_ideology
 			expire = "1987.11.10.1"
 			id = -1
 			traits = {}

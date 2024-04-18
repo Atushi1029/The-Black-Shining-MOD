@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MUSTAFA_OULD_SALEK_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = autdem_parliamentary_developmentalism_ideology
 			expire = "2012.12.18.1"
 			id = -1
 			traits = {}

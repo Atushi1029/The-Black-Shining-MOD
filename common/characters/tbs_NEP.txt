@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_BIRENDRA_DESC"
-			ideology = authoritarian_democracy_ideology
+			ideology = autdem_paternal_conservatism_ideology
 			expire = "2001.6.1.1"
 			id = -1
 			traits = {}
