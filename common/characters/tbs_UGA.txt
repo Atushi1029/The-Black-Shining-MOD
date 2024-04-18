@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_IDI_AMIN_DESC"
-			ideology = ultra_nationalism_ideology
+			ideology = pataut_military_junta_ideology
 			expire = "2003.8.16.1"
 			id = -1
 			traits = {}

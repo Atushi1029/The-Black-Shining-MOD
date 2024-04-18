@@ -8,7 +8,7 @@ add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = ultra_nationalism
+	ruling_party = paternal_autocracy
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -16,8 +16,8 @@ set_politics = {
 set_popularities = {
 	totalitarian_socialism = 8
 	gradual_socialism = 2
-	paternal_autocracy = 10
+	paternal_autocracy = 72
 	national_corporatism = 5
-	ultra_nationalism = 72
+	ultra_nationalism = 10
 	reactionism = 3
 }
