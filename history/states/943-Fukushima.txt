@@ -6,9 +6,7 @@ state = {
 		owner = JAP
 		add_core_of = JAP
 
-		victory_points = {
-			4153 3
-		}
+		
 
 		buildings = {
 			arms_factory = 1
@@ -20,7 +18,7 @@ state = {
 	}
 
 	provinces = { 
-		1024 4118 4122 4153 
+		1024 1113 4118 4122 
 	}
 	manpower=3200000
 	buildings_max_level_factor=1.000
