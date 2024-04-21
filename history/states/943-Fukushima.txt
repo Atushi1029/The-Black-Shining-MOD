@@ -6,7 +6,9 @@ state = {
 		owner = JAP
 		add_core_of = JAP
 
-		
+		victory_points = {
+			1024 2
+		}
 
 		buildings = {
 			arms_factory = 1

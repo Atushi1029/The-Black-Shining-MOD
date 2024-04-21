@@ -14,18 +14,13 @@ state = {
 			dockyard = 1
 			industrial_complex = 2
 		}
-		
 		victory_points = {
-			7087 3 
-		}
-		
-		victory_points = {
-			10125 25
+			10125 35
 		}
 	}
 
 	provinces = { 
-		4172 7087 7157 7187 7217 10125 12072 12097 13334 13336
+		10125 13334
 	}
 
 	local_supplies=0.0 

@@ -14,25 +14,14 @@ state = {
 			fuel_silo = 1
 			infrastructure = 2
 			air_base = 6
-			9859 = {
-				naval_base = 6
-
-			}
-
 		}
 		victory_points = {
-			6994 5 
-		}
-		victory_points = {
-			7169 15 
-		}
-		victory_points = {
-			4153 3
+			1063 5
 		}
 	}
 
 	provinces = { 
-		1063 1165 3848 4067 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 13342
+		1063 3848 9865 12056
 	}
 	manpower=3375000
 	buildings_max_level_factor=1.000

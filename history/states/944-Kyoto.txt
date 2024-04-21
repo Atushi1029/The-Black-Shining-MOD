@@ -5,14 +5,6 @@ state = {
 	history = { 
 		owner = JAP
 		add_core_of = JAP
-
-		victory_points = {
-			1067 15 
-		}
-		victory_points = {
-			12031 5
-		}
-
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -24,11 +16,13 @@ state = {
 			}
 
 		}
-
+		victory_points = {
+			13332 40
+		}
 	}
 
 	provinces = { 
-		1067 1136 4142 9985 12031 13329 13332
+		1136 13332
 	}
 	manpower=4002000
 	buildings_max_level_factor=1.000
