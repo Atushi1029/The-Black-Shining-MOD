@@ -4,9 +4,17 @@ spriteTypes = {
 		name = "GFX_idea_PAL_George_Habash"
 		texturefile = "gfx/interface/advisors/PAL/idea_PAL_George_Habash.png"
 	}
+	spriteType = {
+		name = "GFX_idea_PAL_yasser_arafat"
+		texturefile = "gfx/interface/advisors/PAL/idea_PAL_yasser_arafat.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_PAL_George_Habash"
 		texturefile = "gfx/leaders/PAL/Portrait_PAL_George_Habash.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_PAL_Yasser_Arafat"
+		texturefile = "gfx/leaders/PAL/Portrait_PAL_Yasser_Arafat.png"
 	}
 }

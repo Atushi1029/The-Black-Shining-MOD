@@ -26,3 +26,4 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+give_military_access = ITA

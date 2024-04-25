@@ -23,4 +23,28 @@ characters = {
 			traits = {}
 		}
 	}
+	PAL_yasser_arafat = {
+		name = PAL_yasser_arafat
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PAL_Yasser_Arafat"
+				small = "GFX_idea_PAL_yasser_arafat"
+			}
+			army = {
+				large = "GFX_Portrait_PAL_Yasser_Arafat"
+				small = "GFX_idea_PAL_yasser_arafat"
+			}
+			navy = {
+				large = "GFX_Portrait_PAL_Yasser_Arafat"
+				small = "GFX_idea_PAL_yasser_arafat"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YASSER_ARAFAT_DESC"
+			ideology = pataut_civilian_dictatorship_ideology
+			expire = "2004.11.11.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

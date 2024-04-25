@@ -2,7 +2,7 @@
 state = { 
 	id=674
 	name="STATE_674"
-	impassable = no
+	impassable = yes
 
 	history = { 
 		owner = AST

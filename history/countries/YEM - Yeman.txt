@@ -26,3 +26,7 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+#Embargo
+send_embargo = JOR
+send_embargo = OMA
+send_embargo = SAU

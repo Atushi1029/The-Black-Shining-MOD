@@ -1,4 +1,21 @@
 characters = {
+	CAM_heng_samrin = {
+		name = CAM_heng_samrin
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CAM_Heng_Samrin"
+				small = "GFX_idea_CAM_heng_samrin"
+			}
+			army = {
+				large = "GFX_Portrait_CAM_Heng_Samrin"
+				small = "GFX_idea_CAM_heng_samrin"
+			}
+			navy = {
+				large = "GFX_Portrait_CAM_Heng_Samrin"
+				small = "GFX_idea_CAM_heng_samrin"
+			}
+		}
+	}
 	CAM_ieu_koeus = {
 		name = CAM_ieu_koeus
 		portraits = {
@@ -23,6 +40,23 @@ characters = {
 			traits = {}
 		}
 	}
+	CAM_lon_nol = {
+		name = CAM_lon_nol
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CAM_Lon_Nol"
+				small = "GFX_idea_CAM_lon_nol"
+			}
+			army = {
+				large = "GFX_Portrait_CAM_Lon_Nol"
+				small = "GFX_idea_CAM_lon_nol"
+			}
+			navy = {
+				large = "GFX_Portrait_CAM_Lon_Nol"
+				small = "GFX_idea_CAM_lon_nol"
+			}
+		}
+	}
 	CAM_norodom_sihanouk = {
 		name = CAM_norodom_sihanouk
 		portraits = {
@@ -40,6 +74,23 @@ characters = {
 			}
 		}
 	}
+	CAM_pol_pot = {
+		name = CAM_pol_pot
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CAM_Pol_Pot"
+				small = "GFX_idea_CAM_pol_pot"
+			}
+			army = {
+				large = "GFX_Portrait_CAM_Pol_Pot"
+				small = "GFX_idea_CAM_pol_pot"
+			}
+			navy = {
+				large = "GFX_Portrait_CAM_Pol_Pot"
+				small = "GFX_idea_CAM_pol_pot"
+			}
+		}
+	}
 	CAM_son_ngoc_thanh = {
 		name = CAM_son_ngoc_thanh
 		portraits = {
@@ -54,6 +105,40 @@ characters = {
 			navy = {
 				large = "GFX_Portrait_CAM_Son_Ngoc_Thanh"
 				small = "GFX_idea_CAM_son_ngoc_thanh"
+			}
+		}
+	}
+	CAM_son_sann = {
+		name = CAM_son_sann
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CAM_Son_Sann"
+				small = "GFX_idea_CAM_son_sann"
+			}
+			army = {
+				large = "GFX_Portrait_CAM_Son_Sann"
+				small = "GFX_idea_CAM_son_sann"
+			}
+			navy = {
+				large = "GFX_Portrait_CAM_Son_Sann"
+				small = "GFX_idea_CAM_son_sann"
+			}
+		}
+	}
+	CAM_tou_samouth = {
+		name = CAM_tou_samouth
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CAM_Tou_Samouth"
+				small = "GFX_idea_CAM_tou_samouth"
+			}
+			army = {
+				large = "GFX_Portrait_CAM_Tou_Samouth"
+				small = "GFX_idea_CAM_tou_samouth"
+			}
+			navy = {
+				large = "GFX_Portrait_CAM_Tou_Samouth"
+				small = "GFX_idea_CAM_tou_samouth"
 			}
 		}
 	}

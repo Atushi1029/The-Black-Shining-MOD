@@ -251,6 +251,10 @@ diplomatic_relation = {
 #Guarantees
 give_guarantee = BPF
 give_guarantee = DRV
+#Embargo
+send_embargo = BSL
+send_embargo = LAO
+send_embargo = SIA
 set_variable = { yokusankai_recommended = 430 }
 JAP_yokusan_election_recalculation = yes
 country_event = {

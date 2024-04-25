@@ -28,3 +28,5 @@ set_popularities = {
 	reactionism = 0
 }
 set_variable = { eco_sphere_post = 6 }
+#Embargo
+send_embargo = RAJ

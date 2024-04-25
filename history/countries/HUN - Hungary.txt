@@ -32,3 +32,8 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+diplomatic_relation = {
+	country = ROM
+	relation = non_aggression_pact
+	active = yes
+}

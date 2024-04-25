@@ -21,3 +21,23 @@ set_popularities = {
 	authoritarian_democracy = 10
 	paternal_autocracy = 25
 }
+#Non Aggression Pacts
+diplomatic_relation = {
+	country = IRQ
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = PAL
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = YEM
+	relation = non_aggression_pact
+	active = yes
+}
+#Embargo
+send_embargo = JOR
+send_embargo = OMA
+send_embargo = SAU

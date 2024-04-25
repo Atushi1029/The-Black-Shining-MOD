@@ -152,7 +152,22 @@ set_autonomy = {
 }
 #Non Aggression Pacts
 diplomatic_relation = {
+	country = AFG
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = BRM
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
 	country = BUL
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = PER
 	relation = non_aggression_pact
 	active = yes
 }
@@ -173,6 +188,11 @@ diplomatic_relation = {
 }
 #Docking Rights
 diplomatic_relation = {
+	country = BRM
+	relation = docking_rights
+	active = yes
+}
+diplomatic_relation = {
 	country = FIN
 	relation = docking_rights
 	active = yes
@@ -183,14 +203,25 @@ diplomatic_relation = {
 	active = yes
 }
 diplomatic_relation = {
+	country = PER
+	relation = docking_rights
+	active = yes
+}
+diplomatic_relation = {
 	country = SPR
 	relation = docking_rights
 	active = yes
 }
 #Guarantees
+give_guarantee = AFG
 give_guarantee = FIN
 give_guarantee = GBR
+give_guarantee = PER
+give_guarantee = SER
 give_guarantee = SPR
+#Embargo
+send_embargo = ITA
+send_embargo = SOV
 country_event = {
 	id = tbs_skelton.2
 	days = 800

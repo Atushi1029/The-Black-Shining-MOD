@@ -30,3 +30,5 @@ set_popularities = {
 	reactionism = 0
 }
 add_to_array = { global.russian_warlords = RUS }
+#Embargo
+send_embargo = SOV

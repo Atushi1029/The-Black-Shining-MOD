@@ -2,9 +2,14 @@
 #oob = ""
 set_cosmetic_tag = CAM_kingdom
 set_starting_values = yes
+recruit_character = CAM_heng_samrin
 recruit_character = CAM_ieu_koeus
+recruit_character = CAM_lon_nol
 recruit_character = CAM_norodom_sihanouk
+recruit_character = CAM_pol_pot
 recruit_character = CAM_son_ngoc_thanh
+recruit_character = CAM_son_sann
+recruit_character = CAM_tou_samouth
 set_convoys = 20
 add_ideas = {
 	

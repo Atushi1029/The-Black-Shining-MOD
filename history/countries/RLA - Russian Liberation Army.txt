@@ -43,4 +43,8 @@ set_popularities = {
 	reactionism = 0
 }
 add_to_array = { global.russian_warlords = RLA }
+#Military Access
 give_military_access = GER
+#Embargo
+send_embargo = RUS
+send_embargo = SOV

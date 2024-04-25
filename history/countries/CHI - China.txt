@@ -31,3 +31,14 @@ set_popularities = {
 	ultra_nationalism = 5
 	reactionism = 0
 }
+#Guarantees
+give_guarantee = TIB
+#Non Aggression Pacts
+diplomatic_relation = {
+	country = TIB
+	relation = non_aggression_pact
+	active = yes
+}
+#Embargo
+send_embargo = PRC
+send_embargo = SIK

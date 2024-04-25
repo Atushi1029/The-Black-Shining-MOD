@@ -1,28 +1,68 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
+		name = "GFX_idea_CAM_heng_samrin"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_heng_samrin.png"
+	}
+	spriteType = {
 		name = "GFX_idea_CAM_ieu_koeus"
 		texturefile = "gfx/interface/advisors/CAM/idea_CAM_ieu_koeus.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CAM_lon_nol"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_lon_nol.png"
 	}
 	spriteType = {
 		name = "GFX_idea_CAM_norodom_sihanouk"
 		texturefile = "gfx/interface/advisors/CAM/idea_CAM_norodom_sihanouk.png"
 	}
 	spriteType = {
+		name = "GFX_idea_CAM_pol_pot"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_pol_pot.png"
+	}
+	spriteType = {
 		name = "GFX_idea_CAM_son_ngoc_thanh"
 		texturefile = "gfx/interface/advisors/CAM/idea_CAM_son_ngoc_thanh.png"
 	}
+	spriteType = {
+		name = "GFX_idea_CAM_son_sann"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_son_sann.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CAM_tou_samouth"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_tou_samouth.png"
+	}
 	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_CAM_Heng_Samrin"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Heng_Samrin.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_CAM_Ieu_Koeus"
 		texturefile = "gfx/leaders/CAM/Portrait_CAM_Ieu_Koeus.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CAM_Lon_Nol"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Lon_Nol.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_CAM_Norodom_Sihanouk"
 		texturefile = "gfx/leaders/CAM/Portrait_CAM_Norodom_Sihanouk.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_CAM_Pol_Pot"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Pol_Pot.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_CAM_Son_Ngoc_Thanh"
 		texturefile = "gfx/leaders/CAM/Portrait_CAM_Son_Ngoc_Thanh.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CAM_Son_Sann"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Son_Sann.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CAM_Tou_Samouth"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Tou_Samouth.png"
 	}
 }

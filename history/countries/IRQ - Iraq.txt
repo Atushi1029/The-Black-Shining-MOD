@@ -27,3 +27,19 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+#Embargo
+send_embargo = JOR
+send_embargo = OMA
+send_embargo = SAU
+send_embargo = TUR
+#Non Aggression Pacts
+diplomatic_relation = {
+	country = PAL
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = YEM
+	relation = non_aggression_pact
+	active = yes
+}

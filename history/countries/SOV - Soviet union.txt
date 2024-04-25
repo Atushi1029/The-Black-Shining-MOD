@@ -64,3 +64,24 @@ set_popularities = {
 	reactionism = 0
 }
 add_to_array = { global.russian_warlords = SOV }
+#Non Aggression Pacts
+diplomatic_relation = {
+	country = KAZ
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = TAJ
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = TMS
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = UZB
+	relation = non_aggression_pact
+	active = yes
+}

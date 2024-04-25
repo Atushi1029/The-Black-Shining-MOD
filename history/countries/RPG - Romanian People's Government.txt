@@ -26,3 +26,4 @@ declare_war_on = {
 	target = ROM
 	type = annex_everything
 }
+give_military_access = GER

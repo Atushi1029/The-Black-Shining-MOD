@@ -72,7 +72,12 @@ set_popularities = {
 }
 set_variable = { eco_sphere_post = 6 }
 add_to_array = { global.russian_warlords = FER }
+#Military Access
 give_military_access = JAP
+#Embargo
+send_embargo = RLA
+send_embargo = RUS
+send_embargo = SOV
 country_event = {
 	id = tbs_skelton.0
 	days = 480
