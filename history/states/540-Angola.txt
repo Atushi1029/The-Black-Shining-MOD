@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = { 
-		owner = MAF
+		owner = POR
 		buildings = {
 			infrastructure = 1
 			8248 = {
@@ -20,7 +20,7 @@ state = {
 			10966 1 
 		}
 		add_core_of = ANG
-		add_core_of = MAF
+		add_claim_by = POR
 	}
 
 	provinces = { 

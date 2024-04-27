@@ -15,6 +15,13 @@ characters = {
 				small = "GFX_idea_GUA_carlos_manuel_arana_osorio"
 			}
 		}
+		country_leader = {
+			desc = "POLITICS_CARLOS_MANUEL_ARANA_OSORIO_DESC"
+			ideology = pataut_developmental_dictatorship_ideology
+			expire = "2003.12.6.1"
+			id = -1
+			traits = {}
+		}
 	}
 	GUA_jacobo_arbenz = {
 		name = GUA_jacobo_arbenz
@@ -31,13 +38,6 @@ characters = {
 				large = "GFX_Portrait_GUA_Jacobo_Arbenz"
 				small = "GFX_idea_GUA_jacobo_arbenz"
 			}
-		}
-		country_leader = {
-			desc = "POLITICS_JACOBO_ARBENZ_DESC"
-			ideology = grasoc_agrarian_socialism_ideology
-			expire = "1989.1.1.1"
-			id = -1
-			traits = {}
 		}
 	}
 }

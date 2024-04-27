@@ -7,8 +7,8 @@ state = {
 	state_category = pastoral
 
 	history = { 
-		owner = GYA
-		add_core_of = GYA
+		owner = WIF
+		add_core_of = WIF
 		buildings = {
 			infrastructure = 1
 			12885 = {

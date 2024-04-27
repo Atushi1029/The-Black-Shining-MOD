@@ -1,6 +1,6 @@
-﻿capital = 429
+﻿capital = 427
 #oob = ""
-set_cosmetic_tag = DRV_republic
+set_cosmetic_tag = DRV_kingdom
 set_starting_values = yes
 recruit_character = DRV_v_k_krishna_menon
 set_convoys = 20

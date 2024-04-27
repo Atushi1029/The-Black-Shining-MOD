@@ -12,6 +12,7 @@ state = {
 		}
 		owner = RAJ
 		add_core_of = RAJ
+		add_claim_by = DRV
 		buildings = {
 			infrastructure = 1
 		}

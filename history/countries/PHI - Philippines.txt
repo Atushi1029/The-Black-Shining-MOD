@@ -1,6 +1,6 @@
 ﻿capital = 327
 #oob = ""
-set_cosmetic_tag = PHI_army_of_14_area
+set_cosmetic_tag = PHI_republic
 set_starting_values = yes
 recruit_character = PHI_hong_sa-ik
 recruit_character = PHI_ritsu_ito

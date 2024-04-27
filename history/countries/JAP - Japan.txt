@@ -179,13 +179,14 @@ set_variable = { JAP_YSK_mushozoku = 0 }
 set_variable = { JAP_YPE_lobby_progbar = 0 }
 #Diplomatic
 create_faction = JAP_geacps
+add_to_faction = BPF
 add_to_faction = CAM
+add_to_faction = DRV
 add_to_faction = INS
 add_to_faction = JAP
 add_to_faction = MAL
 add_to_faction = MAN
 add_to_faction = MEN
-add_to_faction = PHI
 add_to_faction = REA
 add_to_faction = STO
 add_to_faction = VIN
@@ -193,8 +194,6 @@ every_country = {
 	limit = {
 		OR = {
 			is_in_faction_with = JAP
-			original_tag = BPF
-			original_tag = DRV
 			original_tag = FER
 		}
 	}
@@ -228,29 +227,20 @@ set_autonomy = {
 }
 #Non Aggression Pacts
 diplomatic_relation = {
-	country = BPF
-	relation = non_aggression_pact
-	active = yes
-}
-diplomatic_relation = {
-	country = DRV
-	relation = non_aggression_pact
-	active = yes
-}
-diplomatic_relation = {
 	country = FER
 	relation = non_aggression_pact
 	active = yes
 }
-#Docking Rights
 diplomatic_relation = {
-	country = DRV
-	relation = docking_rights
+	country = PRC
+	relation = non_aggression_pact
 	active = yes
 }
-#Guarantees
-give_guarantee = BPF
-give_guarantee = DRV
+diplomatic_relation = {
+	country = SIK
+	relation = non_aggression_pact
+	active = yes
+}
 #Embargo
 send_embargo = BSL
 send_embargo = LAO

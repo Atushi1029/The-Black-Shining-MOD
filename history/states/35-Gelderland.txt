@@ -5,8 +5,8 @@ state = {
 
 	history = { 
 		owner = NID
-		add_core_of = HOL
 		add_core_of = NID
+		add_claim_by = HOL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 5

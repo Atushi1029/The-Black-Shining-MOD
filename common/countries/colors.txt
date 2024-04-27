@@ -216,8 +216,8 @@ PER = {
 	color_ui = rgb { 71 113 97 }
 }
 PHI = {
-	color = rgb { 43 43 186 }
-	color_ui = rgb { 43 43 186 }
+	color = rgb { 130 74 130 }
+	color_ui = rgb { 130 74 130 }
 }
 PRU = {
 	color = rgb { 196 189 204 }
@@ -1195,6 +1195,10 @@ VOL = {
 WES = {
 	color = rgb { 140 71 71 }
 	color_ui = rgb { 140 71 71 }
+}
+WIF = {
+	color = rgb { 80 80 150 }
+	color_ui = rgb { 80 80 150 }
 }
 WLA = {
 	color = rgb { 0 0 0 }

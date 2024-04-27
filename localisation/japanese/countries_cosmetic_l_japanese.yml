@@ -212,9 +212,9 @@
  DOM_republic_DEF:0 "ドミニカ共和国"
  DOM_republic_ADJ:0 "ドミニカ"
 #Dravidistan
- DRV_republic:0 "ドラヴィディスタン共和国"
- DRV_republic_DEF:0 "ドラヴィディスタン共和国"
- DRV_republic_ADJ:0 "ドラヴィディスタン"
+ DRV_kingdom:0 "ドラヴィディスタン王国"
+ DRV_kingdom_DEF:0 "ドラヴィディスタン王国"
+ DRV_kingdom_ADJ:0 "ドラヴィディスタン"
 #東アジア
  EAST_ASIA_IJSAR:0 "日本領東亜特別行政区"
  EAST_ASIA_IJSAR_DEF:0 "帝国直轄領東アジア特別行政区"
@@ -306,6 +306,10 @@
  HAI_republic:0 "ハイチ共和国"
  HAI_republic_DEF:0 "ハイチ共和国"
  HAI_republic_ADJ:0 "ハイチ"
+#オランダ
+ HOL_exiled_government:0 "オランダ亡命政府"
+ HOL_exiled_government_DEF:0 "オランダ亡命政府"
+ HOL_exiled_government_ADJ:0 "オランダ"
 #ホンジュラス
  HON_republic:0 "ホンジュラス共和国"
  HON_republic_DEF:0 "ホンジュラス共和国"
@@ -457,9 +461,6 @@
  PER_republic_DEF:0 "ペルシア共和国"
  PER_republic_ADJ:0 "ペルシア"
 #フィリピン
- PHI_army_of_14_area:0 "第14方面軍統治領フィリピン"
- PHI_army_of_14_area_DEF:0 "第14方面軍統治領フィリピン"
- PHI_army_of_14_area_ADJ:0 "フィリピン"
  PHI_republic:0 "フィリピン共和国"
  PHI_republic_DEF:0 "フィリピン共和国"
  PHI_republic_ADJ:0 "フィリピン"
@@ -623,6 +624,10 @@
  VIN_empire:0 "ベトナム帝国"
  VIN_empire_DEF:0 "ベトナム帝国"
  VIN_empire_ADJ:0 "ベトナム"
+#西インド諸島
+ WIF_federation:0 "西インド諸島連邦"
+ WIF_federation_DEF:0 "西インド諸島連邦"
+ WIF_federation_ADJ:0 "西インド諸島"
 #イエメン
  YEM_republic:0 "イエメン共和国"
  YEM_republic_DEF:0 "イエメン共和国"

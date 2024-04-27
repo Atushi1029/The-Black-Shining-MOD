@@ -5,8 +5,8 @@ state = {
 	state_category = small_island
 
 	history = { 
-		owner = USA
-		add_core_of = USA
+		owner = WIF
+		add_core_of = WIF
 		buildings = {
 			infrastructure = 2
 			11350 = {

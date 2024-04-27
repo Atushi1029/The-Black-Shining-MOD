@@ -9,8 +9,9 @@ state = {
 		rubber=1 # was: 1
 	}
 	history = { 
-		owner = GNA
+		owner = POR
 		add_core_of = GNA
+		add_claim_by = POR
 		victory_points = {
 			12891 1
 		}

@@ -8,8 +8,8 @@ state = {
 
 	history = { 
 		owner = NID
-		add_core_of = HOL
 		add_core_of = NID
+		add_claim_by = HOL
 		victory_points = {
 			391 40 
 		}
