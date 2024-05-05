@@ -1,7 +1,7 @@
 state = { 
 	id=287
 	name="STATE_287"
-	impassable = no
+	impassable = yes
 	history = { 
 		owner = SIK
 		add_core_of = SIK

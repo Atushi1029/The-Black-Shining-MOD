@@ -6,7 +6,6 @@ state = {
 		owner = BNF
 		add_core_of = BNF
 		add_core_of = FRA
-		set_state_flag = burgundy_old_core_states
 		victory_points = {
 			575 5 
 		}

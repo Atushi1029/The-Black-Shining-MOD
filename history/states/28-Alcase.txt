@@ -51,7 +51,6 @@ state = {
 		}
 		add_core_of = FRA
 		add_core_of = GER
-		set_state_flag = burgundy_old_core_states
 	}
 
 	provinces = { 

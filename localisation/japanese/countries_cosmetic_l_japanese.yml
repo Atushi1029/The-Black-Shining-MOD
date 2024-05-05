@@ -96,6 +96,10 @@
  RKU_GER_autonomy_reichskommissariat:0 "ウクライネ国家弁務官区"
  RKU_GER_autonomy_reichskommissariat_DEF:0 "ウクライネ国家弁務官区"
  RKU_GER_autonomy_reichskommissariat_ADJ:0 "ウクライネ"
+#アンドラ
+ ADR_duchy:0 "アンドラ公国"
+ ADR_duchy_DEF:0 "アンドラ公国"
+ ADR_duchy_ADJ:0 "アンドラ"
 #アフガニスタン
  AFG_kingdom:0 "アフガニスタン王国"
  AFG_kingdom_DEF:0 "アフガニスタン王国"
@@ -380,6 +384,10 @@
  MAN_state:0 "満州国"
  MAN_state_DEF:0 "満州国"
  MAN_state_ADJ:0 "満州"
+#モナコ
+ MCO_duchy:0 "モナコ公国"
+ MCO_duchy_DEF:0 "モナコ公国"
+ MCO_duchy_ADJ:0 "モナコ"
 #蒙古国
  MEN_united_autonomous_government:0 "蒙古連合自治政府"
  MEN_united_autonomous_government_DEF:0 "蒙古連合自治政府"
@@ -605,6 +613,10 @@
  USA_united_states:0 "アメリカ合衆国"
  USA_united_states_DEF:0 "アメリカ合衆国"
  USA_united_states_ADJ:0 "アメリカ"
+#トルキスタン軍団
+ UTL_legion:0 "トルキスタン軍団"
+ UTL_legion_DEF:0 "トルキスタン軍団"
+ UTL_legion_ADJ:0 "トルキスタン"
 #ウズベキスタン
  UZB_socialist_republic:0 "ウズベキスタン社会主義共和国"
  UZB_socialist_republic_DEF:0 "ウズベキスタン社会主義共和国"

@@ -528,8 +528,8 @@ VLA = {
 	color_ui = rgb { 204 163 0 }
 }
 KKP = {
-	color = rgb { 255 128 0 }
-	color_ui = rgb { 204 102 0 }
+	color = rgb { 150 98 0 }
+	color_ui = rgb { 150 98 0 }
 }
 YAM = {
 	color = rgb { 153 115 0 }
@@ -656,6 +656,10 @@ ADU = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 204 0 0 }
 }
+ADR = {
+	color = rgb { 140 39 39 }
+	color_ui = rgb { 140 39 39 }
+}
 ALG = {
 	color = rgb { 64 76 77 }
 	color_ui = rgb { 64 76 77 }
@@ -671,6 +675,10 @@ BAN = {
 BAS = {
 	color = rgb { 0 76 153 }
 	color_ui = rgb { 0 76 153 }
+}
+BHR = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 BLZ = {
 	color = rgb { 30 63 165 }
@@ -852,6 +860,10 @@ HAW = {
 	color = rgb { 239 239 0 }
 	color_ui = rgb { 239 239 0 }
 }
+HKG = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 HRZ = {
 	color = rgb { 255 111 84 }
 	color_ui = rgb { 255 111 84 }
@@ -913,8 +925,12 @@ KUW = {
 	color_ui = rgb { 255 0 0 }
 }
 KYR = {
-	color = rgb { 220 60 60 }
-	color_ui = rgb { 220 60 60 }
+	color = rgb { 150 90 90 }
+	color_ui = rgb { 150 90 90 }
+}
+LIE = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 MAC = {
 	color = rgb { 139 0 0 }
@@ -929,6 +945,14 @@ MAF = {
 	color_ui = hsv { 0.1 0.15 0.4 }
 }
 MAY = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+MCO = {
+	color = rgb { 160 145 145 }
+	color_ui = rgb { 160 145 145 }
+}
+MCU = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
@@ -1104,6 +1128,10 @@ SMI = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
+SMR = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 SOL = {
 	color = rgb { 106 119 89 }
 	color_ui = rgb { 106 119 89 }
@@ -1175,6 +1203,10 @@ UGA = {
 USB = {
 	color = rgb { 81 86 106 }
 	color_ui = rgb { 81 86 106 }
+}
+UTL = {
+	color = rgb { 132 108 132 }
+	color_ui = rgb { 132 108 132 }
 }
 UZB = {
 	color = rgb { 155 43 64 }
