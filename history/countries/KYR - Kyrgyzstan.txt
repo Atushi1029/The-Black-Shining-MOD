@@ -1,6 +1,6 @@
 ﻿capital = 732
 #oob = ""
-#set_cosmetic_tag = 
+set_cosmetic_tag = KYR_soviet_socialist_republic
 set_starting_values = yes
 #recruit_character = 
 set_convoys = 20

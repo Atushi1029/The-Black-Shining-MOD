@@ -142,6 +142,10 @@
  BRM_salvation_legion:0 "ビルマ救国軍団"
  BRM_salvation_legion_DEF:0 "ビルマ救国軍団"
  BRM_salvation_legion_ADJ:0 "ビルマ"
+#ブハラ
+ BUK_khanate:0 "ブハラ・ハン国"
+ BUK_khanate_DEF:0 "ブハラ・ハン国"
+ BUK_khanate_ADJ:0 "ブハラ"
 #ブルガリア
  BUL_kingdom:0 "ブルガリア王国"
  BUL_kingdom_DEF:0 "ブルガリア王国"
@@ -361,6 +365,14 @@
  KHI_khanate:0 "ヒヴァ・ハン国"
  KHI_khanate_DEF:0 "ヒヴァ・ハン国"
  KHI_khanate_ADJ:0 "ヒヴァ"
+#カラカルパクスタン
+ KKP_soviet_socialist_republic:0 "カラカルパク・ソビエト社会主義共和国"
+ KKP_soviet_socialist_republic_DEF:0 "カラカルパク・ソビエト社会主義共和国"
+ KKP_soviet_socialist_republic_ADJ:0 "カラカルパクスタン"
+#キルギスタン
+ KYR_soviet_socialist_republic:0 "キルギス・ソビエト社会主義共和国"
+ KYR_soviet_socialist_republic_DEF:0 "キルギス・ソビエト社会主義共和国"
+ KYR_soviet_socialist_republic_ADJ:0 "キルギスタン"
 #ラオス
  LAO_kingdom:0 "ラオス王国"
  LAO_kingdom_DEF:0 "ラオス王国"
