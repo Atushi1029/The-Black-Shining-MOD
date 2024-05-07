@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_ADR_joan_marti_i_alanis"
+		texturefile = "gfx/interface/advisors/ADR/idea_ADR_joan_marti_i_alanis.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_ADR_Joan_Marti_i_Alanis"
+		texturefile = "gfx/leaders/ADR/Portrait_ADR_Joan_Marti_i_Alanis.png"
+	}
+}

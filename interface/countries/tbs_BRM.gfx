@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/BRM/idea_BRM_ne_win.png"
 	}
 	spriteType = {
+		name = "GFX_idea_BRM_u_nu"
+		texturefile = "gfx/interface/advisors/BRM/idea_BRM_u_nu.png"
+	}
+	spriteType = {
 		name = "GFX_idea_BRM_u_saw"
 		texturefile = "gfx/interface/advisors/BRM/idea_BRM_u_saw.png"
 	}
@@ -36,6 +40,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_BRM_Ne_Win"
 		texturefile = "gfx/leaders/BRM/Portrait_BRM_Ne_Win.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_BRM_U_Nu"
+		texturefile = "gfx/leaders/BRM/Portrait_BRM_U_Nu.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_BRM_U_Saw"

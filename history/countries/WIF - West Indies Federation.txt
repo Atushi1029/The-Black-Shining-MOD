@@ -2,6 +2,8 @@
 #oob = ""
 set_cosmetic_tag = WIF_federation
 set_starting_values = yes
+recruit_character = WIF_eric_williams
+recruit_character = WIF_errol_barrow
 recruit_character = WIF_michael_manley
 set_convoys = 20
 add_ideas = {

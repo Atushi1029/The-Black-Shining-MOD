@@ -1,0 +1,26 @@
+characters = {
+	ADR_joan_marti_i_alanis = {
+		name = ADR_joan_marti_i_alanis
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ADR_Joan_Marti_i_Alanis"
+				small = "GFX_idea_ADR_joan_marti_i_alanis"
+			}
+			army = {
+				large = "GFX_Portrait_ADR_Joan_Marti_i_Alanis"
+				small = "GFX_idea_ADR_joan_marti_i_alanis"
+			}
+			navy = {
+				large = "GFX_Portrait_ADR_Joan_Marti_i_Alanis"
+				small = "GFX_idea_ADR_joan_marti_i_alanis"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOAN_MARTI_I_ALANIS_DESC"
+			ideology = pataut_mythticism_ideology
+			expire = "2009.10.11.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

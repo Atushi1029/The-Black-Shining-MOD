@@ -74,6 +74,23 @@ characters = {
 			traits = {}
 		}
 	}
+	BRM_u_nu = {
+		name = BRM_u_nu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BRM_U_Nu"
+				small = "GFX_idea_BRM_u_nu"
+			}
+			army = {
+				large = "GFX_Portrait_BRM_U_Nu"
+				small = "GFX_idea_BRM_u_nu"
+			}
+			navy = {
+				large = "GFX_Portrait_BRM_U_Nu"
+				small = "GFX_idea_BRM_u_nu"
+			}
+		}
+	}
 	BRM_u_saw = {
 		name = BRM_u_saw
 		portraits = {
