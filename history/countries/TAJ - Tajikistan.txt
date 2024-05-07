@@ -19,3 +19,10 @@ set_popularities = {
 	social_democracy = 5
 	authoritarian_democracy = 10
 }
+#Factions
+create_faction = TAJ_comintern_central_asian_front
+add_to_faction = KKP
+add_to_faction = KYR
+add_to_faction = TAJ
+add_to_faction = TMS
+add_to_faction = UZB

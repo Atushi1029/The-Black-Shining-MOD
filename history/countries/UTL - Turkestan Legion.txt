@@ -27,3 +27,10 @@ set_popularities = {
 	ultra_nationalism = 0
 	reactionism = 0
 }
+#Embargo
+send_embargo = TMS
+#Factions
+create_faction = UTL_turkestani_alliance
+add_to_faction = BUK
+add_to_faction = KHI
+add_to_faction = UTL

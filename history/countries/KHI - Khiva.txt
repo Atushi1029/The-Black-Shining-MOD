@@ -27,4 +27,4 @@ set_popularities = {
 	reactionism = 0
 }
 #Embargo
-send_embargo = UZB
+send_embargo = KKP

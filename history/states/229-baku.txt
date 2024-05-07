@@ -3,15 +3,18 @@ state = {
 	name = "STATE_229"
 	resources = { oil = 126 }
 	history = {
-		owner = RKK
+		owner = GER
 		add_core_of = AZR
-		add_core_of = RKK
+		add_core_of = GER
 		victory_points = { 7661 15 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			fuel_silo = 1
 			air_base = 1
+			7661 = {
+				naval_base = 2
+			}
 		}
 	}
 	provinces = { 7661 }

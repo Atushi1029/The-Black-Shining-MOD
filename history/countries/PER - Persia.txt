@@ -27,3 +27,19 @@ set_popularities = {
 	ultra_nationalism = 7
 	reactionism = 6
 }
+#Non Aggression Pacts
+diplomatic_relation = {
+	country = BUK
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = KHI
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = UTL
+	relation = non_aggression_pact
+	active = yes
+}

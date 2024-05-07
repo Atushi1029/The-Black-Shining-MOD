@@ -64,9 +64,22 @@ set_popularities = {
 	reactionism = 0
 }
 add_to_array = { global.russian_warlords = SOV }
+#Factions
+create_faction = Comintern
+add_to_faction = SOV
 #Non Aggression Pacts
 diplomatic_relation = {
 	country = KAZ
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = KKP
+	relation = non_aggression_pact
+	active = yes
+}
+diplomatic_relation = {
+	country = KYR
 	relation = non_aggression_pact
 	active = yes
 }
