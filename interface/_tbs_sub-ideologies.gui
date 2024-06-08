@@ -16,4 +16,80 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+	containerWindowType = {
+		name = "coalition_party_frame_window"
+		position = { x = 338 y = 326 }
+		iconType = {
+			name = "coalition_party_frame_neocom"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_totsoc"
+			position = { x = 0 y = 16 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_grasoc"
+			position = { x = 0 y = 32 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_socdem"
+			position = { x = 0 y = 48 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_libdem"
+			position = { x = 0 y = 64 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_con"
+			position = { x = 0 y = 80 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_autdem"
+			position = { x = 0 y = 96 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_pataut"
+			position = { x = 0 y = 112 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_natcor"
+			position = { x = 0 y = 128 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_natsoc"
+			position = { x = 0 y = 144 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_ultnat"
+			position = { x = 0 y = 160 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "coalition_party_frame_rea"
+			position = { x = 0 y = 176 }
+			spriteType = "GFX_tbs_coalition_party_frame"
+			alwaystransparent = yes
+		}
+	}
 }

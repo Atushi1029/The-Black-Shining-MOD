@@ -18,4 +18,87 @@ scripted_gui = {
 			ROOT = { is_ai = no }
 		}
 	}
+	tbs_coalition_party_frame = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "coalition_party_frame_window"
+		ai_enabled = { always = no }
+		triggers = {
+			coalition_party_frame_neocom_visible = {
+				OR = {
+					has_a_coalition_with_neo_communism = yes
+					has_government = neo_communism
+				}
+			}
+			coalition_party_frame_totsoc_visible = {
+				OR = {
+					has_a_coalition_with_totalitarian_socialism = yes
+					has_government = totalitarian_socialism
+				}
+			}
+			coalition_party_frame_grasoc_visible = {
+				OR = {
+					has_a_coalition_with_gradual_socialism = yes
+					has_government = gradual_socialism
+				}
+			}
+			coalition_party_frame_socdem_visible = {
+				OR = {
+					has_a_coalition_with_social_democracy = yes
+					has_government = social_democracy
+				}
+			}
+			coalition_party_frame_libdem_visible = {
+				OR = {
+					has_a_coalition_with_liberal_democracy = yes
+					has_government = liberal_democracy
+				}
+			}
+			coalition_party_frame_con_visible = {
+				OR = {
+					has_a_coalition_with_conservatism = yes
+					has_government = conservatism
+				}
+			}
+			coalition_party_frame_autdem_visible = {
+				OR = {
+					has_a_coalition_with_authoritarian_democracy = yes
+					has_government = authoritarian_democracy
+				}
+			}
+			coalition_party_frame_pataut_visible = {
+				OR = {
+					has_a_coalition_with_paternal_autocracy = yes
+					has_government = paternal_autocracy
+				}
+			}
+			coalition_party_frame_natcor_visible = {
+				OR = {
+					has_a_coalition_with_national_corporatism = yes
+					has_government = national_corporatism
+				}
+			}
+			coalition_party_frame_natsoc_visible = {
+				OR = {
+					has_a_coalition_with_national_socialism = yes
+					has_government = national_socialism
+				}
+			}
+			coalition_party_frame_ultnat_visible = {
+				OR = {
+					has_a_coalition_with_ultra_nationalism = yes
+					has_government = ultra_nationalism
+				}
+			}
+			coalition_party_frame_rea_visible = {
+				OR = {
+					has_a_coalition_with_reactionism = yes
+					has_government = reactionism
+				}
+			}
+		}
+		visible = {
+			is_ai = no
+		}
+	}
 }
