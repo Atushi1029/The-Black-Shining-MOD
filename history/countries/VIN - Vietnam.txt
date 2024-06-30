@@ -1,30 +1,32 @@
 ﻿capital = 671
 #oob = ""
-set_cosmetic_tag = VIN_division_of_5
+set_cosmetic_tag = VIN_republic
 set_starting_values = yes
 recruit_character = VIN_hirokuni_muta
 recruit_character = VIN_kinjo_kobori
 recruit_character = VIN_kojiro_nishizumi
+recruit_character = VIN_ngo_dinh_diem
 set_convoys = 20
 add_ideas = {
 	
 }
 set_politics = {
-	ruling_party = national_socialism
+	ruling_party = paternal_autocracy
 	last_election = "1972.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	totalitarian_socialism = 0
-	gradual_socialism = 0
-	social_democracy = 0
-	liberal_democracy = 0
-	conservatism = 0
-	authoritarian_democracy = 10
-	paternal_autocracy = 20
-	national_corporatism = 20
-	national_socialism = 40
-	ultra_nationalism = 10
+	neo_communism = 0
+	totalitarian_socialism = 3
+	gradual_socialism = 29
+	social_democracy = 7
+	liberal_democracy = 1
+	conservatism = 14
+	authoritarian_democracy = 4
+	paternal_autocracy = 30
+	national_corporatism = 10
+	national_socialism = 2
+	ultra_nationalism = 0
 	reactionism = 0
 }

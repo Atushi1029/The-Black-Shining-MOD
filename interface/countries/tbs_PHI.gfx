@@ -1,6 +1,10 @@
 spriteTypes = {
 	#Advisors
 	spriteType = {
+		name = "GFX_idea_PHI_ferdinand_marcos"
+		texturefile = "gfx/interface/advisors/PHI/idea_PHI_ferdinand_marcos.png"
+	}
+	spriteType = {
 		name = "GFX_idea_PHI_hong_sa-ik"
 		texturefile = "gfx/interface/advisors/PHI/idea_PHI_hong_sa-ik.png"
 	}
@@ -17,6 +21,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/PHI/idea_PHI_toyoaki_horiuchi.png"
 	}
 	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_PHI_Ferdinand_Marcos"
+		texturefile = "gfx/leaders/PHI/Portrait_PHI_Ferdinand_Marcos.png"
+	}
 	spriteType = {
 		name = "GFX_Portrait_PHI_Hong_Sa-ik"
 		texturefile = "gfx/leaders/PHI/Portrait_PHI_Hong_Sa-ik.png"

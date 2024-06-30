@@ -278,6 +278,23 @@ characters = {
 			}
 		}
 	}
+	JAP_hayato_ikeda = {
+		name = JAP_hayato_ikeda
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Hayato_Ikeda"
+				small = "GFX_idea_JAP_hayato_ikeda"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Hayato_Ikeda"
+				small = "GFX_idea_JAP_hayato_ikeda"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Hayato_Ikeda"
+				small = "GFX_idea_JAP_hayato_ikeda"
+			}
+		}
+	}
 	JAP_hideoto_mori = {
 		name = JAP_hideoto_mori
 		portraits = {

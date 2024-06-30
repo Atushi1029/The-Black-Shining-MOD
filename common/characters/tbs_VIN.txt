@@ -71,4 +71,28 @@ characters = {
 			traits = {}
 		}
 	}
+	VIN_ngo_dinh_diem = {
+		name = VIN_ngo_dinh_diem
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_VIN_Ngo_Dinh_Diem"
+				small = "GFX_idea_VIN_ngo_dinh_diem"
+			}
+			army = {
+				large = "GFX_Portrait_VIN_Ngo_Dinh_Diem"
+				small = "GFX_idea_VIN_ngo_dinh_diem"
+			}
+			navy = {
+				large = "GFX_Portrait_VIN_Ngo_Dinh_Diem"
+				small = "GFX_idea_VIN_ngo_dinh_diem"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NGO_DINH_DIEM_DESC"
+			ideology = pataut_civilian_dictatorship_ideology
+			expire = "1989.1.1.1"
+			id = -1
+			traits = {}
+		}
+	}
 }

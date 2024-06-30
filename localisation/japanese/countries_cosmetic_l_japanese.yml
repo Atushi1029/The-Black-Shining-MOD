@@ -648,6 +648,9 @@
  VIN_empire:0 "ベトナム帝国"
  VIN_empire_DEF:0 "ベトナム帝国"
  VIN_empire_ADJ:0 "ベトナム"
+ VIN_republic:0 "ベトナム共和国"
+ VIN_republic_DEF:0 "ベトナム共和国"
+ VIN_republic_ADJ:0 "ベトナム"
 #西インド諸島
  WIF_federation:0 "西インド諸島連邦"
  WIF_federation_DEF:0 "西インド諸島連邦"

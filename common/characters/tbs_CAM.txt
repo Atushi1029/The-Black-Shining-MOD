@@ -142,4 +142,21 @@ characters = {
 			}
 		}
 	}
+	CAM_yem_sambaur = {
+		name = CAM_yem_sambaur
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CAM_Yem_Sambaur"
+				small = "GFX_idea_CAM_yem_sambaur"
+			}
+			army = {
+				large = "GFX_Portrait_CAM_Yem_Sambaur"
+				small = "GFX_idea_CAM_yem_sambaur"
+			}
+			navy = {
+				large = "GFX_Portrait_CAM_Yem_Sambaur"
+				small = "GFX_idea_CAM_yem_sambaur"
+			}
+		}
+	}
 }

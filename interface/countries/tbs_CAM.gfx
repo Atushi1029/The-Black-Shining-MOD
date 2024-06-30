@@ -32,6 +32,10 @@ spriteTypes = {
 		name = "GFX_idea_CAM_tou_samouth"
 		texturefile = "gfx/interface/advisors/CAM/idea_CAM_tou_samouth.png"
 	}
+	spriteType = {
+		name = "GFX_idea_CAM_yem_sambaur"
+		texturefile = "gfx/interface/advisors/CAM/idea_CAM_yem_sambaur.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_CAM_Heng_Samrin"
@@ -64,5 +68,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_CAM_Tou_Samouth"
 		texturefile = "gfx/leaders/CAM/Portrait_CAM_Tou_Samouth.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CAM_Yem_Sambaur"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Yem_Sambaur.png"
 	}
 }

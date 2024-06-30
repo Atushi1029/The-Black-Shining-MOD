@@ -13,6 +13,7 @@ recruit_character = JAP_eiichi_nishimura
 recruit_character = JAP_etsusaburo_shiina
 recruit_character = JAP_hachiro_hayashi
 recruit_character = JAP_haruo_okada
+recruit_character = JAP_hayato_ikeda
 recruit_character = JAP_hideoto_mori
 recruit_character = JAP_hirohide_ishida
 recruit_character = JAP_hirohito

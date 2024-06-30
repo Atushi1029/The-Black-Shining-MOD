@@ -1,0 +1,12 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_UTL_veli_kayyum_han"
+		texturefile = "gfx/interface/advisors/UTL/idea_UTL_veli_kayyum_han.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_UTL_Veli_Kayyum_Han"
+		texturefile = "gfx/leaders/UTL/Portrait_UTL_Veli_Kayyum_Han.png"
+	}
+}

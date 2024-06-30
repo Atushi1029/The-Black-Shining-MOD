@@ -1,4 +1,28 @@
 characters = {
+	PHI_ferdinand_marcos = {
+		name = PHI_ferdinand_marcos
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_PHI_Ferdinand_Marcos"
+				small = "GFX_idea_PHI_ferdinand_marcos"
+			}
+			army = {
+				large = "GFX_Portrait_PHI_Ferdinand_Marcos"
+				small = "GFX_idea_PHI_ferdinand_marcos"
+			}
+			navy = {
+				large = "GFX_Portrait_PHI_Ferdinand_Marcos"
+				small = "GFX_idea_PHI_ferdinand_marcos"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FERDINAND_MARCOS_DESC"
+			ideology = autdem_controlled_democracy_ideology
+			expire = "1989.9.28.1"
+			id = -1
+			traits = {}
+		}
+	}
 	PHI_hong_sa-ik = {
 		name = PHI_hong_sa-ik
 		portraits = {

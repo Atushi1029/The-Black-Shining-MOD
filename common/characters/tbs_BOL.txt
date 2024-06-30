@@ -1,4 +1,28 @@
 characters = {
+	BOL_juan_jose_torres = {
+		name = BOL_juan_jose_torres
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_BOL_Juan_Jose_Torres"
+				small = "GFX_idea_BOL_juan_jose_torres"
+			}
+			army = {
+				large = "GFX_Portrait_BOL_Juan_Jose_Torres"
+				small = "GFX_idea_BOL_juan_jose_torres"
+			}
+			navy = {
+				large = "GFX_Portrait_BOL_Juan_Jose_Torres"
+				small = "GFX_idea_BOL_juan_jose_torres"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JUAN_JOSE_TORRES_DESC"
+			ideology = pataut_social_militarism_ideology
+			expire = "1976.6.2.1"
+			id = -1
+			traits = {}
+		}
+	}
 	BOL_lidia_gueiler = {
 		name = BOL_lidia_gueiler
 		portraits = {

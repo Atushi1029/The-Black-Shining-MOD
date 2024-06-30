@@ -10,6 +10,7 @@ recruit_character = CAM_pol_pot
 recruit_character = CAM_son_ngoc_thanh
 recruit_character = CAM_son_sann
 recruit_character = CAM_tou_samouth
+recruit_character = CAM_yem_sambaur
 set_convoys = 20
 add_ideas = {
 	

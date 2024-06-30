@@ -536,6 +536,10 @@ spriteTypes = {
 		name = "GFX_idea_JAP_tomomi_narita"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_tomomi_narita.png"
 	}
+	spriteType = {
+		name = "GFX_idea_JAP_hayato_ikeda"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_hayato_ikeda.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_JAP_Aiichiro_Fujiyama"
@@ -1088,5 +1092,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_JAP_Tomomi_Narita"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Tomomi_Narita.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Hayato_Ikeda"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Hayato_Ikeda.png"
 	}
 }

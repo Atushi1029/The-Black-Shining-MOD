@@ -29,6 +29,7 @@ set_popularities = {
 }
 create_faction = ARG_buenos_aires_entente
 add_to_faction = ARG
+add_to_faction = BOL
 add_to_faction = CHL
 add_to_faction = PRU
 add_to_faction = VEN
