@@ -492,6 +492,10 @@
  PRU_republic:0 "ペルー共和国"
  PRU_republic_DEF:0 "ペルー共和国"
  PRU_republic_ADJ:0 "ペルー"
+#Qing Dynasty
+ QING_greater_empire:0 "大清帝国"
+ QING_greater_empire_DEF:0 "大清帝国"
+ QING_greater_empire_ADJ:0 "大清"
 #インド
  RAJ_republic:0 "インド共和国"
  RAJ_republic_DEF:0 "インド共和国"
@@ -659,6 +663,10 @@
  YEM_republic:0 "イエメン共和国"
  YEM_republic_DEF:0 "イエメン共和国"
  YEM_republic_ADJ:0 "イエメン"
+#Yuan Dynasty
+ YUAN_greater_empire:0 "大元帝国"
+ YUAN_greater_empire_DEF:0 "大元帝国"
+ YUAN_greater_empire_ADJ:0 "大元"
 #ザイール
  ZAIRE_republic:0 "ザイール共和国"
  ZAIRE_republic_DEF:0 "ザイール共和国"
