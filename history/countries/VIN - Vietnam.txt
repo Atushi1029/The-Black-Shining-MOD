@@ -10,23 +10,26 @@ set_convoys = 20
 add_ideas = {
 	
 }
-set_politics = {
-	ruling_party = paternal_autocracy
-	last_election = "1972.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	neo_communism = 0
-	totalitarian_socialism = 3
-	gradual_socialism = 29
-	social_democracy = 7
-	liberal_democracy = 1
-	conservatism = 14
-	authoritarian_democracy = 4
-	paternal_autocracy = 30
-	national_corporatism = 10
-	national_socialism = 2
-	ultra_nationalism = 0
-	reactionism = 0
+set_variable = { eco_sphere_post = 5 }
+1972.1.1 = {
+	set_politics = {
+		ruling_party = paternal_autocracy
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neo_communism = 0
+		totalitarian_socialism = 3
+		gradual_socialism = 29
+		social_democracy = 7
+		liberal_democracy = 1
+		conservatism = 14
+		authoritarian_democracy = 4
+		paternal_autocracy = 30
+		national_corporatism = 10
+		national_socialism = 2
+		ultra_nationalism = 0
+		reactionism = 0
+	}
 }

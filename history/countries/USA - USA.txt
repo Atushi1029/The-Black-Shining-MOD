@@ -185,6 +185,7 @@ diplomatic_relation = {
 }
 #Embargo
 send_embargo = ARG
+send_embargo = BOL
 send_embargo = CHL
 send_embargo = CUB
 send_embargo = PRU

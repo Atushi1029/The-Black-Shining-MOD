@@ -1,5 +1,5 @@
 ﻿l_japanese:
-#キャラクター
+#Characters
  STO_hideo_shimizu:0 "清水英男"
  STO_kiyoshi_kawashima:0 "川島清"
  STO_konstantin_lisetsky:0 "コンスタンティン・リセツキー"
@@ -7,3 +7,28 @@
  STO_takeshi_misumi:0 "三角武"
  STO_yoshio_furuie:0 "古都義雄"
  STO_yuri_vitvitsky:0 "ユーリ・ヴィトヴィツキー"
+#Parties
+ STO_neo_communism_party:0 "赤軍残党"
+ STO_neo_communism_party_long:0 "ソビエト連邦軍残党"
+ STO_totalitarian_socialism_party:0 "赤軍残党"
+ STO_totalitarian_socialism_party_long:0 "ソビエト連邦軍残党"
+ STO_gradual_socialism_party:0 "勘察加革新委員会（左派）"
+ STO_gradual_socialism_party_long:0 "勘察加革新委員会（左派）"
+ STO_social_democracy_party:0 "勘察加革新委員会（左派）"
+ STO_social_democracy_party_long:0 "勘察加革新委員会（左派）"
+ STO_liberal_democracy_party:0 "勘察加革新委員会（主流派）"
+ STO_liberal_democracy_party_long:0 "勘察加革新委員会（主流派）"
+ STO_conservatism_party:0 "勘察加革新委員会（右派）"
+ STO_conservatism_party_long:0 ""勘察加革新委員会（右派）
+ STO_authoritarian_democracy_party:0 "勘察加革新委員会（右派）"
+ STO_authoritarian_democracy_party_long:0 "勘察加革新委員会（右派）"
+ STO_paternal_autocracy_party:0 "731部隊"
+ STO_paternal_autocracy_party_long:0 "大日本帝国・関東軍防疫給水部"
+ STO_national_corporatism_party:0 "731部隊"
+ STO_national_corporatism_party_long:0 "大日本帝国・関東軍防疫給水部"
+ STO_national_socialism_party:0 "731部隊"
+ STO_national_socialism_party_long:0 "大日本帝国・関東軍防疫給水部"
+ STO_ultra_nationalism_party:0 "731部隊"
+ STO_ultra_nationalism_party_long:0 "大日本帝国・関東軍防疫給水部"
+ STO_reactionism_party:0 "神仙の会"
+ STO_reactionism_party_long:0 "神仙の会"

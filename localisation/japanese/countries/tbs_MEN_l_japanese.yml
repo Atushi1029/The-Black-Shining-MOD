@@ -1,5 +1,5 @@
 ﻿l_japanese:
-#キャラクター説明
+#Character's Descs
  #閣僚
  MEN_dashiin_damba_for_desc:0 "§Y$tbs_foreign_minister$\n$tbs_silent_workhorse$§!"
  MEN_duguersulong_hog_desc:0 "§Y$tbs_head_of_government$\n$tbs_popular_figurehead$§!"
@@ -7,10 +7,35 @@
  MEN_utaro_kataoka_int_desc:0 "§Y$tbs_interior_minister$\n$tbs_compassionate_gentleman$§!"
  MEN_wu_heling_jus_desc:0 "§Y$tbs_justice_minister$\n$tbs_iron_fisted_brute$§!"
  MEN_zolbingiin_shijee_eco_desc:0 "§Y$tbs_economy_minister$\n$tbs_agricultural_economist$§!"
-#キャラクター
+#Characters
  MEN_dashiin_damba:0 "ダジン・ダンバ"
  MEN_duguersulong:0 "ドガルスレン"
  MEN_li_shouxin:0 "李守信"
  MEN_utaro_kataoka:0 "片岡謌郎"
  MEN_wu_heling:0 "呉鶴齢"
  MEN_zolbingiin_shijee:0 "ゾルビンギーニン・シジエー"
+#Party Names
+ MEN_neo_communism_party:0 "共匪"
+ MEN_neo_communism_party_long:0 "共匪"
+ MEN_totalitarian_socialism_party:0 "共匪"
+ MEN_totalitarian_socialism_party_long:0 "共匪"
+ MEN_gradual_socialism_party:0 "MAH-L"
+ MEN_gradual_socialism_party_long:0 "モンゴル人民党（左派）"
+ MEN_social_democracy_party:0 "蒙疆キリスト教開拓団"
+ MEN_social_democracy_party_long:0 "蒙疆キリスト教開拓団"
+ MEN_liberal_democracy_party:0 "MAH-N"
+ MEN_liberal_democracy_party_long:0 "モンゴル人民党（中道派）"
+ MEN_conservatism_party:0 "翼賛会（蒙疆支部）"
+ MEN_conservatism_party_long:0 "大政翼賛会（蒙疆支部）"
+ MEN_authoritarian_democracy_party:0 "蒙古自治委員会"
+ MEN_authoritarian_democracy_party_long:0 "蒙古自治委員会"
+ MEN_paternal_autocracy_party:0 "蒙古自治委員会"
+ MEN_paternal_autocracy_party_long:0 "蒙古自治委員会"
+ MEN_national_corporatism_party:0 "翼賛会（蒙疆支部）"
+ MEN_national_corporatism_party_long:0 "大政翼賛会（蒙疆支部）"
+ MEN_national_socialism_party:0 "関東軍"
+ MEN_national_socialism_party_long:0 "関東軍"
+ MEN_ultra_nationalism_party:0 "駐蒙軍"
+ MEN_ultra_nationalism_party_long:0 "駐蒙軍"
+ MEN_reactionism_party:0 "MAH-R"
+ MEN_reactionism_party_long:0 "モンゴル人民党（右派）"
