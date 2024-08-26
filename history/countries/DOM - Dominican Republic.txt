@@ -1,5 +1,5 @@
 ﻿capital = 319
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = DOM_republic
 set_starting_values = yes
 recruit_character = DOM_joaquin_balaguer

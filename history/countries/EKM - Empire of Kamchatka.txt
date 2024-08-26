@@ -1,5 +1,5 @@
 ﻿capital = 1017
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = STO_empire
 set_starting_values = yes
 recruit_character = EKM_konstantin_i

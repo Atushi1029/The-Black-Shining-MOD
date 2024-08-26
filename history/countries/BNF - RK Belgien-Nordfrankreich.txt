@@ -1,5 +1,5 @@
 ﻿capital = 6
-#oob = ""
+#oob = "EMPTY"
 set_starting_values = yes
 recruit_character = BNF_albert_frey
 recruit_character = BNF_josef_mengele

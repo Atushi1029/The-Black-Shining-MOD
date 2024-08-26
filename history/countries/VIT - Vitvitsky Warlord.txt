@@ -1,5 +1,5 @@
 ﻿capital = 1009
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = VIT_kamchatka_collapse
 set_starting_values = yes
 recruit_character = VIT_yuri_vitvitsky

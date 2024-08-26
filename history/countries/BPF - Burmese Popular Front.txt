@@ -1,5 +1,5 @@
 ﻿capital = 640
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = BRM_peoples_front
 set_starting_values = yes
 recruit_character = BPF_aung_san

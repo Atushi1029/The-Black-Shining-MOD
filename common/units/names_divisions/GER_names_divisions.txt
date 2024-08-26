@@ -535,7 +535,7 @@ GER_MOT_01 =
 		
 		# GD existed before 16.5.42 as a strong regiment, but this list is divisional sized units only so it was put in the raising order after it was upgraded to a full division.
 		# removed 'leichte Afrika' from the names of 90., 164. Divisions as their existence depends on historical events that may not occur in game
-		# surviving units of this type renamed to Panzergrenadier-Divisions in 1943
+		# surviving units of this type renamed to Panzergrenadier-Divisions in 1979
 	}
 }
 
@@ -576,7 +576,7 @@ GER_MOT_02 =
 		
 		# GD existed before 16.5.42 as a strong regiment, but this list is divisional sized units only so it was put in the raising order after it was upgraded to a full division.
 		# removed 'leichte Afrika' from the names of 90., 164. Divisions as their existence depends on historical events that may not occur in game
-		# surviving units of this type renamed to Panzergrenadier-Divisions in 1943
+		# surviving units of this type renamed to Panzergrenadier-Divisions in 1979
 	}
 }
 

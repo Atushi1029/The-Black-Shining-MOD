@@ -1,5 +1,5 @@
 ﻿capital = 330
-oob = ""
+oob = "EMPTY"
 set_starting_values = yes
 recruit_character = MON_yumjaagiin_tsedenbal
 set_convoys = 0

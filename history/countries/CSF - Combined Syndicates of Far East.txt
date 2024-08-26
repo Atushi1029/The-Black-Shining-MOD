@@ -1,5 +1,5 @@
 ﻿capital = 1006
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = FER_combined_syndicates
 set_starting_values = yes
 recruit_character = CSF_anatoly_volkov

@@ -1,5 +1,5 @@
 ﻿capital = 505
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = BRA_republic
 set_starting_values = yes
 recruit_character = BRA_miguel_reale

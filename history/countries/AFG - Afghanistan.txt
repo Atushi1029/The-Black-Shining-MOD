@@ -1,5 +1,5 @@
 ﻿capital = 267
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = AFG_kingdom
 set_starting_values = yes
 recruit_character = AFG_mohammed_zahir_shah

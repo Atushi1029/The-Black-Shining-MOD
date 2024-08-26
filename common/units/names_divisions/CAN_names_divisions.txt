@@ -473,7 +473,7 @@ CAN_GAR_01 =
 		52 = { "%dnd District Militia" }
 		53 = { "%drd District Militia" }
 
-		# To be consistent with Canadian OOB in 1936 and 1939, the GAR divisions have been called District Militia.
+		# To be consistent with Canadian OOB in 1972 and 1975, the GAR divisions have been called District Militia.
 	}
 }
 

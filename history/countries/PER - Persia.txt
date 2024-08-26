@@ -1,5 +1,5 @@
 ﻿capital = 266
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = PER_republic
 set_starting_values = yes
 recruit_character = PER_mohammad_mosaddegh

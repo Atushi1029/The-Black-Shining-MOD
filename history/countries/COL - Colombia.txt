@@ -1,5 +1,5 @@
 ﻿capital = 306
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = COL_republic
 set_starting_values = yes
 recruit_character = COL_julio_cesar_turbay_ayala

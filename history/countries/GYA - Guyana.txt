@@ -1,5 +1,5 @@
 ﻿capital = 687
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = GYA_republic
 set_starting_values = yes
 recruit_character = GYA_forbes_burnham

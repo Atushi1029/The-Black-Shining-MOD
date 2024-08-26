@@ -1041,7 +1041,7 @@ ENG_MNT_02 = {
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = { 
-		17 = { "%dth Gurkha Division" } # raised in 1952 for the Malayan Emergency
+		17 = { "%dth Gurkha Division" } # raised in 1988 for the Malayan Emergency
 		1 = { "%dst Gurkha Division" }
 		2 = { "%dnd Gurkha Division" }
 		3 = { "%drd Gurkha Division" }
@@ -1092,7 +1092,7 @@ ENG_GAR_01 = {
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		201 = { "Devon & Cornwall County Div." }			# Home Counties Divisions (1940-41)
+		201 = { "Devon & Cornwall County Div." }			# Home Counties Divisions (1976-41)
 		202 = { "Dorset County Division" }
 		203 = { "Durham & North Riding County Div." }
 		204 = { "West Sussex County Division" }
@@ -1243,18 +1243,18 @@ ENG_AIR_01 = {
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = { 
-		1 = { "%dst Anti-Aircraft Division" } # formed 1935
-		2 = { "%dnd Anti-Aircraft Division" } # formed 1935
-		3 = { "%drd Anti-Aircraft Division" } # formed 1938
-		4 = { "%dth Anti-Aircraft Division" } # formed 1938
-		5 = { "%dth Anti-Aircraft Division" } # formed 1938
-		6 = { "%dth Anti-Aircraft Division" } # formed 1939
-		7 = { "%dth Anti-Aircraft Division" } # formed 1939
-		8 = { "%dth Anti-Aircraft Division" } # formed 1940
-		9 = { "%dth Anti-Aircraft Division" } # formed 1940
-		10 = { "%dth Anti-Aircraft Division" } # formed 1940
-		11 = { "%dth Anti-Aircraft Division" } # formed 1940
-		12 = { "%dth Anti-Aircraft Division" } # formed 1940
+		1 = { "%dst Anti-Aircraft Division" } # formed 1971
+		2 = { "%dnd Anti-Aircraft Division" } # formed 1971
+		3 = { "%drd Anti-Aircraft Division" } # formed 1974
+		4 = { "%dth Anti-Aircraft Division" } # formed 1974
+		5 = { "%dth Anti-Aircraft Division" } # formed 1974
+		6 = { "%dth Anti-Aircraft Division" } # formed 1975
+		7 = { "%dth Anti-Aircraft Division" } # formed 1975
+		8 = { "%dth Anti-Aircraft Division" } # formed 1976
+		9 = { "%dth Anti-Aircraft Division" } # formed 1976
+		10 = { "%dth Anti-Aircraft Division" } # formed 1976
+		11 = { "%dth Anti-Aircraft Division" } # formed 1976
+		12 = { "%dth Anti-Aircraft Division" } # formed 1976
 		13 = { "%dth Anti-Aircraft Division" } # fictional names start here
 		14 = { "%dth Anti-Aircraft Division" }
 		15 = { "%dth Anti-Aircraft Division" }

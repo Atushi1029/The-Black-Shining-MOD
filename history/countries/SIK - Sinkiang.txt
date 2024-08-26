@@ -1,5 +1,5 @@
 ﻿capital = 617
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = SIK_republic
 set_starting_values = yes
 recruit_character = SIK_burhan_shahidi

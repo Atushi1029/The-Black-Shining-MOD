@@ -1,5 +1,5 @@
 ﻿capital = 830
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = BUK_khanate
 set_starting_values = yes
 #recruit_character = 

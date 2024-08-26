@@ -1,5 +1,5 @@
 ﻿capital = 539
-oob = ""
+oob = "EMPTY"
 set_cosmetic_tag = GAB_republic
 set_starting_values = yes
 recruit_character = GAB_omar_bongo

@@ -1,5 +1,5 @@
 ﻿capital = 279
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = CHL_peoples_republic
 set_starting_values = yes
 recruit_character = CHL_augusto_pinochet

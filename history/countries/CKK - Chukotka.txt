@@ -1,5 +1,5 @@
 ﻿capital = 822
-#oob = ""
+#oob = "EMPTY"
 set_starting_values = yes
 set_cosmetic_tag = CKK_republic
 recruit_character = CKK_mikhail_romanov

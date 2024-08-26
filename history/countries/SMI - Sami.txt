@@ -1,5 +1,5 @@
 ﻿capital = 148 #TODO_Manu: Other states in other countries?
-#oob = ""
+#oob = "EMPTY"
 #set_cosmetic_tag = 
 set_starting_values = yes
 #recruit_character = 

@@ -1,5 +1,5 @@
 ﻿capital = 780
-oob = ""
+oob = "EMPTY"
 set_cosmetic_tag = GNA_peoples_republic
 set_starting_values = yes
 recruit_character = GNA_ahmed_sekou_toure

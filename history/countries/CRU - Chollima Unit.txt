@@ -1,5 +1,5 @@
 ﻿capital = 1022
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = CRU_kamchatka_collapse
 set_starting_values = yes
 recruit_character = CRU_pang_hak-se

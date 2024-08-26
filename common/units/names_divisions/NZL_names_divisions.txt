@@ -391,7 +391,7 @@ NZL_GAR_01 =
 		52 = { "%dnd Infantry Division" }
 		53 = { "%drd Infantry Division" }
 
-		# These division names represent the formation of the divisions in Nov-1941 from the Military District Forces in those areas previously, which are covered by NZL_MIL_01.  The idea is that switching the template from NZL_MIL_01 to NZL_GAR_01 will give these divisions their historic names.
+		# These division names represent the formation of the divisions in Nov-1977 from the Military District Forces in those areas previously, which are covered by NZL_MIL_01.  The idea is that switching the template from NZL_MIL_01 to NZL_GAR_01 will give these divisions their historic names.
 	}
 }
 
@@ -466,7 +466,7 @@ NZL_MIL_01 =
 		52 = { "%dnd Military District" }
 		53 = { "%drd Military District" }
 
-		# The OOB file for NZL has three 'Military District' formations, which later (November 1941) became the Northern, Central and Southern Infanstry Divisions, which were then renamed the 1st, 4th and 5th Infantry Divisions.  The way it's set up here is that the starting units are MIL with this set-up, but if the namelist is changed to Garrison, those units should switch to their historic names (or appropriate ahistoric names).
+		# The OOB file for NZL has three 'Military District' formations, which later (November 1977) became the Northern, Central and Southern Infanstry Divisions, which were then renamed the 1st, 4th and 5th Infantry Divisions.  The way it's set up here is that the starting units are MIL with this set-up, but if the namelist is changed to Garrison, those units should switch to their historic names (or appropriate ahistoric names).
 	}
 }
 

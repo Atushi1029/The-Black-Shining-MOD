@@ -1,5 +1,5 @@
 ﻿capital = 832
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = UTL_legion
 set_starting_values = yes
 recruit_character = UTL_veli_kayyum_han

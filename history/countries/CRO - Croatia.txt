@@ -1,5 +1,5 @@
 ﻿capital = 109
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = CRO_kingdom
 set_starting_values = yes
 recruit_character = CRO_zvonimir_ii

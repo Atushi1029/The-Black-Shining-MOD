@@ -1,5 +1,5 @@
 ﻿capital = 546
-#oob = ""
+#oob = "EMPTY"
 set_starting_values = yes
 recruit_character = MAF_heinrich_berger
 recruit_character = MAF_wilhelm_mohnke

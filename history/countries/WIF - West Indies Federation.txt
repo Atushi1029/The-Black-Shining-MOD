@@ -1,5 +1,5 @@
 ﻿capital = 689
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = WIF_federation
 set_starting_values = yes
 recruit_character = WIF_eric_williams

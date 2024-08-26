@@ -1,5 +1,5 @@
 ﻿capital = 309
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = HOL_exiled_government
 set_starting_values = yes
 #recruit_character =

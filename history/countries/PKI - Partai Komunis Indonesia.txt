@@ -1,5 +1,5 @@
 ﻿capital = 669
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = PKI_INSCIV
 set_starting_values = yes
 recruit_character = PKI_sudisman

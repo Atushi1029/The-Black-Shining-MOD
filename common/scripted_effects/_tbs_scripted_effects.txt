@@ -921,6 +921,8 @@ set_starting_values = {
 		early_submarine = 1
 		gwtank_chassis = 1
 		tech_support = 1
+		tech_trucks = 1
+		trench_warfare = 1
 	}
 	if = {
 		limit = {
@@ -1032,6 +1034,26 @@ set_starting_values = {
 			basic_train = 1
 			railway_gun = 1
 			armored_train = 1
+			base_strike = 1
+			coastal_defense_ships = 1
+			cruiser_submarines = 1
+			improved_light_battery = 1
+			basic_dp_light_battery = 1
+			aa_lmg = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			basic_small_airframe = 1
+			basic_medium_airframe = 1
+			basic_large_airframe = 1
+			air_torpedoe_1 = 1
+			armored_car1 = 1
+			armor_piercing_bombs = 1
+			photo_reconnaisance = 1
 		}
 	}
 	else_if = {

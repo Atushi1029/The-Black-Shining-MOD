@@ -1,5 +1,5 @@
 ﻿capital = 231
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = GEO_republic
 set_starting_values = yes
 recruit_character = GEO_givi_javakhishvili

@@ -1,5 +1,5 @@
 ﻿capital = 1035
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = BRM_salvation_legion
 set_starting_values = yes
 recruit_character = BSL_ba_maw

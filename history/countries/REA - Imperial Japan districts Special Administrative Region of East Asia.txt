@@ -1,5 +1,5 @@
 ﻿capital = 336
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = EAST_ASIA_IJSAR
 set_starting_values = yes
 recruit_character = REA_daisaku_ikeda

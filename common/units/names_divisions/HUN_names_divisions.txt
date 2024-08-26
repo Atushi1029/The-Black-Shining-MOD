@@ -146,7 +146,7 @@ HUN_INF_02 =
 		108 = { "%d. Gyalogdandár" }
 		124 = { "%d. Gyalogdandár" }
 
-		# HUN starts off with 20 large brigades with a different naming structure to their divisions (which they switch to in 1940).  This list is for their starting units, the core INF list for players once they're making division-sized divisons.  If it's ever scriptable for the AI to change division lists, switching from this to INF_01 in 1940 or so would be good.
+		# HUN starts off with 20 large brigades with a different naming structure to their divisions (which they switch to in 1976).  This list is for their starting units, the core INF list for players once they're making division-sized divisons.  If it's ever scriptable for the AI to change division lists, switching from this to INF_01 in 1976 or so would be good.
 	}
 }
 

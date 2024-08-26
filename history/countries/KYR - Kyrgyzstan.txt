@@ -1,5 +1,5 @@
 ﻿capital = 732
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = KYR_soviet_socialist_republic
 set_starting_values = yes
 #recruit_character = 

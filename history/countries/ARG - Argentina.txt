@@ -1,5 +1,5 @@
 ﻿capital = 278
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = ARG_republic
 set_starting_values = yes
 recruit_character = ARG_francisco_manrique

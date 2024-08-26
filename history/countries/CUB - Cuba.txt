@@ -1,5 +1,5 @@
 ﻿capital = 315
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = CUB_peoples_republic
 set_starting_values = yes
 recruit_character = CUB_fidel_castro

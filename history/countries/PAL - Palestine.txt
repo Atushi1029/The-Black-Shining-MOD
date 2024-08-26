@@ -1,5 +1,5 @@
 ﻿capital = 454
-#oob = ""
+#oob = "EMPTY"
 set_starting_values = yes
 set_cosmetic_tag = PAL_state
 recruit_character = PAL_george_habash

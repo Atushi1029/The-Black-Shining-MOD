@@ -1,5 +1,5 @@
 ﻿capital = 277
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = MEX_united_states
 set_starting_values = yes
 recruit_character = MEX_norma_villarreal_de_zambrano

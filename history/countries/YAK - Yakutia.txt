@@ -1,5 +1,5 @@
 ﻿capital = 574
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = YAK_far_eastern_collapse
 set_starting_values = yes
 recruit_character = YAK_ieronim_uborevich

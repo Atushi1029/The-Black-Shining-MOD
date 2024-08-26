@@ -1,5 +1,5 @@
 ﻿capital = 556
-oob = ""
+oob = "EMPTY"
 set_cosmetic_tag = MLI_socialist_republic
 set_starting_values = yes
 recruit_character = MLI_modibo_keita

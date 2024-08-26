@@ -1,5 +1,5 @@
 ﻿capital = 218
-#oob = ""
+#oob = "EMPTY"
 #set_cosmetic_tag = 
 set_starting_values = yes
 #recruit_character = 

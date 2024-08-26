@@ -1,5 +1,5 @@
 ﻿capital = 318
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = HAI_republic
 set_starting_values = yes
 recruit_character = HAI_jean-claude_duvalier

@@ -49,7 +49,7 @@ equipments = {
 		supply_truck = no
 	}
 
-	# ~1941
+	# ~1977
 	mechanized_equipment_1 = {
 		year = 1976
 
@@ -58,7 +58,7 @@ equipments = {
 		visual_level = 0
 	}
 
-	# ~1943
+	# ~1979
 	mechanized_equipment_2 = {
 		year = 1978
 
@@ -86,7 +86,7 @@ equipments = {
 		}
 	}
 
-	# ~1945
+	# ~1981
 	mechanized_equipment_3 = {
 		year = 1980
 

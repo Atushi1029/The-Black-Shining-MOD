@@ -1,5 +1,5 @@
 ﻿capital = 327
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = PHI_republic
 set_starting_values = yes
 recruit_character = PHI_ferdinand_marcos

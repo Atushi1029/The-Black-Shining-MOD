@@ -1,5 +1,5 @@
 ﻿capital = 1013
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = OSR_military_government
 set_starting_values = yes
 recruit_character = OSR_konstantin_lisetsky

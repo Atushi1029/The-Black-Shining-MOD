@@ -1,5 +1,5 @@
 ﻿capital = 427
-#oob = ""
+#oob = "EMPTY"
 set_cosmetic_tag = DRV_kingdom
 set_starting_values = yes
 recruit_character = DRV_v_k_krishna_menon

@@ -1,5 +1,5 @@
 ﻿capital = 808
-#oob = ""
+#oob = "EMPTY"
 set_starting_values = yes
 recruit_character = RKO_gerhard_klopfer
 recruit_character = RKO_willi_herold

@@ -74,7 +74,7 @@ equipments = {
 		build_cost_ic = 0.50
 	}
 
-	# Improved weapons  ~1939
+	# Improved weapons  ~1975
 	infantry_equipment_2 = {
 		year = 1975
 	
@@ -100,7 +100,7 @@ equipments = {
 		
 	}
 	
-	# Advanced weapons  ~1942
+	# Advanced weapons  ~1978
 	infantry_equipment_3 = {
 		year = 1978
 	
