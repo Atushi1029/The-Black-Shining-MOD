@@ -1,5 +1,5 @@
 ﻿capital = 361
-oob = "EMPTY"
+oob = "USA_1972"
 set_cosmetic_tag = USA_united_states
 set_country_flag = allowed_to_generate_wargoal
 set_starting_values = yes
