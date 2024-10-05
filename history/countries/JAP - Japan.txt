@@ -1,5 +1,5 @@
 ﻿capital = 282
-oob = "EMPTY"
+oob = "JAP_1972"
 set_cosmetic_tag = JAP_greater_empire
 set_starting_values = yes
 recruit_character = JAP_aiichiro_fujiyama
