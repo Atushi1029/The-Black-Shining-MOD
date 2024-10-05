@@ -74,7 +74,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = GER_fritz_rossler_jus
@@ -105,7 +105,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = GER_heinz_knoke_sec
@@ -187,7 +187,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = GER_karl_saur_eco
@@ -266,7 +266,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = GER_otto_ernst_remer_hog
@@ -321,7 +321,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = GER_theo_hupfauer_int
@@ -369,7 +369,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = GER_wilhelm_stuckart_for

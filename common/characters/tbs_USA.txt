@@ -390,7 +390,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = USA_hubert_humphrey_hog
@@ -421,7 +421,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = USA_james_russell_wiggins_for
@@ -520,7 +520,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = USA_joseph_walker_barr_eco
@@ -661,7 +661,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = USA_ramsey_clark_jus
@@ -716,7 +716,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = USA_robert_mcnamara_sec
@@ -815,7 +815,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = USA_stewart_udall_int

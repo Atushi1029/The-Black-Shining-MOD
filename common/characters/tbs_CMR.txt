@@ -47,7 +47,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = CMR_charles_assale_int
@@ -69,7 +69,7 @@ characters = {
 			navy = { small = "GFX_idea_CMR_jean_keutcha" }
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = CMR_jean_keutcha_for
@@ -148,7 +148,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = CMR_paul_biya_hog
@@ -170,7 +170,7 @@ characters = {
 			navy = { small = "GFX_idea_CMR_paul_soppo_priso" }
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = CMR_paul_soppo_priso_eco
@@ -216,7 +216,7 @@ characters = {
 			navy = { small = "GFX_idea_CMR_sadou_daoudou" }
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = CMR_sadou_daoudou_sec
@@ -262,7 +262,7 @@ characters = {
 			navy = { small = "GFX_idea_CMR_simon_achidi_achu" }
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = CMR_simon_achidi_achu_jus

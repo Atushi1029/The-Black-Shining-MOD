@@ -16,7 +16,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = MEN_dashiin_damba_for
@@ -54,7 +54,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = MEN_duguersulong_hog
@@ -85,7 +85,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = MEN_li_shouxin_sec
@@ -116,7 +116,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = MEN_utaro_kataoka_int
@@ -147,7 +147,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = MEN_wu_heling_jus
@@ -178,7 +178,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = MEN_zolbingiin_shijee_eco

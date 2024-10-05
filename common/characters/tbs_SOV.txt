@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = SOV_anastas_mikoyan_eco
@@ -88,7 +88,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = SOV_andrei_grechko_sec
@@ -119,7 +119,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = SOV_andrei_gromyko_for
@@ -262,7 +262,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = SOV_ivan_yakubovsky_hog
@@ -293,7 +293,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = SOV_konstantin_chernenko_jus
@@ -324,7 +324,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = SOV_leonid_brezhnev_hog
@@ -420,7 +420,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = SOV_nikolai_bulganin_jus
@@ -468,7 +468,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = SOV_nikolai_shchelokov_int
@@ -516,7 +516,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = SOV_valentin_pavlov_eco
@@ -581,7 +581,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = SOV_vitaly_fedorchuk_int

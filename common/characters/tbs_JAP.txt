@@ -143,7 +143,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_chifuyu_masaki_for
@@ -174,7 +174,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_eiichi_nagasue_for
@@ -205,7 +205,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_eiichi_nishimura_for
@@ -329,7 +329,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_hirohide_ishida_for
@@ -377,7 +377,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_hiromu_nonaka_eco
@@ -485,7 +485,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_hiroya_ino_jus
@@ -575,7 +575,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_ichio_asukata_hog
@@ -589,7 +589,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_ichio_asukata_eco
@@ -620,7 +620,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_ichiro_nakagawa_eco
@@ -677,7 +677,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_ikko_kasuga_jus
@@ -768,7 +768,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_kakuei_tanaka_hog
@@ -907,7 +907,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_kentaro_kujime_int
@@ -980,7 +980,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_kiichi_miyazawa_for
@@ -1171,7 +1171,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_makoto_tanabe_sec
@@ -1202,7 +1202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_masaharu_gotoda_jus
@@ -1233,7 +1233,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_masaji_ogasawara_int
@@ -1264,7 +1264,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_masami_tanaka_int
@@ -1295,7 +1295,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_masamichi_royama_hog
@@ -1368,7 +1368,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_masao_hori_eco
@@ -1442,7 +1442,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_masashi_ishibashi_for
@@ -1473,7 +1473,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_masayoshi_ohira_hog
@@ -1487,7 +1487,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_masayoshi_ohira_eco
@@ -1636,7 +1636,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_mitsu_kono_hog
@@ -1719,7 +1719,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_mitsuo_setoyama_hog
@@ -1767,7 +1767,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_mutsuo_kimura_hog
@@ -1781,7 +1781,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_mutsuo_kimura_sec
@@ -1880,7 +1880,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_osamu_inaba_jus
@@ -1911,7 +1911,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_raizo_matsuno_int
@@ -1959,7 +1959,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_ryosaku_sasaki_eco
@@ -2065,7 +2065,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_saburo_tsukamoto_hog
@@ -2079,7 +2079,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_saburo_tsukamoto_int
@@ -2204,7 +2204,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_seiichi_katsumata_hog
@@ -2259,7 +2259,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_seisuke_okuno_hog
@@ -2333,7 +2333,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_shigenobu_sakano_sec
@@ -2364,7 +2364,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_shin_kanemaru_sec
@@ -2446,7 +2446,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_shiro_hasegawa_int
@@ -2647,7 +2647,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_takako_doi_int
@@ -2678,7 +2678,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_takashi_asari_sec
@@ -2709,7 +2709,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_takashi_yoshino_jus
@@ -2918,7 +2918,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_tetsuro_minato_for
@@ -2949,7 +2949,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_tokuma_utsunomiya_jus
@@ -3023,7 +3023,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_tomomi_narita_jus
@@ -3054,7 +3054,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_torazo_ninagawa_sec
@@ -3137,7 +3137,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_toshio_komoto_eco
@@ -3202,7 +3202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_usaburo_chizaki_sec
@@ -3306,7 +3306,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = head_of_government
 			ledger = civilian
 			idea_token = JAP_yokusan_political_committee_hog
@@ -3317,7 +3317,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = interior_minister
 			ledger = civilian
 			idea_token = JAP_yokusan_political_committee_int
@@ -3328,7 +3328,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_yokusan_political_committee_for
@@ -3339,7 +3339,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = economy_minister
 			ledger = civilian
 			idea_token = JAP_yokusan_political_committee_eco
@@ -3350,7 +3350,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = justice_minister
 			ledger = civilian
 			idea_token = JAP_yokusan_political_committee_jus
@@ -3361,7 +3361,7 @@ characters = {
 			can_be_fired = no
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = security_minister
 			ledger = civilian
 			idea_token = JAP_yokusan_political_committee_sec
@@ -3389,7 +3389,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 65535
+			cost = 0
 			slot = foreign_minister
 			ledger = civilian
 			idea_token = JAP_yuichi_kori_for
