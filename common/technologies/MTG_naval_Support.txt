@@ -62,6 +62,7 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
@@ -73,6 +74,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	basic_light_battery = {
@@ -109,6 +111,7 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
@@ -116,6 +119,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	basic_light_shell = {
@@ -169,12 +173,14 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_light_battery = {
@@ -217,6 +223,7 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
@@ -224,6 +231,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_light_shell = {
@@ -276,12 +284,14 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	advanced_light_battery = {
@@ -313,6 +323,7 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_light_battery
@@ -320,6 +331,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	basic_medium_battery = {
@@ -361,6 +373,7 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
@@ -368,6 +381,7 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	basic_medium_shell = {
@@ -404,11 +418,13 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			mio_cat_tech_all_capital_ship_and_modules
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_medium_battery = {
@@ -427,7 +443,6 @@ technologies = {
 		enable_equipment_modules = {
 			ship_medium_battery_3
 			ship_light_medium_battery_3
-			cat_ship_medium_battery
 		}
 
 
@@ -446,6 +461,7 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
@@ -453,6 +469,7 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_medium_shell = {
@@ -495,11 +512,13 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			mio_cat_tech_all_capital_ship_and_modules
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	advanced_medium_battery = {
@@ -527,6 +546,7 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_medium_battery
@@ -534,6 +554,7 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 	
 
@@ -568,21 +589,16 @@ technologies = {
 				has_tech = basic_ship_hull_heavy
 				factor = 20
 			}
-			modifier = {
-				OR = {
-					tag = GER
-					tag = JAP
-				}
-				factor = 2
-			}
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
 			mio_cat_tech_all_capital_ship_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_heavy_battery = {
@@ -615,21 +631,16 @@ technologies = {
 				has_tech = improved_ship_hull_heavy
 				factor = 20
 			}
-			modifier = {
-				OR = {
-					tag = GER
-					tag = JAP
-				}
-				factor = 2
-			}
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
 			mio_cat_tech_all_capital_ship_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	advanced_heavy_battery = {
@@ -657,21 +668,16 @@ technologies = {
 				has_tech = advanced_ship_hull_heavy
 				factor = 20
 			}
-			modifier = {
-				OR = {
-					tag = GER
-					tag = JAP
-				}
-				factor = 2
-			}
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
 			mio_cat_tech_all_capital_ship_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	basic_heavy_shell = {
@@ -710,9 +716,11 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			mio_cat_tech_all_capital_ship_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_heavy_shell = {
@@ -750,9 +758,11 @@ technologies = {
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			mio_cat_tech_all_capital_ship_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	basic_dp_light_battery = {
@@ -784,17 +794,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 20
-			}
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
@@ -803,6 +806,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_dp_light_battery = {
@@ -832,17 +836,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 20
-			}
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
@@ -851,6 +848,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	advanced_dp_light_battery = {
@@ -875,17 +873,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 20
-			}
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
@@ -894,6 +885,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	basic_dp_medium_battery = {
@@ -917,23 +909,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 20
-			}
 		}
 
 		categories = {
+			naval_artillery
 			naval_equipment
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 ###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###
@@ -975,14 +961,6 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
-				factor = 5
-			}
-			modifier = {
 				has_war = yes
 				factor = 3
 			}
@@ -997,6 +975,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_submarine_and_modules #Not really Sub but unlocks tech improving Subs torpedo stuff later
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	magnetic_detonator = {
@@ -1041,20 +1020,8 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
-				factor = 5
-			}
-			modifier = {
 				has_war = yes
 				factor = 3
-			}
-			modifier = {
-				tag = JAP #Japan wants torpedoes EXTRA HARD
-				factor = 2
 			}
 		}
 
@@ -1067,6 +1034,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_submarine_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	homing_torpedo = {
@@ -1097,14 +1065,6 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
-				factor = 5
-			}
-			modifier = {
 				has_war = yes
 				factor = 3
 			}
@@ -1119,6 +1079,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_submarine_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	electric_torpedo = {
@@ -1141,14 +1102,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = USA
-					tag = GER
-				}
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1160,6 +1113,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_submarine_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 	improved_ship_torpedo_launcher = {
 
@@ -1189,10 +1143,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1203,6 +1153,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 	advanced_ship_torpedo_launcher = {
 
@@ -1232,10 +1183,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1246,6 +1193,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 	modern_ship_torpedo_launcher = {
 
@@ -1269,10 +1217,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1283,6 +1227,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 
@@ -1317,15 +1262,6 @@ technologies = {
 				factor = 0.1
 			}
 			modifier = {
-				is_historical_focus_on = yes
-				tag = JAP
-				factor = 0.25
-			}
-			modifier = {
-				tag = USA
-				factor = 3
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -1341,6 +1277,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	damage_control_2 = {
@@ -1363,15 +1300,6 @@ technologies = {
 		ai_will_do = {
 			factor = 3
 			modifier = {
-				is_historical_focus_on = yes
-				tag = JAP
-				factor = 0.25
-			}
-			modifier = {
-				tag = USA
-				factor = 3
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -1387,6 +1315,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	damage_control_3 = {
@@ -1405,15 +1334,6 @@ technologies = {
 		ai_will_do = {
 			factor = 3
 			modifier = {
-				is_historical_focus_on = yes
-				tag = JAP
-				factor = 0.25
-			}
-			modifier = {
-				tag = USA
-				factor = 3
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -1429,6 +1349,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 ### ### ###  ###      ##   ##  #  # ### ###   ##  #       #   # ### ### #  #  ##  ###   ##
@@ -1472,10 +1393,6 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1486,6 +1403,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules #Not really but for further tech
 			mio_cat_tech_all_destroyer_and_modules #Not really but for further tech
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	fire_control_methods_2 = {
@@ -1521,10 +1439,6 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1535,6 +1449,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules #Not really but for further tech
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	fire_control_methods_3 = {
@@ -1574,10 +1489,6 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {
-				tag = JAP
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1588,6 +1499,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 
@@ -1629,15 +1541,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
-				factor = 6
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -1655,6 +1558,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	submarine_mine_laying = {
@@ -1679,15 +1583,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
-				factor = 6
-			}
 		}
 
 		categories = {
@@ -1697,6 +1592,7 @@ technologies = {
 			ship_modules_tech
 			mio_cat_tech_all_submarine_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_submarine_mine_laying = {
@@ -1716,15 +1612,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1.5
-			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
-				factor = 6
-			}
 		}
 
 		categories = {
@@ -1734,6 +1621,7 @@ technologies = {
 			ship_modules_tech
 			mio_cat_tech_all_submarine_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	improved_naval_mines = {
@@ -1763,15 +1651,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
-				factor = 6
-			}
-			modifier = {
 				has_war = yes
 				factor = 2
 			}
@@ -1789,6 +1668,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	degaussing = {
@@ -1799,6 +1679,17 @@ technologies = {
 
 		naval_mines_effect_reduction = 0.5
 
+
+		destroyer = {
+			sub_detection = 0.1
+			}
+		light_cruiser = {
+			sub_detection = 0.1
+			}
+		heavy_cruiser = {
+			sub_detection = 0.1
+			}
+			
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 10 }
@@ -1806,15 +1697,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-					tag = SOV
-				}
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1828,6 +1710,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	advanced_naval_mines = {
@@ -1858,13 +1741,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = USA
-					tag = ENG
-				}
-				factor = 5
-			}
 		}
 
 		categories = {
@@ -1875,6 +1751,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	airdrop_mines = {
@@ -1903,14 +1780,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-				}
-				factor = 7
-			}
 		}
 
 		categories = {
@@ -1918,6 +1787,7 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	airdrop_mines_bba = {
@@ -1940,14 +1810,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				OR = {
-					tag = GER
-					tag = USA
-					tag = ENG
-				}
-				factor = 7
-			}
 		}
 
 		categories = {
@@ -1955,6 +1817,7 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	modern_naval_mines = {
@@ -1980,10 +1843,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = USA
-				factor = 3
-			}
 		}
 
 		categories = {
@@ -1994,6 +1853,7 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	airsweep_mines = {
@@ -2027,6 +1887,7 @@ technologies = {
 			naval_minesweeping
 			naval_equipment
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	airsweep_mines_bba = {
@@ -2056,6 +1917,7 @@ technologies = {
 			naval_minesweeping
 			naval_equipment
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	mtg_transport = { #WHEN BALANCING - ALSO FIX REGULAR NAVAL TREE
@@ -2066,7 +1928,12 @@ technologies = {
 		path = {
 			leads_to_tech = mtg_landing_craft
 			research_cost_coeff = 1
-		}
+		}	
+
+		path = {
+			leads_to_tech = sp_multi_product_supply_ships
+			research_cost_coeff = 1
+		}	
 
 		research_cost = 1.5
 		start_year = 1958
@@ -2083,31 +1950,13 @@ technologies = {
 				factor = 0.5
 				has_war = no
 			}
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			modifier = {
-				has_war_with = JAP
-				factor = 2
-			}
-
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
 		}
 
 		categories = {
 			naval_equipment
 			tp_tech
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	mtg_landing_craft = {
@@ -2142,43 +1991,9 @@ technologies = {
 				factor = 0.5
 				has_war = no
 			}
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			modifier = {
 				has_war_with = JAP
 				factor = 2
-			}
-			modifier = {
-				factor = 50
-				tag = JAP
-				OR = {
-					has_war_with = USA
-					CHI = {
-						OR = {
-							has_capitulated = yes
-							exists = no
-		                    is_subject_of = JAP
-						}
-					}
-				}
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-
-			modifier = {
-				factor = 10
-				OR = {
-					tag = ENG
-					tag = USA
-				}
-				has_war_with = GER
-				GER = { has_war_with = SOV }
 			}
 		}
 
@@ -2186,6 +2001,7 @@ technologies = {
 			naval_equipment
 			tp_tech
 		}
+		special_project_specialization = { specialization_naval }
 	}
 
 	mtg_tank_landing_craft = {
@@ -2208,23 +2024,9 @@ technologies = {
 				factor = 0.5
 				has_war = no
 			}
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			modifier = {
 				factor = 2
 				has_war_with = JAP
-			}
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-
-			modifier = {
-				factor = 2
-				tag = ENG
 			}
 		}
 
@@ -2232,5 +2034,88 @@ technologies = {
 			naval_equipment
 			tp_tech
 		}
+		special_project_specialization = { specialization_naval }
 	}
+
+	### SPECIAL PROJECTS ###
+
+	sp_multi_product_supply_ships = {
+
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.2
+
+		allow_branch = {
+			 has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_underway_replenishment
+			}
+		}
+
+		path = {
+			leads_to_tech = sp_standard_tenshioned_replenishment_alongside_method
+			research_cost_coeff = 1
+		}
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes	
+		xp_research_type = navy
+		xp_boost_cost = 75
+		xp_research_bonus = 1.75
+		research_cost = 2.0
+		start_year = 1974
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 10 }
+		}
+
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = 10 }
+		}		
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+
+	sp_standard_tenshioned_replenishment_alongside_method = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_underway_replenishment
+			}
+		}
+
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.2	
+		
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes		
+		xp_research_type = navy
+		xp_boost_cost = 75
+		xp_research_bonus = 1.5
+		research_cost = 2.5
+		start_year = 1979
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 17 }
+		}
+
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = 17 }
+		}		
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+		special_project_specialization = { specialization_naval }	
+	}
+
 }

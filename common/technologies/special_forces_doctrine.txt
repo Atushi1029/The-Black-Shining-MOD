@@ -40,16 +40,19 @@ technologies = {
 		research_cost = 2.25
 		
 		allow = {
-			
+			AND = {
+				has_tech = tech_mountaineers
+				can_unlock_new_special_forces_tree = yes
+			}
 		}
 		
 		on_research_complete = {
-			
+			remove_potential_special_forces_tree = yes
 		}
 		
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -60,6 +63,10 @@ technologies = {
 				
 		ai_will_do = {
 			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { ai_has_completed_army_doctrine = yes }
+			}
 		}
 		
 		ai_research_weights = {
@@ -96,7 +103,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -141,7 +148,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -187,7 +194,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -231,7 +238,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -282,7 +289,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -326,7 +333,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -365,7 +372,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -388,7 +395,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 60
 		
-		special_forces_cap = 0.20
+		special_forces_cap = 0.06
 		special_forces_out_of_supply_factor = -0.1
 		special_forces_attack_factor = 0.10
 		acclimatization_hot_climate_gain_factor = 0.10
@@ -403,7 +410,7 @@ technologies = {
 
 		categories = {
 			special_forces_doctrine
-			mountaineers_tech
+			#mountaineers_tech
 			cat_mountaineers_doctrine
 		}
 		
@@ -434,11 +441,14 @@ technologies = {
 		force_use_small_tech_layout = yes
 		
 		allow = { 
-			
+			AND = {
+				has_tech = marines
+				can_unlock_new_special_forces_tree = yes
+			}
 		}
 		
 		on_research_complete = {
-			
+			remove_potential_special_forces_tree = yes
 		}
 		
 		path = {
@@ -467,7 +477,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -479,11 +489,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 20
-			modifier = {
-				factor = 0
-				tag = USA
-				NOT = { has_tech = special_forces_paratroopers }
-			}
 		}
 		
 		ai_research_weights = {
@@ -518,7 +523,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -564,7 +569,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -611,7 +616,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -660,7 +665,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -693,7 +698,7 @@ technologies = {
 		
 		xor = { marines_commandoes }
 
-		special_forces_cap = 0.10
+		special_forces_cap = 0.06
 		naval_invasion_planning_bonus_speed = 0.2
 		
 		army_bonus_air_superiority_factor = 0.10
@@ -703,7 +708,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -748,7 +753,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 		
@@ -800,7 +805,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -851,7 +856,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -885,7 +890,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -940,7 +945,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			marine_tech
+			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -981,11 +986,14 @@ technologies = {
 		}
 		
 		allow = { 
-			
+			AND = {
+				has_tech = paratroopers 
+				can_unlock_new_special_forces_tree = yes
+			}
 		}
 		
 		on_research_complete = {
-			
+			remove_potential_special_forces_tree = yes
 		}
 		
 		path = {
@@ -1003,7 +1011,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1015,6 +1023,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 20
+			modifier = {
+				factor = 0
+				NOT = { ai_has_completed_air_doctrine = yes }
+			}
 		}
 		
 		ai_research_weights = {
@@ -1048,7 +1060,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 		
@@ -1091,7 +1103,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 		
@@ -1139,7 +1151,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 		
@@ -1183,7 +1195,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1228,7 +1240,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1272,7 +1284,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1311,7 +1323,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1349,7 +1361,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 
@@ -1384,7 +1396,7 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			para_tech
+			#para_tech
 			cat_paratroopers_doctrine
 		}
 

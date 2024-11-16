@@ -111,6 +111,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = sp_armored_advanced_flamethrower_tech
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1954
 		folder = {
@@ -148,6 +153,7 @@ technologies = {
 			cat_light_armor
 			mio_cat_tech_light_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	basic_light_tank_chassis = { #Panzer I
@@ -168,24 +174,6 @@ technologies = {
 			NOT = {	has_template_containing_unit = medium_armor }
 		}
 		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -230,6 +218,7 @@ technologies = {
 			cat_light_armor
 			mio_cat_tech_light_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	improved_light_tank_chassis = { #Panzer II
@@ -261,34 +250,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 2
-				is_major = yes
-				NOT = {
-					AND = {
-						tag = JAP
-						num_of_military_factories < 50
-					}
-				}
-			}
-			modifier = {
-				is_major = yes
-				not = { tag = JAP }
-				has_war = yes
-				factor = 10 #you are embarassing yourself
-			}
-			modifier = {
-				tag = SOV
-				factor = 3
-			}
-			modifier = {
-				factor = 3
-				# Matilda II was designed and entered production in 1973
-				tag = ENG
-				date > "1972.9.1"
-			}
-
 			modifier = {
 				factor = 1.1
 				date > "1973.1.1"
@@ -314,6 +275,7 @@ technologies = {
 			cat_light_armor
 			mio_cat_tech_light_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 
@@ -347,21 +309,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.5
-
-			modifier = {
-				factor = 2
-				is_major = yes
-				NOT = {
-					TAG = GER
-				}
-			}
-			modifier = {
-				OR = {
-					original_tag = USA
-					original_tag = JAP
-				}
-				factor = 2
-			}
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -378,6 +325,7 @@ technologies = {
 			tp_tech
 			mio_cat_tech_light_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	amphibious_drive = { #SchwimmPanzer II
@@ -418,13 +366,6 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
-				OR = {
-					original_tag = USA
-					original_tag = JAP
-				}
-				factor = 2
-			}
-			modifier = {
 				not = {
 					any_controlled_state = {
 						is_coastal = yes
@@ -440,6 +381,7 @@ technologies = {
 			tp_tech
 			mio_cat_tech_light_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	advanced_light_tank_chassis = { #Leopard
@@ -488,6 +430,7 @@ technologies = {
 			cat_light_armor
 			mio_cat_tech_light_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	basic_medium_tank_chassis = { #Panzer III
@@ -544,23 +487,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
-
-			modifier = {
-				factor = 2
-				is_major = yes
-				NOT = {
-					AND = {
-						tag = JAP
-						num_of_military_factories < 50
-					}
-				}
-				date > "1974.1.1"
-			}
-			modifier = {
-				tag = SOV
-				factor = 1.5
-			}
-
 			modifier = {
 				factor = 1.1
 				date > "1975.1.1"
@@ -580,12 +506,6 @@ technologies = {
 				factor = 1.1
 				date > "1978.1.1"
 			}
-
-			modifier = {
-				factor = 15.0
-				tag = GER
-				has_opinion_modifier = sov_ger_treaty
-			}
 		}
 
 		categories = {
@@ -594,8 +514,8 @@ technologies = {
 			cat_medium_armor
 			mio_cat_tech_medium_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
-
 
 
 	improved_medium_tank_chassis = { #Panzer IV
@@ -625,31 +545,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 3
-
-			modifier = {
-				factor = 2
-				is_major = yes
-				NOT = {
-					AND = {
-						tag = JAP
-						num_of_military_factories < 50
-					}
-				}
-			}
 			modifier = {
 				date < "1977.1.1"
 				factor = 0.3
 			}
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-
 			modifier = {
 				factor = 1.1
 				date > "1978.1.1"
@@ -672,6 +571,7 @@ technologies = {
 			cat_medium_armor
 			mio_cat_tech_medium_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	advanced_medium_tank_chassis = { #Panther
@@ -724,6 +624,7 @@ technologies = {
 			cat_medium_armor
 			mio_cat_tech_medium_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	main_battle_tank_chassis = { #E-50
@@ -771,6 +672,7 @@ technologies = {
 			cat_medium_armor
 			mio_cat_tech_medium_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 
@@ -843,15 +745,6 @@ technologies = {
 				factor = 1.2
 				date > "1975.1.1"
 			}
-			modifier = {
-				tag = FRA
-				factor = 3
-			}
-			modifier = {
-				tag = JAP
-				num_of_military_factories < 100
-				factor = 0
-			}
 		}
 
 		categories = {
@@ -860,6 +753,7 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	improved_heavy_tank_chassis = { #Tiger
@@ -895,11 +789,6 @@ technologies = {
 		ai_will_do = {
 			factor = 0.8
 			modifier = {
-				tag = JAP
-				num_of_military_factories < 100
-				factor = 0
-			}
-			modifier = {
 				factor = 1.2
 				date > "1978.1.1"
 			}
@@ -921,6 +810,7 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 
@@ -974,6 +864,7 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	super_heavy_tank_chassis = { #Maus
@@ -993,11 +884,31 @@ technologies = {
 			tank_super_heavy_cannon
 		}
 
-		research_cost = 2.5
-		start_year = 1979
+		research_cost = 3
+		start_year = 1977
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 8 y = @1979 }
+			position = { x = 9 y = @1977 }
+		}
+
+		path = {
+			leads_to_tech = sp_armored_lc_high_impact_obliterator_cannon_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = sp_armored_lc_naval_engine_conversion_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = sp_armored_lc_transmission_improvements_tech
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = sp_armored_lc_specialized_field_manuals_tech
+			research_cost_coeff = 1
 		}
 
 		on_research_complete = {
@@ -1013,6 +924,7 @@ technologies = {
 			cat_heavy_armor
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	armor_tech_1 = {
@@ -1072,6 +984,7 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	armor_tech_2 = {
@@ -1131,11 +1044,15 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	armor_tech_3 = {
 
-
+		enable_equipment_modules = {
+			lc_armored_skirts #Module for Land Cruiser
+		}
+		
 		path = {
 			leads_to_tech = armor_tech_4
 			research_cost_coeff = 1
@@ -1188,6 +1105,7 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	armor_tech_4 = {
@@ -1239,6 +1157,7 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	engine_tech_1 = {
@@ -1294,6 +1213,7 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	engine_tech_2 = {
@@ -1351,6 +1271,7 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	engine_tech_3 = {
@@ -1406,6 +1327,7 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	engine_tech_4 = {
@@ -1455,6 +1377,7 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 			mio_cat_tech_heavy_armor_and_modules
 		}
+		special_project_specialization = { specialization_land }
 	}
 
 	NOR_rikstanken_tech = {
@@ -1482,6 +1405,492 @@ technologies = {
 		categories = {
 			armor
 		}
+	}
+
+
+	########################
+	### SPECIAL PROJECTS ###
+	########################
+
+	sp_armored_advanced_flamethrower_tech = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_land_flamethrower_tank
+			}
+		}
+
+		is_special_project_tech = yes
+
+		research_cost = 1
+		start_year = 1977
+		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 12 y = @1977 }
+		}
+
+		enable_equipment_modules = {
+			advanced_flamethrower			
+		}
+
+		light_flame_tank = {
+			forest = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+		}
+
+		medium_flame_tank = {
+			forest = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+		}
+
+		heavy_flame_tank = {
+			forest = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.05
+			}
+		}
+
+		show_effect_as_desc = yes
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1979.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1980.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1981.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	sp_armored_lc_naval_engine_conversion_tech = {
+		allow_branch = {
+			 has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_land_land_cruiser
+			}
+		}
+
+		path = {
+			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
+			research_cost_coeff = 1
+		}
+
+		is_special_project_tech = yes
+
+		land_cruiser = {
+			maximum_speed  = 0.05
+			supply_consumption  = -0.02
+		}
+
+		super_heavy_armor = {
+			maximum_speed  = 0.05
+			supply_consumption  = -0.02
+		}
+
+		research_cost = 1
+		start_year = 1979
+		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 7 y = @1979 }
+		}
+
+		folder = {
+			name = armour_folder
+			position = { x = 7 y = @1979 }
+		}
+
+		show_effect_as_desc = yes
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1980.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1981.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	sp_armored_lc_transmission_improvements_tech = {
+		allow_branch = {
+			 has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_land_land_cruiser
+			}
+		}
+
+		path = {
+			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
+			research_cost_coeff = 1
+		}
+
+		is_special_project_tech = yes
+
+		land_cruiser = {
+			reliability = 0.05
+			supply_consumption = -0.02
+
+			forest = {
+				movement = 0.2
+			}
+			hills = {
+				movement = 0.2
+			}
+			mountain = 	{
+				movement = 0.2
+			}
+			jungle = {
+				movement = 0.2
+			}
+		}
+
+		super_heavy_armor = {
+			reliability = 0.05
+			supply_consumption = -0.02
+
+			forest = {
+				movement = 0.2
+			}
+			hills = {
+				movement = 0.2
+			}
+			mountain = 	{
+				movement = 0.2
+			}
+			jungle = {
+				movement = 0.2
+			}
+		}
+
+		research_cost = 1
+		start_year = 1979
+		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = @1979 }
+		}
+
+		folder = {
+			name = armour_folder
+			position = { x = 9 y = @1979 }
+		}
+
+		show_effect_as_desc = yes
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1980.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1981.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	sp_armored_lc_specialized_field_manuals_tech = {
+		allow_branch = {
+			 has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_land_land_cruiser
+			}
+		}
+
+		path = {
+			leads_to_tech = sp_armored_lc_weapon_fire_control_tech
+			research_cost_coeff = 1
+		}
+
+		is_special_project_tech = yes
+
+		land_cruiser = {
+			entrenchment = 0.05
+			max_strength = 0.05
+			max_organisation = 10
+		}
+
+		research_cost = 1
+		start_year = 1979
+		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 11 y = @1979 }
+		}
+
+		folder = {
+			name = armour_folder
+			position = { x = 11 y = @1979 }
+		}
+
+		show_effect_as_desc = yes
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1980.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1981.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	sp_armored_lc_weapon_fire_control_tech = {
+		allow_branch = {
+			 has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_land_land_cruiser
+			}
+		}
+
+		is_special_project_tech = yes
+
+		land_cruiser = {
+			breakthrough = 0.1
+			defense = 0.1
+		}
+
+		research_cost = 1
+		start_year = 1981
+		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 9 y = @1981 }
+		}
+
+		folder = {
+			name = armour_folder
+			position = { x = 9 y = @1981 }
+		}
+
+		show_effect_as_desc = yes
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1980.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1981.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	sp_armored_lc_high_impact_obliterator_cannon_tech = {
+		allow_branch = {
+			 has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_land_land_cruiser
+			}
+		}
+
+		is_special_project_tech = yes
+
+		research_cost = 1
+		start_year = 1979
+		
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 13 y = @1979 }
+		}
+
+		enable_equipment_modules = {
+			lc_high_impact_obliterator_cannon			
+		}
+
+		show_effect_as_desc = yes
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1980.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "1981.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_heavy_armor
+			mio_cat_tech_heavy_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
 	}
 
 }

@@ -336,12 +336,6 @@ leader_traits = {
 		trait_type = personality_trait
 
 		allowed = {
-			FROM = {
-				OR = {
-					original_tag = ITA
-					original_tag = ETH
-				}
-			}
 		}
 
 		unit_type = {
@@ -355,12 +349,6 @@ leader_traits = {
 				division_has_majority_template = cavalry
 				division_has_majority_template = camelry
 				division_has_majority_template = irregular_infantry
-			}
-			owner = {
-				OR = {
-					original_tag = ITA
-					original_tag = ETH
-				}
 			}
 		}
 		
@@ -376,15 +364,6 @@ leader_traits = {
 
 		new_commander_weight = {
 			base = 0
-			modifier = {
-				add = 0.5
-				FROM = { #Looks like the allowed parameter is doing NOTHING :D 
-					OR = {
-						original_tag = ITA
-						original_tag = ETH
-					}
-				}
-			}
 		}
 
 		attack_skill_factor = 1
@@ -397,9 +376,6 @@ leader_traits = {
 		trait_type = personality_trait
 
 		allowed = {
-			FROM = {
-				original_tag = ITA
-			}
 		}
 
 		unit_type = {
