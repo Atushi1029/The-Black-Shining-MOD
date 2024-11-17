@@ -1,6 +1,6 @@
 ﻿capital = 561
 #oob = "EMPTY"
-set_cosmetic_tag = RUS_fascist_council
+set_cosmetic_tag = RSR_fascist_council
 set_starting_values = yes
 recruit_character = RFP_donat_yosefovich_kunle
 set_convoys = 20

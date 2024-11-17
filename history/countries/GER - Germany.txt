@@ -86,14 +86,14 @@ set_popularities = {
 }
 #Factions
 create_faction = GER_stahlabkommen
-add_to_faction = BNF
 add_to_faction = DEN
 add_to_faction = GER
-add_to_faction = MAF
-add_to_faction = NID
 add_to_faction = NOR
+add_to_faction = RKA
+add_to_faction = RKB
 add_to_faction = RKK
 add_to_faction = RKM
+add_to_faction = RKN
 add_to_faction = RKO
 add_to_faction = RKU
 add_to_faction = SLO
@@ -120,15 +120,15 @@ every_country = {
 set_variable = { eco_sphere_post = 1 }
 #Autonomies
 set_autonomy = {
-	target = BNF
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = NID
+	target = RKB
 	autonomous_state = autonomy_reichskommissariat
 }
 set_autonomy = {
 	target = RKK
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = RKN
 	autonomous_state = autonomy_reichskommissariat
 }
 set_autonomy = {
@@ -140,7 +140,7 @@ set_autonomy = {
 	autonomous_state = autonomy_reichskommissariat
 }
 set_autonomy = {
-	target = MAF
+	target = RKA
 	autonomous_state = autonomy_reichsprotectorate
 }
 set_autonomy = {

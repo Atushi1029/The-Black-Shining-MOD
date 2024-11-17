@@ -1,0 +1,20 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_RKB_albert_frey"
+		texturefile = "gfx/interface/advisors/RKB/idea_RKB_albert_frey.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RKB_josef_mengele"
+		texturefile = "gfx/interface/advisors/RKB/idea_RKB_josef_mengele.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RKB_Albert_Frey"
+		texturefile = "gfx/leaders/RKB/Portrait_RKB_Albert_Frey.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RKB_Josef_Mengele"
+		texturefile = "gfx/leaders/RKB/Portrait_RKB_Josef_Mengele.png"
+	}
+}

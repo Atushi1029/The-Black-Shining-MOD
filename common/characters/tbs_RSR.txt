@@ -1,0 +1,100 @@
+characters = {
+	RSR_irina_yusupova = {
+		name = RSR_irina_yusupova
+		gender = female
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RSR_Irina_Yusupova"
+				small = "GFX_idea_RSR_irina_yusupova"
+			}
+			army = {
+				large = "GFX_Portrait_RSR_Irina_Yusupova"
+				small = "GFX_idea_RSR_irina_yusupova"
+			}
+			navy = {
+				large = "GFX_Portrait_RSR_Irina_Yusupova"
+				small = "GFX_idea_RSR_irina_yusupova"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IRINA_YUSUPOVA_DESC"
+			ideology = con_liberal_conservatism_ideology
+			expire = "1983.8.30.1"
+			id = -1
+			traits = {}
+		}
+	}
+	RSR_roman_gul = {
+		name = RSR_roman_gul
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RSR_Roman_Gul"
+				small = "GFX_idea_RSR_roman_gul"
+			}
+			army = {
+				large = "GFX_Portrait_RSR_Roman_Gul"
+				small = "GFX_idea_RSR_roman_gul"
+			}
+			navy = {
+				large = "GFX_Portrait_RSR_Roman_Gul"
+				small = "GFX_idea_RSR_roman_gul"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ROMAN_GUL_DESC"
+			ideology = libdem_social_liberalism_ideology
+			expire = "1986.6.30.1"
+			id = -1
+			traits = {}
+		}
+	}
+	RSR_sergey_taboritsky = {
+		name = RSR_sergey_taboritsky
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RSR_Sergey_Taboritsky"
+				small = "GFX_idea_RSR_sergey_taboritsky"
+			}
+			army = {
+				large = "GFX_Portrait_RSR_Sergey_Taboritsky"
+				small = "GFX_idea_RSR_sergey_taboritsky"
+			}
+			navy = {
+				large = "GFX_Portrait_RSR_Sergey_Taboritsky"
+				small = "GFX_idea_RSR_sergey_taboritsky"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SERGEY_TABORITSKY_DESC"
+			ideology = autdem_national_conservatism_ideology
+			expire = "1980.10.16.1"
+			id = -1
+			traits = {}
+		}
+	}
+	RSR_yekaterina_furtseva = {
+		name = RSR_yekaterina_furtseva
+		gender = female
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RSR_Yekaterina_Furtseva"
+				small = "GFX_idea_RSR_yekaterina_furtseva"
+			}
+			army = {
+				large = "GFX_Portrait_RSR_Yekaterina_Furtseva"
+				small = "GFX_idea_RSR_yekaterina_furtseva"
+			}
+			navy = {
+				large = "GFX_Portrait_RSR_Yekaterina_Furtseva"
+				small = "GFX_idea_RSR_yekaterina_furtseva"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YEKATERINA_FURTSEVA_DESC"
+			ideology = social_democracy_ideology
+			expire = "1974.10.24.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

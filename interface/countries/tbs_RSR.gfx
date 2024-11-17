@@ -1,0 +1,36 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_RSR_irina_yusupova"
+		texturefile = "gfx/interface/advisors/RSR/idea_RSR_irina_yusupova.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RSR_roman_gul"
+		texturefile = "gfx/interface/advisors/RSR/idea_RSR_roman_gul.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RSR_sergey_taboritsky"
+		texturefile = "gfx/interface/advisors/RSR/idea_RSR_sergey_taboritsky.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RSR_yekaterina_furtseva"
+		texturefile = "gfx/interface/advisors/RSR/idea_RSR_yekaterina_furtseva.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RSR_Irina_Yusupova"
+		texturefile = "gfx/leaders/RSR/Portrait_RSR_Irina_Yusupova.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RSR_Roman_Gul"
+		texturefile = "gfx/leaders/RSR/Portrait_RSR_Roman_Gul.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RSR_Sergey_Taboritsky"
+		texturefile = "gfx/leaders/RSR/Portrait_RSR_Sergey_Taboritsky.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RSR_Yekaterina_Furtseva"
+		texturefile = "gfx/leaders/RSR/Portrait_RSR_Yekaterina_Furtseva.png"
+	}
+}

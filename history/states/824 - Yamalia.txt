@@ -7,8 +7,8 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = RUS
-		add_core_of = RUS
+		owner = RSR
+		add_core_of = RSR
 		add_claim_by = FER
 		add_claim_by = RLA
 		add_claim_by = SOV

@@ -1,0 +1,20 @@
+spriteTypes = {
+	#Advisors
+	spriteType = {
+		name = "GFX_idea_RKN_joachim_peiper"
+		texturefile = "gfx/interface/advisors/RKN/idea_RKN_joachim_peiper.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RKN_Reinhold_Hanning"
+		texturefile = "gfx/interface/advisors/RKN/idea_RKN_Reinhold_Hanning.png"
+	}
+	#Portraits
+	spriteType = {
+		name = "GFX_Portrait_RKN_Joachim_Peiper"
+		texturefile = "gfx/leaders/RKN/Portrait_RKN_Joachim_Peiper.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_RKN_Reinhold_Hanning"
+		texturefile = "gfx/leaders/RKN/Portrait_RKN_Reinhold_Hanning.png"
+	}
+}

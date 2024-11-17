@@ -3,8 +3,8 @@ state = {
 	name="STATE_950"
 
 	history = { 
-		owner = NID
-		add_core_of = NID
+		owner = RKN
+		add_core_of = RKN
 		add_claim_by = HOL
 		victory_points = {
 			9363 1 

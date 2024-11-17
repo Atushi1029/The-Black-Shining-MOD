@@ -1,6 +1,6 @@
 ﻿capital = 651
 #oob = "EMPTY"
-set_cosmetic_tag = RUS_liberation_army
+set_cosmetic_tag = RSR_liberation_army
 set_starting_values = yes
 recruit_character = RLA_alexander_albov
 recruit_character = RLA_andrey_dikiy
@@ -46,5 +46,5 @@ add_to_array = { global.russian_warlords = RLA }
 #Military Access
 give_military_access = GER
 #Embargo
-send_embargo = RUS
+send_embargo = RSR
 send_embargo = SOV

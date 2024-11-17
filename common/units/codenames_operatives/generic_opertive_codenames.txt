@@ -3,7 +3,7 @@ GENERIC_ENG_OPERATIVE_CODENAME_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_OPERATIVES
 
 	# for these countries
-	for_countries = { USA ITA RUS POL DDR FRA WGR ENG }
+	for_countries = { USA ITA RSR POL DDR FRA WGR ENG }
 
 	type = codename
 

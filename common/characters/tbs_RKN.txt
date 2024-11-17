@@ -1,0 +1,50 @@
+characters = {
+	RKN_joachim_peiper = {
+		name = RKN_joachim_peiper
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKN_Joachim_Peiper"
+				small = "GFX_idea_RKN_joachim_peiper"
+			}
+			army = {
+				large = "GFX_Portrait_RKN_Joachim_Peiper"
+				small = "GFX_idea_RKN_joachim_peiper"
+			}
+			navy = {
+				large = "GFX_Portrait_RKN_Joachim_Peiper"
+				small = "GFX_idea_RKN_joachim_peiper"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JOACHIM_PEIPER_DESC"
+			ideology = national_socialism_ideology
+			expire = "1976.7.14.1"
+			id = -1
+			traits = {}
+		}
+	}
+	RKN_reinhold_hanning = {
+		name = RKN_reinhold_hanning
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKN_Reinhold_Hanning"
+				small = "GFX_idea_RKN_Reinhold_Hanning"
+			}
+			army = {
+				large = "GFX_Portrait_RKN_Reinhold_Hanning"
+				small = "GFX_idea_RKN_Reinhold_Hanning"
+			}
+			navy = {
+				large = "GFX_Portrait_RKN_Reinhold_Hanning"
+				small = "GFX_idea_RKN_Reinhold_Hanning"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_REINHOLD_HANNING_DESC"
+			ideology = reactionism_ideology
+			expire = "2017.5.30.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

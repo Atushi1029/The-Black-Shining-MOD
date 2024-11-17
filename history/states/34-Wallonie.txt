@@ -4,9 +4,9 @@ state = {
 	name="STATE_34"
 
 	history = { 
-		owner = BNF
+		owner = RKB
 		add_core_of = BEL
-		add_core_of = BNF
+		add_core_of = RKB
 		victory_points = {
 			3516 5 
 		}

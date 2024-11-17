@@ -17,7 +17,7 @@ state = {
 		add_core_of = SOV
 		add_claim_by = FER
 		add_claim_by = RLA
-		add_claim_by = RUS
+		add_claim_by = RSR
 		set_state_flag = ussr_core_states
 	}
 

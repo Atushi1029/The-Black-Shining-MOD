@@ -1,0 +1,31 @@
+﻿capital = 546
+#oob = "EMPTY"
+set_starting_values = yes
+recruit_character = RKA_heinrich_berger
+recruit_character = RKA_wilhelm_mohnke
+set_convoys = 20
+add_ideas = {
+	
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		totalitarian_socialism = 0
+		neo_communism = 0
+		gradual_socialism = 0
+		social_democracy = 0
+		liberal_democracy = 0
+		conservatism = 0
+		authoritarian_democracy = 0
+		paternal_autocracy = 0
+		national_corporatism = 20
+		national_socialism = 80
+		ultra_nationalism = 0
+		reactionism = 0
+	}
+}

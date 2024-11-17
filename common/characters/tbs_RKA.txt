@@ -1,0 +1,43 @@
+characters = {
+	RKA_heinrich_berger = {
+		name = RKA_heinrich_berger
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKA_Heinrich_Berger"
+				small = "GFX_idea_RKA_heinrich_berger"
+			}
+			army = {
+				large = "GFX_Portrait_RKA_Heinrich_Berger"
+				small = "GFX_idea_RKA_heinrich_berger"
+			}
+			navy = {
+				large = "GFX_Portrait_RKA_Heinrich_Berger"
+				small = "GFX_idea_RKA_heinrich_berger"
+			}
+		}
+	}
+	RKA_wilhelm_mohnke = {
+		name = RKA_wilhelm_mohnke
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_RKA_Wilhelm_Mohnke"
+				small = "GFX_idea_RKA_wilhelm_mohnke"
+			}
+			army = {
+				large = "GFX_Portrait_RKA_Wilhelm_Mohnke"
+				small = "GFX_idea_RKA_wilhelm_mohnke"
+			}
+			navy = {
+				large = "GFX_Portrait_RKA_Wilhelm_Mohnke"
+				small = "GFX_idea_RKA_wilhelm_mohnke"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WILHELM_MOHNKE_DESC"
+			ideology = national_socialism_ideology
+			expire = "2001.8.6.1"
+			id = -1
+			traits = {}
+		}
+	}
+}

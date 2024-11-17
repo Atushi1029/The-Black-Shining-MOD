@@ -1094,6 +1094,114 @@
  WLA:0 "イ・ウラドファ"
  WLA_DEF:0 "イ・ウラドファ"
  WLA_ADJ:0 "イ・ウラドファ"
+
+ KAT:0 "カタンガ"
+ KAT_DEF:0 "カタンガ"
+ KAT_ADJ:0 "カタンガ"
+
+ BIA:0 "ビアフラ"
+ BIA_DEF:0 "ビアフラ"
+ BIA_ADJ:0 "ビアフラ"
+
+ CBV:0 "カーボベルデ"
+ CBV_DEF:0 "カーボベルデ"
+ CBV_ADJ:0 "カーボベルデ"
+
+ BAR:0 "バロツェランド"
+ BAR_DEF:0 "バロツェランド"
+ BAR_ADJ:0 "バロツェランド"
+
+ EVE:0 "エヴェンキ"
+ EVE_DEF:0 "エヴェンキ"
+ EVE_ADJ:0 "エヴェンキ"
+
+ SOK:0 "ソコト"
+ SOK_DEF:0 "ソコト"
+ SOK_ADJ:0 "ソコト"
+
+ THU:0 "テューリンゲン"
+ THU_DEF:0 "テューリンゲン"
+ THU_ADJ:0 "テューリンゲン"
+
+ HES:0 "ヘッセン"
+ HES_DEF:0 "ヘッセン"
+ HES_ADJ:0 "ヘッセン"
+
+ RHI:0 "ラインラント"
+ RHI_DEF:0 "ラインラント"
+ RHI_ADJ:0 "ラインラント"
+
+ UBD:0 "バルト"
+ UBD_DEF:0 "バルト"
+ UBD_ADJ:0 "バルト"
+
+ RKG:0 "ノルウェー"
+ RKG_DEF:0 "ノルウェー"
+ RKG_ADJ:0 "ノルウェー"
+
+ RKT:0 "トルキスタン"
+ RKT_DEF:0 "トルキスタン"
+ RKT_ADJ:0 "トルキスタン"
+
+ RKL:0 "ウラル"
+ RKL_DEF:0 "ウラル"
+ RKL_ADJ:0 "ウラル"
+
+ GEN:0 "ポーランド"
+ GEN_DEF:0 "ポーランド"
+ GEN_ADJ:0 "ポーランド"
+
+ RKH:0 "ボヘミア＝モラヴィア"
+ RKH_DEF:0 "ボヘミア＝モラヴィア"
+ RKH_ADJ:0 "ボヘミア＝モラヴィア"
+
+ RKI:0 "イベリア"
+ RKI_DEF:0 "イベリア"
+ RKI_ADJ:0 "イベリア"
+
+ RKC:0 "バルカン"
+ RKC_DEF:0 "バルカン"
+ RKC_ADJ:0 "バルカン"
+
+ RGB:0 "イギリス"
+ RGB_DEF:0 "イギリス"
+ RGB_ADJ:0 "イギリス"
+
+ RNA:0 "北アフリカ"
+ RNA_DEF:0 "北アフリカ"
+ RNA_ADJ:0 "北アフリカ"
+
+ RKV:0 "小ヴェネツィア"
+ RKV_DEF:0 "小ヴェネツィア"
+ RKV_ADJ:0 "小ヴェネツィア"
+
+ RAN:0 "アンデス"
+ RAN_DEF:0 "アンデス"
+ RAN_ADJ:0 "アンデス"
+
+ RCO:0 "コロンビア"
+ RCO_DEF:0 "コロンビア"
+ RCO_ADJ:0 "コロンビア"
+
+ RUS:0 "北アメリカ"
+ RUS_DEF:0 "北アメリカ"
+ RUS_ADJ:0 "北アメリカ"
+
+ RHD:0 "インド"
+ RHD_DEF:0 "インド"
+ RHD_ADJ:0 "インド"
+
+ RAR:0 "アラビア"
+ RAR_DEF:0 "アラビア"
+ RAR_ADJ:0 "アラビア"
+
+ ROA:0 "東アジア"
+ ROA_DEF:0 "東アジア"
+ ROA_ADJ:0 "東アジア"
+
+ RAA:0 "オーストララシア"
+ RAA_DEF:0 "オーストララシア"
+ RAA_ADJ:0 "オーストララシア"
  
 #The Black Shining
  
@@ -1116,10 +1224,6 @@
  BHR:0 "バーレーン"
  BHR_DEF:0 "バーレーン"
  BHR_ADJ:0 "バーレーン"
- 
- BNF:0 "ベルギー＝北フランス"
- BNF_DEF:0 "ベルギー＝北フランス"
- BNF_ADJ:0 "ベルギー＝北フランス"
 
  BPF:0 "ビルマ"
  BPF_DEF:0 "ビルマ"
@@ -1180,10 +1284,6 @@
  LIE:0 "リヒテンシュタイン"
  LIE_DEF:0 "リヒテンシュタイン"
  LIE_ADJ:0 "リヒテンシュタイン"
- 
- MAF:0 "中央アフリカ"
- MAF_DEF:0 "中央アフリカ"
- MAF_ADJ:0 "中央アフリカ"
 
  MCO:0 "モナコ"
  MCO_DEF:0 "モナコ"
@@ -1192,10 +1292,6 @@
  MCU:0 "マカオ"
  MCU_DEF:0 "マカオ"
  MCU_ADJ:0 "マカオ"
- 
- NID:0 "オランダ"
- NID_DEF:0 "オランダ"
- NID_ADJ:0 "オランダ"
  
  OMO:0 "オモロン"
  OMO_DEF:0 "オモロン"
@@ -1216,6 +1312,14 @@
  RFP:0 "ロシア"
  RFP_DEF:0 "ロシア"
  RFP_ADJ:0 "ロシア"
+
+ RKA:0 "中央アフリカ"
+ RKA_DEF:0 "中央アフリカ"
+ RKA_ADJ:0 "中央アフリカ"
+ 
+ RKB:0 "ベルギー＝北フランス"
+ RKB_DEF:0 "ベルギー＝北フランス"
+ RKB_ADJ:0 "ベルギー＝北フランス"
  
  RKK:0 "コーカシア"
  RKK_DEF:0 "コーカシア"
@@ -1224,6 +1328,10 @@
  RKM:0 "モスクワ"
  RKM_DEF:0 "モスクワ"
  RKM_ADJ:0 "モスクワ"
+
+ RKN:0 "オランダ"
+ RKN_DEF:0 "オランダ"
+ RKN_ADJ:0 "オランダ"
  
  RKO:0 "オストラント"
  RKO_DEF:0 "オストラント"
@@ -1241,9 +1349,9 @@
  RPG_DEF:0 "ルーマニア"
  RPG_ADJ:0 "ルーマニア"
  
- RUS:0 "ロシア"
- RUS_DEF:0 "ロシア"
- RUS_ADJ:0 "ロシア"
+ RSR:0 "ロシア"
+ RSR_DEF:0 "ロシア"
+ RSR_ADJ:0 "ロシア"
 
  SMR:0 "サンマリノ"
  SMR_DEF:0 "サンマリノ"

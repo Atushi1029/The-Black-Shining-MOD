@@ -76,7 +76,7 @@ add_to_array = { global.russian_warlords = FER }
 give_military_access = JAP
 #Embargo
 send_embargo = RLA
-send_embargo = RUS
+send_embargo = RSR
 send_embargo = SOV
 country_event = {
 	id = tbs_skelton.0

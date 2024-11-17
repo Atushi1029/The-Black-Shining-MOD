@@ -1,0 +1,24 @@
+﻿capital = 7
+#oob = "EMPTY"
+set_starting_values = yes
+recruit_character = RKN_joachim_peiper
+recruit_character = RKN_reinhold_hanning
+set_convoys = 20
+add_ideas = {
+	
+}
+1972.1.1 = {
+	set_politics = {
+		ruling_party = national_socialism
+		last_election = "1972.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 5
+		authoritarian_democracy = 5
+		paternal_autocracy = 10
+		national_corporatism = 20
+		national_socialism = 60
+	}
+}
