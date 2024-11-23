@@ -1,5 +1,7 @@
 spriteTypes = {
 
+	#Government in Exile
+
 	spriteType = {
 		name = "GFX_countryview_government_in_exile_bg"
 		texturefile = "gfx/interface/government_in_exile/countryview_government_in_exile_bg.dds"
@@ -170,6 +172,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_autonomy_personal_union_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_personal_union_puppet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_aat_defense_council_member_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_austro_hungarian_subject_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_austro_hungarian_vassal_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_volkskommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_volkskommissariat_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_eu_member_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_eu_member_icon.dds"
 	}
 	
 	#-------------
@@ -423,6 +445,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_entry_bg_4"
+		texturefile = "gfx/interface/idea_entry_bg_4.dds"
+	}
+
+	spriteType = {
 		name = "GFX_pol_factions_strip"
 		texturefile = "gfx\\interface\\pol_factions_strip.tga"
 		noOfFrames = 4
@@ -450,6 +477,37 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_occupied_territories"
 		texturefile = "gfx/interface/icon_occupied_territories.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_neutrality_group"
+		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
