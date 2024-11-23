@@ -261,8 +261,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_satoko_tokano.png"
 	}
 	spriteType = {
-		name = "GFX_idea_JAP_sei_matsuya"
-		texturefile = "gfx/interface/advisors/JAP/idea_JAP_sei_matsuya.png"
+		name = "GFX_idea_JAP_sei_matsutani"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_sei_matsutani.png"
 	}
 	spriteType = {
 		name = "GFX_idea_JAP_seiichi_katsumata"
@@ -818,8 +818,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Satoko_Tokano.png"
 	}
 	spriteType = {
-		name = "GFX_Portrait_JAP_Sei_Matsuya"
-		texturefile = "gfx/leaders/JAP/Portrait_JAP_Sei_Matsuya.png"
+		name = "GFX_Portrait_JAP_Sei_Matsutani"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Sei_Matsutani.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_JAP_Seiichi_Katsumata"

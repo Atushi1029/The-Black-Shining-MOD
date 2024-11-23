@@ -2162,20 +2162,20 @@ characters = {
 			}
 		}
 	}
-	JAP_sei_matsuya = {
-		name = JAP_sei_matsuya
+	JAP_sei_matsutani = {
+		name = JAP_sei_matsutani
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_JAP_Sei_Matsuya"
-				small = "GFX_idea_JAP_sei_matsuya"
+				large = "GFX_Portrait_JAP_Sei_Matsutani"
+				small = "GFX_idea_JAP_sei_matsutani"
 			}
 			army = {
-				large = "GFX_Portrait_JAP_Sei_Matsuya"
-				small = "GFX_idea_JAP_sei_matsuya"
+				large = "GFX_Portrait_JAP_Sei_Matsutani"
+				small = "GFX_idea_JAP_sei_matsutani"
 			}
 			navy = {
-				large = "GFX_Portrait_JAP_Sei_Matsuya"
-				small = "GFX_idea_JAP_sei_matsuya"
+				large = "GFX_Portrait_JAP_Sei_Matsutani"
+				small = "GFX_idea_JAP_sei_matsutani"
 			}
 		}
 		corps_commander = {
