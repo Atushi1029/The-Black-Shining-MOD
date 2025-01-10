@@ -57,11 +57,11 @@ country_event = {
 		name = tbs_skelton.1.b
 		ai_chance = { base = 25 }
 		set_politics = {
-			ruling_party = paternal_autocracy
+			ruling_party = paternal_despotism
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = paternal_autocracy
+			ideology = paternal_despotism
 			popularity = 0.3
 		}
 		hidden_effect = {
@@ -225,11 +225,11 @@ country_event = {
 		name = tbs_skelton.4.b
 		ai_chance = { base = 50 }
 		set_politics = {
-			ruling_party = paternal_autocracy
+			ruling_party = paternal_despotism
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = paternal_autocracy
+			ideology = paternal_despotism
 			popularity = 0.4
 		}
 		hidden_effect = {

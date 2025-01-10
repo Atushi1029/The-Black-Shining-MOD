@@ -34,7 +34,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_BLAGOJE_JOVOVIC_DESC"
-			ideology = pataut_managerial_state_ideology
+			ideology = patdes_managerial_state_ideology
 			expire = "1999.6.2.1"
 			id = -1
 			traits = {}

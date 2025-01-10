@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SISAVANG_VATTHANA_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = paternal_despotism_ideology
 			expire = "1978.5.13.1"
 			id = -1
 			traits = {}

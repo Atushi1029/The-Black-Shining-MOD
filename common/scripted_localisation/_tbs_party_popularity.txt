@@ -29,8 +29,8 @@ defined_text = {
 		localization_key = "GFX_authoritarian_democracy_small"
 	}
 	text = {
-		trigger = { has_government = paternal_autocracy }
-		localization_key = "GFX_paternal_autocracy_small"
+		trigger = { has_government = paternal_despotism }
+		localization_key = "GFX_paternal_despotism_small"
 	}
 	text = {
 		trigger = { has_government = national_corporatism }
@@ -77,8 +77,8 @@ defined_text = {
 		localization_key = authoritarian_democracy
 	}
 	text = {
-		trigger = { has_government = paternal_autocracy }
-		localization_key = paternal_autocracy
+		trigger = { has_government = paternal_despotism }
+		localization_key = paternal_despotism
 	}
 	text = {
 		trigger = { has_government = national_corporatism }
@@ -125,8 +125,8 @@ defined_text = {
 		localization_key = authoritarian_democracy_ideology_desc
 	}
 	text = {
-		trigger = { has_government = paternal_autocracy }
-		localization_key = paternal_autocracy_ideology_desc
+		trigger = { has_government = paternal_despotism }
+		localization_key = paternal_despotism_ideology_desc
 	}
 	text = {
 		trigger = { has_government = national_corporatism }
@@ -216,10 +216,10 @@ defined_text = {
 	name = GetPatAutCoalition
 	text = {
 		trigger = {
-			has_a_coalition_with_paternal_autocracy = yes
-			NOT = { has_government = paternal_autocracy }
+			has_a_coalition_with_paternal_despotism = yes
+			NOT = { has_government = paternal_despotism }
 		}
-		localization_key = "coalition_pataut"
+		localization_key = "coalition_patdes"
 	}
 }
 defined_text = {
@@ -274,7 +274,7 @@ defined_text = {
 				has_a_coalition_with_liberal_democracy = yes
 				has_a_coalition_with_conservatism = yes
 				has_a_coalition_with_authoritarian_democracy = yes
-				has_a_coalition_with_paternal_autocracy = yes
+				has_a_coalition_with_paternal_despotism = yes
 				has_a_coalition_with_national_corporatism = yes
 				has_a_coalition_with_national_socialism = yes
 				has_a_coalition_with_ultra_nationalism = yes
@@ -324,7 +324,7 @@ defined_text = {
 		localization_key = "[GetSubIdeologyAutDem]"
 	}
 	text = {
-		trigger = { has_government = paternal_autocracy }
+		trigger = { has_government = paternal_despotism }
 		localization_key = "[GetSubIdeologyPatAut]"
 	}
 	text = {
@@ -670,60 +670,60 @@ defined_text = {
 }
 defined_text = {
 	name = GetSubIdeologyPatAut
-	#Paternal Autocracy
+	#Paternal Despotism
 	text = {
-		trigger = { has_country_leader_ideology = pataut_absolute_monarchism_ideology }
-		localization_key = pataut_absolute_monarchism_ideology
+		trigger = { has_country_leader_ideology = patdes_absolute_monarchism_ideology }
+		localization_key = patdes_absolute_monarchism_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_civilian_dictatorship_ideology }
-		localization_key = pataut_civilian_dictatorship_ideology
+		trigger = { has_country_leader_ideology = patdes_civilian_dictatorship_ideology }
+		localization_key = patdes_civilian_dictatorship_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_despotic_populism_ideology }
-		localization_key = pataut_despotic_populism_ideology
+		trigger = { has_country_leader_ideology = patdes_dictatorial_populism_ideology }
+		localization_key = patdes_dictatorial_populism_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_developmental_dictatorship_ideology }
-		localization_key = pataut_developmental_dictatorship_ideology
+		trigger = { has_country_leader_ideology = patdes_developmental_dictatorship_ideology }
+		localization_key = patdes_developmental_dictatorship_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_interim_administration_ideology }
-		localization_key = pataut_interim_administration_ideology
+		trigger = { has_country_leader_ideology = patdes_interim_administration_ideology }
+		localization_key = patdes_interim_administration_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_managerial_state_ideology }
-		localization_key = pataut_managerial_state_ideology
+		trigger = { has_country_leader_ideology = patdes_managerial_state_ideology }
+		localization_key = patdes_managerial_state_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_military_junta_ideology }
-		localization_key = pataut_military_junta_ideology
+		trigger = { has_country_leader_ideology = patdes_military_junta_ideology }
+		localization_key = patdes_military_junta_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_mythticism_ideology }
-		localization_key = pataut_mythticism_ideology
+		trigger = { has_country_leader_ideology = patdes_mythticism_ideology }
+		localization_key = patdes_mythticism_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_neo_baathism_ideology }
-		localization_key = pataut_neo_baathism_ideology
+		trigger = { has_country_leader_ideology = patdes_neo_baathism_ideology }
+		localization_key = patdes_neo_baathism_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_social_militarism_ideology }
-		localization_key = pataut_social_militarism_ideology
+		trigger = { has_country_leader_ideology = patdes_social_militarism_ideology }
+		localization_key = patdes_social_militarism_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_stratocracy_ideology }
-		localization_key = pataut_stratocracy_ideology
+		trigger = { has_country_leader_ideology = patdes_stratocracy_ideology }
+		localization_key = patdes_stratocracy_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_technocracy_ideology }
-		localization_key = pataut_technocracy_ideology
+		trigger = { has_country_leader_ideology = patdes_technocracy_ideology }
+		localization_key = patdes_technocracy_ideology
 	}
 	text = {
-		trigger = { has_country_leader_ideology = pataut_transhumanism_ideology }
-		localization_key = pataut_transhumanism_ideology
+		trigger = { has_country_leader_ideology = patdes_transhumanism_ideology }
+		localization_key = patdes_transhumanism_ideology
 	}
-	text = { localization_key = paternal_autocracy_ideology }
+	text = { localization_key = paternal_despotism_ideology }
 }
 defined_text = {
 	name = GetSubIdeologyNatCor

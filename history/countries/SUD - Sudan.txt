@@ -20,6 +20,6 @@ set_popularities = {
 	liberal_democracy = 6
 	conservatism = 3
 	authoritarian_democracy = 30
-	paternal_autocracy = 4
+	paternal_despotism = 4
 	national_corporatism = 7
 }

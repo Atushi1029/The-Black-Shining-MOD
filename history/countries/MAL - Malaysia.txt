@@ -23,7 +23,7 @@ set_variable = { eco_sphere_post = 5 }
 		liberal_democracy = 14
 		conservatism = 35
 		authoritarian_democracy = 25
-		paternal_autocracy = 4
+		paternal_despotism = 4
 		national_corporatism = 6
 		national_socialism = 0
 		ultra_nationalism = 0

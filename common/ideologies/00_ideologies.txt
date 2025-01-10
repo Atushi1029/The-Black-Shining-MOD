@@ -247,22 +247,22 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
-	paternal_autocracy = {
+	paternal_despotism = {
 		types = {
-			paternal_autocracy_ideology = {}
-			pataut_absolute_monarchism_ideology = { can_be_randomly_selected = no }
-			pataut_civilian_dictatorship_ideology = { can_be_randomly_selected = no }
-			pataut_despotic_populism_ideology = { can_be_randomly_selected = no }
-			pataut_developmental_dictatorship_ideology = { can_be_randomly_selected = no }
-			pataut_interim_administration_ideology = { can_be_randomly_selected = no }
-			pataut_managerial_state_ideology = { can_be_randomly_selected = no }
-			pataut_military_junta_ideology = { can_be_randomly_selected = no }
-			pataut_mythticism_ideology = { can_be_randomly_selected = no }
-			pataut_neo_baathism_ideology = { can_be_randomly_selected = no }
-			pataut_social_militarism_ideology = { can_be_randomly_selected = no }
-			pataut_stratocracy_ideology = { can_be_randomly_selected = no }
-			pataut_technocracy_ideology = { can_be_randomly_selected = no }
-			pataut_transhumanism_ideology = { can_be_randomly_selected = no }
+			paternal_despotism_ideology = {}
+			patdes_absolute_monarchism_ideology = { can_be_randomly_selected = no }
+			patdes_civilian_dictatorship_ideology = { can_be_randomly_selected = no }
+			patdes_dictatorial_populism_ideology = { can_be_randomly_selected = no }
+			patdes_developmental_dictatorship_ideology = { can_be_randomly_selected = no }
+			patdes_interim_administration_ideology = { can_be_randomly_selected = no }
+			patdes_managerial_state_ideology = { can_be_randomly_selected = no }
+			patdes_military_junta_ideology = { can_be_randomly_selected = no }
+			patdes_mythticism_ideology = { can_be_randomly_selected = no }
+			patdes_neo_baathism_ideology = { can_be_randomly_selected = no }
+			patdes_social_militarism_ideology = { can_be_randomly_selected = no }
+			patdes_stratocracy_ideology = { can_be_randomly_selected = no }
+			patdes_technocracy_ideology = { can_be_randomly_selected = no }
+			patdes_transhumanism_ideology = { can_be_randomly_selected = no }
 		}
 		color = { 75 75 75 }
 		rules = {

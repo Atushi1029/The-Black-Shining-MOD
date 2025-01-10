@@ -604,7 +604,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_PYOTR_WRANGEL_II_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = paternal_despotism_ideology
 			expire = "1999.10.24.1"
 			id = -1
 			traits = {}

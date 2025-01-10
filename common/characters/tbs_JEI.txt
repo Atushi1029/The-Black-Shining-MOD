@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HIDEO_MIYOSHI_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = paternal_despotism_ideology
 			expire = "2014.5.8.1"
 			id = -1
 			traits = {}

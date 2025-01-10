@@ -58,7 +58,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MICHAEL_I_DESC"
-			ideology = pataut_interim_administration_ideology
+			ideology = patdes_interim_administration_ideology
 			expire = "2017.12.5.1"
 			id = -1
 			traits = {}

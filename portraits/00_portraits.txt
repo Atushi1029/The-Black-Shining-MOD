@@ -19,7 +19,7 @@ continent = {
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_despotism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -39,7 +39,7 @@ continent = {
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_despotism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -59,7 +59,7 @@ continent = {
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_despotism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -79,7 +79,7 @@ continent = {
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_despotism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -99,7 +99,7 @@ continent = {
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_despotism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -119,7 +119,7 @@ continent = {
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_despotism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }
@@ -139,7 +139,7 @@ continent = {
 		liberal_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		conservatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		authoritarian_democracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
-		paternal_autocracy = { male = { "GFX_portrait_leader_marshal_unknown" } }
+		paternal_despotism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_corporatism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		national_socialism = { male = { "GFX_portrait_leader_marshal_unknown" } }
 		ultra_nationalism = { male = { "GFX_portrait_leader_marshal_unknown" } }

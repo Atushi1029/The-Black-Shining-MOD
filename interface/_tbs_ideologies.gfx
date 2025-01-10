@@ -328,60 +328,60 @@ spriteTypes = {
 	}
 	#Paternal Autocracy
 	spriteType = {
-		name = "GFX_ideology_paternal_autocracy_group"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/paternal_autocracy.png"
+		name = "GFX_ideology_paternal_despotism_group"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/paternal_despotism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_absolute_monarchism_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/absolute_monarchism.png"
+		name = "GFX_ideology_patdes_absolute_monarchism_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/absolute_monarchism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_civilian_dictatorship_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/civilian_dictatorship.png"
+		name = "GFX_ideology_patdes_civilian_dictatorship_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/civilian_dictatorship.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_despotic_populism_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/despotic_populism.png"
+		name = "GFX_ideology_patdes_dictatorial_populism_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/dictatorial_populism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_developmental_dictatorship_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/developmental_dictatorship.png"
+		name = "GFX_ideology_patdes_developmental_dictatorship_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/developmental_dictatorship.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_interim_administration_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/interim_administration.png"
+		name = "GFX_ideology_patdes_interim_administration_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/interim_administration.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_managerial_state_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/managerial_state.png"
+		name = "GFX_ideology_patdes_managerial_state_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/managerial_state.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_military_junta_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/military_junta.png"
+		name = "GFX_ideology_patdes_military_junta_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/military_junta.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_mythticism_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/mythticism.png"
+		name = "GFX_ideology_patdes_mythticism_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/mythticism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_neo_baathism_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/neo_baathism.png"
+		name = "GFX_ideology_patdes_neo_baathism_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/neo_baathism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_social_militarism_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/social_militarism.png"
+		name = "GFX_ideology_patdes_social_militarism_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/social_militarism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_stratocracy_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/stratocracy.png"
+		name = "GFX_ideology_patdes_stratocracy_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/stratocracy.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_technocracy_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/technocracy.png"
+		name = "GFX_ideology_patdes_technocracy_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/technocracy.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_pataut_transhumanism_ideology"
-		texturefile = "gfx/interface/ideologies/paternal_autocracy/transhumanism.png"
+		name = "GFX_ideology_patdes_transhumanism_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_despotism/transhumanism.png"
 	}
 	#National Corporatism
 	spriteType = {

@@ -11,7 +11,7 @@
  coalition_socdem:0 "\n$social_democracy$ - [?ROOT.party_popularity@social_democracy|%T0]"
  coalition_libdem:0 "\n$liberal_democracy$ - [?ROOT.party_popularity@liberal_democracy|%T0]"
  coalition_autdem:0 "\n$authoritarian_democracy$ - [?ROOT.party_popularity@authoritarian_democracy|%T0]"
- coalition_pataut:0 "\n$paternal_autocracy$ - [?ROOT.party_popularity@paternal_autocracy|%T0]"
+ coalition_patdes:0 "\n$paternal_despotism$ - [?ROOT.party_popularity@paternal_despotism|%T0]"
  coalition_natcor:0 "\n$national_corporatism$ - [?ROOT.party_popularity@national_corporatism|%T0]"
  coalition_natsoc:0 "\n$national_socialism$ - [?ROOT.party_popularity@national_socialism|%T0]"
  coalition_ultnat:0 "\n$ultra_nationalism$ - [?ROOT.party_popularity@ultra_nationalism|%T0]"

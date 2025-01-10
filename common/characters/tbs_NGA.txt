@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_JOHNSON_AGUIYI-IRONSI_DESC"
-			ideology = pataut_military_junta_ideology
+			ideology = patdes_military_junta_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

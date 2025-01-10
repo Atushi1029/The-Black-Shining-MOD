@@ -9,7 +9,7 @@ add_ideas = {
 }
 1972.1.1 = {
 	set_politics = {
-		ruling_party = paternal_autocracy
+		ruling_party = paternal_despotism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -22,7 +22,7 @@ add_ideas = {
 		liberal_democracy = 15
 		conservatism = 12
 		authoritarian_democracy = 20
-		paternal_autocracy = 37
+		paternal_despotism = 37
 		national_corporatism = 13
 		national_socialism = 0
 		ultra_nationalism = 0

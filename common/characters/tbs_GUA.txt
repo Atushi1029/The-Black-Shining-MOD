@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_CARLOS_MANUEL_ARANA_OSORIO_DESC"
-			ideology = pataut_developmental_dictatorship_ideology
+			ideology = patdes_developmental_dictatorship_ideology
 			expire = "2003.12.6.1"
 			id = -1
 			traits = {}

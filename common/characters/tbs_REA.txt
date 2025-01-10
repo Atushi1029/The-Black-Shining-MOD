@@ -519,7 +519,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_TONOSUKE_OTANI_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = paternal_despotism_ideology
 			expire = "1989.2.8.1"
 			id = -1
 			traits = {}

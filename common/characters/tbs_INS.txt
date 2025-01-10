@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_SUHARTO_DESC"
-			ideology = pataut_developmental_dictatorship_ideology
+			ideology = patdes_developmental_dictatorship_ideology
 			expire = "2008.1.27.1"
 			id = -1
 			traits = {}

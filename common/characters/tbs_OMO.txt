@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_IVAN_KRESTIANKIN_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = paternal_despotism_ideology
 			expire = "2006.2.5.1"
 			id = -1
 			traits = {}

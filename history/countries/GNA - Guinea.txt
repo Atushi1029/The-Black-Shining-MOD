@@ -16,5 +16,5 @@ set_politics = {
 set_popularities = {
 	totalitarian_socialism = 70
 	conservatism = 25
-	paternal_autocracy = 5
+	paternal_despotism = 5
 }

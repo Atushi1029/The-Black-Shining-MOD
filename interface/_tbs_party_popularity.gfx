@@ -28,8 +28,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/small/authoritarian_democracy_small.png"
 	}
 	spriteType = {
-		name = "GFX_paternal_autocracy_small"
-		texturefile = "gfx/interface/ideologies/small/paternal_autocracy_small.png"
+		name = "GFX_paternal_despotism_small"
+		texturefile = "gfx/interface/ideologies/small/paternal_despotism_small.png"
 	}
 	spriteType = {
 		name = "GFX_national_corporatism_small"

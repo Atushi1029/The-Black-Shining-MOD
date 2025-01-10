@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-			ideology = pataut_absolute_monarchism_ideology
+			ideology = patdes_absolute_monarchism_ideology
 			expire = "2007.7.23.1"
 			id = -1
 			traits = {}

@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_VELI_KAYYUM_HAN_DESC"
-			ideology = pataut_interim_administration_ideology
+			ideology = patdes_interim_administration_ideology
 			expire = "1993.8.13.1"
 			id = -1
 			traits = {}

@@ -18,5 +18,5 @@ set_popularities = {
 	social_democracy = 15
 	liberal_democracy = 33
 	conservatism = 26
-	paternal_autocracy = 11
+	paternal_despotism = 11
 }

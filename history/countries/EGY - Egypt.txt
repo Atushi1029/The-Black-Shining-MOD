@@ -19,7 +19,7 @@ set_popularities = {
 	gradual_socialism = 10
 	social_democracy = 25
 	authoritarian_democracy = 10
-	paternal_autocracy = 25
+	paternal_despotism = 25
 }
 #Non Aggression Pacts
 diplomatic_relation = {

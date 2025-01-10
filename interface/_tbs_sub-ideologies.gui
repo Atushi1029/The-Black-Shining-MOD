@@ -62,7 +62,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		iconType = {
-			name = "coalition_party_frame_pataut"
+			name = "coalition_party_frame_patdes"
 			position = { x = 0 y = 112 }
 			spriteType = "GFX_tbs_coalition_party_frame"
 			alwaystransparent = yes

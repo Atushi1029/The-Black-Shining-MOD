@@ -66,10 +66,10 @@ scripted_gui = {
 					has_government = authoritarian_democracy
 				}
 			}
-			coalition_party_frame_pataut_visible = {
+			coalition_party_frame_patdes_visible = {
 				OR = {
-					has_a_coalition_with_paternal_autocracy = yes
-					has_government = paternal_autocracy
+					has_a_coalition_with_paternal_despotism = yes
+					has_government = paternal_despotism
 				}
 			}
 			coalition_party_frame_natcor_visible = {

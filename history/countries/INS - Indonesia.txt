@@ -10,7 +10,7 @@ add_ideas = {
 set_variable = { eco_sphere_post = 5 }
 1972.1.1 = {
 	set_politics = {
-		ruling_party = paternal_autocracy
+		ruling_party = paternal_despotism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -23,7 +23,7 @@ set_variable = { eco_sphere_post = 5 }
 		liberal_democracy = 23
 		conservatism = 3
 		authoritarian_democracy = 4
-		paternal_autocracy = 44
+		paternal_despotism = 44
 		national_corporatism = 18
 		national_socialism = 0
 		ultra_nationalism = 0

@@ -493,15 +493,15 @@ join_the_coalition_authoritarian_democracy = {
 		}
 	}
 }
-join_the_coalition_paternal_autocracy = {
-	custom_effect_tooltip = join_the_coalition_paternal_autocracy_tt
+join_the_coalition_paternal_despotism = {
+	custom_effect_tooltip = join_the_coalition_paternal_despotism_tt
 	hidden_effect = {
 		if = {
 			limit = {
-				has_a_coalition_with_paternal_autocracy = no
-				NOT = { has_government = paternal_autocracy }
+				has_a_coalition_with_paternal_despotism = no
+				NOT = { has_government = paternal_despotism }
 			}
-			set_temp_variable = { coalition_partner_var = token:paternal_autocracy }
+			set_temp_variable = { coalition_partner_var = token:paternal_despotism }
 			add_to_coalition = yes
 		}
 	}
@@ -628,12 +628,12 @@ leave_the_coalition_authoritarian_democracy = {
 		}
 	}
 }
-leave_the_coalition_paternal_autocracy = {
-	custom_effect_tooltip = leave_the_coalition_paternal_autocracy_tt
+leave_the_coalition_paternal_despotism = {
+	custom_effect_tooltip = leave_the_coalition_paternal_despotism_tt
 	hidden_effect = {
 		if = {
-			limit = { has_a_coalition_with_paternal_autocracy = yes }
-			set_temp_variable = { coalition_partner_var = token:paternal_autocracy }
+			limit = { has_a_coalition_with_paternal_despotism = yes }
+			set_temp_variable = { coalition_partner_var = token:paternal_despotism }
 			remove_from_coalition = yes
 		}
 	}
@@ -741,14 +741,14 @@ form_authoritarian_democracy_government = {
 	}
 	set_popularities = { authoritarian_democracy = 100 }
 }
-form_paternal_autocracy_government = {
+form_paternal_despotism_government = {
 	set_politics = {
-		ruling_party = paternal_autocracy
+		ruling_party = paternal_despotism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
-	set_popularities = { paternal_autocracy = 100 }
+	set_popularities = { paternal_despotism = 100 }
 }
 form_national_corporatism_government = {
 	set_politics = {
@@ -788,7 +788,7 @@ form_reactionism_government = {
 }
 form_dynamic_government = {
 	set_politics = {
-		ruling_party = paternal_autocracy
+		ruling_party = paternal_despotism
 		last_election = "1972.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -801,7 +801,7 @@ form_dynamic_government = {
 		liberal_democracy = 5
 		conservatism = 5
 		authoritarian_democracy = 5
-		paternal_autocracy = 45
+		paternal_despotism = 45
 		national_corporatism = 5
 		national_socialism = 5
 		ultra_nationalism = 5

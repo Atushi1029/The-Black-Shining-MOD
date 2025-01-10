@@ -55,7 +55,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_PENG_DEHUAI_DESC"
-			ideology = paternal_autocracy_ideology
+			ideology = paternal_despotism_ideology
 			expire = "1974.11.29.1"
 			id = -1
 			traits = {}

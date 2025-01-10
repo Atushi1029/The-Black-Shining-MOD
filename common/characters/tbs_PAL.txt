@@ -41,7 +41,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_YASSER_ARAFAT_DESC"
-			ideology = pataut_civilian_dictatorship_ideology
+			ideology = patdes_civilian_dictatorship_ideology
 			expire = "2004.11.11.1"
 			id = -1
 			traits = {}

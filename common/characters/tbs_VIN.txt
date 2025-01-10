@@ -89,7 +89,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_NGO_DINH_DIEM_DESC"
-			ideology = pataut_civilian_dictatorship_ideology
+			ideology = patdes_civilian_dictatorship_ideology
 			expire = "1989.1.1.1"
 			id = -1
 			traits = {}

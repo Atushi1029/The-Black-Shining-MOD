@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_JUAN_JOSE_TORRES_DESC"
-			ideology = pataut_social_militarism_ideology
+			ideology = patdes_social_militarism_ideology
 			expire = "1976.6.2.1"
 			id = -1
 			traits = {}

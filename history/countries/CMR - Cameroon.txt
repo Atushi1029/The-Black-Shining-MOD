@@ -30,6 +30,6 @@ set_politics = {
 }
 set_popularities = {
 	authoritarian_democracy = 5
-	paternal_autocracy = 15
+	paternal_despotism = 15
 	national_corporatism = 80
 }

@@ -16,7 +16,7 @@ add_ideas = {
 	}
 	set_popularities = {
 		authoritarian_democracy = 5
-		paternal_autocracy = 5
+		paternal_despotism = 5
 		national_corporatism = 40
 		national_socialism = 45
 		ultra_nationalism = 5

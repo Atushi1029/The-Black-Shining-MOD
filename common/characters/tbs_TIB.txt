@@ -17,7 +17,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_DALAI_LAMA_XIV_DESC"
-			ideology = pataut_mythticism_ideology
+			ideology = patdes_mythticism_ideology
 			expire = "2050.1.1.1"
 			id = -1
 			traits = {}
