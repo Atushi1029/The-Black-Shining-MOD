@@ -1,0 +1,33 @@
+
+state = { 
+	id=1100
+	name="STATE_1100"
+	resources = { 
+		chromium=90 # was: 178.000
+	}
+	
+	state_category = small_island
+
+	history = { 
+		owner = JAP
+		add_core_of = JAP
+		victory_points = {
+			13343 1
+		}
+		buildings = {
+			infrastructure = 2
+			13343 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces = { 
+		13343
+	}
+	manpower=74454
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

@@ -133,6 +133,7 @@ recruit_character = JAP_yoshio_kodama
 recruit_character = JAP_yokusan_political_committee
 recruit_character = JAP_yuichi_kori
 recruit_character = JAP_yukio_seki
+recruit_character = JAP_zenko_suzuki
 recruit_character = JAP_zenshiro_hoshina
 set_technology = { torpedo_cruiser = 1 }
 set_convoys = 20

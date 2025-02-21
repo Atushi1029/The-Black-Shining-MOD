@@ -540,6 +540,10 @@ spriteTypes = {
 		name = "GFX_idea_JAP_hayato_ikeda"
 		texturefile = "gfx/interface/advisors/JAP/idea_JAP_hayato_ikeda.png"
 	}
+	spriteType = {
+		name = "GFX_idea_JAP_zenko_suzuki"
+		texturefile = "gfx/interface/advisors/JAP/idea_JAP_zenko_suzuki.png"
+	}
 	#Portraits
 	spriteType = {
 		name = "GFX_Portrait_JAP_Aiichiro_Fujiyama"
@@ -1096,5 +1100,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_JAP_Hayato_Ikeda"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Hayato_Ikeda.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_JAP_Zenko_Suzuki"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Zenko_Suzuki.png"
 	}
 }

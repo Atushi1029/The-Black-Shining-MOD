@@ -3429,6 +3429,23 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	JAP_zenko_suzuki = {
+		name = JAP_zenko_suzuki
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_JAP_Zenko_Suzuki"
+				small = "GFX_idea_JAP_zenko_suzuki"
+			}
+			army = {
+				large = "GFX_Portrait_JAP_Zenko_Suzuki"
+				small = "GFX_idea_JAP_zenko_suzuki"
+			}
+			navy = {
+				large = "GFX_Portrait_JAP_Zenko_Suzuki"
+				small = "GFX_idea_JAP_zenko_suzuki"
+			}
+		}
+	}
 	JAP_zenshiro_hoshina = {
 		name = JAP_zenshiro_hoshina
 		portraits = {

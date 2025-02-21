@@ -13,10 +13,10 @@ state = {
 		victory_points = {
 			9606 3
 		}
-		owner = HUN
+		owner = ROM
 		add_core_of = HUN
 		add_core_of = ROM
-		add_claim_by = RPG
+		add_core_of = RPG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
