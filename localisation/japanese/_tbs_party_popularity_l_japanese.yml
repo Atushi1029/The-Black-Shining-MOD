@@ -2,6 +2,7 @@
  party_popularity_dynamic_modifier:0 "政党支持率"
  party_popularity_dynamic_modifier_coalition:0 "連立政権"
 #UI Tooltips
+ ruling_party_tt:0 "[?ROOT.party_popularity@ruling_party|%T0]"
  ruling_party_title_tt:0 "§Y政党支持率§!:[ROOT.GetPartySupport]%"
  ruling_party_desc_tt:0 "政党支持率は現在の政府の支配力と国民の支持を表している。高い人気を誇る政党は政治的目標をより推し進め、国家を安定させることができる。[ROOT.GetCoalitionInformation]"
  ruling_party_ideology_title_tt:0 "[ROOT.GetRulingIdeologyTitle]"
