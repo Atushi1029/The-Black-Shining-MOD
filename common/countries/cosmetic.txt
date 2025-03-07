@@ -22,7 +22,7 @@ IRK_far_eastern_collapse = {
 	color = rgb { 145 43 64 }
 	color_ui = rgb { 145 43 64 }
 }
-KOL_far_eastern_collapse = {
+KLY_far_eastern_collapse = {
 	color = rgb { 175 15 28 }
 	color_ui = rgb { 175 15 28 }
 }

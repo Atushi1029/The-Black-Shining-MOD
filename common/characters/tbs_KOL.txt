@@ -1,5 +1,5 @@
 characters = {
-	KOL_ivan_sevastyanov = {
+	KLY_ivan_sevastyanov = {
 		name = FER_ivan_sevastyanov
 		portraits = {
 			civilian = {

@@ -14,9 +14,9 @@ IRK = {
 	original_tag = FER
 	has_cosmetic_tag = IRK_far_eastern_collapse
 }
-KOL = {
+KLY = {
 	original_tag = FER
-	has_cosmetic_tag = KOL_far_eastern_collapse
+	has_cosmetic_tag = KLY_far_eastern_collapse
 }
 UDT = {
 	original_tag = FER

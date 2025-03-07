@@ -651,6 +651,42 @@ TTS = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 230 230 0 }
 }
+DIP = {
+	color = rgb { 125 41 49 }
+	color_ui = rgb { 125 41 49 }
+}
+PSH = {
+	color = rgb { 31 138 31 }
+	color_ui = rgb { 31 138 31 }
+}
+KLT = {
+	color = rgb { 0 171 0 }
+	color_ui = rgb { 0 171 0 }	
+}
+ASY = {
+	color = rgb { 77 0 57 }
+	color_ui = rgb { 77 0 57 }	
+}
+BHR = {
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 128 0 0 }	
+}
+FSA = {
+	color = rgb { 0 102 34 }
+	color_ui = rgb { 0 102 34 }	
+}
+IMO = {
+	color = rgb { 166 166 166 }
+	color_ui = rgb { 166 166 166 }	
+}
+BLC = {
+	color = rgb { 38 77 0 }
+	color_ui = rgb { 38 77 0 }	
+}
+KUR = {
+	color = rgb { 234 179 30 }
+	color_ui = rgb { 234 179 30 }	
+}
 #The Black Shining
 ADU = {
 	color = rgb { 204 0 0 }
@@ -679,10 +715,6 @@ BAR = {
 BAS = {
 	color = rgb { 0 76 153 }
 	color_ui = rgb { 0 76 153 }
-}
-BHR = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
 }
 BIA = {
 	color = rgb { 0 0 0 }
@@ -745,6 +777,10 @@ CHA = {
 	color_ui = rgb { 176 97 77 }
 }
 CHR = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+CIP = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
@@ -888,6 +924,10 @@ HRZ = {
 	color = rgb { 255 111 84 }
 	color_ui = rgb { 255 111 84 }
 }
+HYD = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 IAS = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
@@ -920,6 +960,10 @@ JEI = {
 	color = rgb { 71 124 178 }
 	color_ui = rgb { 71 124 178 }
 }
+KAS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 KAT = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
@@ -927,6 +971,14 @@ KAT = {
 KAZ = {
 	color = rgb { 196 64 74 }
 	color_ui = rgb { 196 64 74 }
+}
+KHL = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+KOL = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 KOS = {
 	color = rgb { 184 247 254 }
@@ -939,10 +991,6 @@ KSH = {
 KUB = {
 	color = rgb { 97 209 251 }
 	color_ui = rgb { 97 209 251 }
-}
-KUR = {
-	color = rgb { 80 120 230 }
-	color_ui = rgb { 80 120 230 }
 }
 KUW = {
 	color = rgb { 255 0 0 }
@@ -1004,9 +1052,17 @@ MOR = {
 	color = rgb { 127 79 63 }
 	color_ui = rgb { 127 79 63 }
 }
+MPU = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 MRT = {
 	color = rgb { 59 119 89 }
 	color_ui = rgb { 59 119 89 }
+}
+MYS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 NAH = {
 	color = rgb { 0 0 0 }
@@ -1031,6 +1087,10 @@ NIR = {
 NMB = {
 	color = rgb { 252 186 3 }
 	color_ui = rgb { 252 186 3 }
+}
+NWF = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 OCC = {
 	color = rgb { 77 83 99 }
@@ -1076,6 +1136,10 @@ RAR = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
+RAS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 RCG = {
 	color = rgb { 79 79 81 }
 	color_ui = rgb { 79 79 81 }
@@ -1109,6 +1173,10 @@ RIF = {
 	color_ui = rgb { 138 13 13 }
 }
 RIG = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+RJP = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
@@ -1215,6 +1283,14 @@ SIE = {
 SIL = {
 	color = rgb { 122 80 84 }
 	color_ui = rgb { 122 80 84 }
+}
+SIN = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+SKK = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 SLV = {
 	color = rgb { 204 81 39 }
@@ -1339,6 +1415,10 @@ WES = {
 WIF = {
 	color = rgb { 80 80 150 }
 	color_ui = rgb { 80 80 150 }
+}
+WIS = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 WLA = {
 	color = rgb { 0 0 0 }

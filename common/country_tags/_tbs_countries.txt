@@ -1,5 +1,4 @@
 ADR = "countries/continents/Western Europe.txt"
-BHR = "countries/continents/Middle East.txt"
 BPF = "countries/continents/Asia.txt"
 BRG = "countries/continents/Western Europe.txt"
 BSL = "countries/continents/Asia.txt"

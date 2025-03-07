@@ -25,7 +25,7 @@ FER_setup_siberian_collapse = {
 	}
 	create_dynamic_country = {
 		original_tag = FER
-		set_cosmetic_tag = KOL_far_eastern_collapse
+		set_cosmetic_tag = KLY_far_eastern_collapse
 		form_dynamic_government = yes
 		reserve_dynamic_country = no
 	}
