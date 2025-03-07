@@ -700,7 +700,7 @@ equipments = {
 		fuel_consumption = 3.6
 	}
 
-	# 1941
+	# 1977
 	medium_tank_equipment_2 = {
 		year = 1977
 
@@ -916,7 +916,7 @@ equipments = {
 		fuel_consumption = 1.8
 	}
 
-	# 1941
+	# 1977
 	medium_tank_destroyer_equipment_2 = {
 		year = 1977
 
@@ -1102,7 +1102,7 @@ equipments = {
 		}		
 	}
 
-	# 1934
+	# 1970
 	heavy_tank_equipment_1 = {
 		year = 1970
 
@@ -1147,7 +1147,7 @@ equipments = {
 		}
 	}
 
-	# 1941
+	# 1977
 	heavy_tank_equipment_2 = {
 		year = 1977
 

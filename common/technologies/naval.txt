@@ -1158,7 +1158,7 @@ technologies = {
 		#}
 
 		#research_cost = 1
-		#start_year = 1936
+		#start_year = 1972
 
 		#allow = {
 			#always = no

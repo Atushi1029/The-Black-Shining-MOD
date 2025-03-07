@@ -861,7 +861,11 @@ equipments = {
 			ship_gun_upgrade
 			ship_reliability_upgrade
 		}
-		
+	    upgrade_window_override = {
+       		upgrade = ship_torpedo_upgrade
+        	override = torpedo_ship_reliability_upgrade
+    	}
+
 		interface_category = interface_category_screen_ships
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -1183,7 +1187,7 @@ equipments = {
 
 	ship_hull_cruiser_modern_aa = {
 		abbreviation = "hbdaa"
-		year = 1990
+		year = 1954
 		visual_level = 1
 		archetype = ship_hull_cruiser
 		priority = 1900

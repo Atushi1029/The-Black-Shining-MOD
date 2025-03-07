@@ -381,7 +381,7 @@ bba_support_boosts = {
 
 	enable = {
 		is_historical_focus_on = yes
-		date < 1939.1.1
+		date < 1975.1.1
 	}
 	abort_when_not_enabled = yes
 
@@ -701,7 +701,7 @@ slightly_naval_focused_nation = {
 
 more_naval_focused_nation = {
 	enable = {
-		date > "1941.1.1"  # Delaying it by a couple of years
+		date > "1977.1.1"  # Delaying it by a couple of years
 	}
 	abort_when_not_enabled = yes
 
@@ -1004,10 +1004,10 @@ dont_build_capitals_if_on_treaty = {
 
 DEFAULT_early_template_design = {
 	enable = {
-		date < 1940.1.1
+		date < 1976.1.1
 	}
 	abort = {
-		date > 1940.1.1
+		date > 1976.1.1
 	}
 
 	ai_strategy = {
@@ -1055,7 +1055,7 @@ DEFAULT_early_template_design = {
 
 DEFAULT_midlate_template_design = {
 	enable = {
-		date > 1940.1.1
+		date > 1976.1.1
 	}
 	abort_when_not_enabled = yes
 
@@ -1164,7 +1164,7 @@ build_intelligence_agency_as_major = {
 		is_major = yes
 		OR = {
 			has_war = yes
-			date > 1938.1.1
+			date > 1974.1.1
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1178,7 +1178,7 @@ build_intelligence_agency_as_major = {
 
 build_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1976.1.1
 		has_war = no
 		num_of_civilian_factories > 25
 	}
@@ -1198,7 +1198,7 @@ build_intelligence_agency = {
 
 upgrade_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1976.1.1
 		num_of_civilian_factories > 50
 	}
 	abort = {

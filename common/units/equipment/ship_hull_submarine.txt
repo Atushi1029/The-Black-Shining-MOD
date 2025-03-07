@@ -371,17 +371,10 @@ equipments = {
 		priority = 1500
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
-			fixed_ship_engine_slot = inherit #TODO_Manu: Could have a new Torpedo module for Midget Subs with lower stats
-			#rear_1_custom_slot = { #TODO_Manu: Potentially delete, this can cause Subs with 0 attack
-			#	allowed_module_categories = {
-			#		ship_torpedo_sub
-			#		ship_mine_layer_sub
-			#	}
-			#}
+			fixed_ship_engine_slot = inherit
 		}
 
 		default_modules = {
-			#rear_1_custom_slot = empty #TODO_Manu: Possibly delete, see comment above
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
 		}
@@ -406,7 +399,7 @@ equipments = {
 
 	ship_hull_nuclear_submarine = {
 		abbreviation = "hefns"
-		year = 1990
+		year = 1954
 		model = ship_hull_nuclear_powered_submarine
 		archetype = ship_hull_submarine
 		priority = 2800
@@ -1108,7 +1101,7 @@ equipments = {
 
 	nuclear_missile_submarine = {
 		abbreviation = "ssnc"
-		year = 1990
+		year = 1954
 		model = ship_hull_nuclear_powered_submarine
 		archetype = ship_hull_submarine
 		priority = 1500

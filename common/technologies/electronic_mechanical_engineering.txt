@@ -321,7 +321,7 @@ technologies = {
 	#	}
 	#	
 	#	research_cost = 1.25
-	#	start_year = 1939
+	#	start_year = 1975
 	#	
 	#	folder = {
 	#		name = electronics_folder
@@ -338,7 +338,7 @@ technologies = {
 	#			factor = 5
 	#		}
 	#		modifier = {
-	#			date < "1939.1.1"
+	#			date < "1975.1.1"
 	#			factor = 0.5
 	#		}
 	#	}
