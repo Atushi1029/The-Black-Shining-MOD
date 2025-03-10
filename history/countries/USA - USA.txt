@@ -103,13 +103,13 @@ set_popularities = {
 #Factions
 create_faction = USA_united_defense_council
 add_to_faction = AST
+add_to_faction = BAS
 add_to_faction = CAN
 add_to_faction = HOL
 add_to_faction = NZL
 add_to_faction = PHI
 add_to_faction = POR
 add_to_faction = USA
-add_to_faction = WIF
 #Economic Sphere
 every_country = {
 	limit = {

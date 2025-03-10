@@ -25,6 +25,11 @@ state = {
 			arms_factory = 7
 			industrial_complex = 3
 			air_base = 10
+			6380 = {
+                landmark_kremlin = {
+                    level = 1
+                }
+            }
 		}
 	}
 

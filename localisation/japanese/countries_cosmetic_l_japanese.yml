@@ -116,6 +116,10 @@
  AST_commonwealth:0 "オーストラリア連邦"
  AST_commonwealth_DEF:0 "オーストラリア連邦"
  AST_commonwealth_ADJ:0 "オーストラリア"
+#西インド諸島
+ BAS_federation:0 "西インド諸島連邦"
+ BAS_federation_DEF:0 "西インド諸島連邦"
+ BAS_federation_ADJ:0 "西インド諸島"
 #ブータン
  BHU_kingdom:0 "ブータン王国"
  BHU_kingdom_DEF:0 "ブータン王国"
@@ -652,10 +656,6 @@
  VIN_republic:0 "ベトナム共和国"
  VIN_republic_DEF:0 "ベトナム共和国"
  VIN_republic_ADJ:0 "ベトナム"
-#西インド諸島
- WIF_federation:0 "西インド諸島連邦"
- WIF_federation_DEF:0 "西インド諸島連邦"
- WIF_federation_ADJ:0 "西インド諸島"
 #イエメン
  YEM_republic:0 "イエメン共和国"
  YEM_republic_DEF:0 "イエメン共和国"

@@ -19,6 +19,11 @@ state = {
 			industrial_complex = 4
 			anti_air_building = 3
 			air_base = 5
+			9523 = {
+			    landmark_eiffel_tower = {
+			        level = 1
+			    }
+			}
 		}
 	}
 

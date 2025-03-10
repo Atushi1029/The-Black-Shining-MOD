@@ -1,0 +1,42 @@
+
+music_station = "base_music"
+
+
+#### AFG ###
+music = {
+	song = "afghanistan_civilian_homeland"
+}
+
+music = {
+	song = "afghanistan_military_graveyard_of_empires"
+}
+
+### RAJ ###
+
+music = {
+	song = "india_civilian_land_of_colours"
+}
+
+music = {
+	song = "india_the_japanese_cometh"
+}
+
+### IRQ (files have wrong country) ###
+
+music = {
+	song = "iran_civilian_baghdad_nightlife"
+}
+
+music = {
+	song = "iran_military_between_two_rivers"
+}
+
+
+### PER ###
+music = {
+	song = "iran_civilian_king_of_kings"
+}
+
+music = {
+	song = "iran_military_glory_of_cyrus_the_great"
+}

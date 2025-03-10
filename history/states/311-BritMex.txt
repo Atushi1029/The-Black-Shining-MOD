@@ -8,8 +8,8 @@ state=
 	history=
 	{
 		add_core_of = BLZ
-		add_core_of = WIF
-		owner = WIF
+		add_core_of = BAS
+		owner = BAS
 		victory_points = {
 			2077 1 
 		}

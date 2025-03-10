@@ -1,39 +1,39 @@
 characters = {
-	WIF_eric_williams = {
-		name = WIF_eric_williams
+	BAS_eric_williams = {
+		name = BAS_eric_williams
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_WIF_Eric_Williams"
-				small = "GFX_idea_WIF_eric_williams"
+				large = "GFX_Portrait_BAS_Eric_Williams"
+				small = "GFX_idea_BAS_eric_williams"
 			}
 			army = {
-				large = "GFX_Portrait_WIF_Eric_Williams"
-				small = "GFX_idea_WIF_eric_williams"
+				large = "GFX_Portrait_BAS_Eric_Williams"
+				small = "GFX_idea_BAS_eric_williams"
 			}
 			navy = {
-				large = "GFX_Portrait_WIF_Eric_Williams"
-				small = "GFX_idea_WIF_eric_williams"
+				large = "GFX_Portrait_BAS_Eric_Williams"
+				small = "GFX_idea_BAS_eric_williams"
 			}
 		}
 	}
-	WIF_errol_barrow = {
-		name = WIF_errol_barrow
+	BAS_errol_barrow = {
+		name = BAS_errol_barrow
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_WIF_Errol_Barrow"
-				small = "GFX_idea_WIF_errol_barrow"
+				large = "GFX_Portrait_BAS_Errol_Barrow"
+				small = "GFX_idea_BAS_errol_barrow"
 			}
 			army = {
-				large = "GFX_Portrait_WIF_Errol_Barrow"
-				small = "GFX_idea_WIF_errol_barrow"
+				large = "GFX_Portrait_BAS_Errol_Barrow"
+				small = "GFX_idea_BAS_errol_barrow"
 			}
 			navy = {
-				large = "GFX_Portrait_WIF_Errol_Barrow"
-				small = "GFX_idea_WIF_errol_barrow"
+				large = "GFX_Portrait_BAS_Errol_Barrow"
+				small = "GFX_idea_BAS_errol_barrow"
 			}
 		}
 	}
-	WIF_michael_manley = {
+	BAS_michael_manley = {
 		name = JAM_michael_manley
 		portraits = {
 			civilian = {

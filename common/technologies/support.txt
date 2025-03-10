@@ -1932,12 +1932,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-				}
-				SP_create_variant_based_on_country_armored_engineer = yes
-			}
 		}
 
 		ai_will_do = {
@@ -1986,12 +1980,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-				}
-				SP_create_variant_based_on_country_armored_maintenance = yes
-			}
 		}
 
 		ai_will_do = {
@@ -2045,12 +2033,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = {
-				limit = {
-					has_dlc = "Gotterdammerung"
-				}
-				SP_create_variant_based_on_country_armored_signal = yes
-			}
 		}
 
 		ai_will_do = {

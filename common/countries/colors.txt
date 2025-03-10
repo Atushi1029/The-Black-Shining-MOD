@@ -1412,10 +1412,6 @@ WES = {
 	color = rgb { 140 71 71 }
 	color_ui = rgb { 140 71 71 }
 }
-WIF = {
-	color = rgb { 80 80 150 }
-	color_ui = rgb { 80 80 150 }
-}
 WIS = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
