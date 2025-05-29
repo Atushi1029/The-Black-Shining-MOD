@@ -1336,10 +1336,6 @@ TAH = {
 	color = rgb { 99 160 139 }
 	color_ui = rgb { 99 160 139 }
 }
-WLS = {
-	color = rgb { 0 101 189 }
-	color_ui = rgb { 0 101 189 }
-}
 TAJ = {
 	color = rgb { 80 20 20 }
 	color_ui = rgb { 80 20 20 }
@@ -1419,6 +1415,10 @@ WIS = {
 WLA = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
+}
+WLS = {
+	color = rgb { 0 101 189 }
+	color_ui = rgb { 0 101 189 }
 }
 YUC = {
 	color = rgb { 0 0 0 }
