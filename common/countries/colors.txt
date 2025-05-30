@@ -1428,10 +1428,6 @@ ZAM = {
 	color = rgb { 150 102 167 }
 	color_ui = rgb { 150 102 167 }
 }
-ZIM = {
-	color = rgb { 0 74 0 }
-	color_ui = rgb { 0 74 0 }
-}
 #Dynamic Countries
 C00 = {
 	color = rgb { 0 0 0 }
