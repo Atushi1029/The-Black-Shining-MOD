@@ -3,15 +3,15 @@ characters = {
 		name = PER_mohammad_mosaddegh
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_PER_Mohammad_Mosaddegh"
+				large = "GFX_PER_mohammad_mosaddegh"
 				small = "GFX_idea_PER_mohammad_mosaddegh"
 			}
 			army = {
-				large = "GFX_Portrait_PER_Mohammad_Mosaddegh"
+				large = "GFX_PER_mohammad_mosaddegh"
 				small = "GFX_idea_PER_mohammad_mosaddegh"
 			}
 			navy = {
-				large = "GFX_Portrait_PER_Mohammad_Mosaddegh"
+				large = "GFX_PER_mohammad_mosaddegh"
 				small = "GFX_idea_PER_mohammad_mosaddegh"
 			}
 		}
@@ -27,15 +27,15 @@ characters = {
 		name = PER_mohammad_reza_pahlavi
 		portraits = {
 			civilian = {
-				large = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
+				large = "GFX_PER_mohammad_reza_pahlavi"
 				small = "GFX_idea_PER_Mohammad_Reza_Pahlavi"
 			}
 			army = {
-				large = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
+				large = "GFX_PER_mohammad_reza_pahlavi"
 				small = "GFX_idea_PER_Mohammad_Reza_Pahlavi"
 			}
 			navy = {
-				large = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
+				large = "GFX_PER_mohammad_reza_pahlavi"
 				small = "GFX_idea_PER_Mohammad_Reza_Pahlavi"
 			}
 		}

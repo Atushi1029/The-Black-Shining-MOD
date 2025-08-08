@@ -1,52 +1,4 @@
 characters = {
-	MAN_aisin_gioro_pujie = {
-		name = MAN_aisin_gioro_pujie
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
-				small = "GFX_idea_MAN_aisin_gioro_pujie"
-			}
-			army = {
-				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
-				small = "GFX_idea_MAN_aisin_gioro_pujie"
-			}
-			navy = {
-				large = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
-				small = "GFX_idea_MAN_aisin_gioro_pujie"
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_AISIN_GIORO_PUJIE_DESC"
-			ideology = patdes_absolute_monarchism_ideology
-			expire = "1994.2.28.1"
-			id = -1
-			traits = {}
-		}
-	}
-	MAN_aisin_gioro_yuyan = {
-		name = MAN_aisin_gioro_yuyan
-		portraits = {
-			civilian = {
-				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
-				small = "GFX_idea_MAN_aisin_gioro_yuyan"
-			}
-			army = {
-				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
-				small = "GFX_idea_MAN_aisin_gioro_yuyan"
-			}
-			navy = {
-				large = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
-				small = "GFX_idea_MAN_aisin_gioro_yuyan"
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_AISIN_GIORO_YUYAN_DESC"
-			ideology = reactionism_ideology
-			expire = "1999.1.18.1"
-			id = -1
-			traits = {}
-		}
-	}
 	MAN_choe_yong-gon = {
 		name = MAN_choe_yong-gon
 		portraits = {
@@ -228,6 +180,30 @@ characters = {
 			}
 		}
 	}
+	MAN_pujie = {
+		name = MAN_pujie
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Pujie"
+				small = "GFX_idea_MAN_aisin_gioro_pujie"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PUJIE_DESC"
+			ideology = patdes_absolute_monarchism_ideology
+			expire = "1994.2.28.1"
+			id = -1
+			traits = {}
+		}
+	}
 	MAN_seiji_ozawa = {
 		name = MAN_seiji_ozawa
 		portraits = {
@@ -375,6 +351,30 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = -1
+		}
+	}
+	MAN_yuyan = {
+		name = MAN_yuyan
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_MAN_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+			army = {
+				large = "GFX_Portrait_MAN_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+			navy = {
+				large = "GFX_Portrait_MAN_Yuyan"
+				small = "GFX_idea_MAN_aisin_gioro_yuyan"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_YUYAN_DESC"
+			ideology = reactionism_ideology
+			expire = "1999.1.18.1"
+			id = -1
+			traits = {}
 		}
 	}
 	MAN_zhang_shaoji = {

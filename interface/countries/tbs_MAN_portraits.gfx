@@ -1,13 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_Portrait_MAN_Aisin_Gioro_Pujie"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Aisin_Gioro_Pujie.png"
-	}
-	spriteType = {
-		name = "GFX_Portrait_MAN_Aisin_Gioro_Yuyan"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Aisin_Gioro_Yuyan.png"
-	}
-	spriteType = {
 		name = "GFX_Portrait_MAN_Choe_Yong-gon"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Choe_Yong-gon.png"
 	}
@@ -44,6 +36,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Park_Chung_Hee.png"
 	}
 	spriteType = {
+		name = "GFX_Portrait_MAN_Pujie"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Pujie.png"
+	}
+	spriteType = {
 		name = "GFX_Portrait_MAN_Seiji_Ozawa"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Seiji_Ozawa.png"
 	}
@@ -70,6 +66,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_MAN_Yoshimitsu_Baba"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Yoshimitsu_Baba.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_MAN_Yuyan"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Yuyan.png"
 	}
 	spriteType = {
 		name = "GFX_Portrait_MAN_Zhang_Shaoji"

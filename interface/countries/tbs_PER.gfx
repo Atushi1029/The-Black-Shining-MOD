@@ -10,11 +10,11 @@ spriteTypes = {
 	}
 	#Portraits
 	spriteType = {
-		name = "GFX_Portrait_PER_Mohammad_Mosaddegh"
-		texturefile = "gfx/leaders/PER/Portrait_PER_Mohammad_Mosaddegh.png"
+		name = "GFX_PER_mohammad_mosaddegh"
+		texturefile = "gfx/leaders/PER/PER_mohammad_mosaddegh.png"
 	}
 	spriteType = {
-		name = "GFX_Portrait_PER_Mohammad_Reza_Pahlavi"
-		texturefile = "gfx/leaders/PER/Portrait_PER_Mohammad_Reza_Pahlavi.png"
+		name = "GFX_PER_mohammad_reza_pahlavi"
+		texturefile = "gfx/leaders/PER/PER_mohammad_reza_pahlavi.png"
 	}
 }
