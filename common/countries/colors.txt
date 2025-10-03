@@ -1112,6 +1112,10 @@ PNG = {
 	color = rgb { 181 180 142 }
 	color_ui = rgb { 181 180 142 }
 }
+PUE = {
+	color = rgb { 181 180 142 }
+	color_ui = rgb { 181 180 142 }
+}
 QAT = {
 	color = rgb { 0 146 51 }
 	color_ui = rgb { 0 146 51 }
