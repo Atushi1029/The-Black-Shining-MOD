@@ -1,4 +1,4 @@
-version="1.16.*"
+version="1.17.*"
 tags = { 
 	"Alternative History"
 	"Gameplay"
@@ -83,5 +83,5 @@ replace_path="map/terrain"
 replace_path="portraits"
 replace_path="tests"
 name="The Black Shining (Git Version)"
-supported_version="1.16.*"
+supported_version="1.17.*"
 path=""
